@@ -1,0 +1,166 @@
+{
+ "task": {
+  "id": "fresh-25",
+  "source": "fresh",
+  "question": "In the Afghanistan–Pakistan war, what did the government of Pakistan declare on February 26, 2026?",
+  "answer": "\"open war\"",
+  "evidence": "February 26 – 2026 Afghanistan–Pakistan war: The government of Pakistan declares \"open war\" against the Taliban in Afghanistan.",
+  "page": "2026",
+  "url": "https://en.wikipedia.org/wiki/2026",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "Unknown.",
+ "correct": false,
+ "cost": 0.0011369999999999436,
+ "escalated": true,
+ "confidence": 0.0,
+ "agent_messages": [
+  {
+   "role": "system",
+   "content": "You answer questions about recent events (2025–2026). Never answer from memory: use web_search (and tavily_search if available) to find the right article, then page_find to look inside long articles such as '2026 in <country or field>' for the specific fact. Do not repeat the same call. When done, write the last line as FINAL: <short answer>."
+  },
+  {
+   "role": "user",
+   "content": "In the Afghanistan–Pakistan war, what did the government of Pakistan declare on February 26, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_IPVDRK64Lhg6CZBncbi2qqDC",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Pakistan government declaration February 26 2026 Afghanistan Pakistan war\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_IPVDRK64Lhg6CZBncbi2qqDC",
+   "content": "[2025 Afghanistan–Pakistan conflict] In the early hours of 9 October 2025, Pakistan carried out airstrikes in Kabul, Khost, Jalalabad, and Paktika, targeting the Pakistani Taliban (TTP) which it code named \"Operation Khyber Storm\". The group's leader, Noor Wali Mehsud, was the main target of the attack in Kabul, which occurred in Abdul Haq Square, but survived. On the night from 11 to 12 October, the Afghan Taliban launched an attack on multiple Pakistani military posts along the Afghanistan–Pakistan border in retaliation for the Pakistani airstrikes. Following the attack, the Taliban’s Ministry of Defense announced the conclusion of their operation. However, Pakistani officials rejected the Taliban’s ceasefire declaration and continued their offensive, which was confirmed by a Taliban spokesman, noting that clashes persisted into the morning of 12 October. On the same day, reports emerged of Pakistani drone strikes in Kandahar and Helmand provinces, killing 19 Taliban fighters, though these casualties were not confirmed by Taliban officials. Both sides claimed to have inflicted heavy losses on each other and captured or destroyed several border posts. Satellite imagery of a Taliban military compound in Spin Boldak showed that it had suffered significant damage during the clashes. Heavy fighting resumed on 15 October, with both sides accusing the other of initiating the violence. The fiercest fighting occurred around Spin Boldak, where civilian casualties were reported. Pakistan later announced “precision” airst | other articles: Afghanistan, Pakistan Army"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_1Z4YUJV3OXqFEDQJPx5DKF1q",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"2026 in Afghanistan\",\"keywords\":\"Pakistan government declaration February 26 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_1Z4YUJV3OXqFEDQJPx5DKF1q",
+   "content": "keywords not found on the page"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_XIHf7dffPZDLIQ2N7Zj175RG",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"2026 in Pakistan\",\"keywords\":\"government declaration February 26 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_XIHf7dffPZDLIQ2N7Zj175RG",
+   "content": "keywords not found on the page"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_GcKRaXc5KYuIYnlJZdQwfcXr",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"February 26 2026 Pakistan government announcement Afghanistan conflict\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_GcKRaXc5KYuIYnlJZdQwfcXr",
+   "content": "[Afghan conflict] The Afghan conflict (Pashto: دافغانستان جنګونه; Farsi/Dari: درگیری افغانستان) is the series of events that have kept Afghanistan in a near-continuous state of armed conflict since the 1970s. Early instability followed the collapse of the Kingdom of Afghanistan in the largely non-violent 1973 coup d'état, which deposed Afghan monarch Mohammad Zahir Shah in absentia, ending his 40-year-long reign. With the concurrent establishment of the Republic of Afghanistan, headed by Mohammad Daoud Khan, the country's relatively peaceful and stable period in modern history came to an end. However, all-out fighting did not erupt until after 1978, when the Saur Revolution violently overthrew Khan's government and established the Democratic Republic of Afghanistan. Subsequent unrest over the radical reforms that were being pushed by the then-ruling People's Democratic Party of Afghanistan (PDPA) led to unprecedented violence, prompting a large-scale pro-PDPA military intervention by the Soviet Union in 1979. In the ensuing Soviet–Afghan War, the anti-Soviet Afghan mujahideen received extensive support from Pakistan, the United States, and Saudi Arabia in a joint covert effort that was dubbed Operation Cyclone. Although the Soviets withdrew from Afghanistan in 1989, the various mujahideen factions continued to fight against the PDPA government, which collapsed in the face of the Peshawar Accord in 1992. However, the Peshawar Accord failed to remain intact in light of the mujahideen's represent | other articles: War in Afghanistan (2001–2021), 2025 India–Pakistan conflict"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_QYZf4YojDprAViopFftsCA9z",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"2026 in Afghanistan\",\"keywords\":\"February 26 2026 Pakistan declaration government\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_QYZf4YojDprAViopFftsCA9z",
+   "content": "keywords not found on the page"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_EMYMg9P5cFNvOIHKnRlOz2ZR",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"February 26 2026 Pakistan statement Afghanistan war news\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_EMYMg9P5cFNvOIHKnRlOz2ZR",
+   "content": "[2026 Afghanistan–Pakistan war] A war began in late February 2026 between Afghanistan and Pakistan following Pakistani airstrikes on militant targets in eastern Afghanistan. Pakistan said the strikes targeted militant camps belonging to the Pakistani Taliban (TTP) and the Islamic State – Khorasan Province (ISIS–K), in retaliation for recent cross-border attacks in Pakistan, while Afghan authorities and the United Nations Assistance Mission in Afghanistan (UNAMA) have reported casualties, though with different figures. The initial strikes escalated into a broader cross-border confrontation involving airstrikes, artillery exchanges, drone incidents, and clashes at multiple points along the Afghanistan–Pakistan border. On 26 February, Taliban forces launched retaliatory attacks on Pakistani military positions and border outposts, describing them as a calculated response. Pakistan subsequently declared an \"open war\" against Afghanistan and launched Operation Ghazab lil Haq, a large-scale campaign involving air and ground strikes against Taliban positions across eastern Afghanistan. Both sides have reported widely differing casualty figures and military outcomes, with each disputing the other's claims regarding losses, damage, and responsibility for civilian casualties. Independent reporting and satellite imagery have indicated that many Pakistani strikes were directed at military-related sites. The conflict has had significant humanitarian and political consequences. UNAMA reported civilian deaths and injuries  | other articles: Timeline of the 2026 Iran war, Durand Line"
+  },
+  {
+   "role": "assistant",
+   "content": "On February 26, 2026, the government of Pakistan declared an \"open war\" against Afghanistan following retaliatory attacks by Taliban forces on Pakistani military positions. This declaration coincided with the launch of Operation Ghazab lil Haq, a large-scale campaign involving air and ground strikes against Taliban positions across eastern Afghanistan. \n\nFINAL: Pakistan declared \"open war\" on Afghanistan.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

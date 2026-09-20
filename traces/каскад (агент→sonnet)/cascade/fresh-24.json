@@ -1,0 +1,78 @@
+{
+ "task": {
+  "id": "fresh-24",
+  "source": "fresh",
+  "question": "In the United Kingdom, what is declared across the whole of Wales in July 2026?",
+  "answer": "a drought",
+  "evidence": "2026 United Kingdom heatwaves: A drought is declared across the whole of Wales, with the country on course to experience its driest July for 190 years.",
+  "page": "2026 in the United Kingdom",
+  "url": "https://en.wikipedia.org/wiki/2026_in_the_United_Kingdom",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "Unknown.",
+ "correct": false,
+ "cost": 0.0006147000000000791,
+ "escalated": true,
+ "confidence": 0.3,
+ "agent_messages": [
+  {
+   "role": "system",
+   "content": "You answer questions about recent events (2025–2026). Never answer from memory: use web_search (and tavily_search if available) to find the right article, then page_find to look inside long articles such as '2026 in <country or field>' for the specific fact. Do not repeat the same call. When done, write the last line as FINAL: <short answer>."
+  },
+  {
+   "role": "user",
+   "content": "In the United Kingdom, what is declared across the whole of Wales in July 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_TmK1jurwDUbXWizM46ZSIvRi",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"July 2026 Wales news declaration\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_TmK1jurwDUbXWizM46ZSIvRi",
+   "content": "[2026 United Kingdom heatwaves] During 2026, parts of the United Kingdom were severely affected by a series of record-breaking heatwaves, forming the western extent of a broader sequence of extreme heat events across Western and Central Europe. The first heatwave started on 22 May and saw the country's record for hottest day during May broken on 25 May when 34.8 °C (94.6 °F) was recorded at Kew Gardens in London, surpassing the previous record of 32.8 °C (91.0 °F) set in 1922 by 2 °C (3.6 °F); this record was broken again when 35.1 °C (95.2 °F) was recorded in the same location the following day. Other records which were broken included the hottest May day in Guernsey, Jersey and Wales, as well as the highest minimum May temperature in the UK. Experts estimated that around 550 people died during this period of extreme heat. The second heatwave started on 19 June and saw more records broken, including that for hottest day during June when 38.0 °C (100.4 °F) was recorded in Lingwood, Norfolk on 26 June, which is also the fifth hottest day in the UK ever. The previous record for June of 35.6 °C (96.1 °F) was set in 1957 and 1976. A further 2,200 deaths were estimated to have occurred during this heatwave, bringing the total to roughly 2,700. A third heatwave began on 4 July, with temperatures peaking at 35.5 °C (95.9 °F) in Wisley, Surrey, on 9 July. This marked the first year when temperatures have reached 35 °C (95 °F) in three separate months, whilst the records for most days reaching both 34 °C (93 °F) and | other articles: 2026 in the United Kingdom, 2026 in United Kingdom politics and government"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_SZz7UT1EwKGcevSfVvXZYIoZ",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"2026 in the United Kingdom\",\"keywords\":\"Wales, declaration, July\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_SZz7UT1EwKGcevSfVvXZYIoZ",
+   "content": "28 June to 11 July – Wales hosts the 2026 UEFA European Under-19 Championship in football.\n2026 United Kingdom heatwaves: Natural Resources Wales declares parts of north Wales and the Upper Severn to be in drought, while all remaining Welsh catchments are placed under prolonged dry weather status. July is on course to become the driest recorded in Wales for almost 190 years, following successive heatwaves, widespread wildfires and exceptionally low river levels.\n2026 United Kingdom heatwaves: A drought is declared across the whole of Wales, with the country on course to experience its driest July for 190 years.\n2026 United Kingdom heatwaves: The Met Office confirms that England and Wales are on course for their driest July since records began."
+  },
+  {
+   "role": "assistant",
+   "content": "In July 2026, a drought is declared across the whole of Wales, with the month expected to be the driest recorded in nearly 190 years. \n\nFINAL: Drought is declared across Wales.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

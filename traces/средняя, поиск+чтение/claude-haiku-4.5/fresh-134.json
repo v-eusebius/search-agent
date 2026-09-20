@@ -1,0 +1,52 @@
+{
+ "task": {
+  "id": "fresh-134",
+  "source": "fresh",
+  "question": "In which city were the 2026 Central American and Caribbean Games held?",
+  "answer": "Santo Domingo",
+  "evidence": "July 24 – August 8: 2026 Central American and Caribbean Games in Santo Domingo",
+  "page": "2026 in sports",
+  "url": "https://en.wikipedia.org/wiki/2026_in_sports"
+ },
+ "answer": "FINAL: The 2026 Central American and Caribbean Games were held in Santo Domingo, the capital and largest city of the Dominican Republic.",
+ "correct": true,
+ "cost": 0.003449999999999953,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You answer questions about recent events (2025–2026). Never answer from memory: use web_search (and tavily_search if available) to find the right article, then page_find to look inside long articles such as '2026 in <country or field>' for the specific fact. Do not repeat the same call. When done, write the last line as FINAL: <short answer>."
+  },
+  {
+   "role": "user",
+   "content": "In which city were the 2026 Central American and Caribbean Games held?"
+  },
+  {
+   "role": "assistant",
+   "content": "I'll search for information about the 2026 Central American and Caribbean Games.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01XjiSt8GjaHR9Eaw5b3ywUD",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\": \"2026 Central American Caribbean Games\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01XjiSt8GjaHR9Eaw5b3ywUD",
+   "content": "[2026 Central American and Caribbean Games] The 2026 Central American and Caribbean Games (Spanish: Juegos Deportivos Centroamericanos y del Caribe Santo Domingo 2026), also known as the 25th Central American and Caribbean Games and commonly referred as Santo Domingo 2026, was the 25th edition of the Central American and Caribbean Games, a quadrennial sports multi-sport event. The Games took place from 24 July to 8 August 2026 in Santo Domingo, the capital and largest city of the Dominican Republic. This was both the 25th edition of the games and centennial anniversary since the inaugural games in 1926. The members of Centro Caribe Sports voted unanimously to grant the Games to Santo Domingo in their Extraordinary General Assembly in February 2022. It was the third time the games were held in the Dominican Republic after Santo Domingo hosted them in 1974 and Santiago de los Caballeros hosted them in 1986. In March 2023, the organizers, along with CANOC President Keith Joseph proposed the inclusion of cricket in the event, which is planned to make a return in the 2028 Summer Olympics but, it was ultimately not included in the final program. Esports and skateboarding also made their debut in 2026. Meanwhile, squash made its return for the first time since 2018, alongside water skiing, returning for the first time since 2010. | other articles: Central American and Caribbean Games, Football at the 2026 Central American and Caribbean Games"
+  },
+  {
+   "role": "assistant",
+   "content": "FINAL: The 2026 Central American and Caribbean Games were held in Santo Domingo, the capital and largest city of the Dominican Republic.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

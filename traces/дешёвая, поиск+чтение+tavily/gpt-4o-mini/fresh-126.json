@@ -1,0 +1,74 @@
+{
+ "task": {
+  "id": "fresh-126",
+  "source": "fresh",
+  "question": "Who won the 2026 PGA Championship held at Aronimink Golf Club in May 2026?",
+  "answer": "Aaron Rai",
+  "evidence": "May 14–17: 2026 PGA Championship at Aronimink Golf Club in Newtown Square, Pennsylvania – Aaron Rai",
+  "page": "2026 in sports",
+  "url": "https://en.wikipedia.org/wiki/2026_in_sports"
+ },
+ "answer": "Aaron Rai won the 2026 PGA Championship held at Aronimink Golf Club from May 14 to May 17, finishing three strokes ahead of Jon Rahm and Alex Smalley. This victory marked Rai's first major championship title and made him the first English winner of the PGA Championship since 1919. \n\nFINAL: Aaron Rai won the 2026 PGA Championship.",
+ "correct": true,
+ "cost": 0.00046784999999993637,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You answer questions about recent events (2025–2026). Never answer from memory: use web_search (and tavily_search if available) to find the right article, then page_find to look inside long articles such as '2026 in <country or field>' for the specific fact. Do not repeat the same call. When done, write the last line as FINAL: <short answer>."
+  },
+  {
+   "role": "user",
+   "content": "Who won the 2026 PGA Championship held at Aronimink Golf Club in May 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_6uSt1oeW0Fx12KfwuZGTik7b",
+     "function": {
+      "name": "tavily_search",
+      "arguments": "{\"query\":\"2026 PGA Championship winner Aronimink Golf Club\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_6uSt1oeW0Fx12KfwuZGTik7b",
+   "content": "[Aaron Rai's Winning Moment on 18th Hole! | 2026 PGA Championship](https://www.youtube.com/watch?v=skPS8cV6ftk) The 2026 PGA Championship is set to take place between 14-17 May at Aronimink Golf Club. The reigning champion is Scottie Scheffler. [...] # Aaron Rai's Winning Moment on 18th Hole! | 2026 PGA Championship ## Channel: PGA Championships (verified) 209K subscribers 49 likes ### Description 16,162 views Posted: 2026-05-17 The moment Aaron Rai all but confirmed his win a the 2026 PGA Championship. Subscribe to keep up with the latest from the PGA Championship:\n[Nine things to know: Aronimink Golf Club, host of 2026 PGA Championship - PGA Tour](https://www.pgatour.com/article/news/needtoknow/2026/05/10/nine-things-to-know-aronimink-golf-club-2026-pga-championship-major-history-stats) Aronimink Golf Club, home to the 2026 PGA Championship, shares top-100 billing with the likes of such regional luminaries as Pine Valley Golf Club, Merion Golf Club and The Philadelphia Cricket Club's Wissahickon Course, with Gulph Mills Golf Club, Huntingdon Valley Country Club, Lancaster Country Club, Lehigh Country Club, Manufacturers’ Golf and Country Club, Philadelphia Country Club, Rolling Green Golf Club and Stonewall Links' Old Course very close behind. [...] In the 1950s through the 198\n[2026 PGA Championship - Wikipedia](https://en.wikipedia.org/wiki/2026_PGA_Championship) | Field | 156 players, 82 after cut | | Cut | 144 (+4) | | Prize fund | $20,500,000 | | Winner's share | $3,690,000 | | Champion | | England Aaron Rai | | 271 (−9) | | Aronimink Golf Club is located in the United States Aronimink Golf Club Aronimink Golf Club Location in the United States Show map of the United States Aronimink Golf Club is located in Pennsylvania Aronimink Golf Club Aronimink Golf Club Location in Pennsylvania Show map of Pennsylvania | | ← 2025 2027 → | [...] The 2026 PGA Cham\n[PGA Championship 2026, Final round recap: Aaron Rai becomes first English winner since 1919 - Golf Channel](https://www.golfchannel.com/pga-of-america/live/pga-championship-2026-live-updates-leaderboard-scores-highlights-and-news-from-final-round) By Golf Channel Staff Published May 17, 2026 06:48 PM EDT Facebook Twitter Email 'Punitive' Aronimink holds world's best to account at PGA Rai outplayed the world's best to capture the Wanamaker Trophy. Aaron Rai has captured the Wanamaker Trophy. The Englishman played his final 10 holes Sunday at Aronimink Golf Club in 6 under to finish three shots clear of"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_gROalXiauwy5DN8HwtIRo0K6",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"2026 PGA Championship\",\"keywords\":\"winner, PGA Championship, Aronimink Golf Club\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_gROalXiauwy5DN8HwtIRo0K6",
+   "content": "The 2026 PGA Championship was the 108th edition of the PGA Championship, the second of the four men's major golf championships held in 2026. The tournament took place on May 14–17 at Aronimink Golf Club in Newtown Square, Pennsylvania, a suburb west of Philadelphia.\nAaron Rai won the golf tournament and his first career major championship, winning by three strokes over runners-up Jon Rahm and Alex Smalley. Rai became the second player of Indian heritage to win a men's major championship, after Vijay Singh, and the first from England to win the PGA Championship since Jim Barnes, who won the first two editions in 1916 and 1919. Rai became only the eighth player\nThis is the second time the PGA Championship was played at Aronimink, which also hosted in 1962. The club has also hosted other prominent golf championships including the 1977 U.S. Amateur, the 2020 Women's PGA Championship, the 2003 Senior PGA Championship, the 2010 and 2011 AT&T National and the 2018 BMW Championship.\nAaron Rai shot a final-round 65 (−5) to win the 108th PGA Championship by three strokes over Jon Rahm and Alex Smalley, earning his first major championship title and becoming the first English winner of the PGA Championship since Jim Barnes in 1919.\n2026 PGA Championship Scores from ESPN-Golf\nEvery Hole At Aronimink Golf Club - Video Tour by Golf Digest"
+  },
+  {
+   "role": "assistant",
+   "content": "Aaron Rai won the 2026 PGA Championship held at Aronimink Golf Club from May 14 to May 17, finishing three strokes ahead of Jon Rahm and Alex Smalley. This victory marked Rai's first major championship title and made him the first English winner of the PGA Championship since 1919. \n\nFINAL: Aaron Rai won the 2026 PGA Championship.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

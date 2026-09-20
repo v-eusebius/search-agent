@@ -1,0 +1,98 @@
+{
+ "task": {
+  "id": "fresh-17",
+  "source": "fresh",
+  "question": "In spaceflight, what was launched by ISRO on September 3, 2026?",
+  "answer": "EOS-05",
+  "evidence": "On 3 September, ISRO launched EOS-05, India's first geostationary Earth observation satellite. The satellite was launched on PSLV's return-to-flight mission after the failed PSLV-C62 in January 2026.",
+  "page": "2026 in spaceflight",
+  "url": "https://en.wikipedia.org/wiki/2026_in_spaceflight",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "On September 3, 2026, ISRO launched the GSLV-F17 rocket, carrying the EOS-05 satellite, which is India's first imaging satellite designed to operate from geosynchronous orbit. This launch took place from the Satish Dhawan Space Centre in Sriharikota. \n\nFINAL: ISRO launched the EOS-05 satellite on September 3, 2026.",
+ "correct": true,
+ "cost": 0.0005908500000000316,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You answer questions about recent events (2025–2026). Never answer from memory: use web_search (and tavily_search if available) to find the right article, then page_find to look inside long articles such as '2026 in <country or field>' for the specific fact. Do not repeat the same call. When done, write the last line as FINAL: <short answer>."
+  },
+  {
+   "role": "user",
+   "content": "In spaceflight, what was launched by ISRO on September 3, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_Ln5BsZe1Gnfp7Axv4E36f78N",
+     "function": {
+      "name": "tavily_search",
+      "arguments": "{\"query\":\"ISRO launch September 3 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_Ln5BsZe1Gnfp7Axv4E36f78N",
+   "content": "[BREAKING: GSLV-F17 Mission Success: ISRO Launches Earth Observation Satellite EOS-05 | News18](https://www.youtube.com/watch?v=XjPgZhldfOU&xstg=CAMSBhUD_LL2Hw%3D%3D) # BREAKING: GSLV-F17 Mission Success: ISRO Launches Earth Observation Satellite EOS-05 | News18 ## Channel: CNN-News18 (verified) 10.9M subscribers ### Description 8,090 views Posted: 2026-09-03 BREAKING: ISRO has successfully launched the GSLV-F17 rocket carrying EOS-05, India’s advanced Earth observation satellite, from the Satish Dhawan Space Centre in Sriharikota. The pre-dawn mission lifted off at 2:55 AM IST on September 4, 2026. [...] EOS-05 is India’s first imaging satellite designed to \n[India sends Earth-imaging satellite toward ...](https://www.space.com/space-exploration/launches-spacecraft/gslv-mark-ii-eos-05-launch-first-indian-geo-earth-observing-satellite) An Indian GSLV Mark II rocket launches the EOS-05 Earth-observing satellite toward geosynchronous orbit on Sept. 3, 2026. (Image credit: ISRO) The GSLV (Geosynchronous Satellite Launch Vehicle) Mark II is a three-stage rocket that stands 170 feet (52 meters) tall. The vehicle debuted in 2010 and now has 13 flights under its belt to date, 11 of them successful. (Its predecessor, the GSLV Mark I, flew six times between 2001 and 2010, with two launch failures.) [...] An Indian GSLV Mark II rocket t\n[4.8K views · 82 reactions | Can one satellite continuously observe India from space?\n\nOn 4 September 2026, ISRO’s GSLV-F17 successfully launched EOS-05—India’s first imaging satellite designed to operate from geosynchronous orbit. Unlike most Earth-observation satellites in Low Earth Orbit, it can repeatedly observe a broad region without waiting for another orbital pass.\n\nAfter three orbit-raising manoeuvres, EOS-05 reached an estimated orbit of 34,903 × 35,884 km on 7 September, with its health reported as normal. Its intended orbital slot is 85.5° East. [ISRO]\n\nSuch persistent regional coverage can strengthen disaster monitoring, agriculture, environmental assessment and strategic situational awareness. It can be described as uninterrupted “live surveillance”; but imaging frequency, sensor capability and data processing still matter.\n\n#ISRO #EOS05 #GSLVF17 #SpaceTechnology #UPSC\n\n[EOS-05 satellite, GSLV-F17 mission, ISRO launch 2026, geosynchronous imaging satellite, India Earth observation, EOS-05 orbit, disaster monitoring satellite, UPSC science technology] | Tathastu ICS](https://www.facebook.com/TathastuicsInfo/posts/can-one"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_gdSNhf9NUXSzYCFhbGY0VGtk",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"2026 in India\",\"keywords\":\"ISRO launch September 3 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_gdSNhf9NUXSzYCFhbGY0VGtk",
+   "content": "21 August – Indian National Space Promotion and Authorisation Centre head Pawan Goenka announces that ISRO is going to stop making launch vehicles and it will be done by private sector."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_2elqOUKLhyPsxGN6m0cY8BiE",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"2026 in spaceflight\",\"keywords\":\"ISRO launch September 3 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_2elqOUKLhyPsxGN6m0cY8BiE",
+   "content": "On 11 January, NASA launched the Pandora small space telescope to study exoplanet atmospheres. The same Falcon 9 flight also carried two CubeSat-type space telescopes by NASA: SPARCS and BlackCAT, alongside other payloads. Pandora completed its commissioning phase and started scientific observations in August 2026.\nIn 2026, NASA plans to launch the SunRISE mission consisting of six CubeSats for studying solar activity.\nThe joint ESA-JAXA mission BepiColombo is expected to enter orbit around Mercury in late 2026. The arrival operations began on 3 September 2026 with the separation of the propulsion module from the remaining spacecraft.\nOn 22 March, Roscosmos launched Progress MS-33 to ISS, the first space station uncrewed cargo flight of the year and the first launch from the Baikonur Cosmodrome Site 31 after substantial repairs necessitated by the damage caused by the November 2025 launch of Soyuz MS-28. Further resupply missions to ISS were: Cygnus NG-24 on 11 April, Progress MS-34 on 25 April, SpaceX CRS-34 on 15 May, and Pro\nOn 1 April 2026, NASA launched the Artemis II mission on the Space Launch System, sending astronauts around the Moon on a ten-day lunar flyby. On 6 April, Artemis II became the farthest human spaceflight in history when it surpassed the previous distance record of Apollo 13. The mission's re-entry capsule Integrity safely splashed down in the Pacific Ocean southwest of San Diego on 11 April 2026.\nOn 11 February, China performed a successful in-flight abort test of the new Mengzhou spacecraft, which verified the spacecraft's launch escape system performance, as well as the Long March 10A first stage ability of soft landing on water. Later in 2026 or possibly in 2027, China plans to launch Mengzhou 1, the first uncrewed orbital flight of the spacecraft and the complete Long March 10A rocket,"
+  },
+  {
+   "role": "assistant",
+   "content": "On September 3, 2026, ISRO launched the GSLV-F17 rocket, carrying the EOS-05 satellite, which is India's first imaging satellite designed to operate from geosynchronous orbit. This launch took place from the Satish Dhawan Space Centre in Sriharikota. \n\nFINAL: ISRO launched the EOS-05 satellite on September 3, 2026.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

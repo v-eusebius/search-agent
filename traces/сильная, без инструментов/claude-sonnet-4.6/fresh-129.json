@@ -1,0 +1,22 @@
+{
+ "task": {
+  "id": "fresh-129",
+  "source": "fresh",
+  "question": "Who won the 2026 Chevron Championship golf tournament in Houston in April 2026?",
+  "answer": "Nelly Korda",
+  "evidence": "April 23–26: 2026 Chevron Championship at Memorial Park Golf Course in Houston, Texas – Nelly Korda",
+  "page": "2026 in sports",
+  "url": "https://en.wikipedia.org/wiki/2026_in_sports"
+ },
+ "answer": "FINAL: Unknown.",
+ "correct": false,
+ "cost": 0.00021599999999999918,
+ "messages": [
+  {
+   "role": "assistant",
+   "content": "Unknown.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

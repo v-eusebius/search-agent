@@ -1,0 +1,52 @@
+{
+ "task": {
+  "id": "fresh-125",
+  "source": "fresh",
+  "question": "Who won the 2026 Masters Tournament at Augusta National Golf Club in April 2026?",
+  "answer": "Rory McIlroy",
+  "evidence": "April 9–12: 2026 Masters Tournament at Augusta National Golf Club in Augusta, Georgia – Rory McIlroy",
+  "page": "2026 in sports",
+  "url": "https://en.wikipedia.org/wiki/2026_in_sports"
+ },
+ "answer": "FINAL: Rory McIlroy won the 2026 Masters Tournament at Augusta National Golf Club in April 2026. He won for the second consecutive year, finishing one stroke ahead of runner-up Scottie Scheffler.",
+ "correct": true,
+ "cost": 0.003367000000000009,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You answer questions about recent events (2025–2026). Never answer from memory: use web_search (and tavily_search if available) to find the right article, then page_find to look inside long articles such as '2026 in <country or field>' for the specific fact. Do not repeat the same call. When done, write the last line as FINAL: <short answer>."
+  },
+  {
+   "role": "user",
+   "content": "Who won the 2026 Masters Tournament at Augusta National Golf Club in April 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "I'll search for information about the 2026 Masters Tournament.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01TibaTSFYhcM1itJ9uTGHnL",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\": \"2026 Masters Tournament Augusta National Golf Club winner\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01TibaTSFYhcM1itJ9uTGHnL",
+   "content": "[2026 Masters Tournament] The 2026 Masters Tournament was the 90th edition of the Masters Tournament and the first of the four men's major golf championships held in 2026. The tournament was played April 9–12 at Augusta National Golf Club in Augusta, Georgia, United States. Rory McIlroy won the tournament for the second consecutive year, one stroke ahead of runner-up Scottie Scheffler. He joined Jack Nicklaus, Nick Faldo and Tiger Woods as the only players to win two years consecutively. | other articles: Augusta National Golf Club, 2025 Masters Tournament"
+  },
+  {
+   "role": "assistant",
+   "content": "FINAL: Rory McIlroy won the 2026 Masters Tournament at Augusta National Golf Club in April 2026. He won for the second consecutive year, finishing one stroke ahead of runner-up Scottie Scheffler.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

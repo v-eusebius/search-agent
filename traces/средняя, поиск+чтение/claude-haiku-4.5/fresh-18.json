@@ -1,0 +1,186 @@
+{
+ "task": {
+  "id": "fresh-18",
+  "source": "fresh",
+  "question": "In Germany, what was the date when a Munich court imprisoned an Iraqi couple for enslaving and raping Yazidi girls?",
+  "answer": "13 July",
+  "evidence": "13 July – A Munich court imprisons an Iraqi couple who were members of Islamic State for enslaving and raping Yazidi girls.",
+  "page": "2026 in Germany",
+  "url": "https://en.wikipedia.org/wiki/2026_in_Germany",
+  "sonnet_answer": "November 25, 2021",
+  "agent_ok": false
+ },
+ "answer": "Perfect! I found the information. \n\nFINAL: The Munich court imprisoned the Iraqi couple (Twana H.S. and Asia R.A.) on **13 July 2026** for enslaving and raping Yazidi girls. They were convicted of genocide, crimes against humanity, and war crimes.",
+ "correct": true,
+ "cost": 0.024473000000000023,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You answer questions about recent events (2025–2026). Never answer from memory: use web_search (and tavily_search if available) to find the right article, then page_find to look inside long articles such as '2026 in <country or field>' for the specific fact. Do not repeat the same call. When done, write the last line as FINAL: <short answer>."
+  },
+  {
+   "role": "user",
+   "content": "In Germany, what was the date when a Munich court imprisoned an Iraqi couple for enslaving and raping Yazidi girls?"
+  },
+  {
+   "role": "assistant",
+   "content": "I'll search for information about this case in Germany involving a Munich court and an Iraqi couple accused of enslaving and raping Yazidi girls.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01QMEAPpo4AQVLhy6cRWKgQD",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\": \"Munich court Iraqi couple enslaving raping Yazidi girls imprisoned\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01QMEAPpo4AQVLhy6cRWKgQD",
+   "content": "[Yazidi genocide] The Yazidi genocide also known as the 74th firman by Yazidis, was perpetrated by the Islamic State in Iraq and Syria between 2014 and 2017. It was characterized by massacres, genocidal rape, and forced conversions to Islam. The Yazidis are a Kurdish-speaking people who are indigenous to Kurdistan who practice Yazidism, a monotheistic Iranian ethnoreligion derived from the Indo-Iranian tradition. Over a period of three years, Islamic State militants trafficked thousands of Yazidi women and girls and killed thousands of Yazidi men. The United Nations reported that the Islamic State killed about 5,000 Yazidis and trafficked about 10,800 Yazidi women and girls in a \"forced conversion campaign\" throughout Iraq. By 2015, upwards of 71% of the global Yazidi population was displaced by the genocide, with most Yazidi refugees having fled to Iraq's Kurdistan Region and Syria's Rojava. The persecution of Yazidis, along with other religious minorities, took place after the Islamic State's Northern Iraq offensive of June 2014. Amid numerous atrocities committed by the Islamic State, the Yazidi genocide attracted international attention and prompted the United States to establish CJTF–OIR, a military coalition consisting of many Western countries and Turkey, Morocco, and Jordan. Additionally, the United States, the United Kingdom, and Australia made emergency airdrops to support Yazidi refugees who were trapped in the Sinjar Mountains due to the Islamic State's Northern Iraq offensive of A | other articles: 2026 Munich Yazidi genocide trial, Völkerstrafgesetzbuch"
+  },
+  {
+   "role": "assistant",
+   "content": "I found a reference to \"2026 Munich Yazidi genocide trial.\" Let me search more specifically for this trial.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01PfaFRrNBP7LNVJ5Egs7RuA",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\": \"2026 Munich Yazidi genocide trial Iraqi couple verdict\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01PfaFRrNBP7LNVJ5Egs7RuA",
+   "content": "НЕ удалось вызвать инструмент web_search: HTTPSConnectionPool(host='en.wikipedia.org', port=443): Max retries exceeded with url: /w/api.php?action=query&prop=extracts&explaintext=1&exintro=1&titles=2026+Munich+Yazidi+genocide+trial&format=json (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)')))"
+  },
+  {
+   "role": "assistant",
+   "content": "Let me try a different search approach.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01Gq4AXY6kV82iGNfCWGuNLL",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\": \"Munich court sentenced Iraqi couple slavery Yazidi 2024 2025\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01Gq4AXY6kV82iGNfCWGuNLL",
+   "content": "[Yazidi genocide] The Yazidi genocide also known as the 74th firman by Yazidis, was perpetrated by the Islamic State in Iraq and Syria between 2014 and 2017. It was characterized by massacres, genocidal rape, and forced conversions to Islam. The Yazidis are a Kurdish-speaking people who are indigenous to Kurdistan who practice Yazidism, a monotheistic Iranian ethnoreligion derived from the Indo-Iranian tradition. Over a period of three years, Islamic State militants trafficked thousands of Yazidi women and girls and killed thousands of Yazidi men. The United Nations reported that the Islamic State killed about 5,000 Yazidis and trafficked about 10,800 Yazidi women and girls in a \"forced conversion campaign\" throughout Iraq. By 2015, upwards of 71% of the global Yazidi population was displaced by the genocide, with most Yazidi refugees having fled to Iraq's Kurdistan Region and Syria's Rojava. The persecution of Yazidis, along with other religious minorities, took place after the Islamic State's Northern Iraq offensive of June 2014. Amid numerous atrocities committed by the Islamic State, the Yazidi genocide attracted international attention and prompted the United States to establish CJTF–OIR, a military coalition consisting of many Western countries and Turkey, Morocco, and Jordan. Additionally, the United States, the United Kingdom, and Australia made emergency airdrops to support Yazidi refugees who were trapped in the Sinjar Mountains due to the Islamic State's Northern Iraq offensive of A | other articles: Iraq War, 2016 Nice truck attack"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01S8T9ef6PagcCYP3VN6H68r",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\": \"Iraq IS jihadist couple Munich trial slavery Yazidi verdict\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01S8T9ef6PagcCYP3VN6H68r",
+   "content": "[Iraq War] The Iraq War (Arabic: حرب العراق, romanized: ḥarb al-ʿirāq), also referred to as the Second Gulf War (Gulf War II), was a protracted armed conflict in Iraq from 2003 to 2011. It began with the invasion by a United States–led coalition, which resulted in the overthrow of the Ba'athist government of Saddam Hussein. During the US occupation of Iraq, the conflict persisted as an insurgency that arose against coalition forces and the newly established Iraqi government. US forces were officially withdrawn in 2011. In 2014, the US became re-engaged in Iraq, leading a new coalition under Combined Joint Task Force – Operation Inherent Resolve, as the conflict evolved into the ongoing Islamic State insurgency. The Iraq invasion was part of the Bush administration's broader war on terror, launched in response to the September 11 attacks. In October 2002, the US Congress passed a bipartisan resolution granting Bush authority to use military force against Iraq. The war began on March 20, 2003, when the US, joined by the UK, Australia, and Poland, initiated a \"shock and awe\" bombing campaign. Coalition forces launched a ground invasion, defeating Iraqi forces and toppling the Ba'athist regime. Saddam Hussein was captured in 2003 and executed in 2006. The fall of Saddam's regime created a power vacuum, which, along with the Coalition Provisional Authority's mismanagement, fueled a sectarian civil war between Iraq's Shia majority and Sunni minority, and contributed to a lengthy insurgency. I"
+  },
+  {
+   "role": "assistant",
+   "content": "Let me try searching for recent news about this case with different keywords.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01UupE7hVN6urXYqd1PKL9Gw",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\": \"IS couple slavery Yazidi girls Germany court imprisoned\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01UupE7hVN6urXYqd1PKL9Gw",
+   "content": "[Yazidi genocide] The Yazidi genocide also known as the 74th firman by Yazidis, was perpetrated by the Islamic State in Iraq and Syria between 2014 and 2017. It was characterized by massacres, genocidal rape, and forced conversions to Islam. The Yazidis are a Kurdish-speaking people who are indigenous to Kurdistan who practice Yazidism, a monotheistic Iranian ethnoreligion derived from the Indo-Iranian tradition. Over a period of three years, Islamic State militants trafficked thousands of Yazidi women and girls and killed thousands of Yazidi men. The United Nations reported that the Islamic State killed about 5,000 Yazidis and trafficked about 10,800 Yazidi women and girls in a \"forced conversion campaign\" throughout Iraq. By 2015, upwards of 71% of the global Yazidi population was displaced by the genocide, with most Yazidi refugees having fled to Iraq's Kurdistan Region and Syria's Rojava. The persecution of Yazidis, along with other religious minorities, took place after the Islamic State's Northern Iraq offensive of June 2014. Amid numerous atrocities committed by the Islamic State, the Yazidi genocide attracted international attention and prompted the United States to establish CJTF–OIR, a military coalition consisting of many Western countries and Turkey, Morocco, and Jordan. Additionally, the United States, the United Kingdom, and Australia made emergency airdrops to support Yazidi refugees who were trapped in the Sinjar Mountains due to the Islamic State's Northern Iraq offensive of A | other articles: Sexual slavery, History of slavery"
+  },
+  {
+   "role": "assistant",
+   "content": "Let me search for more recent news about genocide trials or crimes against humanity in Munich.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01R53hE6zq7a7VxhQs3Xo6en",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\": \"T.N. T.I. Munich court Yazidi slavery trial verdict 2025\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01R53hE6zq7a7VxhQs3Xo6en",
+   "content": "[Iraq War] The Iraq War (Arabic: حرب العراق, romanized: ḥarb al-ʿirāq), also referred to as the Second Gulf War (Gulf War II), was a protracted armed conflict in Iraq from 2003 to 2011. It began with the invasion by a United States–led coalition, which resulted in the overthrow of the Ba'athist government of Saddam Hussein. During the US occupation of Iraq, the conflict persisted as an insurgency that arose against coalition forces and the newly established Iraqi government. US forces were officially withdrawn in 2011. In 2014, the US became re-engaged in Iraq, leading a new coalition under Combined Joint Task Force – Operation Inherent Resolve, as the conflict evolved into the ongoing Islamic State insurgency. The Iraq invasion was part of the Bush administration's broader war on terror, launched in response to the September 11 attacks. In October 2002, the US Congress passed a bipartisan resolution granting Bush authority to use military force against Iraq. The war began on March 20, 2003, when the US, joined by the UK, Australia, and Poland, initiated a \"shock and awe\" bombing campaign. Coalition forces launched a ground invasion, defeating Iraqi forces and toppling the Ba'athist regime. Saddam Hussein was captured in 2003 and executed in 2006. The fall of Saddam's regime created a power vacuum, which, along with the Coalition Provisional Authority's mismanagement, fueled a sectarian civil war between Iraq's Shia majority and Sunni minority, and contributed to a lengthy insurgency. I"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01LpaCEJWA7o5WFnNKufeu1R",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\": \"\\\"Munich\\\" \\\"Iraqi couple\\\" \\\"Yazidi\\\" imprisoned sentenced\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01LpaCEJWA7o5WFnNKufeu1R",
+   "content": "[2026 Munich Yazidi genocide trial] Twana H.S. and Asia R.A., an Iraqi Kurdish former married couple and former members of the Islamic State (IS), were convicted by the Higher Regional Court (Oberlandesgericht) in Munich, Germany, on 13 July 2026 of genocide, crimes against humanity, and war crimes, among other offences, over the enslavement, torture, and sexual abuse of two Yazidi girls in Iraq and Syria between 2015 and 2017. Twana H.S. was sentenced to life imprisonment; Asia R.A., who was a minor for part of the period covered by the charges, received a juvenile sentence of nine years and six months. The case was tried under Germany's application of the principle of universal jurisdiction, which allows German courts to prosecute genocide, crimes against humanity, and war crimes committed abroad regardless of the nationality of the perpetrator or victim. It followed several earlier German prosecutions of IS members over crimes against Yazidis, including the 2021 genocide conviction of Taha al-Jumailly and the related 2021 conviction of his then-wife Jennifer Wenisch, both also tried before Munich courts. | other articles: Völkerstrafgesetzbuch, 2026 in Germany"
+  },
+  {
+   "role": "assistant",
+   "content": "Perfect! I found the information. \n\nFINAL: The Munich court imprisoned the Iraqi couple (Twana H.S. and Asia R.A.) on **13 July 2026** for enslaving and raping Yazidi girls. They were convicted of genocide, crimes against humanity, and war crimes.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

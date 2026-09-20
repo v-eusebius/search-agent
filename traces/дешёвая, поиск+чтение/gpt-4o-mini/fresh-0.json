@@ -1,0 +1,76 @@
+{
+ "task": {
+  "id": "fresh-0",
+  "source": "fresh",
+  "question": "On what date did Ukraine boycott the closing ceremony of the 2026 Winter Paralympics?",
+  "answer": "15 March",
+  "evidence": "15 March – Ukraine boycotts the closing ceremony of the 2026 Winter Paralympics in Italy in protest over Russian athletes being allowed to compete under the Russian flag after the lifting of sanctions imposed over the Russian invasion in 2022.",
+  "page": "2026 in Ukraine",
+  "url": "https://en.wikipedia.org/wiki/2026_in_Ukraine",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "Ukraine, along with several other nations, boycotted the closing ceremony of the 2026 Winter Paralympics on March 15, 2026, due to the participation of Russian and Belarusian athletes. \n\nFINAL: March 15, 2026",
+ "correct": true,
+ "cost": 0.0003509999999999902,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You answer questions about recent events (2025–2026). Never answer from memory: use web_search (and tavily_search if available) to find the right article, then page_find to look inside long articles such as '2026 in <country or field>' for the specific fact. Do not repeat the same call. When done, write the last line as FINAL: <short answer>."
+  },
+  {
+   "role": "user",
+   "content": "On what date did Ukraine boycott the closing ceremony of the 2026 Winter Paralympics?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_EeEGo6dyitH6eSZOlpEBJzzz",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Ukraine boycott closing ceremony 2026 Winter Paralympics date\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_EeEGo6dyitH6eSZOlpEBJzzz",
+   "content": "[2026 Winter Paralympics] The 2026 Winter Paralympics (Italian: Giochi paralimpici invernali di Milano Cortina 2026), also known as the Milano Cortina 2026 Winter Paralympic Games, were the 14th edition of the Winter Paralympic Games, an international winter multi-sport parasports event governed by the International Paralympic Committee. It took place from 6 to 15 March at sites across Lombardy, Veneto and Trentino-Alto Adige/Südtirol, with competition in wheelchair curling beginning on 4 March. Marking the 50th anniversary of the inaugural Winter Paralympics in 1976, this was the third Paralympic Games hosted in Italy, following the 1960 Summer Paralympics in Rome (the inaugural Paralympic Games) and the 2006 Winter Paralympics in Turin. These were the final winter games to take place under the IPC presidency of Andrew Parsons. China finished at the top of the medal table for the second successive Winter Paralympics with 15 gold and 44 medals overall, and the United States finished second with 13 gold and 24 medals. Russia finished in third with 8 gold and 12 medals. The host nation Italy finished in fourth with 7 gold and 16 medals, setting a new record for number of medals won. Brazil won its first medal in their Winter Paralympic history, becoming the first tropical, Latin American and South American National Paralympic Committee to win a medal at the Winter Paralympics. Latvia also won its first medal in its Winter Paralympic history. The edition drew controversy surrounding its inclusion of Russ | other articles: 2026 Winter Paralympics opening ceremony, 2026 Winter Paralympics closing ceremony"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_VoNBFYf4Bu1KB6oQxXeKInSD",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"2026 Winter Paralympics\",\"keywords\":\"Ukraine boycott closing ceremony\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_VoNBFYf4Bu1KB6oQxXeKInSD",
+   "content": "The handover occurred during the closing ceremony of the 2022 Winter Paralympics in Beijing, China, on 13 March. The Paralympic flag was passed from Beijing mayor Chen Jining to IPC president Andrew Parsons, and then to Anna Scavuzzo, vice-mayor of Milan, and Gianpietro Ghedina, mayor of Cortina d'Ampezzo. The flag was then flown back to Italy, where it arrived the following day. Both the Olympic \nCortina Curling Olympic Stadium – Wheelchair curling, closing ceremony\nA number of delegations skipped the opening ceremony entirely; some of these absences were for logistical reasons, as Verona is 250 kilometres (160 mi) from Cortina d'Ampezzo. A number of teams additionally boycotted the opening ceremony in protest of the IPC allowing Russian and Belarusian athletes to compete under their national flags. Organisers stated that all participating National Paralympic\n=== Closing ceremony ===\nThe closing ceremony took place on 15 March 2026 at the Cortina Olympic Ice Stadium in Cortina d'Ampezzo, entitled Italian Souvenir, with production by G2 Eventi – Casta Diva Group. Several nations, led by Ukraine, boycotted the ceremony due to the participation of Russian and Belarusian athletes at the Games.\nFollowing a ruling by the Court of Arbitration for Sport that challenged an outright ban from international sport by the World Anti-Doping Agency, Russia was allowed to send a semi-neutral team under the emblem of the Russian Paralympic Committee (RPC) at the 2020 Summer Paralympics. The team was, with exceptions, still prohibited from using the name, flag, or national anthem of Russia. RPC was al"
+  },
+  {
+   "role": "assistant",
+   "content": "Ukraine, along with several other nations, boycotted the closing ceremony of the 2026 Winter Paralympics on March 15, 2026, due to the participation of Russian and Belarusian athletes. \n\nFINAL: March 15, 2026",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

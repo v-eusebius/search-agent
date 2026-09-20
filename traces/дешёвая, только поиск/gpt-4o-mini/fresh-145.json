@@ -1,0 +1,188 @@
+{
+ "task": {
+  "id": "fresh-145",
+  "source": "fresh",
+  "question": "Which film was inducted into the National Film Registry on January 29, 2026?",
+  "answer": "The Incredibles",
+  "evidence": "January 29: The Incredibles is inducted into the National Film Registry.",
+  "page": "2026 in animation",
+  "url": "https://en.wikipedia.org/wiki/2026_in_animation"
+ },
+ "answer": "На данный момент нет информации о фильме, который был индукционен в Национальный реестр фильмов 29 января 2026 года. Однако обновления о таких событиях обычно публикуются на официальных сайтах или через новостные агентства. \n\nFINAL: Информация недоступна.",
+ "correct": false,
+ "cost": 0.0009058499999999997,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You answer questions about recent events (2025–2026). Never answer from memory: use web_search (and tavily_search if available) to find the right article, then page_find to look inside long articles such as '2026 in <country or field>' for the specific fact. Do not repeat the same call. When done, write the last line as FINAL: <short answer>."
+  },
+  {
+   "role": "user",
+   "content": "Which film was inducted into the National Film Registry on January 29, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_Fcy4AkndvpG2M7Mc0YPMLxk3",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"film inducted National Film Registry January 29 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_Fcy4AkndvpG2M7Mc0YPMLxk3",
+   "content": "[National Film Registry] The National Film Registry (NFR) is the United States National Film Preservation Board's (NFPB) collection of films selected for preservation, each for its cultural, historical and aesthetic contributions since the NFPB's inception in 1988. | other articles: National Recording Registry, House Party (1990 film)"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_3LvYXd7jpqwi49LFobdBdiTn",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"2026 National Film Registry January 29 inductee\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_3LvYXd7jpqwi49LFobdBdiTn",
+   "content": "[National Film Registry] The National Film Registry (NFR) is the United States National Film Preservation Board's (NFPB) collection of films selected for preservation, each for its cultural, historical and aesthetic contributions since the NFPB's inception in 1988. | other articles: National Recording Registry, Network (1976 film)"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_tl5hIZAdAGH3MCKKQBJlv9F9",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"January 29 2026 film National Film Registry inductee\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_tl5hIZAdAGH3MCKKQBJlv9F9",
+   "content": "[National Film Registry] The National Film Registry (NFR) is the United States National Film Preservation Board's (NFPB) collection of films selected for preservation, each for its cultural, historical and aesthetic contributions since the NFPB's inception in 1988. | other articles: National Recording Registry, Network (1976 film)"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_yh6m4soU61jo98d22jctK2XE",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"January 29 2026 film inducted National Film Registry\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_yh6m4soU61jo98d22jctK2XE",
+   "content": "[National Film Registry] The National Film Registry (NFR) is the United States National Film Preservation Board's (NFPB) collection of films selected for preservation, each for its cultural, historical and aesthetic contributions since the NFPB's inception in 1988. | other articles: National Recording Registry, House Party (1990 film)"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_5BKuHl1LIhOrLq7sEUlyLblf",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"January 29 2026 National Film Registry announcement\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_5BKuHl1LIhOrLq7sEUlyLblf",
+   "content": "[National Film Registry] The National Film Registry (NFR) is the United States National Film Preservation Board's (NFPB) collection of films selected for preservation, each for its cultural, historical and aesthetic contributions since the NFPB's inception in 1988. | other articles: 2026 in animation, Selena (film)"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_xYBLUBGAxiH1dpmErJ63iqdS",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"January 29 2026 film induction National Film Registry list\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_xYBLUBGAxiH1dpmErJ63iqdS",
+   "content": "[National Film Registry] The National Film Registry (NFR) is the United States National Film Preservation Board's (NFPB) collection of films selected for preservation, each for its cultural, historical and aesthetic contributions since the NFPB's inception in 1988. | other articles: National Recording Registry, Bambi"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_F3U4O8veQCBnDmT5eFRl5vgD",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"January 29 2026 films inducted National Film Registry list\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_F3U4O8veQCBnDmT5eFRl5vgD",
+   "content": "[National Film Registry] The National Film Registry (NFR) is the United States National Film Preservation Board's (NFPB) collection of films selected for preservation, each for its cultural, historical and aesthetic contributions since the NFPB's inception in 1988. | other articles: National Recording Registry, List of Walt Disney Pictures films"
+  },
+  {
+   "role": "user",
+   "content": "Инструменты больше недоступны. Ответь по тому, что уже известно, последней строкой FINAL: <ответ>."
+  },
+  {
+   "role": "assistant",
+   "content": "На данный момент нет информации о фильме, который был индукционен в Национальный реестр фильмов 29 января 2026 года. Однако обновления о таких событиях обычно публикуются на официальных сайтах или через новостные агентства. \n\nFINAL: Информация недоступна.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

@@ -1,0 +1,22 @@
+{
+ "task": {
+  "id": "fresh-141",
+  "source": "fresh",
+  "question": "Who won GCT Super Rapid and Blitz Poland on May 9, 2026?",
+  "answer": "Hans Niemann",
+  "evidence": "May 9 – Hans Niemann won GCT Super Rapid and Blitz Poland with a score of 22½/36. Fabiano Caruana finished second with 22/36, while Wesley So finished third with 21/36.",
+  "page": "2026 in chess",
+  "url": "https://en.wikipedia.org/wiki/2026_in_chess"
+ },
+ "answer": "FINAL: Unknown.",
+ "correct": false,
+ "cost": 0.00021900000000000044,
+ "messages": [
+  {
+   "role": "assistant",
+   "content": "Unknown.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

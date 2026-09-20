@@ -1,0 +1,24 @@
+{
+ "task": {
+  "id": "fresh-7",
+  "source": "fresh",
+  "question": "Who was imprisoned in Istanbul for insulting President Erdoğan in July 2026?",
+  "answer": "Deniz Göktaş",
+  "evidence": "3 July — A court in Istanbul imprisons comedian Deniz Göktaş for insulting President Erdoğan and religious principles.",
+  "page": "2026 in Turkey",
+  "url": "https://en.wikipedia.org/wiki/2026_in_Turkey",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "FINAL: Unknown.",
+ "correct": false,
+ "cost": 0.00021300000000000008,
+ "messages": [
+  {
+   "role": "assistant",
+   "content": "Unknown.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

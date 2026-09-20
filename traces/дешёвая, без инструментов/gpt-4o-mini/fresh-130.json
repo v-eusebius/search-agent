@@ -1,0 +1,22 @@
+{
+ "task": {
+  "id": "fresh-130",
+  "source": "fresh",
+  "question": "Who won the 2026 Women's PGA Championship at Hazeltine National Golf Club?",
+  "answer": "Ryu Hae-ran",
+  "evidence": "June 25–28: 2026 Women's PGA Championship in Hazeltine National Golf Club in Chaska, Minnesota – Ryu Hae-ran",
+  "page": "2026 in sports",
+  "url": "https://en.wikipedia.org/wiki/2026_in_sports"
+ },
+ "answer": "FINAL: Unknown.",
+ "correct": false,
+ "cost": 7.499999999998827e-06,
+ "messages": [
+  {
+   "role": "assistant",
+   "content": "Unknown.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

@@ -1,0 +1,22 @@
+{
+ "task": {
+  "id": "fresh-125",
+  "source": "fresh",
+  "question": "Who won the 2026 Masters Tournament at Augusta National Golf Club in April 2026?",
+  "answer": "Rory McIlroy",
+  "evidence": "April 9–12: 2026 Masters Tournament at Augusta National Golf Club in Augusta, Georgia – Rory McIlroy",
+  "page": "2026 in sports",
+  "url": "https://en.wikipedia.org/wiki/2026_in_sports"
+ },
+ "answer": "FINAL: Unknown.",
+ "correct": false,
+ "cost": 0.00021299999999999965,
+ "messages": [
+  {
+   "role": "assistant",
+   "content": "Unknown.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

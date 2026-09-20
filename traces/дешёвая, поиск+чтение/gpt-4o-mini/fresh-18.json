@@ -1,0 +1,76 @@
+{
+ "task": {
+  "id": "fresh-18",
+  "source": "fresh",
+  "question": "In Germany, what was the date when a Munich court imprisoned an Iraqi couple for enslaving and raping Yazidi girls?",
+  "answer": "13 July",
+  "evidence": "13 July – A Munich court imprisons an Iraqi couple who were members of Islamic State for enslaving and raping Yazidi girls.",
+  "page": "2026 in Germany",
+  "url": "https://en.wikipedia.org/wiki/2026_in_Germany",
+  "sonnet_answer": "November 25, 2021",
+  "agent_ok": false
+ },
+ "answer": "The Munich court imprisoned the Iraqi couple on July 13, 2026, for enslaving and raping Yazidi girls. \n\nFINAL: July 13, 2026",
+ "correct": true,
+ "cost": 0.00028859999999999997,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You answer questions about recent events (2025–2026). Never answer from memory: use web_search (and tavily_search if available) to find the right article, then page_find to look inside long articles such as '2026 in <country or field>' for the specific fact. Do not repeat the same call. When done, write the last line as FINAL: <short answer>."
+  },
+  {
+   "role": "user",
+   "content": "In Germany, what was the date when a Munich court imprisoned an Iraqi couple for enslaving and raping Yazidi girls?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_9whoLGS7srDHojGuFoQxQHfn",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Germany Munich court imprisoned Iraqi couple enslaving raping Yazidi girls\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_9whoLGS7srDHojGuFoQxQHfn",
+   "content": "[Yazidi genocide] The Yazidi genocide also known as the 74th firman by Yazidis, was perpetrated by the Islamic State in Iraq and Syria between 2014 and 2017. It was characterized by massacres, genocidal rape, and forced conversions to Islam. The Yazidis are a Kurdish-speaking people who are indigenous to Kurdistan who practice Yazidism, a monotheistic Iranian ethnoreligion derived from the Indo-Iranian tradition. Over a period of three years, Islamic State militants trafficked thousands of Yazidi women and girls and killed thousands of Yazidi men. The United Nations reported that the Islamic State killed about 5,000 Yazidis and trafficked about 10,800 Yazidi women and girls in a \"forced conversion campaign\" throughout Iraq. By 2015, upwards of 71% of the global Yazidi population was displaced by the genocide, with most Yazidi refugees having fled to Iraq's Kurdistan Region and Syria's Rojava. The persecution of Yazidis, along with other religious minorities, took place after the Islamic State's Northern Iraq offensive of June 2014. Amid numerous atrocities committed by the Islamic State, the Yazidi genocide attracted international attention and prompted the United States to establish CJTF–OIR, a military coalition consisting of many Western countries and Turkey, Morocco, and Jordan. Additionally, the United States, the United Kingdom, and Australia made emergency airdrops to support Yazidi refugees who were trapped in the Sinjar Mountains due to the Islamic State's Northern Iraq offensive of A | other articles: 2026 Munich Yazidi genocide trial, 2026 in Germany"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_WE3LFKaik93EwoANnCogEhZz",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"2026 in Germany\",\"keywords\":\"Munich court imprisoned Iraqi couple Yazidi girls\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_WE3LFKaik93EwoANnCogEhZz",
+   "content": "13 July – A Munich court imprisons an Iraqi couple who were members of Islamic State for enslaving and raping Yazidi girls."
+  },
+  {
+   "role": "assistant",
+   "content": "The Munich court imprisoned the Iraqi couple on July 13, 2026, for enslaving and raping Yazidi girls. \n\nFINAL: July 13, 2026",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

@@ -1,0 +1,52 @@
+{
+ "task": {
+  "id": "fresh-139",
+  "source": "fresh",
+  "question": "How much did Michelangelo's preparatory sketch of a foot for The Libyan Sibyl sell for at Christie’s on February 5, 2026?",
+  "answer": "$27.2 million",
+  "evidence": "February 5 – Michelangelo's preparatory sketch of a foot for The Libyan Sibyl is sold at Christie’s for $27.2 million including fees.",
+  "page": "2026 in art",
+  "url": "https://en.wikipedia.org/wiki/2026_in_art"
+ },
+ "answer": "Michelangelo's preparatory sketch of a foot for The Libyan Sibyl sold for $27.2 million at Christie's on February 5, 2026. \n\nFINAL: $27.2 million",
+ "correct": true,
+ "cost": 0.000256800000000057,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You answer questions about recent events (2025–2026). Never answer from memory: use web_search (and tavily_search if available) to find the right article, then page_find to look inside long articles such as '2026 in <country or field>' for the specific fact. Do not repeat the same call. When done, write the last line as FINAL: <short answer>."
+  },
+  {
+   "role": "user",
+   "content": "How much did Michelangelo's preparatory sketch of a foot for The Libyan Sibyl sell for at Christie’s on February 5, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_hMebVDsOy50oHqBVOcGhqAGJ",
+     "function": {
+      "name": "tavily_search",
+      "arguments": "{\"query\":\"Michelangelo preparatory sketch foot Libyan Sibyl Christie’s February 5 2026 sale\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_hMebVDsOy50oHqBVOcGhqAGJ",
+   "content": "[Michelangelo study for the Sistine Chapel sells for $27.2M | Christie’s](https://www.christies.com/en/stories/michelangelo-sistine-chapel-drawing-discovery-309182ff3ac24a498fe7ae60c2cb790d) A framed sepia sketch depicts a human foot, displayed against a dark fabric background. Study for the right foot of The Libyan Sibyl on the Sistine Chapel ceiling, about 1511-12. Michelangelo Buonarroti (Caprese 1475-1564 Rome). Red chalk on paper. Inscribed ‘Michelangelo Buona Roti’. 5.1/4 x 4.5/8 in. (13.5 x 11.5 cm). Sold for $27,200,000 in Old Master and British Drawings on 5 February 2026 at Christie’s in New York [...] Study for the right foot of The Libyan Sibyl on the Sistine Chapel ceil\n[Experts Say This Small Drawing of a Foot May Be a Long-Lost Study for Michelangelo's Sistine Chapel Ceiling](https://www.smithsonianmag.com/smart-news/experts-say-this-small-drawing-of-a-foot-may-be-a-long-lost-study-for-michelangelos-sistine-chapel-ceiling-180987761) Share EmailSMSFacebookXRedditLinkedInBlueskyPrint Add as preferred source Christie’s/ The drawing will be auctioned off on February 5, 2026. Christie’s [...] The foot study is one of only ten known privately owned Michelangelo drawings, according to Christie’s. On February 5, 2026, it will become the first unrecorded study for the Sistine ceiling to hit the auction block. Quick fact: What’s the most expensive Michelangelo drawing? An early pen and ink drawing of a male nude broke auction records\n[MICHELANGELO BUONARROTI (CAPRESE 1475-1564 ROME), Study for a foot of the Libyan Sibyl (recto); Study of a leg with knee bent (verso) | Christie's](https://www.christies.com/en/lot/lot-6571681) MICHELANGELO BUONARROTI (CAPRESE 1475-1564 ROME) .jpg?w=1) MICHELANGELO BUONARROTI (CAPRESE 1475-1564 ROME) .jpg?w=1) MICHELANGELO BUONARROTI (CAPRESE 1475-1564 ROME) .jpg?w=1) # Study for a foot of the Libyan Sibyl (recto); Study of a leg with knee bent (verso) ## Brought to you by Giada Damen, Ph.D. ## Lot Essay ## More from Old Master and British Drawings\n[Michelangelo](https://en.wikipedia.org/wiki/Michelangelo) Angel by Michelangelo, early work (1494–95)\") Angel \"Angel (Michelangelo)\") by Michelangelo, early work (1494–95) Bacchus by Michelangelo, early work (1496–1497)\") Bacchus \"Bacchus (Michelangelo)\") by Michelangelo, early work (1496–1497) Dying Slave, Louvre (1513)\") Dying Slave, Louvre (1513) Atlas Slave (1530–1534)\") Atlas Slave (1530–1534) ### Sistine Chapel ceiling Main article: Sistine Chapel ceiling \") The Libyan "
+  },
+  {
+   "role": "assistant",
+   "content": "Michelangelo's preparatory sketch of a foot for The Libyan Sibyl sold for $27.2 million at Christie's on February 5, 2026. \n\nFINAL: $27.2 million",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

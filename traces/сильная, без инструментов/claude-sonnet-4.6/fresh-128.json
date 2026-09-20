@@ -1,0 +1,22 @@
+{
+ "task": {
+  "id": "fresh-128",
+  "source": "fresh",
+  "question": "Who won the 2026 Open Championship at Royal Birkdale in July 2026?",
+  "answer": "Ryan Fox",
+  "evidence": "July 16–19: 2026 Open Championship at Royal Birkdale Golf Club in Southport, England – Ryan Fox",
+  "page": "2026 in sports",
+  "url": "https://en.wikipedia.org/wiki/2026_in_sports"
+ },
+ "answer": "FINAL: Unknown.",
+ "correct": false,
+ "cost": 0.0002160000000000009,
+ "messages": [
+  {
+   "role": "assistant",
+   "content": "Unknown.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

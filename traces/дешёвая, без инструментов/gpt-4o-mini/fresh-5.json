@@ -1,0 +1,24 @@
+{
+ "task": {
+  "id": "fresh-5",
+  "source": "fresh",
+  "question": "How many people were killed in the car incident in Leipzig, Germany in May 2026?",
+  "answer": "two people",
+  "evidence": "4 May – A car plows into a crowd in Grimmaische Strasse in Leipzig, killing two people and injuring 22 others.",
+  "page": "2026 in Germany",
+  "url": "https://en.wikipedia.org/wiki/2026_in_Germany",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "FINAL: Unknown.",
+ "correct": false,
+ "cost": 7.800000000000515e-06,
+ "messages": [
+  {
+   "role": "assistant",
+   "content": "Unknown.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

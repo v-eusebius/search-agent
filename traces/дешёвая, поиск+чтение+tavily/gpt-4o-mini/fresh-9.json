@@ -1,0 +1,54 @@
+{
+ "task": {
+  "id": "fresh-9",
+  "source": "fresh",
+  "question": "What city hosted the 2026 BWF World Championships in sports in August?",
+  "answer": "New Delhi",
+  "evidence": "August 17 – 23 : 2026 BWF World Championships in New Delhi, India",
+  "page": "2026 in sports",
+  "url": "https://en.wikipedia.org/wiki/2026_in_sports",
+  "sonnet_answer": "Zhengzhou",
+  "agent_ok": true
+ },
+ "answer": "The 2026 BWF World Championships will be hosted in New Delhi, India, from August 17 to 23, 2026. This event marks India's return to hosting the championship after 17 years. \n\nFINAL: New Delhi, India.",
+ "correct": true,
+ "cost": 0.000249600000000072,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You answer questions about recent events (2025–2026). Never answer from memory: use web_search (and tavily_search if available) to find the right article, then page_find to look inside long articles such as '2026 in <country or field>' for the specific fact. Do not repeat the same call. When done, write the last line as FINAL: <short answer>."
+  },
+  {
+   "role": "user",
+   "content": "What city hosted the 2026 BWF World Championships in sports in August?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_n5HjWr8eqV1LxXYPhrQUruJT",
+     "function": {
+      "name": "tavily_search",
+      "arguments": "{\"query\":\"2026 BWF World Championships host city August\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_n5HjWr8eqV1LxXYPhrQUruJT",
+   "content": "[Facebook](https://www.facebook.com/fb-answers/badminton-world-championship-host-cities) Log In Log In Forgot Account? ## Badminton World Championship Host Cities Summarized by Meta AI 50 people talking about this New Delhi will host the 2026 BWF World Championships from August 17-23, marking India's return after 17 years since Hyderabad in 2009. Geelong, Australia is set to host the BWF World Senior Championships 2027 from November 28 to December 5. Upcoming BWF World Championships Host Cities [...] The main BWF World Championships are heading to New Delhi, India in August 2026 for\n[2026 BWF World Championships - Wikipedia](https://en.wikipedia.org/wiki/2026_BWF_World_Championships) For the World Para-Badminton Championships organsied by Badminton World Federation, see 2026 BWF Para-Badminton World Championships. Badminton tournament 2026 BWF World Championships | Tournament details | | Dates | 17 – 23 August 2026 | | Edition | 30th | | Level | International | | Venue | Indira Gandhi Arena | | Location | New Delhi, India | | Official website | Tournament link at bwfbadminton.com | | | | | --- | | ← 2025 Paris | 2027 TBC\") → | | [...] The 2026 BWF World Championships is the \n[Results | BWF World Championships 2026](https://bwfworldchampionships.bwfbadminton.com/results) ## BWF WORLD CHAMPIONSHIPS #### OTHER RESULTS logo ## BWF World Championships 2026 #### 17 - 23 August, India DRAWS 17 Aug 18 Aug 19 Aug 20 Aug 21 Aug 22 Aug 23 Aug PODIUM ### TOURNAMENT WINNERS 2026 WOMEN'S SINGLES 66 ENTRIES FROM 37 COUNTRIES GOLD AN Se Young SILVER Akane YAMAGUCHI BRONZE WANG Zhi Yi BRONZE Pornpawee CHOCHUWONG MEN'S DOUBLES 51 ENTRIES FROM 28 COUNTRIES GOLD [...] BWF World Championships + BWF Fan Zone + BWF World Championships;) + BWF Thomas & Uber Cup Finals + HSBC BWF World\n[BWF World Championships - Wikipedia](https://en.wikipedia.org/wiki/BWF_World_Championships) | 12–19 December | Japan (2) | | 2022 | XXVII | Tokyo (1) | Japan (1) | 22–28 August | China (20) | | 2023 | XXVIII | Copenhagen (5) | Denmark (5) | 21–27 August | South Korea (2) | | 2025 | XXIX | Paris (2) | France (2) | 25–31 August | China (21) | | 2026 | XXX | New Delhi (1) | India (2) | 17–23 August | South Korea (3) | | [...] | 2019 | XXV | Basel (1) | Switzerland (2) | 19–25 August | Japan (1) | | 2021 | XXVI | Huelva (1) | Spain (3) | 12–19 December | Japan (2) | | 2022 | XXVII | Tokyo \n[Tournament | BWF World Championships 2026](https://bwfbadminton.com/tournament/5601/bwf-world-championships-2026/"
+  },
+  {
+   "role": "assistant",
+   "content": "The 2026 BWF World Championships will be hosted in New Delhi, India, from August 17 to 23, 2026. This event marks India's return to hosting the championship after 17 years. \n\nFINAL: New Delhi, India.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

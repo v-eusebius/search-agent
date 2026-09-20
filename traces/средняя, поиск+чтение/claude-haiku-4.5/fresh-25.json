@@ -1,0 +1,76 @@
+{
+ "task": {
+  "id": "fresh-25",
+  "source": "fresh",
+  "question": "In the Afghanistan–Pakistan war, what did the government of Pakistan declare on February 26, 2026?",
+  "answer": "\"open war\"",
+  "evidence": "February 26 – 2026 Afghanistan–Pakistan war: The government of Pakistan declares \"open war\" against the Taliban in Afghanistan.",
+  "page": "2026",
+  "url": "https://en.wikipedia.org/wiki/2026",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "Perfect! I found the information. Let me verify the specific details about what Pakistan declared on February 26, 2026.\n\nAccording to the search results, on February 26, 2026, Pakistan declared an **\"open war\"** against Afghanistan. This declaration came after Taliban forces launched retaliatory attacks on Pakistani military positions and border outposts on that date. Following this declaration, Pakistan launched **Operation Ghazab lil Haq**, a large-scale campaign involving air and ground strikes against Taliban positions across eastern Afghanistan.\n\nFINAL: On February 26, 2026, the government of Pakistan declared an \"open war\" against Afghanistan and launched Operation Ghazab lil Haq.",
+ "correct": true,
+ "cost": 0.006579999999999975,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You answer questions about recent events (2025–2026). Never answer from memory: use web_search (and tavily_search if available) to find the right article, then page_find to look inside long articles such as '2026 in <country or field>' for the specific fact. Do not repeat the same call. When done, write the last line as FINAL: <short answer>."
+  },
+  {
+   "role": "user",
+   "content": "In the Afghanistan–Pakistan war, what did the government of Pakistan declare on February 26, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "I'll search for information about what Pakistan's government declared on February 26, 2026, regarding the Afghanistan-Pakistan war.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_019WLMBVZxbm7ER4wCXdwZuW",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\": \"Pakistan February 26 2026 Afghanistan war declaration\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_019WLMBVZxbm7ER4wCXdwZuW",
+   "content": "[2026 Iran war] Since 28 February 2026, the United States and Israel have been at war with Iran and its regional allies. Hostilities broke out after US–Israeli airstrikes killed several Iranian officials, including Supreme Leader Ali Khamenei. The strikes were launched amid ongoing US–Iran negotiations regarding Iran's nuclear program. The war is part of a Middle Eastern crisis sparked by the Gaza war. It follows the Twelve-Day War and was preceded by the largest US military buildup in the region since the 2003 invasion of Iraq. US justifications for initiating the war included a response to the crackdown on anti-government protests in Iran, preventing Iran from obtaining a nuclear weapon, regime change, and taking Iran's oil and gas resources. Critics have rejected these justifications, maintaining that the attack initiated a war of aggression, in violation of international law. Following a decentralized strategy, Iranian units responded with a series of devastating missile and drone attacks against Israel and US military bases in the Middle East, US allies in the Middle East, and by blocking the Strait of Hormuz and subsequently claiming sovereignty over it in late March. Following the strikes on their territory, the United Arab Emirates, Saudi Arabia, Kuwait, and Bahrain also attacked Iran and skirmished with its Iraqi non-state allies. Two days after Khamenei's assassination, fighting resumed between Hezbollah and Israel. Israel began occupying southern Lebanon in March. An escalation of | other articles: Durand Line, 2025 Afghanistan–Pakistan conflict"
+  },
+  {
+   "role": "assistant",
+   "content": "Let me search more specifically for the Afghanistan-Pakistan conflict in 2026.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01RowoDCGTorb3c6J5BAT68N",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\": \"2026 Afghanistan Pakistan conflict\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01RowoDCGTorb3c6J5BAT68N",
+   "content": "[2026 Afghanistan–Pakistan war] A war began in late February 2026 between Afghanistan and Pakistan following Pakistani airstrikes on militant targets in eastern Afghanistan. Pakistan said the strikes targeted militant camps belonging to the Pakistani Taliban (TTP) and the Islamic State – Khorasan Province (ISIS–K), in retaliation for recent cross-border attacks in Pakistan, while Afghan authorities and the United Nations Assistance Mission in Afghanistan (UNAMA) have reported casualties, though with different figures. The initial strikes escalated into a broader cross-border confrontation involving airstrikes, artillery exchanges, drone incidents, and clashes at multiple points along the Afghanistan–Pakistan border. On 26 February, Taliban forces launched retaliatory attacks on Pakistani military positions and border outposts, describing them as a calculated response. Pakistan subsequently declared an \"open war\" against Afghanistan and launched Operation Ghazab lil Haq, a large-scale campaign involving air and ground strikes against Taliban positions across eastern Afghanistan. Both sides have reported widely differing casualty figures and military outcomes, with each disputing the other's claims regarding losses, damage, and responsibility for civilian casualties. Independent reporting and satellite imagery have indicated that many Pakistani strikes were directed at military-related sites. The conflict has had significant humanitarian and political consequences. UNAMA reported civilian deaths and injuries  | other articles: 2025 Afghanistan–Pakistan conflict, 2026 in Afghanistan"
+  },
+  {
+   "role": "assistant",
+   "content": "Perfect! I found the information. Let me verify the specific details about what Pakistan declared on February 26, 2026.\n\nAccording to the search results, on February 26, 2026, Pakistan declared an **\"open war\"** against Afghanistan. This declaration came after Taliban forces launched retaliatory attacks on Pakistani military positions and border outposts on that date. Following this declaration, Pakistan launched **Operation Ghazab lil Haq**, a large-scale campaign involving air and ground strikes against Taliban positions across eastern Afghanistan.\n\nFINAL: On February 26, 2026, the government of Pakistan declared an \"open war\" against Afghanistan and launched Operation Ghazab lil Haq.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

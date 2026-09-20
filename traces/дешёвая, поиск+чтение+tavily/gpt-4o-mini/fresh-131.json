@@ -1,0 +1,52 @@
+{
+ "task": {
+  "id": "fresh-131",
+  "source": "fresh",
+  "question": "Who won the 2026 Women's British Open at Royal Lytham & St Annes?",
+  "answer": "Shiho Kuwaki",
+  "evidence": "July 30 – August 2: 2026 Women's British Open at Royal Lytham & St Annes Golf Club in Lytham St. Annes, England– Shiho Kuwaki",
+  "page": "2026 in sports",
+  "url": "https://en.wikipedia.org/wiki/2026_in_sports"
+ },
+ "answer": "Shiho Kuwaki won the 2026 Women's British Open at Royal Lytham & St Annes, defeating Esther Henseleit in a two-hole playoff after finishing the final round with a score of 1-under 70. FINAL: Shiho Kuwaki.",
+ "correct": true,
+ "cost": 0.0002427000000000401,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You answer questions about recent events (2025–2026). Never answer from memory: use web_search (and tavily_search if available) to find the right article, then page_find to look inside long articles such as '2026 in <country or field>' for the specific fact. Do not repeat the same call. When done, write the last line as FINAL: <short answer>."
+  },
+  {
+   "role": "user",
+   "content": "Who won the 2026 Women's British Open at Royal Lytham & St Annes?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_CzOWt5P78AjgvDXuL4xLBKk6",
+     "function": {
+      "name": "tavily_search",
+      "arguments": "{\"query\":\"2026 Women's British Open winner Royal Lytham & St Annes\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_CzOWt5P78AjgvDXuL4xLBKk6",
+   "content": "[AIG Women's Open | Overview | LPGA | Ladies Professional Golf Association](https://www.lpga.com/tournaments/aigwomensopen/overview) I n 2026, Shiho Kuwaki won her first LPGA Tour and major title Sunday at Royal Lytham and St Annes, defeating Esther Henseleit in a two-hole playoff after carding a final-round 1-under 70 at the AIG Women's Open. This event was added to the official LPGA Tour schedule in 1994 and became a major championship in 2001. [...] SKIP TO MAIN CONTENT Login or Sign Up LPGA Home Shop LPGA Home - Leaderboard - Shop Login or Sign Up 2026 Champion Shiho Kuwaki Score -5 Official Money $1,500,000 2026 Champion\n[AIG Women's Open 2026 leaderboard: Final golf scores from Royal Lytham & St Annes, as Shiho Kuwaki claimed major victory | Golf News | Sky Sports](https://www.skysports.com/golf/news/11071/13567418/aig-womens-open-2026-leaderboard-latest-golf-scores-from-royal-lytham-and-st-annes-weather-and-tee-times-for-final-womens-major-of-the-year) Overnight leader Yealimi Noh finished a shot back in third after a final-round 74, while Nelly Korda and Jeeno Thitikul - the world's top two - ended a further stroke back in a share of fourth. Charley Hull and Lottie Woad's hopes of a home victory and third consecutive British winner at Royal Lytham end in a share of sixth, four strokes back, with Haeran Ryu - chasing a third consecutive major title - also ending on one under. ### Also See: AIG Women's Open: Latest news and video [...] Final le\n[AIG Women's Open](https://www.aigwomensopen.com) News #### Anna Nordqvist / 2021 Champion draws the curtain on remarkable career Shiho Kuwaki poses with the trophy after winning the AIG Women Royal Lytham & St Annes 2026 #### Story of the Championship / Full recap as Shiho Kuwaki wins 50th edition of AIG Women's Open More news ### FEATURES Nelly Korda in action at the AIG Women Royal Lytham & St Annes 2026 [...] Shiho Kuwaki of Japan celebrates victory on the 18th green during a second playoff round during the final round of the AIG Women's Op\n[Women’s Open | Royal Lytham & St Annes Golf Club](https://www.royallytham.org/heritage/womens-open) + The Lytham Trophy + Past Winners + Lytham Trophy 2026 Contact + Contact + Careers + Find us Visitor Booking Members) Telephone +44 (0)1253 724206 Website by Golfworking Twitter Facebook Instagram 01 01 Heritage Women’s Open Heritage + Our Heritage + The Open + Women’s Open + Senior Open + Ryder Cup + Walker Cup + Curtis Cup Women’s Open + 2026 + 2018 + 2009 + 2006 + 20"
+  },
+  {
+   "role": "assistant",
+   "content": "Shiho Kuwaki won the 2026 Women's British Open at Royal Lytham & St Annes, defeating Esther Henseleit in a two-hole playoff after finishing the final round with a score of 1-under 70. FINAL: Shiho Kuwaki.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

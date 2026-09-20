@@ -1,0 +1,192 @@
+{
+ "task": {
+  "id": "fresh-37",
+  "source": "fresh",
+  "question": "On what date did resident doctors in England announce a four-day strike in June 2026?",
+  "answer": "15 June",
+  "evidence": "Resident doctors in England announce a four-day strike from 7am on 15 June, their 16th strike action over a pay dispute.",
+  "page": "2026 in the United Kingdom",
+  "url": "https://en.wikipedia.org/wiki/2026_in_the_United_Kingdom",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "Неизвестно.",
+ "correct": false,
+ "cost": 0.00176804999999991,
+ "escalated": false,
+ "confidence": 0.9,
+ "agent_messages": [
+  {
+   "role": "system",
+   "content": "You answer questions about recent events (2025–2026). Never answer from memory: use web_search (and tavily_search if available) to find the right article, then page_find to look inside long articles such as '2026 in <country or field>' for the specific fact. Do not repeat the same call. When done, write the last line as FINAL: <short answer>."
+  },
+  {
+   "role": "user",
+   "content": "On what date did resident doctors in England announce a four-day strike in June 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_kXBB2B7Tpvl7kdF78YhWtYwW",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"England resident doctors four-day strike June 2026 announcement date\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_kXBB2B7Tpvl7kdF78YhWtYwW",
+   "content": "[2026 in the United States] The following is a list of events of the year 2026 in the United States, as well as predicted and scheduled events that have not yet occurred. July 4, 2026 was the 250th anniversary of the signing of the Declaration of Independence of the United States from Great Britain. Under the second year of Donald Trump's second presidency, the United States has engaged in attacks against its adversaries. In January 2026, the U.S. launched a military raid in Venezuela that captured its president Nicolás Maduro. In February 2026, the U.S. launched a major attack on Iran with Israel with the stated goal of regime change, killing its leader Ali Khamenei. Domestically, the US underwent two partial government shutdowns, with the first lasting four days, from January 31 to February 3, and the second lasting approximately 76 days, from February 14 to April 30, becoming the longest government shutdown in U.S. history and impacting the US Department of Homeland Security, with the core issue regarding the funding of Immigration and Customs Enforcement. In addition, 2026 saw the first major judicial actions against prediction markets, in particular Kalshi and the usage of its platform and other prediction markets to bypass state regulations on sports betting, with Nevada being the first to land a court-enforced ban of Kalshi and Arizona being the first to file criminal charges against Kalshi. In science and technology, the most prominent story so far has been the April 2026 NASA mission Artemis II | other articles: Gaza war, 2024 United Kingdom general election"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_N1CE2OyTdClxxiCFQIxQzzEh",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"resident doctors England strike June 2026 date\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_N1CE2OyTdClxxiCFQIxQzzEh",
+   "content": "[Resident doctor (United Kingdom)] In the United Kingdom, a resident doctor, known until 2024 as a junior doctor, is a qualified medical practitioner who is either engaged in postgraduate training or employed in a non-training post. The period of being a resident doctor starts when they qualify as a medical practitioner following graduation with a Bachelor of Medicine, Bachelor of Surgery degree and start the UK Foundation Programme. It culminates in a post as a consultant, a general practitioner (GP), or becoming a SAS doctor (Specialty, Associate Specialist, or Specialist doctor). The term resident doctor currently incorporates the grades of foundation doctor, core trainee (in some specialties, such as surgery, medicine, and psychiatry), and specialty registrar. Before 2007, it included the grades of pre-registration house officer, senior house officer and specialist registrar. During this time, resident doctors will do postgraduate examinations to become members of a medical royal college relevant to the specialty in which they are training, for example membership of the Royal College of Physicians for doctors specialising in internal medicine, membership of the Royal College of Surgeons for doctors specialising in surgery or membership of the Royal College of General Practitioners for doctors specialising in family medicine. Doctors typically may be resident doctors for 8–20 years, and this may be extended by doing research towards a higher degree, for example a Doctor of Philosophy or Doctor of Medicine d | other articles: 2026 in England, List of American films of 2026"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_mu4J1C8WoSnCzwZ5P2MAepn7",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"junior doctors strike announcement June 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_mu4J1C8WoSnCzwZ5P2MAepn7",
+   "content": "[2024–2026 South Korean medical crisis] The 2024–2026 South Korean medical crisis is an ongoing healthcare crisis following the announcement of new government policies that significantly increased medical student admission quotas. In response to the policy, thousands of residents and interns resigned, which resulted in triage being implemented and less essential medical procedures being delayed, with some patients reporting months long delays. There has also been student boycotts and street protests. The South Korean government labeled medical professionals' actions as \"illegal collective actions.\" The government said that quota increase is needed because South Korea has a rapidly aging population and that the increasing proportion of elderly people will place an increasing burden on the health care system as time goes by. They also report that rural areas and key medical fields such as pediatrics are suffering from a doctor shortage. On the other hand, the Korean Medical Association (KMA), a trade union which represents doctors, stated that governmental mismanagement is the primary cause of the shortage, that reform—rather than an increased number of doctors—is needed to address it. They have also argued that the healthcare system struggles with insufficient financial support from the government and that increasing the quantity of medical students would require lowered standards that would cause a decrease in the quality of medical care. | other articles: United Kingdom industrial disputes and strikes (2022–present), Jeremy Hunt"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_ID9miFyE90FInuqTT15k2HnR",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"junior doctors England June 2026 strike plan announcement\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_ID9miFyE90FInuqTT15k2HnR",
+   "content": "[United Kingdom industrial disputes and strikes (2022–present)] Since May–June 2022, a series of labour strikes and industrial disputes have occurred in various industries of the United Kingdom's economy as workers walked out over pay and conditions. The strikes took place with rising inflation, and demands for pay increases that would keep pace with this inflation. The strikes began on 15 June 2022 after members of the National Union of Rail, Maritime and Transport Workers (RMT) voted to strike over planned changes to their pay and working conditions. They were soon joined by other railway unions, and a series of one-day strikes halted trains in many parts of the British mainland. Train services operated at 20% of normal capacity on strike days. Public support for the strikes was organised through the Enough is Enough! campaign. With industrial action on the railways ongoing, trade union members working in other industries voted to take industrial action, including telecommunications, the postal service, legal profession and freight, as well as other areas of the transport sector. | other articles: Jeremy Hunt, Keir Starmer"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_zSMSC15AGAuEQm52QIueMv3N",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"England doctors four-day strike announcement June 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_zSMSC15AGAuEQm52QIueMv3N",
+   "content": "[Avengers: Doomsday] Avengers: Doomsday is an upcoming American superhero film based on the Marvel Comics superhero team the Avengers. Produced by Marvel Studios and distributed by Walt Disney Studios Motion Pictures, it is intended to be the sequel to Avengers: Endgame (2019) and the 39th film in the Marvel Cinematic Universe (MCU). Directed by Anthony and Joe Russo, and written by Michael Waldron, Stephen McFeely, and the writing team of Chris McKenna and Erik Sommers, the film features an ensemble cast led by Robert Downey Jr. as Doctor Doom. In the film, the Avengers, Wakandans, New Avengers, Fantastic Four, and the X-Men converge from different universes to face Doom. Two new Avengers films, The Kang Dynasty and Secret Wars, were announced in July 2022 as the conclusion of the MCU's Phase Six and \"The Multiverse Saga\". Jonathan Majors was set to reprise his MCU role as the villain Kang the Conqueror, with Destin Daniel Cretton and Jeff Loveness hired to direct and write The Kang Dynasty, respectively. In November 2023, Cretton departed, Waldron replaced Loveness as writer, and Marvel was considering moving away from the Kang storyline, in part due to Majors's legal issues; Majors was fired the following month. The return of the Russo brothers as directors and McFeely as co-writer, the casting of Downey as new villain Doctor Doom, and the new subtitle Doomsday were all announced in July 2024. The large cast features actors from previous MCU media and 20th Century Fox's X-Men film series, usin | other articles: The Fantastic Four: First Steps, United Kingdom industrial disputes and strikes (2022–present)"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_1fqBFHnQdUkDEJGxV74XFfqG",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"junior doctors England four-day strike June 2026 news\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_1fqBFHnQdUkDEJGxV74XFfqG",
+   "content": "[2026 European heatwaves] Starting in late May 2026, several severe heatwaves affected Europe. Temperature records were broken in Austria, Belarus, Belgium, Czech Republic, Denmark, France, Germany, Hungary, Ireland, Italy, the Netherlands, Poland, Romania, Slovakia, Slovenia, Spain, Switzerland and the United Kingdom. The first heatwave began on 24 May, with temperatures higher than normal and several heat-related deaths. Temperatures were the highest ever recorded for May, with climate change causing the earlier onset of Central Europe's summer. Western Europe was the most affected area, with reports of record-breaking temperatures in France, Ireland and the United Kingdom. Other countries with unusually high temperatures were Portugal, at 40 °C (104 °F), and Spain, with temperatures in the southwest reaching 39 °C (102 °F). A second, more severe heatwave began on 17 June, just days before the summer solstice. In France, Météo-France declared 23 June the country's hottest day since measurements began in 1947, with temperatures reaching 44.3 °C (111.7 °F) in Pissos, 42.1 °C (107.8 °F) in Bordeaux, and a June record of 40.9 °C (105.6 °F) in Paris. In the United Kingdom, temperatures peaked at 38.0 °C (100.4 °F). On 26 June, the World Meteorological Organization said the heatwave was expected to affect many areas of western, central, and southern Europe over the following two weeks, with the focus of the heat likely to shift towards the Balkans. By 5 July, over 5,600 excess deaths were reported. Analys | other articles: United Kingdom industrial disputes and strikes (2022–present), 2022–2024 National Health Service strikes"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_o9ywAyTzG76tukAoDrWd9FX1",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"junior doctors strike June 2026 dates England announcement news\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_o9ywAyTzG76tukAoDrWd9FX1",
+   "content": "[United Kingdom industrial disputes and strikes (2022–present)] Since May–June 2022, a series of labour strikes and industrial disputes have occurred in various industries of the United Kingdom's economy as workers walked out over pay and conditions. The strikes took place with rising inflation, and demands for pay increases that would keep pace with this inflation. The strikes began on 15 June 2022 after members of the National Union of Rail, Maritime and Transport Workers (RMT) voted to strike over planned changes to their pay and working conditions. They were soon joined by other railway unions, and a series of one-day strikes halted trains in many parts of the British mainland. Train services operated at 20% of normal capacity on strike days. Public support for the strikes was organised through the Enough is Enough! campaign. With industrial action on the railways ongoing, trade union members working in other industries voted to take industrial action, including telecommunications, the postal service, legal profession and freight, as well as other areas of the transport sector. | other articles: Jeremy Hunt, 2025 in England"
+  },
+  {
+   "role": "user",
+   "content": "Инструменты больше недоступны. Ответь по тому, что уже известно, последней строкой FINAL: <ответ>."
+  },
+  {
+   "role": "assistant",
+   "content": "Извините, у меня нет информации о дате объявления четырехдневной забастовки резидентами в Англии в июне 2026 года. Вам стоит проверить последние новости или специализированные источники для получения этой информации.\n\nFINAL: Неизвестно.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

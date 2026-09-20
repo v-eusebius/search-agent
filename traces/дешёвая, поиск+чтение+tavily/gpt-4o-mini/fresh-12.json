@@ -1,0 +1,98 @@
+{
+ "task": {
+  "id": "fresh-12",
+  "source": "fresh",
+  "question": "What is the number of children receiving support for special educational needs and disabilities in the United Kingdom in January 2026?",
+  "answer": "700,000",
+  "evidence": "The number of children getting support for special educational needs and disabilities has increased by 12% between January 2025 and January 2026, UK government figures indicate, with 700,000 children now receiving help.",
+  "page": "2026 in the United Kingdom",
+  "url": "https://en.wikipedia.org/wiki/2026_in_the_United_Kingdom",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "As of January 2026, approximately 700,000 children in the United Kingdom are receiving support for special educational needs and disabilities. This marks a 12% increase from the previous year. \n\nFINAL: 700,000 children",
+ "correct": true,
+ "cost": 0.0005585999999999647,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You answer questions about recent events (2025–2026). Never answer from memory: use web_search (and tavily_search if available) to find the right article, then page_find to look inside long articles such as '2026 in <country or field>' for the specific fact. Do not repeat the same call. When done, write the last line as FINAL: <short answer>."
+  },
+  {
+   "role": "user",
+   "content": "What is the number of children receiving support for special educational needs and disabilities in the United Kingdom in January 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_q4aZ5i5vFyrMX8kEfV5E54oH",
+     "function": {
+      "name": "tavily_search",
+      "arguments": "{\"query\":\"children support special educational needs disabilities UK January 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_q4aZ5i5vFyrMX8kEfV5E54oH",
+   "content": "[Number of children getting special educational needs support hits record high](https://www.bbc.com/news/articles/cj4g18gy14no) Between January 2025 and January 2026, there was a 12.5% increase in the number of children with education, health and care plans (EHCPs) - the legal documents setting out the support they are entitled to. It is the highest yearly increase since EHCPs were introduced over a decade ago, with numbers now over 700,000. [...] ## Mother fights council over school transport mix up ## Parent power wins the day in primary school site battle ## Head teacher defends suspending 25 pupils in one week ### Th\n[And so it begins: 2026 will be the year of a huge Special Needs battle, and this is why](https://maybeimamazed.substack.com/p/and-so-it-begins-2026-will-be-the) This is part of what will be a massive shift, as far-reaching and demanding as any change to the education system in years. Just before Christmas, the government announced £3 billion in capital funding for a “transformational expansion of specialist, calm learning spaces in mainstream schools, equipped with facilities to support children with special educational needs and disabilities”. But that only really covers the buildings: it still leaves huge questions about how kids will be taught, by [.\n[Special Educational Needs: support in England](https://commonslibrary.parliament.uk/research-briefings/sn07020) On 11 June 2025, as part of the Spending Review, the government confirmed that its intended approach to SEND reform would be set out in a schools white paper in autumn 2025. This has since been delayed to early 2026. ## Pressure on local authority finances In recent years, numerous reports have described increasing pressure on local authority finances relating to SEND, with EHCP numbers rising sharply and increased costs in other areas such as transport. [...] 1. UK Parliament 2. House of Common\n[Children with special educational needs and disabilities (SEND): Overview - GOV.UK](https://www.gov.uk/children-with-special-educational-needs) Contact your local council if your child is not in a school or nursery. Your local Information, Advice and Support (IAS) Service can give you advice about SEND. ## Support your child can receive Your child may be eligible for: SEN support - support given in school, like speech therapy an education, health and care (EHC) plan - a plan of care for children and young people aged up to 25 who have more complex needs [...] View cookies # Children wit"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_JUi0jgPQYHx1i5L6iqjFLMrM",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"Number of children getting special educational needs support hits record high\",\"keywords\":\"January 2026, children, special educational needs, support\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_JUi0jgPQYHx1i5L6iqjFLMrM",
+   "content": "no such page"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_jTA80k4BvuRfqw5xaBL5UaKT",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"2026 in the United Kingdom\",\"keywords\":\"special educational needs, disabilities, children\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_jTA80k4BvuRfqw5xaBL5UaKT",
+   "content": "The UK government announces an overhaul of provisions for children with special educational needs and disabilities in England, with education, health and care plans restricted to children with the most complex special educational needs from 2035.\nThe number of children getting support for special educational needs and disabilities has increased by 12% between January 2025 and January 2026, UK government figures indicate, with 700,000 children now receiving help."
+  },
+  {
+   "role": "assistant",
+   "content": "As of January 2026, approximately 700,000 children in the United Kingdom are receiving support for special educational needs and disabilities. This marks a 12% increase from the previous year. \n\nFINAL: 700,000 children",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

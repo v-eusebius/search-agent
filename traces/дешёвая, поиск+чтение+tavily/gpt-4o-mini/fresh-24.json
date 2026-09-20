@@ -1,0 +1,98 @@
+{
+ "task": {
+  "id": "fresh-24",
+  "source": "fresh",
+  "question": "In the United Kingdom, what is declared across the whole of Wales in July 2026?",
+  "answer": "a drought",
+  "evidence": "2026 United Kingdom heatwaves: A drought is declared across the whole of Wales, with the country on course to experience its driest July for 190 years.",
+  "page": "2026 in the United Kingdom",
+  "url": "https://en.wikipedia.org/wiki/2026_in_the_United_Kingdom",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "In July 2026, a drought was declared across the whole of Wales due to ongoing dry conditions, marking the month as on course to be the driest recorded in nearly 190 years. FINAL: Drought declared across all of Wales.",
+ "correct": true,
+ "cost": 0.0005431500000000478,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You answer questions about recent events (2025–2026). Never answer from memory: use web_search (and tavily_search if available) to find the right article, then page_find to look inside long articles such as '2026 in <country or field>' for the specific fact. Do not repeat the same call. When done, write the last line as FINAL: <short answer>."
+  },
+  {
+   "role": "user",
+   "content": "In the United Kingdom, what is declared across the whole of Wales in July 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_OLCuwULALjVlXbKLB534DNXP",
+     "function": {
+      "name": "tavily_search",
+      "arguments": "{\"query\":\"Wales July 2026 declaration\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_OLCuwULALjVlXbKLB534DNXP",
+   "content": "[Oral Statement: New Development Agency for Wales](https://www.gov.wales/oral-statement-new-development-agency-wales) On 7th July 2026, an oral statement was made in the Senedd: New Development Agency for Wales (External Link).\n[Drought declared in parts of Wales as July on course to be ...](https://www.theguardian.com/uk-news/2026/jul/23/drought-declared-north-wales-upper-severn-heatwaves-rainfall) Drought declared in parts of Wales as July on course to be driest in nearly 200 years. Thu 23 Jul 2026 11.46 EDT\n[Wales Signs Agreement to Celebrate 250th Anniversary of ...](https://www.eastaurorany.com/articles/wales-signs-agreement-to-celebrate-250th-anniversary-of-the-declaration-of-independence) The agreement says that all events and activities will take place July 3 to 5, 2026.\n[Wales Committee declarations of interest](https://www.equalityhumanrights.com/about-us/how-we-operate/our-committees/wales-committee/wales-committee-declarations-interest) The governance framework sets out rules and guidance on conflicts of interests, and we maintain a publicly available register of interests.\n[Wales bluetongue virus restricted zone and infected area ...](https://www.gov.wales/all-wales-bluetongue-virus-restricted-zone-and-infected-area-declaration-31-july-2026) A bluetongue virus restricted zone and infected area was declared across the whole of Wales from 00:01 on Monday 10 November 2025."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_LN05LucXuV0i0Tj9qmIVUzjB",
+     "function": {
+      "name": "tavily_search",
+      "arguments": "{\"query\":\"July 2026 Wales drought declaration\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_LN05LucXuV0i0Tj9qmIVUzjB",
+   "content": "[Wales Drought 2026: What the Status Means - Welsh Words](https://welshwords.com/blogs/modern-wales/wales-drought-status-2026-explained) Title: Wales Drought 2026: What the Status Means - Welsh Words # Wales in Drought: What the Status Means in 2026. Low water and exposed banks at Usk Reservoir after drought. **Natural Resources Wales said on 30 July 2026 that drought status applied across all of Wales.** That is a warning about the condition of rivers, soils, groundwater and the wider environment. It does not automatically mean that every household is under a hosepipe ban. The important distinction is between environmental droug\n[Drought declared in parts of Wales as July on course to be driest in nearly 200 years - AOL](https://www.aol.co.uk/articles/drought-declared-parts-wales-july-154614000.html) Title: Drought declared in parts of Wales as July on course to be driest in nearly 200 years - AOL # Drought declared in parts of Wales as July on course to be driest in nearly 200 years. Parts of Wales are now in drought and all other areas of the country are experiencing prolonged dry conditions, with this month on course to be the driest on record for nearly 200 years. Natural Resources Wales (NRW) said on Thursday that record-low river flows, back-to-back heatwaves and widespread wildfires h\n[Natural Resources Wales / Wildfires and record dry conditions trigger drought declaration for North Wales and Upper Severn](https://naturalresources.wales/about-us/news-and-blogs/news/wildfires-and-record-dry-conditions-trigger-drought-declaration-for-north-wales-and-upper-severn?lang=en) Title: Natural Resources Wales / Wildfires and record dry conditions trigger drought declaration for North Wales and Upper Severn # Wildfires and record dry conditions trigger drought declaration for North Wales and Upper Severn. Dry river bed in North Wales. Widespread wildfires, record-low river flows and the mounting impacts of successive heatwaves on the environment have triggered the declaration of drought status in North Wales and the Upper Severn, Natural Resources Wales (NRW) confirmed t\n[Drought declared in parts of Wales as July on course to be driest in nearly 200 years | Wales | The Guardian](https://www.theguardian.com/uk-news/2026/jul/23/drought-declared-north-wales-upper-severn-heatwaves-rainfall) Title: Drought declared in parts of Wales as July on course to be driest in nearly 200 years | Wales | The Guardian The areas in drought have received less than 2% of the ex"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_1QCGzfgb6H3fr7mw63LF0OKP",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"2026 in Wales\",\"keywords\":\"drought declared, July 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_1QCGzfgb6H3fr7mw63LF0OKP",
+   "content": "12 July – 2026 United Kingdom heatwaves: Emergency services declare a major incident over a large wildfire on Conwy Mountain, on the edge of Snowdonia in north Wales, prompting the evacuation of nearby residents. Firefighters also tackle wildfires elsewhere across England and Wales amid the ongoing heatwave.\n2026 United Kingdom heatwaves: Natural Resources Wales declares parts of north Wales and the Upper Severn to be in drought, while all remaining Welsh catchments are placed under prolonged dry weather status. July is on course to become the driest recorded in Wales for almost 190 years, following successive heatwaves, widespread wildfires and exceptionally low river levels.\n2026 United Kingdom heatwaves: A drought is declared across the whole of Wales, with the country on course to experience its driest July for 190 years.\n28 June–11 July – 2026 UEFA European Under-19 Championship\n28 July – Gymnast Ruby Evans wins Wales' first gold medal at the 2026 Commonwealth Games after winning the floor final."
+  },
+  {
+   "role": "assistant",
+   "content": "In July 2026, a drought was declared across the whole of Wales due to ongoing dry conditions, marking the month as on course to be the driest recorded in nearly 190 years. FINAL: Drought declared across all of Wales.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

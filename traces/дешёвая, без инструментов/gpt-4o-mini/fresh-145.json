@@ -1,0 +1,22 @@
+{
+ "task": {
+  "id": "fresh-145",
+  "source": "fresh",
+  "question": "Which film was inducted into the National Film Registry on January 29, 2026?",
+  "answer": "The Incredibles",
+  "evidence": "January 29: The Incredibles is inducted into the National Film Registry.",
+  "page": "2026 in animation",
+  "url": "https://en.wikipedia.org/wiki/2026_in_animation"
+ },
+ "answer": "FINAL: Unknown.",
+ "correct": false,
+ "cost": 7.649999999999671e-06,
+ "messages": [
+  {
+   "role": "assistant",
+   "content": "Unknown.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

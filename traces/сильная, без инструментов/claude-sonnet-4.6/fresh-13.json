@@ -1,0 +1,24 @@
+{
+ "task": {
+  "id": "fresh-13",
+  "source": "fresh",
+  "question": "What is the highest recorded temperature in Germany during the 2026 European heatwaves?",
+  "answer": "41.5 °C",
+  "evidence": "27 June — 2026 European heatwaves: The highest recorded temperature in Germany is taken in Möckern-Drewitz, measuring 41.5 °C (106.7 °F).",
+  "page": "2026 in Germany",
+  "url": "https://en.wikipedia.org/wiki/2026_in_Germany",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "FINAL: Unknown.",
+ "correct": false,
+ "cost": 0.00021300000000000008,
+ "messages": [
+  {
+   "role": "assistant",
+   "content": "Unknown.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

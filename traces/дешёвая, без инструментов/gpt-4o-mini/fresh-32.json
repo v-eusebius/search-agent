@@ -1,0 +1,24 @@
+{
+ "task": {
+  "id": "fresh-32",
+  "source": "fresh",
+  "question": "Who won the Archibald Prize on May 8, 2026?",
+  "answer": "Richard Lewer",
+  "evidence": "May 8 – Richard Lewer wins the Archibald Prize for his portrait of the Pitjantjatjara elder and artist Iluwanti Ken.",
+  "page": "2026 in art",
+  "url": "https://en.wikipedia.org/wiki/2026_in_art",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "FINAL: Unknown.",
+ "correct": false,
+ "cost": 7.349999999999718e-06,
+ "messages": [
+  {
+   "role": "assistant",
+   "content": "Unknown.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

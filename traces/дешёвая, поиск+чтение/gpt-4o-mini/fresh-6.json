@@ -1,0 +1,54 @@
+{
+ "task": {
+  "id": "fresh-6",
+  "source": "fresh",
+  "question": "How many people are reported missing in Tibet after the floods in August 2026?",
+  "answer": "4,500",
+  "evidence": "August 26 – 2026 Nepal–Tibet floods: At least 1,130 people are killed and nearly 4,500 reported missing in Tibet Autonomous Region after a flash flood strikes between Tibet and Nepal.",
+  "page": "2026",
+  "url": "https://en.wikipedia.org/wiki/2026",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "In the Tibet Autonomous Region of China, at least 519 people were reported missing after the floods in August 2026. FINAL: 519",
+ "correct": false,
+ "cost": 0.0001421999999999951,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You answer questions about recent events (2025–2026). Never answer from memory: use web_search (and tavily_search if available) to find the right article, then page_find to look inside long articles such as '2026 in <country or field>' for the specific fact. Do not repeat the same call. When done, write the last line as FINAL: <short answer>."
+  },
+  {
+   "role": "user",
+   "content": "How many people are reported missing in Tibet after the floods in August 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_yjH6YJUxQ46AgglgQ7MuT24C",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Tibet floods August 2026 missing people\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_yjH6YJUxQ46AgglgQ7MuT24C",
+   "content": "[2026 Nepal–Tibet floods] On the morning of 26 August 2026, a series of flash floods and debris flows destroyed the Gyirong Port on the China–Nepal border and struck dozens of settlements along a 72 km (45 mi) stretch of the Trishuli River in Nepal. At least 1,410 deaths and 6,145 missing persons in Nepal, and 43 deaths and 519 missing in the Tibet Autonomous Region of China were reported. The flood carried the bodies of some victims 240 km (150 mi) away into neighbouring India. Authorities issued flood warnings for communities along rivers in the Nepali districts of Rasuwa, Nuwakot, Dhading, Gorkha, and Chitwan. The precipitating geological event, thought to have been a glacier collapse on Langtang Lirung in the Himalayas, caused a chain reaction whose tremors were detected by seismometers worldwide, with magnitudes reaching Ms 5.2. | other articles: Timeline of the 2026 Nepal–Tibet floods, 2026 Philippine floods"
+  },
+  {
+   "role": "assistant",
+   "content": "In the Tibet Autonomous Region of China, at least 519 people were reported missing after the floods in August 2026. FINAL: 519",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

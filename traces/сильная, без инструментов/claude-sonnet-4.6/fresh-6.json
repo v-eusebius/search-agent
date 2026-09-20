@@ -1,0 +1,24 @@
+{
+ "task": {
+  "id": "fresh-6",
+  "source": "fresh",
+  "question": "How many people are reported missing in Tibet after the floods in August 2026?",
+  "answer": "4,500",
+  "evidence": "August 26 – 2026 Nepal–Tibet floods: At least 1,130 people are killed and nearly 4,500 reported missing in Tibet Autonomous Region after a flash flood strikes between Tibet and Nepal.",
+  "page": "2026",
+  "url": "https://en.wikipedia.org/wiki/2026",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "FINAL: Unknown.",
+ "correct": false,
+ "cost": 0.00020399999999999997,
+ "messages": [
+  {
+   "role": "assistant",
+   "content": "Unknown.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

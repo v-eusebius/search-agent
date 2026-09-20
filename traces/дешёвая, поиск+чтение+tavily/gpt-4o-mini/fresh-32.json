@@ -1,0 +1,54 @@
+{
+ "task": {
+  "id": "fresh-32",
+  "source": "fresh",
+  "question": "Who won the Archibald Prize on May 8, 2026?",
+  "answer": "Richard Lewer",
+  "evidence": "May 8 – Richard Lewer wins the Archibald Prize for his portrait of the Pitjantjatjara elder and artist Iluwanti Ken.",
+  "page": "2026 in art",
+  "url": "https://en.wikipedia.org/wiki/2026_in_art",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "Richard Lewer won the 2026 Archibald Prize on May 8, 2026, for his portrait of Iluwanti Ken, a Pitjantjatjara elder, traditional healer, and senior artist. The prize includes a monetary award of AU$100,000. \n\nFINAL: Richard Lewer",
+ "correct": true,
+ "cost": 0.00024810000000008436,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You answer questions about recent events (2025–2026). Never answer from memory: use web_search (and tavily_search if available) to find the right article, then page_find to look inside long articles such as '2026 in <country or field>' for the specific fact. Do not repeat the same call. When done, write the last line as FINAL: <short answer>."
+  },
+  {
+   "role": "user",
+   "content": "Who won the Archibald Prize on May 8, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_DkQWyDmQUm4PSVbN7h1WCsN9",
+     "function": {
+      "name": "tavily_search",
+      "arguments": "{\"query\":\"Archibald Prize winner May 8 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_DkQWyDmQUm4PSVbN7h1WCsN9",
+   "content": "[Richard Lewer Wins Australia's Top Portrait Prize](https://www.artforum.com/news/richard-lewer-receives-2026-archibald-prize-1234750082) The Art Gallery of New South Wales (AGNSW) on May 8 named Richard Lewer the winner of the 2026 Archibald Prize. The award, considered Australia’s top portrait honor, is presented annually in recognition of the best portrait of an individual “distinguished in art, letters, science or politics” painted by an Australian resident. The New Zealand–born Lewer, a six-time Archibald finalist who lives and works in Melbourne, won the AU$100,000 prize (US$72,000) for his synthetic-polymer-paint-on-canvas \n[Archibald prize 2026: Richard Lewer’s portrait of artist Iluwanti Ken wins $100,000 | Archibald prize 2026 | The Guardian](https://www.theguardian.com/artanddesign/2026/may/08/archibald-prize-2026-richard-lewer-portrait-of-artist-iluwanti-ken-wins-100000) Australia’s most prominent portrait prize was announced on Friday at the Art Gallery of NSW, where the finalist exhibition will open on Saturday Archibald prize 2026 finalists: Virginia Trioli, Jan Fran, Ahmed al-Ahmed and more – in pictures Richard Lewer has been awarded the 2026 Archibald prize for his portrait of Pitjantjatjara elder, traditional healer and senior artist Iluwanti Ken. [...] The New Zealand-born, Melbourne-based artist – a six-time Archibald finalist – was announced as the win\n[Archibald Prize finalists 2026 | Art Gallery of NSW](https://www.artgallery.nsw.gov.au/prizes/archibald/2026) We acknowledge the Gadigal, the traditional custodians of the Country on which the Art Gallery of New South Wales stands. Continue # Archibald Prize 2026 Entries: 1034 (59 selected) Presenting partner: ANZ From 9 May to 16 August 2026, finalists and winners are exhibited in Archibald, Wynne and Sulman Prizes 2026. Winner: Archibald Prize 2026 ### Richard Lewer Iluwanti Ken Winner: Packing Room Prize 2026 ### Sean Layh The tragicall historie of Hamlet, Prince of Denmarke [...] #### Sean Layh The \n[🎨 The 2026... - Art Gallery of New South Wales](https://www.facebook.com/ArtGalleryofNSW/posts/-the-2026-archibaldprize-finalists-have-been-revealed-the-exhibition-opens-at-th/1397311465773617) ➡️ Swipe through to take a sneak peek and stay tuned for the winners announcement on Friday 8 May. Check out these Archibald Prize 2026 finalists, images from left: ⚪ Andrew Collis ‘AKA Sopha Dopha’ (Sitter: @sophadophaa\\_) ⚪ Richard Lewer (@richard\\_lewer) ‘Iluwanti Ken’ (Sitter: Iluwanti Ken) "
+  },
+  {
+   "role": "assistant",
+   "content": "Richard Lewer won the 2026 Archibald Prize on May 8, 2026, for his portrait of Iluwanti Ken, a Pitjantjatjara elder, traditional healer, and senior artist. The prize includes a monetary award of AU$100,000. \n\nFINAL: Richard Lewer",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

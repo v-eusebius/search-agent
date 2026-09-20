@@ -1,0 +1,22 @@
+{
+ "task": {
+  "id": "fresh-140",
+  "source": "fresh",
+  "question": "Which Rick and Morty spin-off premiered on Adult Swim on July 26, 2026?",
+  "answer": "President Curtis",
+  "evidence": "July 26: The Rick and Morty spin-off President Curtis premiered on Adult Swim (and then on HBO Max the following day).",
+  "page": "2026 in animation",
+  "url": "https://en.wikipedia.org/wiki/2026_in_animation"
+ },
+ "answer": "FINAL: Unknown.",
+ "correct": false,
+ "cost": 0.00022199999999999998,
+ "messages": [
+  {
+   "role": "assistant",
+   "content": "Unknown.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

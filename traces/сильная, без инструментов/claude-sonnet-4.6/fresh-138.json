@@ -1,0 +1,22 @@
+{
+ "task": {
+  "id": "fresh-138",
+  "source": "fresh",
+  "question": "Who was announced as the winner of the Pritzker Architecture Prize on March 12, 2026?",
+  "answer": "Smiljan Radić",
+  "evidence": "March 12 – Smiljan Radić is announced as the winner of the Pritzker Architecture Prize.",
+  "page": "2026 in art",
+  "url": "https://en.wikipedia.org/wiki/2026_in_art"
+ },
+ "answer": "FINAL: Unknown.",
+ "correct": false,
+ "cost": 0.00022199999999999998,
+ "messages": [
+  {
+   "role": "assistant",
+   "content": "Unknown.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

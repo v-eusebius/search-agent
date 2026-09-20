@@ -1,0 +1,22 @@
+{
+ "task": {
+  "id": "fresh-137",
+  "source": "fresh",
+  "question": "Which Rembrandt painting did the Rijksmuseum announce retrieving on March 2, 2026?",
+  "answer": "The Vision of Zacharias in the Temple",
+  "evidence": "March 2 – The Rijksmuseum in Amsterdam announces the retrieval of the long-lost Rembrandt painting The Vision of Zacharias in the Temple (1633).",
+  "page": "2026 in art",
+  "url": "https://en.wikipedia.org/wiki/2026_in_art"
+ },
+ "answer": "FINAL: Unknown.",
+ "correct": false,
+ "cost": 7.800000000000515e-06,
+ "messages": [
+  {
+   "role": "assistant",
+   "content": "Unknown.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

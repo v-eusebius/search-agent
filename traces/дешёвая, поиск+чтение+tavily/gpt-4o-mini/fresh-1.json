@@ -1,0 +1,76 @@
+{
+ "task": {
+  "id": "fresh-1",
+  "source": "fresh",
+  "question": "What date was Progress MS-33 launched to the ISS?",
+  "answer": "22 March",
+  "evidence": "On 22 March, Roscosmos launched Progress MS-33 to ISS, the first space station uncrewed cargo flight of the year and the first launch from the Baikonur Cosmodrome Site 31 after substantial repairs necessitated by the damage caused by the November 2025 launch of Soyuz MS-28. Further resupply missions to ISS were: Cygnus NG-24 on 11 April, Progress MS-34 on 25 April, and SpaceX CRS-34 on 15 May.",
+  "page": "2026 in spaceflight",
+  "url": "https://en.wikipedia.org/wiki/2026_in_spaceflight",
+  "sonnet_answer": "February 27, 2025",
+  "agent_ok": true
+ },
+ "answer": "Progress MS-33 was launched to the ISS on March 22, 2026. FINAL: March 22, 2026.",
+ "correct": true,
+ "cost": 0.00043395000000001627,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You answer questions about recent events (2025–2026). Never answer from memory: use web_search (and tavily_search if available) to find the right article, then page_find to look inside long articles such as '2026 in <country or field>' for the specific fact. Do not repeat the same call. When done, write the last line as FINAL: <short answer>."
+  },
+  {
+   "role": "user",
+   "content": "What date was Progress MS-33 launched to the ISS?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_SFbmypx2emoE9aCp6FMwFCra",
+     "function": {
+      "name": "tavily_search",
+      "arguments": "{\"query\":\"Progress MS-33 launch date ISS 2025\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_SFbmypx2emoE9aCp6FMwFCra",
+   "content": "[Progress MS-33 to re-supply ISS](https://www.russianspaceweb.com/progress-ms-33.html) MS-33 mission, then scheduled to lift off on Dec. 21, 2025, at 03:55 Moscow Time. Soon after the incident, the launch was expected as early as March 11, but by Dec. 19, 2025, it was set for March 22, 2026. On Feb. 15, 2026, Roskosmos announced that its specialists at Baikonur had unpacked the mothballed Progress MS-33 in preparation for equipment checks and irreversible operations, including fueling, integration with the launch vehicle adapter and encapsulation under its payload fairing. The [..\n[Baikonur cosmodrome tours: Launch schedule for 2026](https://baikonurtour.com/launches.html) Launch of Progress MS-33 cargo/resupply spacecraft scheduled for March 22, 2026. Documents are accepted up to February 22, 2026. ## Progress MS-34 cargo spacecraft launch April 26, 2026 group admission is closed Launch of Progress MS-34 cargo/resupply spacecraft scheduled for April 26, 2026. Documents are accepted up to March 26, 2026. ## Soyuz MS-29 spacecraft launch July 14, 2026 group admission is closed Soyuz MS-29 spacecraft preliminary launch date is July 14, 2026. [...] To plan your trip \n[Following the departure of the... - NASASpaceflight.com](https://www.facebook.com/NASASpaceflight/posts/following-the-departure-of-the-%D1%80%D0%BE%D1%81%D0%BA%D0%BE%D1%81%D0%BC%D0%BE%D1%81-progress-ms-33-cargo-spacecraft-from-th/1756759206450109) ## NASASpaceflight.com's post ### NASASpaceflight.com 15h · Following the departure of the Роскосмос Progress MS-33 cargo spacecraft from the International Space Station on September 7, Progress MS-35 is expected to launch to the Station on Wednesday, September 16. The cargo spacecraft will deliver pressurized and unpressurized cargo to the station that will sustain the current Expedition 75 crew. Check out the link in the comments below to read our full article by Eleanor Day. 👇 [...] All react\n[Progress Cargo Craft Launches to Resupply Station Crew - NASA](https://www.nasa.gov/blogs/spacestation/2026/03/22/progress-cargo-craft-launches-to-resupply-station-crew) A SpaceX Falcon 9 rocket carrying the company's Dragon spacecraft is launched on NASA’s SpaceX Crew-10 mission to the International Space Station with NASA astronauts Anne McClain and Nichole Ayers, JAXA (Japan Aerospace Exploration Agency) astronaut Takuya Onishi, and Roscosmos cosmonaut Kirill Peskov onboard, Friday, March 14, 2025, from NASA's Kennedy Space Center in Florida. NASA’s SpaceX "
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_uRtnc1bIeimSSNj0Ef5iADJG",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"Progress MS-33\",\"keywords\":\"launch date\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_uRtnc1bIeimSSNj0Ef5iADJG",
+   "content": "Progress MS-33 (Russian: Прогресс МC-33), Russian production No. 463, identified by NASA as Progress 94, was a Progress cargo spacecraft mission by Roscosmos to resupply the International Space Station (ISS). It is the 186th flight of a Progress spacecraft and was originally scheduled to launch in late 2025, but was delayed to 22 March 2026 due to damage at Baikonur Cosmodrome Site 31 following th\nProgress MS-33 was scheduled to launch on 19 December 2025 and after a two-day free flight, dock with the zenith (space-facing) port of the ISS's Poisk module.\nHowever, Site 31 at the Baikonur Cosmodrome was severely damaged during the launch of Soyuz MS-28, with the mobile service platform beneath the pad appearing to collapse into the flame trench. The extent of the damage temporarily rendered Russia's only operational crewed launch facility unusable. Roscosmos officials subsequently told NASA that repairs to the site and restoration of launch capabili\nProgress MS-33 was launched on 22 March 2026 at 11:59 UTC (16:59 local time in Baikonur). After the launch, NASA reported that one of the spacecraft's two rendezvous antennas failed to deploy, preventing use of the fully automated Kurs docking navigation system. Instead, Progress automatically flew itself to a position 200 metres (660 ft) away from the ISS. From there, cosmonaut Sergey Kud-Sverchk"
+  },
+  {
+   "role": "assistant",
+   "content": "Progress MS-33 was launched to the ISS on March 22, 2026. FINAL: March 22, 2026.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

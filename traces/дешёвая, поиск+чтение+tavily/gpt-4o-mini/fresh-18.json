@@ -1,0 +1,98 @@
+{
+ "task": {
+  "id": "fresh-18",
+  "source": "fresh",
+  "question": "In Germany, what was the date when a Munich court imprisoned an Iraqi couple for enslaving and raping Yazidi girls?",
+  "answer": "13 July",
+  "evidence": "13 July – A Munich court imprisons an Iraqi couple who were members of Islamic State for enslaving and raping Yazidi girls.",
+  "page": "2026 in Germany",
+  "url": "https://en.wikipedia.org/wiki/2026_in_Germany",
+  "sonnet_answer": "November 25, 2021",
+  "agent_ok": false
+ },
+ "answer": "The Munich court sentenced an Iraqi couple for enslaving and raping Yazidi girls on July 13, 2026. \n\nFINAL: July 13, 2026",
+ "correct": true,
+ "cost": 0.0006462000000000412,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You answer questions about recent events (2025–2026). Never answer from memory: use web_search (and tavily_search if available) to find the right article, then page_find to look inside long articles such as '2026 in <country or field>' for the specific fact. Do not repeat the same call. When done, write the last line as FINAL: <short answer>."
+  },
+  {
+   "role": "user",
+   "content": "In Germany, what was the date when a Munich court imprisoned an Iraqi couple for enslaving and raping Yazidi girls?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_CQTeOdvQQza7eIYtKrDeaRwf",
+     "function": {
+      "name": "tavily_search",
+      "arguments": "{\"query\":\"Munich court imprisoned Iraqi couple enslaving raping Yazidi girls date\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_CQTeOdvQQza7eIYtKrDeaRwf",
+   "content": "[German court convicts Iraqi couple of enslaving Yazidi girls](https://www.lemkininstitute.com/single-post/german-court-convicts-iraqi-couple-of-enslaving-yazidi-girls) Title: German court convicts Iraqi couple of enslaving Yazidi girls # German court convicts Iraqi couple of enslaving Yazidi girls. One of the defendants pictured in court in Munich on Monday, Ehsan Monajati / dpa via AP. A court in Germany has convicted an Iraqi couple of enslaving two Yazidi girls in Iraq. The Munich Higher Regional Court also found them guilty of membership of the Islamic State group (IS). The man, named only as Twana H.S. in line with German privacy rules, was sentenced to l\n[German court convicts Iraqi couple of enslaving Yazidi girls - AOL](https://www.aol.com/articles/german-court-convicts-iraqi-couple-113622000.html) Title: German court convicts Iraqi couple of enslaving Yazidi girls - AOL # German court convicts Iraqi couple of enslaving Yazidi girls. A man holds a sheet of paper over his face, wearing a black shirt in court. A court in Germany has convicted an Iraqi couple of enslaving two Yazidi girls in Iraq. The Munich Higher Regional Court also found them guilty of membership of the Islamic State group (IS). The man, named only as Twana H.S. in line with German privacy rules, was sentenced to life impr\n[German court convicts Iraqi couple of enslaving Yazidi girls](https://www.yahoo.com/news/world/articles/german-court-convicts-iraqi-couple-113622328.html) Title: German court convicts Iraqi couple of enslaving Yazidi girls * Sen. Graham's family life. * Sen. Graham's major moments. # German court convicts Iraqi couple of enslaving Yazidi girls. Add Yahoo as a preferred source to see more of our stories on Google. A man holds a sheet of paper over his face, wearing a black shirt in court. One of the defendants pictured in court in Munich on Monday [Ehsan Monajati / dpa via AP]. A court in Germany has convicted an Iraqi couple of enslaving two Yazid\n[Iraqi couple jailed in Germany for enslaving Yazidi girls](https://www.newarab.com/news/iraqi-couple-jailed-germany-enslaving-yazidi-girls?amp=) Title: Iraqi couple jailed in Germany for enslaving Yazidi girls # Iraqi couple jailed in Germany for enslaving Yazidi girls. The New Arab Staff & Agencies. Stoll stressed that the couple had not been convicted as \"representatives of the atrocities committed by the Islamic State group, but solely their own actions.\". Prefer TNA on Google Join Our Channel. Palace of Justice i"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_LUVoNuGE0ZPBND8Za5SN3H15",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"German court convicts Iraqi couple of enslaving Yazidi girls\",\"keywords\":\"date Munich court imprisoned\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_LUVoNuGE0ZPBND8Za5SN3H15",
+   "content": "no such page"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_vsoRqv1f62nUN4KieYpi5Ac9",
+     "function": {
+      "name": "tavily_search",
+      "arguments": "{\"query\":\"date Munich court Iraqi couple Yazidi girls imprisoned\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_vsoRqv1f62nUN4KieYpi5Ac9",
+   "content": "[2026 Munich Yazidi genocide trial - Wikipedia](https://en.wikipedia.org/wiki/2026_Munich_Yazidi_genocide_trial) Twana H.S. and Asia R.A., an Iraqi Kurdish former married couple and former members of the Islamic State (IS), were convicted by the Higher Regional Court (Oberlandesgericht) in Munich, Germany, on 13 July 2026 of genocide, crimes against humanity, and war crimes, among other offences, over the enslavement, torture, and sexual abuse of two Yazidi girls in Iraq and Syria between 2015 and 2017. Twana H.S. was sentenced to life imprisonment; Asia R.A., who was a minor for part of the period [...] #\n[German court convicts Iraqi couple of enslaving Yazidi girls](https://www.bbc.com/news/articles/cg53rp4e2j4o) The man, named only as Twana H.S. in line with German privacy rules, was sentenced to life imprisonment on charges including genocide, war crimes and crimes against humanity, and severe sexual abuse of children. His wife, Asia R. A., was handed a juvenile sentence of nine and a half years. The couple was arrested in Bavaria in 2024. The Yazidis, a Kurdish-speaking minority, were persecuted by IS after the jihadist group seized large swathes of territory in Syria and Iraq beginning in 2014. [...]\n[Germany: Iraqi sentenced to life for enslaving Yazidi girls](https://www.dw.com/en/germany-isis-member-enslaved-abused-yazidi-girls-iraq/a-77928732) A couple identified as Twana H.S. and Asia R.A. were on trial [FILE: May 19, 2926]Image: Peter Kneffel/dpa/picture alliance Advertisement A German court has sentenced a man and a woman to lengthy prison sentences for enslaving and abusing two Yazidi girls under the so-called \"Islamic State\" group in Iraq. The Iraqi couple were convicted of war crimes, genocide and crimes against humanity. They were also convicted of sexually abusing children and aiding and abetting the listed offenses. [...] The\n[InfoMigrants](https://www.facebook.com/InfoMigrants/posts/a-high-court-in-munich-has-sentenced-an-iraqi-couple-to-prison-terms-after-they-/1025380020123740) A high court in Munich has sentenced an Iraqi migrant couple to prison terms, after they found them guilty of abuse, exploitation and enslaving two Yazidis, as well as being members of the terrorist group Islamic State (IS). []( Image 2 Image 3 Image 4 All reactions: 5 Like Comment Image 5 See more from InfoMigrants See more from InfoMigrants Email or phone number Password Log In Forgot password? or Create new account Image 6 [...] \"Before he bought me, he look"
+  },
+  {
+   "role": "assistant",
+   "content": "The Munich court sentenced an Iraqi couple for enslaving and raping Yazidi girls on July 13, 2026. \n\nFINAL: July 13, 2026",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

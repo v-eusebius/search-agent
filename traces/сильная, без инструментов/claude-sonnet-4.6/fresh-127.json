@@ -1,0 +1,22 @@
+{
+ "task": {
+  "id": "fresh-127",
+  "source": "fresh",
+  "question": "Who won the 2026 U.S. Open golf tournament at Shinnecock Hills in June 2026?",
+  "answer": "Wyndham Clark",
+  "evidence": "June 18–21: 2026 U.S. Open at Shinnecock Hills Golf Club in Southampton, New York – Wyndham Clark",
+  "page": "2026 in sports",
+  "url": "https://en.wikipedia.org/wiki/2026_in_sports"
+ },
+ "answer": "FINAL: Unknown.",
+ "correct": false,
+ "cost": 0.0002310000000000003,
+ "messages": [
+  {
+   "role": "assistant",
+   "content": "Unknown.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

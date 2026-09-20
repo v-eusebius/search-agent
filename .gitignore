@@ -1,0 +1,10 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+img/.DS_Store
+*.log
+eval_run.log
+freshness_run.log
+tasks/

@@ -1,0 +1,24 @@
+{
+ "task": {
+  "id": "fresh-35",
+  "source": "fresh",
+  "question": "Who became the first person to swim around the Saint Helena island in February 2026?",
+  "answer": "Dina Levačić",
+  "evidence": "In February, Croatian long-distance swimmer Dina Levačić became the first person to swim around the Saint Helena island.",
+  "page": "2026 in sports",
+  "url": "https://en.wikipedia.org/wiki/2026_in_sports",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "FINAL: Unknown.",
+ "correct": false,
+ "cost": 0.00020700000000000059,
+ "messages": [
+  {
+   "role": "assistant",
+   "content": "Unknown.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

@@ -1,0 +1,22 @@
+{
+ "task": {
+  "id": "fresh-133",
+  "source": "fresh",
+  "question": "Who won the U.S. Senior Open at Scioto Country Club in July 2026?",
+  "answer": "Pádraig Harrington",
+  "evidence": "July 2–5: U.S. Senior Open at Scioto Country Club in Columbus, Ohio – Pádraig Harrington",
+  "page": "2026 in sports",
+  "url": "https://en.wikipedia.org/wiki/2026_in_sports"
+ },
+ "answer": "FINAL: Unknown.",
+ "correct": false,
+ "cost": 0.00021599999999999918,
+ "messages": [
+  {
+   "role": "assistant",
+   "content": "Unknown.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

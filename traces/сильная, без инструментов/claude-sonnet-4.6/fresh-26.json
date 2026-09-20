@@ -1,0 +1,24 @@
+{
+ "task": {
+  "id": "fresh-26",
+  "source": "fresh",
+  "question": "In Japan, how many people were injured in the leisure boat collision near Haneda Airport on August 24, 2026?",
+  "answer": "nine",
+  "evidence": "August 24 – A leisure boat collides with a seawall near Haneda Airport, injuring nine people.",
+  "page": "2026 in Japan",
+  "url": "https://en.wikipedia.org/wiki/2026_in_Japan",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "FINAL: Unknown.",
+ "correct": false,
+ "cost": 0.00023399999999999983,
+ "messages": [
+  {
+   "role": "assistant",
+   "content": "Unknown.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

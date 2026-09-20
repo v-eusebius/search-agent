@@ -1,0 +1,188 @@
+{
+ "task": {
+  "id": "fresh-145",
+  "source": "fresh",
+  "question": "Which film was inducted into the National Film Registry on January 29, 2026?",
+  "answer": "The Incredibles",
+  "evidence": "January 29: The Incredibles is inducted into the National Film Registry.",
+  "page": "2026 in animation",
+  "url": "https://en.wikipedia.org/wiki/2026_in_animation"
+ },
+ "answer": "Национальный реестр фильмов 29 января 2026 года пополнился фильмами \"Annabelle Serpentine Dance\" и \"The Tramp and the Dog\", которые были отобраны в январе 2026 года. FINAL: \"Annabelle Serpentine Dance\" и \"The Tramp and the Dog\".",
+ "correct": false,
+ "cost": 0.0012240000000000029,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You answer questions about recent events (2025–2026). Never answer from memory: use web_search (and tavily_search if available) to find the right article, then page_find to look inside long articles such as '2026 in <country or field>' for the specific fact. Do not repeat the same call. When done, write the last line as FINAL: <short answer>."
+  },
+  {
+   "role": "user",
+   "content": "Which film was inducted into the National Film Registry on January 29, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_E4XheC6PIsLnQGdXJq0M55Kk",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"National Film Registry January 29 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_E4XheC6PIsLnQGdXJq0M55Kk",
+   "content": "[National Film Registry] The National Film Registry (NFR) is the United States National Film Preservation Board's (NFPB) collection of films selected for preservation, each for its cultural, historical and aesthetic contributions since the NFPB's inception in 1988. | other articles: National Recording Registry, The Maltese Falcon (1941 film)"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_vPmp3ROugVCwbJoIgLbX6oJP",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"National Film Registry\",\"keywords\":\"January 29 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_vPmp3ROugVCwbJoIgLbX6oJP",
+   "content": "Throughout the 1980s, several prominent filmmakers and industry personalities in the United States, such as Frank Capra and Martin Scorsese, advocated for Congress to enact a film preservation bill in order to avoid commercial modifications (such as pan and scan and editing for television) of classic films, which they saw as negative. In response to the controversy over the colorization of origina\nReleased in 1895 and 1896, and selected in December 2024 and January 2026, Annabelle Serpentine Dance and The Tramp and the Dog jointly experienced the longest wait, at 129 years each, while Raging Bull, released theatrically in New York City, Los Angeles and Toronto on November 14, 1980, and inducted in October 1990, holds the record for the shortest delay, having been inducted slightly shy of th"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_9RzzHthwfHZB7VBHrGD2KSSV",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"National Film Registry\",\"keywords\":\"January 29 2026 film\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_9RzzHthwfHZB7VBHrGD2KSSV",
+   "content": "Throughout the 1980s, several prominent filmmakers and industry personalities in the United States, such as Frank Capra and Martin Scorsese, advocated for Congress to enact a film preservation bill in order to avoid commercial modifications (such as pan and scan and editing for television) of classic films, which they saw as negative. In response to the controversy over the colorization of origina\nReleased in 1895 and 1896, and selected in December 2024 and January 2026, Annabelle Serpentine Dance and The Tramp and the Dog jointly experienced the longest wait, at 129 years each, while Raging Bull, released theatrically in New York City, Los Angeles and Toronto on November 14, 1980, and inducted in October 1990, holds the record for the shortest delay, having been inducted slightly shy of th"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_Z8VipNvPU8CCvsmLl7dD879m",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"National Film Registry\",\"keywords\":\"January 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_Z8VipNvPU8CCvsmLl7dD879m",
+   "content": "Throughout the 1980s, several prominent filmmakers and industry personalities in the United States, such as Frank Capra and Martin Scorsese, advocated for Congress to enact a film preservation bill in order to avoid commercial modifications (such as pan and scan and editing for television) of classic films, which they saw as negative. In response to the controversy over the colorization of origina\nReleased in 1895 and 1896, and selected in December 2024 and January 2026, Annabelle Serpentine Dance and The Tramp and the Dog jointly experienced the longest wait, at 129 years each, while Raging Bull, released theatrically in New York City, Los Angeles and Toronto on November 14, 1980, and inducted in October 1990, holds the record for the shortest delay, having been inducted slightly shy of th"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_fO1iIvNHSlSLJIf8ojYsNCum",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"National Film Registry\",\"keywords\":\"2026 January 29 induct\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_fO1iIvNHSlSLJIf8ojYsNCum",
+   "content": "Throughout the 1980s, several prominent filmmakers and industry personalities in the United States, such as Frank Capra and Martin Scorsese, advocated for Congress to enact a film preservation bill in order to avoid commercial modifications (such as pan and scan and editing for television) of classic films, which they saw as negative. In response to the controversy over the colorization of origina\nReleased in 1895 and 1896, and selected in December 2024 and January 2026, Annabelle Serpentine Dance and The Tramp and the Dog jointly experienced the longest wait, at 129 years each, while Raging Bull, released theatrically in New York City, Los Angeles and Toronto on November 14, 1980, and inducted in October 1990, holds the record for the shortest delay, having been inducted slightly shy of th"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_ASoRkSRuQXotfaJWa75LdNYa",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"National Film Registry\",\"keywords\":\"inducted January 29 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_ASoRkSRuQXotfaJWa75LdNYa",
+   "content": "Throughout the 1980s, several prominent filmmakers and industry personalities in the United States, such as Frank Capra and Martin Scorsese, advocated for Congress to enact a film preservation bill in order to avoid commercial modifications (such as pan and scan and editing for television) of classic films, which they saw as negative. In response to the controversy over the colorization of origina\nReleased in 1895 and 1896, and selected in December 2024 and January 2026, Annabelle Serpentine Dance and The Tramp and the Dog jointly experienced the longest wait, at 129 years each, while Raging Bull, released theatrically in New York City, Los Angeles and Toronto on November 14, 1980, and inducted in October 1990, holds the record for the shortest delay, having been inducted slightly shy of th"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_KaI2NfT4fQZucR3nRTMAmSK6",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"National Film Registry January 29 2026 inducted film\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_KaI2NfT4fQZucR3nRTMAmSK6",
+   "content": "[National Film Registry] The National Film Registry (NFR) is the United States National Film Preservation Board's (NFPB) collection of films selected for preservation, each for its cultural, historical and aesthetic contributions since the NFPB's inception in 1988. | other articles: National Recording Registry, House Party (1990 film)"
+  },
+  {
+   "role": "user",
+   "content": "Инструменты больше недоступны. Ответь по тому, что уже известно, последней строкой FINAL: <ответ>."
+  },
+  {
+   "role": "assistant",
+   "content": "Национальный реестр фильмов 29 января 2026 года пополнился фильмами \"Annabelle Serpentine Dance\" и \"The Tramp and the Dog\", которые были отобраны в январе 2026 года. FINAL: \"Annabelle Serpentine Dance\" и \"The Tramp and the Dog\".",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

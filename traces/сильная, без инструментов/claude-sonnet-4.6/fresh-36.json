@@ -1,0 +1,24 @@
+{
+ "task": {
+  "id": "fresh-36",
+  "source": "fresh",
+  "question": "How many people were killed in the earthquake that struck off the island of Flores, Indonesia on August 15, 2026?",
+  "answer": "129",
+  "evidence": "August 15 – At least 129 people are killed and nearly 1,300 injured when a magnitude 7.7 earthquake strikes off the island of Flores, Indonesia.",
+  "page": "2026",
+  "url": "https://en.wikipedia.org/wiki/2026",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "FINAL: unknown",
+ "correct": false,
+ "cost": 0.0002189999999999987,
+ "messages": [
+  {
+   "role": "assistant",
+   "content": "unknown",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}
