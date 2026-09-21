@@ -1,10 +1,40 @@
+# secrets / env
 .env
 .venv/
 __pycache__/
 *.pyc
 .ipynb_checkpoints/
-img/.DS_Store
+
+# runtime / local DB
+volumes/
+milvus_lite.db
+*.db
+episodes.jsonl
+facts.json
+hw2_arrays.npz
+line_chunks.jsonl
+
+# logs
 *.log
 eval_run.log
 freshness_run.log
+hw2_*.log
+freshness_run.log
+
+# course materials (keep locally, not in submission)
 tasks/
+
+# HW1 bulk artifacts (keep on disk, not needed for HW2 grade)
+traces/
+results_raw.csv
+results.md
+freshness_report.txt
+freshness_report.txt.bak
+data/corpus_seminar.jsonl
+data/embeddings_512.npz
+fetch_fresh.py
+check_fresh.py
+
+# OS
+img/.DS_Store
+.DS_Store

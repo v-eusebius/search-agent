@@ -1,0 +1,251 @@
+config,model,id,correct,found,refused,cost,answer,gold
+"сильная, без инструментов",claude-sonnet-4.6,fresh-0,False,False,True,0.000825,NOT_FOUND,15 March
+"сильная, без инструментов",claude-sonnet-4.6,fresh-1,False,False,False,0.000675,"April 25, 2025",22 March
+"сильная, без инструментов",claude-sonnet-4.6,fresh-2,False,False,True,0.000921,NOT_FOUND,Miguel Díaz-Canel
+"сильная, без инструментов",claude-sonnet-4.6,fresh-3,False,False,True,0.0006869999999999,NOT_FOUND,a strategic partnership agreement
+"сильная, без инструментов",claude-sonnet-4.6,fresh-4,False,False,True,0.002943,NOT_FOUND,A total fire ban
+"сильная, без инструментов",claude-sonnet-4.6,fresh-5,False,False,True,0.000975,NOT_FOUND,two people
+"сильная, без инструментов",claude-sonnet-4.6,fresh-7,False,False,True,0.0007079999999999,NOT_FOUND,Deniz Göktaş
+"сильная, без инструментов",claude-sonnet-4.6,fresh-8,False,False,True,0.000732,NOT_FOUND,Pavel Durov
+"сильная, без инструментов",claude-sonnet-4.6,fresh-9,False,False,False,0.000654,Guangzhou,New Delhi
+"сильная, без инструментов",claude-sonnet-4.6,fresh-10,False,False,True,0.002358,NOT_FOUND,Twelve
+"сильная, без инструментов",claude-sonnet-4.6,fresh-11,False,False,True,0.001281,NOT_FOUND,Helter Skelter
+"сильная, без инструментов",claude-sonnet-4.6,fresh-12,False,False,True,0.0010049999999999,NOT_FOUND,"700,000"
+"сильная, без инструментов",claude-sonnet-4.6,fresh-13,False,False,True,0.000858,NOT_FOUND,41.5 °C
+"сильная, без инструментов",claude-sonnet-4.6,fresh-14,False,False,True,0.0018929999999999,NOT_FOUND,Ciudad Rodrigo
+"сильная, без инструментов",claude-sonnet-4.6,fresh-15,False,False,True,0.0008249999999999,NOT_FOUND,Oleksandr Syrskyi
+"сильная, без инструментов",claude-sonnet-4.6,fresh-16,False,False,False,0.000963,Minnesota (PWHL Minnesota),Montreal Victoire
+"сильная, без инструментов",claude-sonnet-4.6,fresh-17,False,False,True,0.0007559999999999,NOT_FOUND,EOS-05
+"сильная, без инструментов",claude-sonnet-4.6,fresh-18,False,False,False,0.0016559999999999,"November 13, 2019",13 July
+"сильная, без инструментов",claude-sonnet-4.6,fresh-19,False,False,True,0.0007589999999999,NOT_FOUND,Disney Kids & Family
+"сильная, без инструментов",claude-sonnet-4.6,fresh-20,True,False,False,0.001572,Single-elimination (Round of 32) format,single-elimination
+"сильная, без инструментов",claude-sonnet-4.6,fresh-21,False,False,True,0.0008909999999999,NOT_FOUND,Gavin Snider
+"сильная, без инструментов",claude-sonnet-4.6,fresh-22,False,False,True,0.001131,NOT_FOUND,Clara and the Below
+"сильная, без инструментов",claude-sonnet-4.6,fresh-23,False,False,True,0.0009239999999999,NOT_FOUND,German Galushchenko
+"сильная, без инструментов",claude-sonnet-4.6,fresh-24,False,False,True,0.001005,NOT_FOUND,a drought
+"сильная, без инструментов",claude-sonnet-4.6,fresh-25,False,False,True,0.0011219999999999,NOT_FOUND,"""open war"""
+"сильная, без инструментов",claude-sonnet-4.6,fresh-26,False,False,True,0.0009239999999999,NOT_FOUND,nine
+"сильная, без инструментов",claude-sonnet-4.6,fresh-27,False,False,True,0.0008219999999999,NOT_FOUND,Markus Hinterhäuser
+"сильная, без инструментов",claude-sonnet-4.6,fresh-28,False,False,True,0.001173,NOT_FOUND,nine
+"сильная, без инструментов",claude-sonnet-4.6,fresh-29,False,False,True,0.000795,NOT_FOUND,43
+"сильная, без инструментов",claude-sonnet-4.6,fresh-30,False,False,True,0.000711,NOT_FOUND,Ankara
+"сильная, без инструментов",claude-sonnet-4.6,fresh-31,False,False,True,0.0010079999999999,NOT_FOUND,Aibek Dädebai
+"сильная, без инструментов",claude-sonnet-4.6,fresh-32,False,False,True,0.000729,NOT_FOUND,Richard Lewer
+"сильная, без инструментов",claude-sonnet-4.6,fresh-33,False,False,True,0.000702,NOT_FOUND,Marilyn Gladu
+"сильная, без инструментов",claude-sonnet-4.6,fresh-34,False,False,True,0.000993,NOT_FOUND,6.3
+"сильная, без инструментов",claude-sonnet-4.6,fresh-35,False,False,True,0.000702,NOT_FOUND,Dina Levačić
+"сильная, без инструментов",claude-sonnet-4.6,fresh-36,False,False,True,0.001104,NOT_FOUND,129
+"сильная, без инструментов",claude-sonnet-4.6,fresh-37,False,False,False,0.0,"ошибка: HTTP 429: {""error"":{""message"":""Rate limit exceeded: new-account-rpm/anth",15 June
+"сильная, без инструментов",claude-sonnet-4.6,fresh-38,False,False,False,0.0,"ошибка: HTTP 429: {""error"":{""message"":""Rate limit exceeded: new-account-rpm/anth",Chief Minister
+"сильная, без инструментов",claude-sonnet-4.6,fresh-39,False,False,True,0.000945,NOT_FOUND,Gelida
+"сильная, без инструментов",claude-sonnet-4.6,fresh-40,False,False,True,0.000834,NOT_FOUND,Vladimir Alekseyev
+"сильная, без инструментов",claude-sonnet-4.6,fresh-41,False,False,True,0.0008879999999999,NOT_FOUND,Thirty thousand people
+"сильная, без инструментов",claude-sonnet-4.6,fresh-42,False,False,True,0.0009389999999999,NOT_FOUND,Prime Minister Narendra Modi
+"сильная, без инструментов",claude-sonnet-4.6,fresh-43,True,False,False,0.003348,Zohran Mamdani,Zohran Mamdani
+"сильная, без инструментов",claude-sonnet-4.6,fresh-44,False,False,True,0.0010319999999999,NOT_FOUND,LHS 1140 b
+"сильная, без инструментов",claude-sonnet-4.6,fresh-45,False,False,True,0.0009389999999999,NOT_FOUND,F-16 Fighting Falcon
+"сильная, без инструментов",claude-sonnet-4.6,fresh-46,False,False,True,0.000954,NOT_FOUND,five
+"сильная, без инструментов",claude-sonnet-4.6,fresh-47,False,False,True,0.0006929999999999,NOT_FOUND,Education Minister
+"сильная, без инструментов",claude-sonnet-4.6,fresh-48,False,False,True,0.000729,NOT_FOUND,Mykhailo Fedorov
+"сильная, без инструментов",claude-sonnet-4.6,fresh-49,False,False,True,0.000927,NOT_FOUND,life imprisonment
+"сильная, без инструментов",claude-sonnet-4.6,fresh-50,False,False,True,0.0011819999999999,NOT_FOUND,"802,500 lira"
+"дешёвая, живой поиск ДЗ1",gpt-4o-mini,fresh-0,False,False,True,7.125e-05,NOT_FOUND,15 March
+"дешёвая, живой поиск ДЗ1",gpt-4o-mini,fresh-1,False,False,True,9.45e-05,NOT_FOUND,22 March
+"дешёвая, живой поиск ДЗ1",gpt-4o-mini,fresh-2,False,False,True,0.0001180499999999,NOT_FOUND,Miguel Díaz-Canel
+"дешёвая, живой поиск ДЗ1",gpt-4o-mini,fresh-3,False,False,True,0.0001227,NOT_FOUND.,a strategic partnership agreement
+"дешёвая, живой поиск ДЗ1",gpt-4o-mini,fresh-4,False,False,True,6.645000000000002e-05,NOT_FOUND,A total fire ban
+"дешёвая, живой поиск ДЗ1",gpt-4o-mini,fresh-5,False,False,True,0.00012705,NOT_FOUND.,two people
+"дешёвая, живой поиск ДЗ1",gpt-4o-mini,fresh-7,False,False,True,2.339999999999997e-05,NOT_FOUND.,Deniz Göktaş
+"дешёвая, живой поиск ДЗ1",gpt-4o-mini,fresh-8,False,False,True,0.0001235999999999,NOT_FOUND,Pavel Durov
+"дешёвая, живой поиск ДЗ1",gpt-4o-mini,fresh-9,False,False,True,2.9549999999999983e-05,NOT_FOUND.,New Delhi
+"дешёвая, живой поиск ДЗ1",gpt-4o-mini,fresh-10,False,False,True,0.00013725,NOT_FOUND.,Twelve
+"дешёвая, живой поиск ДЗ1",gpt-4o-mini,fresh-11,False,False,True,9.749999999999998e-05,NOT_FOUND,Helter Skelter
+"дешёвая, живой поиск ДЗ1",gpt-4o-mini,fresh-12,False,False,True,7.950000000000004e-05,NOT_FOUND,"700,000"
+"дешёвая, живой поиск ДЗ1",gpt-4o-mini,fresh-13,False,False,True,0.00014835,NOT_FOUND,41.5 °C
+"дешёвая, живой поиск ДЗ1",gpt-4o-mini,fresh-14,False,False,True,8.069999999999996e-05,NOT_FOUND.,Ciudad Rodrigo
+"дешёвая, живой поиск ДЗ1",gpt-4o-mini,fresh-15,False,False,True,0.0001304999999999,NOT_FOUND,Oleksandr Syrskyi
+"дешёвая, живой поиск ДЗ1",gpt-4o-mini,fresh-16,True,False,True,7.185000000000004e-05,Montreal Victoire.,Montreal Victoire
+"дешёвая, живой поиск ДЗ1",gpt-4o-mini,fresh-17,False,False,True,3.629999999999996e-05,NOT_FOUND.,EOS-05
+"дешёвая, живой поиск ДЗ1",gpt-4o-mini,fresh-18,False,False,True,0.0001116,NOT_FOUND,13 July
+"дешёвая, живой поиск ДЗ1",gpt-4o-mini,fresh-19,False,False,True,8.954999999999998e-05,NOT_FOUND.,Disney Kids & Family
+"дешёвая, живой поиск ДЗ1",gpt-4o-mini,fresh-20,False,False,True,0.00013245,NOT_FOUND.,single-elimination
+"дешёвая, живой поиск ДЗ1",gpt-4o-mini,fresh-21,False,False,True,9.539999999999992e-05,NOT_FOUND.,Gavin Snider
+"дешёвая, живой поиск ДЗ1",gpt-4o-mini,fresh-22,False,False,True,9.43500000000001e-05,NOT_FOUND.,Clara and the Below
+"дешёвая, живой поиск ДЗ1",gpt-4o-mini,fresh-23,False,False,True,0.0001222499999999,NOT_FOUND,German Galushchenko
+"дешёвая, живой поиск ДЗ1",gpt-4o-mini,fresh-24,False,False,True,4.665000000000008e-05,NOT_FOUND.,a drought
+"дешёвая, живой поиск ДЗ1",gpt-4o-mini,fresh-25,True,False,False,0.0001421999999999,"Pakistan declared an ""open war"" against Afghanistan.","""open war"""
+"дешёвая, живой поиск ДЗ1",gpt-4o-mini,fresh-26,False,False,True,6.959999999999996e-05,NOT_FOUND,nine
+"дешёвая, живой поиск ДЗ1",gpt-4o-mini,fresh-27,False,False,True,0.0001368,NOT_FOUND.,Markus Hinterhäuser
+"дешёвая, живой поиск ДЗ1",gpt-4o-mini,fresh-28,False,False,True,7.575000000000008e-05,NOT_FOUND.,nine
+"дешёвая, живой поиск ДЗ1",gpt-4o-mini,fresh-29,False,False,True,6.615000000000006e-05,NOT_FOUND.,43
+"дешёвая, живой поиск ДЗ1",gpt-4o-mini,fresh-30,False,False,True,1.859999999999991e-05,NOT_FOUND.,Ankara
+"дешёвая, живой поиск ДЗ1",gpt-4o-mini,fresh-31,False,False,False,0.0001484999999999,Oljas Bektenov.,Aibek Dädebai
+"дешёвая, живой поиск ДЗ1",gpt-4o-mini,fresh-32,False,False,True,0.0001031999999999,NOT_FOUND.,Richard Lewer
+"дешёвая, живой поиск ДЗ1",gpt-4o-mini,fresh-33,False,False,True,0.00012855,NOT_FOUND.,Marilyn Gladu
+"дешёвая, живой поиск ДЗ1",gpt-4o-mini,fresh-34,False,False,True,1.9050000000000056e-05,NOT_FOUND.,6.3
+"дешёвая, живой поиск ДЗ1",gpt-4o-mini,fresh-35,False,False,True,0.0001346999999999,NOT_FOUND.,Dina Levačić
+"дешёвая, живой поиск ДЗ1",gpt-4o-mini,fresh-36,False,False,True,0.0001138499999999,NOT_FOUND,129
+"дешёвая, живой поиск ДЗ1",gpt-4o-mini,fresh-37,False,False,True,2.3999999999999933e-05,NOT_FOUND.,15 June
+"дешёвая, живой поиск ДЗ1",gpt-4o-mini,fresh-38,False,False,True,6.959999999999996e-05,NOT_FOUND,Chief Minister
+"дешёвая, живой поиск ДЗ1",gpt-4o-mini,fresh-39,False,False,True,0.0001171499999999,NOT_FOUND,Gelida
+"дешёвая, живой поиск ДЗ1",gpt-4o-mini,fresh-40,False,False,True,2.9100000000000003e-05,NOT_FOUND.,Vladimir Alekseyev
+"дешёвая, живой поиск ДЗ1",gpt-4o-mini,fresh-41,False,False,True,7.170000000000006e-05,NOT_FOUND.,Thirty thousand people
+"дешёвая, живой поиск ДЗ1",gpt-4o-mini,fresh-42,True,False,False,3.4949999999999955e-05,Prime Minister Narendra Modi.,Prime Minister Narendra Modi
+"дешёвая, живой поиск ДЗ1",gpt-4o-mini,fresh-43,True,False,False,0.0001553999999999,Zohran Mamdani.,Zohran Mamdani
+"дешёвая, живой поиск ДЗ1",gpt-4o-mini,fresh-44,False,False,True,0.00011355,NOT_FOUND.,LHS 1140 b
+"дешёвая, живой поиск ДЗ1",gpt-4o-mini,fresh-45,False,False,True,6.600000000000009e-05,NOT_FOUND.,F-16 Fighting Falcon
+"дешёвая, живой поиск ДЗ1",gpt-4o-mini,fresh-46,False,False,True,0.000132,NOT_FOUND,five
+"дешёвая, живой поиск ДЗ1",gpt-4o-mini,fresh-47,True,False,True,0.0001288499999999,Dharmendra Pradhan resigned as Union Education Minister.,Education Minister
+"дешёвая, живой поиск ДЗ1",gpt-4o-mini,fresh-48,False,False,True,0.0001139999999999,NOT_FOUND,Mykhailo Fedorov
+"дешёвая, живой поиск ДЗ1",gpt-4o-mini,fresh-49,False,False,True,7.365000000000019e-05,NOT_FOUND,life imprisonment
+"дешёвая, живой поиск ДЗ1",gpt-4o-mini,fresh-50,True,False,False,0.0001653,"802,500 lira fine.","802,500 lira"
+"дешёвая, RAG всегда",gpt-4o-mini,fresh-0,True,True,False,6.24e-05,15 March.,15 March
+"дешёвая, RAG всегда",gpt-4o-mini,fresh-1,True,True,False,8.415e-05,22 March 2026.,22 March
+"дешёвая, RAG всегда",gpt-4o-mini,fresh-2,False,False,True,4.125000000000001e-05,NOT_FOUND,Miguel Díaz-Canel
+"дешёвая, RAG всегда",gpt-4o-mini,fresh-3,True,True,False,5.940000000000001e-05,strategic partnership agreement in defense and energy sectors.,a strategic partnership agreement
+"дешёвая, RAG всегда",gpt-4o-mini,fresh-4,True,True,False,5.055000000000001e-05,total fire ban,A total fire ban
+"дешёвая, RAG всегда",gpt-4o-mini,fresh-5,False,True,False,5.4900000000000006e-05,2,two people
+"дешёвая, RAG всегда",gpt-4o-mini,fresh-7,True,True,False,6.630000000000001e-05,Deniz Göktaş.,Deniz Göktaş
+"дешёвая, RAG всегда",gpt-4o-mini,fresh-8,True,True,False,5.654999999999999e-05,Pavel Durov.,Pavel Durov
+"дешёвая, RAG всегда",gpt-4o-mini,fresh-9,True,True,False,5.025000000000003e-05,New Delhi.,New Delhi
+"дешёвая, RAG всегда",gpt-4o-mini,fresh-10,True,True,False,5.475e-05,12,Twelve
+"дешёвая, RAG всегда",gpt-4o-mini,fresh-11,True,True,False,7.919999999999997e-05,Helter Skelter: Arthur Jafa and Richard Prince.,Helter Skelter
+"дешёвая, RAG всегда",gpt-4o-mini,fresh-12,True,True,False,7.620000000000001e-05,"700,000","700,000"
+"дешёвая, RAG всегда",gpt-4o-mini,fresh-13,True,True,False,8.774999999999999e-05,41.5 °C,41.5 °C
+"дешёвая, RAG всегда",gpt-4o-mini,fresh-14,True,True,False,6.195000000000002e-05,Ciudad Rodrigo.,Ciudad Rodrigo
+"дешёвая, RAG всегда",gpt-4o-mini,fresh-15,True,True,False,6.464999999999997e-05,Oleksandr Syrskyi.,Oleksandr Syrskyi
+"дешёвая, RAG всегда",gpt-4o-mini,fresh-16,True,True,False,5.535000000000002e-05,Montreal Victoire.,Montreal Victoire
+"дешёвая, RAG всегда",gpt-4o-mini,fresh-17,True,True,False,7.229999999999997e-05,EOS-05 satellite.,EOS-05
+"дешёвая, RAG всегда",gpt-4o-mini,fresh-18,True,True,False,7.229999999999997e-05,13 July 2026.,13 July
+"дешёвая, RAG всегда",gpt-4o-mini,fresh-19,True,True,False,5.714999999999995e-05,Disney Kids & Family.,Disney Kids & Family
+"дешёвая, RAG всегда",gpt-4o-mini,fresh-20,True,True,False,0.0001424999999999,single-elimination format,single-elimination
+"дешёвая, RAG всегда",gpt-4o-mini,fresh-21,True,True,False,6.824999999999995e-05,Gavin Snider.,Gavin Snider
+"дешёвая, RAG всегда",gpt-4o-mini,fresh-22,True,True,False,6.689999999999995e-05,Clara and the Below.,Clara and the Below
+"дешёвая, RAG всегда",gpt-4o-mini,fresh-23,True,True,False,6.510000000000001e-05,German Galushchenko.,German Galushchenko
+"дешёвая, RAG всегда",gpt-4o-mini,fresh-24,True,True,False,6.435000000000002e-05,drought,a drought
+"дешёвая, RAG всегда",gpt-4o-mini,fresh-25,True,True,False,6.900000000000005e-05,open war against the Taliban.,"""open war"""
+"дешёвая, RAG всегда",gpt-4o-mini,fresh-26,True,True,False,5.685e-05,9,nine
+"дешёвая, RAG всегда",gpt-4o-mini,fresh-27,True,True,False,6.959999999999996e-05,Markus Hinterhäuser.,Markus Hinterhäuser
+"дешёвая, RAG всегда",gpt-4o-mini,fresh-28,True,True,False,6.000000000000005e-05,9,nine
+"дешёвая, RAG всегда",gpt-4o-mini,fresh-29,False,True,False,6.840000000000004e-05,46 people.,43
+"дешёвая, RAG всегда",gpt-4o-mini,fresh-30,True,True,False,5.984999999999997e-05,Ankara,Ankara
+"дешёвая, RAG всегда",gpt-4o-mini,fresh-31,True,True,False,6.614999999999995e-05,Aibek Dädebai.,Aibek Dädebai
+"дешёвая, RAG всегда",gpt-4o-mini,fresh-32,True,True,False,5.790000000000005e-05,Richard Lewer.,Richard Lewer
+"дешёвая, RAG всегда",gpt-4o-mini,fresh-33,True,True,False,5.189999999999991e-05,Marilyn Gladu.,Marilyn Gladu
+"дешёвая, RAG всегда",gpt-4o-mini,fresh-34,True,True,False,5.805000000000003e-05,6.3,6.3
+"дешёвая, RAG всегда",gpt-4o-mini,fresh-35,True,True,False,8.204999999999996e-05,Dina Levačić.,Dina Levačić
+"дешёвая, RAG всегда",gpt-4o-mini,fresh-36,True,True,False,6.465000000000008e-05,129,129
+"дешёвая, RAG всегда",gpt-4o-mini,fresh-37,True,True,False,6.014999999999992e-05,15 June 2026.,15 June
+"дешёвая, RAG всегда",gpt-4o-mini,fresh-38,True,True,False,5.414999999999999e-05,Chief Minister of Kerala.,Chief Minister
+"дешёвая, RAG всегда",gpt-4o-mini,fresh-39,True,True,False,5.414999999999999e-05,Gelida.,Gelida
+"дешёвая, RAG всегда",gpt-4o-mini,fresh-40,True,True,False,5.790000000000005e-05,Lieutenant General Vladimir Alekseyev.,Vladimir Alekseyev
+"дешёвая, RAG всегда",gpt-4o-mini,fresh-41,False,True,False,6.29999999999999e-05,30000,Thirty thousand people
+"дешёвая, RAG всегда",gpt-4o-mini,fresh-42,False,False,False,0.0,ошибка: ConnectionError,Prime Minister Narendra Modi
+"дешёвая, RAG всегда",gpt-4o-mini,fresh-43,False,False,False,0.0,ошибка: ConnectionError,Zohran Mamdani
+"дешёвая, RAG всегда",gpt-4o-mini,fresh-44,False,False,False,0.0,ошибка: ConnectionError,LHS 1140 b
+"дешёвая, RAG всегда",gpt-4o-mini,fresh-45,False,False,False,0.0,ошибка: ConnectionError,F-16 Fighting Falcon
+"дешёвая, RAG всегда",gpt-4o-mini,fresh-46,False,False,False,0.0,ошибка: ConnectionError,five
+"дешёвая, RAG всегда",gpt-4o-mini,fresh-47,False,False,False,0.0,ошибка: ConnectionError,Education Minister
+"дешёвая, RAG всегда",gpt-4o-mini,fresh-48,False,False,False,0.0,ошибка: ConnectionError,Mykhailo Fedorov
+"дешёвая, RAG всегда",gpt-4o-mini,fresh-49,False,False,False,0.0,ошибка: ConnectionError,life imprisonment
+"дешёвая, RAG всегда",gpt-4o-mini,fresh-50,False,False,False,0.0,ошибка: ConnectionError,"802,500 lira"
+"дешёвая, агент с knowledge_base",gpt-4o-mini,fresh-0,False,False,False,0.00012296,"March 15, 2026",15 March
+"дешёвая, агент с knowledge_base",gpt-4o-mini,fresh-1,True,False,False,0.00013722,22 March 2026,22 March
+"дешёвая, агент с knowledge_base",gpt-4o-mini,fresh-2,False,False,False,0.00012534,Iran,Miguel Díaz-Canel
+"дешёвая, агент с knowledge_base",gpt-4o-mini,fresh-3,True,False,False,0.00010725999999999997,strategic partnership agreement in defense and energy sectors,a strategic partnership agreement
+"дешёвая, агент с knowledge_base",gpt-4o-mini,fresh-4,True,False,False,0.00010557000000000014,Total fire ban,A total fire ban
+"дешёвая, агент с knowledge_base",gpt-4o-mini,fresh-5,False,False,False,0.00010997999999999997,2,two people
+"дешёвая, агент с knowledge_base",gpt-4o-mini,fresh-7,True,False,False,0.00011625000000000003,Deniz Göktaş,Deniz Göktaş
+"дешёвая, агент с knowledge_base",gpt-4o-mini,fresh-8,False,False,True,0.00071067,NOT_FOUND,Pavel Durov
+"дешёвая, агент с knowledge_base",gpt-4o-mini,fresh-9,True,False,False,0.00010575999999999988,"New Delhi, India",New Delhi
+"дешёвая, агент с knowledge_base",gpt-4o-mini,fresh-10,True,False,False,0.00011219000000000008,12,Twelve
+"дешёвая, агент с knowledge_base",gpt-4o-mini,fresh-11,True,False,False,0.00014046000000000002,Helter Skelter: Arthur Jafa and Richard Prince,Helter Skelter
+"дешёвая, агент с knowledge_base",gpt-4o-mini,fresh-12,True,False,False,0.00014196,"700,000","700,000"
+"дешёвая, агент с knowledge_base",gpt-4o-mini,fresh-13,True,False,False,0.0001374499999999999,41.5 °C,41.5 °C
+"дешёвая, агент с knowledge_base",gpt-4o-mini,fresh-14,True,False,False,0.00012109999999999985,Ciudad Rodrigo,Ciudad Rodrigo
+"дешёвая, агент с knowledge_base",gpt-4o-mini,fresh-15,True,False,False,0.00013806000000000018,Oleksandr Syrskyi,Oleksandr Syrskyi
+"дешёвая, агент с knowledge_base",gpt-4o-mini,fresh-16,True,False,False,0.0001112000000000001,Montreal Victoire,Montreal Victoire
+"дешёвая, агент с knowledge_base",gpt-4o-mini,fresh-17,True,False,False,0.0001307000000000001,EOS-05 satellite,EOS-05
+"дешёвая, агент с knowledge_base",gpt-4o-mini,fresh-18,True,False,False,0.0001228100000000001,13 July 2026,13 July
+"дешёвая, агент с knowledge_base",gpt-4o-mini,fresh-19,True,False,False,0.00011708999999999982,Disney Kids & Family,Disney Kids & Family
+"дешёвая, агент с knowledge_base",gpt-4o-mini,fresh-20,True,False,False,0.00018466000000000012,single-elimination format,single-elimination
+"дешёвая, агент с knowledge_base",gpt-4o-mini,fresh-21,True,False,False,0.00014042999999999955,Gavin Snider,Gavin Snider
+"дешёвая, агент с knowledge_base",gpt-4o-mini,fresh-22,True,False,False,0.00012628000000000032,Clara and the Below,Clara and the Below
+"дешёвая, агент с knowledge_base",gpt-4o-mini,fresh-23,True,False,False,0.00012242999999999976,German Galushchenko,German Galushchenko
+"дешёвая, агент с knowledge_base",gpt-4o-mini,fresh-24,True,False,False,0.00013274000000000011,drought declared,a drought
+"дешёвая, агент с knowledge_base",gpt-4o-mini,fresh-25,True,False,False,0.00011786000000000001,open war against the Taliban,"""open war"""
+"дешёвая, агент с knowledge_base",gpt-4o-mini,fresh-26,True,False,False,0.00011953000000000007,9,nine
+"дешёвая, агент с knowledge_base",gpt-4o-mini,fresh-27,True,False,False,0.00012080000000000033,Markus Hinterhäuser,Markus Hinterhäuser
+"дешёвая, агент с knowledge_base",gpt-4o-mini,fresh-28,True,False,False,0.00012309000000000105,9,nine
+"дешёвая, агент с knowledge_base",gpt-4o-mini,fresh-29,False,False,False,0.00011029999999999981,46,43
+"дешёвая, агент с knowledge_base",gpt-4o-mini,fresh-30,True,False,False,0.00011662000000000044,Ankara,Ankara
+"дешёвая, агент с knowledge_base",gpt-4o-mini,fresh-31,True,False,False,0.00012127000000000058,Aibek Dädebai,Aibek Dädebai
+"дешёвая, агент с knowledge_base",gpt-4o-mini,fresh-32,True,False,False,0.00011662000000000044,Richard Lewer,Richard Lewer
+"дешёвая, агент с knowledge_base",gpt-4o-mini,fresh-33,True,False,False,0.00011530999999999954,Marilyn Gladu,Marilyn Gladu
+"дешёвая, агент с knowledge_base",gpt-4o-mini,fresh-34,True,False,False,0.00011515999999999957,6.3,6.3
+"дешёвая, агент с knowledge_base",gpt-4o-mini,fresh-35,True,False,False,0.00012894000000000013,Dina Levačić,Dina Levačić
+"дешёвая, агент с knowledge_base",gpt-4o-mini,fresh-36,True,False,False,0.00011569999999999983,129,129
+"дешёвая, агент с knowledge_base",gpt-4o-mini,fresh-37,True,False,False,0.00011539999999999988,15 June 2026,15 June
+"дешёвая, агент с knowledge_base",gpt-4o-mini,fresh-38,True,False,False,0.0001101899999999996,Chief Minister of Kerala,Chief Minister
+"дешёвая, агент с knowledge_base",gpt-4o-mini,fresh-39,True,False,False,0.00011822999999999955,Gelida,Gelida
+"дешёвая, агент с knowledge_base",gpt-4o-mini,fresh-40,True,False,False,0.00021618999999999979,Vladimir Alekseyev,Vladimir Alekseyev
+"дешёвая, агент с knowledge_base",gpt-4o-mini,fresh-41,False,False,False,0.00012616000000000016,30000,Thirty thousand people
+"дешёвая, агент с knowledge_base",gpt-4o-mini,fresh-42,True,False,False,0.00010310000000000007,Prime Minister Narendra Modi,Prime Minister Narendra Modi
+"дешёвая, агент с knowledge_base",gpt-4o-mini,fresh-43,True,False,False,0.00011983000000000046,Zohran Mamdani,Zohran Mamdani
+"дешёвая, агент с knowledge_base",gpt-4o-mini,fresh-44,True,False,False,0.00015981999999999975,LHS 1140 b,LHS 1140 b
+"дешёвая, агент с knowledge_base",gpt-4o-mini,fresh-45,True,False,False,0.00012598000000000036,F-16 Fighting Falcon,F-16 Fighting Falcon
+"дешёвая, агент с knowledge_base",gpt-4o-mini,fresh-46,True,False,False,0.00010699999999999946,5,five
+"дешёвая, агент с knowledge_base",gpt-4o-mini,fresh-47,True,False,False,0.0001173900000000002,Education Minister,Education Minister
+"дешёвая, агент с knowledge_base",gpt-4o-mini,fresh-48,True,False,False,0.00012593999999999973,Mykhailo Fedorov,Mykhailo Fedorov
+"дешёвая, агент с knowledge_base",gpt-4o-mini,fresh-49,True,False,False,0.0001272700000000005,life imprisonment,life imprisonment
+"дешёвая, агент с knowledge_base",gpt-4o-mini,fresh-50,True,False,False,0.00016263999999999949,"802,500 lira fine","802,500 lira"
+"средняя, RAG всегда",claude-haiku-4.5,fresh-0,True,True,False,0.000502,15 March,15 March
+"средняя, RAG всегда",claude-haiku-4.5,fresh-1,True,True,False,0.0006959999999999999,22 March,22 March
+"средняя, RAG всегда",claude-haiku-4.5,fresh-2,False,False,True,0.000696,NOT_FOUND,Miguel Díaz-Canel
+"средняя, RAG всегда",claude-haiku-4.5,fresh-3,True,True,False,0.0005440000000000002,Ukraine and Romania signed a strategic partnership agreement in the defense and ,a strategic partnership agreement
+"средняя, RAG всегда",claude-haiku-4.5,fresh-4,True,True,False,0.0006329999999999999,A total fire ban came into force in Victoria on 9 January 2026 in response to an,A total fire ban
+"средняя, RAG всегда",claude-haiku-4.5,fresh-5,True,True,False,0.0006319999999999997,"Two people were killed in the car incident in Leipzig, Germany in May 2026.",two people
+"средняя, RAG всегда",claude-haiku-4.5,fresh-7,True,True,False,0.0007800000000000003,"Deniz Göktaş, a comedian, was imprisoned in Istanbul for insulting President Erd",Deniz Göktaş
+"средняя, RAG всегда",claude-haiku-4.5,fresh-8,True,True,False,0.0006259999999999998,"Pavel Durov, Telegram founder, was charged by the FSB on 29 July 2026 with assis",Pavel Durov
+"средняя, RAG всегда",claude-haiku-4.5,fresh-9,True,True,False,0.0004499999999999999,"New Delhi, India",New Delhi
+"средняя, RAG всегда",claude-haiku-4.5,fresh-10,True,True,False,0.0006199999999999999,12 people were killed in the February 18 explosion at a fireworks store in Xiang,Twelve
+"средняя, RAG всегда",claude-haiku-4.5,fresh-11,True,True,False,0.0007200000000000002,Helter Skelter: Arthur Jafa and Richard Prince,Helter Skelter
+"средняя, RAG всегда",claude-haiku-4.5,fresh-12,True,True,False,0.0006160000000000002,"700,000 children","700,000"
+"средняя, RAG всегда",claude-haiku-4.5,fresh-13,True,True,False,0.0009269999999999999,41.5 °C (106.7 °F) in Möckern-Drewitz on 27 June.,41.5 °C
+"средняя, RAG всегда",claude-haiku-4.5,fresh-14,True,True,False,0.0006860000000000008,Ciudad Rodrigo,Ciudad Rodrigo
+"средняя, RAG всегда",claude-haiku-4.5,fresh-15,True,True,False,0.0006790000000000008,Oleksandr Syrskyi,Oleksandr Syrskyi
+"средняя, RAG всегда",claude-haiku-4.5,fresh-16,True,True,False,0.0006309999999999996,"The Montreal Victoire won their first Walter Cup on May 20, 2026.",Montreal Victoire
+"средняя, RAG всегда",claude-haiku-4.5,fresh-17,True,True,False,0.0006879999999999994,"EOS-05, India's first geostationary Earth observation satellite.",EOS-05
+"средняя, RAG всегда",claude-haiku-4.5,fresh-18,True,True,False,0.0006069999999999999,13 July,13 July
+"средняя, RAG всегда",claude-haiku-4.5,fresh-19,True,True,False,0.0004709999999999992,Disney Kids & Family,Disney Kids & Family
+"средняя, RAG всегда",claude-haiku-4.5,fresh-20,True,True,False,0.001216,The 2026 FIFA World Cup knockout stage used a single-elimination format beginnin,single-elimination
+"средняя, RAG всегда",claude-haiku-4.5,fresh-21,True,True,False,0.0006079999999999992,Gavin Snider,Gavin Snider
+"средняя, RAG всегда",claude-haiku-4.5,fresh-22,True,True,False,0.0005559999999999992,Clara and the Below,Clara and the Below
+"средняя, RAG всегда",claude-haiku-4.5,fresh-23,True,True,False,0.0007229999999999997,"German Galushchenko, former energy minister, was arrested on February 15, 2026, ",German Galushchenko
+"средняя, RAG всегда",claude-haiku-4.5,fresh-24,True,True,False,0.000615000000000001,A drought is declared across the whole of Wales in July 2026.,a drought
+"средняя, RAG всегда",claude-haiku-4.5,fresh-25,True,True,False,0.0006190000000000015,"The government of Pakistan declared ""open war"" against the Taliban in Afghanista","""open war"""
+"средняя, RAG всегда",claude-haiku-4.5,fresh-26,True,True,False,0.000503,Nine people were injured.,nine
+"средняя, RAG всегда",claude-haiku-4.5,fresh-27,True,True,False,0.0006500000000000013,Markus Hinterhäuser,Markus Hinterhäuser
+"средняя, RAG всегда",claude-haiku-4.5,fresh-28,True,True,False,0.0006159999999999985,At least nine people were killed (including the perpetrator).,nine
+"средняя, RAG всегда",claude-haiku-4.5,fresh-29,True,True,False,0.0009289999999999993,"46 people were killed in the train derailment near Adamuz, Spain, in January 202",43
+"средняя, RAG всегда",claude-haiku-4.5,fresh-30,True,True,False,0.0005649999999999995,Ankara,Ankara
+"средняя, RAG всегда",claude-haiku-4.5,fresh-31,True,True,False,0.0006649999999999989,Aibek Dädebai of the Ädilet party formed the new government of Kazakhstan.,Aibek Dädebai
+"средняя, RAG всегда",claude-haiku-4.5,fresh-32,True,True,False,0.0006600000000000009,"Richard Lewer won the Archibald Prize on May 8, 2026.",Richard Lewer
+"средняя, RAG всегда",claude-haiku-4.5,fresh-33,True,True,False,0.0005830000000000002,Marilyn Gladu,Marilyn Gladu
+"средняя, RAG всегда",claude-haiku-4.5,fresh-34,True,True,False,0.0005339999999999998,6.3,6.3
+"средняя, RAG всегда",claude-haiku-4.5,fresh-35,True,True,False,0.0008570000000000001,"Dina Levačić, a Croatian long-distance swimmer, became the first person to swim ",Dina Levačić
+"средняя, RAG всегда",claude-haiku-4.5,fresh-36,True,True,False,0.0005810000000000017,At least 129 people were killed.,129
+"средняя, RAG всегда",claude-haiku-4.5,fresh-37,True,True,False,0.0005159999999999991,15 June 2026,15 June
+"средняя, RAG всегда",claude-haiku-4.5,fresh-38,True,True,False,0.00048799999999999885,Chief Minister of Kerala,Chief Minister
+"средняя, RAG всегда",claude-haiku-4.5,fresh-39,True,True,False,0.00046399999999999914,Gelida,Gelida
+"средняя, RAG всегда",claude-haiku-4.5,fresh-40,True,True,False,0.0005819999999999992,"Lieutenant General Vladimir Alekseyev, deputy head of the GRU.",Vladimir Alekseyev
+"средняя, RAG всегда",claude-haiku-4.5,fresh-41,False,True,False,0.0006029999999999994,"30,000 people participated in the anti-war protest in Japan in April 2026.",Thirty thousand people
+"средняя, RAG всегда",claude-haiku-4.5,fresh-42,True,True,False,0.0004819999999999998,Prime Minister Narendra Modi,Prime Minister Narendra Modi
+"средняя, RAG всегда",claude-haiku-4.5,fresh-43,True,True,False,0.000511000000000001,Zohran Mamdani,Zohran Mamdani
+"средняя, RAG всегда",claude-haiku-4.5,fresh-44,True,True,False,0.0010770000000000016,LHS 1140 b,LHS 1140 b
+"средняя, RAG всегда",claude-haiku-4.5,fresh-45,True,True,False,0.0005499999999999984,F-16 Fighting Falcon,F-16 Fighting Falcon
+"средняя, RAG всегда",claude-haiku-4.5,fresh-46,True,True,False,0.0005080000000000015,"Five people died in the Moscow bombing on August 1, 2026.",five
+"средняя, RAG всегда",claude-haiku-4.5,fresh-47,True,True,False,0.0004970000000000009,Education Minister,Education Minister
+"средняя, RAG всегда",claude-haiku-4.5,fresh-48,True,True,False,0.0006819999999999986,"Mykhailo Fedorov was dismissed as defence minister in Ukraine on July 15, 2026.",Mykhailo Fedorov
+"средняя, RAG всегда",claude-haiku-4.5,fresh-49,True,True,False,0.0005859999999999997,Life imprisonment,life imprisonment
+"средняя, RAG всегда",claude-haiku-4.5,fresh-50,True,True,False,0.0006539999999999983,"802,500 lira ($18,500)","802,500 lira"

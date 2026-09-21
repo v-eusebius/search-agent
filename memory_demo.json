@@ -1,0 +1,41 @@
+{
+  "facts_s1": [
+    "User's name is Anya",
+    "User lives in Berlin",
+    "User prefers short answers"
+  ],
+  "answer_s2": "Ты живешь в Берлине. Информации о победителе Masters 2026 нет.",
+  "facts_after_move": [
+    "User's name is Anya",
+    "User lives in Paris",
+    "User prefers short answers"
+  ],
+  "tokens_full": [
+    49,
+    238,
+    283,
+    473,
+    542,
+    905,
+    975,
+    1148,
+    1322,
+    1489,
+    1531
+  ],
+  "tokens_mem": [
+    54,
+    102,
+    114,
+    125,
+    132,
+    148,
+    141,
+    117,
+    100,
+    89,
+    97
+  ],
+  "cost_full": 0.00151386,
+  "cost_mem": 0.00083434
+}

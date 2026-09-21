@@ -1,0 +1,70 @@
+{
+  "summary": {
+    "unanswerable_total": 10,
+    "unanswerable_refused": 10,
+    "answerable_n": 50,
+    "answerable_false_refuse": 1
+  },
+  "rows": [
+    {
+      "id": "unans-0",
+      "question": "Who won the Nobel Prize in Literature announced in October 2026?",
+      "refused": true,
+      "answer": "NOT_FOUND."
+    },
+    {
+      "id": "unans-1",
+      "question": "Which team won the 2026 World Series in baseball?",
+      "refused": true,
+      "answer": "NOT_FOUND."
+    },
+    {
+      "id": "unans-2",
+      "question": "Who won the 2026 Formula One World Drivers' Championship?",
+      "refused": true,
+      "answer": "NOT_FOUND."
+    },
+    {
+      "id": "unans-3",
+      "question": "Which country won the Eurovision Song Contest 2027?",
+      "refused": true,
+      "answer": "NOT_FOUND."
+    },
+    {
+      "id": "unans-4",
+      "question": "Who won the United States Senate election in Maine held on November 3, 2026?",
+      "refused": true,
+      "answer": "NOT_FOUND"
+    },
+    {
+      "id": "unans-5",
+      "question": "Which film won the Palme d'Or at the 2027 Cannes Film Festival?",
+      "refused": true,
+      "answer": "NOT_FOUND."
+    },
+    {
+      "id": "unans-6",
+      "question": "What was the magnitude of the earthquake that struck Lisbon in December 2026?",
+      "refused": true,
+      "answer": "NOT_FOUND"
+    },
+    {
+      "id": "unans-7",
+      "question": "Who won the Nobel Peace Prize announced in October 2026?",
+      "refused": true,
+      "answer": "NOT_FOUND."
+    },
+    {
+      "id": "unans-8",
+      "question": "Which company first reached a ten trillion dollar valuation in November 2026?",
+      "refused": true,
+      "answer": "NOT_FOUND"
+    },
+    {
+      "id": "unans-9",
+      "question": "Who won the 2026 World Chess Championship match in December 2026?",
+      "refused": true,
+      "answer": "NOT_FOUND."
+    }
+  ]
+}
