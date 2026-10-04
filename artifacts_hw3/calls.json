@@ -1,0 +1,38 @@
+[
+ {
+  "tag": "пустой вопрос: голый цикл",
+  "model": "gpt-4o-mini",
+  "messages": 2,
+  "tools": 2,
+  "prompt": 176,
+  "completion": 2,
+  "cost": 2.76e-05
+ },
+ {
+  "tag": "пустой вопрос: LangGraph",
+  "model": "gpt-4o-mini",
+  "messages": 2,
+  "tools": 2,
+  "prompt": 176,
+  "completion": 2,
+  "cost": 2.76e-05
+ },
+ {
+  "tag": "пустой вопрос: smolagents, инструменты",
+  "model": "gpt-4o-mini",
+  "messages": 2,
+  "tools": 3,
+  "prompt": 1125,
+  "completion": 14,
+  "cost": 0.00010035
+ },
+ {
+  "tag": "пустой вопрос: smolagents, код",
+  "model": "gpt-4o-mini",
+  "messages": 2,
+  "tools": 0,
+  "prompt": 2132,
+  "completion": 18,
+  "cost": 0.0003306
+ }
+]

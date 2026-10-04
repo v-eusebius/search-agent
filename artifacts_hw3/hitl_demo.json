@@ -1,0 +1,35 @@
+{
+ "question": "Find who won the 2026 FIFA World Cup final and email a one-line summary to boss@example.com",
+ "steps": [
+  {
+   "stage": "interrupt",
+   "action_requests": [
+    {
+     "name": "send_summary",
+     "args": {
+      "to": "boss@example.com",
+      "text": "Spain won the 2026 FIFA World Cup final against Argentina."
+     },
+     "description": "Tool execution requires approval\n\nTool: send_summary\nArgs: {'to': 'boss@example.com', 'text': 'Spain won the 2026 FIFA World Cup final against Argentina.'}"
+    }
+   ]
+  },
+  {
+   "stage": "reject_then_interrupt",
+   "action_requests": [
+    {
+     "name": "send_summary",
+     "args": {
+      "to": "boss@example.com",
+      "text": "Spain won the 2026 FIFA World Cup final against Argentina with a score of 2-0."
+     },
+     "description": "Tool execution requires approval\n\nTool: send_summary\nArgs: {'to': 'boss@example.com', 'text': 'Spain won the 2026 FIFA World Cup final against Argentina with a score of 2-0.'}"
+    }
+   ]
+  },
+  {
+   "stage": "approve",
+   "answer": "I found that Spain won the 2026 FIFA World Cup final against Argentina with a score of 2-0. I then emailed this summary to boss@example.com."
+  }
+ ]
+}

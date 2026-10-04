@@ -1,0 +1,24 @@
+{
+ "fixed": 2,
+ "broken": 1,
+ "details": [
+  {
+   "id": "fresh-15",
+   "kind": "fixed",
+   "before": "Mykhailo Fedorov was dismissed as Commander-in-Chief of the Armed Forces of Ukraine on 21 July 2026.",
+   "after": "Oleksandr Syrskyi was dismissed as Commander-in-Chief of the Armed Forces of Ukraine on 21 July 2026."
+  },
+  {
+   "id": "fresh-21",
+   "kind": "fixed",
+   "before": "I couldn't find any information regarding an artist accusing Devon Rodriguez of presenting his work as his own in June 2026.",
+   "after": "Gavin Snider accused Devon Rodriguez of presenting his work as his own in June 2026."
+  },
+  {
+   "id": "fresh-24",
+   "kind": "broken",
+   "before": "A drought was declared across the whole of Wales on 30 July 2026.",
+   "after": "In July 2026, the Welsh Government activated \"crisis management arrangements\" due to the number of wildfires across Wales."
+  }
+ ]
+}

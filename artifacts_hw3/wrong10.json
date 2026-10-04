@@ -1,0 +1,436 @@
+{
+ "голый цикл, mini": [
+  {
+   "id": "fresh-2",
+   "эталон": "Miguel Díaz-Canel",
+   "ответ": "Iran entered negotiations with the Trump administration on March 13, 2026.",
+   "вопрос": "Who entered negotiations with the Trump administration on March 13, 2026?"
+  },
+  {
+   "id": "fresh-6",
+   "эталон": "4,500",
+   "ответ": "519 people are reported missing in Tibet after the floods in August 2026.",
+   "вопрос": "How many people are reported missing in Tibet after the floods in August 2026?"
+  },
+  {
+   "id": "fresh-15",
+   "эталон": "Oleksandr Syrskyi",
+   "ответ": "I could not find the specific information regarding the dismissal of the Commander-in-Chief of the Armed Forces of Ukraine on July 21, 2026.",
+   "вопрос": "Who was dismissed as Commander-in-Chief of the Armed Forces of Ukraine on 21 July 2026?"
+  },
+  {
+   "id": "fresh-21",
+   "эталон": "Gavin Snider",
+   "ответ": "I could not find any information regarding an artist accusing Devon Rodriguez of presenting his work as his own in June 2026.",
+   "вопрос": "In art, which artist accused Devon Rodriguez of presenting his work as his own in June 2026?"
+  },
+  {
+   "id": "fresh-23",
+   "эталон": "German Galushchenko",
+   "ответ": "I couldn't find specific information about an arrest in Ukraine on February 15, 2026.",
+   "вопрос": "In Ukraine, who was arrested on February 15, 2026, while attempting to flee the country?"
+  },
+  {
+   "id": "fresh-28",
+   "эталон": "nine",
+   "ответ": "Six people were killed in the mass shooting at Tumbler Ridge Secondary School in February 2026.",
+   "вопрос": "What was the number of people killed in the mass shooting at Tumbler Ridge Secondary School in British Columbia, Canada?"
+  },
+  {
+   "id": "fresh-29",
+   "эталон": "43",
+   "ответ": "46 people were killed in the train derailment near Adamuz, Spain, in January 2026.",
+   "вопрос": "How many people were killed in the train derailment near Adamuz, Spain, in January 2026?"
+  },
+  {
+   "id": "fresh-31",
+   "эталон": "Aibek Dädebai",
+   "ответ": "The new government of Kazakhstan was formed by Prime Minister Oljas Bektenov after the legislative election on August 23, 2026.",
+   "вопрос": "Who formed the new government of Kazakhstan after the legislative election on August 23, 2026?"
+  },
+  {
+   "id": "fresh-32",
+   "эталон": "Richard Lewer",
+   "ответ": "No information found.",
+   "вопрос": "Who won the Archibald Prize on May 8, 2026?"
+  },
+  {
+   "id": "fresh-33",
+   "эталон": "Marilyn Gladu",
+   "ответ": "I couldn't find specific information about an MP defecting from the Conservative Party to the Liberal Party in April 2026.",
+   "вопрос": "Which MP defected from the Conservative Party to the Liberal Party in April 2026?"
+  }
+ ],
+ "LangGraph, mini": [
+  {
+   "id": "fresh-2",
+   "эталон": "Miguel Díaz-Canel",
+   "ответ": "Iran entered negotiations with the Trump administration on March 13, 2026.",
+   "вопрос": "Who entered negotiations with the Trump administration on March 13, 2026?"
+  },
+  {
+   "id": "fresh-6",
+   "эталон": "4,500",
+   "ответ": "519 people are reported missing in Tibet after the floods in August 2026.",
+   "вопрос": "How many people are reported missing in Tibet after the floods in August 2026?"
+  },
+  {
+   "id": "fresh-12",
+   "эталон": "700,000",
+   "ответ": "I couldn't find the specific number of children receiving support for special educational needs and disabilities in the United Kingdom in January 2026.",
+   "вопрос": "What is the number of children receiving support for special educational needs and disabilities in the United Kingdom in January 2026?"
+  },
+  {
+   "id": "fresh-14",
+   "эталон": "Ciudad Rodrigo",
+   "ответ": "I could not find specific information about a fatal incident in Spain during the 2026 FIFA World Cup final celebrations.",
+   "вопрос": "What city in Spain experienced a fatal incident during the 2026 FIFA World Cup final celebrations?"
+  },
+  {
+   "id": "fresh-15",
+   "эталон": "Oleksandr Syrskyi",
+   "ответ": "Mykhailo Fedorov was dismissed as Commander-in-Chief of the Armed Forces of Ukraine on 21 July 2026.",
+   "вопрос": "Who was dismissed as Commander-in-Chief of the Armed Forces of Ukraine on 21 July 2026?"
+  },
+  {
+   "id": "fresh-19",
+   "эталон": "Disney Kids & Family",
+   "ответ": "Disney Branded Television rebranded itself as Disney Entertainment Television on June 15, 2026.",
+   "вопрос": "In animation, what did Disney Branded Television rebrand itself as on June 15, 2026?"
+  },
+  {
+   "id": "fresh-21",
+   "эталон": "Gavin Snider",
+   "ответ": "I couldn't find any information regarding an artist accusing Devon Rodriguez of presenting his work as his own in June 2026.",
+   "вопрос": "In art, which artist accused Devon Rodriguez of presenting his work as his own in June 2026?"
+  },
+  {
+   "id": "fresh-23",
+   "эталон": "German Galushchenko",
+   "ответ": "I couldn't find specific information about an arrest in Ukraine on February 15, 2026.",
+   "вопрос": "In Ukraine, who was arrested on February 15, 2026, while attempting to flee the country?"
+  },
+  {
+   "id": "fresh-28",
+   "эталон": "nine",
+   "ответ": "Six people were killed in the mass shooting at Tumbler Ridge Secondary School in February 2026.",
+   "вопрос": "What was the number of people killed in the mass shooting at Tumbler Ridge Secondary School in British Columbia, Canada?"
+  },
+  {
+   "id": "fresh-29",
+   "эталон": "43",
+   "ответ": "46 people were killed in the train derailment near Adamuz, Spain, in January 2026.",
+   "вопрос": "How many people were killed in the train derailment near Adamuz, Spain, in January 2026?"
+  }
+ ],
+ "LangGraph + критик, mini": [
+  {
+   "id": "fresh-2",
+   "эталон": "Miguel Díaz-Canel",
+   "ответ": "Iran entered negotiations with the Trump administration on March 13, 2026.",
+   "вопрос": "Who entered negotiations with the Trump administration on March 13, 2026?"
+  },
+  {
+   "id": "fresh-6",
+   "эталон": "4,500",
+   "ответ": "519 people are reported missing in Tibet after the floods in August 2026.",
+   "вопрос": "How many people are reported missing in Tibet after the floods in August 2026?"
+  },
+  {
+   "id": "fresh-12",
+   "эталон": "700,000",
+   "ответ": "The information regarding the number of children receiving support for special educational needs and disabilities in the United Kingdom in January 2026 is not available.",
+   "вопрос": "What is the number of children receiving support for special educational needs and disabilities in the United Kingdom in January 2026?"
+  },
+  {
+   "id": "fresh-14",
+   "эталон": "Ciudad Rodrigo",
+   "ответ": "I could not find specific information about a fatal incident in Spain during the 2026 FIFA World Cup final celebrations.",
+   "вопрос": "What city in Spain experienced a fatal incident during the 2026 FIFA World Cup final celebrations?"
+  },
+  {
+   "id": "fresh-19",
+   "эталон": "Disney Kids & Family",
+   "ответ": "Disney Branded Television rebranded itself as Disney Entertainment Television on June 15, 2026.",
+   "вопрос": "In animation, what did Disney Branded Television rebrand itself as on June 15, 2026?"
+  },
+  {
+   "id": "fresh-23",
+   "эталон": "German Galushchenko",
+   "ответ": "I couldn't find specific information about an arrest in Ukraine on February 15, 2026.",
+   "вопрос": "In Ukraine, who was arrested on February 15, 2026, while attempting to flee the country?"
+  },
+  {
+   "id": "fresh-24",
+   "эталон": "a drought",
+   "ответ": "In July 2026, the Welsh Government activated \"crisis management arrangements\" due to the number of wildfires across Wales.",
+   "вопрос": "In the United Kingdom, what is declared across the whole of Wales in July 2026?"
+  },
+  {
+   "id": "fresh-28",
+   "эталон": "nine",
+   "ответ": "Six people were killed in the mass shooting at Tumbler Ridge Secondary School in February 2026.",
+   "вопрос": "What was the number of people killed in the mass shooting at Tumbler Ridge Secondary School in British Columbia, Canada?"
+  },
+  {
+   "id": "fresh-29",
+   "эталон": "43",
+   "ответ": "46 people were killed in the train derailment near Adamuz, Spain, in January 2026.",
+   "вопрос": "How many people were killed in the train derailment near Adamuz, Spain, in January 2026?"
+  },
+  {
+   "id": "fresh-31",
+   "эталон": "Aibek Dädebai",
+   "ответ": "The new government of Kazakhstan was formed by Prime Minister Oljas Bektenov after the legislative election on August 23, 2026.",
+   "вопрос": "Who formed the new government of Kazakhstan after the legislative election on August 23, 2026?"
+  }
+ ],
+ "каскад: 3 голоса mini, иначе Sonnet": [
+  {
+   "id": "fresh-2",
+   "эталон": "Miguel Díaz-Canel",
+   "ответ": "Iran entered negotiations with the Trump administration on March 13, 2026.",
+   "вопрос": "Who entered negotiations with the Trump administration on March 13, 2026?"
+  },
+  {
+   "id": "fresh-6",
+   "эталон": "4,500",
+   "ответ": "519 people are reported missing in Tibet after the floods in August 2026.",
+   "вопрос": "How many people are reported missing in Tibet after the floods in August 2026?"
+  },
+  {
+   "id": "fresh-13",
+   "эталон": "41.5 °C",
+   "ответ": "Based on the search results, I was unable to find the specific highest recorded temperature in Germany during the 2026 European heatwaves from the information retrieved.",
+   "вопрос": "What is the highest recorded temperature in Germany during the 2026 European heatwaves?"
+  },
+  {
+   "id": "fresh-17",
+   "эталон": "EOS-05",
+   "ответ": "Based on my research, I was unable to retrieve the specific details about what ISRO launched on September 3, 2026 from the available Wikipedia sources.",
+   "вопрос": "In spaceflight, what was launched by ISRO on September 3, 2026?"
+  },
+  {
+   "id": "fresh-28",
+   "эталон": "nine",
+   "ответ": "Six people were killed in the mass shooting at Tumbler Ridge Secondary School in February 2026.",
+   "вопрос": "What was the number of people killed in the mass shooting at Tumbler Ridge Secondary School in British Columbia, Canada?"
+  },
+  {
+   "id": "fresh-29",
+   "эталон": "43",
+   "ответ": "**46 people** were killed in the train derailment near Adamuz, Spain, on 18 January 2026.",
+   "вопрос": "How many people were killed in the train derailment near Adamuz, Spain, in January 2026?"
+  },
+  {
+   "id": "fresh-31",
+   "эталон": "Aibek Dädebai",
+   "ответ": "After the legislative election on August 23, 2026, **Oljas Bektenov** formed the new government of Kazakhstan. He was reappointed as Prime Minister on August 31.",
+   "вопрос": "Who formed the new government of Kazakhstan after the legislative election on August 23, 2026?"
+  },
+  {
+   "id": "fresh-32",
+   "эталон": "Richard Lewer",
+   "ответ": "I was unable to find the specific winner of the Archibald Prize announced on May 8, 2026, through my searches. I don't have that information available.",
+   "вопрос": "Who won the Archibald Prize on May 8, 2026?"
+  },
+  {
+   "id": "fresh-33",
+   "эталон": "Marilyn Gladu",
+   "ответ": "Based on my research, I was unable to find a specific instance of an MP defecting from the Conservative Party to the Liberal Party in April 2026.",
+   "вопрос": "Which MP defected from the Conservative Party to the Liberal Party in April 2026?"
+  },
+  {
+   "id": "fresh-36",
+   "эталон": "129",
+   "ответ": "At least 136 people were killed in the earthquake that struck off the island of Flores, Indonesia on August 15, 2026.",
+   "вопрос": "How many people were killed in the earthquake that struck off the island of Flores, Indonesia on August 15, 2026?"
+  }
+ ],
+ "план + LangGraph, mini": [
+  {
+   "id": "fresh-2",
+   "эталон": "Miguel Díaz-Canel",
+   "ответ": "Iran entered negotiations with the Trump administration on March 13, 2026.",
+   "вопрос": "Who entered negotiations with the Trump administration on March 13, 2026?"
+  },
+  {
+   "id": "fresh-3",
+   "эталон": "a strategic partnership agreement",
+   "ответ": "There were no specific details found regarding an agreement between Ukraine and Romania in March 2026.",
+   "вопрос": "What agreement did Ukraine and Romania sign in March 2026?"
+  },
+  {
+   "id": "fresh-4",
+   "эталон": "A total fire ban",
+   "ответ": "No specific measures or legislation were identified as coming into force in Victoria, Australia in January 2026.",
+   "вопрос": "What measure came into force in Victoria, Australia in January 2026?"
+  },
+  {
+   "id": "fresh-6",
+   "эталон": "4,500",
+   "ответ": "519 people are reported missing in Tibet after the floods in August 2026.",
+   "вопрос": "How many people are reported missing in Tibet after the floods in August 2026?"
+  },
+  {
+   "id": "fresh-8",
+   "эталон": "Pavel Durov",
+   "ответ": "No specific individual was reported as charged by the FSB on July 29, 2026.",
+   "вопрос": "Who was charged by the FSB in Russia on 29 July 2026?"
+  },
+  {
+   "id": "fresh-10",
+   "эталон": "Twelve",
+   "ответ": "No information found regarding the February 18 explosion at a fireworks store in China.",
+   "вопрос": "How many people were killed in the February 18 explosion at a fireworks store in China?"
+  },
+  {
+   "id": "fresh-12",
+   "эталон": "700,000",
+   "ответ": "I couldn't find specific statistics for the number of children receiving support for special educational needs and disabilities in the United Kingdom in January 2026.",
+   "вопрос": "What is the number of children receiving support for special educational needs and disabilities in the United Kingdom in January 2026?"
+  },
+  {
+   "id": "fresh-13",
+   "эталон": "41.5 °C",
+   "ответ": "The highest recorded temperature in Germany during the 2026 European heatwaves was not specified in the retrieved information.",
+   "вопрос": "What is the highest recorded temperature in Germany during the 2026 European heatwaves?"
+  },
+  {
+   "id": "fresh-14",
+   "эталон": "Ciudad Rodrigo",
+   "ответ": "The city in Spain that experienced a fatal incident during the 2026 FIFA World Cup final celebrations is not specified in the available information.",
+   "вопрос": "What city in Spain experienced a fatal incident during the 2026 FIFA World Cup final celebrations?"
+  },
+  {
+   "id": "fresh-17",
+   "эталон": "EOS-05",
+   "ответ": "No information found about ISRO's launch on September 3, 2026.",
+   "вопрос": "In spaceflight, what was launched by ISRO on September 3, 2026?"
+  }
+ ],
+ "LangGraph, Sonnet": [
+  {
+   "id": "fresh-2",
+   "эталон": "Miguel Díaz-Canel",
+   "ответ": "Based on the information found, **Iran** entered negotiations with the Trump administration (specifically referenced in the context of the 2025–2026 Iran–United States conflict).",
+   "вопрос": "Who entered negotiations with the Trump administration on March 13, 2026?"
+  },
+  {
+   "id": "fresh-6",
+   "эталон": "4,500",
+   "ответ": "**519 people** are reported missing in the Tibet Autonomous Region of China following the floods in August 2026.",
+   "вопрос": "How many people are reported missing in Tibet after the floods in August 2026?"
+  },
+  {
+   "id": "fresh-13",
+   "эталон": "41.5 °C",
+   "ответ": "Based on the information found, by 27 June 2026, 13 of the 16 German states had broken their all-time temperature records during the 2026 European heatwaves.",
+   "вопрос": "What is the highest recorded temperature in Germany during the 2026 European heatwaves?"
+  },
+  {
+   "id": "fresh-17",
+   "эталон": "EOS-05",
+   "ответ": "Based on my research, I was unable to retrieve the specific details about what ISRO launched on September 3, 2026 from the available Wikipedia sources.",
+   "вопрос": "In spaceflight, what was launched by ISRO on September 3, 2026?"
+  },
+  {
+   "id": "fresh-29",
+   "эталон": "43",
+   "ответ": "**46 people** were killed in the train derailment near Adamuz, Spain, on 18 January 2026.",
+   "вопрос": "How many people were killed in the train derailment near Adamuz, Spain, in January 2026?"
+  },
+  {
+   "id": "fresh-31",
+   "эталон": "Aibek Dädebai",
+   "ответ": "After the legislative election on August 23, 2026, **Oljas Bektenov** formed the new government of Kazakhstan. He was reappointed as Prime Minister on August 31.",
+   "вопрос": "Who formed the new government of Kazakhstan after the legislative election on August 23, 2026?"
+  },
+  {
+   "id": "fresh-32",
+   "эталон": "Richard Lewer",
+   "ответ": "I was unable to find the specific winner of the Archibald Prize announced on May 8, 2026, through my searches. I don't have that information available.",
+   "вопрос": "Who won the Archibald Prize on May 8, 2026?"
+  },
+  {
+   "id": "fresh-33",
+   "эталон": "Marilyn Gladu",
+   "ответ": "Based on my research, I was unable to find specific information about an MP defecting from the Conservative Party to the Liberal Party in April 2026.",
+   "вопрос": "Which MP defected from the Conservative Party to the Liberal Party in April 2026?"
+  },
+  {
+   "id": "fresh-36",
+   "эталон": "129",
+   "ответ": "**136 people** were killed in the earthquake that struck off the island of Flores, Indonesia on August 15, 2026.",
+   "вопрос": "How many people were killed in the earthquake that struck off the island of Flores, Indonesia on August 15, 2026?"
+  },
+  {
+   "id": "fresh-39",
+   "эталон": "Gelida",
+   "ответ": "The train collision in Spain on January 20, 2026, actually began on **January 18, 2026**, and took place in **Adamuz**, in the province of **Córdoba**, Spain.",
+   "вопрос": "What was the location of the train collision in Spain on January 20, 2026?"
+  }
+ ],
+ "голосование 3, mini": [
+  {
+   "id": "fresh-2",
+   "эталон": "Miguel Díaz-Canel",
+   "ответ": "Iran entered negotiations with the Trump administration on March 13, 2026.",
+   "вопрос": "Who entered negotiations with the Trump administration on March 13, 2026?"
+  },
+  {
+   "id": "fresh-6",
+   "эталон": "4,500",
+   "ответ": "519 people are reported missing in Tibet after the floods in August 2026.",
+   "вопрос": "How many people are reported missing in Tibet after the floods in August 2026?"
+  },
+  {
+   "id": "fresh-15",
+   "эталон": "Oleksandr Syrskyi",
+   "ответ": "I couldn't find specific information about the dismissal of the Commander-in-Chief of the Armed Forces of Ukraine on July 21, 2026.",
+   "вопрос": "Who was dismissed as Commander-in-Chief of the Armed Forces of Ukraine on 21 July 2026?"
+  },
+  {
+   "id": "fresh-19",
+   "эталон": "Disney Kids & Family",
+   "ответ": "Disney Branded Television rebranded itself as Disney Entertainment Television on June 15, 2026.",
+   "вопрос": "In animation, what did Disney Branded Television rebrand itself as on June 15, 2026?"
+  },
+  {
+   "id": "fresh-23",
+   "эталон": "German Galushchenko",
+   "ответ": "I couldn't find specific information regarding an arrest in Ukraine on February 15, 2026.",
+   "вопрос": "In Ukraine, who was arrested on February 15, 2026, while attempting to flee the country?"
+  },
+  {
+   "id": "fresh-28",
+   "эталон": "nine",
+   "ответ": "Six people were killed in the mass shooting at Tumbler Ridge Secondary School in February 2026.",
+   "вопрос": "What was the number of people killed in the mass shooting at Tumbler Ridge Secondary School in British Columbia, Canada?"
+  },
+  {
+   "id": "fresh-29",
+   "эталон": "43",
+   "ответ": "46 people were killed in the train derailment near Adamuz, Spain, in January 2026.",
+   "вопрос": "How many people were killed in the train derailment near Adamuz, Spain, in January 2026?"
+  },
+  {
+   "id": "fresh-31",
+   "эталон": "Aibek Dädebai",
+   "ответ": "The new government of Kazakhstan was formed under Prime Minister Oljas Bektenov after the legislative election on August 23, 2026.",
+   "вопрос": "Who formed the new government of Kazakhstan after the legislative election on August 23, 2026?"
+  },
+  {
+   "id": "fresh-32",
+   "эталон": "Richard Lewer",
+   "ответ": "No information found.",
+   "вопрос": "Who won the Archibald Prize on May 8, 2026?"
+  },
+  {
+   "id": "fresh-33",
+   "эталон": "Marilyn Gladu",
+   "ответ": "I could not find any information regarding an MP defecting from the Conservative Party to the Liberal Party in April 2026.",
+   "вопрос": "Which MP defected from the Conservative Party to the Liberal Party in April 2026?"
+  }
+ ]
+}

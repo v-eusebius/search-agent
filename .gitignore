@@ -8,3 +8,5 @@ img/.DS_Store
 eval_run.log
 freshness_run.log
 tasks/
+data/wiki_cache_hw3.json
+traces_hw3/
