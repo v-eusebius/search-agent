@@ -8,9 +8,9 @@
   "page": "2026 in sports",
   "url": "https://en.wikipedia.org/wiki/2026_in_sports"
  },
- "answer": "Padraig Harrington won the U.S. Senior Open at Scioto Country Club in July 2026, making him a back-to-back champion. FINAL: Padraig Harrington.",
- "correct": false,
- "cost": 0.0002366999999999786,
+ "answer": "Pádraig Harrington won the U.S. Senior Open at Scioto Country Club in July 2026, successfully defending his title from the previous year. He finished the tournament with a score of 268, 12 under par, defeating Stewart Cink by four strokes. \n\nFINAL: Pádraig Harrington",
+ "correct": true,
+ "cost": 0.0004877999999999272,
  "messages": [
   {
    "role": "system",
@@ -29,22 +29,66 @@
     {
      "type": "function",
      "index": 0,
-     "id": "call_EsGIsSYaRngVeeObmwGmmllP",
+     "id": "call_qVbC32lrQqGYx9krQkJnZXK2",
      "function": {
       "name": "tavily_search",
-      "arguments": "{\"query\":\"U.S. Senior Open 2026 winner Scioto Country Club\"}"
+      "arguments": "{\"query\":\"U.S. Senior Open 2026 Scioto Country Club winner\"}"
      }
     }
    ]
   },
   {
    "role": "tool",
-   "tool_call_id": "call_EsGIsSYaRngVeeObmwGmmllP",
-   "content": "[U.S. Senior Open Championship 2026 Golf Leaderboard - PGA Tour - Overview](https://www.pgatour.com/pgatour-champions/tournaments/2026/u.s-senior-open-championship/S2026512/overview) PGA Tour ChampionsLeaderboardWatch & ListenNewsSchwab CupSchedulePlayersStatsTicketsShopPGA TourPGA Tour ChampionsKorn Ferry TourPGA Tour AmericasPGA Tour UniversityDP World TourLPGA TourTGL PGA Tour Champions PGA Tour Champions U.S. Senior Open Championship ### U.S. Senior Open Championship Scioto Country Club Columbus, Ohio • USA Jul 2 - 5, 2026 Scioto Country Club Jul 2 - 5, 2026 Conducted by the USGA # Event Overview # Past Champions ### 2026 Padraig Harrington IRL [...] - #### Total 289### \n[46TH U.S. SENIOR OPEN – FACT SHEET](https://pgatourmedia.pgatourhq.com/static-assets/page/files/tours/2026/pgatourchampions/ussenioropenchampionship/moreInformation/2026%20USSO%20Fact%20Sheet.pdf) in 1986 at the age of 50 years, 3 months, 24 days. PURSE The 2025 purse was $4 million; the winner earned $800,000. The 2026 purse will be announced later this year. 2026 U.S. SENIOR OPEN NOTES ►Scioto Country Club is hosting its fifth USGA championship dating back to the 1926 U.S. Open ►Scioto C.C. will host its third U.S. Senior Open, which ties a record for most times as a playing site ►This year’s championship features 6 World Golf Hall of Famers including Vijay Singh and Padraig Harrington \n[2026 U.S. Senior Open Highlights: Final Round, Extended ...](https://www.youtube.com/watch?v=B0hV5JU0Szc) The final round of the 2026 U.S. Senior Open at Scioto Country Club is complete, and Padraig Harrington is your back-to-back champion!\n[2026 U.S. Senior Open Highlights: Final Round, Extended ...](https://championships.usga.org/ussenioropen/2026/videos/highlights/07/05/2026-u-s--senior-open-highlights--final-round--ext-6400286079112.html) The final round of the 2026 U.S. Senior Open at Scioto Country Club is complete, and Padraig Harrington is your back-to-back champion!\n[2026 U.S. Senior Open Championship: Home](https://championships.usga.org/ussenioropen.html) ... ## ... ### Photos USGA Partners Ally American Express Cisco Deloitte Lexus Sentry T-Mobile Rolex tooltipUSGA ### GET ALL OF USGA ###### Continuous updates, streaming, tee times, scoring, and much more! USGA 1 Usga 2 USGA 3 Usga 4 © 2026 United States Golf Association. All Rights Reserved. FOLLOW US © 2026 United States Golf Association. All Rights Reserved. [...] rightArrow More downArrow rightArrow rightArrow downArrow downArrow dow"
+   "tool_call_id": "call_qVbC32lrQqGYx9krQkJnZXK2",
+   "content": "[2026 U.S. Senior Open Highlights: Final Round, Extended Action from Scioto Country Club](https://www.youtube.com/watch?v=B0hV5JU0Szc) # 2026 U.S. Senior Open Highlights: Final Round, Extended Action from Scioto Country Club ## Channel: United States Golf Association (USGA) (verified) 619K subscribers 278 likes ### Description 37,959 views Posted: 2026-07-05 The final round of the 2026 U.S. Senior Open at Scioto Country Club is complete, and Padraig Harrington is your back-to-back champion! Relive the best moments from an unforgettable final round.\n[U.S. Senior Open - Wikipedia](https://en.wikipedia.org/wiki/U.S._Senior_Open) | Year | Winner | Score | To par | Margin of victory | Runner(s)-up | Purse ($) | Winner's share ($) | Venue | Location | --- --- --- --- --- | | 2026 | Republic of Ireland Pádraig Harrington (3) | 268 | −12 | 4 strokes | United States Stewart Cink | 4,000,000 | 800,000 | Scioto | Columbus, Ohio | | 2025 | Republic of Ireland Pádraig Harrington (2) | 269 | −11 | 1 stroke | United States Stewart Cink | 4,000,000 | 800,000 | Broadmoor (East Course) | Colorado Springs, Colorado | [...] ## Multiple \n[U.S. Senior Open Championship 2026 Golf Leaderboard - PGA Tour - Overview](https://www.pgatour.com/pgatour-champions/tournaments/2026/u.s-senior-open-championship/S2026512/overview) PGA Tour ChampionsLeaderboardWatch & ListenNewsSchwab CupSchedulePlayersStatsTicketsShopPGA TourPGA Tour ChampionsKorn Ferry TourPGA Tour AmericasPGA Tour UniversityDP World TourLPGA TourTGL PGA Tour Champions PGA Tour Champions U.S. Senior Open Championship # U.S. Senior Open Championship Scioto Country Club Columbus, Ohio • USA Jul 2 - 5, 2026 Scioto Country Club Jul 2 - 5, 2026 Conducted by the USGA ### Event Overview ### Past Champions ### 2026 Padraig Harrington IRL [...] - #### Total 289##\n[46TH U.S. SENIOR OPEN – FACT SHEET](https://pgatourmedia.pgatourhq.com/static-assets/page/files/tours/2026/pgatourchampions/ussenioropenchampionship/moreInformation/2026%20USSO%20Fact%20Sheet.pdf) in 1986 at the age of 50 years, 3 months, 24 days. PURSE The 2025 purse was $4 million; the winner earned $800,000. The 2026 purse will be announced later this year. 2026 U.S. SENIOR OPEN NOTES ►Scioto Country Club is hosting its fifth USGA championship dating back to the 1926 U.S. Open ►Scioto C.C. will host its third U.S. Senior Open, which ties a record for most times as a playing site ►This year’s championship features 6 World Golf Hall of Famers including Vijay Singh and Pa"
   },
   {
    "role": "assistant",
-   "content": "Padraig Harrington won the U.S. Senior Open at Scioto Country Club in July 2026, making him a back-to-back champion. FINAL: Padraig Harrington.",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_LuB16dQSlwoc8yA8k5t52LXo",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"2026 U.S. Senior Open\",\"keywords\":\"winner, Pádraig Harrington\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_LuB16dQSlwoc8yA8k5t52LXo",
+   "content": "no such page"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_L2EnvdFrDJsv1RT2QW9m9FzS",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Pádraig Harrington U.S. Senior Open 2026 winner\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_L2EnvdFrDJsv1RT2QW9m9FzS",
+   "content": "[Pádraig Harrington] Pádraig Peter Harrington (born 31 August 1971) is an Irish professional golfer who plays on the European Tour, PGA Tour and the PGA Tour Champions. He has won three major championships: The Open Championship in 2007 and 2008 and the PGA Championship, also in 2008. He spent over 300 weeks in the top-10 of the world rankings, and reached a career-high ranking of the third spot in July 2008. Harrington was a member of six consecutive Ryder Cup teams between 1999 and 2010. In 2024, he was inducted into the World Golf Hall of Fame. | other articles: U.S. Senior Open, 2026 U.S. Open (golf)"
+  },
+  {
+   "role": "assistant",
+   "content": "Pádraig Harrington won the U.S. Senior Open at Scioto Country Club in July 2026, successfully defending his title from the previous year. He finished the tournament with a score of 268, 12 under par, defeating Stewart Cink by four strokes. \n\nFINAL: Pádraig Harrington",
    "refusal": null,
    "reasoning": null
   }

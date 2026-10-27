@@ -1,0 +1,54 @@
+{
+ "task": {
+  "id": "fresh-63",
+  "source": "fresh",
+  "question": "How many people were killed in the avalanche near Ratschings in March 2026?",
+  "answer": "Two",
+  "evidence": "21 March – Two people are killed in an avalanche at the Hohe Ferse near Ratschings.",
+  "page": "2026 in Italy",
+  "url": "https://en.wikipedia.org/wiki/2026_in_Italy",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "In the avalanche near Ratschings, Italy, on March 21, 2026, two skiers were killed and five others were injured. The incident involved around 25 skiers who were affected by the avalanche. \n\nFINAL: 2 skiers killed.",
+ "correct": true,
+ "cost": 0.00023790000000012412,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You answer questions about recent events (2025–2026). Never answer from memory: use web_search (and tavily_search if available) to find the right article, then page_find to look inside long articles such as '2026 in <country or field>' for the specific fact. Do not repeat the same call. When done, write the last line as FINAL: <short answer>."
+  },
+  {
+   "role": "user",
+   "content": "How many people were killed in the avalanche near Ratschings in March 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_tbSE7u0aqitavjHjAxqWlzff",
+     "function": {
+      "name": "tavily_search",
+      "arguments": "{\"query\":\"avalanche Ratschings March 2026 deaths\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_tbSE7u0aqitavjHjAxqWlzff",
+   "content": "[\"Sudden — deadly avalanche in Italy At noon on March 21, ...](https://www.facebook.com/photo.php?fbid=122210347550739694&set=a.122178844742739694&type=3) At noon on March 21, 2026, an avalanche struck Ratschings in South Tyrol, Italy. Two skiers were killed, and 25 people were at one point\n[2 skiers killed, 5 hurt in northern Italy avalanche - CBS News](https://www.cbsnews.com/news/skiers-killed-hurt-northern-italy-avalanche) Watch CBS News # 2 skiers killed, 5 hurt in northern Italy avalanche March 21, 2026 / 2:16 PM EDT / CBS/AFP Two skiers died and five others were injured on Saturday when an avalanche rumbled down on them in the Italian Alps, in the Trentino-Alto Adige region, the mountain rescue service said. The service's operation centre received an alert around midday that a dozen skiers were caught up in the avalanche, a spokesman said. [...] \"Six helicopters were dispatched,\" and nearby hospitals were notif\n[Avalanche In Italy Traps 25 Skiers | Weather.com](https://weather.com/news/news/2026-03-22-avalanche-in-italy-traps-25-skiers) Advertisement News # Avalanche In Italy Traps 25 Skiers ## Six helicopters and around 80 rescuers from CNSAS, the Alpine Association, police and firefighters are involved in the rescue operation. ByWyatt Williams•March 22, 2026Updated: March 22, 2026, 12:33 pm EDTPublished: March 22, 2026, 12:33 pm EDT Avalanche Traps 25 Skiers In Italy Two skiers died on Saturday after an avalanche in Italy northern mountains. [...] The avalanche happened at nearly 8000 feet of elevation near the town of Ratsch\n[A deadly South Tyrol avalanche kills 2 skiers, trapping 25 near the Austria border](https://www.nbcnews.com/world/italy/italy-avalanche-death-toll-rcna264570) An avalanche in high alpine terrain in Italy's South Tyrol on Saturday killed two skiers, according to the country’s mountain rescue service. The avalanche happened at an altitude of around 7,874 feet on the slopes of the 8,757-foot Hohe Ferse (also known as Monte Tallone Grande) near the town of Ratschings, close to the border with Austria. [...] Listen to this article with a free profile 00:0000:00 Rescuers search the site where an avalanche engulfed a group of 10 skiers near Ratschings, north\n[US Avalanche Fatalities | Colorado Avalanche Information Center](https://avalanche.state.co.us/accidents/us) Accidents # United States This table lists all fatal avalanche accidents in the United States. Click the date to get more information about each individual accident. [."
+  },
+  {
+   "role": "assistant",
+   "content": "In the avalanche near Ratschings, Italy, on March 21, 2026, two skiers were killed and five others were injured. The incident involved around 25 skiers who were affected by the avalanche. \n\nFINAL: 2 skiers killed.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

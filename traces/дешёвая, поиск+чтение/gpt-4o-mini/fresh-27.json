@@ -12,7 +12,7 @@
  },
  "answer": "On March 26, 2026, Markus Hinterhäuser was placed on leave until September 30, 2026, by the Salzburg Festival. \n\nFINAL: Markus Hinterhäuser",
  "correct": true,
- "cost": 0.0002029499999999934,
+ "cost": 0.00024210000000002285,
  "messages": [
   {
    "role": "system",
@@ -31,18 +31,18 @@
     {
      "type": "function",
      "index": 0,
-     "id": "call_7RzCVV7JKbc0isDQ1JzinIon",
+     "id": "call_ZdGDtfLM0xEnoVr30f55GpEo",
      "function": {
       "name": "web_search",
-      "arguments": "{\"query\":\"Salzburg Festival leave March 26 2026 classical music\"}"
+      "arguments": "{\"query\":\"Salzburg Festival placed on leave March 26 2026\"}"
      }
     }
    ]
   },
   {
    "role": "tool",
-   "tool_call_id": "call_7RzCVV7JKbc0isDQ1JzinIon",
-   "content": "[2026 in classical music] This article is for major events and other topics related to classical music in 2026. | other articles: Salzburg, Salzburg Easter Festival"
+   "tool_call_id": "call_ZdGDtfLM0xEnoVr30f55GpEo",
+   "content": "[Markus Hinterhäuser] Markus Hinterhäuser (born 30 March 1958 (1959 according to other sources) in La Spezia, Italy) is an Austrian pianist who served as artistic director of the Salzburg Festival from 2016 to 2026. He studied music at the Vienna Conservatory under Elisabeth Leonskaja and the Mozarteum University of Salzburg under Oleg Maisenberg. As a chamber musician, he has performed with several notable performers, including the Arditti Quartet and singer Brigitte Fassbaender. As a piano soloist he is particularly known for his performances of the works of the Second Viennese School and 20th century works by composers like John Cage, Luigi Nono, Morton Feldman and Galina Ustvolskaya. | other articles: Anna Netrebko, Wolfgang Amadeus Mozart"
   },
   {
    "role": "assistant",
@@ -53,17 +53,17 @@
     {
      "type": "function",
      "index": 0,
-     "id": "call_iZ8IaLXR7az0Rq0yR8AzhiyX",
+     "id": "call_kG8Qks2KcJJYCyoHQZKrVUKC",
      "function": {
       "name": "page_find",
-      "arguments": "{\"title\":\"2026 in classical music\",\"keywords\":\"Salzburg Festival leave March 26 2026\"}"
+      "arguments": "{\"title\":\"2026 in classical music\",\"keywords\":\"Salzburg Festival leave Markus Hinterhäuser\"}"
      }
     }
    ]
   },
   {
    "role": "tool",
-   "tool_call_id": "call_iZ8IaLXR7az0Rq0yR8AzhiyX",
+   "tool_call_id": "call_kG8Qks2KcJJYCyoHQZKrVUKC",
    "content": "26 March – The board of directors of the Salzburg Festival announce the termination of the contract of Markus Hinterhäuser as artistic director of the festival, placing him on leave until 30 September 2026."
   },
   {

@@ -1,0 +1,24 @@
+{
+ "task": {
+  "id": "fresh-106",
+  "source": "fresh",
+  "question": "What opens at São Paulo/Guarulhos International Airport in February 2026?",
+  "answer": "GRU Airport People Mover",
+  "evidence": "21 February – GRU Airport People Mover opens in São Paulo/Guarulhos International Airport.",
+  "page": "2026 in rail transport",
+  "url": "https://en.wikipedia.org/wiki/2026_in_rail_transport",
+  "sonnet_answer": "Terminal 4 at São Paulo/Guarulhos International Airport is scheduled to open in February 2026.",
+  "agent_ok": false
+ },
+ "answer": "FINAL: Unknown.",
+ "correct": false,
+ "cost": 7.500000000000562e-06,
+ "messages": [
+  {
+   "role": "assistant",
+   "content": "Unknown.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

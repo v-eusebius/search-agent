@@ -1,0 +1,54 @@
+{
+ "task": {
+  "id": "fresh-112",
+  "source": "fresh",
+  "question": "What mission was launched by ESA and CAS on May 19, 2026?",
+  "answer": "SMILE",
+  "evidence": "On 19 May, ESA and CAS launched their joint heliophysics mission SMILE to study the dynamic interaction between solar wind and Earth's magnetosphere. The spacecraft reached its final science orbit on 20 June.",
+  "page": "2026 in spaceflight",
+  "url": "https://en.wikipedia.org/wiki/2026_in_spaceflight",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "FINAL: The SMILE mission (Solar wind Magnetosphere Ionosphere Link Explorer) was launched by ESA and CAS on May 19, 2026, aboard a European Vega-C rocket from Kourou. This joint mission between the European Space Agency and the Chinese Academy of Sciences is designed to study the interaction between Earth's magnetosphere and the solar wind.",
+ "correct": true,
+ "cost": 0.004666000000000059,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You answer questions about recent events (2025–2026). Never answer from memory: use web_search (and tavily_search if available) to find the right article, then page_find to look inside long articles such as '2026 in <country or field>' for the specific fact. Do not repeat the same call. When done, write the last line as FINAL: <short answer>."
+  },
+  {
+   "role": "user",
+   "content": "What mission was launched by ESA and CAS on May 19, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "I'll search for information about an ESA and CAS mission launched on May 19, 2026.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01FqgQ2VYkvfCkWzML1M1jWh",
+     "function": {
+      "name": "tavily_search",
+      "arguments": "{\"query\": \"ESA CAS mission launched May 19 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01FqgQ2VYkvfCkWzML1M1jWh",
+   "content": "[SMILE Mission: The Satellite Lifts Off to Study Space Weather - 3D PLUS](https://www.3d-plus.com/news/smile-mission-the-satellite-lifts-off-to-study-space-weather) The SMILE mission lifted off on May 19, 2026, aboard a European Vega-C rocket from Kourou. This scientific project associates the European Space Agency (ESA) and the Chinese Academy of Sciences (CAS). This initiative materializes an unprecedented collaboration, as both agencies manage all stages together, from design to data exploitation. ## Mission Objective [...] # SMILE Mission: The Satellite Lifts Off to Study Space Weather The SMILE mission lifted off on May 19, 2026, aboard a European Vega\n[European Space Agency Science Programme - Wikipedia](https://en.wikipedia.org/wiki/European_Space_Agency_Science_Programme) S2 – SMILE \"SMILE (spacecraft)\"), launched May 2026, operational – Joint ESA-CAS Earth observation mission, studying the interaction between the planet's magnetosphere and solar wind. F1 – Comet Interceptor, launching in 2029, future F2 – ARRAKIHS, launching in the early 2030s, future – Survey of one hundred nearby galaxies and their surroundings to investigate dwarf galaxies and stellar streams. [...] (spacecraft)\"), a joint mission between ESA and the Chinese Academy of Sciences to study the i\n[ESA - Smile set to launch on 19 May](https://www.esa.int/Science_Exploration/Space_Science/Smile/Smile_set_to_launch_on_19_May) ESA title ESA logo Smile delivered to space (artist impression, GIF) Science & Exploration # Smile set to launch on 19 May 23/04/2026 6915 views 49 likes ESA / Science & Exploration / Space Science / Smile The European-Chinese Smile mission is due to launch on Tuesday 19 May 2026, at 05:52 CEST / 04:52 BST / 00:52 local time on a European Vega-C rocket. [...] About Smile Smile(the Solar wind Magnetosphere Ionosphere Link Explorer) is a joint mission between the European Space Agency (ESA) and th\n[ESA - Smile: cleanroom to space](https://www.esa.int/ESA_Multimedia/Videos/2026/06/Smile_cleanroom_to_space) Smile successfully launched from Europe’s Spaceport in French Guiana on 19 May 2026. This timelapse captures the excitement and precision of launch operations as the spacecraft begins its journey to study the connection between the Sun and Earth.\n[ESA - Smile lifts off on quest to reveal Earth’s invisible shield against the solar wind](https://www.esa.int/Science_Exploration/Space_Science/Smile/Smile_lifts_off_on_quest_to_reveal_Earth_s_invisible_shield_against_th"
+  },
+  {
+   "role": "assistant",
+   "content": "FINAL: The SMILE mission (Solar wind Magnetosphere Ionosphere Link Explorer) was launched by ESA and CAS on May 19, 2026, aboard a European Vega-C rocket from Kourou. This joint mission between the European Space Agency and the Chinese Academy of Sciences is designed to study the interaction between Earth's magnetosphere and the solar wind.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

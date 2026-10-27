@@ -8,11 +8,11 @@
   "page": "2026 in animation",
   "url": "https://en.wikipedia.org/wiki/2026_in_animation"
  },
- "answer": "Unknown.",
- "correct": false,
- "cost": 0.00046920000000005846,
- "escalated": true,
- "confidence": 0.0,
+ "answer": "Prime Video.",
+ "correct": true,
+ "cost": 0.0003158999999999246,
+ "escalated": false,
+ "confidence": 1.0,
  "agent_messages": [
   {
    "role": "system",
@@ -31,22 +31,22 @@
     {
      "type": "function",
      "index": 0,
-     "id": "call_aWHhJbceGiasGO0xVzJIMrgl",
+     "id": "call_8GigSRdbw3JA9ZQCC7khkTRf",
      "function": {
-      "name": "web_search",
-      "arguments": "{\"query\":\"The Legend of Vox Machina Season 4 premiere streaming service June 3, 2026\"}"
+      "name": "tavily_search",
+      "arguments": "{\"query\":\"The Legend of Vox Machina Season 4 premiere date streaming service\"}"
      }
     }
    ]
   },
   {
    "role": "tool",
-   "tool_call_id": "call_aWHhJbceGiasGO0xVzJIMrgl",
-   "content": "[The Legend of Vox Machina] The Legend of Vox Machina is an American adult animated fantasy television series produced by Metapigeon, Titmouse, Inc., and Amazon MGM Studios, which premiered on Amazon Prime Video on January 28, 2022. The series is based on the first campaign of the Dungeons & Dragons web series Critical Role. It stars Laura Bailey, Taliesin Jaffe, Ashley Johnson, Matthew Mercer, Liam O'Brien, Marisha Ray, Sam Riegel, and Travis Willingham, reprising their roles from the campaign. The first season consists of twelve episodes, the first ten of which were funded via a Kickstarter campaign. In November 2019, ahead of the series premiere, it was renewed by Amazon for a second season which premiered on January 20, 2023. In October 2022, ahead of season two's premiere, Amazon renewed the series for a third season, which premiered on October 3, 2024. It was renewed for a fourth season the same month, which premiered on June 3, 2026. In July 2025, Amazon renewed the show for a fifth and final season. The series received widespread acclaim from critics and audiences, with praise for its animation, humor, voice acting, action sequences, writing, and faithfulness to the actual play web show. A spin-off series set twenty years later, The Mighty Nein, premiered on November 19, 2025 and adapts Critical Role's second campaign. | other articles: Critical Role Productions, Marisha Ray"
+   "tool_call_id": "call_8GigSRdbw3JA9ZQCC7khkTRf",
+   "content": "[What time will The Legend of Vox Machina season 4 be released on Prime Video? | Radio Times](https://www.radiotimes.com/tv/fantasy/legend-vox-machina-season-4-release-time) You can check out the trailer for The Legend of Voix Machina season 4 below! The Legend of Vox Machina season 4 will premiere on Prime Video on 3 June 2026. Seasons 1-3 are currently available to stream on Prime Video – you can sign up now for a free 30-day Prime Video trial. Add The Legend of Vox Machina to your watchlist on the Radio Times: What to Watch app – download now for daily TV recommendations, features and more. Ad [...] ❚ We may earn commission from links on this page. Our editorial \n[[CR Media] 'The Legend of Vox Machina' Season 4 Premieres June 3 on Prime Video : r/criticalrole](https://www.reddit.com/r/criticalrole/comments/1rjt4u8/cr_media_the_legend_of_vox_machina_season_4) Critical Role’s ‘Legend of Vox Machina’ Series Premieres February 4th, 2022 on Amazon Prime VideoImage 31 r/television•5y ago ### Critical Role’s ‘Legend of Vox Machina’ Series Premieres February 4th, 2022 on Amazon Prime Video Image 32: r/television - Critical Role’s ‘Legend of Vox Machina’ Series Premieres February 4th, 2022 on Amazon Prime Video 2.2K upvotes ·251 comments [...] [[CR Media] ‘Legend of Vox Machina’ Renewed for Season 4 at Amazon]( 44 r/criticalrole•2y ago ### [[CR Media] ‘Legen\n[Vox Machina Season 4 Premiere Date and Release Schedule](https://www.sideshow.com/blog/know-before-vox-machina-season-4) Sideshow Sideshow ## Trending ## Shop ## Art Prints ## Culture ### Top Suggestions ### Top Products # Vox Machina Season 4 Premiere Date and Release Schedule Originally published on May 28, 2026. This article covers the most important information Critical Role fans need to have before watching The Legend of Vox Machina season 4 premiere. Keyleth and Vex ride Trinket the Bear in Critical Role The Legend of Vox Machina [...] ## When does Vox Machina season 4 premiere? As with previous seasons, Vox\n[The Legend of Vox Machina S4 - Official Trailer | Prime Video](https://www.youtube.com/watch?v=FkqIXFztj6Q) ### Description 901,699 views Posted: 2026-04-23 Be prepared for what now begins... Watch the official trailer for #TheLegendofVoxMachina Season Four premiering June 3, only on Prime Video. » Watch The Legend of Vox Machina on Prime Video: » SUBSCRIBE: About Vox Machina Season 3: [...] About Prime Video: Want to watch it now? We’ve got it. This week’s newest movies, last night’s TV shows, c"
   },
   {
    "role": "assistant",
-   "content": "Season 4 of The Legend of Vox Machina premiered on Amazon Prime Video on June 3, 2026. \n\nFINAL: Amazon Prime Video",
+   "content": "Season 4 of \"The Legend of Vox Machina\" premiered on June 3, 2026, on Prime Video. FINAL: Prime Video.",
    "refusal": null,
    "reasoning": null
   }

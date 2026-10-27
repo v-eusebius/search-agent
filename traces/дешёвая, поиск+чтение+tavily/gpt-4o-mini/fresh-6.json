@@ -10,9 +10,9 @@
   "sonnet_answer": "unknown",
   "agent_ok": false
  },
- "answer": "In August 2026, it was reported that over 1,500 people were missing in Tibet following catastrophic floods triggered by a significant collapse of mud and rock into a Himalayan river. This disaster also affected neighboring Nepal, contributing to the overall crisis in the region. \n\nFINAL: Over 1,500 people are reported missing in Tibet after the floods in August 2026.",
+ "answer": "As of late August 2026, 519 people were reported missing in Tibet following the devastating floods. FINAL: 519 missing in Tibet.",
  "correct": false,
- "cost": 0.0006670500000000024,
+ "cost": 0.00045975000000009203,
  "messages": [
   {
    "role": "system",
@@ -31,18 +31,18 @@
     {
      "type": "function",
      "index": 0,
-     "id": "call_yjPRNpeIOpcPEZq2GtisoZ9E",
+     "id": "call_yygwIs6jV2aVnUH7XD2iniPB",
      "function": {
       "name": "tavily_search",
-      "arguments": "{\"query\":\"Tibet floods August 2026 missing people\"}"
+      "arguments": "{\"query\":\"Tibet floods August 2026 missing persons report\"}"
      }
     }
    ]
   },
   {
    "role": "tool",
-   "tool_call_id": "call_yjPRNpeIOpcPEZq2GtisoZ9E",
-   "content": "[More than 390 dead, 1,500 missing in Nepal and Tibet after Himalayan floods | Floods News | Al Jazeera](https://www.aljazeera.com/news/2026/8/27/more-than-1300-missing-in-nepal-and-china-after-deadly-himalayan-flood) Published On 27 Aug 202627 Aug 2026 More than 390 bodies have been recovered, and more than 1,500 people are missing across Nepal and China’s Tibet region after a huge collapse of mud and rock into a Himalayan river triggered catastrophic flooding across local towns and valleys, authorities have said. Rescue teams waded through mud on Thursday, searching for the missing, as authorities in Nepal said at least 389 people have been killed there. [...] Live Live News|Floods # More than 390 dead, 1,5\n[The missing in Nepal-Tibet flash floods](https://www.thestandard.com.hk/world/article/341292/The-missing-in-Nepal-Tibet-flash-floods) Photo by PRAKASH MATHEMA / AFP. Family members watch a screen displaying identities of victims at a mortuary in the aftermath of flash floods, in Bharatpur of Nepal's Chitwan district on August 30, 2026. More than 3,000 people were listed as missing Sunday, with another 750 confirmed dead, after the flash floods and landslides that hit the Nepal-Tibet border. ADVERTISEMENT SCROLL TO CONTINUE WITH CONTENT [...] WORLD 08-09-2026 16:01 HKT logo Flowers are placed on mud as tribute at the core disas\n[Nearly 1,000 missing in Nepal and Tibet after flash floods : NPR](https://www.npr.org/2026/08/26/g-s1-140211/nepal-china-floods) Rescuers carry a victim of flash flooding to safety along the Trishuli River in Nepal's Nuwakot district, Wednesday, Aug. 26, 2026. Rescuers carry a victim of flash flooding to safety along the Trishuli River in Nepal's Nuwakot district, Wednesday, Aug. 26, 2026. Niranjan Shrestha/AP hide caption toggle caption Niranjan Shrestha/AP [...] The region saw similar flash floods in August last year, when a glacial lake in Tibet overflowed because of high temperatures. Nine people were killed, and crit\n[Langtang Flood Update: 1,453 Dead, 6,664 Missing » Explorersweb](https://explorersweb.com/langtang-flood-update-1453-dead-6664-missing) ExplorersWeb Logo ExplorersWeb Logo ExplorersWeb Logo Search Icon Facebook Icon E-mail Icon Menu Icon Search Icon Facebook Icon E-mail Icon Login Icon # Langtang Flood Update: 1,453 Dead, 6,664 Missing Devastated area after the flash floods at Trishuli Bazar in Nepal. The flood and debris flow that started on Langtang Lirung on August 26, then struck the Kyirong Valley, has "
+   "tool_call_id": "call_yygwIs6jV2aVnUH7XD2iniPB",
+   "content": "[Global National: Aug. 31, 2026 | More than 4,400 missing, 900 dead in Nepal-Tibet floods](https://www.youtube.com/watch?v=Dxcp3x4aqww) ### Description 237,857 views Posted: 2026-08-31 The aftermath of Nepal-Tibet's flooding disaster is deepening, with at least 900 people now confirmed dead and more than 4,400 others missing. Redmond Shannon reports on the search for survivors in Nepal's vast network of tunnels and how a school principal is being credited for saving hundreds of lives. [...] [0:57] Good evening and thank you for joining us. There's been a significant jump in the number of missing after last week's flash flood in \n[2026 Nepal–Tibet floods - Wikipedia](https://en.wikipedia.org/wiki/2026_Nepal%E2%80%93Tibet_floods) 206. 1 2 Ormiston, Simon (28 August 2026). \"At least 579 dead and 1,924 missing after Nepal-Tibet floods\". Euronews. Archived from the original on 28 August 2026. Retrieved 28 August 2026. 207. ↑ \"Rescuers push deeper into mudslide-hit areas at Xizang border port: emergency management official\". Xinhua. 29 August 2026. Archived from the original on 29 August 2026. Retrieved 29 August 2026. [...] 96. ↑ 西藏吉隆泥石流灾害排查出261名失联外籍人员 [261 Missing Foreign Nationals Identified in the Gyirong, Tibet, Mudslid\n[Hundreds dead as over 3,000 remain missing in massive Nepal-Tibet flood - ABC News](https://abcnews.com/International/hundreds-dead-1000-remain-missing-massive-nepal-tibet/story?id=136022919) In the Chinese region of Tibet, seven people have been reported dead and 554 others have been reported missing, according to China state news agency Xinhua. Firefighters conduct search and rescue operations along a river, after a mudslide in Gyirong county, Shigatse, Tibet Autonomous Region, China, Aug. 29, 2026. CNS Photo via Reuters [...] TOPSHOT - An aerial view shows houses lying deluged in sludge after flash floods at Devighat, Bidur Municipality in Nepal's Nuwakot district on August 27, 20\n[August 2026 Nepal-Tibet floods - AntarcticGlaciers.org](https://www.antarcticglaciers.org/2026/08/august-2026-nepal-tibet-floods) Skip to content AntarcticGlaciers.org AntarcticGlaciers.org # August 2026 Nepal-Tibet floods Posted on 27/08/2026 / by Bethan Davies Tagged hazard, Nepal On 26th August 2026, devastating floods hit Nepal and Tibet. At time of writing, 1400 people were missing, and 270 bodies had been recovered, but this toll is sadly expected to rise. [...] The flooding hit the Gyirong border crossing and was caught on CCTV, showing people running f"
   },
   {
    "role": "assistant",
@@ -53,80 +53,22 @@
     {
      "type": "function",
      "index": 0,
-     "id": "call_lJmqC9GqBUYFBhFUNtN4taji",
+     "id": "call_Cau3ACt43RgIv5IJbXtRq9YB",
      "function": {
       "name": "page_find",
-      "arguments": "{\"title\":\"August 2026 floods in Nepal and Tibet\",\"keywords\":\"missing, Tibet\"}"
+      "arguments": "{\"title\":\"2026 Nepal–Tibet floods\",\"keywords\":\"missing, Tibet\"}"
      }
     }
    ]
   },
   {
    "role": "tool",
-   "tool_call_id": "call_lJmqC9GqBUYFBhFUNtN4taji",
-   "content": "no such page"
+   "tool_call_id": "call_Cau3ACt43RgIv5IJbXtRq9YB",
+   "content": "At least 1,455 deaths and 5,285 missing persons in Nepal, and 43 deaths and 519 missing in the Tibet Autonomous Region of China were reported. The flood carried the bodies of some victims  250 km (160 mi) away into neighbouring India.\nThe Trishuli River is joined by the Lhende Khola (also known as Lende River or Donglin Tsangpo in Lhasa Tibetan), which originates in Gyirong County, Tibet Autonomous Region before entering Nepal. It then flows past Dhunche, downstream from which it forms part of the Trishuli River system.\nAs of 5 October, at least 1,455 people died, 9,287 were injured, and 5,285 were missing in Nepal. Among the missing were 650 foreign nationals from 38 countries. As of 1 October, 112 bodies had been identified.\nAs of 16 September, 43 people died and 519 were missing in Tibet. Among the missing in Tibet include 261 foreign nationals from 23 countries. This includes 104 Nepali nationals.\nAmong the missing in Nepal include 189 Indians, 188 Nepali tourists, 65 Americans, 55 Malaysians, 54 Ukrainians, 37 Chinese, 33 Australians, 33 Latvians, 32 British, and 30 Canadians. The Chinese Ministry of Foreign Affairs reported nearly 100 Chinese citizens in Nepal missing. Australia's foreign minister said on 27 August that at least 34 of the missing were pilgrims. A group of 77 Isha Foundati\nAt least 147 government officials, including eight local elected representatives, 32 local government employees, 11 teachers, 25 police officers, 13 Armed Police Force personnel, 45 Nepali Army personnel, 15 customs office employees, and 4 immigration office employees were reported missing. Around 622 students were also unaccounted for. An estimated 300 trade and transportation workers and 200 wor"
   },
   {
    "role": "assistant",
-   "content": null,
-   "refusal": null,
-   "reasoning": null,
-   "tool_calls": [
-    {
-     "type": "function",
-     "index": 0,
-     "id": "call_gTEZMqgnevryvmmoVIuqWWXZ",
-     "function": {
-      "name": "page_find",
-      "arguments": "{\"title\":\"2026 in Tibet\",\"keywords\":\"floods, missing\"}"
-     }
-    }
-   ]
-  },
-  {
-   "role": "tool",
-   "tool_call_id": "call_gTEZMqgnevryvmmoVIuqWWXZ",
-   "content": "no such page"
-  },
-  {
-   "role": "assistant",
-   "content": null,
-   "refusal": null,
-   "reasoning": null,
-   "tool_calls": [
-    {
-     "type": "function",
-     "index": 0,
-     "id": "call_jc59tiXcRv11Fkt3XkftJ6KU",
-     "function": {
-      "name": "page_find",
-      "arguments": "{\"title\": \"2026 in Nepal\", \"keywords\": \"floods, missing\"}"
-     }
-    },
-    {
-     "type": "function",
-     "index": 1,
-     "id": "call_bCOG2oAYtpaaltFmO2IHx7kt",
-     "function": {
-      "name": "page_find",
-      "arguments": "{\"title\": \"2026 in China\", \"keywords\": \"floods, missing\"}"
-     }
-    }
-   ]
-  },
-  {
-   "role": "tool",
-   "tool_call_id": "call_jc59tiXcRv11Fkt3XkftJ6KU",
-   "content": "keywords not found on the page"
-  },
-  {
-   "role": "tool",
-   "tool_call_id": "call_bCOG2oAYtpaaltFmO2IHx7kt",
-   "content": "18 January – Four people are killed while 84 others are injured with six reported missing following an explosion at the Baogang United Steel factory in Baotou.\n22 January – The Singapore-flagged cargo vessel Devon Bay sinks off Scarborough Shoal in the South China Sea on its way to Guangdong, leaving two crewmembers dead and four others missing.\n17 July — Sixty-one people are reported dead and missing in a landslide at Pengshui County, Chongqing."
-  },
-  {
-   "role": "assistant",
-   "content": "In August 2026, it was reported that over 1,500 people were missing in Tibet following catastrophic floods triggered by a significant collapse of mud and rock into a Himalayan river. This disaster also affected neighboring Nepal, contributing to the overall crisis in the region. \n\nFINAL: Over 1,500 people are reported missing in Tibet after the floods in August 2026.",
+   "content": "As of late August 2026, 519 people were reported missing in Tibet following the devastating floods. FINAL: 519 missing in Tibet.",
    "refusal": null,
    "reasoning": null
   }

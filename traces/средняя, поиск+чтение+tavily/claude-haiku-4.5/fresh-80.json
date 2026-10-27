@@ -1,0 +1,54 @@
+{
+ "task": {
+  "id": "fresh-80",
+  "source": "fresh",
+  "question": "What regulation did the Supreme Court of India stay on January 29, 2026?",
+  "answer": "UGC Equity Regulations, 2026",
+  "evidence": "29 January – The Supreme Court of India stays the implementation of the UGC Equity Regulations, 2026 citing misuse by specific groups.",
+  "page": "2026 in India",
+  "url": "https://en.wikipedia.org/wiki/2026_in_India",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "FINAL: On January 29, 2026, the Supreme Court of India stayed the University Grants Commission (Promotion of Equity in Higher Education Institutions) Regulations, 2026. A Division Bench comprising Chief Justice Surya Kant and Justice Joymalya Bagchi issued this interim order, keeping the regulations in abeyance pending further consideration of their constitutional validity.",
+ "correct": false,
+ "cost": 0.004606999999999917,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You answer questions about recent events (2025–2026). Never answer from memory: use web_search (and tavily_search if available) to find the right article, then page_find to look inside long articles such as '2026 in <country or field>' for the specific fact. Do not repeat the same call. When done, write the last line as FINAL: <short answer>."
+  },
+  {
+   "role": "user",
+   "content": "What regulation did the Supreme Court of India stay on January 29, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "I'll search for information about a Supreme Court of India ruling on January 29, 2026.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_012qE21ntcP5Kq6cY6DrWJGg",
+     "function": {
+      "name": "tavily_search",
+      "arguments": "{\"query\": \"Supreme Court India stay January 29 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_012qE21ntcP5Kq6cY6DrWJGg",
+   "content": "[Supreme Court stays 2026 UGC equity regulations - Supreme Court Observer](https://www.scobserver.in/journal/supreme-court-stays-2026-ugc-equity-regulations) On 29 January, a Division Bench of Chief Justice Surya Kant and Joymalya Bagchi stayed the University Grants Commission (Promotion of Equity in Higher Education Institutions) Regulations, 2026. The Regulations, which were notified on 13 January, had stirred a controversy for allegedly being “unfair” to students belonging to the general category. [...] Supreme Court Observer Home > Analysis > Supreme Court stays 2026 UGC equity regulations Analysis # Supreme Court stays 2026 UGC equity regulation\n[Equity on Hold: Supreme Court’s interim stay of the UGC Regulations, 2026 | CJP](https://cjp.org.in/equity-on-hold-supreme-courts-interim-stay-of-the-ugc-regulations-2026) ### On January 29, 2026, the Supreme Court of India passed an interim order directing that the University Grants Commission (Promotion of Equity in Higher Education Institutions) Regulations, 2026 be kept in abeyance, pending further consideration of their constitutional validity. Issuing notice to the Union of India and the University Grants Commission (UGC), returnable on March 19, 2026, the Court further invoked its extraordinary powers under Article 142 of the Constitution to direct that [..\n[On January 29, 2026, the Supreme Court of India put a ...](https://www.instagram.com/p/DUGAFl8kU01?hl=en) Instead of a government withdrawal, the Supreme Court stayed the 2026 regulations on January 29, 2026, putting them on hold while reviewing\n[Supreme Court stays UGC equity regulations 2026: A timeline of protests, politics and the court’s intervention - The Times of India](https://timesofindia.indiatimes.com/education/news/supreme-court-stays-ugc-equity-regulations-2026-a-timeline-of-protests-politics-and-the-courts-intervention/articleshow/127775787.cms) The Supreme Court on Thursday stayed the implementation of the University Grants Commission’s (UGC) Equity Regulations 2026, halting a contentious framework that triggered campus protests, political reactions and multiple legal challenges within days of being notified.According to PTI, a bench of Chief Justice of India Surya Kant and Justice Joymalya Bagchi flagged “complete vagueness” in key provisions of the regulations and warned that they were prone to misuse. The court directed that the [..\n[Supreme Court of India | India](https://www.sci.gov.in) Press Release: Supreme Court to Host Natio"
+  },
+  {
+   "role": "assistant",
+   "content": "FINAL: On January 29, 2026, the Supreme Court of India stayed the University Grants Commission (Promotion of Equity in Higher Education Institutions) Regulations, 2026. A Division Bench comprising Chief Justice Surya Kant and Justice Joymalya Bagchi issued this interim order, keeping the regulations in abeyance pending further consideration of their constitutional validity.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

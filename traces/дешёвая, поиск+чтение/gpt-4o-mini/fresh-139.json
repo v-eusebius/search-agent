@@ -8,9 +8,9 @@
   "page": "2026 in art",
   "url": "https://en.wikipedia.org/wiki/2026_in_art"
  },
- "answer": "Michelangelo's preparatory sketch of a foot for The Libyan Sibyl sold at Christie's on February 5, 2026, for $27.2 million, including fees. \n\nFINAL: $27.2 million",
+ "answer": "Michelangelo's preparatory sketch of a foot for The Libyan Sibyl sold for $27.2 million including fees at Christie's on February 5, 2026. \n\nFINAL: $27.2 million",
  "correct": true,
- "cost": 0.0004448999999999981,
+ "cost": 0.0002832000000000112,
  "messages": [
   {
    "role": "system",
@@ -29,7 +29,7 @@
     {
      "type": "function",
      "index": 0,
-     "id": "call_FOidiWy3qKAx6pofxQO9lYZB",
+     "id": "call_eB1dcQQ1SVvKMsSM71lFYDx0",
      "function": {
       "name": "web_search",
       "arguments": "{\"query\":\"Michelangelo preparatory sketch foot Libyan Sibyl Christie's February 5 2026 sale price\"}"
@@ -39,7 +39,7 @@
   },
   {
    "role": "tool",
-   "tool_call_id": "call_FOidiWy3qKAx6pofxQO9lYZB",
+   "tool_call_id": "call_eB1dcQQ1SVvKMsSM71lFYDx0",
    "content": "nothing found"
   },
   {
@@ -51,61 +51,17 @@
     {
      "type": "function",
      "index": 0,
-     "id": "call_WUzOuYaZi5YBdkWQxYLxHwky",
+     "id": "call_Wpvb881m2NWPH5UrQQnkzN0J",
      "function": {
       "name": "web_search",
-      "arguments": "{\"query\":\"Michelangelo foot sketch Libyan Sibyl Christies February 2026\"}"
+      "arguments": "{\"query\":\"Michelangelo Libyan Sibyl preparatory sketch Christie's auction February 2026\"}"
      }
     }
    ]
   },
   {
    "role": "tool",
-   "tool_call_id": "call_WUzOuYaZi5YBdkWQxYLxHwky",
-   "content": "nothing found"
-  },
-  {
-   "role": "assistant",
-   "content": null,
-   "refusal": null,
-   "reasoning": null,
-   "tool_calls": [
-    {
-     "type": "function",
-     "index": 0,
-     "id": "call_mU52mgnycr5hQD6OOcN54z3k",
-     "function": {
-      "name": "web_search",
-      "arguments": "{\"query\":\"Michelangelo Libyan Sibyl foot sketch Christies auction February 2026\"}"
-     }
-    }
-   ]
-  },
-  {
-   "role": "tool",
-   "tool_call_id": "call_mU52mgnycr5hQD6OOcN54z3k",
-   "content": "nothing found"
-  },
-  {
-   "role": "assistant",
-   "content": null,
-   "refusal": null,
-   "reasoning": null,
-   "tool_calls": [
-    {
-     "type": "function",
-     "index": 0,
-     "id": "call_ipXlN2c6SSG4j1cDTGcr6YAz",
-     "function": {
-      "name": "web_search",
-      "arguments": "{\"query\":\"Michelangelo 2026 auction February preparatory sketch Libyan Sibyl\"}"
-     }
-    }
-   ]
-  },
-  {
-   "role": "tool",
-   "tool_call_id": "call_ipXlN2c6SSG4j1cDTGcr6YAz",
+   "tool_call_id": "call_Wpvb881m2NWPH5UrQQnkzN0J",
    "content": "[2026 in art] Significant events relating to the year 2026 in art are listed below."
   },
   {
@@ -117,22 +73,22 @@
     {
      "type": "function",
      "index": 0,
-     "id": "call_LzW0EjqKYODFyGeYZZdpBUKr",
+     "id": "call_3DOmlweMmTvi395ne202UB3W",
      "function": {
       "name": "page_find",
-      "arguments": "{\"title\":\"2026 in art\",\"keywords\":\"Michelangelo Libyan Sibyl sketch Christie's\"}"
+      "arguments": "{\"title\":\"2026 in art\",\"keywords\":\"Michelangelo sketch Libyan Sibyl price auction\"}"
      }
     }
    ]
   },
   {
    "role": "tool",
-   "tool_call_id": "call_LzW0EjqKYODFyGeYZZdpBUKr",
+   "tool_call_id": "call_3DOmlweMmTvi395ne202UB3W",
    "content": "February 5 – Michelangelo's preparatory sketch of a foot for The Libyan Sibyl is sold at Christie’s for  $27.2 million including fees."
   },
   {
    "role": "assistant",
-   "content": "Michelangelo's preparatory sketch of a foot for The Libyan Sibyl sold at Christie's on February 5, 2026, for $27.2 million, including fees. \n\nFINAL: $27.2 million",
+   "content": "Michelangelo's preparatory sketch of a foot for The Libyan Sibyl sold for $27.2 million including fees at Christie's on February 5, 2026. \n\nFINAL: $27.2 million",
    "refusal": null,
    "reasoning": null
   }

@@ -1,0 +1,24 @@
+{
+ "task": {
+  "id": "fresh-65",
+  "source": "fresh",
+  "question": "How many people were killed in the bus accident in São José da Tapera, Alagoas, in February 2026?",
+  "answer": "16",
+  "evidence": "3 February – A bus veers off a road and overturns in São José da Tapera, Alagoas, killing 16 people.",
+  "page": "2026 in Brazil",
+  "url": "https://en.wikipedia.org/wiki/2026_in_Brazil",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "FINAL: Unknown.",
+ "correct": false,
+ "cost": 8.849999999997749e-06,
+ "messages": [
+  {
+   "role": "assistant",
+   "content": "Unknown.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

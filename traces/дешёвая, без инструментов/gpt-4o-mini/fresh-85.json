@@ -1,0 +1,24 @@
+{
+ "task": {
+  "id": "fresh-85",
+  "source": "fresh",
+  "question": "What temperature was recorded in Lingwood, Norfolk during the June heat record in the United Kingdom in 2026?",
+  "answer": "38 °C",
+  "evidence": "The June heat record is broken for a third consecutive day, with 38 °C recorded in Lingwood, Norfolk.",
+  "page": "2026 in the United Kingdom",
+  "url": "https://en.wikipedia.org/wiki/2026_in_the_United_Kingdom",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "FINAL: Unknown.",
+ "correct": false,
+ "cost": 8.399999999998686e-06,
+ "messages": [
+  {
+   "role": "assistant",
+   "content": "Unknown.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

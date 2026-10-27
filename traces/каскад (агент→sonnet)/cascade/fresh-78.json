@@ -1,0 +1,144 @@
+{
+ "task": {
+  "id": "fresh-78",
+  "source": "fresh",
+  "question": "What is the median overall survival time reported for patients with metastatic pancreatic cancer in May 2026?",
+  "answer": "13.2 months",
+  "evidence": "31 May – A Phase 3 trial published in the New England Journal of Medicine reports that daraxonrasib, an investigational oral RAS(ON) inhibitor, nearly doubles median overall survival in patients with previously treated metastatic pancreatic cancer, from 6.6 months with standard chemotherapy to 13.2 months.",
+  "page": "2026 in science",
+  "url": "https://en.wikipedia.org/wiki/2026_in_science",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "13.2 months.",
+ "correct": true,
+ "cost": 0.0010996500000000076,
+ "escalated": false,
+ "confidence": 1.0,
+ "agent_messages": [
+  {
+   "role": "system",
+   "content": "You answer questions about recent events (2025–2026). Never answer from memory: use web_search (and tavily_search if available) to find the right article, then page_find to look inside long articles such as '2026 in <country or field>' for the specific fact. Do not repeat the same call. When done, write the last line as FINAL: <short answer>."
+  },
+  {
+   "role": "user",
+   "content": "What is the median overall survival time reported for patients with metastatic pancreatic cancer in May 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_rX36AEfuyLv7vkJxN6u8S7yx",
+     "function": {
+      "name": "tavily_search",
+      "arguments": "{\"query\":\"median overall survival time metastatic pancreatic cancer May 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_rX36AEfuyLv7vkJxN6u8S7yx",
+   "content": "[ASCO 2026: Daraxonrasib doubles median overall survival in metastatic pancreatic cancer - ecancer](https://ecancer.org/en/news/28376-asco-2026-daraxonrasib-doubles-median-overall-survival-in-metastatic-pancreatic-cancer) There was also a reduction in the risk of cancer progression observed among these patients, with a median progression-free survival of 7.2 months compared to 3.6 months with chemotherapy. [...] Patients who received daraxonrasib showed meaningful improvements in overall survival compared to those treated with chemotherapy regardless of RAS mutation status. In the overall study population, patients who received daraxonrasib showed a hazard for death of 0.40, with a median overall survival of 13.2\n[First RAS Inhibitor Extends Survival in Previously Treated Metastatic Pancreatic Adenocarcinoma: What You Need to Know - Pancreatic Cancer Action Network](https://pancan.org/news/first-ras-inhibitor-extends-survival-in-previously-treated-metastatic-pancreatic-adenocarcinoma-what-you-need-to-know) ## 04/13/2026 A new therapy that targets RAS mutations present in more than 90% of patients with pancreatic adenocarcinoma — the most common type of pancreatic cancer — approximately doubles overall survival according to clinical trial results announced today. [...] Additional data from this trial is expected to be presented at the American Society of Clinical Oncology (ASCO) Annual Meeting in late May 2026. Revolution Medicines has announced their intent to take their data to the U.S. FDA for a\n[Long-Term Survival in Metastatic Pancreatic Adenocarcinoma of Intestinal Type](https://pmc.ncbi.nlm.nih.gov/articles/PMC11396449) Pancreatic cancer is the fourth leading cause of death due to cancer worldwide . The mean survival rate for patients with metastatic pancreatic adenocarcinoma is 3–6 months . The incidence and mortality are higher in men than in women. Pancreatic ductal adenocarcinoma with pancreatobiliary-type differentiation is the most common and frequent type of pancreatic cancer, occurring in more than 85% of pancreatic cancer cases. [...] Introduction and Literature Review: Pancreatic cancer is often diagn\n[Pancreatic Cancer — Cancer Stat Facts](https://seer.cancer.gov/statfacts/html/pancreas.html) Skip to Main Content An official website of the United States government Surveillance, Epidemiology, and End Results Program Share on Facebook Tweet Print;) 1. Home 2. Cancer Statistics 3. Reports on Cancer 4. Cancer Stat Facts 5. Pancreatic Cancer — "
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_LGYuzhb5vKmVoGVFsWMj8Pxx",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"ASCO 2026: Daraxonrasib doubles median overall survival in metastatic pancreatic cancer\",\"keywords\":\"median overall survival\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_LGYuzhb5vKmVoGVFsWMj8Pxx",
+   "content": "no such page"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_IyP8mNMSGyla5P7Jn37PQ7kn",
+     "function": {
+      "name": "tavily_search",
+      "arguments": "{\"query\":\"ASCO 2026 pancreatic cancer overall survival report\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_IyP8mNMSGyla5P7Jn37PQ7kn",
+   "content": "[ASCO 2026 Day 3 Highlights: A Transformative Advance in Pancreatic Cancer](https://www.diaceutics.com/resources/asco-2026-day-3-highlights-a-transformative-advance-in-pancreatic-cancer) Median overall survival (OS) doubled: 13.2 months versus 6.7 months (HR 0.40) Median progression-free survival (PFS) more than doubled: approximately 7.2–7.3 months versus 3.5–3.6 months Objective response rate (ORR) nearly tripled: approximately 31–33% versus 11–12% Significant delays in deterioration of pain and quality of life Lower rates of grade ≥3 adverse events and treatment discontinuation compared with chemotherapy [...] Median OS extended beyond 2 years: 27.9 vs 23.7 months (HR 0.66) B\n[Research ASCO GI 2026 - Let's Win Pancreatic Cancer](https://letswinpc.org/research/research-asco-gi-2026) survival was 6.7 months, with a 24-month progression-free survival rate of 22.0 percent. The researchers are continuing development of this drug. [...] The median progression-free survival (PFS) was 6.7 months, and the PFS rate at 24 months was 22.0 percent. The median overall survival with durvalumab plus olaparib was 15.4 months. ## How do I find clinical trials? Find a trial [...] Adding the investigational drug elraglusib (9-ING-41) to standard first-line gemcitabine and nab-paclitaxel may e\n[Daraxonrasib Nearly Doubles Survival in Previously Treated Metastatic Pancreatic Cancer - The ASCO Post](https://ascopost.com/issues/june-10-2026/daraxonrasib-nearly-doubles-survival-in-previously-treated-metastatic-pancreatic-cancer) Median Overall survival was nearly doubled among patients with previously treated metastatic pancreatic cancer who received the multiselective RAS(ON) inhibitor daraxonrasib in the phase III RASolute 302 trial, the results of which were presented at the Plenary Session of the 2026 ASCO Annual Meeting by Brian M. Wolpin, MD, MPH, Director of the Hale Family Center for Pancreatic Cancer Research and the Gastrointestinal Cancer Center, Dana-Farber Cancer Institute, Boston.1 These data were [...] --\n[Daraxonrasib Doubles Survival in Pancreatic Cancer at ASCO 2026: A Game-Changer](https://www.oncologynewscentral.com/pancreatic-cancer/standing-ovation-at-asco-2026-for-grand-slam-pancreatic-cancer-data-daraxonrasib-doubles-survival) Neil Osterweil Significant progress against metastatic pancreatic cancer has been elusive. This explains why results from the RASolute 302 trial, which show that daraxonrasib doubled overall survival (OS) and progression-free survi"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_07aSq4Ntu2VgYFFs7uOqhaPn",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"Daraxonrasib Doubles Survival in Pancreatic Cancer at ASCO 2026: A Game-Changer\",\"keywords\":\"median overall survival time reported\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_07aSq4Ntu2VgYFFs7uOqhaPn",
+   "content": "no such page"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_RVkzOFKNjhfqALRlHEGDwiLm",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"Daraxonrasib Nearly Doubles Survival in Previously Treated Metastatic Pancreatic Cancer\",\"keywords\":\"median overall survival\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_RVkzOFKNjhfqALRlHEGDwiLm",
+   "content": "no such page"
+  },
+  {
+   "role": "assistant",
+   "content": "In May 2026, the median overall survival time reported for patients with metastatic pancreatic cancer was 13.2 months, as demonstrated in clinical trials involving the drug daraxonrasib. This represents a significant improvement compared to previous treatments. \n\nFINAL: 13.2 months.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

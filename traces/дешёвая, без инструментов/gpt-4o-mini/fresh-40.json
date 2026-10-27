@@ -1,0 +1,24 @@
+{
+ "task": {
+  "id": "fresh-40",
+  "source": "fresh",
+  "question": "Who is shot and severely injured in Moscow on February 6, 2026?",
+  "answer": "Vladimir Alekseyev",
+  "evidence": "6 February – Lieutenant General Vladimir Alekseyev, the deputy head of the GRU, is shot and severely injured by an unidentified gunman in Moscow.",
+  "page": "2026 in Russia",
+  "url": "https://en.wikipedia.org/wiki/2026_in_Russia",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "FINAL: Unknown.",
+ "correct": false,
+ "cost": 7.500000000000562e-06,
+ "messages": [
+  {
+   "role": "assistant",
+   "content": "Unknown.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

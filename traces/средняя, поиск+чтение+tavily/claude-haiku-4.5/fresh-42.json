@@ -1,0 +1,76 @@
+{
+ "task": {
+  "id": "fresh-42",
+  "source": "fresh",
+  "question": "Who inaugurated the Noida International Airport in India in March 2026?",
+  "answer": "Prime Minister Narendra Modi",
+  "evidence": "28 March – The Noida International Airport is inaugurated by Prime Minister Narendra Modi.",
+  "page": "2026 in India",
+  "url": "https://en.wikipedia.org/wiki/2026_in_India",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "FINAL: Prime Minister Narendra Modi inaugurated the Noida International Airport (also known as Jewar Airport) on March 28, 2026. The inauguration was attended by several officials including Uttar Pradesh Governor Anandiben Patel, Chief Minister Yogi Adityanath, and Union Civil Aviation Minister Kinjarapu Ram Mohan Naidu.",
+ "correct": true,
+ "cost": 0.007314000000000043,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You answer questions about recent events (2025–2026). Never answer from memory: use web_search (and tavily_search if available) to find the right article, then page_find to look inside long articles such as '2026 in <country or field>' for the specific fact. Do not repeat the same call. When done, write the last line as FINAL: <short answer>."
+  },
+  {
+   "role": "user",
+   "content": "Who inaugurated the Noida International Airport in India in March 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "I'll search for information about the Noida International Airport inauguration in March 2026.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01RCY4bv8WB38qT48ZJyKjRL",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\": \"Noida International Airport inauguration March 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01RCY4bv8WB38qT48ZJyKjRL",
+   "content": "[Noida International Airport] Noida International Airport (IATA: DXN, ICAO: VIND), also called Jewar Airport, is an international airport at Jewar in the Gautam Buddha Nagar district of Uttar Pradesh, India, serving the National Capital Region and western Uttar Pradesh. In its first phase, the airport has one runway and one passenger terminal with a capacity of 12 million passengers annually. The airport will increase this capacity to 30 million passengers annually in the upcoming years. The airport is intended to complement Indira Gandhi International Airport as part of the Delhi-NCR region's dual-airport system. The first phase was inaugurated on 28 March 2026, following the grant of an aerodrome licence by the DGCA on 6 March 2026. Commercial operations began on 15 June 2026. On 9 October 2026, the Cabinet of Uttar Pradesh approved a proposal to rename the airport Narendra Modi International Airport after Prime Minister Narendra Modi. | other articles: Noida, Noida Metro"
+  },
+  {
+   "role": "assistant",
+   "content": "The search result shows the inauguration date but doesn't specify who performed the inauguration. Let me search for more specific details about who inaugurated it.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_0135htVARmRzuQ1ptaHNKNfg",
+     "function": {
+      "name": "tavily_search",
+      "arguments": "{\"query\": \"who inaugurated Noida International Airport March 28 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_0135htVARmRzuQ1ptaHNKNfg",
+   "content": "[PM Modi inaugurates Noida International Airport Prime ...](https://www.instagram.com/p/DWgCjgACVne?hl=en) Prime Minister Narendra Modi inaugurated the airport on March 28, 2026. Its first flight landing took place on June 15, when an IndiGo aircraft\n[Noida International Airport Jewar highlights: A flight every 2 minutes, says PM Modi at airport inauguration | India News](https://www.hindustantimes.com/india-news/noida-international-airport-inauguration-time-date-jewar-airport-how-to-reach-features-interior-news-pm-modi-march-28-101774662529810.html) Mar 28, 2026, 16:05:20 IST ## Noida International Airport Jewar LIVE: Who all attended the Noida airport inauguration Noida International Airport Jewar LIVE: Apart from PM Narendra Modi, the inaugration programme was attended by Uttar Pradesh Governor Anandiben Patel, Chief Minister Yogi Adityanath, Union Civil Aviation Minister Kinjarapu Ram Mohan Naidu, and Deputy Chief Ministers Keshav Prasad Maurya and Brajesh Pathak, among others. [...] Follow all the updates here: Mar 28, 2026, 16:16:04 IS\n[PM inaugurates Phase I of Noida International Airport ...](https://www.pmindia.gov.in/en/news_updates/pm-inaugurates-phase-i-of-noida-international-airport-developed-with-an-investment-of-around-%E2%82%B911200-crore) The Prime Minister, Shri Narendra Modi, today inaugurated the Noida International Airport at Jewar in Uttar Pradesh.\n[Noida International Airport - Wikipedia](https://en.wikipedia.org/wiki/Noida_International_Airport) The first phase was inaugurated on 28 March 2026, following the grant of an aerodrome licence by the DGCA \"Directorate General of Civil Aviation (India)\") on 6 March 2026. Commercial operations began on 15 June 2026. ## History [...] Originally slated for opening in 2022, delays repeatedly pushed back the start of commercial operations. On 6 March 2026, the airport received its aerodrome licence by the Directorate General of Civil Aviation \"Directorate General of Civil Aviation (India)\"). Phase \n[PM to visit Uttar Pradesh on 28th March](https://www.pib.gov.in/PressReleasePage.aspx?PRID=2245509&reg=3&lang=1) Prime Minister Shri Narendra Modi will visit Uttar Pradesh on 28 March 2026. Prime Minister will inaugurate Phase I of Noida International"
+  },
+  {
+   "role": "assistant",
+   "content": "FINAL: Prime Minister Narendra Modi inaugurated the Noida International Airport (also known as Jewar Airport) on March 28, 2026. The inauguration was attended by several officials including Uttar Pradesh Governor Anandiben Patel, Chief Minister Yogi Adityanath, and Union Civil Aviation Minister Kinjarapu Ram Mohan Naidu.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

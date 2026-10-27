@@ -1,0 +1,24 @@
+{
+ "task": {
+  "id": "fresh-68",
+  "source": "fresh",
+  "question": "What is the name of the Canadian Prime Minister who announced a deal with India in March 2026?",
+  "answer": "Mark Carney",
+  "evidence": "2 March – Prime Minister Narendra Modi and Canadian Prime Minister Mark Carney announce that Canada and India have agreed to a deal that would strengthen their economic partnership, in a move aimed at boosting ties after two years of strained relationship between the two countries.",
+  "page": "2026 in India",
+  "url": "https://en.wikipedia.org/wiki/2026_in_India",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "FINAL: Unknown.",
+ "correct": false,
+ "cost": 8.099999999996998e-06,
+ "messages": [
+  {
+   "role": "assistant",
+   "content": "Unknown.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

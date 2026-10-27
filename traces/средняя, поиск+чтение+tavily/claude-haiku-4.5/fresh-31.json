@@ -1,0 +1,134 @@
+{
+ "task": {
+  "id": "fresh-31",
+  "source": "fresh",
+  "question": "Who formed the new government of Kazakhstan after the legislative election on August 23, 2026?",
+  "answer": "Aibek Dädebai",
+  "evidence": "August 23 – The 2026 Kazakh legislative election was held, with Aibek Dädebai of the newly-formed Ädilet forming the new government of Kazakhstan.",
+  "page": "2026 in politics",
+  "url": "https://en.wikipedia.org/wiki/2026_in_politics",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "FINAL: The Second Bektenov Government was formed on August 31, 2026, following the August 23, 2026 legislative election. Prime Minister Oljas Bektenov was reappointed by President Kassym-Jomart Tokayev and approved by the newly established Kurultai (Kazakhstan's new unicameral legislature). Most of the core economic team was retained, though there were some ministerial changes.",
+ "correct": false,
+ "cost": 0.016864000000000046,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You answer questions about recent events (2025–2026). Never answer from memory: use web_search (and tavily_search if available) to find the right article, then page_find to look inside long articles such as '2026 in <country or field>' for the specific fact. Do not repeat the same call. When done, write the last line as FINAL: <short answer>."
+  },
+  {
+   "role": "user",
+   "content": "Who formed the new government of Kazakhstan after the legislative election on August 23, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "I'll search for information about the Kazakhstan legislative election on August 23, 2026.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01QoMMbbYLbDM9sFHnR17RsU",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\": \"Kazakhstan legislative election August 23 2026\"}"
+     }
+    },
+    {
+     "type": "function",
+     "index": 1,
+     "id": "toolu_bdrk_01NsbVgwB3EqTKCqTdcfTKMz",
+     "function": {
+      "name": "tavily_search",
+      "arguments": "{\"query\": \"Kazakhstan legislative election August 23 2026 government\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01QoMMbbYLbDM9sFHnR17RsU",
+   "content": "[2026 Kazakh legislative election] Legislative elections were held in Kazakhstan on 23 August 2026 to elect all 145 members of the Kurultai of the 1st convocation. It was the 10th legislative election since Kazakhstan's independence in 1991 and the first election to the country's new unicameral legislature established by the 2026 Constitution. Turnout was 74.2%, making it the highest turnout recorded in a national vote in Kazakhstan since the 2026 referendum and the highest turnout in a legislative election since 2016. The new constitution, approved in a constitutional referendum, provided for the dissolution of the previous bicameral Parliament of Kazakhstan and established the Kurultai as the country's highest representative body. It entered into force on 1 July 2026, on which day President Kassym-Jomart Tokayev signed a decree calling the legislative election for 23 August. The vote also marked the return of party-list proportional representation under the new electoral system for the first time since the 2021 legislative elections. The campaign was contested by seven political parties and focused primarily on socio-economic and governance issues. Major campaign issues included living standards, taxation and the minimum wage; inflation and the rising cost of essential goods; economic and industrial development, including regional growth and labour productivity; and the implementation of the new constitutional and parliamentary system. Ahead of the election, press freedom organizations reported increasing pr | other articles: List of elections in 2026, 2026 national electoral calendar"
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01NsbVgwB3EqTKCqTdcfTKMz",
+   "content": "[Blue Star Strategies | Global Elections Update: Kazakhstan](https://bluestarstrategies.com/global-elections-update-kazakhstan) On August 23, Kazakhstan held early legislative elections to elect 145 members of the country’s first unicameral Parliament, known as “Kurultai”, following a constitutional referendum that dissolved the former Senate in March 2026. The recently created Adilet party won 71% of the vote, securing the majority with 110 seats in Parliament. Adilet is a pro-government party which replaced the former ruling Aanat in June 2026, which is expected to consolidate President Kassym-Jomart Tokayev’s [...] Ne\n[2026 Kazakh legislative election - Wikipedia](https://en.wikipedia.org/wiki/2026_Kazakh_legislative_election) On 1 July 2026, as the new constitution entered into force, replacing Kazakhstan's bicameral Parliament with the Kurultai as the country's unicameral legislature, President Kassym-Jomart Tokayev signed Decree No. 1338 calling the first elections to the Kurultai for 23 August 2026. The decree instructed the Central Election Commission \"Central Election Commission (Kazakhstan)\") (CEC) to organize the election and directed the government and regional authorities to provide the necessary [...] On 28\n[Early Parliamentary Elections, 23 August 2026 The 23 Augus](https://odihr.osce.org/sites/default/files/documents/official_documents/2026/08/KAZ%20Early%20Parliamentary%20Elections%202026%20PS_24.08.2026.pdf) INTERNATIONAL ELECTION OBSERVATION MISSION Republic of Kazakhstan – Early Parliamentary Elections, 23 August 2026 STATEMENT OF PRELIMINARY FINDINGS AND CONCLUSIONS PRELIMINARY CONCLUSIONS The 23 August early parliamentary elections, while technically well prepared, took place in an environment lacking political pluralism. Political choice was reduced by the lack of distinct political alternatives, with all contesting parties supporting the incumbent President’s policies. The campaign was orderly\n[Kazakhstan’s newly formed pro-government party wins parliamentary election | Elections News | Al Jazeera](https://www.aljazeera.com/news/2026/8/24/kazakhstans-newly-formed-pro-government-party-wins-parliamentary-election) By AFP and Reuters Published On 24 Aug 202624 Aug 2026 Kazakhstan’s pro-government Adilet party won more than 71 percent of the vote in Sunday’s parliamentary election, said the electoral commission in a result likely to consolidate the power of President Kassym-Jomart Tokayev. [...] Save Share ![Members of Kazakh electoral "
+  },
+  {
+   "role": "assistant",
+   "content": "Now let me search for more details about who formed the government after this election.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01W35oyQXS38FhYVaMwZiyYP",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\": \"Kazakhstan 2026 government formation prime minister after election\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01W35oyQXS38FhYVaMwZiyYP",
+   "content": "[Prime Minister of Kazakhstan] The prime minister of Kazakhstan is the head of government of Kazakhstan and the holder of its fourth highest office, after the president of Kazakhstan and the vice president of Kazakhstan, and the chairman of the Kurultai. The prime minister heads the cabinet and advises the president. The incumbent prime minister is Oljas Bektenov, who replaced acting Prime Minister Roman Sklyar on 6 February 2024 after the previous government's resignation. | other articles: 2026, 2026 Kazakh legislative election"
+  },
+  {
+   "role": "assistant",
+   "content": "Let me search for more specific information about the government formation in 2026.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_018mSZKwKP4etSw7Sar83HQ3",
+     "function": {
+      "name": "tavily_search",
+      "arguments": "{\"query\": \"Oljas Bektenov government Kazakhstan 2026 after August election\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_018mSZKwKP4etSw7Sar83HQ3",
+   "content": "[First Bektenov Government - Wikipedia](https://en.wikipedia.org/wiki/First_Bektenov_Government) [edit] In August 2026, on the day of the 2026 Kazakh legislative election, President Tokayev announced that the Bektenov Government would soon resign. He praised its continuing work, but noted that a government reshuffle would be necessary to achieve modernisation amid constitutional reform, which included the creation of a national unicameral legislature, the Kurultai \"Kurultai (Kazakhstan)\"), instead of the previously bicameral Parliament of Kazakhstan. ## Assessment [edit] [...] | 19th Cabine\n[New Kazakhstan Government Retains Core Economic Team - The Times Of Central Asia](https://timesca.com/kazakhstan-government-retains-core-economic-team) 3 September 2026 Government appointments # New Kazakhstan Government Retains Core Economic Team Posted by author-avatar Times of Central Asia 03 Sep 2026 TCA Kazakhstan completed the formation of its first government under the country’s new unicameral parliament on September 3. Olzhas Bektenov remains prime minister and the core economic team will stay in place, but there were changes at the foreign, culture and information, ecology, and emergency situations ministries. [...] The government resi\n[Olzhas Bektenov remains in the post of Prime Minister of Kazakhstan | 1news.az](https://1news.az/en/news/20260831105510580-Olzhas-Bektenov-remains-in-the-post-of-Prime-Minister-of-Kazakhstan) Elections to the Kurultai were held in Kazakhstan on August 23, 2026. According to the Central Election Commission, the total number of registered voters was 12,623,289 people. A total of 9,351,539 people, or 74.08% of registered voters, took part in the elections. Share: 2510 ## In focus Politics ### President Ilham Aliyev watched opening ceremony of FIFA U-15 World Cup and Festival Society [...] 1news.az President's Diary Politics Society Economy Sport Opinion World World # Olzhas Bektenov rem\n[Key Takeaways From Kazakhstan's New Government & Parliament - Aretera Public Affairs](https://areterapa.com/key-takeaways-from-kazakhstans-new-government-parliament) Kazakh President Kassym-Jomart Tokayev has officially appointed the country’s new government, led again by Prime Minister Olzhas Bektenov, who has been in post since 2024. Most ministers have retained their posts, except for those responsible for foreign affairs, natural resources, culture and information, as well as emergency situations, signalling policy continuity. In parallel, for"
+  },
+  {
+   "role": "assistant",
+   "content": "Perfect! I have found the information. Let me get more details to confirm the exact date of government formation.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_017b2vg2jS9HHEgHC9WaCjqC",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\": \"\\\"Second Bektenov Government\\\" Kazakhstan 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_017b2vg2jS9HHEgHC9WaCjqC",
+   "content": "[Second Bektenov Government] The Second Bektenov Government (Kazakh: Екінші Бектенов үкіметі; Russian: Второе правительство Бектенова) is the 20th government of Kazakhstan led by Prime Minister Oljas Bektenov. It was formed on 31 August 2026 following the resignation of the First Bektenov Government after the 2026 legislative election and the convening of the newly established Kurultai. President Kassym-Jomart Tokayev nominated Bektenov for reappointment as prime minister of Kazakhstan, and the Kurultai approved his candidacy. Tokayev subsequently reappointed Bektenov as prime minister and appointed the new government. | other articles: Arman Qyryqbaev, Murat Muhanov"
+  },
+  {
+   "role": "assistant",
+   "content": "FINAL: The Second Bektenov Government was formed on August 31, 2026, following the August 23, 2026 legislative election. Prime Minister Oljas Bektenov was reappointed by President Kassym-Jomart Tokayev and approved by the newly established Kurultai (Kazakhstan's new unicameral legislature). Most of the core economic team was retained, though there were some ministerial changes.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

@@ -1,0 +1,24 @@
+{
+ "task": {
+  "id": "fresh-83",
+  "source": "fresh",
+  "question": "What type of device was attempted to be ignited near a Bank of America building in France in March 2026?",
+  "answer": "improvised explosive device",
+  "evidence": "28 March – A man is detained and another is at large after trying to ignite an improvised explosive device near a Bank of America building in Paris.",
+  "page": "2026 in France",
+  "url": "https://en.wikipedia.org/wiki/2026_in_France",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "FINAL: Unknown.",
+ "correct": false,
+ "cost": 8.54999999999606e-06,
+ "messages": [
+  {
+   "role": "assistant",
+   "content": "Unknown.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

@@ -10,9 +10,9 @@
   "sonnet_answer": "unknown",
   "agent_ok": false
  },
- "answer": "Nine people were injured in the leisure boat collision near Haneda Airport on August 24, 2026. \n\nFINAL: 9 injured.",
- "correct": false,
- "cost": 0.00019484999999999641,
+ "answer": "On August 24, 2026, a leisure boat collision near Haneda Airport in Japan injured nine people. \n\nFINAL: 9 injured.",
+ "correct": true,
+ "cost": 0.0001922999999999786,
  "messages": [
   {
    "role": "system",
@@ -31,17 +31,17 @@
     {
      "type": "function",
      "index": 0,
-     "id": "call_6lidsE2OrZhhEOMhWRkRB1e3",
+     "id": "call_HjEwbhLvAQTqEScJC260MIIo",
      "function": {
       "name": "web_search",
-      "arguments": "{\"query\":\"Japan leisure boat collision near Haneda Airport August 24 2026\"}"
+      "arguments": "{\"query\":\"Japan leisure boat collision Haneda Airport August 24 2026\"}"
      }
     }
    ]
   },
   {
    "role": "tool",
-   "tool_call_id": "call_6lidsE2OrZhhEOMhWRkRB1e3",
+   "tool_call_id": "call_HjEwbhLvAQTqEScJC260MIIo",
    "content": "[2026 in Japan] Events in the year 2026 in Japan. | other articles: John F. Kennedy International Airport, San Francisco International Airport"
   },
   {
@@ -53,22 +53,22 @@
     {
      "type": "function",
      "index": 0,
-     "id": "call_9Q3W0tZRzB0ncEwulklRuZXm",
+     "id": "call_C4d6AYfcloh6OWYTOn0Xtzc1",
      "function": {
       "name": "page_find",
-      "arguments": "{\"title\":\"2026 in Japan\",\"keywords\":\"leisure boat collision Haneda Airport August 24 injured\"}"
+      "arguments": "{\"title\":\"2026 in Japan\",\"keywords\":\"leisure boat collision Haneda Airport injuries\"}"
      }
     }
    ]
   },
   {
    "role": "tool",
-   "tool_call_id": "call_9Q3W0tZRzB0ncEwulklRuZXm",
+   "tool_call_id": "call_C4d6AYfcloh6OWYTOn0Xtzc1",
    "content": "August 24 – A leisure boat collides with a seawall near Haneda Airport, injuring nine people."
   },
   {
    "role": "assistant",
-   "content": "Nine people were injured in the leisure boat collision near Haneda Airport on August 24, 2026. \n\nFINAL: 9 injured.",
+   "content": "On August 24, 2026, a leisure boat collision near Haneda Airport in Japan injured nine people. \n\nFINAL: 9 injured.",
    "refusal": null,
    "reasoning": null
   }

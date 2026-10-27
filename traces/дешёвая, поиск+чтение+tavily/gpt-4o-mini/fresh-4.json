@@ -10,9 +10,9 @@
   "sonnet_answer": "unknown",
   "agent_ok": true
  },
- "answer": "В январе 2026 года в Виктории, Австралия, вступили в силу новые законы, касающиеся работы в условиях удалённого режима (work from home) для сотрудников. Эти меры предоставляют работникам право работать из дома на определённое количество дней в неделю, что стало значительным шагом в законодательстве о трудовых правах. Разработанные законы касаются также усиления регулирования для компаний, оказывающих услуги найма рабочей силы, с целью повышения стандартов и обеспечения защиты работников.\n\nFINAL: Вступили в силу законы о праве на удалённую работу и новые требования для агентств найма.",
+ "answer": "In January 2026, a significant measure that came into force in Victoria, Australia, was the introduction of free public transport for people aged under 18. This initiative aimed to reduce transportation costs for young residents across the state. \n\nFINAL: Free public transport for under 18s started in January 2026.",
  "correct": false,
- "cost": 0.0022039500000000656,
+ "cost": 0.0012377999999999556,
  "messages": [
   {
    "role": "system",
@@ -31,18 +31,18 @@
     {
      "type": "function",
      "index": 0,
-     "id": "call_7Hr1ucj4T8S8DAU2nLgwGadk",
+     "id": "call_MNBKTbakhSMxQSKGbayS3GF9",
      "function": {
       "name": "tavily_search",
-      "arguments": "{\"query\":\"Victoria Australia law measure January 2026\"}"
+      "arguments": "{\"query\":\"Victoria Australia measure January 2026\"}"
      }
     }
    ]
   },
   {
    "role": "tool",
-   "tool_call_id": "call_7Hr1ucj4T8S8DAU2nLgwGadk",
-   "content": "[Law reform in Victoria - Victorian Law Reform Commission](https://www.lawreform.vic.gov.au/publications-and-media/law-reform-in-victoria) The Justice Legislation Amendment (Family Violence, Stalking and Other Matters) Act 2026 received Assent. This bill implements Recommendation 1 of the VLRC’s Examining Aspects of Family Violence Intervention Orders for Children and Young Adults: Stage 1 Report – Protection for Children Who Turn 18 While on a Family Violence Intervention Order to clarify that children who are listed as a protected person on an adult family member’s FVIO and turn 18, can remain protected for the duration of the [.\n[Labour hire law changes 2026 | Stay informed | LHA](https://www.labourhireauthority.vic.gov.au/about-us/labour-hire-law-changes-2026) Skip to content Labour Hire Authoruty Skip Navigation # Labour hire law changes 2026 Expand All;) Under stronger, broader laws now in effect in Victoria, labour hire companies – and the people running them – must measure up to a range of new checks and requirements. The new laws build on existing licensing laws, which require labour hire providers to hold a licence, to comply with specified laws and standards, and to be run by appropriate people. [...] Each of these is outlined in further detail\n[Migration Amendment (2026 Measures No. 1) Bill 2026](https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7447) ## Summary Amends the Migration Act 1958 to enable temporary restrictions on the arrival of certain classes of temporary visa holders in Australia, including when events or circumstances outside Australia mean that there is an increased risk that certain classes of temporary visa holders will not depart Australia when their visas cease to be in effect. ## Progress [...] | 2R - Independent [sheet 3701] TYRRELL, Sen Tammy | Word Format Bill 2026_Tyrrell.docx;fileType=application%2Fvnd.openxmlforma\n[Regulatory Legislation Amendment (Reform) Act 2026 | legislation.vic.gov.au](https://www.legislation.vic.gov.au/as-made/acts/regulatory-legislation-amendment-reform-act-2026) # Regulatory Legislation Amendment (Reform) Act 2026 Act as made Act number 15/2026 ## Authorised version 26-015aa authorised.pdf pdf347.13 KB (opens in a new window) ## Version 26-015a.docx docx115.48 KB (opens in a new window) Back to top\n[Victorian legislation | legislation.vic.gov.au](https://www.legislation.vic.gov.au) Acts and statutory rules as originally enacted or made (not inco"
+   "tool_call_id": "call_MNBKTbakhSMxQSKGbayS3GF9",
+   "content": "[Victoria (state) - Wikipedia](https://en.wikipedia.org/wiki/Victoria_(state)) The Mallee and upper Wimmera are Victoria's warmest regions with hot winds blowing from nearby semi-deserts. Average temperatures exceed 32 °C (90 °F) during summer and 15 °C (59 °F) in winter. Except at cool mountain elevations, the inland monthly temperatures are 2–7 °C (4–13 °F) warmer than around Melbourne (see chart). Victoria's highest maximum temperature of 48.9 °C (120.0 °F) was recorded in Walepup/ Hopetoun on 27 January 2026, during the January 2026 heatwave affecting the State. [...] \n[Helping with the cost of living | Victorian Budget 26/27](https://www.budget.vic.gov.au/helping-cost-living) This Budget also invests $278 million to halve the price of public transport until 1 January 2027. This includes trams, trains and bus services across the state. This is on top of free public transport for people aged under 18 on all Victorian public transport which kicked in on 1 January 2026. ## Making it easier to find the cheapest fuel Fuel prices are rising and it’s putting families under pressure. [...] We’re continuing to deliver concessions for energy, rates, water and sewerage bills, wi\n[Update - Victoria’s skilled visa nomination program 2026-27 - Live in Melbourne](https://liveinmelbourne.vic.gov.au/news-events/news/2026/update-victorias-skilled-visa-nomination-program-2026-27) $180 $198 \\Goods and Services Tax (GST) of 10% applies if the applicant is in Australia at the time of payment. GST is calculated and applied when the application form is completed. \\\\This fee is payable only if you are invited to apply for nomination and submit a nomination application. The Registration of Interest fee is charged once per program year. If you withdraw and submit a new Registration of Interest within the same program year, you will not be charged again. [...] 2026–27 fees for se\n[Victorian government spruiks first budget surplus in seven years | ABC NEWS](https://www.youtube.com/watch?v=9Arxc7zmooE) [3:04] announced weeks ago. Billions more will be poured into education, hospitals, and the justice system as the government [3:11] tries to calm community concern about crime. [3:16] [applause] [3:17] Applauded from within. But not everyone's buying Treasurer Jacquellyn Sims's pitch. [3:22] The biggest cost of living measure is housing affordability. And there is very little in this budget that addresses that. There's always so much more to be done. [...] # Victorian government spru"
   },
   {
    "role": "assistant",
@@ -53,31 +53,17 @@
     {
      "type": "function",
      "index": 0,
-     "id": "call_JbJiYPrqDgaPJd5eP5lLWhlM",
+     "id": "call_i5H2IlZRSO1YSV4RR7IqVnQg",
      "function": {
       "name": "page_find",
-      "arguments": "{\"title\": \"2026 in Australia\", \"keywords\": \"Victoria, law\"}"
-     }
-    },
-    {
-     "type": "function",
-     "index": 1,
-     "id": "call_eOzxcMXkOBYivYpio2FZ33iR",
-     "function": {
-      "name": "page_find",
-      "arguments": "{\"title\": \"2026 in Victoria\", \"keywords\": \"law\"}"
+      "arguments": "{\"title\":\"Helping with the cost of living | Victorian Budget 26/27\",\"keywords\":\"public transport free under 18\"}"
      }
     }
    ]
   },
   {
    "role": "tool",
-   "tool_call_id": "call_JbJiYPrqDgaPJd5eP5lLWhlM",
-   "content": "Premier of Victoria – Jacinta Allan until 28 July, then Ben Carroll\nGovernor of Victoria – Margaret Gardner\nSix emergency warnings are issued in Victoria in response to bushfires.\nBlak Caucus, the Palestine Action Group and Jews Against the Occupation'48 file a challenge against new laws restricting protests in New South Wales at the Supreme Court of New South Wales.\n9 January – A total fire ban comes into force in Victoria in response to an ongoing heatwave.\n10 January – Wildfires destroy 130 structures in Victoria, prompting premier Jacinta Allan declares a statewide emergency. The Australian Capital Territory declares a total fire ban."
-  },
-  {
-   "role": "tool",
-   "tool_call_id": "call_eOzxcMXkOBYivYpio2FZ33iR",
+   "tool_call_id": "call_i5H2IlZRSO1YSV4RR7IqVnQg",
    "content": "no such page"
   },
   {
@@ -89,18 +75,18 @@
     {
      "type": "function",
      "index": 0,
-     "id": "call_5mkb8Gr6cPd5KS49Gkb3lfOV",
+     "id": "call_N5aDjoupRgzFgGXwX2MYvCEF",
      "function": {
-      "name": "tavily_search",
-      "arguments": "{\"query\":\"new laws in Victoria Australia January 2026\"}"
+      "name": "web_search",
+      "arguments": "{\"query\":\"Victorian public transport free under 18 January 2026\"}"
      }
     }
    ]
   },
   {
    "role": "tool",
-   "tool_call_id": "call_5mkb8Gr6cPd5KS49Gkb3lfOV",
-   "content": "[Child safety reforms – new laws take effect to strengthen safeguards | vic.gov.au](https://www.vic.gov.au/early-childhood-update-march-2026/child-safety-reforms-new-laws-take-effect-strengthen-safeguards) The safety, rights and best interests of children will be the paramount consideration for all decision makers in the early childhood education and care (ECEC) system – this is one of many changes to national and Victorian law that came into effect on 27 February 2026. These changes follow those in December 2025 and January 2026 and put in place stronger safeguards to protect Victorian children from harm. ## Further changes [...] # Child safety reforms – new laws take effect to strengthen safegua\n[Labour hire law changes 2026 | Stay informed | LHA](https://www.labourhireauthority.vic.gov.au/about-us/labour-hire-law-changes-2026) Skip to content Labour Hire Authoruty Skip Navigation # Labour hire law changes 2026 Expand All;) Under stronger, broader laws now in effect in Victoria, labour hire companies – and the people running them – must measure up to a range of new checks and requirements. The new laws build on existing licensing laws, which require labour hire providers to hold a licence, to comply with specified laws and standards, and to be run by appropriate people. [...] Each of these is outlined in further detail\n[Law reform in Victoria - Victorian Law Reform Commission](https://www.lawreform.vic.gov.au/publications-and-media/law-reform-in-victoria) The Justice Legislation Amendment (Family Violence, Stalking and Other Matters) Act 2026 received Assent. This bill implements Recommendation 1 of the VLRC’s Examining Aspects of Family Violence Intervention Orders for Children and Young Adults: Stage 1 Report – Protection for Children Who Turn 18 While on a Family Violence Intervention Order to clarify that children who are listed as a protected person on an adult family member’s FVIO and turn 18, can remain protected for the duration of the [.\n[Regulatory Legislation Amendment (Reform) Act 2026 | legislation.vic.gov.au](https://www.legislation.vic.gov.au/as-made/acts/regulatory-legislation-amendment-reform-act-2026) # Regulatory Legislation Amendment (Reform) Act 2026 Act as made Act number 15/2026 ## Authorised version 26-015aa authorised.pdf pdf347.13 KB (opens in a new window) ## Version 26-015a.docx docx115.48 KB (opens in a new window) Back to top\n[What are the new rules in 2026? Here's what's changing from New Year's Day - ABC News](https://www."
+   "tool_call_id": "call_N5aDjoupRgzFgGXwX2MYvCEF",
+   "content": "[Jacinta Allan] Jacinta Marie Allan (born 19 September 1973) is an Australian politician who served as the 49th premier of Victoria from 2023 to 2026, holding office as the leader of the Victorian Labor Party. She has been the member of Parliament (MP) for the district of Bendigo East since 1999. Born in Bendigo, Allan was elected to the Legislative Assembly at the 1999 state election at the age of 25, becoming the youngest female parliamentarian in Victorian history. She entered the ministry in 2002, serving in a range of portfolios including education, skills, and regional development under premiers Steve Bracks and John Brumby. During this period she oversaw initiatives to address teacher shortages, initiated a review of school governance, and faced criticism over school funding and infrastructure. Following Labor's defeat at the 2010 state election, Allan served in the opposition shadow ministry under Daniel Andrews. When Labor returned to government in 2014, she was appointed Minister for Public Transport and later Minister for Transport and Infrastructure, overseeing major infrastructure projects including the Suburban Rail Loop, Metro Tunnel, and Melbourne Airport Rail. Allan was appointed as the 29th deputy premier in June 2022 following the resignation of James Merlino, a promotion widely interpreted as positioning her as Andrews' eventual successor. Allan became premier on 27 September 2023 after Andrews' resignation, the second woman to hold the position after Joan Kirner. As prem | other articles: Accessibility of transport in London, Trams in Melbourne"
   },
   {
    "role": "assistant",
@@ -111,120 +97,80 @@
     {
      "type": "function",
      "index": 0,
-     "id": "call_Mk2c2TU6x7HvE3rCKvQ3zO3c",
+     "id": "call_Sce5m7HCvs6U8WFv9Kva8mW1",
+     "function": {
+      "name": "tavily_search",
+      "arguments": "{\"query\":\"Victoria Australia January 2026 news\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_Sce5m7HCvs6U8WFv9Kva8mW1",
+   "content": "[Victoria sets new all-time temperature record of 48.9°C (120°F) amid severe heatwave, Australia - The Watchers](https://watchers.news/2026/01/27/victoria-sets-new-all-time-temperature-record-of-48-9c-120f-amid-severe-heatwave-australia) ByTeo Blašković Temperatures across southeastern Australia reached record levels on January 27, 2026, with the Bureau of Meteorology confirming a new all-time high of 48.9°C (120°F) at Walpeup and Hopetoun in Victoria. The readings surpassed the previous state record of 48.8°C (119.8°F) set in 2009, amid severe to extreme heatwave conditions extending across Victoria, South Australia, and inland New South Wales. satellite image centered over walpeup australia january 27 2026 sentinel-2 [...] Sat\n[Victorian government spruiks first budget surplus in seven years | ABC NEWS](https://www.youtube.com/watch?v=9Arxc7zmooE) # Victorian government spruiks first budget surplus in seven years | ABC NEWS ## Channel: ABC News (Australia) (verified) 2.63M subscribers 128 likes ### Description 14,208 views Posted: 2026-05-05 The Victorian government has unveiled the state's first surplus in seven years. More than $1 billion has been spent on free public transport and car registration rebates as cost-of-living relief ahead of the November state election. [...] [3:55] reserveists. 3 million will also go towards a long overd\n[Heatwave warnings across Australia as millions celebrate national day](https://www.bbc.com/news/articles/cz6y7nxx5jvo) ## Sydney's new $5bn airport has one big problem: Getting there is tough ## Australian murderer loses bid to eat Vegemite in prison ## Australian MP's condition improves after alleged car attack ### The BBC is in multiple languages #### Read the BBC In your own language Copyright 2026 BBC. All rights reserved. The BBC is not responsible for the content of external sites. Read about our approach to external linking. [...] Firefighters in Victoria are working to combat several fires across the sta\n[City of Melbourne to halt Australia Day change the date campaign - ABC News](https://www.abc.net.au/news/2026-09-30/city-of-melbourne-to-halt-australia-day-change-the-date-campaign/107209916) A man with sandy coloured hair in a pinky-red coloured jacket with a white collared polo shirt stands near barricades in a park. Nicholas Reece says the City of Melbourne will stop campaigning for the date of Australia Day to be changed despite his personal view.(ABC News) Cr Reece said the council would continue to hold "
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_hey7rbKndW1tER9jltgRs6rU",
      "function": {
       "name": "page_find",
-      "arguments": "{\"title\": \"2026 in Australia\", \"keywords\": \"law changes January\"}"
+      "arguments": "{\"title\":\"Victoria (state)\",\"keywords\":\"January 2026 legislation measure\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_hey7rbKndW1tER9jltgRs6rU",
+   "content": "The Mallee and upper Wimmera are Victoria's warmest regions with hot winds blowing from nearby semi-deserts. Average temperatures exceed 32 °C (90 °F) during summer and 15 °C (59 °F) in winter. Except at cool mountain elevations, the inland monthly temperatures are 2–7 °C (4–13 °F) warmer than around Melbourne (see chart). Victoria's highest maximum temperature of 48.9 °C (120.0 °F) was recorded i"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_pVrFDrwUH84m8O8Q6jngndAk",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\": \"2026 in Australia\", \"keywords\": \"transport free under 18\"}"
      }
     },
     {
      "type": "function",
      "index": 1,
-     "id": "call_uryNyDaAsVhdEMoa2PUzcDj9",
+     "id": "call_maXnm6rq098S2yQ6KBoNV2Br",
      "function": {
       "name": "page_find",
-      "arguments": "{\"title\": \"2026 in Victoria\", \"keywords\": \"law changes January\"}"
+      "arguments": "{\"title\": \"2026 in Australia\", \"keywords\": \"Victoria January 2026 measure\"}"
      }
     }
    ]
   },
   {
    "role": "tool",
-   "tool_call_id": "call_Mk2c2TU6x7HvE3rCKvQ3zO3c",
-   "content": "12 January – The National Socialist Network (NSN) announces it would disband in response to proposed new hate speech laws by the federal government which would make it easier to designate organisations as prohibited hate groups.\n21 January – National Party of Australia senators Bridget McKenzie, Ross Cadell and Susan McDonald quit the Ley shadow ministry after opposing the official Liberal–National Coalition position on the hate speech law. Following this, the eight remaining National frontbenchers also resign from the shadow cabinet."
+   "tool_call_id": "call_pVrFDrwUH84m8O8Q6jngndAk",
+   "content": "keywords not found on the page"
   },
   {
    "role": "tool",
-   "tool_call_id": "call_uryNyDaAsVhdEMoa2PUzcDj9",
-   "content": "no such page"
+   "tool_call_id": "call_maXnm6rq098S2yQ6KBoNV2Br",
+   "content": "9 January – A total fire ban comes into force in Victoria in response to an ongoing heatwave.\n10 January – Wildfires destroy 130 structures in Victoria, prompting premier Jacinta Allan declares a statewide emergency. The Australian Capital Territory declares a total fire ban.\n13 January – The 2026 edition of Adelaide Writers' Week is called off after more than 180 writers and speakers boycott the event in protest against the organisers' decision to exclude Australian-Palestinian writer and academic Randa Abdel-Fattah.\nThe 2026 Nepean state by-election is held, resulting in the election of Victorian Liberal Party legislator Anthony Marsh.\n28 November – 2026 Victorian state election"
   },
   {
    "role": "assistant",
-   "content": null,
-   "refusal": null,
-   "reasoning": null,
-   "tool_calls": [
-    {
-     "type": "function",
-     "index": 0,
-     "id": "call_o5t4RaG2oo8sVvC4nREvEwSB",
-     "function": {
-      "name": "tavily_search",
-      "arguments": "{\"query\":\"Victoria Australia January 2026 legislation changes\"}"
-     }
-    }
-   ]
-  },
-  {
-   "role": "tool",
-   "tool_call_id": "call_o5t4RaG2oo8sVvC4nREvEwSB",
-   "content": "[Australia: Key Workplace Law Changes from July 2026](https://www.bakermckenzie.com/en/insight/publications/2026/06/australia-key-workplace-law-changes-from-july-2026) From 1 July 2026, Victoria will restrict the use of Non-Disclosure Agreements (NDAs) in workplace sexual harassment matters. An NDA will generally only be permitted where it is requested by the complainant, written in plain language, preceded by a mandatory information statement and review period, and not affected by undue pressure or influence. Complainants will also be able to make certain permitted disclosures and terminate an NDA after 12 months. [...] #### Victoria From 1 June 2026, Victori\n[1 July 2026 Law Changes - Griffin Legal](https://griffinlegal.com.au/1-july-2026-law-changes) From 1 September 2026, retirement villages in Victoria must use a new standard form contract contained in the Retirement Villages Regulations 2026 (Vic.). This is one part of broader reforms to retirement village practices implemented in Victoria since 1 May 2026 with intention to protect individuals in retirement villages. Contact Us ### Related Articles [...] #### Payroll Tax There are payroll tax changes for businesses, with the threshold for payment dropping to $1.75 million of wages. For bu\n[Workplace Law Changes July 2026 Employers Need to Know](https://www.hrstaffnstuff.com.au/blog/workplace-law-changes-july-2026) From 1 September 2026, the Victorian Government is proposing new laws that would give employees the legal right to work from home for at least two days per week if they can reasonably perform their job remotely. Businesses with fewer than 15 employees would have a delayed start until 1 July 2027 under the proposed changes. The proposed laws would exclude roles that require a physical presence, such as retail and hospitality workers, manufacturing, construction and health workers. [...] ## 5. Res\n[4 employment law changes coming in 2026 | Australian HR Institute](https://www.ahri.com.au/articles/4-employment-law-changes-coming-in-2026) Following several years of rapid reform, Australia’s employment law framework will continue to evolve in 2026, with a number of legislative changes already locked in and others under review. Some of the changes coming into effect will have practical implications for payroll and gender equality reporting, while others will likely influence longer-term workforce planning and compliance strategies. [...] For HR, the challenge will be ensuring teams, policies and "
-  },
-  {
-   "role": "assistant",
-   "content": null,
-   "refusal": null,
-   "reasoning": null,
-   "tool_calls": [
-    {
-     "type": "function",
-     "index": 0,
-     "id": "call_wMMnc6IQoB6Du6vQcBGfq9Pd",
-     "function": {
-      "name": "page_find",
-      "arguments": "{\"title\": \"2026 in Australia\", \"keywords\": \"new laws January 2026\"}"
-     }
-    },
-    {
-     "type": "function",
-     "index": 1,
-     "id": "call_jj9nul80cusc3z4LPrqgUgNq",
-     "function": {
-      "name": "page_find",
-      "arguments": "{\"title\": \"2026 in Victoria\", \"keywords\": \"labour hire laws\"}"
-     }
-    }
-   ]
-  },
-  {
-   "role": "tool",
-   "tool_call_id": "call_wMMnc6IQoB6Du6vQcBGfq9Pd",
-   "content": "Administrator of the Northern Territory – Hugh Heggie until 30 January 2026, then David Connolly\nBlak Caucus, the Palestine Action Group and Jews Against the Occupation'48 file a challenge against new laws restricting protests in New South Wales at the Supreme Court of New South Wales.\n12 January – The National Socialist Network (NSN) announces it would disband in response to proposed new hate speech laws by the federal government which would make it easier to designate organisations as prohibited hate groups.\n13 January – The 2026 edition of Adelaide Writers' Week is called off after more than 180 writers and speakers boycott the event in protest against the organisers' decision to exclude Australian-Palestinian writer and academic Randa Abdel-Fattah.\nA 12-year-old boy is severely injured in a shark attack off Shark Beach in Vaucluse, New South Wales, resulting in his death in hospital on 24 January.\n2026 Lake Cargelligo shootings: Three people are killed and another injured in a shooting in Lake Cargelligo, New South Wales."
-  },
-  {
-   "role": "tool",
-   "tool_call_id": "call_jj9nul80cusc3z4LPrqgUgNq",
-   "content": "no such page"
-  },
-  {
-   "role": "assistant",
-   "content": null,
-   "refusal": null,
-   "reasoning": null,
-   "tool_calls": [
-    {
-     "type": "function",
-     "index": 0,
-     "id": "call_0icMvdH6n4FGNli2HnfIxAl0",
-     "function": {
-      "name": "tavily_search",
-      "arguments": "{\"query\":\"January 2026 Victoria new laws implemented\"}"
-     }
-    }
-   ]
-  },
-  {
-   "role": "tool",
-   "tool_call_id": "call_0icMvdH6n4FGNli2HnfIxAl0",
-   "content": "[Regulatory update: what January 2026 brings into force](https://themodernregulator.com/regulatory-update-january-2026-implementation) Regulators and councils now operate in a transitional state. The RMA is not yet repealed, but replacement bills are in select committee with public consultation due in early 2026. Existing resource consents have been extended to end-2027, creating a temporary buffer. Fast-Track Approvals powers remain in force with some amendments. Electoral rules have tightened immediately. [...] Electoral Amendment Bill passed third reading: shortens enrolment deadlines, reinstates general prisoner voting ban,\n[Victorian state government proposes new work from home laws (update) - DLA Piper GENIE](https://knowledge.dlapiper.com/dlapiperknowledge/globalemploymentlatestdevelopments/2026/victorian-state-government-proposes-new-work-from-home-laws) 26 June 2026 Following the update on 15 June 2026, the Victorian state government introduced the Bill to give 'eligible employees' a right to work from home for up to two days per week (pro rata for part-time employees). The Bill creates a statutory right for certain 'eligible employees' to work from home, but this does not extend to: [...] ## At a glance Following the update on 15 June 2026, the Victorian state government introduced the Equal Opportunity Amendment (Work from Home) Bill 2026 (Vi\n[Child safety reforms: National and Victoria-specific legislative changes | vecra.vic.gov.au](https://www.vecra.vic.gov.au/child-safety-reforms-national-victoria-specific-legislative-changes) For more information, visit: When to notify us (VECRA). ## Information Read the law changes below: Education and Care Services National Law Act 2010 Education and Care Services National Regulations Education and Care Services National Law (Victorian Modifications) Regulations 2026 Education and Care Services National Further Amendment Regulations 2026 (PDF). ## Contact us For more information, please contact us: [...] Approved providers must notify VECRA of any sexual offence or sexual misconduc\n[Australia: Victorian Right to Work from Home | Insight | Baker McKenzie](https://www.bakermckenzie.com/en/insight/publications/2026/07/australia-victorian-right-to-work-from-home) The Bill provides eligible Victorian employees with a statutory right to work from home for two days per week for full time eligible employees (and on a pro rata basis for part time employees), where reasonable. It is likely that the Bill will be pas"
-  },
-  {
-   "role": "user",
-   "content": "Инструменты больше недоступны. Ответь по тому, что уже известно, последней строкой FINAL: <ответ>."
-  },
-  {
-   "role": "assistant",
-   "content": "В январе 2026 года в Виктории, Австралия, вступили в силу новые законы, касающиеся работы в условиях удалённого режима (work from home) для сотрудников. Эти меры предоставляют работникам право работать из дома на определённое количество дней в неделю, что стало значительным шагом в законодательстве о трудовых правах. Разработанные законы касаются также усиления регулирования для компаний, оказывающих услуги найма рабочей силы, с целью повышения стандартов и обеспечения защиты работников.\n\nFINAL: Вступили в силу законы о праве на удалённую работу и новые требования для агентств найма.",
+   "content": "In January 2026, a significant measure that came into force in Victoria, Australia, was the introduction of free public transport for people aged under 18. This initiative aimed to reduce transportation costs for young residents across the state. \n\nFINAL: Free public transport for under 18s started in January 2026.",
    "refusal": null,
    "reasoning": null
   }

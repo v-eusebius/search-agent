@@ -1,0 +1,24 @@
+{
+ "task": {
+  "id": "fresh-75",
+  "source": "fresh",
+  "question": "Where were two senior doctors arrested over suspicious deaths of newborn infants on January 14, 2026?",
+  "answer": "Novokuznetsk",
+  "evidence": "14 January – Two senior doctors are arrested over the suspicious deaths of nine newborn infants at a maternity hospital in Novokuznetsk from 4 to 12 January.",
+  "page": "2026 in Russia",
+  "url": "https://en.wikipedia.org/wiki/2026_in_Russia",
+  "sonnet_answer": "Rajasthan, India",
+  "agent_ok": false
+ },
+ "answer": "FINAL: Unknown.",
+ "correct": false,
+ "cost": 8.100000000003937e-06,
+ "messages": [
+  {
+   "role": "assistant",
+   "content": "Unknown.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

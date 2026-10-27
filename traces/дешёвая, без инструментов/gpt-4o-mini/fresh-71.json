@@ -1,0 +1,24 @@
+{
+ "task": {
+  "id": "fresh-71",
+  "source": "fresh",
+  "question": "What is the name of the 14-year-old involved in the school stabbing in Kyiv on January 12, 2026?",
+  "answer": "Nikita Solovyov",
+  "evidence": "12 January – 2026 Kyiv school stabbing: 14-year-old Nikita Solovyov stabs and injures two people at a school in Kyiv.",
+  "page": "2026 in Ukraine",
+  "url": "https://en.wikipedia.org/wiki/2026_in_Ukraine",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "FINAL: Unknown.",
+ "correct": false,
+ "cost": 8.850000000004687e-06,
+ "messages": [
+  {
+   "role": "assistant",
+   "content": "Unknown.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

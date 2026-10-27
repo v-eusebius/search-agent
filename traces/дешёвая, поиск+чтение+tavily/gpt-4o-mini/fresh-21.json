@@ -10,9 +10,9 @@
   "sonnet_answer": "unknown",
   "agent_ok": true
  },
- "answer": "In June 2026, artist Gavin Snider accused Devon Rodriguez of presenting his work as his own, specifically related to two commissioned pieces created for the New York Knicks. \n\nFINAL: Gavin Snider",
+ "answer": "In June 2026, artist Gavin Snider accused Devon Rodriguez of copyright infringement and artistic plagiarism for allegedly copying two commissioned works he created for the New York Knicks. \n\nFINAL: Gavin Snider.",
  "correct": true,
- "cost": 0.0003838499999999634,
+ "cost": 0.00039404999999992363,
  "messages": [
   {
    "role": "system",
@@ -31,18 +31,18 @@
     {
      "type": "function",
      "index": 0,
-     "id": "call_5DHVqyoippKYuK2MYIEnK9tm",
+     "id": "call_EfFKmMOsJNm17xcB0s26oJGD",
      "function": {
       "name": "tavily_search",
-      "arguments": "{\"query\":\"Devon Rodriguez artist accusation June 2026\"}"
+      "arguments": "{\"query\":\"Devon Rodriguez accused artist June 2026\"}"
      }
     }
    ]
   },
   {
    "role": "tool",
-   "tool_call_id": "call_5DHVqyoippKYuK2MYIEnK9tm",
-   "content": "[Devon Rodriguez - Wikipedia](https://en.wikipedia.org/wiki/Devon_Rodriguez) In 2026, Rodriguez faced accusations of copyright infringement and artistic plagiarism when he was alleged to have copied two commissioned works by New York artist Gavin Snider, created specifically for the New York Knicks. ## References ## External links Wikimedia Foundation Powered by MediaWiki [...] Devon Rodriguez (born April 8, 1996) is an American artist from New York City. He initially gained recognition for drawing a series of realistic \"Realism (art)\") portraits of commuters on the New \n[TikTok Artist Devon Rodriguez Accused of Plagiarism](https://www.plagiarismtoday.com/2026/06/23/tiktok-artist-devon-rodriguez-accused-of-plagiarism) A popular artist with more than 43 million followers on TikTok and Instagram has been accused of plagiarizing a smaller artist's NY Knicks\n[Artist Accuses Tik Tok Star Devon Rodriguez of Stealing ...](https://www.reddit.com/r/ContemporaryArt/comments/1u9f8qk/artist_accuses_tik_tok_star_devon_rodriguez_of) Brooklyn-based artist and designer Gavin Snider has accused Devon Rodriguez of copying two recent paintings of Knicks fans and Madison Square\n[Artist Accuses TikTok Star Devon Rodriguez of Copying ...](https://news.artnet.com/art-world/gavin-snider-devon-rodriguez-knicks-artwork-2781772) Gavin Snider has called out Rodriguez for ripping off not one, but two of his paintings. A watercolor artwork depicting a m assive crowd outside\n[Devon Rodriguez Is on the 2026 TIME100 Art List](https://time.com/collection/time100-art/2026/devon-rodriguez) TIME may receive compensation for some links to products and services on this website. Offers may be subject to change without notice. This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply. [...] # Devon Rodriguez Personalized Content ## Belinda Luscombe Follow this author to personalize your feed and get instant alerts. WHY FOLLOW? Update your preferences in Account Settings Editor at Large Advertisement ## Sections ## More ## About Us ## Your Subscription"
+   "tool_call_id": "call_EfFKmMOsJNm17xcB0s26oJGD",
+   "content": "[Devon Rodriguez - Wikipedia](https://en.wikipedia.org/wiki/Devon_Rodriguez) In 2026, Rodriguez faced accusations of copyright infringement and artistic plagiarism when he was alleged to have copied two commissioned works by New York artist Gavin Snider, created specifically for the New York Knicks. ## References [edit] [...] 11. ↑ Benzine, Vittoria (June 16, 2026). \"Artist Accuses TikTok Star Devon Rodriguez of Copying His Knicks Artwork\". Artnet. Retrieved June 16, 2026. 12. ↑ Small, Zachary; Reneau, Frank (June 18, 2026). \"While Knicks Fans Celebrate, a New York Artis\n[TikTok Artist Devon Rodriguez Accused of Plagiarism - Plagiarism Today](https://www.plagiarismtoday.com/2026/06/23/tiktok-artist-devon-rodriguez-accused-of-plagiarism) # TikTok Artist Devon Rodriguez Accused of Plagiarism Jonathan BaileyJune 23, 2026 5 minutes read Devon Rodriguez may well be the most-followed visual artist in the world, possibly in history. Originally shooting to prominence for his work painting strangers on the subway, he quickly became a viral sensation. Today, between his Instagram and TikTok accounts, he has amassed over 43 million followers. [...] Click Here to Get Permission for Free Jonathan BaileyJune 23, 2026 5 minutes read Share Fac\n[Artist Accuses TikTok Star Devon Rodriguez of Copying His Knicks Artwork](https://news.artnet.com/art-world/gavin-snider-devon-rodriguez-knicks-artwork-2781772) This article was updated on June 17, 2026, at 11.35 a.m. ET, to reflect that Rodriguez has taken down the Instagram posts of his Knicks artworks and to add a screenshot of one of the now-deleted posts. []( #### Vittoria Benzine ### The best of Artnet News in your inbox. Sign up for our daily newsletter. ### More Trending Stories Art & Exhibitions Ooh Là Là! 10 Must-See Shows in Paris This Fall Auctions Sotheby’s Notches $61M at London Contemporary Sale, Buoyed by $12.9M de Kooning [...] As New Y\n[Artist Accuses Tik Tok Star Devon Rodriguez of Stealing Knicks Artworks](https://www.artnews.com/art-news/news/tik-tok-star-artist-devon-rodriguez-steal-knicks-artworks-1234789700) Knicks fans across New York City may be on their way to celebrate the team’s NBA Finals win with a ticker-tape parade this morning, but at least one New Yorker won’t be celebrating just yet. Brooklyn-based artist and designer Gavin Snider has accused Devon Rodriguez—he of the viral subway drawings on TikTok—of copying two recent paintings of Knicks fans and Madison Square Garden. [...] Indeed, an image o"
   },
   {
    "role": "assistant",
@@ -53,36 +53,22 @@
     {
      "type": "function",
      "index": 0,
-     "id": "call_HSb6KlTWLM6405QrN5dBMPDL",
+     "id": "call_Pyfs7j8qbpAin04QWCVkh7Dc",
      "function": {
       "name": "page_find",
-      "arguments": "{\"title\": \"Devon Rodriguez\", \"keywords\": \"Gavin Snider accusation\"}"
-     }
-    },
-    {
-     "type": "function",
-     "index": 1,
-     "id": "call_mgCZQJCEsY4TP7rlXJzpGTrz",
-     "function": {
-      "name": "page_find",
-      "arguments": "{\"title\": \"TikTok Artist Devon Rodriguez Accused of Plagiarism\", \"keywords\": \"Gavin Snider\"}"
+      "arguments": "{\"title\":\"Devon Rodriguez\",\"keywords\":\"Gavin Snider, accused\"}"
      }
     }
    ]
   },
   {
    "role": "tool",
-   "tool_call_id": "call_HSb6KlTWLM6405QrN5dBMPDL",
+   "tool_call_id": "call_Pyfs7j8qbpAin04QWCVkh7Dc",
    "content": "In 2026, Rodriguez faced accusations of copyright infringement and artistic plagiarism when he was alleged to have copied two commissioned works by New York artist Gavin Snider, created specifically for the New York Knicks."
   },
   {
-   "role": "tool",
-   "tool_call_id": "call_mgCZQJCEsY4TP7rlXJzpGTrz",
-   "content": "no such page"
-  },
-  {
    "role": "assistant",
-   "content": "In June 2026, artist Gavin Snider accused Devon Rodriguez of presenting his work as his own, specifically related to two commissioned pieces created for the New York Knicks. \n\nFINAL: Gavin Snider",
+   "content": "In June 2026, artist Gavin Snider accused Devon Rodriguez of copyright infringement and artistic plagiarism for allegedly copying two commissioned works he created for the New York Knicks. \n\nFINAL: Gavin Snider.",
    "refusal": null,
    "reasoning": null
   }

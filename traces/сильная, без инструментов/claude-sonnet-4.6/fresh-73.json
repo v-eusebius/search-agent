@@ -1,0 +1,24 @@
+{
+ "task": {
+  "id": "fresh-73",
+  "source": "fresh",
+  "question": "Who was sentenced to two years' imprisonment for bribery in South Korea on August 31, 2026?",
+  "answer": "Han Hak-ja",
+  "evidence": "31 August – A court in Seoul sentences Unification Church leader Han Hak-ja to two years' imprisonment for bribery involving former first lady Kim Keon Hee.",
+  "page": "2026 in South Korea",
+  "url": "https://en.wikipedia.org/wiki/2026_in_South_Korea",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "FINAL: Unknown.",
+ "correct": false,
+ "cost": 0.0002249999999999995,
+ "messages": [
+  {
+   "role": "assistant",
+   "content": "Unknown.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

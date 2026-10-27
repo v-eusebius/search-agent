@@ -1,0 +1,24 @@
+{
+ "task": {
+  "id": "fresh-49",
+  "source": "fresh",
+  "question": "What was the sentence given to Asiya Andrabi in India on March 24, 2026?",
+  "answer": "life imprisonment",
+  "evidence": "24 March – A special NIA court sentences Kashmiri separatist Asiya Andrabi to life imprisonment for her involvement in terrorist activities in Kashmir.",
+  "page": "2026 in India",
+  "url": "https://en.wikipedia.org/wiki/2026_in_India",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "FINAL: Unknown.",
+ "correct": false,
+ "cost": 8.099999999996998e-06,
+ "messages": [
+  {
+   "role": "assistant",
+   "content": "Unknown.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

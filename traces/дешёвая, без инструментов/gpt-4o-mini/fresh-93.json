@@ -1,0 +1,24 @@
+{
+ "task": {
+  "id": "fresh-93",
+  "source": "fresh",
+  "question": "Which country wins the 2026 FIFA World Cup on July 19, 2026?",
+  "answer": "Spain",
+  "evidence": "19 July – Spain wins the 2026 FIFA World Cup after defeating Argentina 1–0 at the final.",
+  "page": "2026 in Spain",
+  "url": "https://en.wikipedia.org/wiki/2026_in_Spain",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "FINAL: Unknown.",
+ "correct": false,
+ "cost": 7.79999999999531e-06,
+ "messages": [
+  {
+   "role": "assistant",
+   "content": "Unknown.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

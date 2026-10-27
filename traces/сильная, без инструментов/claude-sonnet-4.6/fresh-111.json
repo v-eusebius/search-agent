@@ -1,0 +1,24 @@
+{
+ "task": {
+  "id": "fresh-111",
+  "source": "fresh",
+  "question": "What position did Keir Starmer resign from on June 22, 2026 in the United Kingdom?",
+  "answer": "prime minister",
+  "evidence": "June 22 – Following months of criticism and pressure, Keir Starmer resigned as prime minister of the United Kingdom. Starmer later resigned his membership as Member of Parliament to assume his role as member of the Chiltern Hundreds on September 1.",
+  "page": "2026 in politics",
+  "url": "https://en.wikipedia.org/wiki/2026_in_politics",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "FINAL: Unknown.",
+ "correct": false,
+ "cost": 0.00022799999999999904,
+ "messages": [
+  {
+   "role": "assistant",
+   "content": "Unknown.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

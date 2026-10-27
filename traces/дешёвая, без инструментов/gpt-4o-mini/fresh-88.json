@@ -1,0 +1,24 @@
+{
+ "task": {
+  "id": "fresh-88",
+  "source": "fresh",
+  "question": "What was the location of the boat capsizing in Japan in March 2026?",
+  "answer": "Henoko, Okinawa Prefecture",
+  "evidence": "March 16 – Two boats carrying high school students on a field trip capsize off Henoko, Okinawa Prefecture, killing two people.",
+  "page": "2026 in Japan",
+  "url": "https://en.wikipedia.org/wiki/2026_in_Japan",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "FINAL: Unknown.",
+ "correct": false,
+ "cost": 7.500000000000562e-06,
+ "messages": [
+  {
+   "role": "assistant",
+   "content": "Unknown.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

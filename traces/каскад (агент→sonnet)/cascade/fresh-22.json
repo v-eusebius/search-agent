@@ -10,11 +10,11 @@
   "sonnet_answer": "unknown",
   "agent_ok": true
  },
- "answer": "Unknown.",
- "correct": false,
- "cost": 0.0005383500000000208,
- "escalated": true,
- "confidence": 0.1,
+ "answer": "Clara and the Below",
+ "correct": true,
+ "cost": 0.00033090000000002284,
+ "escalated": false,
+ "confidence": 1.0,
  "agent_messages": [
   {
    "role": "system",
@@ -33,44 +33,22 @@
     {
      "type": "function",
      "index": 0,
-     "id": "call_RcfFihohO6rtgmSVnuk6Nfd3",
+     "id": "call_VeEWR6GYX31N4g336KnHP7LN",
      "function": {
-      "name": "web_search",
-      "arguments": "{\"query\":\"indie animated series created by Matt Braly funded March 17 2026\"}"
+      "name": "tavily_search",
+      "arguments": "{\"query\":\"Matt Braly indie animated series funded March 17 2026\"}"
      }
     }
    ]
   },
   {
    "role": "tool",
-   "tool_call_id": "call_RcfFihohO6rtgmSVnuk6Nfd3",
-   "content": "[Matt Braly] Matthew Benjakarn Braly (born November 8, 1988) is a Thai-American animator, storyboard artist, writer, and director. He is best known as the creator and executive producer of the Disney Channel animated series Amphibia. He also worked as a director on Gravity Falls and Big City Greens. | other articles: 2026 in animation, Rebecca Sugar"
+   "tool_call_id": "call_VeEWR6GYX31N4g336KnHP7LN",
+   "content": "[Matt Braly - Wikipedia](https://en.wikipedia.org/wiki/Matt_Braly) On February 11, 2026, Braly announced that he founded his own animation studio, Fantasy Project. Its first project would be Clara and the Below, a gothic horror adaptation of The Nutcracker, with a crowdfunding campaign on Kickstarter. On March 17, 2026, Braly launched a Kickstarter for the series, with a goal of funding a single episode which was 6-10 minutes for a cost of $25,000. After less than a week, it earned \"more than ten times\" that target amount, at over $231,000 by March 23, 2026. [.\n[Cartoon Base on X: \"‘Amphibia’ creator Matt Braly’s next animated project ‘CLARA AND THE BELOW’ has been funded in less than 15 minutes. The indie gothic horror pilot based on ‘The Nutcracker’ has already raised over $60K passing its goal of $25K.\" / X](https://x.com/TheCartoonBase/status/2033961732809338920) @Red1303345939 03/17/2026 So nice [...] ‘Amphibia’ creator Matt Braly’s next animated project ‘CLARA AND THE BELOW’ has been funded in less than 15 minutes. The indie gothic horror pilot based on ‘The Nutcracker’ has already raised over $60K passing its goal of $25K. 05:40:40 PM · 03/17/2026·56.3K Views 12 @TheCartoonBase Cartoon Base@TheCartoonBase [...] ‘Amphibia’ creator Matt Braly’s next animated project ‘CLARA AND THE BELOW’ has been funded in less than 15 minutes. The indie gothic horror p\n[Clara & the Below - episode 1](https://www.kickstarter.com/projects/1589314206/clara-and-the-below-episode-1) Image 144: Laptop showing 4k video Image 145 Image 146 +11 More DetailsPledge $5,000 ### Funding period Mar 17 2026 - Apr 16 2026 (30 days) ## Similar projects to check out See more 18 days left • 76% funded Image 153: Project video for Sunnyside: Royals of Cora (THE ANIMATED PILOT)[Video 5]( Image 154: user avatar A fantasy drama about four messy royal demigods desperate to prove they’re not terrible people by saving the world and passing midterms [...] Image 110: Laptop showing 4k video Image \n[Indie Animation Gets Another HUGE Win](https://www.youtube.com/watch?v=6RBpazb3twM) # Indie Animation Gets Another HUGE Win ## Channel: Vailskibum (verified) 1.29M subscribers 9K likes ### Description 130,378 views Posted: 2026-02-12 After Sony Pictures Animation cancelled Amphibia creator Matt Braly and Steven Universe creator Rebecca Sugar's animated movie, Matt decided to move on with something special. He just announced his new independent cartoon and animation studio. Let's support it all! KICKST"
   },
   {
    "role": "assistant",
-   "content": null,
-   "refusal": null,
-   "reasoning": null,
-   "tool_calls": [
-    {
-     "type": "function",
-     "index": 0,
-     "id": "call_vsR4hUjOGiLR9lmTi4ujiUkQ",
-     "function": {
-      "name": "page_find",
-      "arguments": "{\"title\":\"2026 in animation\",\"keywords\":\"indie animated series Matt Braly\"}"
-     }
-    }
-   ]
-  },
-  {
-   "role": "tool",
-   "tool_call_id": "call_vsR4hUjOGiLR9lmTi4ujiUkQ",
-   "content": "The teaser trailer for the indie animated series, Clara and the Below, created by Amphibia creator Matt Braly, was released on YouTube.\nMarch 17: The Kickstarter campaign for Amphibia creator Matt Braly's indie animated series Clara and the Below was fully funded within 15 minutes of launching."
-  },
-  {
-   "role": "assistant",
-   "content": "The indie animated series created by Matt Braly that was fully funded on March 17, 2026, is called \"Clara and the Below.\" FINAL: Clara and the Below",
+   "content": "The indie animated series created by Matt Braly that was fully funded on March 17, 2026, is called **Clara and the Below**. FINAL: Clara and the Below",
    "refusal": null,
    "reasoning": null
   }

@@ -10,7 +10,7 @@
  },
  "answer": "Smiljan Radić Clarke was announced as the winner of the Pritzker Architecture Prize on March 12, 2026. \n\nFINAL: Smiljan Radić Clarke",
  "correct": true,
- "cost": 0.00022409999999999097,
+ "cost": 0.0002257499999999968,
  "messages": [
   {
    "role": "system",
@@ -29,18 +29,18 @@
     {
      "type": "function",
      "index": 0,
-     "id": "call_UoKYlHTnt6XiyMl9xOxFBScn",
+     "id": "call_lMRWcO2Xxe08xxa63A83u4Bh",
      "function": {
       "name": "web_search",
-      "arguments": "{\"query\":\"Pritzker Architecture Prize winner announced March 12 2026\"}"
+      "arguments": "{\"query\":\"Pritzker Architecture Prize winner March 12 2026\"}"
      }
     }
    ]
   },
   {
    "role": "tool",
-   "tool_call_id": "call_UoKYlHTnt6XiyMl9xOxFBScn",
-   "content": "[Pritzker Architecture Prize] The Pritzker Architecture Prize is an international award presented annually \"to honor a living architect or architects whose built work demonstrates a combination of those qualities of talent, vision and commitment which has produced consistent and significant contributions to humanity and the built environment through the art of architecture\". Founded in 1979 by Jay A. Pritzker and his wife Cindy, the award is funded by the Pritzker family and sponsored by the Hyatt Foundation. It is considered to be one of the world's premier architecture prizes, and is often referred to as the Nobel Prize of architecture. | other articles: 2026 in architecture, 2026 in art"
+   "tool_call_id": "call_lMRWcO2Xxe08xxa63A83u4Bh",
+   "content": "[Pritzker Architecture Prize] The Pritzker Architecture Prize is an international award presented annually \"to honor a living architect or architects whose built work demonstrates a combination of those qualities of talent, vision and commitment which has produced consistent and significant contributions to humanity and the built environment through the art of architecture\". Founded in 1979 by Jay A. Pritzker and his wife Cindy, the award is funded by the Pritzker family and sponsored by the Hyatt Foundation. It is considered to be one of the world's premier architecture prizes, and is often referred to as the Nobel Prize of architecture. | other articles: 2026 in architecture, Smiljan Radić Clarke"
   },
   {
    "role": "assistant",
@@ -51,18 +51,18 @@
     {
      "type": "function",
      "index": 0,
-     "id": "call_URwv1pVGE8VhG2375g0WJEMQ",
+     "id": "call_mrvvrXzsVYw1tNFLhJ1d0unN",
      "function": {
       "name": "page_find",
-      "arguments": "{\"title\":\"2026 in architecture\",\"keywords\":\"Pritzker Architecture Prize winner March 12\"}"
+      "arguments": "{\"title\":\"2026 in architecture\",\"keywords\":\"Pritzker Architecture Prize winner March 12 2026\"}"
      }
     }
    ]
   },
   {
    "role": "tool",
-   "tool_call_id": "call_URwv1pVGE8VhG2375g0WJEMQ",
-   "content": "Pritzker Architecture Prize: Smiljan Radić Clarke"
+   "tool_call_id": "call_mrvvrXzsVYw1tNFLhJ1d0unN",
+   "content": "Pritzker Architecture Prize – Smiljan Radić Clarke"
   },
   {
    "role": "assistant",

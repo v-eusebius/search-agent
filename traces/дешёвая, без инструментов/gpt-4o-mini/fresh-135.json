@@ -2,15 +2,15 @@
  "task": {
   "id": "fresh-135",
   "source": "fresh",
-  "question": "Where was the 2026 Major League Baseball draft held in July 2026?",
-  "answer": "Philadelphia, Pennsylvania",
-  "evidence": "July 12–13: 2026 Major League Baseball draft in Philadelphia, Pennsylvania",
+  "question": "Who won the 2026 United Bowl on June 13, 2026?",
+  "answer": "Louisville Kings",
+  "evidence": "June 13: 2026 United Bowl in Washington, D.C. Louisville Kings defeated DC Defenders, 27–20",
   "page": "2026 in sports",
   "url": "https://en.wikipedia.org/wiki/2026_in_sports"
  },
  "answer": "FINAL: Unknown.",
  "correct": false,
- "cost": 7.499999999998827e-06,
+ "cost": 7.500000000000562e-06,
  "messages": [
   {
    "role": "assistant",

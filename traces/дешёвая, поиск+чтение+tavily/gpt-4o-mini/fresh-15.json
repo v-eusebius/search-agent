@@ -10,9 +10,9 @@
   "sonnet_answer": "unknown",
   "agent_ok": true
  },
- "answer": "On July 21, 2026, Ukrainian President Volodymyr Zelensky dismissed Oleksandr Syrsky from his position as Commander-in-Chief of the Armed Forces of Ukraine. He appointed Major General Mykhailo Drapaty as the new commander. This change followed public pressure stemming from the recent dismissal of the country's defense minister. \n\nFINAL: Oleksandr Syrsky was dismissed as Commander-in-Chief of the Armed Forces of Ukraine.",
- "correct": false,
- "cost": 0.00026324999999993715,
+ "answer": "On July 21, 2026, President Volodymyr Zelensky dismissed General Oleksandr Syrskyi as the Commander-in-Chief of the Armed Forces of Ukraine. He was replaced by General Mykhailo Drapatyi, who was previously the Commander of the Joint Forces. This change followed widespread protests related to recent political decisions in the country. \n\nFINAL: Oleksandr Syrskyi was dismissed.",
+ "correct": true,
+ "cost": 0.00026159999999997297,
  "messages": [
   {
    "role": "system",
@@ -31,7 +31,7 @@
     {
      "type": "function",
      "index": 0,
-     "id": "call_tHQA3y112wRhh1ntrkGctY8d",
+     "id": "call_QBBfvMTb8EfGtdQLdQre7aMB",
      "function": {
       "name": "tavily_search",
       "arguments": "{\"query\":\"Commander-in-Chief of the Armed Forces of Ukraine dismissed July 21 2026\"}"
@@ -41,12 +41,12 @@
   },
   {
    "role": "tool",
-   "tool_call_id": "call_tHQA3y112wRhh1ntrkGctY8d",
-   "content": "[Zelensky sacks Ukraine army chief Syrsky after protests over rival minister's dismissal - France 24](https://www.france24.com/en/europe/20260721-zelensky-fires-ukraine-army-chief-oleksandr-syrsky) Headings # Zelensky sacks Ukraine army chief Syrsky after protests over rival minister's dismissal President Volodymyr Zelensky on Tuesday dismissed Ukraine's military head Oleksandr Syrsky following days of public pressure and named Major ​General ‌Mykhailo ⁠Drapaty, an ally of ousted defence minister Mykhailo Fedorov, as the new commander-in-chief. Issued on: 21/07/2026 - 21:59Modified: 21/07/2026 - 23:08 [...] Ukrainian President Volodymyr Zelensky said Tuesday that he was dismissing Oleksand\n[President Volodymyr Zelensky dismissed Commander-in ...](https://www.facebook.com/kyivindependent/videos/president-volodymyr-zelensky-dismissed-commander-in-chief-oleksandr-syrskyi-on-j/1004004915732062) President Volodymyr Zelensky dismissed Commander-in-Chief Oleksandr Syrskyi on July 21, appointing Joint Forces Commander Mykhailo Drapatyi\n[Zelenskyy replaces Ukraine military chief after protests | Russia-Ukraine war News | Al Jazeera](https://www.aljazeera.com/news/2026/7/21/zelenskyy-replaces-ukraine-military-chief-after-protests) Ukrainian President Volodymyr Zelenskyy shakes hands with the new commander-in-chief of Ukraine's Armed Forces, Mykhailo Drapatyi, in Kyiv, Ukraine, on July 20, 2026 [Ukrainian Presidential Press Office via AP] By Al Jazeera Staff, AFP and AP Published On 21 Jul 202621 Jul 2026 | Updated: 22 Jul 2026 09:41 AM (GMT)Updated: 22 Jul 2026 09:41 AM (GMT) [...] Save Share In this photo provided by the Ukrainian Presidential Press Office, Ukrainian President Volodymyr Zelenskyy, center, shakes hands wi\n[6.6K views · 115 reactions | In Ukraine, President Volodymyr Zelenskyy fired the commander in chief of Ukraine's armed forces in what's the latest shakeup of his top military ranks.\n\nThe dismissal of Gen. Oleksandr Syrskyi came just days after Zelenskyy fired the country's defense minister, who was largely credited with implementing drone technology in Ukraine's war against Russia.\n\nThat firing sparked mass protests in Kyiv and across Ukraine. President Zelenskyy sought to ease tensions, saying all sides are working toward the same goal.\n\nEarlier Tuesday, officials in the southern city of Zaporizhzhia said a Russian-guided bomb attack killed at least three people and injured more than a dozen. | PBS NewsHour](https://www.facebook.com/newshour/vide"
+   "tool_call_id": "call_QBBfvMTb8EfGtdQLdQre7aMB",
+   "content": "[Zelensky dismisses Commander-in-Chief Syrskyi after widespread protests, appoints Drapatyi](https://kyivindependent.com/breaking-zelensky-dismisses-commander-in-chief-syrskyi-amid-widespread-protests) Chief of the General Staff of the Armed Forces of Ukraine Oleksandr Syrskyi takes part in an emergency meeting of the National Security and Defense Council on March 3, 2026 in Kyiv, Ukraine (Andriy Zhyhaylo/Oboz.ua/Global Images Ukraine via Getty Images) President Volodymyr Zelensky on July 21 dismissed the Commander-in-Chief of Ukraine's Armed Forces, Oleksandr Syrskyi, appointing Joint Forces Commander Mykhailo Drapatyi as his replacement. [...] Mykhailo FedorovOleksandr SyrskyiUkraineDefense \n[Change of commander-in-chief of the Armed Forces of Ukraine | OSW Centre for Eastern Studies](https://www.osw.waw.pl/en/publikacje/analyses/2026-07-22/change-commander-chief-armed-forces-ukraine) On 21 July, President Volodymyr Zelensky announced the dismissal of General Oleksandr Syrskyi as Commander-in-Chief of the Armed Forces of Ukraine (AFU) and the appointment of General Mykhailo Drapatyi, Commander of the Joint Forces, to replace him (see the profile in the Appendix). The reshuffle came against the backdrop of protests that began on 16 July in response to the removal of Mykhailo Fedorov as Minister of Defence, drawing crowds ranging from several thousand to over 10,000 people in [\n[Protests against the dismissal of Mykhailo Fedorov - Wikipedia](https://en.wikipedia.org/wiki/Protests_against_the_dismissal_of_Mykhailo_Fedorov) was appointed to replace Oleksandr Syrskyi. Late on 21 July 2026, Zelenskyy announced that Syrskyi had also been dismissed from his position as Commander-in-Chief, although without stating a reason for doing so. As replacement, Joint Forces Commander Mykhailo Drapatyi was appointed the new Commander-in-Chief. [...] 30. ↑ \"Oleksandr Syrsky, Ukraine's under-fire commander-in-chief\". France 24. 21 July 2026. Retrieved 2026-07-21. Ukraine's Soviet-trained top commander Oleksandr Syrsky – who could b\n[Zelensky forced to dismiss Oleksandr Syrsky, Ukraine's armed forces chief](https://www.lemonde.fr/en/international/article/2026/07/22/zelensky-forced-to-dismiss-oleksandr-syrsky-ukraine-s-armed-forces-chief_6755725_4.html) Date: Loading date... Time: Loading time... # Zelensky forced to dismiss Oleksandr Syrsky, Ukraine's armed forces chief By Ariane Chemin (Kyiv (Ukraine), special correspondent) 3 min read Subscribers only Volodymyr Zelensky gre"
   },
   {
    "role": "assistant",
-   "content": "On July 21, 2026, Ukrainian President Volodymyr Zelensky dismissed Oleksandr Syrsky from his position as Commander-in-Chief of the Armed Forces of Ukraine. He appointed Major General Mykhailo Drapaty as the new commander. This change followed public pressure stemming from the recent dismissal of the country's defense minister. \n\nFINAL: Oleksandr Syrsky was dismissed as Commander-in-Chief of the Armed Forces of Ukraine.",
+   "content": "On July 21, 2026, President Volodymyr Zelensky dismissed General Oleksandr Syrskyi as the Commander-in-Chief of the Armed Forces of Ukraine. He was replaced by General Mykhailo Drapatyi, who was previously the Commander of the Joint Forces. This change followed widespread protests related to recent political decisions in the country. \n\nFINAL: Oleksandr Syrskyi was dismissed.",
    "refusal": null,
    "reasoning": null
   }

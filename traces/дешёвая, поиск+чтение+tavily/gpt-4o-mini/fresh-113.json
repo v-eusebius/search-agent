@@ -1,0 +1,76 @@
+{
+ "task": {
+  "id": "fresh-113",
+  "source": "fresh",
+  "question": "How many job cuts did Statistics Canada announce on January 13, 2026?",
+  "answer": "850",
+  "evidence": "January 13 – Statistics Canada announces 850 job cuts, with over 100 to happen in the following days.",
+  "page": "2026 in Canada",
+  "url": "https://en.wikipedia.org/wiki/2026_in_Canada",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "Statistics Canada announced 850 job cuts on January 13, 2026, with over 100 of those cuts to occur in the following days. \n\nFINAL: 850 job cuts.",
+ "correct": true,
+ "cost": 0.0004150499999999724,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You answer questions about recent events (2025–2026). Never answer from memory: use web_search (and tavily_search if available) to find the right article, then page_find to look inside long articles such as '2026 in <country or field>' for the specific fact. Do not repeat the same call. When done, write the last line as FINAL: <short answer>."
+  },
+  {
+   "role": "user",
+   "content": "How many job cuts did Statistics Canada announce on January 13, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_wVutEA5F7cWKJQkRBNYFgt54",
+     "function": {
+      "name": "tavily_search",
+      "arguments": "{\"query\":\"Statistics Canada job cuts January 13 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_wVutEA5F7cWKJQkRBNYFgt54",
+   "content": "[Statistics Canada to cut 850 jobs in 2 years: memo](https://www.bnnbloomberg.ca/business/2026/01/13/statistics-canada-to-cut-850-jobs-over-next-2-years-100-this-week-memo) comscore # Statistics Canada to cut 850 jobs over next 2 years, 100 this week: memo Updated: January 13, 2026 at 3:16p.m. EST Published: January 12, 2026 at 5:05p.m. EST Statistics Canada says it plans to cut hundreds of positions over the next two years, including 100 immediate cuts this week. The federal agency confirmed it is entering into a workforce adjustment period this week, which will affect approximately 850 positions and 12 per cent of its executive team. [...] According to the Treasu\n[Statistics Canada is slashing hundreds of jobs, including executives | Globalnews.ca](https://globalnews.ca/news/11611088/statistics-canada-job-cuts) ## Comments Want to discuss? Please read our Commenting Policy first. ### Write a comment Video link Headline link Advertisement Canada # Statistics Canada is slashing hundreds of jobs, including executives By Ariel Rabinovitch Global News Posted January 13, 2026 1:20 pm 1 min read If you get Global News from Instagram or Facebook - that will be changing. Find out how you can still connect with us. [...] About 850 jobs are being cut at Statistics Canada, including members of the executive team, \n[The Daily — Labour Force Survey, January 2026](https://www150.statcan.gc.ca/n1/daily-quotidien/260206/dq260206a-eng.htm) The number of people working in manufacturing fell by 28,000 (-1.5%) in January, bringing employment down to levels last observed in August 2025. The decline in January was concentrated in Ontario. On a year-over-year basis, overall employment in manufacturing was down 51,000 (-2.7%). ## Chart 3 Chart 3: Employment change by industry, January 2026 Employment change by industry, January 2026 Chart 3: Employment change by industry, January 2026 [...] Certain Canadian industries face greater exposu\n[Workforce reductions in the federal public service - Canada.ca](https://www.canada.ca/en/government/publicservice/workforce/workforce-adjustment/workforce-reductions-federal-public-service.html) | Phase 2 (January 12-31, 2026) | | | | | | | | | Administrative Tribunals Support Service of Canada | 679 | 26 | 2 | 26 | 2 | 39 | 2 | | Agriculture and Agri-Food Canada | 5,690 | 649 | 16 | 500 | 7 | 1,036 | 7 | | Atlantic Canada Opportunities Agency | 579 | 65 | Table 1 note- | 41 | Table 1 note- | 82 | Table 1 note- | | Canada School of Public Servi"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_XhRAmRR6dxeLFfJ1PGsUOHAF",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"2026 in Canada\",\"keywords\":\"Statistics Canada job cuts January 13 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_XhRAmRR6dxeLFfJ1PGsUOHAF",
+   "content": "January 11 – Team Canada unveils the 2026 Olympic figure skating team.\nJanuary 13 – Statistics Canada announces 850 job cuts, with over 100 to happen in the following days.\nJanuary 29–31 – Conservative Party of Canada leader Pierre Poilievre undergoes a leadership review at the 2026 Conservative convention in Calgary to determine whether he has the support of party members to continue leading the party following its defeat in the 2025 Canadian federal election, earning 87.4% support from delegates."
+  },
+  {
+   "role": "assistant",
+   "content": "Statistics Canada announced 850 job cuts on January 13, 2026, with over 100 of those cuts to occur in the following days. \n\nFINAL: 850 job cuts.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

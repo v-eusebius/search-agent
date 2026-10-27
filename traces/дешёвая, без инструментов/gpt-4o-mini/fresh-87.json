@@ -1,0 +1,24 @@
+{
+ "task": {
+  "id": "fresh-87",
+  "source": "fresh",
+  "question": "Who is the President of Peru that was censured on January 9, 2026?",
+  "answer": "José Jerí",
+  "evidence": "February 17 – President of Peru José Jerí is censured by the Congress of Peru, removing him from office. He is succeeded by José María Balcázar.",
+  "page": "2026",
+  "url": "https://en.wikipedia.org/wiki/2026",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "FINAL: Unknown.",
+ "correct": false,
+ "cost": 7.80000000000225e-06,
+ "messages": [
+  {
+   "role": "assistant",
+   "content": "Unknown.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

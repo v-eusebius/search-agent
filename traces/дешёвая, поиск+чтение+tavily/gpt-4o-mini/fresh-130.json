@@ -8,9 +8,9 @@
   "page": "2026 in sports",
   "url": "https://en.wikipedia.org/wiki/2026_in_sports"
  },
- "answer": "Haeran Ryu won the 2026 Women's PGA Championship at Hazeltine National Golf Club, capturing her first major title by two strokes over Ina Yoon. FINAL: Haeran Ryu.",
+ "answer": "Haeran Ryu won the 2026 Women's PGA Championship at Hazeltine National Golf Club, finishing with a score of 13 under par. This victory marked her first major championship title, as she won by two strokes over Ina Yoon. \n\nFINAL: Haeran Ryu",
  "correct": false,
- "cost": 0.00047324999999998063,
+ "cost": 0.0008808000000000149,
  "messages": [
   {
    "role": "system",
@@ -29,9 +29,9 @@
     {
      "type": "function",
      "index": 0,
-     "id": "call_GjLnoSAkaFRj5f0szT7IkEBV",
+     "id": "call_lGGtm0WlBzJ0rg3aiJIEwfoe",
      "function": {
-      "name": "web_search",
+      "name": "tavily_search",
       "arguments": "{\"query\":\"2026 Women's PGA Championship winner Hazeltine National Golf Club\"}"
      }
     }
@@ -39,8 +39,8 @@
   },
   {
    "role": "tool",
-   "tool_call_id": "call_GjLnoSAkaFRj5f0szT7IkEBV",
-   "content": "[Hazeltine National Golf Club] Hazeltine National Golf Club ( HAY-zəl-teen) is a golf club in the north central United States, located in Chaska, Minnesota, a suburb southwest of Minneapolis. It is a private club and therefore closed to guests not accompanied by a member. The golf course was designed by Robert Trent Jones and opened in 1962. Hazeltine also hosts functions other than golf; its clubhouse has a ballroom and two restaurants. | other articles: Women's PGA Championship, 2026 Women's PGA Championship"
+   "tool_call_id": "call_lGGtm0WlBzJ0rg3aiJIEwfoe",
+   "content": "[KPMG Women's PGA Championship | Results | LPGA | Ladies Professional Golf Association](https://www.lpga.com/tournaments/kpmgwomenspgachampionship/results) SKIP TO MAIN CONTENT Login or Sign Up LPGA Home LPGA Home - Leaderboard - Shop Login or Sign Up 2026 Champion Haeran Ryu Score -13 Official Money $1,950,000 2026 Champion Haeran Ryu Score -13 Official Money $1,950,000 Tournament Details ## KPMG Women's PGA Championship June 25-28, 2026| Chaska, MN | Hazeltine National Golf Club Early AccessTournament Site OverviewResultsPast WinnersNews & Video ## Full Leaderboard POS ATHLETE TO PAR POINTS 1 -13 650.000 2 -11 [...] 650.000 2 -11 416.000 T3 -10 2\n[Hazeltine Announces 2026 KPMG Women's PGA ...](https://www.hazeltinenational.com/blog/hazeltine-announces-2026-kpmg-womens-pga-championship) Mar 5, 2026 — The PGA of America announced today that Hazeltine National Golf Club has been selected as the site of the 2026 KPMG Women's PGA\n[2026 KPMG Women's PGA Championship | KPMG Women's PGA Championship](https://www.kpmgwomenspgachampionship.com/tickets) June 25 - 28, 2026 Hazeltine National Golf Club - Chaska, MN free junior grounds tickets per adult can be collected on-site only. Junior tickets do not gain access to private hospitality. ## Military General Admission Active Duty, Retirees, Reserve, Veterans, and National Guard can receive free grounds access along with 1 guest for each day of the Championship. Qualifying individuals can show their Military ID at the on-site ticket office, and day-of tickets will be provided. [...] ## Plan Your \n[Spectator Guide | KPMG Women's PGA Championship](https://www.kpmgwomenspgachampionship.com/spectator-guide-2026) The PGA Championships App, for iOS and Android, is the official digital home of the 2026 KPMG Women’s PGA Championship. The app will provide a comprehensive Championship experience for all fans, whether they are at Hazeltine National or following the action around the world, and will be the primary way for fans to access and manage their Championship tickets. App features include: [...] ### Accessible Parking Designated accessible parking for those requiring accommodations will be available in L\n[I went to the KPMG Women's PGA Championship at ...](https://www.reddit.com/r/golf/comments/1uhjuyf/i_went_to_the_kpmg_womens_pga_championship_at) r/golf. • 4mo ago. Jeeno Thitikul at the 2026 KPMG Women's PGA Championship · r/golf - Jeeno Thitikul at the 2026 KPMG Women's PGA Championship.Read more"
   },
   {
    "role": "assistant",
@@ -51,44 +51,88 @@
     {
      "type": "function",
      "index": 0,
-     "id": "call_uOkaBLO3jlRLynZ4jahinUCL",
-     "function": {
-      "name": "tavily_search",
-      "arguments": "{\"query\":\"2026 Women's PGA Championship winner\"}"
-     }
-    }
-   ]
-  },
-  {
-   "role": "tool",
-   "tool_call_id": "call_uOkaBLO3jlRLynZ4jahinUCL",
-   "content": "[2026 Women's PGA Championship - Wikipedia](https://en.wikipedia.org/wiki/2026_Women%27s_PGA_Championship) | Place | Player | Score | To par | --- --- | | 1 | South Korea Ina Yoon | 63-69=132 | −12 | | T2 | Japan Nasa Hataoka | 73-64=137 | −7 | | Canada Brooke Henderson | 69-68=137 | | South Korea Kim A-lim | 67-70=137 | | South Korea Ryu Hae-ran | 73-64=137 | | T6 | United States Nelly Korda | 70-68=138 | −6 | | South Korea Lee Dong-eun \"Lee Dong-eun (golfer)\") | 69-69=138 | | T8 | Australia Karis Davidson | 65-74=139 | −5 | | Thailand Patty Tavatanakit | 71-68=139 | [...] The PGA Championship was t\n[KPMG Women's PGA Championship | Overview | LPGA | Ladies Professional Golf Association](https://www.lpga.com/tournaments/kpmgwomenspgachampionship/overview) I n 2026, Haeran Ryu captured her first career major title on Sunday at the KPMG Women's PGA Championship, winning by two shots over LPGA Tour sophomore Ina Yoon. This event began in 1955 and is one of the five majors on the LPGA Tour. [...] SKIP TO MAIN CONTENT Login or Sign Up LPGA Home Shop LPGA Home - Leaderboard - Shop Login or Sign Up 2026 Champion Haeran Ryu Score -13 Official Money $1,950,000 2026 Champion Haeran Ryu Score -13 Official Money $1,950,000 Tournament Details ## KPMG Women's \n[KPMG Women’s PGA Championship | Official Website | KPMG Women's PGA Championship](https://www.kpmgwomenspgachampionship.com) 5:02 Published Highlights from Championship Sunday at Hazeltine KPMG Women's PGA Championship 2026 - Final Round 2026 KPMG Women's PGA Champion HAERAN RYU KPMG Women's PGA Championship 2026 - Final Round Published Haeran Ryu wins the 2026 KPMG Women's PGA Championship Haeran Ryu 4th Shot on No. 18 Hole - 2026 Women's PGA Championship 4 0:18 Published Major Moment: Haeran Ryu Final Putt and Celebration KPMG Women's PGA Championship 2026 - Final Round 3:57 [...] June 24 - 27, 2027 Congressional Co\n[Haeran Ryu | Trophy Ceremony | 2026 KPMG Women's PGA Championship](https://www.youtube.com/watch?v=hfn4hMEqV6w) And now it is my honor on behalf of the PGA of America, KPMG, and the LPGA to present the trophy to our 2026 champion, Hey Youn Ryu. [applause] [applause] Well, Hey Youn, I'll let you you put that down. It's a pretty heavy trophy. We have Christina translate to here, but I don't think you're going to need it because your English is so good. Talk to me about today. You've had the lead going into a major championship final round a couple of times before. You weren't able to get it done. It "
-  },
-  {
-   "role": "assistant",
-   "content": null,
-   "refusal": null,
-   "reasoning": null,
-   "tool_calls": [
-    {
-     "type": "function",
-     "index": 0,
-     "id": "call_1jmx1I5RYAqI6v55yLri11gl",
+     "id": "call_5oc2mO7nNcoKNAY4DMBIOMdS",
      "function": {
       "name": "page_find",
-      "arguments": "{\"title\":\"2026 Women's PGA Championship\",\"keywords\":\"Haeran Ryu\"}"
+      "arguments": "{\"title\":\"2026 KPMG Women's PGA Championship\",\"keywords\":\"winner, Hazeltine National Golf Club\"}"
      }
     }
    ]
   },
   {
    "role": "tool",
-   "tool_call_id": "call_1jmx1I5RYAqI6v55yLri11gl",
-   "content": "Ryu Hae-ran won her first major championship by two strokes over Ina Yoon.\nIna Yoon widen her lead to five strokes by shooting a second round 69. Tied for second place were four golfers including Nasa Hataoka and Ryu Hae-ran who both shot 64, the low rounds of the day. Nelly Korda, seeking her third major win of the season, shot 68 to climb into a tie for sixth place.\nRyu Hae-ran shot a 68 (4-under-par) round to take a one-stroke lead over Brooke Henderson. Ina Yoon, leader for the first two days, shot a 75 (3-over-par) to drop to third place.\nRyu Hae-ran shot a 2-under-par 70 to claimed her first major championship by two stokes over Ina Yoon."
+   "tool_call_id": "call_5oc2mO7nNcoKNAY4DMBIOMdS",
+   "content": "no such page"
   },
   {
    "role": "assistant",
-   "content": "Haeran Ryu won the 2026 Women's PGA Championship at Hazeltine National Golf Club, capturing her first major title by two strokes over Ina Yoon. FINAL: Haeran Ryu.",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_uMgiuOiqSJ5rnHhAuA2OJBaq",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"2026 KPMG Women's PGA Championship winner\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_uMgiuOiqSJ5rnHhAuA2OJBaq",
+   "content": "[2026 Women's PGA Championship] The 2026 KPMG Women's PGA Championship is the 72nd Women's PGA Championship. It is being played June 25–28 at Hazeltine National Golf Club in Chaska, Minnesota. Hazeltine previously hosted the Women's PGA Championship in 2019, won by Hannah Green. It also hosted the U.S. Women's Open in 1966 and 1977. The PGA Championship was the third of five major championships on the LPGA Tour during the 2026 season. Ryu Hae-ran won her first major championship by two strokes over Ina Yoon. | other articles: Women's PGA Championship, Yin Ruoning"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_fHW9SEnN6tR6fJya4TLYtzKh",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"2026 KPMG Women's PGA Championship\",\"keywords\":\"Ryu Hae-ran, winner\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_fHW9SEnN6tR6fJya4TLYtzKh",
+   "content": "no such page"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_9Zfwr1w3JbhmP9a05bgPPdRh",
+     "function": {
+      "name": "tavily_search",
+      "arguments": "{\"query\":\"Ryu Hae-ran wins 2026 Women's PGA Championship\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_9Zfwr1w3JbhmP9a05bgPPdRh",
+   "content": "[Haeran Ryu wins the 2026 KPMG Women's PGA ...](https://www.kpmgwomenspgachampionship.com/news-media/haeran-ryu-wins-the-2026-kpmg-womens-pga-championship) Jun 28, 2026 — Haeran Ryu shot a final-round, 2-under-par 70 to win the 2026 KPMG Women's PGA Championship and her first Major Championship title.\n[Haeran Ryu Wins the KPMG Women's PGA Championship ...](https://www.lpga.com/news/2026/haeran-ryu-wins-the-kpmg-womens-pga-championship-for-her-first-major-title) Jun 28, 2026 — Haeran Ryu recovered from a rough start to secure her first career major title, winning the Women's PGA Championship by two strokes over Ina\n[Haeran Ryu WINS the KPMG Women's PGA ...](https://www.facebook.com/NBCSports/videos/haeran-ryu-wins-the-kpmg-womens-pga-championship-for-her-first-major-title-/1800299224666426) Jun 28, 2026·. Haeran Ryu WINS the KPMG Women's PGA Championship for her FIRST Major title!. Haeran Ryu WINS the KPMG Women's PGA ...Read more\n[Round 4 | 2026 KPMG Women's PGA Championship](https://www.youtube.com/watch?v=IhcgRjIQiTE) Watch Haeran Ryu's title winning hole at the 2026 KPMG Women's PGA Championship held at Hazeltine National Golf Club.\n[Ryu Completes Historic Comeback to Capture KPMG ...](https://www.hazeltinenational.com/blog/ryu-completes-historic-comeback-to-capture-kpmg-womens-pga-championship) Jun 29, 2026 — Ryu completed her stunning turnaround with a final-round 2-under 70, finishing at 13-under par to earn her first major championship and fourth ...Read more"
+  },
+  {
+   "role": "assistant",
+   "content": "Haeran Ryu won the 2026 Women's PGA Championship at Hazeltine National Golf Club, finishing with a score of 13 under par. This victory marked her first major championship title, as she won by two strokes over Ina Yoon. \n\nFINAL: Haeran Ryu",
    "refusal": null,
    "reasoning": null
   }

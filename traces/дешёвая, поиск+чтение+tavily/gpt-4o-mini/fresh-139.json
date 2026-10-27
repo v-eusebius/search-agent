@@ -10,7 +10,7 @@
  },
  "answer": "Michelangelo's preparatory sketch of a foot for The Libyan Sibyl sold for $27.2 million at Christie's on February 5, 2026. \n\nFINAL: $27.2 million",
  "correct": true,
- "cost": 0.000256800000000057,
+ "cost": 0.00024449999999998084,
  "messages": [
   {
    "role": "system",
@@ -29,18 +29,18 @@
     {
      "type": "function",
      "index": 0,
-     "id": "call_hMebVDsOy50oHqBVOcGhqAGJ",
+     "id": "call_qi7RDX4OlJls0BclZno0sGLE",
      "function": {
       "name": "tavily_search",
-      "arguments": "{\"query\":\"Michelangelo preparatory sketch foot Libyan Sibyl Christie’s February 5 2026 sale\"}"
+      "arguments": "{\"query\":\"Michelangelo preparatory sketch foot The Libyan Sibyl sale price Christie’s February 5, 2026\"}"
      }
     }
    ]
   },
   {
    "role": "tool",
-   "tool_call_id": "call_hMebVDsOy50oHqBVOcGhqAGJ",
-   "content": "[Michelangelo study for the Sistine Chapel sells for $27.2M | Christie’s](https://www.christies.com/en/stories/michelangelo-sistine-chapel-drawing-discovery-309182ff3ac24a498fe7ae60c2cb790d) A framed sepia sketch depicts a human foot, displayed against a dark fabric background. Study for the right foot of The Libyan Sibyl on the Sistine Chapel ceiling, about 1511-12. Michelangelo Buonarroti (Caprese 1475-1564 Rome). Red chalk on paper. Inscribed ‘Michelangelo Buona Roti’. 5.1/4 x 4.5/8 in. (13.5 x 11.5 cm). Sold for $27,200,000 in Old Master and British Drawings on 5 February 2026 at Christie’s in New York [...] Study for the right foot of The Libyan Sibyl on the Sistine Chapel ceil\n[Experts Say This Small Drawing of a Foot May Be a Long-Lost Study for Michelangelo's Sistine Chapel Ceiling](https://www.smithsonianmag.com/smart-news/experts-say-this-small-drawing-of-a-foot-may-be-a-long-lost-study-for-michelangelos-sistine-chapel-ceiling-180987761) Share EmailSMSFacebookXRedditLinkedInBlueskyPrint Add as preferred source Christie’s/ The drawing will be auctioned off on February 5, 2026. Christie’s [...] The foot study is one of only ten known privately owned Michelangelo drawings, according to Christie’s. On February 5, 2026, it will become the first unrecorded study for the Sistine ceiling to hit the auction block. Quick fact: What’s the most expensive Michelangelo drawing? An early pen and ink drawing of a male nude broke auction records\n[MICHELANGELO BUONARROTI (CAPRESE 1475-1564 ROME), Study for a foot of the Libyan Sibyl (recto); Study of a leg with knee bent (verso) | Christie's](https://www.christies.com/en/lot/lot-6571681) MICHELANGELO BUONARROTI (CAPRESE 1475-1564 ROME) .jpg?w=1) MICHELANGELO BUONARROTI (CAPRESE 1475-1564 ROME) .jpg?w=1) MICHELANGELO BUONARROTI (CAPRESE 1475-1564 ROME) .jpg?w=1) # Study for a foot of the Libyan Sibyl (recto); Study of a leg with knee bent (verso) ## Brought to you by Giada Damen, Ph.D. ## Lot Essay ## More from Old Master and British Drawings\n[Michelangelo](https://en.wikipedia.org/wiki/Michelangelo) Angel by Michelangelo, early work (1494–95)\") Angel \"Angel (Michelangelo)\") by Michelangelo, early work (1494–95) Bacchus by Michelangelo, early work (1496–1497)\") Bacchus \"Bacchus (Michelangelo)\") by Michelangelo, early work (1496–1497) Dying Slave, Louvre (1513)\") Dying Slave, Louvre (1513) Atlas Slave (1530–1534)\") Atlas Slave (1530–1534) ### Sistine Chapel ceiling Main article: Sistine Chapel ceiling \") The Libyan "
+   "tool_call_id": "call_qi7RDX4OlJls0BclZno0sGLE",
+   "content": "[Michelangelo Drawing Sells for Record-Breaking $27.2 Million](https://mymodernmet.com/michelangelo-drawing-auction) A rare red chalk drawing by Renaissance master Michelangelo has set a new auction record, selling for $27.2 million at Christie’s in New York on February 5, 2026. The small but significant work is a preparatory sketch for the right foot of the Libyan Sibyl, one of the monumental figures painted on the ceiling of the Sistine Chapel. [...] ## A rare Michelangelo preparatory drawing of the Libyan Sibyl’s right foot from the Sistine Chapel ceiling sold for $27.2 million at Christie’s New York, break\n[Michelangelo study for the Sistine Chapel sells for $27.2M | Christie’s](https://www.christies.com/en/stories/michelangelo-sistine-chapel-drawing-discovery-309182ff3ac24a498fe7ae60c2cb790d) Open link Study for the right foot of The Libyan Sibyl on the Sistine Chapel ceiling, about 1511-12. Michelangelo Buonarroti (Caprese 1475-1564 Rome). Red chalk on paper. Inscribed ‘Michelangelo Buona Roti’. 5.1/4 x 4.5/8 in. (13.5 x 11.5 cm). Sold for $27,200,000 in Old Master and British Drawings on 5 February 2026 at Christie’s in New York [...] Open link Study for the right foot of The Libyan Sibyl on the Sistine Chapel ceiling, about 1511-12. Michelangelo Buonarroti (Caprese 1475-1564 Rome)\n[Instagram](https://www.instagram.com/reel/DUnNlg3jkIR) @mcwhorterfamilytrust @christiesinc A newly identified drawing by #Michelangelo a preparatory study for the right foot of the Libyan Sibyl from the #SistineChapel ceiling has set a new #auction milestone at Christie’s in #NewYork, selling for $27.2 million, far exceeding its original estimate and establishing a record for the artist’s work at auction. This sheet, one of only a handful of Michelangelo’s preparatory drawings still in private hands, illuminates the disciplined hand and creative\n[Christie’s Specialist Discovers an Unknown Drawing by Michelangelo for The Sistine ChapelExtremely Rare Work to be Exhibited and Auctioned at Christie’s New York in 2026](https://press.christies.com/christies-specialist-discovers-an-unknown-drawing-by-michelangelo-for-the-sistine-chapelextremely-rare-work-to-be-exhibited-and-auctioned-at-christies-new-york-in-2026) See all contacts Download PDF - 1.49 MB View PDF # Christie's Specialist Discovers an Unknown Drawing by Michelangelo for The Sistine Chapel Extremely Rare Work to be Exhibited and Auctioned at Christie's New York in 2026 Christie's Specialist Giada Damen makes histor"
   },
   {
    "role": "assistant",

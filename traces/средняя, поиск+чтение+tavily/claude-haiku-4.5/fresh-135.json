@@ -1,0 +1,66 @@
+{
+ "task": {
+  "id": "fresh-135",
+  "source": "fresh",
+  "question": "Who won the 2026 United Bowl on June 13, 2026?",
+  "answer": "Louisville Kings",
+  "evidence": "June 13: 2026 United Bowl in Washington, D.C. Louisville Kings defeated DC Defenders, 27–20",
+  "page": "2026 in sports",
+  "url": "https://en.wikipedia.org/wiki/2026_in_sports"
+ },
+ "answer": "FINAL: The Louisville Kings won the 2026 United Bowl on June 13, 2026, defeating the DC Defenders 27–20 at Audi Field in Washington, D.C. This was the Kings' first United Bowl title.",
+ "correct": true,
+ "cost": 0.00463900000000006,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You answer questions about recent events (2025–2026). Never answer from memory: use web_search (and tavily_search if available) to find the right article, then page_find to look inside long articles such as '2026 in <country or field>' for the specific fact. Do not repeat the same call. When done, write the last line as FINAL: <short answer>."
+  },
+  {
+   "role": "user",
+   "content": "Who won the 2026 United Bowl on June 13, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "I'll search for information about the 2026 United Bowl on June 13, 2026.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_012wAKVVV4NdnamDyBMo7KPz",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\": \"2026 United Bowl June 13\"}"
+     }
+    },
+    {
+     "type": "function",
+     "index": 1,
+     "id": "toolu_bdrk_013X3G1vghJ6efEaK5aPXrLB",
+     "function": {
+      "name": "tavily_search",
+      "arguments": "{\"query\": \"2026 United Bowl June 13 winner\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_012wAKVVV4NdnamDyBMo7KPz",
+   "content": "[2026 United Bowl] The 2026 United Bowl was the third championship of the United Football League, and it was the first to be played under the United Bowl name. The game was played on June 13, 2026, at Audi Field in Washington, D.C.. The contest determined the champion of the 2026 UFL season and was played between the Louisville Kings and the DC Defenders. The game began at 3:00 p.m. EDT and aired on ABC. The Kings won 27–20, earning their first United Bowl title. | other articles: Super Bowl LXI, Super Bowl LX"
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_013X3G1vghJ6efEaK5aPXrLB",
+   "content": "[2026 United Bowl](https://en.wikipedia.org/wiki/2026_United_Bowl) The game was played on June 13, 2026, [1] The Kings won 27–20, earning their first United Bowl title.\n[2026 United Bowl: How To Watch, What To Know, Biggest ...](https://www.foxsports.com/stories/ufl/2026-united-bowl-how-watch-what-know-biggest-storylines) United Bowl (June 13). DC Defenders (6-5) vs. Louisville Kings (7-4) ... The Kings' playoff win over the Battlehawks marked their fifth straight\n[Celebrate Louisville's first United Bowl title with the Kings!](https://www.facebook.com/loumetrotv/videos/celebrate-louisvilles-first-united-bowl-title-with-the-kings/1077455998554041) The Louisville Kings win the 2026 United Bowl, securing the UFL championship in the league's third season. the Kings defeated the DC Defenders\n[Defenders vs Kings (Championship) | Jun 13, 2026 | FULL GAME](https://www.youtube.com/watch?v=FefryaAMnz0) DC Defenders vs Louisville Kings (Championship) | Jun 13, 2026 … 2026 United Bowl Louisville Kings vs St. Louis Battlehawks (Semifinals)\n[2026 United Bowl](https://www.theufl.com/2026-united-bowl) June 13 Final DC Defenders20 at Louisville Kings27 Audi Field,Washington, DC Recap Box Score"
+  },
+  {
+   "role": "assistant",
+   "content": "FINAL: The Louisville Kings won the 2026 United Bowl on June 13, 2026, defeating the DC Defenders 27–20 at Audi Field in Washington, D.C. This was the Kings' first United Bowl title.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

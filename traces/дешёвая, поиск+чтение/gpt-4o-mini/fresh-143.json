@@ -10,7 +10,7 @@
  },
  "answer": "Vincent Keymer won the GCT Super Chess Classic Romania on May 23, 2026, with a score of 6/9. FINAL: Vincent Keymer.",
  "correct": true,
- "cost": 0.00023670000000000635,
+ "cost": 0.0008079000000000003,
  "messages": [
   {
    "role": "system",
@@ -29,7 +29,7 @@
     {
      "type": "function",
      "index": 0,
-     "id": "call_u53eZK47rbeU22e8lJR1nJvw",
+     "id": "call_uxJnqpW1Fd1LCzmZIEoNDgiO",
      "function": {
       "name": "web_search",
       "arguments": "{\"query\":\"GCT Super Chess Classic Romania May 23 2026 winner\"}"
@@ -39,8 +39,8 @@
   },
   {
    "role": "tool",
-   "tool_call_id": "call_u53eZK47rbeU22e8lJR1nJvw",
-   "content": "[2026 in chess] Major chess events in 2026 include the annual Tata Steel Chess Tournament, Prague Chess Festival, Norway Chess and Grand Chess Tour. The Candidates Tournament and the Women's Candidates Tournament were held at Paphos, Cyprus to determine the challengers for the reigning world champions Gukesh Dommaraju and Ju Wenjun. The winners, Javokhir Sindarov and Vaishali Rameshbabu, advanced to the World Chess Championship 2026 and the Women's World Chess Championship 2027 respectively. The 46th Chess Olympiad featuring open and women's sections will be held in September at Samarkand, Uzbekistan. The pilot version of Total Chess World Championship Tour will kick off in November at Budapest, Hungary. | other articles: Grand Chess Tour 2026, Super Chess Classic"
+   "tool_call_id": "call_uxJnqpW1Fd1LCzmZIEoNDgiO",
+   "content": "[Grand Chess Tour 2026] The Grand Chess Tour 2026 was a series of chess tournaments, which was the eleventh edition of the Grand Chess Tour. It consisted of six tournaments with a total prize pool of US$2 million, including two tournaments with classical time control and three tournaments with faster time controls, as well as the GCT Finals in St. Louis. | other articles: 2026 in chess, Super Chess Classic"
   },
   {
    "role": "assistant",
@@ -51,17 +51,105 @@
     {
      "type": "function",
      "index": 0,
-     "id": "call_OtYEi3OvYCwgY9dI0bKrMRVn",
+     "id": "call_gZoT5qaT2WeLRWsBYglcvP3g",
      "function": {
       "name": "page_find",
-      "arguments": "{\"title\":\"2026 in chess\",\"keywords\":\"GCT Super Chess Classic Romania winner\"}"
+      "arguments": "{\"title\":\"Grand Chess Tour 2026\",\"keywords\":\"GCT Super Chess Classic Romania winner May 23 2026\"}"
      }
     }
    ]
   },
   {
    "role": "tool",
-   "tool_call_id": "call_OtYEi3OvYCwgY9dI0bKrMRVn",
+   "tool_call_id": "call_gZoT5qaT2WeLRWsBYglcvP3g",
+   "content": "The Grand Chess Tour 2026 was a series of chess tournaments, which was the eleventh edition of the Grand Chess Tour. It consisted of six tournaments with a total prize pool of US$2 million, including two tournaments with classical time control and three tournaments with faster time controls, as well as the GCT Finals in St. Louis.\n=== Super Chess Classic Romania ===\nThe second leg of the 2026 Grand Chess Tour was held in Bucharest, Romania from May 14–23."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_sc2hQF0j5AtBeBwjzI9mJ48n",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"Grand Chess Tour 2026\",\"keywords\":\"May 23 2026 GCT Super Chess Classic Romania results\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_sc2hQF0j5AtBeBwjzI9mJ48n",
+   "content": "The Grand Chess Tour 2026 was a series of chess tournaments, which was the eleventh edition of the Grand Chess Tour. It consisted of six tournaments with a total prize pool of US$2 million, including two tournaments with classical time control and three tournaments with faster time controls, as well as the GCT Finals in St. Louis.\n=== Super Chess Classic Romania ===\nThe second leg of the 2026 Grand Chess Tour was held in Bucharest, Romania from May 14–23."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_pI1m3Az7Zo5eYt62Y5hPuaDI",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"Grand Chess Tour 2026\",\"keywords\":\"winner GCT Super Chess Classic Romania May 23 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_pI1m3Az7Zo5eYt62Y5hPuaDI",
+   "content": "The Grand Chess Tour 2026 was a series of chess tournaments, which was the eleventh edition of the Grand Chess Tour. It consisted of six tournaments with a total prize pool of US$2 million, including two tournaments with classical time control and three tournaments with faster time controls, as well as the GCT Finals in St. Louis.\n=== Super Chess Classic Romania ===\nThe second leg of the 2026 Grand Chess Tour was held in Bucharest, Romania from May 14–23."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_JWhvTsc8n6MyWXFQ0PAJp4XR",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"GCT Super Chess Classic Romania May 2026 results\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_JWhvTsc8n6MyWXFQ0PAJp4XR",
+   "content": "[Grand Chess Tour 2026] The Grand Chess Tour 2026 was a series of chess tournaments, which was the eleventh edition of the Grand Chess Tour. It consisted of six tournaments with a total prize pool of US$2 million, including two tournaments with classical time control and three tournaments with faster time controls, as well as the GCT Finals in St. Louis. | other articles: 2026 in chess, Super Chess Classic"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_azX9we0T5Ddwx1L2icBNBEST",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"2026 in chess\",\"keywords\":\"GCT Super Chess Classic Romania results\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_azX9we0T5Ddwx1L2icBNBEST",
    "content": "May 23 – Vincent Keymer won the GCT Super Chess Classic Romania with a score of 6/9. Fabiano Caruana finished second with 5½/9, while Javokhir Sindarov and Wesley So tied for third place with 5/9."
   },
   {

@@ -8,9 +8,9 @@
   "page": "2026 in art",
   "url": "https://en.wikipedia.org/wiki/2026_in_art"
  },
- "answer": "On March 12, 2026, the winner of the Pritzker Architecture Prize was announced as Smiljan Radić Clarke, a Chilean architect of Croatian descent. The jury praised his \"unorthodox approach to design.\" \n\nFINAL: Smiljan Radić Clarke.",
+ "answer": "On March 12, 2026, the Pritzker Architecture Prize was awarded to the Chilean architect Smiljan Radić Clarke. The jury recognized his innovative and unorthodox approach to design, distinguishing his work for its freshness and originality. FINAL: Smiljan Radić Clarke.",
  "correct": true,
- "cost": 0.00023834999999994277,
+ "cost": 0.0002392500000001352,
  "messages": [
   {
    "role": "system",
@@ -29,7 +29,7 @@
     {
      "type": "function",
      "index": 0,
-     "id": "call_9f9h3jTJjyUECxfflz4NtHmB",
+     "id": "call_cV7nXfhS6QGAqyH98lOivYrl",
      "function": {
       "name": "tavily_search",
       "arguments": "{\"query\":\"Pritzker Architecture Prize winner March 12 2026\"}"
@@ -39,12 +39,12 @@
   },
   {
    "role": "tool",
-   "tool_call_id": "call_9f9h3jTJjyUECxfflz4NtHmB",
-   "content": "[ArchDaily | Broadcasting Architecture Worldwide](https://www.archdaily.com/tag/pritzker-prize) On March 12, the Chilean architect of Croatian descent, Smiljan Radić Clarke, was awarded the 2026 Pritzker Architecture Prize. The jury highlighted his \"unorthodox approach to design,\" which \"may initially appear unusual, unexpected, even rebellious; yet, far from producing alienation or estrangement, his anti-canonical stance feels fresh and unprecedented. It conveys the unmistakable sensation of encountering something new.\" This recognition will be celebrated with the annual Pritzker [...] Ch\n[Smiljan Radić Clarke awarded the 2026 Pritzker Prize | News | Archinect](https://archinect.com/news/article/150530220/smiljan-radi-clarke-awarded-the-2026-pritzker-prize) Archinect anchor # Smiljan Radić Clarke awarded the 2026 Pritzker Prize Niall Patrick Walsh By Niall Patrick Walsh Mar 12, '26 10:16 AM EST 2 Follow Smiljan Radić Clarke, photo courtesy of The Pritzker Architecture Prize Smiljan Radić Clarke, photo courtesy of The Pritzker Architecture Prize Chilean architect Smiljan Radić Clarke has been awarded the 2026 Pritzker Architecture Prize. [...] Last month, the Pritzker Prize said that the announcement of the winner for the 2026 edition would be delay\n[2026 Pritzker Prize goes to Chilean architect Smiljan Radić Clarke : NPR](https://www.npr.org/2026/03/12/nx-s1-5743590/smiljan-radic-clarke-pritzker-prize-architect) Pritzker Prize-winning architect Smiljan Radić Clarke Tom Welsh for The Pritzker Architecture Prize hide caption toggle caption Tom Welsh for The Pritzker Architecture Prize [...] The prize bestows $100,000 on the winner, as well as a bronze medallion. \"This sad moment in history is not the best circumstance in which to receive an award,\" Radić told NPR in an email. He was responding to a question about the importance of architecture during a moment when so many important buildings are being des\n[The Pritzker Architecture Prize](https://www.pritzkerprize.com) The Pritzker Architecture Prize English 简体中文 # # # Congratulations to Smiljan Radić Clarke, 2026 Laureate of the Pritzker Architecture Prize. Click here to view the announcement and Jury Citation, videos, selected works, and more. Photo courtesy of Cristobal Palma. 2026 Laureate Announcement 2026 Laureate Announcement ## Smiljan Radić Clarke 2026 Laureate Smiljan Radić Clarke ## Liu Jiakun 2025 Laureate Liu Jiakun ## Riken Yamamoto 2024 Laureate Riken Yamamoto\n[Smiljan Radić Clarke | The Prit"
+   "tool_call_id": "call_cV7nXfhS6QGAqyH98lOivYrl",
+   "content": "[ArchDaily | Broadcasting Architecture Worldwide](https://www.archdaily.com/tag/pritzker-prize) On March 12, the Chilean architect of Croatian descent, Smiljan Radić Clarke, was awarded the 2026 Pritzker Architecture Prize. The jury highlighted his \"unorthodox approach to design,\" which \"may initially appear unusual, unexpected, even rebellious; yet, far from producing alienation or estrangement, his anti-canonical stance feels fresh and unprecedented. It conveys the unmistakable sensation of encountering something new.\" This recognition will be celebrated with the annual Pritzker [...] Ch\n[Smiljan Radić Wins the 2026 Pritzker Prize | Architectural Record](https://www.architecturalrecord.com/articles/18073-smiljan-radi-wins-the-2026-pritzker-prize) Architecture News ### Newsmaker # Smiljan Radić Wins the 2026 Pritzker Prize By Josephine Minutillo smiljan radic Photo courtesy Tom Welsh for the Pritzker Architecture Prize 2026 Pritzker Architecture Prize laureate Smiljan Radić Clarke of Chile. March 12, 2026 ✕ Image in modal. [...] Smiljan Radić Clarke is the 2026 laureate of the Pritzker Architecture Prize. A statement from the jury reads, “Through a body of work positioned at the crossroads of uncertainty, material experimentation, and cul\n[Smiljan Radić is awarded 2026 Pritzker Architecture Prize](https://www.archpaper.com/2026/03/smiljan-radic-2026-pritzker-architecture-prize) SHARE The Pritzker Architecture Prize named Chilean architect Smiljan Radić Clarke as the 2026 Laureate of the Pritzker Architecture Prize. He is the 55th Laureate of the Pritzker Architecture Prize. The announcement of the annual architecture prize was delayed this year due to ties between Tom Pritzker and Jeffrey Epstein. [...] Members of the 2026 Pritzker Prize jury were Alejandro Aravena, a fellow Chilean architect and 2016 Pritzker Prize recipient; Barry Bergdoll; Deborah Berke; Stephen Bre\n[2026 Pritzker Prize goes to Chilean architect Smiljan Radić Clarke : NPR](https://www.npr.org/2026/03/12/nx-s1-5743590/smiljan-radic-clarke-pritzker-prize-architect) The prize bestows $100,000 on the winner, as well as a bronze medallion. \"This sad moment in history is not the best circumstance in which to receive an award,\" Radić told NPR in an email. He was responding to a question about the importance of architecture during a moment when so many important buildings are being destroyed around the world in conflicts and wars. [...] Smiljan Radić Clarke was named the newest Pritzker Prize-"
   },
   {
    "role": "assistant",
-   "content": "On March 12, 2026, the winner of the Pritzker Architecture Prize was announced as Smiljan Radić Clarke, a Chilean architect of Croatian descent. The jury praised his \"unorthodox approach to design.\" \n\nFINAL: Smiljan Radić Clarke.",
+   "content": "On March 12, 2026, the Pritzker Architecture Prize was awarded to the Chilean architect Smiljan Radić Clarke. The jury recognized his innovative and unorthodox approach to design, distinguishing his work for its freshness and originality. FINAL: Smiljan Radić Clarke.",
    "refusal": null,
    "reasoning": null
   }

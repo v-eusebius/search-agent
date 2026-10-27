@@ -8,11 +8,11 @@
   "page": "2026 in sports",
   "url": "https://en.wikipedia.org/wiki/2026_in_sports"
  },
- "answer": "Unknown.",
+ "answer": "Haeran Ryu",
  "correct": false,
- "cost": 0.0009935999999999279,
- "escalated": true,
- "confidence": 0.0,
+ "cost": 0.0007910999999998225,
+ "escalated": false,
+ "confidence": 1.0,
  "agent_messages": [
   {
    "role": "system",
@@ -31,18 +31,18 @@
     {
      "type": "function",
      "index": 0,
-     "id": "call_Z5bvfzVhrxBLGe53Rxa2NIj6",
+     "id": "call_6wKDO2LhvhYtXHBhRe4tQM2H",
      "function": {
-      "name": "web_search",
-      "arguments": "{\"query\":\"2026 Women's PGA Championship Hazeltine National Golf Club winner\"}"
+      "name": "tavily_search",
+      "arguments": "{\"query\":\"2026 Women's PGA Championship winner Hazeltine National Golf Club\"}"
      }
     }
    ]
   },
   {
    "role": "tool",
-   "tool_call_id": "call_Z5bvfzVhrxBLGe53Rxa2NIj6",
-   "content": "[Hazeltine National Golf Club] Hazeltine National Golf Club ( HAY-zəl-teen) is a golf club in the north central United States, located in Chaska, Minnesota, a suburb southwest of Minneapolis. It is a private club and therefore closed to guests not accompanied by a member. The golf course was designed by Robert Trent Jones and opened in 1962. Hazeltine also hosts functions other than golf; its clubhouse has a ballroom and two restaurants. | other articles: Women's PGA Championship, 2026 Women's PGA Championship"
+   "tool_call_id": "call_6wKDO2LhvhYtXHBhRe4tQM2H",
+   "content": "[KPMG Women's PGA Championship | Results | LPGA | Ladies Professional Golf Association](https://www.lpga.com/tournaments/kpmgwomenspgachampionship/results) SKIP TO MAIN CONTENT Login or Sign Up LPGA Home LPGA Home - Leaderboard - Shop Login or Sign Up 2026 Champion Haeran Ryu Score -13 Official Money $1,950,000 2026 Champion Haeran Ryu Score -13 Official Money $1,950,000 Tournament Details ## KPMG Women's PGA Championship June 25-28, 2026| Chaska, MN | Hazeltine National Golf Club Early AccessTournament Site OverviewResultsPast WinnersNews & Video ## Full Leaderboard POS ATHLETE TO PAR POINTS 1 -13 650.000 2 -11 [...] 650.000 2 -11 416.000 T3 -10 2\n[Hazeltine Announces 2026 KPMG Women's PGA ...](https://www.hazeltinenational.com/blog/hazeltine-announces-2026-kpmg-womens-pga-championship) Mar 5, 2026 — The PGA of America announced today that Hazeltine National Golf Club has been selected as the site of the 2026 KPMG Women's PGA\n[2026 KPMG Women's PGA Championship | KPMG Women's PGA Championship](https://www.kpmgwomenspgachampionship.com/tickets) June 25 - 28, 2026 Hazeltine National Golf Club - Chaska, MN free junior grounds tickets per adult can be collected on-site only. Junior tickets do not gain access to private hospitality. ## Military General Admission Active Duty, Retirees, Reserve, Veterans, and National Guard can receive free grounds access along with 1 guest for each day of the Championship. Qualifying individuals can show their Military ID at the on-site ticket office, and day-of tickets will be provided. [...] ## Plan Your \n[Spectator Guide | KPMG Women's PGA Championship](https://www.kpmgwomenspgachampionship.com/spectator-guide-2026) The PGA Championships App, for iOS and Android, is the official digital home of the 2026 KPMG Women’s PGA Championship. The app will provide a comprehensive Championship experience for all fans, whether they are at Hazeltine National or following the action around the world, and will be the primary way for fans to access and manage their Championship tickets. App features include: [...] ### Accessible Parking Designated accessible parking for those requiring accommodations will be available in L\n[I went to the KPMG Women's PGA Championship at ...](https://www.reddit.com/r/golf/comments/1uhjuyf/i_went_to_the_kpmg_womens_pga_championship_at) r/golf. • 4mo ago. Jeeno Thitikul at the 2026 KPMG Women's PGA Championship · r/golf - Jeeno Thitikul at the 2026 KPMG Women's PGA Championship.Read more"
   },
   {
    "role": "assistant",
@@ -53,18 +53,18 @@
     {
      "type": "function",
      "index": 0,
-     "id": "call_wGArcOBSLRclDp69xNHtLoLV",
+     "id": "call_XXlhe6odV5GTz8KXNTMPxgR9",
      "function": {
-      "name": "web_search",
-      "arguments": "{\"query\":\"2026 Women's PGA Championship winner\"}"
+      "name": "page_find",
+      "arguments": "{\"title\":\"KPMG Women's PGA Championship\",\"keywords\":\"2026 winner, Hazeltine National Golf Club\"}"
      }
     }
    ]
   },
   {
    "role": "tool",
-   "tool_call_id": "call_wGArcOBSLRclDp69xNHtLoLV",
-   "content": "[2026 PGA Championship] The 2026 PGA Championship was the 108th edition of the PGA Championship, the second of the four men's major golf championships held in 2026. The tournament took place on May 14–17 at Aronimink Golf Club in Newtown Square, Pennsylvania, a suburb west of Philadelphia. Aaron Rai won the golf tournament and his first career major championship, winning by three strokes over runners-up Jon Rahm and Alex Smalley. Rai became the second player of Indian heritage to win a men's major championship, after Vijay Singh, and the first from England to win the PGA Championship since Jim Barnes, who won the first two editions in 1916 and 1919. Rai became only the eighth player to win a major with a lower score in each round. | other articles: 2026 Women's PGA Championship, 2026 U.S. Women's Open"
+   "tool_call_id": "call_XXlhe6odV5GTz8KXNTMPxgR9",
+   "content": "keywords not found on the page"
   },
   {
    "role": "assistant",
@@ -75,18 +75,18 @@
     {
      "type": "function",
      "index": 0,
-     "id": "call_Hd46vwkc5Xs8lOvktcBEcbsV",
+     "id": "call_g1UKD3NDmIkiBzCBNtEIaUxd",
      "function": {
-      "name": "web_search",
-      "arguments": "{\"query\":\"2026 Women's PGA Championship results\"}"
+      "name": "page_find",
+      "arguments": "{\"title\":\"2026 KPMG Women's PGA Championship\",\"keywords\":\"winner\"}"
      }
     }
    ]
   },
   {
    "role": "tool",
-   "tool_call_id": "call_Hd46vwkc5Xs8lOvktcBEcbsV",
-   "content": "[2026 PGA Championship] The 2026 PGA Championship was the 108th edition of the PGA Championship, the second of the four men's major golf championships held in 2026. The tournament took place on May 14–17 at Aronimink Golf Club in Newtown Square, Pennsylvania, a suburb west of Philadelphia. Aaron Rai won the golf tournament and his first career major championship, winning by three strokes over runners-up Jon Rahm and Alex Smalley. Rai became the second player of Indian heritage to win a men's major championship, after Vijay Singh, and the first from England to win the PGA Championship since Jim Barnes, who won the first two editions in 1916 and 1919. Rai became only the eighth player to win a major with a lower score in each round. | other articles: Yealimi Noh, Nelly Korda"
+   "tool_call_id": "call_g1UKD3NDmIkiBzCBNtEIaUxd",
+   "content": "no such page"
   },
   {
    "role": "assistant",
@@ -97,44 +97,22 @@
     {
      "type": "function",
      "index": 0,
-     "id": "call_Cvaoh0bQofkNn7snPPGC9xTY",
+     "id": "call_cP9ZURZmIZCvupNLXfshcRAE",
      "function": {
       "name": "web_search",
-      "arguments": "{\"query\":\"2026 Women's PGA Championship results summary\"}"
+      "arguments": "{\"query\":\"Haeran Ryu 2026 Women's PGA Championship winner\"}"
      }
     }
    ]
   },
   {
    "role": "tool",
-   "tool_call_id": "call_Cvaoh0bQofkNn7snPPGC9xTY",
-   "content": "[2026 PGA Championship] The 2026 PGA Championship was the 108th edition of the PGA Championship, the second of the four men's major golf championships held in 2026. The tournament took place on May 14–17 at Aronimink Golf Club in Newtown Square, Pennsylvania, a suburb west of Philadelphia. Aaron Rai won the golf tournament and his first career major championship, winning by three strokes over runners-up Jon Rahm and Alex Smalley. Rai became the second player of Indian heritage to win a men's major championship, after Vijay Singh, and the first from England to win the PGA Championship since Jim Barnes, who won the first two editions in 1916 and 1919. Rai became only the eighth player to win a major with a lower score in each round. | other articles: Yealimi Noh, Shane Lowry"
+   "tool_call_id": "call_cP9ZURZmIZCvupNLXfshcRAE",
+   "content": "[2026 Women's PGA Championship] The 2026 KPMG Women's PGA Championship is the 72nd Women's PGA Championship. It is being played June 25–28 at Hazeltine National Golf Club in Chaska, Minnesota. Hazeltine previously hosted the Women's PGA Championship in 2019, won by Hannah Green. It also hosted the U.S. Women's Open in 1966 and 1977. The PGA Championship was the third of five major championships on the LPGA Tour during the 2026 season. Ryu Hae-ran won her first major championship by two strokes over Ina Yoon. | other articles: Ryu Hae-ran, 2026 Women's British Open"
   },
   {
    "role": "assistant",
-   "content": null,
-   "refusal": null,
-   "reasoning": null,
-   "tool_calls": [
-    {
-     "type": "function",
-     "index": 0,
-     "id": "call_A6S81GbJNReSEt1dvJn9r10e",
-     "function": {
-      "name": "web_search",
-      "arguments": "{\"query\":\"Women PGA Championship 2026 winner Hazeltine\"}"
-     }
-    }
-   ]
-  },
-  {
-   "role": "tool",
-   "tool_call_id": "call_A6S81GbJNReSEt1dvJn9r10e",
-   "content": "[2026 Women's PGA Championship] The 2026 KPMG Women's PGA Championship is the 72nd Women's PGA Championship. It is being played June 25–28 at Hazeltine National Golf Club in Chaska, Minnesota. Hazeltine previously hosted the Women's PGA Championship in 2019, won by Hannah Green. It also hosted the U.S. Women's Open in 1966 and 1977. The PGA Championship was the third of five major championships on the LPGA Tour during the 2026 season. Ryu Hae-ran won her first major championship by two strokes over Ina Yoon. | other articles: Women's PGA Championship, Hazeltine National Golf Club"
-  },
-  {
-   "role": "assistant",
-   "content": "Ryu Hae-ran won the 2026 Women's PGA Championship at Hazeltine National Golf Club, claiming her first major championship by two strokes over Ina Yoon. \n\nFINAL: Ryu Hae-ran",
+   "content": "Haeran Ryu won the 2026 Women's PGA Championship at Hazeltine National Golf Club, marking her first major championship victory. FINAL: Haeran Ryu",
    "refusal": null,
    "reasoning": null
   }

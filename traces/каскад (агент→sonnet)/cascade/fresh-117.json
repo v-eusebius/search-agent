@@ -1,0 +1,100 @@
+{
+ "task": {
+  "id": "fresh-117",
+  "source": "fresh",
+  "question": "What line of the Nanjing Metro opens in April 2026?",
+  "answer": "Line S2",
+  "evidence": "22 April – Line S2 of the Nanjing Metro opens between Xishanqiao station and Taibai station.",
+  "page": "2026 in rail transport",
+  "url": "https://en.wikipedia.org/wiki/2026_in_rail_transport",
+  "sonnet_answer": "Line 11",
+  "agent_ok": false
+ },
+ "answer": "Line S2 opens on April 22, 2026.",
+ "correct": true,
+ "cost": 0.000850950000000017,
+ "escalated": false,
+ "confidence": 1.0,
+ "agent_messages": [
+  {
+   "role": "system",
+   "content": "You answer questions about recent events (2025–2026). Never answer from memory: use web_search (and tavily_search if available) to find the right article, then page_find to look inside long articles such as '2026 in <country or field>' for the specific fact. Do not repeat the same call. When done, write the last line as FINAL: <short answer>."
+  },
+  {
+   "role": "user",
+   "content": "What line of the Nanjing Metro opens in April 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_RF0Yj7x5X7fXubdIU6VR0O28",
+     "function": {
+      "name": "tavily_search",
+      "arguments": "{\"query\":\"Nanjing Metro April 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_RF0Yj7x5X7fXubdIU6VR0O28",
+   "content": "[Nanjing Metro: 15 lines, 625 km, map and complete guide](https://mapa-metro.com/en/china/nanjing/nanjing-metro-map.htm) The Nanjing Metro (南京地铁, Nánjīng Dìtiě) is that network. It opened on 3 September 2005 with one line and 16 stations, making Nanjing the sixth city in mainland China to have a metro, after Beijing, Tianjin, Shanghai, Guangzhou and Shenzhen. By April 2026, the system had reached 15 operational lines, over 625 kilometres of track and 258 stations. Line 7 brought fully automated GoA4 operation to the network in 2024 — the first line in Nanjing to run without a driver. Line S2, inaugurated in April \n[Nanjing Metro - Wikipedia](https://en.wikipedia.org/wiki/Nanjing_Metro) | S2 \"Line S2 (Nanjing Metro)\") | Xishanqiao\") (Yuhuatai) | Taibai\") (Dangtu, Anhui) | 22 April 2026 | n/a | 54.23 km (33.70 mi) | 16 | | S3 \"Line S3 (Nanjing Metro)\") | Nanjing South Railway Station (Yuhuatai) | Gaojiachong (Pukou) | 6 December 2017 | n/a | 36.3 km (22.6 mi) | 19 | | S4 \"Line S4 (Nanjing Metro)\") | Chahe\") (Chuzhou) | Chuzhou Railway Station (Chuzhou) | 28 June 2023 | n/a | 46.2 km (28.7 mi) | 10 | [...] | Route | Name | Termini | | Planned Opening | Length | Stations | Status \n[UrbanRail.Net > Asia > China > Nanjing Metro](https://www.urbanrail.net/as/cn/nanj/nanjing.htm) | | Line S2 | | | Suburban metro line, running southwest to Ma'anshan 22 Apr 2026: Xishanqiao — Taibai(54.2 km) | | | Line S3 | | | Suburban metro line, underground through urban area - 36.3 km, 19 stations 06 Dec 2017: South Railway Station — Gaojiachong | | Nanjing Metro Nanjing Metro Nanjing Metro | | | Line S4 | | [...] | Nanjing Metro Nanjing Metro Nanjing Metro | | | Line S1 | | | Airport Express Line, 37.2 km, 9 stations — since 29 Sept 2026, through operation between Line 6 and Line S1 0\n[China: Emerging rail networks blend metro and main line features - Railway Gazette International](https://www.railwaygazette.com/suburban-commuter-rail/2026/10/24/china-emerging-networks-blend-metro-and-main-line-features) Nanjing has a large and still growing network of suburban railways that radiates out from metro hubs on the edge of the city to serve neighbouring areas. Lines S1, S2, S3, S4, S6, S7, S8 and S9 all opened between July 2014 and April 2026. Line S5 is under construction, while S2 is currently being extended towards the city centre. All of these lines use trains capable of at least 100 km/h operation. Nanjing city map Click to explore\n[BOKE 2026 GILENanjing Metro Line 6](https://b"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_qVrNFSu1tdLuI22T1oeMX5jw",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"Nanjing Metro\",\"keywords\":\"April 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_qVrNFSu1tdLuI22T1oeMX5jw",
+   "content": "In 1984 the first serious proposal for construction of a subway appeared in the Municipal People's Congress. In April 1986, the Nanjing Integrated Transport Planning group was established to research on how to implement a subway system in Nanjing. In December 1986 the team published the \"Nanjing Metro Initial Phase\". The phase consists of a north–south line, east–west line and a diagonal Northwest\nGroundbreaking work for Line 3 started in January 2010. This line, with a north–south orientation, started operation on April 1, 2015 and is 44.9 kilometres (27.9 mi) in length with 29 stations. Line 3's color is green.\nConstruction of east–west Line 4 begun in late 2012 and the first phase entered operation on January 18, 2017. The completed portion is 33.75 kilometers (20.97 mi) in length. The line is known as A Zi (the Purple) as the branding for the line and the train color is purple, the first of which were delivered in April 2015. The line started operation on January 18, 2017. Line 4's color is purple.\nLine 6 opened on September 29, 2026. It is 32.4-kilometer (20.1 mi) long with 19 stations. It through-operates with Line S1. Line 6's color is teal.\nSince April 1, 2025, Nanjing Metro has offered a metro pass with options for a 1-day pass (¥20, approximately US$2.80) and a 3-day pass (¥45, approximately US$6.20). The pass allows unlimited metro rides within the designated time period. Both passes are available for purchase at selected metro stations, including those near tourist attractions, central business districts (CBDs), and major transpo"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_mlRuP9nVcreCOhVmQ0DqfVts",
+     "function": {
+      "name": "tavily_search",
+      "arguments": "{\"query\":\"Nanjing Metro Line S2 April 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_mlRuP9nVcreCOhVmQ0DqfVts",
+   "content": "[Line S2 (Nanjing Metro) - Wikipedia](https://en.wikipedia.org/wiki/Line_S2_(Nanjing_Metro)) Line S2 (Chinese: 南京地铁S2号线; pinyin: Nánjīng Dìtiě S-Èr Hào Xiàn), known as Nanjing-Ma'anshan Intercity Railway (Chinese: 宁马城际铁路; pinyin: Níngmǎ chéngjì tiělù) in Ma'anshan Section, is a suburban rapid transit line in the Nanjing Metro system, officially put into operation on 22 April 2026 at 10:00. The line features passing loops for express services with express trains completing travel across the whole line in 30 minutes. Line S2 is the first inter-provincial metro line in Nanjing and also [..\n[JR Urbane Network on X: \"Today Nanjing Metro Line S2 opened. Pushing the 20 year old Nanjing Metro to over 625km in length. Line S2 is a suburban metro line that connects Nanjing with the neighbouring city of Ma'anshan. As such to better fulfill this role the line has passing loops for express serv… / X](https://x.com/JRUrbaneNetwork/status/2046882830115086621) 04/22/2026 Maps by CityFlow, video by 木易旅行. @warese4529 @warese4529 04/23/2026 They could've named it Maanshan Line, which would revive the name of the former Ma On Shan Line [...] 06/05/2025 A madlad (集庆WANG) goes and flims a bunch of under construction Nanjing Metro Line S2 stations. Nanjing Metro Line S2 is a mostly elevated 65km long 20 station suburban metro line with passing loops for express and local stopping patterns. Costs 95 million INT$/km to build. 00:00 00:00 00:00 00:00 09:24:30 A\n[Nanjing Metro: 15 lines, 625 km, map and complete guide](https://mapa-metro.com/en/china/nanjing/nanjing-metro-map.htm) Nanjing was the sixth city in mainland China to open a metro, after Beijing, Tianjin, Shanghai, Guangzhou and Shenzhen. Line 7 is the first in Nanjing to run with GoA4 automation — the highest IEC automation grade, no driver on board. The single-day ridership record stands at 5.331 million, set on 31 December 2025. Line S2, opened April 2026, is the first in the system to cross a provincial boundary, connecting Jiangsu and Anhui. [...] The Nanjing Metro runs 15 lines across more than 625 kilomet\n[UrbanRail.Net > Asia > China > Nanjing Metro](https://www.urbanrail.net/as/cn/nanj/nanjing.htm) | | Line S2 | | | Suburban metro line, running southwest to Ma'anshan 22 Apr 2026: Xishanqiao — Taibai(54.2 km) | | | Line S3 | | | Suburban metro line, underground through urban area - 36.3 km, 19 stations 06 Dec 2017: South Railway Station — Gaojiachong | | Nanjing Metro Nanjing Metro Nanjing Metro | | | Line S4 | | ["
+  },
+  {
+   "role": "assistant",
+   "content": "The Nanjing Metro Line S2 will open in April 2026, specifically on April 22, 2026. This line connects Nanjing with the neighboring city of Ma'anshan and is notable for being the first inter-provincial metro line in the area. \n\nFINAL: Line S2 opens on April 22, 2026.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

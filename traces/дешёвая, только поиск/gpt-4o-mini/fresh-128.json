@@ -8,7 +8,7 @@
   "page": "2026 in sports",
   "url": "https://en.wikipedia.org/wiki/2026_in_sports"
  },
- "answer": "Ryan Fox won the 2026 Open Championship at Royal Birkdale, finishing one stroke ahead of Cameron Young. FINAL: Ryan Fox.",
+ "answer": "Ryan Fox won the 2026 Open Championship at Royal Birkdale, finishing one stroke ahead of Cameron Young. \n\nFINAL: Ryan Fox",
  "correct": true,
  "cost": 0.00010034999999999905,
  "messages": [
@@ -29,7 +29,7 @@
     {
      "type": "function",
      "index": 0,
-     "id": "call_gJmTZqtyUYBWq4AR1GJKbXew",
+     "id": "call_5Ipr1o3NTgNmpxMW77Syvpur",
      "function": {
       "name": "web_search",
       "arguments": "{\"query\":\"2026 Open Championship winner Royal Birkdale\"}"
@@ -39,12 +39,12 @@
   },
   {
    "role": "tool",
-   "tool_call_id": "call_gJmTZqtyUYBWq4AR1GJKbXew",
+   "tool_call_id": "call_5Ipr1o3NTgNmpxMW77Syvpur",
    "content": "[2026 Open Championship] The 2026 Open Championship, officially the 154th Open Championship, was a golf tournament played from 16–19 July 2026 at Royal Birkdale Golf Club. It was the 11th Open held at the club. Ryan Fox became the third New Zealander to win a golf major, winning by one stroke over Cameron Young. | other articles: Royal Birkdale Golf Club, Birkdale, Southport"
   },
   {
    "role": "assistant",
-   "content": "Ryan Fox won the 2026 Open Championship at Royal Birkdale, finishing one stroke ahead of Cameron Young. FINAL: Ryan Fox.",
+   "content": "Ryan Fox won the 2026 Open Championship at Royal Birkdale, finishing one stroke ahead of Cameron Young. \n\nFINAL: Ryan Fox",
    "refusal": null,
    "reasoning": null
   }

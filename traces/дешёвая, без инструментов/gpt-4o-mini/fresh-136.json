@@ -2,15 +2,15 @@
  "task": {
   "id": "fresh-136",
   "source": "fresh",
-  "question": "At which venue was the 2026 NBA All-Star Game played on February 15, 2026?",
-  "answer": "Intuit Dome",
-  "evidence": "February 15: 2026 NBA All-Star Game at Intuit Dome in Inglewood, California",
+  "question": "Which team won the 2026 World Baseball Classic?",
+  "answer": "Venezuela",
+  "evidence": "March 5–17: 2026 World Baseball Classic in Japan, Puerto Rico, and the United States. Venezuela defeated the United States, 3–2",
   "page": "2026 in sports",
   "url": "https://en.wikipedia.org/wiki/2026_in_sports"
  },
  "answer": "FINAL: Unknown.",
  "correct": false,
- "cost": 8.249999999999577e-06,
+ "cost": 6.600000000002437e-06,
  "messages": [
   {
    "role": "assistant",

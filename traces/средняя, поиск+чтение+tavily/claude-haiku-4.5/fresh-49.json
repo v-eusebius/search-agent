@@ -1,0 +1,68 @@
+{
+ "task": {
+  "id": "fresh-49",
+  "source": "fresh",
+  "question": "What was the sentence given to Asiya Andrabi in India on March 24, 2026?",
+  "answer": "life imprisonment",
+  "evidence": "24 March – A special NIA court sentences Kashmiri separatist Asiya Andrabi to life imprisonment for her involvement in terrorist activities in Kashmir.",
+  "page": "2026 in India",
+  "url": "https://en.wikipedia.org/wiki/2026_in_India",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "FINAL: On March 24, 2026, a Delhi court sentenced Kashmiri separatist leader Asiya Andrabi to life imprisonment after convicting her under the Unlawful Activities (Prevention) Act (UAPA). Two of her associates, Sofi Fehmeeda and Nahida Nasreen, were sentenced to 30 years in jail.",
+ "correct": true,
+ "cost": 0.005415000000000059,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You answer questions about recent events (2025–2026). Never answer from memory: use web_search (and tavily_search if available) to find the right article, then page_find to look inside long articles such as '2026 in <country or field>' for the specific fact. Do not repeat the same call. When done, write the last line as FINAL: <short answer>."
+  },
+  {
+   "role": "user",
+   "content": "What was the sentence given to Asiya Andrabi in India on March 24, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "I'll search for information about Asiya Andrabi's sentence in India on March 24, 2026.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01QT4dcbLQqSdTpeByAMUh2a",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\": \"Asiya Andrabi sentence India March 24 2026\"}"
+     }
+    },
+    {
+     "type": "function",
+     "index": 1,
+     "id": "toolu_bdrk_017bTiEYweQ5GJ8wbHnA5aYS",
+     "function": {
+      "name": "tavily_search",
+      "arguments": "{\"query\": \"Asiya Andrabi sentence India March 24 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01QT4dcbLQqSdTpeByAMUh2a",
+   "content": "[Asiya Andrabi] Asiya Andrabi is a Kashmiri separatist and founding leader of Dukhtaran-e-Millat. This group is part of the separatist organisation All Parties Hurriyat Conference in the Kashmir Valley. Government of India has declared it as a banned organization. The organisation claims that it aims for the freedom of Kashmir from India. Until her arrest, she was one of the most important women separatists in the valley. She married Ashiq Hussain Faktoo (a founding member of the Hizbul Mujahideen) in 1990. Her husband has been in jail since 1992, convicted of murder. Asiya Andrabi had a major role in starting and backing-up various protests in the Kashmir Valley. She is best known for supporting Masarat Alam in the 2010 Kashmir unrest across Kashmir by using her village network of Dukhtaran-e-Millat operatives for rally support. She hoisted the Pakistan flag and sang the Pakistani national anthem in Kashmir on 25 March 2015. Later on, she was booked for that. On 12 September 2015, she slaughtered a cow and released a video in a bid to defy the ban on sale of beef in Jammu and Kashmir. On 6 July 2018, Asiya was taken into custody by the National Investigation Agency (NIA). | other articles: 2026 in India, Unlawful Activities (Prevention) Act, 1967"
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_017bTiEYweQ5GJ8wbHnA5aYS",
+   "content": "[Delhi court sentences Kashmiri separatist Asiya Andrabi to life imprisonment - The Hindu](https://www.thehindu.com/news/national/delhi-court-sentences-kashmiri-separatist-asiya-andrabi-to-life-imprisonment-in-uapa-case/article70779484.ece) Updated - March 24, 2026 11:21 pm IST - New Delhi chief Asiya Andrabi. | Photo Credit: FILE PHOTO A Delhi court on Tuesday (March 24, 2026) sentenced Kashmiri separatist leader Asiya Andrabi to life imprisonment after convicting her in a case under the Unlawful Activities (Prevention) Act (UAPA). Andrabi is the chief of the banned all-women’s organization Dukhtaran-e-Millat (DEM). [...] Published - March 24, 2026 05:29 pm IST Copy link Email Facebook Twitter Telegram LinkedIn WhatsApp Reddit SEE\n[Three life terms for Kashmir’s Aasiya Andrabi fit India’s ‘broader pattern’ | Prison News | Al Jazeera](https://www.aljazeera.com/news/2026/4/9/three-life-terms-for-kashmirs-aasiya-andrabi-fit-indias-broader-pattern) Andrabi, the founder of Dukhtaran-e-Millat (DeM), a banned all-women’s organisation, was sentenced on March 24 by a special National Investigative Agency (NIA) court in New Delhi. Two of her associates, Sofi Fehmeeda, a wheelchair-bound 36-year-old, and 61-year-old Nahida Nasreen, were also given 30 years in jail. ## Recommended Stories list of 4 items [...] Activists and legal experts have condemned an Indian court’s verdict that handed down three life sentences to prominent Kashmiri separatist\n[Asiya Andrabi Sentenced to Life Under UAPA: Kashmir ...](https://www.facebook.com/trtworld/videos/an-indian-court-has-sentenced-kashmiri-resistance-leader-asiya-andrabi-to-life-i/1501838898041574) An Indian court has sentenced Kashmiri resistance leader Asiya Andrabi to life in prison, drawing criticism over the use of its Unlawful\n[India sentences Asiya Andrabi to life under controversial ...](https://www.youtube.com/watch?v=LgObaAoj_zU) An Indian court has sentenced Kashmiri resistance leader Asiya Andrabi to life in prison, drawing criticism over the use of its Unlawful\n[A Delhi court has sentenced Kashmiri separatist Asiya ...](https://www.instagram.com/p/DWQ8sE2ERh4?hl=en) A Delhi court has sentenced Kashmiri separatist Asiya Andrabi to life imprisonment, and her two associates, Sofi Fehmeeda and Nahida Nasreen ...Read more"
+  },
+  {
+   "role": "assistant",
+   "content": "FINAL: On March 24, 2026, a Delhi court sentenced Kashmiri separatist leader Asiya Andrabi to life imprisonment after convicting her under the Unlawful Activities (Prevention) Act (UAPA). Two of her associates, Sofi Fehmeeda and Nahida Nasreen, were sentenced to 30 years in jail.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

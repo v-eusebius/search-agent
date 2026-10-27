@@ -1,0 +1,24 @@
+{
+ "task": {
+  "id": "fresh-58",
+  "source": "fresh",
+  "question": "Which car company overtook Tesla as the world's largest seller of electric vehicles on January 2, 2026?",
+  "answer": "BYD Auto",
+  "evidence": "2 January – The New York Times reports that Chinese car company BYD Auto has overtaken American company Tesla as the world's largest seller of electric vehicles.",
+  "page": "2026 in China",
+  "url": "https://en.wikipedia.org/wiki/2026_in_China",
+  "sonnet_answer": "BYD",
+  "agent_ok": false
+ },
+ "answer": "FINAL: BYD",
+ "correct": false,
+ "cost": 0.0002399999999999989,
+ "messages": [
+  {
+   "role": "assistant",
+   "content": "BYD",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

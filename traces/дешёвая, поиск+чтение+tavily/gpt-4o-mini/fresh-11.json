@@ -10,9 +10,9 @@
   "sonnet_answer": "unknown",
   "agent_ok": true
  },
- "answer": "The title of the art exhibition at Fondazione Prada in Venice from May 9 to May 23, 2026, was \"Helter Skelter: Arthur Jafa and Richard Prince\". \n\nFINAL: Helter Skelter: Arthur Jafa and Richard Prince",
+ "answer": "The title of the art exhibition at Fondazione Prada in Venice from May 9 to May 23, 2026, was \"Helter Skelter: Arthur Jafa and Richard Prince.\" \n\nFINAL: Helter Skelter: Arthur Jafa and Richard Prince",
  "correct": true,
- "cost": 0.0006671999999999789,
+ "cost": 0.0006967499999999127,
  "messages": [
   {
    "role": "system",
@@ -31,18 +31,18 @@
     {
      "type": "function",
      "index": 0,
-     "id": "call_SF9Q4l9ut3bHHZf3G9eZtvH6",
+     "id": "call_DMDTBVwB9FfVrj18uKYvGzha",
      "function": {
       "name": "tavily_search",
-      "arguments": "{\"query\":\"Fondazione Prada Venice art exhibition May 2026\"}"
+      "arguments": "{\"query\":\"Fondazione Prada Venice exhibition May 9 to May 23 2026\"}"
      }
     }
    ]
   },
   {
    "role": "tool",
-   "tool_call_id": "call_SF9Q4l9ut3bHHZf3G9eZtvH6",
-   "content": "[Helter Skelter: Arthur Jafa and Richard Prince](https://www.fondazioneprada.org/project/helter-skelter-arthur-jafa-richard-prince?lang=en) The upcoming exhibition by Arthur Jafa and Richard Prince, curated by Nancy Spector, from May 2026 at Fondazione Prada in Venice.\n[Fondazione Prada - Projects and exhibitions](https://www.fondazioneprada.org?lang=en) ExhibitionVenice9 May – 23 Nov 2026. Global Antiquity · ExhibitionMilan5 Nov 2026 – 1 Mar 2027. OVER, UNDER AND IN BETWEENMona Hatoum · ExhibitionMilan29 Jan –\n[Arthur Jafa & Richard Prince - Helter Skelter](https://www.alminerech.com/exhibitions/12328-arthur-jafa-richard-prince-helter-skelter) Nov 23, 2026 | Fondazione Prada, Venice, Italy. Fondazione Prada presents 'Helter Skelter: Arthur Jafa and Richard Prince,' an exhibition curated by\n[Biennale Arte 2026 | Homepage 2026](https://www.labiennale.org/en/art/2026) La Biennale di Venezia + IT + EN + IT Venice, 9.05 - 22.11 2026 # Biennale Arte 2026 61st International Art Exhibition Buy your tickets Download the brochure The 61st International Art Exhibition of La Biennale di Venezia – titled In Minor Keys by Koyo Kouoh – runs from Saturday 9 May to Sunday 22 November 2026 at the Giardini and Arsenale venues, in various locations across Venice and at Forte Marghera. [...] Art Opening hours of the Austrian Pavilion The Austrian Pavilion will be temporarily c\n[Arthur Jafa and Richard Prince' emerges as one ...](https://www.instagram.com/p/DYCWI-hjBvS?hl=en) Ca' Corner della Regina, Fondazione Prada, Venice Arthur Jafa & Richard Prince Helter Skelter Curated by Nancy Spector 9 May – 23"
+   "tool_call_id": "call_DMDTBVwB9FfVrj18uKYvGzha",
+   "content": "[Arthur Jafa & Richard Prince - Helter Skelter - Almine Rech](https://www.alminerech.com/exhibitions/12328-arthur-jafa-richard-prince-helter-skelter) ## Press release read or download in English ### en Arthur Jafa & Richard Prince Helter Skelter May 9 — Nov 23, 2026 | Fondazione Prada, Venice, Italy Fondazione Prada presents 'Helter Skelter: Arthur Jafa and Richard Prince,' an exhibition curated by Nancy Spector, in its Venetian venue, Ca’ Corner della Regina, from 9 May to 23 November 2026, during the Art Biennale. [...] Almine Rech Exhibitions Artists Fairs Features News Shop (opens in new window) Locations # Arthur Jafa & Richard Prince He\n[Helter Skelter: Arthur Jafa and Richard Prince](https://www.fondazioneprada.org/project/helter-skelter-arthur-jafa-richard-prince?lang=en) The upcoming exhibition by Arthur Jafa and Richard Prince, curated by Nancy Spector, from May 2026 at Fondazione Prada in Venice.\n[Fondazione Prada - Projects and exhibitions](https://www.fondazioneprada.org?lang=en) ExhibitionVenice9 May – 23 Nov 2026 OVER, UNDER AND IN BETWEENMona Hatoum. Global AntiquityCULTURAL INTERACTIONS IN AFROEURASIAN SPACE 600 BCE - 1000. Venice T\n[Instagram](https://www.instagram.com/reel/DYxOoFUIB6w) At Fondazione Prada during the 61st Venice Biennale, \"Helter Skelter\" places the works of Arthur Jafa and Richard Prince into conversation through a powerful exploration of image, power, and the mythology of the U.S. Curated by Nancy Spector and presented inside Ca’ Corner della Regina, the exhibition is open to visitors until November 23. @fondazioneprada @labiennale Creative Director: Alexandre Dornellas @adornellas Creative Producer: Ana Camize @anacamiza [...] fflorencia__________'s profile \n[Programme 2026 - Announcements - e-flux](https://www.e-flux.com/announcements/6785083/programme-2026) Thank you for your interest in e-flux. Check your inbox to confirm your subscription. e-fluxAnnouncements Programme 2026 Subscribe More Less Share + Email + Facebook + X + Copy LinkLink Copied! RelatedSee more related e-fluxAnnouncements Subscribe # Programme 2026 ## Fondazione Prada September 7, 2026 Global Antiquity July 14, 2026 Call for entries: Film Fund March 19, 2026 Helter Skelter: Arthur Jafa and Richard Prince February 10, 2026 Cao Fei: Dash [...] Cao Fei: Dash December 4, 2025 Mona Ha"
   },
   {
    "role": "assistant",
@@ -53,17 +53,17 @@
     {
      "type": "function",
      "index": 0,
-     "id": "call_lmjFPH041FWfYe8nupRvRePS",
+     "id": "call_8A6XHbYA1757uAyc7cMZeHe8",
      "function": {
       "name": "page_find",
-      "arguments": "{\"title\":\"Helter Skelter: Arthur Jafa and Richard Prince\",\"keywords\":\"exhibition title Fondazione Prada\"}"
+      "arguments": "{\"title\":\"Helter Skelter: Arthur Jafa and Richard Prince\",\"keywords\":\"art exhibition Fondazione Prada Venice\"}"
      }
     }
    ]
   },
   {
    "role": "tool",
-   "tool_call_id": "call_lmjFPH041FWfYe8nupRvRePS",
+   "tool_call_id": "call_8A6XHbYA1757uAyc7cMZeHe8",
    "content": "no such page"
   },
   {
@@ -75,18 +75,18 @@
     {
      "type": "function",
      "index": 0,
-     "id": "call_frLxqwJH0ixgYEyey6Q6h7QN",
+     "id": "call_zrx8p2I0JQIoFSDoBc3TGDAK",
      "function": {
       "name": "web_search",
-      "arguments": "{\"query\":\"Helter Skelter Arthur Jafa Richard Prince Fondazione Prada Venice 2026\"}"
+      "arguments": "{\"query\":\"Fondazione Prada Venice Helter Skelter exhibition May 9 2026\"}"
      }
     }
    ]
   },
   {
    "role": "tool",
-   "tool_call_id": "call_frLxqwJH0ixgYEyey6Q6h7QN",
-   "content": "[2026 in art] Significant events relating to the year 2026 in art are listed below. | other articles: Nancy Spector"
+   "tool_call_id": "call_zrx8p2I0JQIoFSDoBc3TGDAK",
+   "content": "[2026 in art] Significant events relating to the year 2026 in art are listed below."
   },
   {
    "role": "assistant",
@@ -97,22 +97,22 @@
     {
      "type": "function",
      "index": 0,
-     "id": "call_8uhrttY6brTZaNt3JFIAQsqZ",
+     "id": "call_Z7FP14sIU06JFCCFnCD8Bc82",
      "function": {
       "name": "page_find",
-      "arguments": "{\"title\":\"2026 in art\",\"keywords\":\"Helter Skelter Fondazione Prada\"}"
+      "arguments": "{\"title\":\"2026 in art\",\"keywords\":\"Fondazione Prada exhibition May\"}"
      }
     }
    ]
   },
   {
    "role": "tool",
-   "tool_call_id": "call_8uhrttY6brTZaNt3JFIAQsqZ",
+   "tool_call_id": "call_Z7FP14sIU06JFCCFnCD8Bc82",
    "content": "May 9 until May 23 – Helter Skelter: Arthur Jafa and Richard Prince at Fondazione Prada in Venice."
   },
   {
    "role": "assistant",
-   "content": "The title of the art exhibition at Fondazione Prada in Venice from May 9 to May 23, 2026, was \"Helter Skelter: Arthur Jafa and Richard Prince\". \n\nFINAL: Helter Skelter: Arthur Jafa and Richard Prince",
+   "content": "The title of the art exhibition at Fondazione Prada in Venice from May 9 to May 23, 2026, was \"Helter Skelter: Arthur Jafa and Richard Prince.\" \n\nFINAL: Helter Skelter: Arthur Jafa and Richard Prince",
    "refusal": null,
    "reasoning": null
   }

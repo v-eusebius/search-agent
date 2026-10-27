@@ -1,0 +1,24 @@
+{
+ "task": {
+  "id": "fresh-55",
+  "source": "fresh",
+  "question": "How many people were killed in the Guerrero earthquake on January 2, 2026?",
+  "answer": "two",
+  "evidence": "2 January – A magnitude 6.5 earthquake hits Guerrero, killing two people.",
+  "page": "2026 in Mexico",
+  "url": "https://en.wikipedia.org/wiki/2026_in_Mexico",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "FINAL: Unknown.",
+ "correct": false,
+ "cost": 7.650000000004875e-06,
+ "messages": [
+  {
+   "role": "assistant",
+   "content": "Unknown.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

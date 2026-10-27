@@ -1,0 +1,76 @@
+{
+ "task": {
+  "id": "fresh-75",
+  "source": "fresh",
+  "question": "Where were two senior doctors arrested over suspicious deaths of newborn infants on January 14, 2026?",
+  "answer": "Novokuznetsk",
+  "evidence": "14 January – Two senior doctors are arrested over the suspicious deaths of nine newborn infants at a maternity hospital in Novokuznetsk from 4 to 12 January.",
+  "page": "2026 in Russia",
+  "url": "https://en.wikipedia.org/wiki/2026_in_Russia",
+  "sonnet_answer": "Rajasthan, India",
+  "agent_ok": false
+ },
+ "answer": "On January 14, 2026, two senior doctors were arrested in Novokuznetsk, Russia, over the suspicious deaths of nine newborn infants at a maternity hospital. These deaths occurred between January 4 and January 12. \n\nFINAL: Novokuznetsk, Russia.",
+ "correct": true,
+ "cost": 0.0004114500000000909,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You answer questions about recent events (2025–2026). Never answer from memory: use web_search (and tavily_search if available) to find the right article, then page_find to look inside long articles such as '2026 in <country or field>' for the specific fact. Do not repeat the same call. When done, write the last line as FINAL: <short answer>."
+  },
+  {
+   "role": "user",
+   "content": "Where were two senior doctors arrested over suspicious deaths of newborn infants on January 14, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_Gx1V5cP81x4qbSdeoou8N4f4",
+     "function": {
+      "name": "tavily_search",
+      "arguments": "{\"query\":\"two senior doctors arrested suspicious deaths newborn infants January 14 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_Gx1V5cP81x4qbSdeoou8N4f4",
+   "content": "[Top doctors arrested after 9 newborns die at hospital in Russia: \"A crime against the country\" - CBS News](https://www.cbsnews.com/news/newborns-die-hospital-russia-doctors-arrested) Watch CBS News # Top doctors arrested after 9 newborns die at hospital in Russia: \"A crime against the country\" January 14, 2026 / 7:16 AM EST / CBS/AFP Russian police have arrested the chief physician and the acting head of intensive care at a Siberian hospital where nine babies died this month, prosecutors said Wednesday. [...] Copyright ©2026 CBS Interactive Inc. All rights reserved. [...] In: © 2026 CBS Interactive Inc. All Rights Reserved. This material may not be published, broadcast, rewr\n[Accused of Killing Their Baby: Doctor & Nurse Break Their Silence | Oz True Crime](https://www.youtube.com/watch?v=M8C3rC08mwg) [10:10] start with. So, after the paramedics rushed Benjamin to the ER and examined him, doctors believed his condition was consistent with something called shaken [10:18] baby syndrome, which many of you have heard of. It's called by physicians abusive head trauma. After a three-month [10:25] investigation, Dr. Yip and his wife, nurse Edelyn, were arrested and charged with murder, child [...] [1:07] break because he's a doctor. His wife is well because she's a nurse. Or maybe it's the opposite.\n[Kevin Canaan, Yeniffer Tavarez-Cepeda charged with homicide of baby after alleged assault at Tower Health Reading Hospital - ABC7 Chicago](https://abc7chicago.com/post/kevin-canaan-yeniffer-tavarez-cepeda-charged-homicide-baby-alleged-assault-tower-health-reading-hospital/19137100) Copyright © 2026 WPVI-TV. All Rights Reserved. ## Related Topics PENNSYLVANIA CHILD KILLED INFANT DEATHS PARENTS CHARGED CHILD DEATH U.S. & WORLD ## Child Killed ## Mississippi AG says use of force was justified in death of 1-year-old ## Father arrested after 4-year-old fatally shoots himself in face in South Texas, sheriff's office says ## Truck drives through Kansas soccer field, killing 2, hospitalizing 11 [...] ## Top Stories ## Man killed, 2 hurt in Garfield Park shooting, Chicago police sa\n[LIVE | Two arrested in Atlanta infant death & search ends as body of missing 6-year-old recovered](https://www.youtube.com/watch?v=amZDqQFbCks) ### Description 1,734 views Posted: 2026-08-10 [...] [42:14] Joanne Feldman caught up with the money doctor, Dr. Rosie Thomas, about the five tax mistakes that could be draining your [42:21] wallet and how you can fix them. Let's take a listen. [42:25] I "
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_xyABEFSqW4EYhqKc7YEJ8wEi",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"2026 in Russia\",\"keywords\":\"doctors arrested newborn deaths\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_xyABEFSqW4EYhqKc7YEJ8wEi",
+   "content": "14 January – Two senior doctors are arrested over the suspicious deaths of nine newborn infants at a maternity hospital in Novokuznetsk from 4 to 12 January."
+  },
+  {
+   "role": "assistant",
+   "content": "On January 14, 2026, two senior doctors were arrested in Novokuznetsk, Russia, over the suspicious deaths of nine newborn infants at a maternity hospital. These deaths occurred between January 4 and January 12. \n\nFINAL: Novokuznetsk, Russia.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

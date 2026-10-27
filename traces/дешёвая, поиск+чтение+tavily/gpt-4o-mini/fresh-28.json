@@ -10,9 +10,9 @@
   "sonnet_answer": "unknown",
   "agent_ok": false
  },
- "answer": "In the mass shooting at Tumbler Ridge Secondary School in British Columbia on February 10, 2026, a total of 9 people were killed. This includes 7 fatalities at the school and 2 at the perpetrator's home. The shooter, Jesse Van Rootselaar, was among the deceased. Additionally, 27 individuals were injured in the incident.\n\nFINAL: 9 deaths.",
+ "answer": "On February 10, 2026, a mass shooting at Tumbler Ridge Secondary School in British Columbia resulted in the deaths of six people, in addition to the shooter, Jesse Van Rootselaar, who also took her own life. Therefore, the total number of people killed in the incident was eight.\n\nFINAL: 8 people killed",
  "correct": false,
- "cost": 0.0008705999999999436,
+ "cost": 0.000502950000000002,
  "messages": [
   {
    "role": "system",
@@ -31,18 +31,18 @@
     {
      "type": "function",
      "index": 0,
-     "id": "call_Vr8eEtwWypLfGH6CBHDOeVJz",
+     "id": "call_cCKlnRYQvTeyrfdSo4j098kU",
      "function": {
       "name": "tavily_search",
-      "arguments": "{\"query\":\"Tumbler Ridge Secondary School mass shooting February 2026 casualties\"}"
+      "arguments": "{\"query\":\"mass shooting Tumbler Ridge Secondary School British Columbia February 2026\"}"
      }
     }
    ]
   },
   {
    "role": "tool",
-   "tool_call_id": "call_Vr8eEtwWypLfGH6CBHDOeVJz",
-   "content": "[2026 Tumbler Ridge shooting - Wikipedia](https://en.wikipedia.org/wiki/2026_Tumbler_Ridge_shooting) | Date | February 10, 2026 (2026-02-10) c. 2:20 p.m. (MST; UTC-7) | | Attack type | School shooting mass shooting mass murder murder–suicide familicide | | Weapons | Two firearms recovered at the school: + Long gun + Modified rifle Shotgun (shooting in perpetrator's home) | | Deaths | 9 (2 at the perpetrator's home; 7 at the school, including the perpetrator) | | Injured | 27 | | Perpetrator | Jesse Van Rootselaar | | Motive | Under investigation | [...] Six people were found dead inside the sch\n[Removal begins for Tumbler Ridge Secondary School, site of mass shooting | Maple Ridge News](https://mapleridgenews.com/2026/07/22/removal-begins-for-tumbler-ridge-secondary-school-site-of-mass-shooting) Nine people, including the suspected shooter, died in the shootings: the first at a home in the community and the second at Tumbler Ridge Secondary School. The suspect’s 39-year-old mom and 11-year-old stepbrother were killed at the home, while the victims at the school included five students between the ages of 11 and 13 and a 39-year-old educator. The suspect died of a self-inflicted injury. Twenty-seven others were injured in the shooting at the school. [...] + All Classifieds + Place a class\n[What we know about Canada's Tumbler Ridge mass shooting](https://www.bbc.com/news/articles/c1e98w35qyjo) # Tumbler Ridge mass shooting: What we know so far Canadian police say eight people have been killed in a mass shooting at a school and home in the remote rural community of Tumbler Ridge in the western province of British Columbia. Six people were killed and at least 25 others were injured at Tumbler Ridge Secondary School. The suspect, 18-year-old Jesse Van Rootselaar, was found dead at that scene from a self-inflicted gunshot injury, police said. [...] Six people were killed at Tumbler Ridge \n[Tumbler Ridge: What we know about the victims killed in one of Canada’s worst ever school shootings | CNN](https://www.cnn.com/2026/02/13/americas/victims-tumbler-ridge-shooting-intl) ## Emmett Jacobs, 11 Emmett Jacobs was the suspected shooter's step-brother, police said. Emmett Jacobs, 11, was also found dead at the residence. He was the alleged shooter’s step-brother, police said. CNN’s Lex Harvey, Max Saltman, Caitlin Danaher, Hira Humayun, Billy Stockwell, Christian Edwards and Catherine Nicholls contributed reporting. © 2026 Cable News Network. A Warner Bros. Discovery Co"
+   "tool_call_id": "call_cCKlnRYQvTeyrfdSo4j098kU",
+   "content": "[2026 Tumbler Ridge shooting - Wikipedia](https://en.wikipedia.org/wiki/2026_Tumbler_Ridge_shooting) Map About OpenStreetMaps Maps: terms of use File:Canada British Columbia location map.svg On February 10, 2026, a mass shooting occurred in Tumbler Ridge, British Columbia, Canada. On that afternoon, Jesse Van Rootselaar killed her mother and half-brother at their home before going to Tumbler Ridge Secondary School, where she killed six people and injured 27 others before killing herself. Van Rootselaar was a former student of the school. [...] | Date | February 10, 2026 (2026-02-10) c. 2:20 p.m\n[Global National: Feb. 11, 2026 | Tumbler Ridge in shock after 8 murdered in mass school shooting](https://www.youtube.com/watch?v=L-76tGafrAk) ### Description 57,959 views Posted: 2026-02-11 Shock is reverberating through Tumbler Ridge, B.C., where eight people were killed and at least 25 were injured in a mass shooting. The suspected shooter, Jesse Van Rootselaar, later died by suicide. Heather Yourex-West reports from Tumbler Ridge about the shock, sadness and grief enveloping the small community. [...] [0:32] Police had attended that residence um on multiple occasions over the past several years dealing with uh concerns of mental [0\n[Tumbler Ridge shooter stole guns from family safe as part of attack plans, new court filings reveal | CBC News](https://www.cbc.ca/news/canada/british-columbia/tumbler-ridge-shooting-fbi-documents-stolen-guns-9.7373452) The audio version of this article is generated by AI-based technology. Mispronunciations can occur. We are working with our partners to continually review and improve the results. Tumbler Ridge Secondary School is pictured the day after a school shooting in Tumbler Ridge, B.C., on Wednesday, Feb. 11, 2026. (Ben Nelms/CBC) ## Social Sharing A shotgun, a scoped rifle and a submachine-gun.\n[The National | Tumbler Ridge mass shooting | CBC.ca](https://www.cbc.ca/player/play/video/9.7084104) Feb. 10, 2026 | RCMP say 10 people are dead, including the suspect, after a mass shooting in Tumbler Ridge, British Columbia. [UPDATE: B.C. RCMP have since revised the number of people who died in the shooting in Tumbler Ridge to nine, including the suspect.] ## Related Stories\n[CBC News: The National | Police identify mass shooting suspect](https://www.youtube.com/watch?v=IWxGzH9RSHs) ### Chapters [0:00] The National for February 11, 2026 [1:01] Mass shooting in Tumbler Ridge, B.C. [3:41] Police ID suspect, revise number of dead [6:4"
   },
   {
    "role": "assistant",
@@ -53,88 +53,22 @@
     {
      "type": "function",
      "index": 0,
-     "id": "call_OoFYvTOGsLksGj9IcYMKRJZA",
+     "id": "call_0JFaq2dotp4PylqwaX19JG0G",
      "function": {
       "name": "page_find",
-      "arguments": "{\"title\":\"2026 Tumbler Ridge shooting\",\"keywords\":\"number of dead, fatalities\"}"
+      "arguments": "{\"title\":\"2026 Tumbler Ridge shooting\",\"keywords\":\"killed, victims, shooting\"}"
      }
     }
    ]
   },
   {
    "role": "tool",
-   "tool_call_id": "call_OoFYvTOGsLksGj9IcYMKRJZA",
-   "content": "keywords not found on the page"
+   "tool_call_id": "call_0JFaq2dotp4PylqwaX19JG0G",
+   "content": "On February 10, 2026, a mass shooting occurred in Tumbler Ridge, British Columbia, Canada. On that afternoon, Jesse Van Rootselaar killed her mother and half-brother at their home before going to Tumbler Ridge Secondary School, where she killed six people and injured 27 others before killing herself. Van Rootselaar was a former student of the school.\nAn investigation found that Van Rootselaar had a ChatGPT account that was banned in June 2025 for making violent queries and discussing gun violence, but OpenAI, the company that owns ChatGPT, declined to contact law enforcement. Victims' families and the province of British Columbia subsequently filed more than thirty lawsuits against OpenAI, alleging that the shooting could have been prevented. \nAccording to the US criminal complaint unveiled on October 6, 2026, co-conspirator James Cody Bryant was in contact with Van Rootselaar in the minutes immediately after the home shooting, explaining to Van Rootselaar, \"who didn’t know how to drive,\" how to start the family's car in order to proceed to the high school to kill the other victims. A neighbour observed Van Rootselaar driving into a sno\nVan Rootselaar then went to Tumbler Ridge Secondary School and opened fire, first killing a victim in a stairwell. She killed five others in the school's library and fatally shot herself shortly after police arrived. At approximately 2:20 p.m. MST, RCMP received a report of an active shooter at the school, which is approximately 1.5 kilometres (0.93 mi) from the family home. An alarm in the school\nVan Rootselaar's YouTube profile picture featured an anime-style mascot and a rifle set against a pink-and-white-striped background. A TikTok account, which used the same profile image under the username \"jessestrangg\", featured multiple reposted videos of the transgender mass shooter who killed six people at a Christian school in Nashville in 2023. In a social media post in c. 2022, Van Rootselaa\nRCMP superintendent Ken Floyd stated at a press conference the day of the shooting that they were investigating how the shooter was connected to the victims. McDonald said in a February 11 press conference that police believed that Van Rootselaar had acted alone, and that they had not found a note or other communication from the shooter. Police recovered a long gun and a modified rifle from the sc"
   },
   {
    "role": "assistant",
-   "content": null,
-   "refusal": null,
-   "reasoning": null,
-   "tool_calls": [
-    {
-     "type": "function",
-     "index": 0,
-     "id": "call_O1L9ATUYwJOxPg04ig6qSvt6",
-     "function": {
-      "name": "page_find",
-      "arguments": "{\"title\":\"2026 Tumbler Ridge shooting\",\"keywords\":\"deaths casualties fatalities\"}"
-     }
-    }
-   ]
-  },
-  {
-   "role": "tool",
-   "tool_call_id": "call_O1L9ATUYwJOxPg04ig6qSvt6",
-   "content": "keywords not found on the page"
-  },
-  {
-   "role": "assistant",
-   "content": null,
-   "refusal": null,
-   "reasoning": null,
-   "tool_calls": [
-    {
-     "type": "function",
-     "index": 0,
-     "id": "call_lKpFrBwB50xpUDKp3Ny2ItMD",
-     "function": {
-      "name": "web_search",
-      "arguments": "{\"query\":\"2026 Tumbler Ridge Secondary School shooting casualties deaths February\"}"
-     }
-    }
-   ]
-  },
-  {
-   "role": "tool",
-   "tool_call_id": "call_lKpFrBwB50xpUDKp3Ny2ItMD",
-   "content": "[List of school shootings in Canada] This chronological list of school shootings in Canada includes any school shootings in Canada that occurred at primary and secondary public or private schools, as well as colleges and universities, and on school buses. A \"school shooting\" is defined by this list as any discharge of a firearm on school grounds while students and staff are present for educational activities. Excluded from this list are the following: Incidents that occurred during wars Incidents that occurred as a result of police actions Suicides or suicide attempts involving only one person Shootings by school staff are covered. This list does not include other types of attacks, such as stabbings or bombings. | other articles: 2026, School shooting"
-  },
-  {
-   "role": "assistant",
-   "content": null,
-   "refusal": null,
-   "reasoning": null,
-   "tool_calls": [
-    {
-     "type": "function",
-     "index": 0,
-     "id": "call_jyMIHGC1jInnLG2DyUmdX8FK",
-     "function": {
-      "name": "tavily_search",
-      "arguments": "{\"query\":\"Tumbler Ridge Secondary School shooting February 2026 deaths\"}"
-     }
-    }
-   ]
-  },
-  {
-   "role": "tool",
-   "tool_call_id": "call_jyMIHGC1jInnLG2DyUmdX8FK",
-   "content": "[2026 Tumbler Ridge shooting - Wikipedia](https://en.wikipedia.org/wiki/2026_Tumbler_Ridge_shooting) | Date | February 10, 2026 (2026-02-10) c. 2:20 p.m. (MST; UTC-7) | | Attack type | School shooting mass shooting mass murder murder–suicide familicide | | Weapons | Two firearms recovered at the school: + Long gun + Modified rifle Shotgun (shooting in perpetrator's home) | | Deaths | 9 (2 at the perpetrator's home; 7 at the school, including the perpetrator) | | Injured | 27 | | Perpetrator | Jesse Van Rootselaar | | Motive | Under investigation | [...] Six people were found dead inside the sch\n[B.C. RCMP update details of mass shooting | CBC.ca](https://www.cbc.ca/player/play/video/9.7084023) RCMP are offering more information on a shooting incident in Tumbler Ridge, B.C., that has left 10 people dead, including the suspect. Victims were found at multiple locations including Tumbler Ridge Secondary School. (UPDATE FEB. 11, 2026 | RCMP on Wednesday provided an updated death toll for the mass shooting on Tuesday in Tumbler Ridge, B.C., saying that there were a total of nine dead, including the suspected shooter, not 10 as initially reported.) ## Related Stories [...] ## Related Stories\n[Canada school shooting updates: 9 dead, 27 wounded in BC’s Tumbler Ridge | Gun Violence News | Al Jazeera](https://www.aljazeera.com/news/liveblog/2026/2/11/canada-school-shooting-live-10-dead-in-british-columbias-tumbler-ridge) This screengrab of a video provided by local journalist Trent Ernst shows the middle school and high school building where a shooting took place, leaving at least nine people dead in the small town of Tumbler Ridge, British Columbia, on February 10, 2026. (Photo by Trent Ernst / AFP) / XGTY / RESTRICTED TO EDITORIAL USE - MANDATORY CREDIT Video Duration 01 minutes 20 seconds 01:20 Canadian police say 10 dead in British Columbia school shooting [...] By Lyndal Rowlands, Erin Hale and Urooba Jamal\n[Mass shooting in Tumbler Ridge, B.C., leaves 8 dead, including 6 children, and a nation in mourning | CBC](https://www.cbc.ca/news/canada/british-columbia/livestory/active-shooter-alert-tumbler-ridge-secondary-school-bc-live-updates-9.7083740) They are being remembered as sweet, vibrant children whose losses have left a hole in their families and the community. Leaders around the world have sent condolences to a nation where mass shootings are exceedingly rare. CORRECTION: Previous updates described one of the victims, Emmett Jacobs, as Jesse Van Rootselaar'"
-  },
-  {
-   "role": "assistant",
-   "content": "In the mass shooting at Tumbler Ridge Secondary School in British Columbia on February 10, 2026, a total of 9 people were killed. This includes 7 fatalities at the school and 2 at the perpetrator's home. The shooter, Jesse Van Rootselaar, was among the deceased. Additionally, 27 individuals were injured in the incident.\n\nFINAL: 9 deaths.",
+   "content": "On February 10, 2026, a mass shooting at Tumbler Ridge Secondary School in British Columbia resulted in the deaths of six people, in addition to the shooter, Jesse Van Rootselaar, who also took her own life. Therefore, the total number of people killed in the incident was eight.\n\nFINAL: 8 people killed",
    "refusal": null,
    "reasoning": null
   }

@@ -1,0 +1,24 @@
+{
+ "task": {
+  "id": "fresh-86",
+  "source": "fresh",
+  "question": "What was the surplus reported by the UK government in January 2026?",
+  "answer": "£30.4bn",
+  "evidence": "The UK government reports a surplus of £30.4bn in January, the highest monthly figure since records began.",
+  "page": "2026 in the United Kingdom",
+  "url": "https://en.wikipedia.org/wiki/2026_in_the_United_Kingdom",
+  "sonnet_answer": "The UK government reported a surplus of £15.4 billion in January 2026.",
+  "agent_ok": false
+ },
+ "answer": "FINAL: Unknown.",
+ "correct": false,
+ "cost": 7.199999999998874e-06,
+ "messages": [
+  {
+   "role": "assistant",
+   "content": "Unknown.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

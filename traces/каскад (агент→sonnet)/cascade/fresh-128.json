@@ -8,11 +8,11 @@
   "page": "2026 in sports",
   "url": "https://en.wikipedia.org/wiki/2026_in_sports"
  },
- "answer": "Unknown.",
- "correct": false,
- "cost": 0.000534150000000011,
- "escalated": true,
- "confidence": 0.0,
+ "answer": "Ryan Fox.",
+ "correct": true,
+ "cost": 0.0003151500000000418,
+ "escalated": false,
+ "confidence": 1.0,
  "agent_messages": [
   {
    "role": "system",
@@ -31,44 +31,22 @@
     {
      "type": "function",
      "index": 0,
-     "id": "call_AEQVmhP9AEr8UQapuLIse6il",
+     "id": "call_iSuxTD1aXdBOG3KbfXBdc0O9",
      "function": {
-      "name": "web_search",
-      "arguments": "{\"query\":\"2026 Open Championship winner Royal Birkdale\"}"
+      "name": "tavily_search",
+      "arguments": "{\"query\":\"2026 Open Championship winner Royal Birkdale July 2026\"}"
      }
     }
    ]
   },
   {
    "role": "tool",
-   "tool_call_id": "call_AEQVmhP9AEr8UQapuLIse6il",
-   "content": "[2026 Open Championship] The 2026 Open Championship, officially the 154th Open Championship, was a golf tournament played from 16–19 July 2026 at Royal Birkdale Golf Club. It was the 11th Open held at the club. Ryan Fox became the third New Zealander to win a golf major, winning by one stroke over Cameron Young. | other articles: Royal Birkdale Golf Club, The Open Championship"
+   "tool_call_id": "call_iSuxTD1aXdBOG3KbfXBdc0O9",
+   "content": "[2026 Open Championship - Wikipedia](https://en.wikipedia.org/wiki/2026_Open_Championship) The 2026 Open Championship, officially the 154th Open Championship, was a golf tournament played from 16–19 July 2026 at Royal Birkdale Golf Club. It was the 11th Open held at the club. Ryan Fox became the third New Zealander to win a golf major, winning by one stroke over Cameron Young. ## Course changes [edit] | | [...] [edit] Ryan Fox of New Zealand, who began the final round two shots behind Sam Burns, overcame a dramatic back nine to win the 2026 Open Championship at Royal Birkdale. Fox sho\n[2026 British Open Winner and Scores](https://www.golfcompendium.com/2023/07/2026-british-open.html) ### Search Golf Compendium # Golf Compendium ### 2026 British Open Winner and Scores Get link Facebook X Pinterest Email Other Apps The 2026 British Open was the 154th edition of this major championship of men's professional golf. Ryan Fox, after scoring 62 in the third round, birdied the final hole of the tournament to win by one stroke. Winner: Ryan Fox, 270 Where it was played: Royal Birkdale Golf Club, Southport, Merseyside, England Tournament dates: July 16-19, 2026 [...] Leader after first\n[The 154th Open at Royal Birkdale | The Open](https://www.theopen.com/royal-birkdale-154th-open) Ryan Fox lifts the Claret Jug after The 154th Open at Royal Birkdale. Royal Birkdale, 12-19 July 2026 # THE 154th OPEN ### Other Upcoming Venues grey-treatment-min Ryan Fox celebrates winning The 154th Open on the 18th green. ### Champion Golfer / Ryan Fox claims sensational triumph in The 154th Open. ### ROYAL BIRKDALE 2026 ### Royal Birkdale in Pictures\n[The 154th Open | 2026 Royal Birkdale Attendance Packages | PerryGolf](https://www.perrygolf.com/theopen/2026-royal-birkdale-british-golf-the-open-championship-packages.php) In 2026, the 154th Open returned to England where Royal Birkdale Club hosted The Open, sometimes referred to as the British Open or The Open Championship. Who won The Open in 2026? In 2026, Ryan Fox won The 154th Open at Royal Birkdale. ## Ready for your next golf adventure? From design to delivery, our team of highly experienced Golf Travel Experts will ensure that your trip is second to none. We always welcome the opportunity to assist you personally. Contact an expert [...] Following the succ\n[British Open 2026: Leaderboard, final results from Royal Birkdale - Golf Channel](https://www.golfchannel.com/pga-tour/news/british-open-2026-leaderboard-final-results-from-ro"
   },
   {
    "role": "assistant",
-   "content": null,
-   "refusal": null,
-   "reasoning": null,
-   "tool_calls": [
-    {
-     "type": "function",
-     "index": 0,
-     "id": "call_Pnx4UDxRrd2H7hPGuPwdcJ7v",
-     "function": {
-      "name": "page_find",
-      "arguments": "{\"title\":\"2026 Open Championship\",\"keywords\":\"winner, Royal Birkdale\"}"
-     }
-    }
-   ]
-  },
-  {
-   "role": "tool",
-   "tool_call_id": "call_Pnx4UDxRrd2H7hPGuPwdcJ7v",
-   "content": "The 2026 Open Championship, officially the 154th Open Championship, was a golf tournament played from 16–19 July 2026 at Royal Birkdale Golf Club. It was the 11th Open held at the club.\nSeventy-eight players made the cut which came at 141 (+1). Notables to miss the cut included 2022 champion Cameron Smith, 2026 PGA Championship winner Aaron Rai, 2026 U.S. Open winner Wyndham Clark, and Justin Rose, who finished as low amateur at the 1998 Open Championship, also held at Royal Birkdale. None of the ten amateurs in the field made the cut, which meant that the silver medal would not \nRyan Fox of New Zealand, who began the final round two shots behind Sam Burns, overcame a dramatic back nine to win the 2026 Open Championship at Royal Birkdale. Fox shot a two under 68 to finish at 10-under-par and claim his first major championship by one stroke over Cameron Young. Fox made four birdies in his final six holes, including a 12-foot birdie putt on the 18th, to become only the secon\nScottie Scheffler, the defending champion, mounted an early challenge alongside local favourite Tommy Fleetwood. Scheffler shot a three under 67 to finish at seven under, while Fleetwood carded a 68 to join him in fourth. Fleetwood, who grew up in nearby Southport, received strong support from the Royal Birkdale galleries but was unable to maintain his challenge after dropping shots during the mid\nFox's decisive moment came on the 18th. Tied with Young at nine under after birdieing the 16th, Fox drove into the centre of the fairway before hitting his approach to approximately 12 feet. Royal Birkdale's 18th had been the toughest hole of the championship, playing 161 strokes over par across the field, but Fox calmly rolled in the birdie putt to reach 10 under and win the Claret Jug. The victo"
-  },
-  {
-   "role": "assistant",
-   "content": "Ryan Fox of New Zealand won the 2026 Open Championship at Royal Birkdale, finishing with a score of 10-under-par, one stroke ahead of Cameron Young. FINAL: Ryan Fox",
+   "content": "Ryan Fox won the 2026 Open Championship at Royal Birkdale, held from July 16-19, 2026. He secured the victory by one stroke over Cameron Young. FINAL: Ryan Fox.",
    "refusal": null,
    "reasoning": null
   }

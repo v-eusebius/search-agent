@@ -1,0 +1,24 @@
+{
+ "task": {
+  "id": "fresh-119",
+  "source": "fresh",
+  "question": "What cities have resumed passenger services in May 2026?",
+  "answer": "Baku and Tbilisi",
+  "evidence": "26 May – Passenger servises resume between Baku and Tbilisi.",
+  "page": "2026 in rail transport",
+  "url": "https://en.wikipedia.org/wiki/2026_in_rail_transport",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "FINAL: Unknown.",
+ "correct": false,
+ "cost": 6.749999999999812e-06,
+ "messages": [
+  {
+   "role": "assistant",
+   "content": "Unknown.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

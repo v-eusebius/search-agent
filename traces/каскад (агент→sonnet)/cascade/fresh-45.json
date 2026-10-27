@@ -1,0 +1,56 @@
+{
+ "task": {
+  "id": "fresh-45",
+  "source": "fresh",
+  "question": "What type of aircraft crashed in Yalova Province, Turkey on August 13, 2026?",
+  "answer": "F-16 Fighting Falcon",
+  "evidence": "13 August – An F-16 Fighting Falcon of the Turkish Air Force crashes in Yalova Province. The pilot ejects safely.",
+  "page": "2026 in Turkey",
+  "url": "https://en.wikipedia.org/wiki/2026_in_Turkey",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "F-16 Fighting Falcon.",
+ "correct": true,
+ "cost": 0.0003367499999999968,
+ "escalated": false,
+ "confidence": 0.9,
+ "agent_messages": [
+  {
+   "role": "system",
+   "content": "You answer questions about recent events (2025–2026). Never answer from memory: use web_search (and tavily_search if available) to find the right article, then page_find to look inside long articles such as '2026 in <country or field>' for the specific fact. Do not repeat the same call. When done, write the last line as FINAL: <short answer>."
+  },
+  {
+   "role": "user",
+   "content": "What type of aircraft crashed in Yalova Province, Turkey on August 13, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_rvtb5MQevJiofbOGRgZfkrJb",
+     "function": {
+      "name": "tavily_search",
+      "arguments": "{\"query\":\"aircraft crash Yalova Province Turkey August 13 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_rvtb5MQevJiofbOGRgZfkrJb",
+   "content": "[Turkish F-16 crashes during training flight in Yalova - Türkiye Today](https://www.turkiyetoday.com/nation/turkish-f-16-crashes-during-training-flight-in-yalova-3225953) YALOVA'DA EĞİTİM UÇUŞU SIRASINDA ARIZALANAN UÇAK DÜŞTÜ. PİLOTUN KAZADAN SAĞ KURTULDUĞU ÖĞRENİLDİ. (İHA/YALOVA-İHA) Yalova'da eğitim uçuşu sırasında arızalanan uçak düştü. Pilotun kazadan sağ kurtulduğu öğrenildi. The pilot was taken to Yalova Training and Research Hospital for treatment. The aircraft was stated to belong to the Ceylan Squadron of the Eskisehir 1st Main Jet Base. August 12, 2026 04:13 PM GMT+03:00 More From Türkiye Today [...] The aircraft was involved in an accident during a tra\n[A Turkish Air Force F-16 Fighting Falcon has crashed ...](https://www.facebook.com/aviation247/posts/a-turkish-air-force-f-16-fighting-falcon-has-crashed-during-a-routine-training-f/1530198489148219) On August 12, 2026, a Turkish Air Force F-16 crashed during a training flight in Yalova, Türkiye. The pilot managed to eject safely and survived\n[Turkish Air Force F-16 crashes during training flight in Yalova A ...](https://www.facebook.com/FL360aero/videos/-turkish-air-force-f-16-crashes-during-training-flight-in-yalovaa-turkish-air-fo/1389351599796398) ... August 12, 2026, in Türkiye's northwestern Yalova Province during a training flight. The pilot successfully ejected and survived the crash.\n[Accident General Dynamics F-16C , Wednesday 12 August ...](https://aviation-safety.net/wikibase/575913) A Turkish AF F-16 crashed in Yalova due to pilot error. The pilot flew the aircraft too low and struck trees, causing serious damage to the F-16\n[Instagram](https://www.instagram.com/p/Db8WgimDTm1) arabnews's profile picture Photo by Arab News on August 12, 2026. May be an image of helicopter. arabnews's profile picture arabnews's profile picture ## No comments yet. [...] Photo by Arab News on October 27, 2026. May be an image of text. Photo by Arab News on October 27, 2026. May be an image of text. [...] Video by Arab News on October 27, 2026. May be an image of text. Photo by Arab News on October 27, 2026. May be an image of magazine, dais and text. Video by Arab News on October 27, 2026"
+  },
+  {
+   "role": "assistant",
+   "content": "On August 12, 2026, a Turkish Air Force F-16 Fighting Falcon crashed during a training flight in Yalova Province, Turkey. The pilot successfully ejected and survived the incident. \n\nFINAL: F-16 Fighting Falcon.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

@@ -1,0 +1,24 @@
+{
+ "task": {
+  "id": "fresh-61",
+  "source": "fresh",
+  "question": "How many people were killed in the Daejeon factory fire in March 2026?",
+  "answer": "Fourteen",
+  "evidence": "20 March – Fourteen people are killed in a fire at a car parts factory in Daejeon.",
+  "page": "2026 in South Korea",
+  "url": "https://en.wikipedia.org/wiki/2026_in_South_Korea",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "FINAL: Unknown.",
+ "correct": false,
+ "cost": 0.00021000000000000012,
+ "messages": [
+  {
+   "role": "assistant",
+   "content": "Unknown.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

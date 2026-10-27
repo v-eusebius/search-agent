@@ -1,0 +1,76 @@
+{
+ "task": {
+  "id": "fresh-57",
+  "source": "fresh",
+  "question": "What is the name of the former President upheld with a 7-year prison sentence in July 2026?",
+  "answer": "Yoon Suk Yeol",
+  "evidence": "7 July – The Supreme Court upholds the 7-year prison sentence and 5-year suspended sentence for former President Yoon Suk Yeol, who was convicted on charges of inciting insurrection and interfering with official duties by ordering his security service to block the execution of a court warrant.",
+  "page": "2026 in South Korea",
+  "url": "https://en.wikipedia.org/wiki/2026_in_South_Korea",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "The former President upheld with a 7-year prison sentence in July 2026 is Yoon Suk Yeol. \n\nFINAL: Yoon Suk Yeol",
+ "correct": true,
+ "cost": 0.0004330500000000459,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You answer questions about recent events (2025–2026). Never answer from memory: use web_search (and tavily_search if available) to find the right article, then page_find to look inside long articles such as '2026 in <country or field>' for the specific fact. Do not repeat the same call. When done, write the last line as FINAL: <short answer>."
+  },
+  {
+   "role": "user",
+   "content": "What is the name of the former President upheld with a 7-year prison sentence in July 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_Eff8z5pLcvwPq0urq7bHB6ti",
+     "function": {
+      "name": "tavily_search",
+      "arguments": "{\"query\":\"former President 7-year prison sentence July 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_Eff8z5pLcvwPq0urq7bHB6ti",
+   "content": "[Top court upholds South Korean ex-president Yoon’s 7-year jail sentence | The Straits Times](https://www.straitstimes.com/asia/east-asia/south-koreas-supreme-court-upholds-lower-court-ruling-in-ex-president-yoons-obstruction-case) Straitstimes.com header logo # Top court upholds South Korean ex-president Yoon’s 7-year jail sentence Sign up now: Get insights on Asia's fast-moving developments Former South Korean president Yoon Suk Yeol was also sentenced to life in prison in February on charges of masterminding an insurrection tied to his martial law declaration. PHOTO: REUTERS Published Jul 09, 2026, 01:37 PM Updated Jul 09, 2026, 05:14 PM [...] SEOUL – South Korea’s highest court upheld former president Yoon Suk Yeol’s s\n[S. Korea Supreme Court upholds 7-year prison term for ex-President Yoon | The Asahi Shimbun: Breaking News, Japan News and Analysis](https://www.asahi.com/ajw/articles/16713732) > article # S. Korea Supreme Court upholds 7-year prison term for ex-President Yoon THE ASSOCIATED PRESS July 9, 2026 at 17:30 JST Share;) Tweet list Print;) Photo/Illutration South Korea's impeached President Yoon Suk Yeol attends a hearing of his impeachment trial at the Constitutional Court in Seoul on Feb. 11. (AP file Photo/ Pool) Photo/Illutration [...] Photo/Illutration SEOUL—South Korea’s Supreme Court on Thursday upheld a seven-year prison sentence for former President Yoon Suk Yeol in \n[South Korean court sentences ex-President Yoon to 7 years in prison | NPR Illinois](https://www.nprillinois.org/2026-04-29/south-korean-court-sentences-ex-president-yoon-to-7-years-in-prison) © 2026 NPR Illinois For your right to be curious. Donate Play Live Radio Next Up: 0:00 0:00 0:00 0:00 Available On Air Stations Click here to register to attend the This I Believe - Meet the Authors event Nov. 4, 6 PM at the Abraham Lincoln Presidential Library. Free and open to the public. # South Korean court sentences ex-President Yoon to 7 years in prison NPR | By The Associated Press Published April 29, 2026 at 5:49 AM CDT Facebook LinkedIn Pinterest Email Print) [...] A supporter of former\n[South Korean court sentences ex-President Yoon to 7 years in prison : NPR](https://www.npr.org/2026/04/29/g-s1-119165/south-korean-court-sentences-ex-president-yoon) A supporter of former South Korean President Yoon Suk Yeol holds up his portrait during a rally outside of the Seoul High Court in Seoul, South Korea, Wednesday, April 29, 2026. A supporter of former South Korean President Yoo"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_l472KXi9Ok4YRJICvmqxQro8",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"2026 in South Korea\",\"keywords\":\"former President, 7-year prison sentence, Yoon Suk Yeol\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_l472KXi9Ok4YRJICvmqxQro8",
+   "content": "Former president Yoon Suk Yeol is convicted and sentenced to five years' imprisonment on charges of abuse of power, obstruction of justice and falsification of documents in one of four trials relating to the 2024 South Korean martial law crisis.\n21 January – Former prime minister Han Duck-soo is convicted and sentenced to 23 years' imprisonment on charges relating to the 2024 South Korean martial law crisis.\n12 February – Former interior minister Lee Sang-min is convicted and sentenced to seven years' imprisonment on charges relating to the 2024 South Korean martial law crisis.\n19 February – Former president Yoon Suk Yeol is convicted and sentenced to life imprisonment for insurrection relating to the 2024 South Korean martial law crisis.\n29 April – The Seoul High Court sentences former president Yoon Suk Yeol to seven years' imprisonment on charges related to the 2024 South Korean martial law crisis.\n12 June – Former president Yoon Suk Yeol is sentenced to 30 years' imprisonment for sending drones into North Korea as part of efforts to stage provocations to justify the imposition of martial law in 2024."
+  },
+  {
+   "role": "assistant",
+   "content": "The former President upheld with a 7-year prison sentence in July 2026 is Yoon Suk Yeol. \n\nFINAL: Yoon Suk Yeol",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

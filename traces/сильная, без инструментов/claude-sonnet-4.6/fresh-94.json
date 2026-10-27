@@ -1,0 +1,24 @@
+{
+ "task": {
+  "id": "fresh-94",
+  "source": "fresh",
+  "question": "What position did France's Monroe finish at Eurovision 2026 in Austria?",
+  "answer": "11th",
+  "evidence": "16 May – France's Monroe finishes 11th at Eurovision 2026 in Austria with their single \"Regarde!\".",
+  "page": "2026 in France",
+  "url": "https://en.wikipedia.org/wiki/2026_in_France",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "FINAL: Unknown.",
+ "correct": false,
+ "cost": 0.0002009999999999998,
+ "messages": [
+  {
+   "role": "assistant",
+   "content": "Unknown.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

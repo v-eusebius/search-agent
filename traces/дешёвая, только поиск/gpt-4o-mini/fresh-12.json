@@ -10,9 +10,9 @@
   "sonnet_answer": "unknown",
   "agent_ok": true
  },
- "answer": "К сожалению, у меня нет точных данных о числе детей, получающих поддержку для специальных образовательных нужд и инвалидностей в Великобритании в январе 2026 года. Рекомендую обратиться к официальным отчетам правительства или образовательным учреждениям для получения актуальной информации. \n\nFINAL: Неизвестно.",
+ "answer": "К сожалению, данные о конкретных цифрах детей с особыми образовательными потребностями и инвалидностью в Соединенном Королевстве на январь 2026 года в данный момент недоступны через web_search. Поэтому я не могу предоставить ответ на этот вопрос. \n\nFINAL: Нет данных.",
  "correct": false,
- "cost": 0.001411649999999997,
+ "cost": 0.0013684500000000002,
  "messages": [
   {
    "role": "system",
@@ -31,18 +31,18 @@
     {
      "type": "function",
      "index": 0,
-     "id": "call_whDSEHsz5WaiCY5buLmD52eq",
+     "id": "call_UcR0eE0AXKffhoADuNKvAlye",
      "function": {
       "name": "web_search",
-      "arguments": "{\"query\":\"number of children receiving support for special educational needs and disabilities in the UK January 2026\"}"
+      "arguments": "{\"query\":\"number of children receiving support for special educational needs and disabilities United Kingdom January 2026\"}"
      }
     }
    ]
   },
   {
    "role": "tool",
-   "tool_call_id": "call_whDSEHsz5WaiCY5buLmD52eq",
-   "content": "[Special education] Special education, also called SPED, special ed, aided education, alternative provision, exceptional student education, or special day class (SDC), is the practice of educating students in a way that accommodates their individual differences, disabilities, and special needs. This involves the individually planned and systematically monitored arrangement of teaching procedures, adapted equipment and materials, and accessible settings. These interventions are designed to help individuals with special needs achieve a higher level of personal self-sufficiency and success in school and in their community. This may not be available if the student were only given access to a typical classroom education. Special education aims to provide accommodated education for students with disabilities such as learning disabilities or difficulties (such as dyslexia), communication disorders, emotional and behavioral disorders, physical disabilities (such as osteogenesis imperfecta, down syndrome, and muscular dystrophy), developmental disabilities (such as autism spectrum disorder, and intellectual disabilities) and other disabilities. Students with disabilities are likely to benefit from additional educational services such as different approaches to teaching, the use of technology, a specifically adapted teaching area, a resource room, or a separate classroom altogether. In the Western world, educators modify teaching methods, curriculum materials, and environments so that the maximum number o | other articles: Special education in the United Kingdom, Learning disability"
+   "tool_call_id": "call_UcR0eE0AXKffhoADuNKvAlye",
+   "content": "[Special education in the United Kingdom] Special education in the United Kingdom, as an aspect of education, is a devolved matter, with each of the countries of the United Kingdom having separate systems under separate governments. The UK Government is responsible for England, whilst the Scottish Government, the Welsh Government and the Northern Ireland Executive are responsible for Scotland, Wales and Northern Ireland, respectively. Special education in Scotland is formally known as Additional Support Needs (ASN) or Additional Support for Learning (ASL) whereas in England it is usually referred to as 'Special educational needs' ('SEN'), or 'special educational needs and disabilities' ('SEND'). | other articles: Special education, 2026 in the United Kingdom"
   },
   {
    "role": "assistant",
@@ -53,18 +53,18 @@
     {
      "type": "function",
      "index": 0,
-     "id": "call_kRlqR8ssthBHiPY7R5FGxfBa",
+     "id": "call_DgqLt2iWaDUqSZZjkxMeNVeX",
      "function": {
       "name": "web_search",
-      "arguments": "{\"query\":\"UK special educational needs children statistics January 2026\"}"
+      "arguments": "{\"query\":\"2026 in the United Kingdom education special educational needs and disabilities statistics\"}"
      }
     }
    ]
   },
   {
    "role": "tool",
-   "tool_call_id": "call_kRlqR8ssthBHiPY7R5FGxfBa",
-   "content": "[Special education] Special education, also called SPED, special ed, aided education, alternative provision, exceptional student education, or special day class (SDC), is the practice of educating students in a way that accommodates their individual differences, disabilities, and special needs. This involves the individually planned and systematically monitored arrangement of teaching procedures, adapted equipment and materials, and accessible settings. These interventions are designed to help individuals with special needs achieve a higher level of personal self-sufficiency and success in school and in their community. This may not be available if the student were only given access to a typical classroom education. Special education aims to provide accommodated education for students with disabilities such as learning disabilities or difficulties (such as dyslexia), communication disorders, emotional and behavioral disorders, physical disabilities (such as osteogenesis imperfecta, down syndrome, and muscular dystrophy), developmental disabilities (such as autism spectrum disorder, and intellectual disabilities) and other disabilities. Students with disabilities are likely to benefit from additional educational services such as different approaches to teaching, the use of technology, a specifically adapted teaching area, a resource room, or a separate classroom altogether. In the Western world, educators modify teaching methods, curriculum materials, and environments so that the maximum number o | other articles: 2026 in the United Kingdom, 2025–2026 Iranian protests"
+   "tool_call_id": "call_DgqLt2iWaDUqSZZjkxMeNVeX",
+   "content": "[Special needs] In clinical diagnostic and functional development, special needs (or additional needs) refers to individuals who require assistance for disabilities that may be medical, mental, or psychological. Guidelines for clinical diagnosis are given in both the Diagnostic and Statistical Manual of Mental Disorders and the International Classification of Diseases 9th edition. Special needs can range from people with autism, cerebral palsy, Down syndrome, dyslexia, dyscalculia, dyspraxia, dysgraphia, blindness, deafness, ADHD, and cystic fibrosis. They can also include cleft lips and missing limbs. The types of special needs vary in severity, and a student with a special need is classified as being a severe case when the student's IQ is between 20 and 35. These students typically need assistance in school, and have different services provided for them to succeed in a different setting. In parts of the United Kingdom, special needs usually refers to special needs within an educational context. This is also referred to as special educational needs (SEN) or special educational needs and disabilities (SEND), additional support needs in Scotland, and in Wales is referred to as additional learning needs (ALN, Welsh: Anghenion Dysgu Ychwanegol, ADY) since 2021. In the United States, 19.4 percent of all children under the age of 18 (14,233,174 children) had special health care needs as of 2018. The term is seen as a dysphemism by many disability rights advocates and is deprecated by a number of  | other articles: Special education, 2026 in the United Kingdom"
   },
   {
    "role": "assistant",
@@ -75,18 +75,18 @@
     {
      "type": "function",
      "index": 0,
-     "id": "call_7gA3s3PjT4Pq5eGYl8arDqmk",
+     "id": "call_TtenYFpw2DsRkH9Ox2FGW2dk",
      "function": {
       "name": "web_search",
-      "arguments": "{\"query\":\"current statistics children special educational needs disabilities UK January 2026\"}"
+      "arguments": "{\"query\":\"SEND children statistics January 2026 UK\"}"
      }
     }
    ]
   },
   {
    "role": "tool",
-   "tool_call_id": "call_7gA3s3PjT4Pq5eGYl8arDqmk",
-   "content": "[Special education] Special education, also called SPED, special ed, aided education, alternative provision, exceptional student education, or special day class (SDC), is the practice of educating students in a way that accommodates their individual differences, disabilities, and special needs. This involves the individually planned and systematically monitored arrangement of teaching procedures, adapted equipment and materials, and accessible settings. These interventions are designed to help individuals with special needs achieve a higher level of personal self-sufficiency and success in school and in their community. This may not be available if the student were only given access to a typical classroom education. Special education aims to provide accommodated education for students with disabilities such as learning disabilities or difficulties (such as dyslexia), communication disorders, emotional and behavioral disorders, physical disabilities (such as osteogenesis imperfecta, down syndrome, and muscular dystrophy), developmental disabilities (such as autism spectrum disorder, and intellectual disabilities) and other disabilities. Students with disabilities are likely to benefit from additional educational services such as different approaches to teaching, the use of technology, a specifically adapted teaching area, a resource room, or a separate classroom altogether. In the Western world, educators modify teaching methods, curriculum materials, and environments so that the maximum number o | other articles: Intellectual disability, Developmental disability"
+   "tool_call_id": "call_TtenYFpw2DsRkH9Ox2FGW2dk",
+   "content": "[2026 in the United Kingdom] Events from the year 2026 in the United Kingdom. | other articles: 2025–2026 Iranian protests, 2026 Ebola epidemic"
   },
   {
    "role": "assistant",
@@ -97,18 +97,18 @@
     {
      "type": "function",
      "index": 0,
-     "id": "call_jNkbn9jClb8IVAJsxRQX4j5S",
+     "id": "call_PUEZEYn93yGgIrlBziCrJY56",
      "function": {
       "name": "web_search",
-      "arguments": "{\"query\":\"UK children special educational needs statistics 2026\"}"
+      "arguments": "{\"query\":\"UK number of children with special educational needs and disabilities January 2026\"}"
      }
     }
    ]
   },
   {
    "role": "tool",
-   "tool_call_id": "call_jNkbn9jClb8IVAJsxRQX4j5S",
-   "content": "[Special education] Special education, also called SPED, special ed, aided education, alternative provision, exceptional student education, or special day class (SDC), is the practice of educating students in a way that accommodates their individual differences, disabilities, and special needs. This involves the individually planned and systematically monitored arrangement of teaching procedures, adapted equipment and materials, and accessible settings. These interventions are designed to help individuals with special needs achieve a higher level of personal self-sufficiency and success in school and in their community. This may not be available if the student were only given access to a typical classroom education. Special education aims to provide accommodated education for students with disabilities such as learning disabilities or difficulties (such as dyslexia), communication disorders, emotional and behavioral disorders, physical disabilities (such as osteogenesis imperfecta, down syndrome, and muscular dystrophy), developmental disabilities (such as autism spectrum disorder, and intellectual disabilities) and other disabilities. Students with disabilities are likely to benefit from additional educational services such as different approaches to teaching, the use of technology, a specifically adapted teaching area, a resource room, or a separate classroom altogether. In the Western world, educators modify teaching methods, curriculum materials, and environments so that the maximum number o | other articles: Special interest (autism), 2026 in the United Kingdom"
+   "tool_call_id": "call_PUEZEYn93yGgIrlBziCrJY56",
+   "content": "[Special education] Special education, also called SPED, special ed, aided education, alternative provision, exceptional student education, or special day class (SDC), is the practice of educating students in a way that accommodates their individual differences, disabilities, and special needs. This involves the individually planned and systematically monitored arrangement of teaching procedures, adapted equipment and materials, and accessible settings. These interventions are designed to help individuals with special needs achieve a higher level of personal self-sufficiency and success in school and in their community. This may not be available if the student were given only access to typical classroom education. Special education aims to provide accommodated education for students with disabilities such as learning disabilities or difficulties (such as dyslexia), communication disorders, emotional and behavioral disorders, physical disabilities (such as osteogenesis imperfecta, down syndrome, and muscular dystrophy), developmental disabilities (such as autism spectrum disorder, and intellectual disabilities) and other disabilities. Students with disabilities are likely to benefit from additional educational services such as different approaches to teaching, the use of technology, a specifically adapted teaching area, a resource room, or a separate classroom altogether. In the Western world, educators modify teaching methods, curriculum materials, and environments so that the maximum number of  | other articles: Special education in the United Kingdom, Learning disability"
   },
   {
    "role": "assistant",
@@ -119,18 +119,18 @@
     {
      "type": "function",
      "index": 0,
-     "id": "call_MB8q5zKGpnuZWqeycTqoNXde",
+     "id": "call_vtL06vSLjxznvRgD0Tfwtz8u",
      "function": {
       "name": "web_search",
-      "arguments": "{\"query\":\"2026 UK special educational needs children statistics January 2026\"}"
+      "arguments": "{\"query\":\"number of children with special educational needs disabilities 2026 UK statistics\"}"
      }
     }
    ]
   },
   {
    "role": "tool",
-   "tool_call_id": "call_MB8q5zKGpnuZWqeycTqoNXde",
-   "content": "[2026 in the United Kingdom] Events from the year 2026 in the United Kingdom. | other articles: 2025–2026 Iranian protests, Special education"
+   "tool_call_id": "call_vtL06vSLjxznvRgD0Tfwtz8u",
+   "content": "[Special education] Special education, also called SPED, special ed, aided education, alternative provision, exceptional student education, or special day class (SDC), is the practice of educating students in a way that accommodates their individual differences, disabilities, and special needs. This involves the individually planned and systematically monitored arrangement of teaching procedures, adapted equipment and materials, and accessible settings. These interventions are designed to help individuals with special needs achieve a higher level of personal self-sufficiency and success in school and in their community. This may not be available if the student were given only access to typical classroom education. Special education aims to provide accommodated education for students with disabilities such as learning disabilities or difficulties (such as dyslexia), communication disorders, emotional and behavioral disorders, physical disabilities (such as osteogenesis imperfecta, down syndrome, and muscular dystrophy), developmental disabilities (such as autism spectrum disorder, and intellectual disabilities) and other disabilities. Students with disabilities are likely to benefit from additional educational services such as different approaches to teaching, the use of technology, a specifically adapted teaching area, a resource room, or a separate classroom altogether. In the Western world, educators modify teaching methods, curriculum materials, and environments so that the maximum number of  | other articles: Intellectual disability, Developmental disability"
   },
   {
    "role": "assistant",
@@ -141,18 +141,18 @@
     {
      "type": "function",
      "index": 0,
-     "id": "call_5oaqQWuKT7WN5UsZXqaaQsf0",
+     "id": "call_rIGGqLuj35vOFIZLQQqgLzuE",
      "function": {
       "name": "web_search",
-      "arguments": "{\"query\":\"latest statistics children with special educational needs in UK January 2026\"}"
+      "arguments": "{\"query\":\"UK children with special needs statistics January 2026\"}"
      }
     }
    ]
   },
   {
    "role": "tool",
-   "tool_call_id": "call_5oaqQWuKT7WN5UsZXqaaQsf0",
-   "content": "[2026 in the United Kingdom] Events from the year 2026 in the United Kingdom. | other articles: 2025–2026 Iranian protests, Autism"
+   "tool_call_id": "call_rIGGqLuj35vOFIZLQQqgLzuE",
+   "content": "[Special education] Special education, also called SPED, special ed, aided education, alternative provision, exceptional student education, or special day class (SDC), is the practice of educating students in a way that accommodates their individual differences, disabilities, and special needs. This involves the individually planned and systematically monitored arrangement of teaching procedures, adapted equipment and materials, and accessible settings. These interventions are designed to help individuals with special needs achieve a higher level of personal self-sufficiency and success in school and in their community. This may not be available if the student were given only access to typical classroom education. Special education aims to provide accommodated education for students with disabilities such as learning disabilities or difficulties (such as dyslexia), communication disorders, emotional and behavioral disorders, physical disabilities (such as osteogenesis imperfecta, down syndrome, and muscular dystrophy), developmental disabilities (such as autism spectrum disorder, and intellectual disabilities) and other disabilities. Students with disabilities are likely to benefit from additional educational services such as different approaches to teaching, the use of technology, a specifically adapted teaching area, a resource room, or a separate classroom altogether. In the Western world, educators modify teaching methods, curriculum materials, and environments so that the maximum number of  | other articles: 2026 in the United Kingdom, 2025–2026 Iranian protests"
   },
   {
    "role": "assistant",
@@ -163,18 +163,18 @@
     {
      "type": "function",
      "index": 0,
-     "id": "call_PPH0F1jVANoFf1ifPEjjSqJk",
+     "id": "call_Gc3PescXcYIu8KeMrKGql8ij",
      "function": {
       "name": "web_search",
-      "arguments": "{\"query\":\"UK special educational needs children demographics January 2026\"}"
+      "arguments": "{\"query\":\"UK education statistics January 2026 special educational needs\"}"
      }
     }
    ]
   },
   {
    "role": "tool",
-   "tool_call_id": "call_PPH0F1jVANoFf1ifPEjjSqJk",
-   "content": "[Demographics of Bulgaria] The demography of the Republic of Bulgaria is monitored by the National Statistical Institute of Bulgaria. Demographic features of the population of Bulgaria include population density, ethnicity, education level, health of the populace, economic status, religious affiliations and others. The population of Bulgaria was around 6.4 million in 2024. In 2023, Bulgaria had a Human Development Index of 0.845, which corresponds to \"very high human development\", ranking 55th in the world together with neighbouring Romania, was designated as a \"High-income economy\" by the World Bank, with a GNI per capita of $15,320, as of 2024, and was awarded the 38th position in Newsweek's rankings of the world's best countries to live in, measuring health, education, political environment and economic dynamism in 2010. | other articles: Gaza genocide, Education"
+   "tool_call_id": "call_Gc3PescXcYIu8KeMrKGql8ij",
+   "content": "[Special education] Special education, also called SPED, special ed, aided education, alternative provision, exceptional student education, or special day class (SDC), is the practice of educating students in a way that accommodates their individual differences, disabilities, and special needs. This involves the individually planned and systematically monitored arrangement of teaching procedures, adapted equipment and materials, and accessible settings. These interventions are designed to help individuals with special needs achieve a higher level of personal self-sufficiency and success in school and in their community. This may not be available if the student were given only access to typical classroom education. Special education aims to provide accommodated education for students with disabilities such as learning disabilities or difficulties (such as dyslexia), communication disorders, emotional and behavioral disorders, physical disabilities (such as osteogenesis imperfecta, down syndrome, and muscular dystrophy), developmental disabilities (such as autism spectrum disorder, and intellectual disabilities) and other disabilities. Students with disabilities are likely to benefit from additional educational services such as different approaches to teaching, the use of technology, a specifically adapted teaching area, a resource room, or a separate classroom altogether. In the Western world, educators modify teaching methods, curriculum materials, and environments so that the maximum number of  | other articles: Educational inequality, Education"
   },
   {
    "role": "user",
@@ -182,7 +182,7 @@
   },
   {
    "role": "assistant",
-   "content": "К сожалению, у меня нет точных данных о числе детей, получающих поддержку для специальных образовательных нужд и инвалидностей в Великобритании в январе 2026 года. Рекомендую обратиться к официальным отчетам правительства или образовательным учреждениям для получения актуальной информации. \n\nFINAL: Неизвестно.",
+   "content": "К сожалению, данные о конкретных цифрах детей с особыми образовательными потребностями и инвалидностью в Соединенном Королевстве на январь 2026 года в данный момент недоступны через web_search. Поэтому я не могу предоставить ответ на этот вопрос. \n\nFINAL: Нет данных.",
    "refusal": null,
    "reasoning": null
   }

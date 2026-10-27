@@ -1,0 +1,54 @@
+{
+ "task": {
+  "id": "fresh-22",
+  "source": "fresh",
+  "question": "In animation, what is the name of the indie animated series created by Matt Braly that was fully funded on March 17, 2026?",
+  "answer": "Clara and the Below",
+  "evidence": "March 17: The Kickstarter campaign for Amphibia creator Matt Braly's indie animated series Clara and the Below was fully funded within 15 minutes of launching.",
+  "page": "2026 in animation",
+  "url": "https://en.wikipedia.org/wiki/2026_in_animation",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "Perfect! I found the information. The indie animated series created by Matt Braly that was fully funded on March 17, 2026 is **Clara and the Below** (also written as \"Clara & The Below\").\n\nFINAL: Clara and the Below",
+ "correct": true,
+ "cost": 0.004608000000000001,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You answer questions about recent events (2025–2026). Never answer from memory: use web_search (and tavily_search if available) to find the right article, then page_find to look inside long articles such as '2026 in <country or field>' for the specific fact. Do not repeat the same call. When done, write the last line as FINAL: <short answer>."
+  },
+  {
+   "role": "user",
+   "content": "In animation, what is the name of the indie animated series created by Matt Braly that was fully funded on March 17, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "I'll search for information about Matt Braly's indie animated series that was fully funded on March 17, 2026.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01HkczE19H24zhypYTLEZGQk",
+     "function": {
+      "name": "tavily_search",
+      "arguments": "{\"query\": \"Matt Braly indie animated series funded March 17 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01HkczE19H24zhypYTLEZGQk",
+   "content": "[Matt Braly - Wikipedia](https://en.wikipedia.org/wiki/Matt_Braly) On February 11, 2026, Braly announced that he founded his own animation studio, Fantasy Project. Its first project would be Clara and the Below, a gothic horror adaptation of The Nutcracker, with a crowdfunding campaign on Kickstarter. On March 17, 2026, Braly launched a Kickstarter for the series, with a goal of funding a single episode which was 6-10 minutes for a cost of $25,000. After less than a week, it earned \"more than ten times\" that target amount, at over $231,000 by March 23, 2026. [.\n[(Crowdfunding) Clara & The Below - by Matt Braly](https://www.resetera.com/threads/crowdfunding-clara-the-below-by-matt-braly.1465516) date Mar 17, 2026 … this animated mini-series (4 episodes) based on The Nutcracker and titled Clara & the Below. Mar 17, 2026 #2 funded almost\n[Kickstarter campaign for \"Clara & the Below\" by Matt Braly ...](https://www.facebook.com/catsuka.nolife/videos/kickstarter-campaign-for-clara-the-below-by-matt-braly-amphibia-his-new-indie-st/1467146104789223) Amphibia creator Matt Braly's next animated project titled Clara and The Below was fully funded on Kickstarter in under 15 minutes! The indie\n[Indie Animation Gets Another HUGE Win](https://www.youtube.com/watch?v=6RBpazb3twM) # Indie Animation Gets Another HUGE Win ## Channel: Vailskibum (verified) 1.29M subscribers 9K likes ### Description 130,378 views Posted: 2026-02-12 After Sony Pictures Animation cancelled Amphibia creator Matt Braly and Steven Universe creator Rebecca Sugar's animated movie, Matt decided to move on with something special. He just announced his new independent cartoon and animation studio. Let's support it all! KICKSTARTER: SOURCES: [...] My videos are produced with the editor Camtasia Studio 2\n[Matt Braly Launches Indie Studio To Self-Produce Animated Short](https://www.cartoonbrew.com/animators/matt-braly-fantasy-project-clara-and-the-below-259461.html) “I’m a huge Genndy Tartakovsky fan,” he said, citing Samurai Jack as a major inspiration. “We want creaky floorboards and quiet moments and drifting snow.” Clara and the Below gif That visual emphasis also reflects something he feels has been lost in modern animation production. “Animation in 2026 has never been chattier. Everything is so dialogue-driven,” Braly astutely pointed out. [...] Matt Braly AI Braly made his stance on AI artwork clear in this doodle, which he requested appear in the ar"
+  },
+  {
+   "role": "assistant",
+   "content": "Perfect! I found the information. The indie animated series created by Matt Braly that was fully funded on March 17, 2026 is **Clara and the Below** (also written as \"Clara & The Below\").\n\nFINAL: Clara and the Below",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

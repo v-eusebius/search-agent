@@ -1,0 +1,54 @@
+{
+ "task": {
+  "id": "fresh-100",
+  "source": "fresh",
+  "question": "What maximum distance did the crew of Artemis II reach from Earth on April 6, 2026?",
+  "answer": "252,756 miles",
+  "evidence": "April 6 – The crew of Artemis II breaks the record for the furthest humans have ever been from Earth, reaching a maximum distance of 252,756 miles (406,771 km) as they travel around the far side of the Moon.",
+  "page": "2026",
+  "url": "https://en.wikipedia.org/wiki/2026",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "Perfect! I found the information. According to the search results, on April 6, 2026, the Artemis II crew reached their maximum distance from Earth during their mission.\n\nFINAL: The Artemis II crew reached a maximum distance of 252,737 miles (406,740 kilometers) from Earth's surface on April 6, 2026, which broke the Apollo 13 record that had stood for 56 years.",
+ "correct": false,
+ "cost": 0.004781999999999953,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You answer questions about recent events (2025–2026). Never answer from memory: use web_search (and tavily_search if available) to find the right article, then page_find to look inside long articles such as '2026 in <country or field>' for the specific fact. Do not repeat the same call. When done, write the last line as FINAL: <short answer>."
+  },
+  {
+   "role": "user",
+   "content": "What maximum distance did the crew of Artemis II reach from Earth on April 6, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "I'll search for information about Artemis II and what happened on April 6, 2026.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01HajpA1GZz3J5gLd6zweCZ6",
+     "function": {
+      "name": "tavily_search",
+      "arguments": "{\"query\": \"Artemis II April 6 2026 distance Earth\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01HajpA1GZz3J5gLd6zweCZ6",
+   "content": "[Artemis II - Wikipedia](https://en.wikipedia.org/wiki/Artemis_II) | Flyby of Moon | | Closest approach | April 6, 2026, 23:00 UTC | | Distance | 4,067 mi (6,545 km; 3,534 nmi) | | | | Mission insignia Official crew portrait, clockwise from left: Koch, Glover, Hansen and Wiseman Artemis program ← Artemis I Artemis III → | [...] \"), where lunar gravity became the dominant force shaping its trajectory. Orion flew around the Moon at a closest approach of about 4,067 miles (6,545 km; 3,534 nmi) from the far-side lunar surface at 23:00 UTC on April 6. Its farthest d\n[NASA SVS | Simulating the Artemis II Lunar Flyby on April 6, 2026](https://svs.gsfc.nasa.gov/5633) At their much higher altitude, the Artemis II crew will be able to see the entire disk of the Moon throughout their flyby. The virtual camera's short focal length approximates this view, which at PC is roughly equivalent to a basketball held at arm's length. At their farthest point from Earth, the crew will be 406,740 kilometers (252,737 miles) above the Earth's surface, surpassing a record held for 56 years by Apollo 13 at 400,073 kilometers (248,647 miles). And they will be traveling hundreds \n[Artemis II crew completes record-breaking trip around the moon and sees \"unreal\" solar eclipse](https://www.cbsnews.com/live-updates/artemis-moon-lunar-flyby) Artemis II is more than 245,400 miles from Earth, and less than 18,400 miles from the moon, NASA's real-time tracker showed late Monday morning. The tracker's latest update shows the Orion spacecraft speeding toward the moon at a velocity of 1,147 miles per hour. At this point, Earth looks like a dark sphere hovering behind it. artemis-tracker.jpg ## NASA says crew is awake and preparing for today's lunar flyby [...] ## Artemis comes back into contact The Orion capsule has reemerged from behind \n[NASA Answers Your Most Pressing Artemis II Questions - NASA](https://www.nasa.gov/missions/nasa-answers-your-most-pressing-artemis-ii-questions) How far will Artemis II travel? Crew is expected to travel a total of 695,081 miles from launch to splashdown. The spacecraft will pass within 4,070 miles of the lunar surface during its closest approach and will reach a maximum distance of 252,760 miles from Earth, about 4,105 miles farther than Apollo 13. When and where will the Artemis II crew and Orion spacecraft splashdown? [...] IMG_0173.DNG Editor’s Note: This article was updated at 5:50 p.m. EDT on Monday, April 6, 2026, to update the ti\n[It's official: Artemis"
+  },
+  {
+   "role": "assistant",
+   "content": "Perfect! I found the information. According to the search results, on April 6, 2026, the Artemis II crew reached their maximum distance from Earth during their mission.\n\nFINAL: The Artemis II crew reached a maximum distance of 252,737 miles (406,740 kilometers) from Earth's surface on April 6, 2026, which broke the Apollo 13 record that had stood for 56 years.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

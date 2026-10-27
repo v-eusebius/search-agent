@@ -1,0 +1,76 @@
+{
+ "task": {
+  "id": "fresh-49",
+  "source": "fresh",
+  "question": "What was the sentence given to Asiya Andrabi in India on March 24, 2026?",
+  "answer": "life imprisonment",
+  "evidence": "24 March – A special NIA court sentences Kashmiri separatist Asiya Andrabi to life imprisonment for her involvement in terrorist activities in Kashmir.",
+  "page": "2026 in India",
+  "url": "https://en.wikipedia.org/wiki/2026_in_India",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "On March 24, 2026, Asiya Andrabi, a Kashmiri separatist leader, was sentenced to life imprisonment by a special NIA court for her involvement in terrorist activities in Kashmir. This sentence also included multiple concurrent sentences under various sections of the Unlawful Activities Prevention Act (UAPA) and the Indian Penal Code (IPC). \n\nFINAL: Life imprisonment for Asiya Andrabi.",
+ "correct": true,
+ "cost": 0.00043874999999982123,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You answer questions about recent events (2025–2026). Never answer from memory: use web_search (and tavily_search if available) to find the right article, then page_find to look inside long articles such as '2026 in <country or field>' for the specific fact. Do not repeat the same call. When done, write the last line as FINAL: <short answer>."
+  },
+  {
+   "role": "user",
+   "content": "What was the sentence given to Asiya Andrabi in India on March 24, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_NQf5NpT0pvLrnL6HP8aNVv5i",
+     "function": {
+      "name": "tavily_search",
+      "arguments": "{\"query\":\"Asiya Andrabi sentence March 24 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_NQf5NpT0pvLrnL6HP8aNVv5i",
+   "content": "[A sentence for belief: How an Indian court jailed Asiya Andrabi for life — and what the order reveals - Muslim Network TV](https://www.muslimnetwork.tv/a-sentence-for-belief-how-an-indian-court-jailed-asiya-andrabi-for-life-and-what-the-order-reveals) Skip to content — On March 24, 2026, Additional Sessions Judge Chander Jit Singh of the Karkardooma Courts in Delhi sentenced Kashmiri pro-freedom activist Asiya Andrabi to life imprisonment on two counts — under Section 18 of the UAPA and Section 120-B of the IPC — along with concurrent sentences of ten years each under Sections 38 and 39 UAPA, five years each under Sections 153-A, 153-B, and 505 IPC, and a further life term under Section 121-A IPC. [...] Previous post India sentences Asiya And\n[Delhi court sentences Kashmiri separatist Asiya Andrabi to life imprisonment - The Hindu](https://www.thehindu.com/news/national/delhi-court-sentences-kashmiri-separatist-asiya-andrabi-to-life-imprisonment-in-uapa-case/article70779484.ece) Updated - March 24, 2026 11:21 pm IST - New Delhi chief Asiya Andrabi. | Photo Credit: FILE PHOTO A Delhi court on Tuesday (March 24, 2026) sentenced Kashmiri separatist leader Asiya Andrabi to life imprisonment after convicting her in a case under the Unlawful Activities (Prevention) Act (UAPA). Andrabi is the chief of the banned all-women’s organization Dukhtaran-e-Millat (DEM). [...] Published - March 24, 2026 05:29 pm IST Copy link Email Facebook Twitter Telegram LinkedIn WhatsApp Reddit SEE\n[India sentences Asiya Andrabi to life under controversial anti-terror law](https://www.youtube.com/watch?v=LgObaAoj_zU) ### Description 18,337 views Posted: 2026-03-25 An Indian court has sentenced Kashmiri resistance leader Asiya Andrabi to life in prison, drawing criticism over the use of its Unlawful Activities Prevention Act (UAPA) anti-terror laws. Rights groups say these laws are being used in Kashmir to silence dissent, prolong detention, restrict bail, and give India broad powers to categorise civilians as terrorists. [...] ### Transcript [0:00] An Indian court has sentenced Kashmir resistance leader Aia \n[Three life terms for Kashmir’s Aasiya Andrabi fit India’s ‘broader pattern’ | Prison News | Al Jazeera](https://www.aljazeera.com/news/2026/4/9/three-life-terms-for-kashmirs-aasiya-andrabi-fit-indias-broader-pattern) Andrabi, the founder of Dukhtaran-e-Millat (DeM), a banned all-women’s organisation, was sentenced on March 24 by a special National Investigative Agency (NIA) cour"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_y2QmJbvXc4REDsC6e2WNth6R",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"2026 in India\",\"keywords\":\"Asiya Andrabi life imprisonment\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_y2QmJbvXc4REDsC6e2WNth6R",
+   "content": "24 March – A special NIA court sentences Kashmiri separatist Asiya Andrabi to life imprisonment for her involvement in terrorist activities in Kashmir.\n7 July – The Gujarat High Court upholds the conviction of 49 accused (38 death sentences and 11 life imprisonments) in the 2008 Ahmedabad bombings.\nFormer Aam Aadmi Party (AAP) councillor Tahir Hussain is sentenced to life imprisonment for the murder of Intelligence Bureau officer Ankit Sharma during the 2020 Delhi riots."
+  },
+  {
+   "role": "assistant",
+   "content": "On March 24, 2026, Asiya Andrabi, a Kashmiri separatist leader, was sentenced to life imprisonment by a special NIA court for her involvement in terrorist activities in Kashmir. This sentence also included multiple concurrent sentences under various sections of the Unlawful Activities Prevention Act (UAPA) and the Indian Penal Code (IPC). \n\nFINAL: Life imprisonment for Asiya Andrabi.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

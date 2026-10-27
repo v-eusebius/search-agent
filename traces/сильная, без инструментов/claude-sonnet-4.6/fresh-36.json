@@ -10,13 +10,13 @@
   "sonnet_answer": "unknown",
   "agent_ok": false
  },
- "answer": "FINAL: unknown",
+ "answer": "FINAL: Unknown.",
  "correct": false,
- "cost": 0.0002189999999999987,
+ "cost": 0.00023399999999999983,
  "messages": [
   {
    "role": "assistant",
-   "content": "unknown",
+   "content": "Unknown.",
    "refusal": null,
    "reasoning": null
   }

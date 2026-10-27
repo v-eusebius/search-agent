@@ -1,0 +1,104 @@
+{
+ "task": {
+  "id": "fresh-105",
+  "source": "fresh",
+  "question": "What is the increase in fuel surcharges by Air China and China Southern Airlines in April 2026?",
+  "answer": "¥60–120",
+  "evidence": "2 April – Air China, China Southern Airlines, and its subsidiary XiamenAir increase fuel surcharges by ¥60–120 (US$8.70–17.5) on domestic flights in response to rising oil prices linked to the 2026 Iran war.",
+  "page": "2026 in China",
+  "url": "https://en.wikipedia.org/wiki/2026_in_China",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "In April 2026, both Air China and China Southern Airlines increased their fuel surcharges for domestic flights in response to rising oil prices. The surcharge for flights of 800 kilometers or less was increased by ¥60 (approximately $8.70), while for flights exceeding 800 kilometers, the surcharge went up by ¥120 (around $17.50).\n\nFINAL: ¥60–120 ($8.70–17.50) increase in fuel surcharges.",
+ "correct": true,
+ "cost": 0.0007036499999999446,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You answer questions about recent events (2025–2026). Never answer from memory: use web_search (and tavily_search if available) to find the right article, then page_find to look inside long articles such as '2026 in <country or field>' for the specific fact. Do not repeat the same call. When done, write the last line as FINAL: <short answer>."
+  },
+  {
+   "role": "user",
+   "content": "What is the increase in fuel surcharges by Air China and China Southern Airlines in April 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_51vHHDW0wN0gDVqCTDeqTWS2",
+     "function": {
+      "name": "tavily_search",
+      "arguments": "{\"query\": \"Air China fuel surcharge increase April 2026\"}"
+     }
+    },
+    {
+     "type": "function",
+     "index": 1,
+     "id": "call_X0fHjgQCvgZNCXKsMyqGiuwr",
+     "function": {
+      "name": "tavily_search",
+      "arguments": "{\"query\": \"China Southern Airlines fuel surcharge increase April 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_51vHHDW0wN0gDVqCTDeqTWS2",
+   "content": "[AVIATOR on X: \"Airlines that added fuel surcharges since February 2026: Asian Airlines Chinese Airlines: Air China - Resumed Beijing-Dubai and Beijing-Riyadh routes with adjusted pricing China Eastern Airlines - Resumed various Middle East routes with fuel surcharge adjustments China Southern Air… / X](https://x.com/aviator_aero/status/2034268911294615753) similar increases Surcharge tier jumped from Stage 6 to Stage 18 (out of 33 stages) Asiana Airlines - April 2026 fuel surcharges set at: Short distance (under 500 miles): 43,900 won Long distance (over 5,000 miles - US/Europe): 251,900 won per segment Approximately 200-300% increase from March levels T'way Air - Expected similar increases for April 2026 Eastar Jet - Expected similar increases for April 2026 Hong Kong Airlines Cathay Pacific - Announced fuel surcharge increases exceeding 100% [..\n[China Airlines Raise Fuel Surcharges as Oil Prices Climb | Migrant Times](https://migrantimes.com/mobility-movement/07-04-2026/china-airlines-raise-fuel-surcharges-as-oil-prices-climb) Migrant Times Migrant Times Write for Us Sign In ← Front Page Mobility & Movement # China Airlines Raise Fuel Surcharges as Oil Prices Climb Airlines are increasing fuel surcharges on flights as rising oil prices linked to Middle East tensions push up operating costs. Published 7 April 2026 • Updated 6 April 2026 M Written by Migrant Times Team blur fallback blur China Airlines Raise Fuel Surcharges as Oil Prices Climb [...] The increase comes as tensions in the Middle East and the closure of th\n[China Airlines Cargo Services | Home](https://cargo.china-airlines.com/CCNetv2/m/about/FuelSurcharge.aspx) Search | | | | | | | --- --- --- | | | | 提示訊息 | | | | 提示訊息 | | | | | | | --- --- --- | | | | | | | | | | | | | | | --- --- --- | | | | | | | | # Dangerous Goods In addition to those items of dangerous goods shown in the List of Dangerous Goods (IATA D.G.R Section 4.2) ... # Fuel Surcharge Effective : 16-OCT-2026 Area I/ II : 77 /kg TWD Area III : 27 /kg TWD # Cool Chain [...] | | | --- | | 05 Feb 2026 | China Airlines Wins SkyTeam Sustainable Aviation Fuel Transformation Award with Combination o\n[Airlines tackle fuel cost surge with price hikes, outlook cuts](https://www.reuters.com/world/asia-pacific/price-hikes-outlook-cuts-what-airlines-are-doing-fuel-costs-surge-2026-05-13) Chinese airlines will raise fuel surcharges for domestic flights from May 16, with surcharges for domestic flights of 800 km (500 miles) or less\n[Fuel Surcha"
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_X0fHjgQCvgZNCXKsMyqGiuwr",
+   "content": "[AVIATOR on X: \"Airlines that added fuel surcharges since February 2026: Asian Airlines Chinese Airlines: Air China - Resumed Beijing-Dubai and Beijing-Riyadh routes with adjusted pricing China Eastern Airlines - Resumed various Middle East routes with fuel surcharge adjustments China Southern Air… / X](https://x.com/aviator_aero/status/2034268911294615753) similar increases Surcharge tier jumped from Stage 6 to Stage 18 (out of 33 stages) Asiana Airlines - April 2026 fuel surcharges set at: Short distance (under 500 miles): 43,900 won Long distance (over 5,000 miles - US/Europe): 251,900 won per segment Approximately 200-300% increase from March levels T'way Air - Expected similar increases for April 2026 Eastar Jet - Expected similar increases for April 2026 Hong Kong Airlines Cathay Pacific - Announced fuel surcharge increases exceeding 100% [..\n[Chinese carriers to raise fuel surcharges on domestic routes_InKunming](https://m.kunming.cn/en/c/2026-04-02/14030867.shtml) Leading Chinese carriers, including Air China and China Southern Airlines, announced Wednesday that fuel surcharges for domestic routes will be raised starting April 5. For routes of 800 kilometers or less, the fuel surcharge will be set at 60 yuan (about 8.69 U.S. dollars), while for routes exceeding 800 kilometers, the fuel surcharge will increase to 120 yuan per flight segment. [...] ### InKunming 点击进入 News South & Southeast Asia Kunming & Yunnan Culture & Travel B & R Initiative Activities S\n[China Southern Airlines will hike international fuel ...](https://www.facebook.com/yicaiglobal/posts/china-southern-airlines-will-hike-international-fuel-surcharges-in-batches-due-t/1362797922558204) Fuel surcharges for flights of 800km (500 miles) or less will rise by 30 yuan ($4.42) to 90 yuan, while those for longer routes will increase by\n[Instagram](https://www.instagram.com/p/DWqT7oYEe9Y) Major carriers including Air China, China Southern Airlines, and Xiamen Airlines have announced increases in fuel surcharges on domestic flights, citing soaring global oil prices linked to the ongoing Middle East conflict. Short-haul flights will see a 60 yuan increase, while longer routes will rise by 120 yuan. [...] The surge in aviation costs follows a sharp spike in jet fuel prices, according to International Air Transport Association, with global airlines adjusting fares and routes to manag\n[Airlines are struggling but China's 'Big Three' face a tougher year than most](https://www.cnbc.com/2026/05/22/"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_zffoxABAdF23aBHt405mgb22",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\": \"2026 in China\", \"keywords\": \"Air China fuel surcharge increase April\"}"
+     }
+    },
+    {
+     "type": "function",
+     "index": 1,
+     "id": "call_jcS3orepsf1M3rnsJqZUpqX2",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\": \"2026 in China\", \"keywords\": \"China Southern Airlines fuel surcharge increase April\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_zffoxABAdF23aBHt405mgb22",
+   "content": "2 April – Air China, China Southern Airlines, and its subsidiary XiamenAir increase fuel surcharges by ¥60–120 (US$8.70–17.5) on domestic flights in response to rising oil prices linked to the 2026 Iran war.\n18 April – China lodges a diplomatic complaint alleging that a Royal New Zealand Air Force spy plane violated its airspace over the Yellow Sea and East China Sea. The New Zealand Defence Force denies breaching Chinese airspace, stating that it was monitoring shipping near North Korea as part of a multinational sanctions enforcement team."
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_jcS3orepsf1M3rnsJqZUpqX2",
+   "content": "2 April – Air China, China Southern Airlines, and its subsidiary XiamenAir increase fuel surcharges by ¥60–120 (US$8.70–17.5) on domestic flights in response to rising oil prices linked to the 2026 Iran war."
+  },
+  {
+   "role": "assistant",
+   "content": "In April 2026, both Air China and China Southern Airlines increased their fuel surcharges for domestic flights in response to rising oil prices. The surcharge for flights of 800 kilometers or less was increased by ¥60 (approximately $8.70), while for flights exceeding 800 kilometers, the surcharge went up by ¥120 (around $17.50).\n\nFINAL: ¥60–120 ($8.70–17.50) increase in fuel surcharges.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

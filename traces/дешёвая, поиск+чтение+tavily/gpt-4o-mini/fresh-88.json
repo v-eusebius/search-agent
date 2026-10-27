@@ -1,0 +1,54 @@
+{
+ "task": {
+  "id": "fresh-88",
+  "source": "fresh",
+  "question": "What was the location of the boat capsizing in Japan in March 2026?",
+  "answer": "Henoko, Okinawa Prefecture",
+  "evidence": "March 16 – Two boats carrying high school students on a field trip capsize off Henoko, Okinawa Prefecture, killing two people.",
+  "page": "2026 in Japan",
+  "url": "https://en.wikipedia.org/wiki/2026_in_Japan",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "The boat capsizing in Japan in March 2026 occurred off the coast of Henoko, Nago City, Okinawa. The incident happened on March 16, 2026, when two vessels capsized near this site, which is significant due to its association with a U.S. military base relocation. FINAL: Henoko, Nago City, Okinawa.",
+ "correct": false,
+ "cost": 0.00024914999999992027,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You answer questions about recent events (2025–2026). Never answer from memory: use web_search (and tavily_search if available) to find the right article, then page_find to look inside long articles such as '2026 in <country or field>' for the specific fact. Do not repeat the same call. When done, write the last line as FINAL: <short answer>."
+  },
+  {
+   "role": "user",
+   "content": "What was the location of the boat capsizing in Japan in March 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_0YD2waFr1Jf1iZ2YFwsKEVIB",
+     "function": {
+      "name": "tavily_search",
+      "arguments": "{\"query\":\"Japan boat capsizing March 2026 location\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_0YD2waFr1Jf1iZ2YFwsKEVIB",
+   "content": "[Why Did the Henoko Boat Capsize Kill Two? Okinawa's Base Burden and Structural Violence — Institute for Social Vision Design](https://isvd.or.jp/en/columns/henoko-okinawa-boat-accident-structure) Two boats carrying high school peace education students capsized near Henoko military base, killing two At approximately 10:10 AM on March 16, 2026, two small vessels capsized in succession off Henoko, Nago City, Okinawa. The boats — named \"Heiwa-maru\" (Peace) and \"Fukutsu\" (Indomitable) — had been used by civic groups for maritime protest activities against the Henoko military base construction. The second boat capsized roughly two minutes after the first. [...] Contact→ Insights→ # Why Did the\n[2 dead, including teen girl, after boats carrying students capsize near site of new U.S. military base in Japan - CBS News](https://www.cbsnews.com/news/boats-capsize-students-deaths-japan) Watch CBS News # 2 dead, including teen girl, after boats carrying students capsize near site of new U.S. military base in Japan March 16, 2026 / 11:55 AM EDT / CBS/AFP Two boats carrying 21 people capsized Monday off Henoko, a controversial relocation site for a U.S. military base off Japan's southern island of Okinawa, throwing all into the water and leaving two of them dead, officials said. [...] The boats were about half a mile east of Henoko when they capsized. Despite the wave advisory, th\n[High-wave advisory issued at the time of fatal boat-capsizing accident](https://www.youtube.com/watch?v=kCgPS8UrpP8) # High-wave advisory issued at the time of fatal boat-capsizing accident ## Channel: Nippon Television News Japan 246K subscribers 29 likes ### Description 1,466 views Posted: 2026-03-17 Officials are investigating details after two vessels capsize off Okinawa Prefecture, leaving a high school student and a captain in his 70s dead. A high-wave advisory had been issued at the time of the incident. Originally broadcasted on March 16, 2026. READ the latest news and full transcript on [...] ### Tran\n[Shipwrecks of 2026 - Shipwreck Log](https://shipwrecklog.com/log/shipwrecks-of-2026) | 24 March | Capsized off Eomul | Capsized | On the morning of March 24, a 1 ton fishing vessel capsized in the Sea of Japan off Eomul, Buk-gu, Ulsan, South Korea. The small... | | 24 March | Progres | Allision | On the morning of March 24, the 135 meter long, self-propelled barge Progres (MMSI: 244620993) allided on the Rhine River near the port of Neuss,... | [...] | 14 March | Capsized off Naksan Li"
+  },
+  {
+   "role": "assistant",
+   "content": "The boat capsizing in Japan in March 2026 occurred off the coast of Henoko, Nago City, Okinawa. The incident happened on March 16, 2026, when two vessels capsized near this site, which is significant due to its association with a U.S. military base relocation. FINAL: Henoko, Nago City, Okinawa.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

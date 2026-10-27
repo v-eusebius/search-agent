@@ -1,0 +1,24 @@
+{
+ "task": {
+  "id": "fresh-80",
+  "source": "fresh",
+  "question": "What regulation did the Supreme Court of India stay on January 29, 2026?",
+  "answer": "UGC Equity Regulations, 2026",
+  "evidence": "29 January – The Supreme Court of India stays the implementation of the UGC Equity Regulations, 2026 citing misuse by specific groups.",
+  "page": "2026 in India",
+  "url": "https://en.wikipedia.org/wiki/2026_in_India",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "FINAL: Unknown.",
+ "correct": false,
+ "cost": 7.649999999997936e-06,
+ "messages": [
+  {
+   "role": "assistant",
+   "content": "Unknown.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

@@ -10,7 +10,7 @@
  },
  "answer": "The Dutch comic artist who won the Stripschapprijs on January 23, 2026, is Milan Hulsing. \n\nFINAL: Milan Hulsing",
  "correct": true,
- "cost": 0.00021269999999999623,
+ "cost": 0.00021645000000000691,
  "messages": [
   {
    "role": "system",
@@ -29,7 +29,7 @@
     {
      "type": "function",
      "index": 0,
-     "id": "call_VlOeFsBNOiVOkF8FKgAVaDB0",
+     "id": "call_s85RNK9fuBNKhVAK1w6ukiZt",
      "function": {
       "name": "web_search",
       "arguments": "{\"query\":\"Dutch comic artist Stripschapprijs January 23 2026\"}"
@@ -39,8 +39,8 @@
   },
   {
    "role": "tool",
-   "tool_call_id": "call_VlOeFsBNOiVOkF8FKgAVaDB0",
-   "content": "[2026 in comics] Notable events of 2026 in comics | other articles: 1992 in comics, 2024 in comics"
+   "tool_call_id": "call_s85RNK9fuBNKhVAK1w6ukiZt",
+   "content": "[2026 in comics] Notable events of 2026 in comics | other articles: 2024 in comics, 1988 in comics"
   },
   {
    "role": "assistant",
@@ -51,17 +51,17 @@
     {
      "type": "function",
      "index": 0,
-     "id": "call_8SVfKZAczlVHln3MTdPWvD1l",
+     "id": "call_QAIxLyOXWfjODZva2xdMRojJ",
      "function": {
       "name": "page_find",
-      "arguments": "{\"title\":\"2026 in comics\",\"keywords\":\"Stripschapprijs Dutch comic artist\"}"
+      "arguments": "{\"title\":\"2026 in comics\",\"keywords\":\"Stripschapprijs, Dutch comic artist, January 23\"}"
      }
     }
    ]
   },
   {
    "role": "tool",
-   "tool_call_id": "call_8SVfKZAczlVHln3MTdPWvD1l",
+   "tool_call_id": "call_QAIxLyOXWfjODZva2xdMRojJ",
    "content": "January 23: Dutch comic artist Milan Hulsing wins the Stripschapprijs.\nJanuary 29: The heirs of the late comic artist Will Eisner announce their intention to sell the rights to his entire body of work, including his signature comic The Spirit.\nJanuary 11: Sergio Tarquinio, Italian comic artist (Picture Library, Storia del West), dies at age 100.\nJanuary 13: Scott Adams, American comics writer and artist (Dilbert), dies at age 68.\nJanuary 17: Dino Attanasio, Italian-born Belgian comic writer and artist (Signor Spaghetti, De Macaroni's, Fanfan et Polo, Johnny Goodbye, Bob Morane, Modeste et Pompon), dies at age 100.\nJanuary 18: Diana Green, American comics artist (Tranny Towers), dies at age 71."
   },
   {

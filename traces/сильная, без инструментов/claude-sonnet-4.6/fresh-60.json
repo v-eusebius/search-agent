@@ -1,0 +1,24 @@
+{
+ "task": {
+  "id": "fresh-60",
+  "source": "fresh",
+  "question": "What is the number of people arrested in Ankara in June 2026?",
+  "answer": "209",
+  "evidence": "23 June – At least 209 people are arrested in raids by security forces across Ankara ahead of the 2026 Ankara NATO summit.",
+  "page": "2026 in Turkey",
+  "url": "https://en.wikipedia.org/wiki/2026_in_Turkey",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "FINAL: Unknown.",
+ "correct": false,
+ "cost": 0.0002009999999999998,
+ "messages": [
+  {
+   "role": "assistant",
+   "content": "Unknown.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

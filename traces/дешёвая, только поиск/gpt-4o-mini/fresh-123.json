@@ -1,0 +1,76 @@
+{
+ "task": {
+  "id": "fresh-123",
+  "source": "fresh",
+  "question": "What country broke off diplomatic relations with France in June 2026?",
+  "answer": "Burkina Faso",
+  "evidence": "26 June – Burkina Faso breaks off diplomatic relations with France.",
+  "page": "2026 in France",
+  "url": "https://en.wikipedia.org/wiki/2026_in_France",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "In June 2026, Burkina Faso formally severed diplomatic relations with France, accusing it of neo-colonialism and supporting subversive activities in the Sahel region. \n\nFINAL: Burkina Faso",
+ "correct": true,
+ "cost": 0.00022395000000000054,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You answer questions about recent events (2025–2026). Never answer from memory: use web_search (and tavily_search if available) to find the right article, then page_find to look inside long articles such as '2026 in <country or field>' for the specific fact. Do not repeat the same call. When done, write the last line as FINAL: <short answer>."
+  },
+  {
+   "role": "user",
+   "content": "What country broke off diplomatic relations with France in June 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_JavyWdfKRUzh9Nbj240BcGoF",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"country broke off diplomatic relations with France June 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_JavyWdfKRUzh9Nbj240BcGoF",
+   "content": "[International recognition of Israel] As of February 2026, the State of Israel is recognized as a sovereign state by 169 of the other 192 member states of the United Nations, or approximately 88% of all UN members. The State of Israel was formally established by the Israeli Declaration of Independence on 14 May 1948, and was admitted to the United Nations (UN) as a full member state on 11 May 1949. It also maintains bilateral ties with all of the UNSC Permanent Five. Twenty-three member states have either never formally recognized Israel or have withdrawn their recognition; others have severed diplomatic relations without explicitly withdrawing their recognition. Additionally, many non-recognizing countries have challenged Israel's existence—predominantly those in the Muslim world—due to significant animosity stemming from the Israeli–Palestinian conflict and the Arab–Israeli conflict. | other articles: France–Russia relations, Foreign relations of North Korea"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_UiQN2kFNAQ9ybBvd2MXaeddh",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"June 2026 diplomatic relations France\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_UiQN2kFNAQ9ybBvd2MXaeddh",
+   "content": "[Burkina Faso–France relations] Burkina Faso–France relations refers to the diplomatic relations between Burkina Faso and France. Diplomatic relations were established on 4 August 1960. Burkina Faso was formerly part of a French colony called French Upper Volta. France has special forces stationed in Burkina Faso. Burkina Faso has an embassy in Paris, and France has an embassy in Ouagadougou. In January 2023, Burkina Faso's military junta asked France to recall its ambassador amid a surge of anti-French sentiment as the country moved to develop closer ties to Russia. In June 2026, Burkina Faso formally severed diplomatic relations with France, accusing the former colonial ruler of neo-colonialism and allegedly supporting subversive activities and terrorists in the Sahel. | other articles: 2026 Poland–Ukraine diplomatic crisis, Timeline of United States diplomatic relations"
+  },
+  {
+   "role": "assistant",
+   "content": "In June 2026, Burkina Faso formally severed diplomatic relations with France, accusing it of neo-colonialism and supporting subversive activities in the Sahel region. \n\nFINAL: Burkina Faso",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

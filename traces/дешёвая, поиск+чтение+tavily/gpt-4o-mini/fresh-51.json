@@ -1,0 +1,76 @@
+{
+ "task": {
+  "id": "fresh-51",
+  "source": "fresh",
+  "question": "What is the name of the French ambassador to the Central African Republic involved in disciplinary proceedings in August 2026?",
+  "answer": "Bruno Foucher",
+  "evidence": "13 August – The French Foreign Ministry opens disciplinary proceedings against its ambassador to the Central African Republic, Bruno Foucher, following allegations that he brought around 30 young women to his official residence in Bangui from 2024 to 2026.",
+  "page": "2026 in France",
+  "url": "https://en.wikipedia.org/wiki/2026_in_France",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "The French ambassador to the Central African Republic involved in disciplinary proceedings in August 2026 is Bruno Foucher. \n\nFINAL: Bruno Foucher",
+ "correct": true,
+ "cost": 0.0003499500000001543,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You answer questions about recent events (2025–2026). Never answer from memory: use web_search (and tavily_search if available) to find the right article, then page_find to look inside long articles such as '2026 in <country or field>' for the specific fact. Do not repeat the same call. When done, write the last line as FINAL: <short answer>."
+  },
+  {
+   "role": "user",
+   "content": "What is the name of the French ambassador to the Central African Republic involved in disciplinary proceedings in August 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_ZLFzCSf0AZl3go3BGBXpn4z5",
+     "function": {
+      "name": "tavily_search",
+      "arguments": "{\"query\":\"French ambassador Central African Republic disciplinary proceedings August 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_ZLFzCSf0AZl3go3BGBXpn4z5",
+   "content": "[French ambassador investigated after reportedly inviting women to residence](https://www.lemonde.fr/en/le-monde-africa/article/2026/08/12/french-ambassador-investigated-after-reportedly-inviting-women-to-residence_6756412_124.html) \"At the initiative of the ministry, an administrative investigation was carried out in Bangui in 2026,\" the foreign ministry told Agence France-Presse on Tuesday. \"Upon receipt of the findings of this mission, and at the request of the minister, the ministry initiated disciplinary proceedings against the ambassador. These proceedings are ongoing.\" [...] France has opened disciplinary proceedings against its ambassador to the Central African Republic over allegations of misconduct, following clai\n[Bruno Foucher: French ambassador to CAR faces disciplinary action over misconduct](https://www.bbc.com/news/articles/cqx7pp3yd25o) ### The BBC is in multiple languages #### Read the BBC In your own language Copyright 2026 BBC. All rights reserved. The BBC is not responsible for the content of external sites. Read about our approach to external linking. [...] # French ambassador to CAR accused of misconduct at official residence faces disciplinary action AFP via Getty Images Bruno Foucher in a black suit and tie and a white shirt speaks to a microphone France has opened disciplinary proceedings against its top diplomat in th\n[French ambassador to CAR investigated over claims he ...](https://www.theguardian.com/world/2026/aug/13/france-ambassador-car-central-african-republic-investigation-bruno-foucher) France has opened disciplinary proceedings against its ambassador to Central African Republic over allegations of misconduct, after claims\n[France opens disciplinary proceedings against ambassador to ...](https://www.youtube.com/shorts/H4l3tsoQDMo) France opens disciplinary proceedings against ambassador to Central African Republic The case comes at a sensitive time for French diplomacy\n[Bruno Foucher, the French ambassador to the Central ...](https://www.facebook.com/trtafrika/posts/bruno-foucher-the-french-ambassador-to-the-central-african-republic-is-under-inv/1039382412213894) The guy has discovered African flavour then turned the French Embassy in Bangui to a hotel room. This is why France doesn't wanna leave"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_D2laDkEBuAZ0WZZnDH9wnMXo",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"2026 in the Central African Republic\",\"keywords\":\"French ambassador Bruno Foucher\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_D2laDkEBuAZ0WZZnDH9wnMXo",
+   "content": "13 August – The French Foreign Ministry opens disciplinary proceedings against its ambassador to the Central African Republic, Bruno Foucher, following allegations that he brought around 30 young women to his official residence in Bangui between January 2024 and March 2026."
+  },
+  {
+   "role": "assistant",
+   "content": "The French ambassador to the Central African Republic involved in disciplinary proceedings in August 2026 is Bruno Foucher. \n\nFINAL: Bruno Foucher",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

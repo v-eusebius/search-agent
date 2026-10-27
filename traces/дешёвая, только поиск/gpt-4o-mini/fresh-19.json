@@ -10,9 +10,9 @@
   "sonnet_answer": "unknown",
   "agent_ok": false
  },
- "answer": "Disney Branded Television rebranded itself as Disney Kids & Family on June 15, 2026. FINAL: Disney Kids & Family.",
- "correct": true,
- "cost": 0.0015717000000000023,
+ "answer": "Disney Branded Television rebranded itself as Disney Entertainment Television on June 15, 2026. FINAL: Disney Entertainment Television.",
+ "correct": false,
+ "cost": 0.001477199999999998,
  "messages": [
   {
    "role": "system",
@@ -31,7 +31,7 @@
     {
      "type": "function",
      "index": 0,
-     "id": "call_IGrnDkNCwXufFgkAh2NKbErH",
+     "id": "call_x9KCefbW6y4NGxpap33wBLmJ",
      "function": {
       "name": "web_search",
       "arguments": "{\"query\":\"Disney Branded Television rebrand June 15 2026\"}"
@@ -41,8 +41,8 @@
   },
   {
    "role": "tool",
-   "tool_call_id": "call_IGrnDkNCwXufFgkAh2NKbErH",
-   "content": "[Disney+ Hotstar] Disney+ Hotstar, known as JioHotstar is an Indian subscription video-on-demand, over-the-top streaming service owned by JioStar. The brand was introduced as Hotstar for a streaming service carrying content from Disney Star's (formerly Star India) local networks, including films, television series, live sports, and original programming, as well as featuring content licensed from third parties such as Showtime among others. Amid the significant growth of mobile broadband in India, Hotstar quickly became the dominant streaming service in the country. Following the acquisition of Star India's parent company 21st Century Fox by Disney in 2019, Hotstar was integrated into Disney's global streaming brand Disney+ as \"Disney+ Hotstar\" in April 2020. The co-branded service added Disney+ original programming, and films and television series from its main content brands of Walt Disney Studios, Pixar, Marvel Studios, Lucasfilm, and National Geographic alongside the domestic and third-party content already carried on the platform. The Indian version of Disney+ Hotstar in India was merged with JioCinema in February 2025 to form JioHotstar. Outside India, in Indonesia, Malaysia, and Thailand, Disney+ Hotstar is fully owned by The Walt Disney Company, where it similarly combines entertainment content licensed from local, third-party studios with the larger Disney+ library. Disney+ Hotstar in Indonesia, Malaysia, and Thailand became Disney+ on 9 October 2025 as part of the rebranding of Star i | other articles: Playhouse Disney, 2026 in American television"
+   "tool_call_id": "call_x9KCefbW6y4NGxpap33wBLmJ",
+   "content": "[Disney+ Hotstar] Disney+ Hotstar, known as JioHotstar in India and simply Hotstar in Canada, Singapore, and the United Kingdom, is an Indian subscription video-on-demand, over-the-top streaming service owned by JioStar. The brand was introduced as Hotstar for a streaming service carrying content from Disney Star's (formerly Star India) local networks, including films, television series, live sports, and original programming, as well as featuring content licensed from third parties such as Showtime among others. Amid the significant growth of mobile broadband in India, Hotstar quickly became the dominant streaming service in the country. Following the acquisition of Star India's parent company 21st Century Fox by Disney in 2019, Hotstar was integrated into Disney's global streaming brand Disney+ as \"Disney+ Hotstar\" in April 2020. The co-branded service added Disney+ original programming, and films and television series from its main content brands of Walt Disney Studios, Pixar, Marvel Studios, Lucasfilm, and National Geographic alongside the domestic and third-party content already carried on the platform. The Indian version of Disney+ Hotstar in India was merged with JioCinema in February 2025 to form JioHotstar. Outside India, in Indonesia, Malaysia, and Thailand, Disney+ Hotstar is fully owned by The Walt Disney Company, where it similarly combines entertainment content licensed from local, third-party studios with the larger Disney+ library. Disney+ Hotstar in Indonesia, Malaysia, and Tha | other articles: Playhouse Disney, Disney Kids & Family"
   },
   {
    "role": "assistant",
@@ -53,18 +53,18 @@
     {
      "type": "function",
      "index": 0,
-     "id": "call_3FCDwL9BTTjxjINeDdXduAP7",
+     "id": "call_k98AwMFH09xczgsoVes6nbm5",
      "function": {
       "name": "web_search",
-      "arguments": "{\"query\":\"Disney Branded Television rebranding news June 15 2026\"}"
+      "arguments": "{\"query\":\"Disney Branded Television rebrand news June 15 2026\"}"
      }
     }
    ]
   },
   {
    "role": "tool",
-   "tool_call_id": "call_3FCDwL9BTTjxjINeDdXduAP7",
-   "content": "[Disney+ Hotstar] Disney+ Hotstar, known as JioHotstar is an Indian subscription video-on-demand, over-the-top streaming service owned by JioStar. The brand was introduced as Hotstar for a streaming service carrying content from Disney Star's (formerly Star India) local networks, including films, television series, live sports, and original programming, as well as featuring content licensed from third parties such as Showtime among others. Amid the significant growth of mobile broadband in India, Hotstar quickly became the dominant streaming service in the country. Following the acquisition of Star India's parent company 21st Century Fox by Disney in 2019, Hotstar was integrated into Disney's global streaming brand Disney+ as \"Disney+ Hotstar\" in April 2020. The co-branded service added Disney+ original programming, and films and television series from its main content brands of Walt Disney Studios, Pixar, Marvel Studios, Lucasfilm, and National Geographic alongside the domestic and third-party content already carried on the platform. The Indian version of Disney+ Hotstar in India was merged with JioCinema in February 2025 to form JioHotstar. Outside India, in Indonesia, Malaysia, and Thailand, Disney+ Hotstar is fully owned by The Walt Disney Company, where it similarly combines entertainment content licensed from local, third-party studios with the larger Disney+ library. Disney+ Hotstar in Indonesia, Malaysia, and Thailand became Disney+ on 9 October 2025 as part of the rebranding of Star i | other articles: Playhouse Disney, Disney Kids & Family"
+   "tool_call_id": "call_k98AwMFH09xczgsoVes6nbm5",
+   "content": "[Disney+ Hotstar] Disney+ Hotstar, known as JioHotstar in India and simply Hotstar in Canada, Singapore, and the United Kingdom, is an Indian subscription video-on-demand, over-the-top streaming service owned by JioStar. The brand was introduced as Hotstar for a streaming service carrying content from Disney Star's (formerly Star India) local networks, including films, television series, live sports, and original programming, as well as featuring content licensed from third parties such as Showtime among others. Amid the significant growth of mobile broadband in India, Hotstar quickly became the dominant streaming service in the country. Following the acquisition of Star India's parent company 21st Century Fox by Disney in 2019, Hotstar was integrated into Disney's global streaming brand Disney+ as \"Disney+ Hotstar\" in April 2020. The co-branded service added Disney+ original programming, and films and television series from its main content brands of Walt Disney Studios, Pixar, Marvel Studios, Lucasfilm, and National Geographic alongside the domestic and third-party content already carried on the platform. The Indian version of Disney+ Hotstar in India was merged with JioCinema in February 2025 to form JioHotstar. Outside India, in Indonesia, Malaysia, and Thailand, Disney+ Hotstar is fully owned by The Walt Disney Company, where it similarly combines entertainment content licensed from local, third-party studios with the larger Disney+ library. Disney+ Hotstar in Indonesia, Malaysia, and Tha | other articles: Playhouse Disney, Disney Entertainment Television"
   },
   {
    "role": "assistant",
@@ -75,7 +75,29 @@
     {
      "type": "function",
      "index": 0,
-     "id": "call_SOidPV4UxHqwEY1JkBtMqabs",
+     "id": "call_n7F11Jb9gDHJGQ7x7axzl9N7",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Disney Television rebranding June 15 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_n7F11Jb9gDHJGQ7x7axzl9N7",
+   "content": "[2026 in American television] Certain American television events in 2026 have been scheduled. Events listed include television show debuts, finales, and cancellations; channel launches, closures, and rebrandings; stations changing or adding their network affiliations; information on controversies, business transactions, and carriage disputes; and deaths of those who made various contributions to the medium. | other articles: Disney+ Hotstar, Playhouse Disney"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_OElWHqzLNGUVtGn5X8DVXVVf",
      "function": {
       "name": "web_search",
       "arguments": "{\"query\":\"Disney Branded Television new name June 2026\"}"
@@ -85,7 +107,7 @@
   },
   {
    "role": "tool",
-   "tool_call_id": "call_SOidPV4UxHqwEY1JkBtMqabs",
+   "tool_call_id": "call_OElWHqzLNGUVtGn5X8DVXVVf",
    "content": "[Disney Television Animation] Disney Television Animation (DTVA; also shortened to Disney TVA), formerly known as Walt Disney Pictures Television Animation Group and Walt Disney Television Animation, is an American animation studio that serves as the television animation production arm of Disney Kids & Family, a division of Disney Entertainment Television, which is a division of Disney Entertainment, which is one of the three main divisions of The Walt Disney Company. The studio was originally established in 1984, by Gary Krisel during the reorganization and subsequent re-incorporation of Disney following the arrival of then CEO Michael Eisner that year. The division is responsible for developing and producing animated television series, films, specials and short films for broadcast on the Disney branded networks; Disney Channel, Disney XD and Disney Jr., as well as Disney+. | other articles: Disney+ Hotstar, 2026 in American television"
   },
   {
@@ -97,18 +119,18 @@
     {
      "type": "function",
      "index": 0,
-     "id": "call_XuxqG1rRU1znXYVivK3aGdNQ",
+     "id": "call_SlfMWUlROhbG0xxbwzU3e4oV",
      "function": {
       "name": "web_search",
-      "arguments": "{\"query\":\"Disney Branded Television rebrand 2026 new name\"}"
+      "arguments": "{\"query\":\"Disney Branded Television rebrand June 2026 news\"}"
      }
     }
    ]
   },
   {
    "role": "tool",
-   "tool_call_id": "call_XuxqG1rRU1znXYVivK3aGdNQ",
-   "content": "[2026 in American television] Certain American television events in 2026 have been scheduled. Events listed include television show debuts, finales, and cancellations; channel launches, closures, and rebrandings; stations changing or adding their network affiliations; information on controversies, business transactions, and carriage disputes; and deaths of those who made various contributions to the medium. | other articles: Disney+ Hotstar, Disney Kids & Family"
+   "tool_call_id": "call_SlfMWUlROhbG0xxbwzU3e4oV",
+   "content": "[Disney+ Hotstar] Disney+ Hotstar, known as JioHotstar in India and simply Hotstar in Canada, Singapore, and the United Kingdom, is an Indian subscription video-on-demand, over-the-top streaming service owned by JioStar. The brand was introduced as Hotstar for a streaming service carrying content from Disney Star's (formerly Star India) local networks, including films, television series, live sports, and original programming, as well as featuring content licensed from third parties such as Showtime among others. Amid the significant growth of mobile broadband in India, Hotstar quickly became the dominant streaming service in the country. Following the acquisition of Star India's parent company 21st Century Fox by Disney in 2019, Hotstar was integrated into Disney's global streaming brand Disney+ as \"Disney+ Hotstar\" in April 2020. The co-branded service added Disney+ original programming, and films and television series from its main content brands of Walt Disney Studios, Pixar, Marvel Studios, Lucasfilm, and National Geographic alongside the domestic and third-party content already carried on the platform. The Indian version of Disney+ Hotstar in India was merged with JioCinema in February 2025 to form JioHotstar. Outside India, in Indonesia, Malaysia, and Thailand, Disney+ Hotstar is fully owned by The Walt Disney Company, where it similarly combines entertainment content licensed from local, third-party studios with the larger Disney+ library. Disney+ Hotstar in Indonesia, Malaysia, and Tha | other articles: Disney Entertainment Television, Playhouse Disney"
   },
   {
    "role": "assistant",
@@ -119,18 +141,18 @@
     {
      "type": "function",
      "index": 0,
-     "id": "call_ZhGW6TPoaxqeZC1zy8oOcCSw",
+     "id": "call_J6KI2o2hgUHwodErE1gpMgPS",
      "function": {
       "name": "web_search",
-      "arguments": "{\"query\":\"2026 Disney Branded Television updates\"}"
+      "arguments": "{\"query\":\"Disney television branding June 2026\"}"
      }
     }
    ]
   },
   {
    "role": "tool",
-   "tool_call_id": "call_ZhGW6TPoaxqeZC1zy8oOcCSw",
-   "content": "[Disney+ Hotstar] Disney+ Hotstar, known as JioHotstar is an Indian subscription video-on-demand, over-the-top streaming service owned by JioStar. The brand was introduced as Hotstar for a streaming service carrying content from Disney Star's (formerly Star India) local networks, including films, television series, live sports, and original programming, as well as featuring content licensed from third parties such as Showtime among others. Amid the significant growth of mobile broadband in India, Hotstar quickly became the dominant streaming service in the country. Following the acquisition of Star India's parent company 21st Century Fox by Disney in 2019, Hotstar was integrated into Disney's global streaming brand Disney+ as \"Disney+ Hotstar\" in April 2020. The co-branded service added Disney+ original programming, and films and television series from its main content brands of Walt Disney Studios, Pixar, Marvel Studios, Lucasfilm, and National Geographic alongside the domestic and third-party content already carried on the platform. The Indian version of Disney+ Hotstar in India was merged with JioCinema in February 2025 to form JioHotstar. Outside India, in Indonesia, Malaysia, and Thailand, Disney+ Hotstar is fully owned by The Walt Disney Company, where it similarly combines entertainment content licensed from local, third-party studios with the larger Disney+ library. Disney+ Hotstar in Indonesia, Malaysia, and Thailand became Disney+ on 9 October 2025 as part of the rebranding of Star i | other articles: List of Marvel Cinematic Universe television series (Marvel Studios), Disney Television Animation"
+   "tool_call_id": "call_J6KI2o2hgUHwodErE1gpMgPS",
+   "content": "[Disney+ Hotstar] Disney+ Hotstar, known as JioHotstar in India and simply Hotstar in Canada, Singapore, and the United Kingdom, is an Indian subscription video-on-demand, over-the-top streaming service owned by JioStar. The brand was introduced as Hotstar for a streaming service carrying content from Disney Star's (formerly Star India) local networks, including films, television series, live sports, and original programming, as well as featuring content licensed from third parties such as Showtime among others. Amid the significant growth of mobile broadband in India, Hotstar quickly became the dominant streaming service in the country. Following the acquisition of Star India's parent company 21st Century Fox by Disney in 2019, Hotstar was integrated into Disney's global streaming brand Disney+ as \"Disney+ Hotstar\" in April 2020. The co-branded service added Disney+ original programming, and films and television series from its main content brands of Walt Disney Studios, Pixar, Marvel Studios, Lucasfilm, and National Geographic alongside the domestic and third-party content already carried on the platform. The Indian version of Disney+ Hotstar in India was merged with JioCinema in February 2025 to form JioHotstar. Outside India, in Indonesia, Malaysia, and Thailand, Disney+ Hotstar is fully owned by The Walt Disney Company, where it similarly combines entertainment content licensed from local, third-party studios with the larger Disney+ library. Disney+ Hotstar in Indonesia, Malaysia, and Tha | other articles: Disney Television Animation, List of Disney Television Animation productions"
   },
   {
    "role": "assistant",
@@ -141,40 +163,18 @@
     {
      "type": "function",
      "index": 0,
-     "id": "call_AMguHVOHcPjLYFOLF4hYpR86",
+     "id": "call_mZ3QR1kynlibEKRkf1U0MHU2",
      "function": {
       "name": "web_search",
-      "arguments": "{\"query\":\"Disney Branded Television rebranding June 15 2026 news\"}"
+      "arguments": "{\"query\":\"Disney rebrand June 2026 Disney Entertainment Television\"}"
      }
     }
    ]
   },
   {
    "role": "tool",
-   "tool_call_id": "call_AMguHVOHcPjLYFOLF4hYpR86",
-   "content": "[Disney+ Hotstar] Disney+ Hotstar, known as JioHotstar is an Indian subscription video-on-demand, over-the-top streaming service owned by JioStar. The brand was introduced as Hotstar for a streaming service carrying content from Disney Star's (formerly Star India) local networks, including films, television series, live sports, and original programming, as well as featuring content licensed from third parties such as Showtime among others. Amid the significant growth of mobile broadband in India, Hotstar quickly became the dominant streaming service in the country. Following the acquisition of Star India's parent company 21st Century Fox by Disney in 2019, Hotstar was integrated into Disney's global streaming brand Disney+ as \"Disney+ Hotstar\" in April 2020. The co-branded service added Disney+ original programming, and films and television series from its main content brands of Walt Disney Studios, Pixar, Marvel Studios, Lucasfilm, and National Geographic alongside the domestic and third-party content already carried on the platform. The Indian version of Disney+ Hotstar in India was merged with JioCinema in February 2025 to form JioHotstar. Outside India, in Indonesia, Malaysia, and Thailand, Disney+ Hotstar is fully owned by The Walt Disney Company, where it similarly combines entertainment content licensed from local, third-party studios with the larger Disney+ library. Disney+ Hotstar in Indonesia, Malaysia, and Thailand became Disney+ on 9 October 2025 as part of the rebranding of Star i | other articles: Playhouse Disney, Disney Entertainment Television"
-  },
-  {
-   "role": "assistant",
-   "content": null,
-   "refusal": null,
-   "reasoning": null,
-   "tool_calls": [
-    {
-     "type": "function",
-     "index": 0,
-     "id": "call_UTuIeECD2uejdTQl318CmJAF",
-     "function": {
-      "name": "web_search",
-      "arguments": "{\"query\":\"Disney Branded Television restructuring 2026\"}"
-     }
-    }
-   ]
-  },
-  {
-   "role": "tool",
-   "tool_call_id": "call_UTuIeECD2uejdTQl318CmJAF",
-   "content": "[Disney+ Hotstar] Disney+ Hotstar, known as JioHotstar is an Indian subscription video-on-demand, over-the-top streaming service owned by JioStar. The brand was introduced as Hotstar for a streaming service carrying content from Disney Star's (formerly Star India) local networks, including films, television series, live sports, and original programming, as well as featuring content licensed from third parties such as Showtime among others. Amid the significant growth of mobile broadband in India, Hotstar quickly became the dominant streaming service in the country. Following the acquisition of Star India's parent company 21st Century Fox by Disney in 2019, Hotstar was integrated into Disney's global streaming brand Disney+ as \"Disney+ Hotstar\" in April 2020. The co-branded service added Disney+ original programming, and films and television series from its main content brands of Walt Disney Studios, Pixar, Marvel Studios, Lucasfilm, and National Geographic alongside the domestic and third-party content already carried on the platform. The Indian version of Disney+ Hotstar in India was merged with JioCinema in February 2025 to form JioHotstar. Outside India, in Indonesia, Malaysia, and Thailand, Disney+ Hotstar is fully owned by The Walt Disney Company, where it similarly combines entertainment content licensed from local, third-party studios with the larger Disney+ library. Disney+ Hotstar in Indonesia, Malaysia, and Thailand became Disney+ on 9 October 2025 as part of the rebranding of Star i | other articles: Disney Entertainment, 2026 in American television"
+   "tool_call_id": "call_mZ3QR1kynlibEKRkf1U0MHU2",
+   "content": "[Disney Entertainment Television] Disney Entertainment Television, formerly ABC Group, Disney–ABC Television Group, the second incarnation of Walt Disney Television and Disney General Entertainment Content, is a division of the Disney Entertainment business segment of the Walt Disney Company that oversees its owned-and-operated television content, assets and sub-divisions. Founded on September 5, 1996, sub-divisions of DET include the American Broadcasting Company, ABC News, Disney Kids & Family, Disney Television Studios, Freeform, FX Networks, Hulu Original Content Teams, and National Geographic. | other articles: Disney+ Hotstar, Playhouse Disney"
   },
   {
    "role": "user",
@@ -182,7 +182,7 @@
   },
   {
    "role": "assistant",
-   "content": "Disney Branded Television rebranded itself as Disney Kids & Family on June 15, 2026. FINAL: Disney Kids & Family.",
+   "content": "Disney Branded Television rebranded itself as Disney Entertainment Television on June 15, 2026. FINAL: Disney Entertainment Television.",
    "refusal": null,
    "reasoning": null
   }

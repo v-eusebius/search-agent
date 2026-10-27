@@ -1,0 +1,24 @@
+{
+ "task": {
+  "id": "fresh-100",
+  "source": "fresh",
+  "question": "What maximum distance did the crew of Artemis II reach from Earth on April 6, 2026?",
+  "answer": "252,756 miles",
+  "evidence": "April 6 – The crew of Artemis II breaks the record for the furthest humans have ever been from Earth, reaching a maximum distance of 252,756 miles (406,771 km) as they travel around the far side of the Moon.",
+  "page": "2026",
+  "url": "https://en.wikipedia.org/wiki/2026",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "FINAL: Unknown.",
+ "correct": false,
+ "cost": 0.00022199999999999998,
+ "messages": [
+  {
+   "role": "assistant",
+   "content": "Unknown.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

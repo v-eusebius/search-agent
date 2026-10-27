@@ -1,0 +1,54 @@
+{
+ "task": {
+  "id": "fresh-122",
+  "source": "fresh",
+  "question": "Who ousted Sussan Ley in February 2026 in Australian politics?",
+  "answer": "Angus Taylor",
+  "evidence": "February 13 – Sussan Ley, the first female leader of the Liberal Party of Australia, was ousted by Angus Taylor.",
+  "page": "2026 in politics",
+  "url": "https://en.wikipedia.org/wiki/2026_in_politics",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "FINAL: Angus Taylor ousted Sussan Ley in February 2026. Taylor defeated Ley in a Liberal Party leadership spill, becoming the new leader of Australia's Liberal Party and Opposition.",
+ "correct": true,
+ "cost": 0.0044720000000000315,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You answer questions about recent events (2025–2026). Never answer from memory: use web_search (and tavily_search if available) to find the right article, then page_find to look inside long articles such as '2026 in <country or field>' for the specific fact. Do not repeat the same call. When done, write the last line as FINAL: <short answer>."
+  },
+  {
+   "role": "user",
+   "content": "Who ousted Sussan Ley in February 2026 in Australian politics?"
+  },
+  {
+   "role": "assistant",
+   "content": "I'll search for information about Sussan Ley being ousted in February 2026.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_019gX6nTZGjbxYqiVpvc9cxq",
+     "function": {
+      "name": "tavily_search",
+      "arguments": "{\"query\": \"Sussan Ley ousted February 2026 Australian politics\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_019gX6nTZGjbxYqiVpvc9cxq",
+   "content": "[Sussan Ley - Wikipedia](https://en.wikipedia.org/wiki/Sussan_Ley) Ley was elected unopposed as deputy leader of the Liberal Party under Peter Dutton after the 2022 defeat. After Dutton lost his seat in the Coalition's landslide defeat at the 2025 election, she was elected Liberal leader at a leadership election, becoming leader of the Opposition as the first woman in Australian history to hold either position. In her tenth month as leader in 2026, she was ousted by Angus Taylor in a leadership spill; she subsequently retired from politics, triggering a [...] O\n[2026 Liberal Party of Australia leadership spill - Wikipedia](https://en.wikipedia.org/wiki/2026_Liberal_Party_of_Australia_leadership_spill) [edit] Immediately after her defeat, Sussan Ley announced she would resign from parliament and quit politics. She formally tendered her resignation two weeks later on 27 February 2026. Her resignation triggered a by-election for her seat of Farrer in rural western New South Wales. ### Chinese-Australian reactions to elevation of Hume to deputy leader [edit] [...] 36. ↑ Gould, Courtney (13 February 2026). \"Federal politics live: Angus Taylor the new Liberal leader after defeating Sussan Ley\". ABC\n[Sussan Ley to quit politics after being deposed as Liberal ...](https://www.theguardian.com/australia-news/2026/feb/13/sussan-ley-to-quit-politics-byelection-liberal-party-leadership-spill) Feb 12, 2026 — Ley says she will step away 'completely and comprehensively from public life' after losing Liberal leadership ballot to Angus Taylor.Read more\n[Angus Taylor ousts Sussan Ley as Australia's Liberal Party leader](https://www.bbc.com/news/articles/cr5lmgdmy9mo) # Australia's Liberal Party ousts first woman leader Getty A blonde-haired woman in a white suit and glasses stares off camera with people in suits sitting in a green bench behind her. The first female leader of Australia's Liberal Party, Sussan Ley, has been ousted after just nine months in the job, losing a leadership ballot to her former shadow defence minister Angus Taylor. [...] ### The BBC is in multiple languages #### Read the BBC In your own language Copyright 2026 BBC. All rights reserv\n[How the Liberals will justify Sussan Ley's ousting - ABC News](https://www.abc.net.au/news/2026-02-08/sussan-ley-liberals-coalition-leadership-spill-angus-taylor/106295860) Since the day Sussan Ley narrowly secured the leadership over conservative rival Angus Taylor, her detractors have framed her removal as a matter of"
+  },
+  {
+   "role": "assistant",
+   "content": "FINAL: Angus Taylor ousted Sussan Ley in February 2026. Taylor defeated Ley in a Liberal Party leadership spill, becoming the new leader of Australia's Liberal Party and Opposition.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

@@ -8,11 +8,11 @@
   "page": "2026 in sports",
   "url": "https://en.wikipedia.org/wiki/2026_in_sports"
  },
- "answer": "Unknown.",
- "correct": false,
- "cost": 0.0003987000000000851,
- "escalated": true,
- "confidence": 0.0,
+ "answer": "Rory McIlroy",
+ "correct": true,
+ "cost": 0.0006086999999999065,
+ "escalated": false,
+ "confidence": 1.0,
  "agent_messages": [
   {
    "role": "system",
@@ -31,9 +31,9 @@
     {
      "type": "function",
      "index": 0,
-     "id": "call_8XGogiR5HosXoqB5mBNqN10s",
+     "id": "call_JY3aCMLRZhswn84YvLUSWFKy",
      "function": {
-      "name": "web_search",
+      "name": "tavily_search",
       "arguments": "{\"query\":\"2026 Masters Tournament winner\"}"
      }
     }
@@ -41,12 +41,34 @@
   },
   {
    "role": "tool",
-   "tool_call_id": "call_8XGogiR5HosXoqB5mBNqN10s",
-   "content": "[2026 Masters Tournament] The 2026 Masters Tournament was the 90th edition of the Masters Tournament and the first of the four men's major golf championships held in 2026. The tournament was played April 9–12 at Augusta National Golf Club in Augusta, Georgia, United States. Rory McIlroy won the tournament for the second consecutive year, one stroke ahead of runner-up Scottie Scheffler. He joined Jack Nicklaus, Nick Faldo and Tiger Woods as the only players to win two years consecutively. | other articles: 2026 China Masters, 2026 Australian Darts Masters"
+   "tool_call_id": "call_JY3aCMLRZhswn84YvLUSWFKy",
+   "content": "[2026 Masters Tournament Winner and Scores](https://www.golfcompendium.com/2023/04/2026-masters-tournament.html) ### Search Golf Compendium # Golf Compendium ### 2026 Masters Tournament Winner and Scores Get link Facebook X Pinterest Email Other Apps The 2026 Masters Tournament was the 90th time this golf tournament was played. And for the second year in a row, the winner was Rory McIlroy. Winner: Rory McIlroy, 276 Where it was played: Augusta National Golf Club in Augusta, Georgia Tournament dates: April 9-12, 2026 Leaders after first round: Sam Burns, Rory McIlroy, 67 [...] Leader after second round: Ror\n[2026 Masters Tournament - Wikipedia](https://en.wikipedia.org/wiki/2026_Masters_Tournament) The 2026 Masters Tournament was the 90th edition of the Masters Tournament and the first of the four men's major golf championships held in 2026. The tournament was played April 9–12 at Augusta National Golf Club in Augusta, Georgia, United States. Rory McIlroy won the tournament for the second consecutive year, one stroke ahead of runner-up Scottie Scheffler. He joined Jack Nicklaus, Nick Faldo and Tiger Woods as the only players to win two years consecutively. ## Course [edit] [...] Going into\n[The 2026 Masters at Augusta National](https://www.masters.com/index.html) Image 109: Masters champion Scottie Scheffler of the United States shakes hands with his caddie Ted Scott on the No. 18 green during the final round of the Masters at Augusta National Golf Club, Sunday, April 12, 2026. Scheffler Came Oh-So-Close To Another Green Jacket By Jim McCabe Sun, Apr 12 2026 More News #### Stay Up to date on the latest news # Sign Up for the Masters Newsletter Sign Up Image 110 Image 111: MastersIn partnership withImage 112: IBM [...] Image 104: Masters champion Rory McI\n[Masters Tournament 2026 Golf Leaderboard - PGA Tour - Overview](https://www.pgatour.com/tournaments/2026/masters-tournament/R2026014/overview) 750 pts ### Past Champions ### 2026 Rory McIlroy NIR Rory McIlroy #### Score #### Total### 2025 Rory McIlroy NIR Rory McIlroy #### Score #### Total### 2024 Scottie Scheffler USA Scottie Scheffler #### Score -11 #### Total 277### 2022-2023 Jon Rahm ESP Jon Rahm #### Score -12 #### Total 276### 2021-2022 Scottie Scheffler USA Scottie Scheffler #### Score -10 #### Total 278### 2020-2021 Hideki Matsuyama JPN Hideki Matsuyama #### Score -10 #### Total [...] #### Score -12 #### Total 276### 1963 Jack \n[Rory's Final Putt & Celebration at the 2026 Masters](https://www.youtu"
   },
   {
    "role": "assistant",
-   "content": "Rory McIlroy won the 2026 Masters Tournament at Augusta National Golf Club, securing his victory for the second consecutive year. FINAL: Rory McIlroy",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_FY6XkeTySH6S60Zp5rBzjQ5L",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"2026 Masters Tournament\",\"keywords\":\"Rory McIlroy winner\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_FY6XkeTySH6S60Zp5rBzjQ5L",
+   "content": "Rory McIlroy won the tournament for the second consecutive year, one stroke ahead of runner-up Scottie Scheffler. He joined Jack Nicklaus, Nick Faldo and Tiger Woods as the only players to win two years consecutively.\nGoing into the tournament, Scottie Scheffler was the betting favorite to win. Scheffler and Rory McIlroy were returning to play after three-week breaks. Twenty-two golfers made their Masters debut, including Jacob Bridgeman, Ben Griffin, Chris Gotterup and Kristoffer Reitan, all but Reitan were ranked in the top 20 in the Official World Golf Ranking. There were eight Nordic players in the field, t\nIn keeping with tradition, defending champion Rory McIlroy chose the menu for the Masters Club Dinner, which took place on April 7. The dinner tradition, which began in 1952 when Ben Hogan invited past Masters champions to dine together, is attended by former champions as members of the Masters Club.\nHonorary starters Jack Nicklaus, Tom Watson and Gary Player opened the 90th edition of the Masters Tournament. Sam Burns and defending champion Rory McIlroy shared the first-round lead after both posted 67 (−5). McIlroy recovered from an inconsistent start to record three consecutive birdies on holes 13 through 15. Burns, who played in the morning, recorded an eagle on the par-5 2nd hole and added\nRory McIlroy seized the outright lead after the second round, carding a 65 (−7) to reach 132 (−12) for the tournament. Beginning the day tied for the lead, he recorded multiple birdies over his closing holes, including a chip-in on the 17th, and opened a six-stroke advantage over the field, the largest 36-hole lead in Masters Tournament history.\nRory McIlroy started with a six-shot advantage, but his lead was erased over moving day. McIlroy's round was 73 (+1), including being 3 over par around Amen Corner. Cameron Young, seeking to be the third consecutive golfer to win the Players Championship and the Masters Tournament in the same year, turned in the joint-lowest round of the day, a 65 (−7). This brought Young from eight shots back int"
+  },
+  {
+   "role": "assistant",
+   "content": "Rory McIlroy won the 2026 Masters Tournament at Augusta National Golf Club, held from April 9 to 12, 2026. This victory marked his second consecutive win at the Masters, finishing one stroke ahead of runner-up Scottie Scheffler. McIlroy joined an elite group of golfers, including Jack Nicklaus, Nick Faldo, and Tiger Woods, as one of the few to win the tournament two years in a row. \n\nFINAL: Rory McIlroy",
    "refusal": null,
    "reasoning": null
   }

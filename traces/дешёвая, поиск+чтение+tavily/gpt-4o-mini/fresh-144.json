@@ -8,9 +8,9 @@
   "page": "2026 in comics",
   "url": "https://en.wikipedia.org/wiki/2026_in_comics"
  },
- "answer": "The Dutch comic artist who won the Stripschapprijs on January 23, 2026, is Milan Hulsing. FINAL: Milan Hulsing.",
+ "answer": "The Dutch comic artist who won the Stripschapprijs on January 23, 2026, is Milan Hulsing. \n\nFINAL: Milan Hulsing",
  "correct": true,
- "cost": 0.0005990999999999636,
+ "cost": 0.0002271000000000356,
  "messages": [
   {
    "role": "system",
@@ -29,66 +29,22 @@
     {
      "type": "function",
      "index": 0,
-     "id": "call_GlWQh0OauE0MGlIAMnkSmig4",
+     "id": "call_UGQZtewEMFELgio7R5eDvUGt",
      "function": {
       "name": "tavily_search",
-      "arguments": "{\"query\":\"Dutch comic artist Stripschapprijs January 23 2026\"}"
+      "arguments": "{\"query\":\"Stripschapprijs January 23 2026 winner Dutch comic artist\"}"
      }
     }
    ]
   },
   {
    "role": "tool",
-   "tool_call_id": "call_GlWQh0OauE0MGlIAMnkSmig4",
-   "content": "[Stripschapprijs](https://en.wikipedia.org/wiki/Stripschapprijs) The Stripschapprijs is a Dutch prize awarded to comic creators for their entire body of work. It is awarded annually by the Stripschap, the Dutch Society of\n[Museum of Comic Art (MoCA) - All You SHOULD Know Before Going 2026 (with Reviews)](https://www.tripadvisor.com/Attraction_Review-g227899-d23452087-Reviews-Museum_of_Comic_Art_MoCA-Noordwijk_South_Holland_Province.html) Image 30 Image 31 Tentoonstelling 50 jaar Stripschapprijs Tentoonstelling 50 jaar Stripschapprijs Image 32 Image 33 Image 34 Image 35 Image 36 Image 37 Image 38 Image 39 See all photos All reviews (38) Write a review Reviews are the subjective opinion of Tripadvisor members and not of Tripadvisor LLC. Tripadvisor performs checks on reviews as part of our industry-leading trust & safety standards. Read our transparency report to learn more. Filters (1) Sort by: Most recent [...] Museum of Comic A\n[Go back to childhood with the complete collection of Suske en ...](https://www.facebook.com/ululeEn/videos/suske-en-wiske/553871829078409) Willem Ritstier (born 12 June 1959, The Netherlands) is an illustrator, cartoonist, and comics writer. He began his career with the gag feature\n[Heroes Dutch Comic Con Winter - November 21 & 22, 2026](https://www.dutchcomiccon.com) Share your ideas with us!We are always open for suggestions to improve your visit to Heroes Dutch Comic Con. Prince Shopping [...] #### The best and most organized comic con of the Netherlands, I really enjoyed it! #### I look forward to HDCC all year and I am never disappointed. What an event!!! Already looking forward to the next one! #### It is an event I look forward to every year. I have been going for 5 years now, and this year I took my boyfriend along for the first time. Now he wants to \n[It is time! see ya at @dutchcomiccon in the artist Alley and ...](https://www.instagram.com/reel/DZzUJT-sv-q) Dutch Comic Con is only one week away! I'm so STOKED that I get to be there and I hope you'll come drop by and say hi over at my booth"
+   "tool_call_id": "call_UGQZtewEMFELgio7R5eDvUGt",
+   "content": "[Milan Hulsing](https://www.lambiek.net/artists/h/hulsing_milan.htm) On 23 January 2026, it was announced that Milan Hulsing was the winner of the 2026 Stripschapprijs, awarded annually by Dutch comic appreciation society Het\n[2026 in comics - Wikipedia](https://en.wikipedia.org/wiki/2026_in_comics) January 10: Only two months after a record-breaking auction of a first-print copy of the very first Superman comic book, another copy is auctioned for 9.21 million dollars. It was previously in possession of actor Nicolas Cage. January 23: Dutch comic artist Milan Hulsing wins the Stripschapprijs. [...] 4. ↑ \"Tabula rasa voor stripfestival Angoulême - nieuwe editie in 2027 | Algemeen | Stripspeciaalzaak\". 9 January 2026. 5. ↑ Ziegler, Hannah (10 January 2026). \"Rare Comic Introducing Superman Se\n[2026 Stripschap Award Winner and Nominees Announced – The Daily Cartoonist](https://www.dailycartoonist.com/index.php/2026/03/14/2026-stripschap-award-winner-and-nominees-announced) Het Stripschap has announced nominees to their Stripschap Awards 2026. Their lifetime achievement award, the Stripschapprijs, will go to Milan Hulsing. DRAWING THE TIMES was awarded the P. Hans Frankfurtherprijs Award for service to the comic community, and the nominees for the Storyworld Publieksprijs (Storyworld Audience Award) include Margreet De Heer, Anco Dijkman (llustrator), Ahmad Resh (writer), Robbert Damen, Gerard Leever, and Aimée de Jongh. ## Stripschapprijs [...] ## Stripschapprijs \n[Gerben Valkema wins the ultimate award for comic artists](https://www.youtube.com/watch?v=N0rZnfv22sw) ### Transcript [0:00] alsjeblieft een grote verrassing voor striptekenaar gerben valkema de geestelijk vader van els je het [0:08] brutale meisje wat dagelijks met haar avonturen in de regionale kranten staat heeft de stripschapprijs gewonnen dat is zeg maar de champions league [0:16] onder de striptekenaars je wel dank je wel al wat graaf wat gaat er door je heen je zeggen ze nooit ver gespannen [...] [0:47] zijn en dan de stripschapprijs krijgen maar is dat dan nog wel leuk het is leuker om he\n[Stripschapprijs - Wikipedia](https://en.wikipedia.org/wiki/Stripschapprijs) Print/export Download as PDF Printable version; \"Printable version of this page [p]\") In other projects Wikimedia Commons Wikidata item Appearance From Wikipedia, the free encyclopedia Dutch comics award The Stripschapprijs is a Dutch prize awarded to comic creators for their entire body of work. It is awarded annually by the Stri"
   },
   {
    "role": "assistant",
-   "content": null,
-   "refusal": null,
-   "reasoning": null,
-   "tool_calls": [
-    {
-     "type": "function",
-     "index": 0,
-     "id": "call_t8j3fBNusXlDAmvcj3FcnR9R",
-     "function": {
-      "name": "web_search",
-      "arguments": "{\"query\":\"Stripschapprijs 2026 winner January 23\"}"
-     }
-    }
-   ]
-  },
-  {
-   "role": "tool",
-   "tool_call_id": "call_t8j3fBNusXlDAmvcj3FcnR9R",
-   "content": "НЕ удалось вызвать инструмент web_search: HTTPSConnectionPool(host='en.wikipedia.org', port=443): Read timed out. (read timeout=20)"
-  },
-  {
-   "role": "assistant",
-   "content": null,
-   "refusal": null,
-   "reasoning": null,
-   "tool_calls": [
-    {
-     "type": "function",
-     "index": 0,
-     "id": "call_Q8FDCMZuF2CXB4Lk8jJg9wRI",
-     "function": {
-      "name": "tavily_search",
-      "arguments": "{\"query\":\"Stripschapprijs 2026 winner January 23 news\"}"
-     }
-    }
-   ]
-  },
-  {
-   "role": "tool",
-   "tool_call_id": "call_Q8FDCMZuF2CXB4Lk8jJg9wRI",
-   "content": "[Milan Hulsing bekroond met Stripschapprijs voor zijn oeuvre](https://www.villamedia.nl/artikel/milan-hulsing-bekroond-met-stripschapprijs-voor-zijn-oeuvre) Milan Hulsing wint dit jaar de Stripschapprijs, de oeuvreprijs voor stripmakers in Nederland. 23 januari 2026. Milan Hulsing wint dit jaar de Stripschapprijs,\n[Milan Hulsing wint Stripschapprijs 2026 voor vernieuwend stripoeuvre - NRC](https://www.nrc.nl/nieuws/2026/01/23/stripmaker-milan-hulsing-wint-stripschapprijs-2026-a4918357) Bezorgservice Vakantieservice Verhuisservice Mijn gegevens Mijn abonnementen Gedeeld abonnement FAQ Digitaal Lezen Veelgestelde vragen Wachtwoord vergeten The New York Times Nieuws uit de regio E-book Abonnement delen Masterclasses Terug naar de krant Terug naar de krant # Stripmaker Milan Hulsing wint Stripschapprijs 2026 Nieuws Nieuws Feitelijke berichtgeving, waargenomen en geverifieerd door de verslaggever of door bronnen met kennis van zaken [...] Stripmaker, illustrator en animator Milan H\n[Milan Hulsing wint Stripschapprijs 2026 De ... - Instagram](https://www.instagram.com/p/DT2aOTYDAdR) Milan Hulsing wint Stripschapprijs 2026. De Stripschapprijs is dit jaar voor Milan Hulsing. Hiermee wordt een stripmaker op het podium gezet\n[Stripschapprijs 2026 - Stripschapprijzen](https://stripschapprijs.nl) ### De winnaar van de Storyworld publieksprijs 2026 is geworden: Bartje, de graphic novel door Anco Dijkman en Ahmad Resh. Image 6 Image 7Luister en kijk hoe Milan Hulsing verrast wordt met het nieuws dat hij dit jaar de Stripschapprijs krijgt en je hoort meer over de winnaar van de P. Hans Frankfurtherprijs: Drawing the Times. ### Een kleine sfeerimpressie van Martijn Douma van Striptip.nl van de uitreiking van zaterdag jl. met foto’s van Bob de Vries. [...] Ga naar de inhoud Image 1: Stripscha\n[Stripschapprijs - Wikipedia](https://en.wikipedia.org/wiki/Stripschapprijs) The Stripschapprijs is a Dutch prize awarded to comic creators for their entire body of work. It is awarded annually by the Stripschap, the Dutch Society of"
-  },
-  {
-   "role": "assistant",
-   "content": "The Dutch comic artist who won the Stripschapprijs on January 23, 2026, is Milan Hulsing. FINAL: Milan Hulsing.",
+   "content": "The Dutch comic artist who won the Stripschapprijs on January 23, 2026, is Milan Hulsing. \n\nFINAL: Milan Hulsing",
    "refusal": null,
    "reasoning": null
   }

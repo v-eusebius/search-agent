@@ -1,0 +1,24 @@
+{
+ "task": {
+  "id": "fresh-38",
+  "source": "fresh",
+  "question": "What position is V. D. Satheesan elected to in Kerala in May 2026?",
+  "answer": "Chief Minister",
+  "evidence": "14 May – V. D. Satheesan is elected as the Chief Minister of Kerala.",
+  "page": "2026 in India",
+  "url": "https://en.wikipedia.org/wiki/2026_in_India",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "FINAL: Unknown.",
+ "correct": false,
+ "cost": 0.00021900000000000044,
+ "messages": [
+  {
+   "role": "assistant",
+   "content": "Unknown.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

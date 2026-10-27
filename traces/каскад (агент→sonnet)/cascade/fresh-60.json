@@ -1,0 +1,78 @@
+{
+ "task": {
+  "id": "fresh-60",
+  "source": "fresh",
+  "question": "What is the number of people arrested in Ankara in June 2026?",
+  "answer": "209",
+  "evidence": "23 June – At least 209 people are arrested in raids by security forces across Ankara ahead of the 2026 Ankara NATO summit.",
+  "page": "2026 in Turkey",
+  "url": "https://en.wikipedia.org/wiki/2026_in_Turkey",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "209",
+ "correct": true,
+ "cost": 0.0004946999999999591,
+ "escalated": false,
+ "confidence": 1.0,
+ "agent_messages": [
+  {
+   "role": "system",
+   "content": "You answer questions about recent events (2025–2026). Never answer from memory: use web_search (and tavily_search if available) to find the right article, then page_find to look inside long articles such as '2026 in <country or field>' for the specific fact. Do not repeat the same call. When done, write the last line as FINAL: <short answer>."
+  },
+  {
+   "role": "user",
+   "content": "What is the number of people arrested in Ankara in June 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_DOJZfNTanYRDp8BtDGcm64ol",
+     "function": {
+      "name": "tavily_search",
+      "arguments": "{\"query\":\"number of people arrested in Ankara June 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_DOJZfNTanYRDp8BtDGcm64ol",
+   "content": "[Turkey arrests more than 200 in crackdown before NATO summit](https://www.dw.com/en/turkey-arrests-more-than-200-in-crackdown-before-nato-summit/a-77669771) 1. Skip to content 2. Skip to main menu 3. Skip to more DW sites In focus Israel electionBrazil Ukraine Latest audioLatest videos Live TV Advertisement PoliticsTurkey # Turkey arrests more than 200 in crackdown before NATO summit Mark Hallam with AFP, AP June 23, 2026 The Ankara prosecutor's office said 209 people were detained, while 32 others remained at large. Turkey has announced a ban on demonstrations amid preparations for next month's NATO summit in the capital. [...] Last month, investig\n[Türkiye: Crackdown Ahead of NATO Summit | Human Rights Watch](https://www.hrw.org/news/2026/06/25/turkiye-crackdown-ahead-of-nato-summit) (Istanbul, June 25, 2026) – The arrest of at least 209 people in the Turkish capital, Ankara, ahead of the July 7-8, 2026 NATO summit there highlights Türkiye’s ruthless intolerance of freedom of speech and assembly, Human Rights Watch said today. [...] Update: On June 26, the Ankara Public Prosecutor's officeannounced that of a total of 225 people arrested on June 23, courts sent 178 to pretrial detention and placed 34 under house arrest pending investigation. The prosecutor's office released 6\n[Turkiye arrests over 200 before NATO summit - The Hindu](https://www.thehindu.com/news/international/turkiye-arrests-over-200-before-nato-summit/article71136832.ece) SEE ALL Remove Representative image. | Photo Credit: Getty Images/iStockphoto Turkish police on Tuesday (June 23, 2026) arrested more than 200 people suspected of links to the Islamic State and outlawed far-left groups, officials said, before an upcoming NATO summit. The Ankara prosecutor’s office said 209 people had been detained in the capital, while 32 others remained at large. [...] India World Sport Entertainment Data Health Opinion Science Premium Videos Podcast Photos Visual Stories Speci\n[Turkey detained at least 668 in NATO summit crackdown, jailed 179: report - Turkish Minute](https://turkishminute.com/2026/07/20/turkey-detained-at-least-668-in-nato-summit-crackdown-jailed-179-report) Local residents walk past billboards with the slogans “Key to Peace,” “Key to Security,” and “Shared Future in Peace”, displayed along the boulevard on the protocol route ahead of the NATO Summit in Ankara, on 26 June 2026. The 36th NATO summit will be held in Ankara on July 7-8, 2026. (Photo: ADEM ALTAN / AFP) Must read ### UK "
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_jctcduSaOU1uZIN2PU4upgli",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"2026 in Turkey\",\"keywords\":\"arrests June\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_jctcduSaOU1uZIN2PU4upgli",
+   "content": "=== June ===\n5 June – The Turkish-flagged fishing boat Duru 67 is attacked and sunk in the Black Sea off Sevastopol, killing one sailor and injuring four others.\n11 June–19 July – Turkey participates at the 2026 FIFA World Cup\n23 June – At least 209 people are arrested in raids by security forces across Ankara ahead of the 2026 Ankara NATO summit.\n15 June – Ece İrtem, 35, actress.\n18 June – Theoliptos Fenerlis, 69, Turkish-Greek Orthodox prelate, metropolitan of Iconium (since 2000)."
+  },
+  {
+   "role": "assistant",
+   "content": "In June 2026, at least 209 people were arrested in Ankara during security raids ahead of the NATO summit. \n\nFINAL: 209",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

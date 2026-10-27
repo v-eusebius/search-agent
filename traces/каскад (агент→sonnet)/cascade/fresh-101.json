@@ -1,0 +1,78 @@
+{
+ "task": {
+  "id": "fresh-101",
+  "source": "fresh",
+  "question": "What is the duration of the ceasefire in the 2026 Lebanon war?",
+  "answer": "10-day",
+  "evidence": "April 16 – 2026 Lebanon war: A US-brokered 10-day ceasefire takes effect between Israel and Lebanon, following ambassador-level talks in the White House.",
+  "page": "2026",
+  "url": "https://en.wikipedia.org/wiki/2026",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "The initial ceasefire lasted 10 days, starting April 16, 2026.",
+ "correct": false,
+ "cost": 0.0006083999999999534,
+ "escalated": false,
+ "confidence": 0.9,
+ "agent_messages": [
+  {
+   "role": "system",
+   "content": "You answer questions about recent events (2025–2026). Never answer from memory: use web_search (and tavily_search if available) to find the right article, then page_find to look inside long articles such as '2026 in <country or field>' for the specific fact. Do not repeat the same call. When done, write the last line as FINAL: <short answer>."
+  },
+  {
+   "role": "user",
+   "content": "What is the duration of the ceasefire in the 2026 Lebanon war?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_c1Z7G5YfMA7dI7SC2vD86tXd",
+     "function": {
+      "name": "tavily_search",
+      "arguments": "{\"query\":\"duration of ceasefire in 2026 Lebanon war\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_c1Z7G5YfMA7dI7SC2vD86tXd",
+   "content": "[2026 Israel–Lebanon ceasefire](https://en.wikipedia.org/wiki/2026_Israel%E2%80%93Lebanon_ceasefire) The 2026 Israel–Lebanon ceasefire is a cessation of hostilities agreed between Israel and Lebanon on 16 April 2026, amid the ongoing 2026 Lebanon war and wider regional conflict linked to the 2026 Iran war. The agreement, brokered by the United States, established a 10-day truce intended to halt active fighting and create conditions for further negotiations toward a longer-term settlement. [...] 8. 1 2 \"Iran's foreign minister says passage of vessels via Hormuz Strait is open during ceasefire\". \n[2026 Lebanon war - Wikipedia](https://en.wikipedia.org/wiki/2026_Lebanon_war) | | | | --- | | Date | 2 March 2026 (2026-03-02) – present (6 months and 2 weeks) | | Location | Lebanon and Israel | | Status | De jure temporary ceasefire since 16 April 2026 | | Territorial changes | Israel occupies parts of Southern Lebanon \"Israeli occupation of Southern Lebanon (2026)\") | | | | | Belligerents | | | [...] Israel agreed to a two-week ceasefire with Iran as part of the 7 April 2026 Iran war ceasefire. Although Pakistani prime minister Shehbaz Sharif said that the ceasefire in\n[Israel-Lebanon Ceasefire Extended for Three Weeks | Council on Foreign Relations](https://www.cfr.org/articles/israel-lebanon-ceasefire-extended-for-three-weeks) Skip to content Member Login Council on Foreign Relations Lebanon # Israel-Lebanon Ceasefire Extended for Three Weeks <p>Workers clear debris and collect scrap metal from a building destroyed by Israeli airstrikes in the Corniche al-Masraa neighborhood on April 23, 2026, in Beirut, Lebanon.</p> Workers clear debris and collect scrap metal from a building destroyed by Israeli airstrikes in the Corniche al-Masraa neighborhood on April 23, 2026, in Beirut, Lebanon. Scott Peterson/Getty [...] A ceas\n[What we know about the Israel-Lebanon ceasefire | US-Israel war on Iran News | Al Jazeera](https://www.aljazeera.com/news/2026/4/17/what-we-know-about-the-israel-lebanon-ceasefire) Live Live News|US-Israel war on Iran # What we know about the Israel-Lebanon ceasefire US President Donald Trump announced the 10-day ceasefire between the two countries. Save Share A women and a child celebrate and wave a flag. People celebrate in the streets of the Lebanese city of Sidon [File: Aziz Taher/Reuters] By Priyanka Shankar Published On 17 Apr 202617 Apr 2026 [...] Israel and Lebanon have announced a 10-day ceasefire to allow negotiations for a more perman"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_P6tnuPHiN7Y2GTQAU0xym00A",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"2026 Lebanon war\",\"keywords\":\"ceasefire duration\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_P6tnuPHiN7Y2GTQAU0xym00A",
+   "content": "Hezbollah attacked Israel on 8 October 2023, one day after Hamas' October 7 attacks at the start of the Gaza war, which led to the 2024 Israeli invasion of Lebanon. After an Israel-Lebanon ceasefire agreement in November 2024, Israel still conducted airstrikes, saying that Hezbollah breached ceasefire conditions. Hezbollah launched strikes on Israel on 2 March 2026, in response to Israel and the U\nAfter a ceasefire halted the Iran war, Hezbollah halted its attacks. Israeli Prime Minister Benjamin Netanyahu said the ceasefire did not apply to Lebanon, contradicting Iran and the Pakistani mediator, and launched the largest airstrikes of the war. On 16 April, Israel and Lebanon agreed to a 10-day ceasefire, later extended more than once. On 3 June, Israel and Lebanon reached an agreement, faci\nOn 15 June, the Islamabad Memorandum was agreed between the US and Iran, including a ceasefire in Lebanon. Israeli forces remained in occupied areas of Lebanon. On 19 June, U.S. President Donald Trump announced an Israel-Hezbollah truce entering into force at 4 p.m. local time (1 p.m. GMT). On 26 June, US secretary of state Marco Rubio announced a framework deal between Israel and Lebanon for \"las\nIn the aftermath of the outbreak of the Gaza war in October 2023, Israel and the Lebanese Shia militia Hezbollah have been engaged in conflict, as part of a longer stretch of hostilities between the two since the latter's founding in 1982. Hezbollah launched strikes against Israel after the 7 October 2023 attacks, which it said was in solidarity with the Palestinians. After a year of fighting, Isr\nOn 2 March, Hezbollah launched several projectiles into northern Israel, the first time it had done so since the 2024 ceasefire, targeting a missile defense site south of Haifa. Hezbollah said it restarted fighting to force Israel to stop its aggression and evacuate from seized Lebanese territories, emphasising that the move was unrelated to the Iran war. The Israel Defense Forces (IDF) said it ha\nNethanyahu followed Katz's and Smotrich's statement on 25 March calling for the creation of a \"security/buffer zone\" in Southern Lebanon. Iran asserted that Lebanon must be included as part of a ceasefire deal with the United States and Israel, thereby conditioning a ceasefire in the 2026 Iran war on a cessation of hostilities against Hezbollah. Two IDF soldiers were killed by Hezbollah attacks on"
+  },
+  {
+   "role": "assistant",
+   "content": "The ceasefire in the 2026 Lebanon war began on April 16, 2026, and was initially set for 10 days, allowing for a halt in active fighting and facilitating further negotiations for a longer-term settlement. It has since been extended multiple times. \n\nFINAL: The initial ceasefire lasted 10 days, starting April 16, 2026.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

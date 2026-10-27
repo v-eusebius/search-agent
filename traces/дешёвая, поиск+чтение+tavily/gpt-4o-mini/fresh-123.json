@@ -1,0 +1,54 @@
+{
+ "task": {
+  "id": "fresh-123",
+  "source": "fresh",
+  "question": "What country broke off diplomatic relations with France in June 2026?",
+  "answer": "Burkina Faso",
+  "evidence": "26 June – Burkina Faso breaks off diplomatic relations with France.",
+  "page": "2026 in France",
+  "url": "https://en.wikipedia.org/wiki/2026_in_France",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "Burkina Faso broke off diplomatic relations with France on June 26, 2026. The government announced the decision, citing accusations against France regarding neocolonial interference. FINAL: Burkina Faso.",
+ "correct": true,
+ "cost": 0.0002177999999999347,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You answer questions about recent events (2025–2026). Never answer from memory: use web_search (and tavily_search if available) to find the right article, then page_find to look inside long articles such as '2026 in <country or field>' for the specific fact. Do not repeat the same call. When done, write the last line as FINAL: <short answer>."
+  },
+  {
+   "role": "user",
+   "content": "What country broke off diplomatic relations with France in June 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_ws0TPkFeh87uABqyIB8utGd6",
+     "function": {
+      "name": "tavily_search",
+      "arguments": "{\"query\":\"country broke off diplomatic relations with France June 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_ws0TPkFeh87uABqyIB8utGd6",
+   "content": "[Burkina Faso cuts diplomatic ties with former colonial ruler France | Politics News | Al Jazeera](https://www.aljazeera.com/news/2026/6/26/burkina-faso-cuts-diplomatic-ties-with-former-colonial-ruler-france) Burkina Faso has broken off diplomatic relations with France, further widening the rift with its former colonial ruler. “The government of Burkina Faso hereby informs the national and international community that it has decided to sever diplomatic relations with France with effect from today, June 26, 2026,” said Friday’s statement read out on national television. ## Recommended Stories list of 4 items [...] Live Live News|Politics # Burkina Faso cuts diplomatic ties with former colonial ruler F\n[France Weighs Response After Burkina Faso Cuts Diplomatic Relations](https://www.globalbankingandfinance.com/france-considers-measures-burkina-faso-breaks-off-relations) Burkina Faso officially cut diplomatic relations with France on June 26, 2026, accusing Paris of neocolonial interference and support for subversive networks and terrorists (fr.euronews.com). France expressed regret over the “hostile and unfounded decision” and is reviewing reciprocal measures while urging heightened vigilance for its citizens in Burkina Faso (apnews.com). [...] Headlines # France considers measures after Burkina Faso breaks off relations Published by Global Banking & Finance Re\n[Burkina Faso severs diplomatic ties with France, a sudden move with far-reaching consequences](https://www.lemonde.fr/en/le-monde-africa/article/2026/07/02/burkina-faso-severs-diplomatic-ties-with-france-a-sudden-move-with-far-reaching-consequences_6755062_124.html) Captain Ibrahim Traoré announced on June 26 that Burkina Faso will break off bilateral relations with Paris. The 2,500 French nationals living in the country will no longer be able to rely on embassy or consular services, as staff are being repatriated. By Benjamin Roger Published on July 2, 2026, at 1:40 am (Paris), updated on July 2, 2026, at 11:27 am 3 min read Lire en français Subscribers only Make us preferred on Google [...] Until recently, North Korea and Afghanistan were the only countri\n[Instagram](https://www.instagram.com/p/DbAzRbkM0zA) \\_timfordjr On June 26, 2026 the military government of Burkina Faso officially severed all diplomatic ties with France, ordering the complete and utter removal of all diplomats, French media outlets, and French embassies from their country, effective immediately. What are your thoughts? Is this"
+  },
+  {
+   "role": "assistant",
+   "content": "Burkina Faso broke off diplomatic relations with France on June 26, 2026. The government announced the decision, citing accusations against France regarding neocolonial interference. FINAL: Burkina Faso.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

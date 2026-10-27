@@ -1,0 +1,24 @@
+{
+ "task": {
+  "id": "fresh-112",
+  "source": "fresh",
+  "question": "What mission was launched by ESA and CAS on May 19, 2026?",
+  "answer": "SMILE",
+  "evidence": "On 19 May, ESA and CAS launched their joint heliophysics mission SMILE to study the dynamic interaction between solar wind and Earth's magnetosphere. The spacecraft reached its final science orbit on 20 June.",
+  "page": "2026 in spaceflight",
+  "url": "https://en.wikipedia.org/wiki/2026_in_spaceflight",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "FINAL: Unknown.",
+ "correct": false,
+ "cost": 7.500000000000562e-06,
+ "messages": [
+  {
+   "role": "assistant",
+   "content": "Unknown.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

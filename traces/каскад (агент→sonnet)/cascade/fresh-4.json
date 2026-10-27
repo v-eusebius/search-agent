@@ -10,11 +10,11 @@
   "sonnet_answer": "unknown",
   "agent_ok": true
  },
- "answer": "Unknown.",
+ "answer": "Бесплатный общественный транспорт для всех младше 18 лет.",
  "correct": false,
- "cost": 0.0004625999999999797,
- "escalated": true,
- "confidence": 0.2,
+ "cost": 0.002085449999999822,
+ "escalated": false,
+ "confidence": 0.9,
  "agent_messages": [
   {
    "role": "system",
@@ -33,18 +33,18 @@
     {
      "type": "function",
      "index": 0,
-     "id": "call_5kgca9FiIK7UUzXDT8jKvQIN",
+     "id": "call_a8d7Hhsv4tV0yrBoLL03GQoe",
      "function": {
-      "name": "web_search",
-      "arguments": "{\"query\":\"Victoria Australia January 2026 news\"}"
+      "name": "tavily_search",
+      "arguments": "{\"query\":\"Victoria Australia measure January 2026\"}"
      }
     }
    ]
   },
   {
    "role": "tool",
-   "tool_call_id": "call_5kgca9FiIK7UUzXDT8jKvQIN",
-   "content": "[2026 in Australia] The following is a list of events including expected and scheduled events for the year 2026 in Australia. | other articles: Melbourne, Victoria University (Australia)"
+   "tool_call_id": "call_a8d7Hhsv4tV0yrBoLL03GQoe",
+   "content": "[Victoria (state) - Wikipedia](https://en.wikipedia.org/wiki/Victoria_(state)) The Mallee and upper Wimmera are Victoria's warmest regions with hot winds blowing from nearby semi-deserts. Average temperatures exceed 32 °C (90 °F) during summer and 15 °C (59 °F) in winter. Except at cool mountain elevations, the inland monthly temperatures are 2–7 °C (4–13 °F) warmer than around Melbourne (see chart). Victoria's highest maximum temperature of 48.9 °C (120.0 °F) was recorded in Walepup/ Hopetoun on 27 January 2026, during the January 2026 heatwave affecting the State. [...] \n[Helping with the cost of living | Victorian Budget 26/27](https://www.budget.vic.gov.au/helping-cost-living) This Budget also invests $278 million to halve the price of public transport until 1 January 2027. This includes trams, trains and bus services across the state. This is on top of free public transport for people aged under 18 on all Victorian public transport which kicked in on 1 January 2026. ## Making it easier to find the cheapest fuel Fuel prices are rising and it’s putting families under pressure. [...] We’re continuing to deliver concessions for energy, rates, water and sewerage bills, wi\n[Update - Victoria’s skilled visa nomination program 2026-27 - Live in Melbourne](https://liveinmelbourne.vic.gov.au/news-events/news/2026/update-victorias-skilled-visa-nomination-program-2026-27) $180 $198 \\Goods and Services Tax (GST) of 10% applies if the applicant is in Australia at the time of payment. GST is calculated and applied when the application form is completed. \\\\This fee is payable only if you are invited to apply for nomination and submit a nomination application. The Registration of Interest fee is charged once per program year. If you withdraw and submit a new Registration of Interest within the same program year, you will not be charged again. [...] 2026–27 fees for se\n[Victorian government spruiks first budget surplus in seven years | ABC NEWS](https://www.youtube.com/watch?v=9Arxc7zmooE) [3:04] announced weeks ago. Billions more will be poured into education, hospitals, and the justice system as the government [3:11] tries to calm community concern about crime. [3:16] [applause] [3:17] Applauded from within. But not everyone's buying Treasurer Jacquellyn Sims's pitch. [3:22] The biggest cost of living measure is housing affordability. And there is very little in this budget that addresses that. There's always so much more to be done. [...] # Victorian government spru"
   },
   {
    "role": "assistant",
@@ -55,22 +55,150 @@
     {
      "type": "function",
      "index": 0,
-     "id": "call_mrhr8PLQIbecF5JQ4iAcF7qC",
+     "id": "call_PybMbHFb5JPqeOTueriJSs6M",
      "function": {
       "name": "page_find",
-      "arguments": "{\"title\":\"2026 in Australia\",\"keywords\":\"Victoria January 2026\"}"
+      "arguments": "{\"title\":\"Helping with the cost of living | Victorian Budget 26/27\",\"keywords\":\"public transport January 2026\"}"
      }
     }
    ]
   },
   {
    "role": "tool",
-   "tool_call_id": "call_mrhr8PLQIbecF5JQ4iAcF7qC",
-   "content": "Administrator of the Northern Territory – Hugh Heggie until 30 January 2026, then David Connolly\n9 January – A total fire ban comes into force in Victoria in response to an ongoing heatwave.\n10 January – Wildfires destroy 130 structures in Victoria, prompting premier Jacinta Allan declares a statewide emergency. The Australian Capital Territory declares a total fire ban.\n13 January – The 2026 edition of Adelaide Writers' Week is called off after more than 180 writers and speakers boycott the event in protest against the organisers' decision to exclude Australian-Palestinian writer and academic Randa Abdel-Fattah.\nThe 2026 Nepean state by-election is held, resulting in the election of Victorian Liberal Party legislator Anthony Marsh.\n28 November – 2026 Victorian state election"
+   "tool_call_id": "call_PybMbHFb5JPqeOTueriJSs6M",
+   "content": "no such page"
   },
   {
    "role": "assistant",
-   "content": "In January 2026, a total fire ban came into force in Victoria, Australia, in response to an ongoing heatwave. This was implemented on January 9, 2026. \n\nFINAL: Total fire ban.",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_OgETzZZey0k82XvRzW0zmYG1",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Victoria Australia January 2026 new measures\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_OgETzZZey0k82XvRzW0zmYG1",
+   "content": "[2026 local electoral calendar] This local electoral calendar for 2026 lists the subnational elections held, and scheduled to be held, in 2026. Referendums, recall and retention elections, and national by-elections (special elections) are also included. Specific dates are given where these are known. | other articles: 2026, List of major bushfires in Australia"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_Nk5rzXxux5gx8Dy072h4D4mj",
+     "function": {
+      "name": "tavily_search",
+      "arguments": "{\"query\":\"Victoria Australia January 2026 changes\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_Nk5rzXxux5gx8Dy072h4D4mj",
+   "content": "[Big changes coming to Australia on January 1, 2026 | news.com.au — Australia’s leading news site for latest headlines](https://www.news.com.au/finance/everything-you-need-to-know-about-the-changes-coming-to-australia-on-january-1-2026/news-story/c192ef8b372eeebdd63e522fada020c0) VIC From January 1, 2026 the maximum price for a CityLink toll will increase to $12.38 for cars, with the largest cap of $55.71 applying to LCHV motor vehicles. A 24-hour CityLink pass will cost drivers $23.75, while light commercial and motorcycle users will fork out $51.50 and $11.88 respectively for the same pass. QLD [...] The WestConnex toll, which is adjusted annually, will also increase. Passenger vehicles using more than 16km of WestConnex in one trip will be capped at a maximum of $12.7\n[Major changes coming to Victorians at the start of 2026 | 7NEWS](https://www.youtube.com/watch?v=o-zIs20IUL0) # Major changes coming to Victorians at the start of 2026 | 7NEWS ## Channel: 7NEWS Australia (verified) 2.27M subscribers 157 likes ### Description 39,428 views Posted: 2025-12-30 There are major changes coming into effect tomorrow that will have a significant impact on Victorian bank balances. Among the winners, anyone relying on social security payments, but a host of transport fees will go up. Again. Subscribe and set 🔔 » | [...] 7NEWS combines the trusted and powerful news brands including \n[January 1, 2026 new year changes: Australian policies, programs and changes coming into effect](https://www.afr.com/politics/federal/all-the-changes-coming-on-january-1-20251216-p5no49) As sure as the new year brings new feet through the doors of the local gym, it also signals the start date for a raft of new government policies, programs and changes. From landmark reforms to merger and acquisition rules, to annual indexations, here is what is changing on January 1. Loading... or Subscribe to save article EmailLinkedInTwitterFacebook Subscribe to gift this article Gift articles to anyone you choose each month when you subscribe. Subscribe now Already a subscriber? [...] Skip to\n[Minimum wage, paid parental leave, super: what changes on 1 July 2026? - We Are Union VTHC](https://www.weareunion.org.au/changes_on_1_july_2026) July 02, 2026 Health workers protesting in front of the Victorian Parliament for better pay and conditions. 01.04.2026 © Lara Levy Every year on 1 July, new workplace laws and entitlements come into effect across Australia. This year brings important changes to superannu"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_31FIxJxlJEV5a4oawayIfWLe",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"January 1, 2026 new year changes: Australian policies, programs and changes coming into effect\",\"keywords\":\"Victorian changes January 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_31FIxJxlJEV5a4oawayIfWLe",
+   "content": "no such page"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_bwfJlIFB1DXNsssdMOTzr5qO",
+     "function": {
+      "name": "tavily_search",
+      "arguments": "{\"query\":\"Victoria Australia January 2026 new measures public transport\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_bwfJlIFB1DXNsssdMOTzr5qO",
+   "content": "[Public transport will be free across Victoria from 31 March ...](https://www.facebook.com/wyndhamtv.com.au/posts/public-transport-will-be-free-across-victoria-from-31-march-to-30-april-2026-cov/1537859621673713) This post announces that public transport in Victoria, Melbourne, will be free for under-18s starting in January 2026. The change is attributed\n[FREE public transport for everyone under 18 across Victoria ...](https://www.instagram.com/reel/DRbEJCwEkRj?hl=en) FREE public transport for everyone under 18 across Victoria from Jan 1, 2026. It's funded by taxpayers. Victoria Government will cap public\n[Victoria and Tasmania get free public transport in fuel crisis ...](https://www.theguardian.com/australia-news/2026/mar/29/victoria-free-public-transport-april-petrol-prices) Public transport will be free in Victoria for a month. Jan 2026 Victoria announces free public transport for under-18s, as state's debt\n[Effective June 2026, public transport fares across Victoria have ...](https://www.facebook.com/joan.of.art/videos/effective-june-2026-public-transport-fares-across-victoria-have-been-cut-in-half/1566544715101684) As part of a state cost-of-living relief measure, public transport fares will be cut by 50% for commuters, with the maximum daily weekday cap\n[Public transport across Victoria will be free during April, in an ...](https://www.facebook.com/9News/videos/public-transport-across-victoria-will-be-free-during-april-in-an-emergency-cost-/2020909618458018) From today until 1 January, public transport is half-price ・ regular commuters can save up to $850 ・ includes a 20% discount on vehicle"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_WamrIdou609cK19JZnsVqd7V",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\": \"Free public transport under 18 Victoria January 2026\"}"
+     }
+    },
+    {
+     "type": "function",
+     "index": 1,
+     "id": "call_37RkBArSn3b9VnLwr9YtsczC",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\": \"Victorian new measures January 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_WamrIdou609cK19JZnsVqd7V",
+   "content": "[Free public transport] Free public transport, often called fare-free public transit or zero-fare public transport, is public transport which is fully funded by means other than collecting fares from passengers. It may be funded by national, regional or local government through taxation, and/or by commercial sponsorship by businesses. Alternatively, the concept of \"free-ness\" may take other forms, such as no-fare access via a card which may or may not be paid for in its entirety by the user. On 29 February 2020, Luxembourg became the first country in the world to make all public transport in the country (buses, trams, and trains) free to use. On 1 October 2022, Malta made its public transport free on most routes, though unlike in Luxembourg, this applies only to residents. As some transit lines intended to operate with fares initially start service, the organisation may elect not to collect fares for an introductory period to create interest or to test operations. | other articles: Public transport, Public transport in Auckland"
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_37RkBArSn3b9VnLwr9YtsczC",
+   "content": "[Victorian Turkish baths] The Victorian Turkish bath is a type of bath in which the bather sweats freely in hot dry air, is then usually washed and massaged (together known as shampooing), and has a cold wash or shower. It can also mean, especially when used in the plural, an establishment where such a bath is available. Hot-air baths of the same type, built after Queen Victoria's reign (1837–1901), are known as Victorian-style Turkish baths, and are also covered in this article. The Victorian Turkish bath became popular during the latter third of the queen's reign. It retained this popularity during the Edwardian years (1901–1914), first as a therapy and a means of personal cleansing, and then as a place for relaxation and enjoyment. It was very soon copied in several parts of the British Empire, in the United States, and in some Western European countries. Victorian Turkish baths were opened as small commercial businesses, and later by those local authorities that saw them as being permitted under the Baths and Washhouses Act 1846. They were also found in hotels, hydropathic establishments (hydros) and hospitals, in the Victorian asylum and the Victorian workhouse, in the houses of the wealthy, in private members' clubs, and in ocean liners for those travelling overseas. They were even provided for farm animals and urban workhorses. Some establishments provided additional facilities such as steam rooms and, from the second half of the 20th century, Finnish saunas. These complemented the Turkish bath | other articles: Jacinta Allan, Roshena Campbell"
+  },
+  {
+   "role": "user",
+   "content": "Инструменты больше недоступны. Ответь по тому, что уже известно, последней строкой FINAL: <ответ>."
+  },
+  {
+   "role": "assistant",
+   "content": "В январе 2026 года в Виктории, Австралия, вступила в силу мера, согласно которой все пассажиры младше 18 лет могут пользоваться общественным транспортом бесплатно. Это решение направлено на помощь молодежи и поддержку семей в условиях роста стоимости жизни. \n\nFINAL: Бесплатный общественный транспорт для всех младше 18 лет.",
    "refusal": null,
    "reasoning": null
   }

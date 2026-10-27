@@ -8,9 +8,9 @@
   "page": "2026 in chess",
   "url": "https://en.wikipedia.org/wiki/2026_in_chess"
  },
- "answer": "Извините, но у меня нет информации о победителе Международного шахматного фестиваля в Сардинии на 10 мая 2026 года. Я не смог найти актуальные данные по этому вопросу. FINAL: информация недоступна.",
+ "answer": "Извините, но на данный момент нет доступной информации о победителе Международного шахматного фестиваля в Сардинии, который проходил 10 мая 2026 года. В последние обновления событий в шахматном мире не было указано на это мероприятие. FINAL: Неизвестно.",
  "correct": false,
- "cost": 0.0012337499999999918,
+ "cost": 0.0013172999999999935,
  "messages": [
   {
    "role": "system",
@@ -29,7 +29,7 @@
     {
      "type": "function",
      "index": 0,
-     "id": "call_nPqniGk3AxYh8q7MLZ4QfYpc",
+     "id": "call_oFHUCADMDM99fyqFeMx8EgaI",
      "function": {
       "name": "web_search",
       "arguments": "{\"query\":\"Sardinia International Chess Festival May 10 2026 winner\"}"
@@ -39,8 +39,8 @@
   },
   {
    "role": "tool",
-   "tool_call_id": "call_nPqniGk3AxYh8q7MLZ4QfYpc",
-   "content": "[2026 in chess] Major chess events in 2026 include the annual Tata Steel Chess Tournament, Prague Chess Festival, Norway Chess and Grand Chess Tour. The Candidates Tournament and the Women's Candidates Tournament were held at Paphos, Cyprus to determine the challengers for the reigning world champions Gukesh Dommaraju and Ju Wenjun. The winners, Javokhir Sindarov and Vaishali Rameshbabu, advanced to the World Chess Championship 2026 and the Women's World Chess Championship 2027 respectively. The 46th Chess Olympiad featuring open and women's sections will be held in September at Samarkand, Uzbekistan. The pilot version of Total Chess World Championship Tour will kick off in November at Budapest, Hungary. | other articles: 2025 in chess, Deaths in 2026"
+   "tool_call_id": "call_oFHUCADMDM99fyqFeMx8EgaI",
+   "content": "[2026 in chess] Major chess events in 2026 include the annual Tata Steel Chess Tournament, Prague Chess Festival, Norway Chess and Grand Chess Tour. The Candidates Tournament and the Women's Candidates Tournament were held at Paphos, Cyprus to determine the challengers for the reigning world champions Gukesh Dommaraju and Ju Wenjun. The winners, Javokhir Sindarov and Vaishali Rameshbabu, advanced to the World Chess Championship 2026 and the Women's World Chess Championship 2027 respectively. Uzbekistan and China won the Open and Women's sections, respectively, of the 46th Chess Olympiad held at Samarkand, Uzbekistan. The pilot version of Total Chess World Championship Tour will kick off in November at Budapest, Hungary. | other articles: 2026–2027 FIDE Circuit, 2025 in chess"
   },
   {
    "role": "assistant",
@@ -51,7 +51,7 @@
     {
      "type": "function",
      "index": 0,
-     "id": "call_bEoneXKsdStoCnRDoNfMN2fU",
+     "id": "call_fLCdv27HGkSFsNozT2ZLUuge",
      "function": {
       "name": "web_search",
       "arguments": "{\"query\":\"2026 Sardinia International Chess Festival results\"}"
@@ -61,8 +61,8 @@
   },
   {
    "role": "tool",
-   "tool_call_id": "call_bEoneXKsdStoCnRDoNfMN2fU",
-   "content": "[2026 in chess] Major chess events in 2026 include the annual Tata Steel Chess Tournament, Prague Chess Festival, Norway Chess and Grand Chess Tour. The Candidates Tournament and the Women's Candidates Tournament were held at Paphos, Cyprus to determine the challengers for the reigning world champions Gukesh Dommaraju and Ju Wenjun. The winners, Javokhir Sindarov and Vaishali Rameshbabu, advanced to the World Chess Championship 2026 and the Women's World Chess Championship 2027 respectively. The 46th Chess Olympiad featuring open and women's sections will be held in September at Samarkand, Uzbekistan. The pilot version of Total Chess World Championship Tour will kick off in November at Budapest, Hungary. | other articles: 2025 in chess, 2026–2027 FIDE Circuit"
+   "tool_call_id": "call_fLCdv27HGkSFsNozT2ZLUuge",
+   "content": "[2026 in chess] Major chess events in 2026 include the annual Tata Steel Chess Tournament, Prague Chess Festival, Norway Chess and Grand Chess Tour. The Candidates Tournament and the Women's Candidates Tournament were held at Paphos, Cyprus to determine the challengers for the reigning world champions Gukesh Dommaraju and Ju Wenjun. The winners, Javokhir Sindarov and Vaishali Rameshbabu, advanced to the World Chess Championship 2026 and the Women's World Chess Championship 2027 respectively. Uzbekistan and China won the Open and Women's sections, respectively, of the 46th Chess Olympiad held at Samarkand, Uzbekistan. The pilot version of Total Chess World Championship Tour will kick off in November at Budapest, Hungary. | other articles: 2026–2027 FIDE Circuit, Daniel Dardha"
   },
   {
    "role": "assistant",
@@ -73,18 +73,18 @@
     {
      "type": "function",
      "index": 0,
-     "id": "call_Z5IjjRGmjfPc5u16PbPo8lel",
+     "id": "call_JPrcEJgt8XqnbaaJaP2X1WBx",
      "function": {
       "name": "web_search",
-      "arguments": "{\"query\":\"Sardinia International Chess Festival 2026 results May 10\"}"
+      "arguments": "{\"query\":\"Sardinia International Chess Festival May 2026 results winner\"}"
      }
     }
    ]
   },
   {
    "role": "tool",
-   "tool_call_id": "call_Z5IjjRGmjfPc5u16PbPo8lel",
-   "content": "[2026 in chess] Major chess events in 2026 include the annual Tata Steel Chess Tournament, Prague Chess Festival, Norway Chess and Grand Chess Tour. The Candidates Tournament and the Women's Candidates Tournament were held at Paphos, Cyprus to determine the challengers for the reigning world champions Gukesh Dommaraju and Ju Wenjun. The winners, Javokhir Sindarov and Vaishali Rameshbabu, advanced to the World Chess Championship 2026 and the Women's World Chess Championship 2027 respectively. The 46th Chess Olympiad featuring open and women's sections will be held in September at Samarkand, Uzbekistan. The pilot version of Total Chess World Championship Tour will kick off in November at Budapest, Hungary. | other articles: 2025 in chess, 2026–2027 FIDE Circuit"
+   "tool_call_id": "call_JPrcEJgt8XqnbaaJaP2X1WBx",
+   "content": "[2026 in chess] Major chess events in 2026 include the annual Tata Steel Chess Tournament, Prague Chess Festival, Norway Chess and Grand Chess Tour. The Candidates Tournament and the Women's Candidates Tournament were held at Paphos, Cyprus to determine the challengers for the reigning world champions Gukesh Dommaraju and Ju Wenjun. The winners, Javokhir Sindarov and Vaishali Rameshbabu, advanced to the World Chess Championship 2026 and the Women's World Chess Championship 2027 respectively. Uzbekistan and China won the Open and Women's sections, respectively, of the 46th Chess Olympiad held at Samarkand, Uzbekistan. The pilot version of Total Chess World Championship Tour will kick off in November at Budapest, Hungary. | other articles: 2026–2027 FIDE Circuit, Alexandra Botez"
   },
   {
    "role": "assistant",
@@ -95,18 +95,18 @@
     {
      "type": "function",
      "index": 0,
-     "id": "call_MGSMMsAeK8WctLOpykCneIWs",
+     "id": "call_hUzo4sq4Ws4r7iX9BAwr96LY",
      "function": {
       "name": "web_search",
-      "arguments": "{\"query\":\"Sardinia International Chess Festival winner May 2026\"}"
+      "arguments": "{\"query\":\"May 2026 chess tournament results Sardinia International Chess Festival\"}"
      }
     }
    ]
   },
   {
    "role": "tool",
-   "tool_call_id": "call_MGSMMsAeK8WctLOpykCneIWs",
-   "content": "[2026 in chess] Major chess events in 2026 include the annual Tata Steel Chess Tournament, Prague Chess Festival, Norway Chess and Grand Chess Tour. The Candidates Tournament and the Women's Candidates Tournament were held at Paphos, Cyprus to determine the challengers for the reigning world champions Gukesh Dommaraju and Ju Wenjun. The winners, Javokhir Sindarov and Vaishali Rameshbabu, advanced to the World Chess Championship 2026 and the Women's World Chess Championship 2027 respectively. The 46th Chess Olympiad featuring open and women's sections will be held in September at Samarkand, Uzbekistan. The pilot version of Total Chess World Championship Tour will kick off in November at Budapest, Hungary. | other articles: 2025 in chess, Deaths in 2026"
+   "tool_call_id": "call_hUzo4sq4Ws4r7iX9BAwr96LY",
+   "content": "[2026 in chess] Major chess events in 2026 include the annual Tata Steel Chess Tournament, Prague Chess Festival, Norway Chess and Grand Chess Tour. The Candidates Tournament and the Women's Candidates Tournament were held at Paphos, Cyprus to determine the challengers for the reigning world champions Gukesh Dommaraju and Ju Wenjun. The winners, Javokhir Sindarov and Vaishali Rameshbabu, advanced to the World Chess Championship 2026 and the Women's World Chess Championship 2027 respectively. Uzbekistan and China won the Open and Women's sections, respectively, of the 46th Chess Olympiad held at Samarkand, Uzbekistan. The pilot version of Total Chess World Championship Tour will kick off in November at Budapest, Hungary. | other articles: 2025 in chess, 2026–2027 FIDE Circuit"
   },
   {
    "role": "assistant",
@@ -117,29 +117,7 @@
     {
      "type": "function",
      "index": 0,
-     "id": "call_Y2AtsLOZ6J9nUcn4ufdmDhTX",
-     "function": {
-      "name": "web_search",
-      "arguments": "{\"query\":\"Sardinia International Chess Festival May 2026 news\"}"
-     }
-    }
-   ]
-  },
-  {
-   "role": "tool",
-   "tool_call_id": "call_Y2AtsLOZ6J9nUcn4ufdmDhTX",
-   "content": "[2026 in chess] Major chess events in 2026 include the annual Tata Steel Chess Tournament, Prague Chess Festival, Norway Chess and Grand Chess Tour. The Candidates Tournament and the Women's Candidates Tournament were held at Paphos, Cyprus to determine the challengers for the reigning world champions Gukesh Dommaraju and Ju Wenjun. The winners, Javokhir Sindarov and Vaishali Rameshbabu, advanced to the World Chess Championship 2026 and the Women's World Chess Championship 2027 respectively. The 46th Chess Olympiad featuring open and women's sections will be held in September at Samarkand, Uzbekistan. The pilot version of Total Chess World Championship Tour will kick off in November at Budapest, Hungary. | other articles: 2025 in chess, Faustino Oro"
-  },
-  {
-   "role": "assistant",
-   "content": null,
-   "refusal": null,
-   "reasoning": null,
-   "tool_calls": [
-    {
-     "type": "function",
-     "index": 0,
-     "id": "call_nCVitIG6NZmbHSJzXR34m4ao",
+     "id": "call_keourrL2JaSuIXlkDTtTOSuJ",
      "function": {
       "name": "web_search",
       "arguments": "{\"query\":\"2026 Sardinia International Chess Festival May results\"}"
@@ -149,8 +127,8 @@
   },
   {
    "role": "tool",
-   "tool_call_id": "call_nCVitIG6NZmbHSJzXR34m4ao",
-   "content": "[2026 in chess] Major chess events in 2026 include the annual Tata Steel Chess Tournament, Prague Chess Festival, Norway Chess and Grand Chess Tour. The Candidates Tournament and the Women's Candidates Tournament were held at Paphos, Cyprus to determine the challengers for the reigning world champions Gukesh Dommaraju and Ju Wenjun. The winners, Javokhir Sindarov and Vaishali Rameshbabu, advanced to the World Chess Championship 2026 and the Women's World Chess Championship 2027 respectively. The 46th Chess Olympiad featuring open and women's sections will be held in September at Samarkand, Uzbekistan. The pilot version of Total Chess World Championship Tour will kick off in November at Budapest, Hungary. | other articles: 2025 in chess, 2026–2027 FIDE Circuit"
+   "tool_call_id": "call_keourrL2JaSuIXlkDTtTOSuJ",
+   "content": "[2026 in chess] Major chess events in 2026 include the annual Tata Steel Chess Tournament, Prague Chess Festival, Norway Chess and Grand Chess Tour. The Candidates Tournament and the Women's Candidates Tournament were held at Paphos, Cyprus to determine the challengers for the reigning world champions Gukesh Dommaraju and Ju Wenjun. The winners, Javokhir Sindarov and Vaishali Rameshbabu, advanced to the World Chess Championship 2026 and the Women's World Chess Championship 2027 respectively. Uzbekistan and China won the Open and Women's sections, respectively, of the 46th Chess Olympiad held at Samarkand, Uzbekistan. The pilot version of Total Chess World Championship Tour will kick off in November at Budapest, Hungary. | other articles: 2026–2027 FIDE Circuit, Alexandra Botez"
   },
   {
    "role": "assistant",
@@ -161,18 +139,40 @@
     {
      "type": "function",
      "index": 0,
-     "id": "call_l0qMeoE7zm2nb4IKvso6LJqH",
+     "id": "call_vWkZgSbuuSLhtRJYoZE1Rerp",
      "function": {
       "name": "web_search",
-      "arguments": "{\"query\":\"Sardinia International Chess Festival 2026 May 10 winner\"}"
+      "arguments": "{\"query\":\"chess tournaments May 2026 results Sardinia International Chess Festival\"}"
      }
     }
    ]
   },
   {
    "role": "tool",
-   "tool_call_id": "call_l0qMeoE7zm2nb4IKvso6LJqH",
-   "content": "[2026 in chess] Major chess events in 2026 include the annual Tata Steel Chess Tournament, Prague Chess Festival, Norway Chess and Grand Chess Tour. The Candidates Tournament and the Women's Candidates Tournament were held at Paphos, Cyprus to determine the challengers for the reigning world champions Gukesh Dommaraju and Ju Wenjun. The winners, Javokhir Sindarov and Vaishali Rameshbabu, advanced to the World Chess Championship 2026 and the Women's World Chess Championship 2027 respectively. The 46th Chess Olympiad featuring open and women's sections will be held in September at Samarkand, Uzbekistan. The pilot version of Total Chess World Championship Tour will kick off in November at Budapest, Hungary. | other articles: 2025 in chess, Deaths in 2026"
+   "tool_call_id": "call_vWkZgSbuuSLhtRJYoZE1Rerp",
+   "content": "[2026 in chess] Major chess events in 2026 include the annual Tata Steel Chess Tournament, Prague Chess Festival, Norway Chess and Grand Chess Tour. The Candidates Tournament and the Women's Candidates Tournament were held at Paphos, Cyprus to determine the challengers for the reigning world champions Gukesh Dommaraju and Ju Wenjun. The winners, Javokhir Sindarov and Vaishali Rameshbabu, advanced to the World Chess Championship 2026 and the Women's World Chess Championship 2027 respectively. Uzbekistan and China won the Open and Women's sections, respectively, of the 46th Chess Olympiad held at Samarkand, Uzbekistan. The pilot version of Total Chess World Championship Tour will kick off in November at Budapest, Hungary. | other articles: 2026–2027 FIDE Circuit, 2025 in chess"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_X0MGyio7qIIjKe6ZtTAmHgri",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"2026 Sardinia International Chess Festival May 2026 winner details\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_X0MGyio7qIIjKe6ZtTAmHgri",
+   "content": "[Sport in Italy] Sport in Italy has a long tradition. In several sports, both individual and team, Italy has good representation and many successes. The most popular sport in Italy is football. Italy's national football team is one of the world's most successful teams with four FIFA World Cup victories (1934, 1938, 1982 and 2006) and two UEFA Euro victories (1968 and 2021). Italian clubs have won 48 major European trophies, making Italy the second most successful country in European football. Italy's top-flight club football league is named Serie A and is followed by millions of fans around the world. Other popular team sports in Italy include basketball, volleyball and rugby. Italy's male and female national volleyball teams are often featured among the world's best. The Italian national basketball team's best results were gold at Eurobasket 1983 and EuroBasket 1999, as well as silver at the Olympics in 1980 and 2004. Lega Basket Serie A is widely considered one of the most competitive in Europe. Italy's rugby national team competes in the Six Nations Championship, and is a regular at the Rugby World Cup. The men's volleyball team won three consecutive World Championships (in 1990, 1994, and 1998) and earned the Olympic silver medal in 1996, 2004, and 2016. Italy has a long and successful tradition in individual sports as well. Bicycle racing is a familiar sport in the country along with fencing, shooting and boxing. Alpine skiing is also a widespread sport in Italy, and the country is a pop"
   },
   {
    "role": "user",
@@ -180,7 +180,7 @@
   },
   {
    "role": "assistant",
-   "content": "Извините, но у меня нет информации о победителе Международного шахматного фестиваля в Сардинии на 10 мая 2026 года. Я не смог найти актуальные данные по этому вопросу. FINAL: информация недоступна.",
+   "content": "Извините, но на данный момент нет доступной информации о победителе Международного шахматного фестиваля в Сардинии, который проходил 10 мая 2026 года. В последние обновления событий в шахматном мире не было указано на это мероприятие. FINAL: Неизвестно.",
    "refusal": null,
    "reasoning": null
   }

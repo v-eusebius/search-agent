@@ -1,0 +1,24 @@
+{
+ "task": {
+  "id": "fresh-89",
+  "source": "fresh",
+  "question": "Who announced stepping down as general manager of the Canada men's national ice hockey team in March 2026?",
+  "answer": "Doug Armstrong",
+  "evidence": "March 17 – Doug Armstrong announces he is stepping down as general manager of the Canada men's national ice hockey team",
+  "page": "2026 in Canada",
+  "url": "https://en.wikipedia.org/wiki/2026_in_Canada",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "FINAL: Unknown.",
+ "correct": false,
+ "cost": 8.099999999996998e-06,
+ "messages": [
+  {
+   "role": "assistant",
+   "content": "Unknown.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

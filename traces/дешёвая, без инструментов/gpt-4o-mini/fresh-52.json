@@ -1,0 +1,24 @@
+{
+ "task": {
+  "id": "fresh-52",
+  "source": "fresh",
+  "question": "What was the magnitude of the earthquake that hit Guangxi on May 18, 2026?",
+  "answer": "5.2",
+  "evidence": "18 May – A magnitude 5.2 earthquake hits Guangxi, killing two people and injuring four in Liuzhou.",
+  "page": "2026 in China",
+  "url": "https://en.wikipedia.org/wiki/2026_in_China",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "FINAL: Unknown.",
+ "correct": false,
+ "cost": 7.949999999999624e-06,
+ "messages": [
+  {
+   "role": "assistant",
+   "content": "Unknown.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

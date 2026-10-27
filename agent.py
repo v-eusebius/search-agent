@@ -127,10 +127,19 @@ def chat(messages, model, tools=None, tag="chat", temperature=None):
 
 
 # ---------- utils ----------
+NUMBERS = {
+    w: str(n)
+    for n, w in enumerate(
+        "zero one two three four five six seven eight nine ten eleven twelve".split()
+    )
+}
+
+
 def normalize(text):
+    """Нижний регистр, без пунктуации и артиклей; слова-числа (twelve) становятся цифрами."""
     text = re.sub(r"[^\w\s]", " ", str(text).lower().replace(",", ""))
     text = re.sub(r"\b(a|an|the)\b", " ", text)
-    return " ".join(text.split())
+    return " ".join(NUMBERS.get(w, w) for w in text.split())
 
 
 def json_from(text):
@@ -146,24 +155,31 @@ def final_answer(text):
 
 
 def is_correct(task, answer):
-    """Нормализованный эталон содержится в ответе; для дат допускаем перестановку день/месяц."""
-    gold, pred = normalize(task["answer"]), normalize(answer)
-    if gold and gold in pred:
+    """Все слова эталона есть в ответе (порядок не важен); для дат допускаем перестановку день/месяц.
+
+    Слова-числа приводятся к цифрам: эталон «Twelve» совпадает с ответом «12 people killed».
+    """
+    pred_words = set(normalize(answer).split())
+    gold = normalize(task["answer"])
+    if not gold:
+        return False
+    if set(gold.split()) <= pred_words:
         return True
     months = {
-        "january": "01", "february": "02", "march": "03", "april": "04", "may": "05", "june": "06",
-        "july": "07", "august": "08", "september": "09", "october": "10", "november": "11", "december": "12",
+        "january", "february", "march", "april", "may", "june",
+        "july", "august", "september", "october", "november", "december",
     }
+    pred = " ".join(normalize(answer).split())
     # "15 march" <-> "march 15"
     m = re.match(r"^(\d{1,2})\s+([a-z]+)$", gold)
     if m and m.group(2) in months:
         alt = f"{m.group(2)} {int(m.group(1))}"
-        if alt in pred:
+        if set(alt.split()) <= pred_words or alt in pred:
             return True
     m = re.match(r"^([a-z]+)\s+(\d{1,2})$", gold)
     if m and m.group(1) in months:
         alt = f"{int(m.group(2))} {m.group(1)}"
-        if alt in pred:
+        if set(alt.split()) <= pred_words or alt in pred:
             return True
     return False
 
@@ -477,10 +493,26 @@ SCHEMA_PROMPT = (
 )
 
 
-def rate_confidence(question, answer, model):
+def tool_evidence(messages, limit=4000):
+    """Тексты ответов инструментов: без них оценка уверенности не видит найденные строки."""
+    parts = []
+    for message in messages or []:
+        if isinstance(message, dict) and message.get("role") == "tool" and message.get("content"):
+            parts.append(str(message["content"])[:800])
+    return "\n".join(parts)[-limit:]
+
+
+def rate_confidence(question, answer, model, evidence=""):
+    user = f"Question: {question}\nProposed answer: {answer}\n"
+    if evidence:
+        user += f"Evidence the agent retrieved:\n{evidence}\n"
+    user += (
+        "Rate your confidence that the proposed answer is correct. "
+        "If the retrieved evidence explicitly supports it, confidence should be high."
+    )
     messages = [
         {"role": "system", "content": SCHEMA_PROMPT.format(schema=json.dumps(Confident.model_json_schema(), ensure_ascii=False))},
-        {"role": "user", "content": f"Question: {question}\nProposed answer: {answer}\nRate your confidence that the answer is correct."},
+        {"role": "user", "content": user},
     ]
     for _ in range(2):
         msg = chat(messages, model, tag="confidence")
@@ -501,7 +533,7 @@ def cascade_run(tasks, tool_names, threshold=0.55, config="каскад (аге�
         started = time.perf_counter()
         run = agent(task["question"], MODELS["cheap"], tool_names, max_steps=8)
         ans = final_answer(run.answer)
-        conf = rate_confidence(task["question"], ans, MODELS["cheap"])
+        conf = rate_confidence(task["question"], ans, MODELS["cheap"], tool_evidence(run.messages))
         escalated = False
         if conf.confidence < threshold:
             escalated = True
@@ -602,7 +634,7 @@ def check_freshness(tasks):
     return share <= 0.2
 
 
-def run_eval(limit=60, include_tavily=True, include_cascade=True):
+def run_eval(limit=0, include_tavily=True, include_cascade=True):
     setup_tools()
     tasks = load_tasks()
     if limit and limit > 0:
@@ -627,8 +659,9 @@ def run_eval(limit=60, include_tavily=True, include_cascade=True):
     frames.append(run_tasks(tasks, MODELS["cheap"], ["web_search"], "дешёвая, только поиск"))
     # 4) cheap search + page_find
     frames.append(run_tasks(tasks, MODELS["cheap"], best_tools, "дешёвая, поиск+чтение"))
-    # 5) mid best tools
-    frames.append(run_tasks(tasks, MODELS["mid"], best_tools, "средняя, поиск+чтение"))
+    mid_tools = best_tools_tavily if include_tavily and os.getenv("TAVILY_API_KEY", "").strip() else best_tools
+    mid_name = "средняя, поиск+чтение+tavily" if mid_tools is best_tools_tavily else "средняя, поиск+чтение"
+    frames.append(run_tasks(tasks, MODELS["mid"], mid_tools, mid_name))
 
     if include_tavily and os.getenv("TAVILY_API_KEY", "").strip():
         frames.append(run_tasks(tasks, MODELS["cheap"], best_tools_tavily, "дешёвая, поиск+чтение+tavily"))
@@ -636,7 +669,7 @@ def run_eval(limit=60, include_tavily=True, include_cascade=True):
         print("TAVILY_API_KEY нет — пропускаю строку с Tavily")
 
     if include_cascade:
-        frames.append(cascade_run(tasks, best_tools, threshold=0.55))
+        frames.append(cascade_run(tasks, mid_tools, threshold=0.55))
 
     results = pd.concat(frames, ignore_index=True)
     results.to_csv(ROOT / "results_raw.csv", index=False)
@@ -653,7 +686,7 @@ def main():
     ap.add_argument("--test-tools", action="store_true")
     ap.add_argument("--freshness", action="store_true")
     ap.add_argument("--eval", action="store_true")
-    ap.add_argument("--limit", type=int, default=60, help="0 = весь датасет")
+    ap.add_argument("--limit", type=int, default=0, help="0 = весь датасет")
     ap.add_argument("--no-tavily", action="store_true")
     ap.add_argument("--no-cascade", action="store_true")
     args = ap.parse_args()

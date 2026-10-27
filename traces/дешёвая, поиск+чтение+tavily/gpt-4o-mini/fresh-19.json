@@ -10,9 +10,9 @@
   "sonnet_answer": "unknown",
   "agent_ok": false
  },
- "answer": "On June 15, 2026, Disney Branded Television officially rebranded itself as Disney Kids & Family. FINAL: Disney Kids & Family.",
+ "answer": "On June 15, 2026, Disney Branded Television rebranded itself as Disney Kids & Family. This name change was part of an organizational review and came from the leadership of Debra OConnell and Ayo Davis. \n\nFINAL: Disney Kids & Family.",
  "correct": true,
- "cost": 0.00035594999999999377,
+ "cost": 0.00022425000000003692,
  "messages": [
   {
    "role": "system",
@@ -31,7 +31,7 @@
     {
      "type": "function",
      "index": 0,
-     "id": "call_Kp49eUuNoWmSP1OK7GAscgD1",
+     "id": "call_UTswmuBjp8XF4lx6hRlF3Fwv",
      "function": {
       "name": "tavily_search",
       "arguments": "{\"query\":\"Disney Branded Television rebrand June 15 2026\"}"
@@ -41,34 +41,12 @@
   },
   {
    "role": "tool",
-   "tool_call_id": "call_Kp49eUuNoWmSP1OK7GAscgD1",
-   "content": "[\"NEW: Disney Branded Television has been rebranded to ...](https://x.com/BoardwalkTimes/status/2066586942045642985?lang=en) Disney Branded Television has been rebranded to Disney Kids & Family. 11:21 AM · Jun 15, 2026·\n[Disney Branded Television Changes Name To Disney Kids & Family](https://deadline.com/2026/06/disney-branded-television-name-change-disney-kids-and-family-1236955356) EXCLUSIVE: Disney Branded Television is rebranding itself as Disney Kids & Family. The name change follows a review by Debra OConnell who added oversight of the Ayo Davis-led division as part of her elevation to Chairman of Disney Entertainment Television in March. OConnell and Davis shared the renaming news in a note to Disney Branded television creative partners, which you can read in full below. [...] Deadline is a part of PMX Global, LLC, a subsidiary of Penske Media Corporation. © 2026 Dead\n[Disney Branded Television Rebranding with New Name](https://wdwnt.com/2026/06/disney-branded-television-rebranding-with-new-name) Disney Branded Television, Disney's division focused on TV aimed at teenagers and children, is changing its name to Disney Kids & Family.\n[Disney Branded Television Changes Name To Disney Kids ...](https://www.imdb.com/news/ni65886131) Exclusive: Disney Branded Television is rebranding itself as Disney Kids & Family. The name change follows a review by Debra OConnell who added oversight of\n[Disney Channel to rebrand as Disney TV by 2026](https://www.facebook.com/100080291740274/posts/this-is-not-a-fanmade-logo-its-happening-from-2027-disney-channel-is-now-rebrand/1067297152623333) This is not a fanmade logo, it's happening! From 2027 Disney Channel is now rebranding into something new around the world, This Is Disney TV. Disney"
+   "tool_call_id": "call_UTswmuBjp8XF4lx6hRlF3Fwv",
+   "content": "[Disney Branded Television Changes Name To Disney Kids & Family](https://deadline.com/2026/06/disney-branded-television-name-change-disney-kids-and-family-1236955356) EXCLUSIVE: Disney Branded Television is rebranding itself as Disney Kids & Family. The name change follows a review by Debra OConnell who added oversight of the Ayo Davis-led division as part of her elevation to Chairman of Disney Entertainment Television in March. OConnell and Davis shared the renaming news in a note to Disney Branded television creative partners, which you can read in full below. [...] Deadline is a part of PMX Global, LLC, a subsidiary of Penske Media Corporation. © 2026 Dead\n[\"Disney Branded Television is rebranding ...](https://x.com/ToonHive/status/2066594756516307010?lang=en) Disney Branded Television is rebranding as Disney Kids & Family. Under the brand, Disney Channel will continue targeting kids ages 6 through\n[Disney Channel to rebrand as Disney TV by 2026](https://www.facebook.com/100080291740274/posts/this-is-not-a-fanmade-logo-its-happening-from-2027-disney-channel-is-now-rebrand/1067297152623333) This is not a fanmade logo, it's happening! From 2027 Disney Channel is now rebranding into something new around the world, This Is Disney TV. Disney\n[Disney Branded Television Changes Name To Disney Kids ...](https://www.imdb.com/news/ni65886131) Exclusive: Disney Branded Television is rebranding itself as Disney Kids & Family. The name change follows a review by Debra OConnell who added oversight of ...Read more\n[Kidscreen » Archive » So long, Disney Branded TV. Say hello to Disney Kids & Family!](https://kidscreen.com/2026/06/16/so-long-disney-branded-tv-say-hello-to-disney-kids-family) ###### TAGS: Ayo Davis, Debra OConnell, Disney, Disney Branded Television, Disney Kids and Family, Higher Ground, Journey, rebrand, rebranding ##### About The Author // Author Page ###### Related Posts #### Disney Branded TV appoints Ayo Davis as EVP #### Disney, Chris Columbus move into House of Secrets #### Ayo Davis takes charge of Disney Branded TV #### Disney Branded Television names new talent SVP Latest Posts Screen [...] Screen Toonstar will make 12 digital-first kids shows with Gotham G"
   },
   {
    "role": "assistant",
-   "content": null,
-   "refusal": null,
-   "reasoning": null,
-   "tool_calls": [
-    {
-     "type": "function",
-     "index": 0,
-     "id": "call_6GGTFanshCZh4TZ9JhXfXIZt",
-     "function": {
-      "name": "page_find",
-      "arguments": "{\"title\":\"Disney Branded Television\",\"keywords\":\"rebrand name change\"}"
-     }
-    }
-   ]
-  },
-  {
-   "role": "tool",
-   "tool_call_id": "call_6GGTFanshCZh4TZ9JhXfXIZt",
-   "content": "Previous corporate names for this division were: Walt Disney Entertainment, Inc. (1982–83), The Disney Channel, Inc. (1983–97), Disney Channel, Inc. (1997–2001), ABC Cable Networks Group (2001–05), Disney Channels Worldwide (2005–2020) and Disney Branded Television (2020–2026). In June 2026, the company was officially rebranded to Disney Kids & Family.\nDisney Channel, Inc. changed its name to ABC Cable Networks Group, Inc. by January 31, 2001. In October 2003, ABC Family Worldwide was shifted from Disney COO Bob Iger's directly reporting unit to the ABC Cable Networks Group. In early 2004, Disney Channel's original programming leaders took over ABC Family's original movies unit temporarily as two ABC Family executives left the channel."
-  },
-  {
-   "role": "assistant",
-   "content": "On June 15, 2026, Disney Branded Television officially rebranded itself as Disney Kids & Family. FINAL: Disney Kids & Family.",
+   "content": "On June 15, 2026, Disney Branded Television rebranded itself as Disney Kids & Family. This name change was part of an organizational review and came from the leadership of Debra OConnell and Ayo Davis. \n\nFINAL: Disney Kids & Family.",
    "refusal": null,
    "reasoning": null
   }

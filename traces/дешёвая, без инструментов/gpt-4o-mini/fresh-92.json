@@ -1,0 +1,24 @@
+{
+ "task": {
+  "id": "fresh-92",
+  "source": "fresh",
+  "question": "Who returns to office as Sinaloa governor on August 21, 2026 in Mexico?",
+  "answer": "Rubén Rocha Moya",
+  "evidence": "21 August – Sinaloa governor Rubén Rocha Moya, on a leave of absence since May following accusations of ties to organized crime, returns to office.",
+  "page": "2026 in Mexico",
+  "url": "https://en.wikipedia.org/wiki/2026_in_Mexico",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "FINAL: Unknown.",
+ "correct": false,
+ "cost": 7.949999999999624e-06,
+ "messages": [
+  {
+   "role": "assistant",
+   "content": "Unknown.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

@@ -8,9 +8,9 @@
   "page": "2026 in art",
   "url": "https://en.wikipedia.org/wiki/2026_in_art"
  },
- "answer": "The Rijksmuseum announced the retrieval of the long-lost Rembrandt painting \"The Vision of Zacharias in the Temple\" (1633) on March 2, 2026. \n\nFINAL: The Vision of Zacharias in the Temple",
+ "answer": "On March 2, 2026, the Rijksmuseum announced the retrieval of the long-lost Rembrandt painting \"The Vision of Zacharias in the Temple\" (1633). \n\nFINAL: The Vision of Zacharias in the Temple",
  "correct": true,
- "cost": 0.000767250000000011,
+ "cost": 0.0005624999999999936,
  "messages": [
   {
    "role": "system",
@@ -29,29 +29,7 @@
     {
      "type": "function",
      "index": 0,
-     "id": "call_WEvs0tgTcNB3U6IoyU5acQLv",
-     "function": {
-      "name": "web_search",
-      "arguments": "{\"query\":\"Rembrandt painting retrieved Rijksmuseum March 2 2026\"}"
-     }
-    }
-   ]
-  },
-  {
-   "role": "tool",
-   "tool_call_id": "call_WEvs0tgTcNB3U6IoyU5acQLv",
-   "content": "[Rijksmuseum] The Rijksmuseum (Dutch: [ˈrɛiksmyˌzeːjʏm] ) is the national museum of the Netherlands dedicated to Dutch arts and history, located at the Museum Square in the borough of Amsterdam South, close to the Van Gogh Museum, the Stedelijk Museum Amsterdam, and the Royal Concertgebouw. The Rijksmuseum was founded in The Hague on 19 November 1798 and moved to Amsterdam in 1808, where it was first located in the Royal Palace and later in the Trippenhuis. The current main building was designed by Pierre Cuypers and first opened in 1885. On 13 April 2013, after a ten-year renovation which cost €375 million, the main building was reopened by Queen Beatrix. In 2013 and 2014, it was the most visited museum in the Netherlands with record numbers of 2.2 million and 2.47 million visitors. It is also the largest art museum in the country. The museum has on display 8,000 objects of art and history, from their total collection of one million objects from the years 1200–2000, among which are some masterpieces by Rembrandt, Frans Hals, and Johannes Vermeer. The museum also has a small Asian collection, which is on display in the Asian pavilion. | other articles: Rembrandt, The Goldfinch (painting)"
-  },
-  {
-   "role": "assistant",
-   "content": null,
-   "refusal": null,
-   "reasoning": null,
-   "tool_calls": [
-    {
-     "type": "function",
-     "index": 0,
-     "id": "call_sSCEq9J6yAKHF8UE9Kqdfu7M",
+     "id": "call_BzrJnJLzFunuvaLm8keqSB7w",
      "function": {
       "name": "web_search",
       "arguments": "{\"query\":\"Rijksmuseum Rembrandt painting retrieved March 2 2026\"}"
@@ -61,8 +39,8 @@
   },
   {
    "role": "tool",
-   "tool_call_id": "call_sSCEq9J6yAKHF8UE9Kqdfu7M",
-   "content": "[Rijksmuseum] The Rijksmuseum (Dutch: [ˈrɛiksmyˌzeːjʏm] ) is the national museum of the Netherlands dedicated to Dutch arts and history, located at the Museum Square in the borough of Amsterdam South, close to the Van Gogh Museum, the Stedelijk Museum Amsterdam, and the Royal Concertgebouw. The Rijksmuseum was founded in The Hague on 19 November 1798 and moved to Amsterdam in 1808, where it was first located in the Royal Palace and later in the Trippenhuis. The current main building was designed by Pierre Cuypers and first opened in 1885. On 13 April 2013, after a ten-year renovation which cost €375 million, the main building was reopened by Queen Beatrix. In 2013 and 2014, it was the most visited museum in the Netherlands with record numbers of 2.2 million and 2.47 million visitors. It is also the largest art museum in the country. The museum has on display 8,000 objects of art and history, from their total collection of one million objects from the years 1200–2000, among which are some masterpieces by Rembrandt, Frans Hals, and Johannes Vermeer. The museum also has a small Asian collection, which is on display in the Asian pavilion. | other articles: Rembrandt, The Goldfinch (painting)"
+   "tool_call_id": "call_BzrJnJLzFunuvaLm8keqSB7w",
+   "content": "[Rijksmuseum] The Rijksmuseum (Dutch: [ˈrɛiksmyˌzeːjʏm] ) is the national museum of the Netherlands dedicated to Dutch arts and history, located at the Museum Square in the borough of Amsterdam South, close to the Van Gogh Museum, the Stedelijk Museum Amsterdam, and the Royal Concertgebouw. The Rijksmuseum was founded in The Hague on 19 November 1798 and moved to Amsterdam in 1808, where it was first located in the Royal Palace and later in the Trippenhuis. The current main building was designed by Pierre Cuypers and first opened in 1885. On 13 April 2013, after a ten-year renovation which cost €375 million, the main building was reopened by Queen Beatrix. In 2013 and 2014, it was the most visited museum in the Netherlands with record numbers of 2.2 million and 2.47 million visitors. It is also the largest art museum in the country. The museum has on display 8,000 objects of art and history, from their total collection of one million objects from the years 1200–2000, among which are some masterpieces by Rembrandt, Frans Hals, and Johannes Vermeer. The museum also has a small Asian collection, which is on display in the Asian pavilion. | other articles: List of paintings of George Washington, 2026 in art"
   },
   {
    "role": "assistant",
@@ -73,18 +51,18 @@
     {
      "type": "function",
      "index": 0,
-     "id": "call_gP9uc7z7orQCZ6WX9gt0tywJ",
+     "id": "call_l1fz2d1Z97XtlwNDr8B6dTXP",
      "function": {
       "name": "web_search",
-      "arguments": "{\"query\":\"Rembrandt painting retrieved by Rijksmuseum March 2 2026 news\"}"
+      "arguments": "{\"query\":\"Rijksmuseum March 2 2026 Rembrandt painting announcement\"}"
      }
     }
    ]
   },
   {
    "role": "tool",
-   "tool_call_id": "call_gP9uc7z7orQCZ6WX9gt0tywJ",
-   "content": "[Rijksmuseum] The Rijksmuseum (Dutch: [ˈrɛiksmyˌzeːjʏm] ) is the national museum of the Netherlands dedicated to Dutch arts and history, located at the Museum Square in the borough of Amsterdam South, close to the Van Gogh Museum, the Stedelijk Museum Amsterdam, and the Royal Concertgebouw. The Rijksmuseum was founded in The Hague on 19 November 1798 and moved to Amsterdam in 1808, where it was first located in the Royal Palace and later in the Trippenhuis. The current main building was designed by Pierre Cuypers and first opened in 1885. On 13 April 2013, after a ten-year renovation which cost €375 million, the main building was reopened by Queen Beatrix. In 2013 and 2014, it was the most visited museum in the Netherlands with record numbers of 2.2 million and 2.47 million visitors. It is also the largest art museum in the country. The museum has on display 8,000 objects of art and history, from their total collection of one million objects from the years 1200–2000, among which are some masterpieces by Rembrandt, Frans Hals, and Johannes Vermeer. The museum also has a small Asian collection, which is on display in the Asian pavilion. | other articles: Rembrandt, 2026 in art"
+   "tool_call_id": "call_l1fz2d1Z97XtlwNDr8B6dTXP",
+   "content": "[Jenny Reynaerts] Jenny Reynaerts (born 1960) is a Dutch art historian and was senior curator at the Rijksmuseum in Amsterdam, and previously curator of 18th- and 19th-century paintings. Known for her expertise in 18th- and 19th-century Dutch art, she has contributed to the study and presentation of this period through exhibitions, publications, and her advocacy for inclusivity in museum collections. | other articles: Herman Braun-Vega, List of works by Salvador Dalí"
   },
   {
    "role": "assistant",
@@ -95,17 +73,17 @@
     {
      "type": "function",
      "index": 0,
-     "id": "call_Od8x1Nl7BWCMfuD8X1WIEgSX",
+     "id": "call_FKb1lYW6AUxDDhMEdUjpmJ0P",
      "function": {
       "name": "web_search",
-      "arguments": "{\"query\":\"Rijksmuseum announces retrieval of Rembrandt painting March 2 2026\"}"
+      "arguments": "{\"query\":\"Rijksmuseum Rembrandt painting retrieval March 2026 news\"}"
      }
     }
    ]
   },
   {
    "role": "tool",
-   "tool_call_id": "call_Od8x1Nl7BWCMfuD8X1WIEgSX",
+   "tool_call_id": "call_FKb1lYW6AUxDDhMEdUjpmJ0P",
    "content": "[2026 in art] Significant events relating to the year 2026 in art are listed below."
   },
   {
@@ -117,22 +95,22 @@
     {
      "type": "function",
      "index": 0,
-     "id": "call_Cm9ls2CJltWxwHbyRmYOZxwN",
+     "id": "call_1yxbPyFo8qX0Zmc3wbTKcXlG",
      "function": {
       "name": "page_find",
-      "arguments": "{\"title\":\"2026 in art\",\"keywords\":\"Rijksmuseum Rembrandt painting March 2\"}"
+      "arguments": "{\"title\":\"2026 in art\",\"keywords\":\"Rijksmuseum Rembrandt painting retrieved March 2\"}"
      }
     }
    ]
   },
   {
    "role": "tool",
-   "tool_call_id": "call_Cm9ls2CJltWxwHbyRmYOZxwN",
-   "content": "March 2 – The Rijksmuseum in Amsterdam announces the retrieval of the long-lost Rembrandt painting The Vision of Zacharias in the Temple (1633).\nMarch 22 – Paintings Les Poissons by Pierre-Auguste Renoir, Still Life with Cherries by Paul Cézanne, and Odalisque on the Terrace by Henri Matisse are stolen from the Italian museum Villa dei Capolavori by four masked men."
+   "tool_call_id": "call_1yxbPyFo8qX0Zmc3wbTKcXlG",
+   "content": "March 2 – The Rijksmuseum in Amsterdam announces the retrieval of the long-lost Rembrandt painting The Vision of Zacharias in the Temple (1633)."
   },
   {
    "role": "assistant",
-   "content": "The Rijksmuseum announced the retrieval of the long-lost Rembrandt painting \"The Vision of Zacharias in the Temple\" (1633) on March 2, 2026. \n\nFINAL: The Vision of Zacharias in the Temple",
+   "content": "On March 2, 2026, the Rijksmuseum announced the retrieval of the long-lost Rembrandt painting \"The Vision of Zacharias in the Temple\" (1633). \n\nFINAL: The Vision of Zacharias in the Temple",
    "refusal": null,
    "reasoning": null
   }

@@ -1,0 +1,24 @@
+{
+ "task": {
+  "id": "fresh-78",
+  "source": "fresh",
+  "question": "What is the median overall survival time reported for patients with metastatic pancreatic cancer in May 2026?",
+  "answer": "13.2 months",
+  "evidence": "31 May – A Phase 3 trial published in the New England Journal of Medicine reports that daraxonrasib, an investigational oral RAS(ON) inhibitor, nearly doubles median overall survival in patients with previously treated metastatic pancreatic cancer, from 6.6 months with standard chemotherapy to 13.2 months.",
+  "page": "2026 in science",
+  "url": "https://en.wikipedia.org/wiki/2026_in_science",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "FINAL: Unknown",
+ "correct": false,
+ "cost": 0.00021000000000000185,
+ "messages": [
+  {
+   "role": "assistant",
+   "content": "Unknown",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

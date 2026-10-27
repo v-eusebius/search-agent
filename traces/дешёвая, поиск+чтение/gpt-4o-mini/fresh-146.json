@@ -8,9 +8,9 @@
   "page": "2026 in animation",
   "url": "https://en.wikipedia.org/wiki/2026_in_animation"
  },
- "answer": "Season 4 of The Legend of Vox Machina premiered on Amazon Prime Video on June 3, 2026. \n\nFINAL: Amazon Prime Video",
+ "answer": "Season 4 of The Legend of Vox Machina premiered on June 3, 2026, on Amazon Prime Video. \n\nFINAL: Amazon Prime Video",
  "correct": true,
- "cost": 0.00016619999999999135,
+ "cost": 0.0001663499999999818,
  "messages": [
   {
    "role": "system",
@@ -29,22 +29,22 @@
     {
      "type": "function",
      "index": 0,
-     "id": "call_0YhU51GuUMmy2cI4DmvzF22U",
+     "id": "call_mSLyObEaKeQo9yl99dF7GV5Z",
      "function": {
       "name": "web_search",
-      "arguments": "{\"query\":\"The Legend of Vox Machina Season 4 premiere date streaming service June 3 2026\"}"
+      "arguments": "{\"query\":\"The Legend of Vox Machina Season 4 premiere June 3 2026\"}"
      }
     }
    ]
   },
   {
    "role": "tool",
-   "tool_call_id": "call_0YhU51GuUMmy2cI4DmvzF22U",
-   "content": "[The Legend of Vox Machina] The Legend of Vox Machina is an American adult animated fantasy television series produced by Metapigeon, Titmouse, Inc., and Amazon MGM Studios, which premiered on Amazon Prime Video on January 28, 2022. The series is based on the first campaign of the Dungeons & Dragons web series Critical Role. It stars Laura Bailey, Taliesin Jaffe, Ashley Johnson, Matthew Mercer, Liam O'Brien, Marisha Ray, Sam Riegel, and Travis Willingham, reprising their roles from the campaign. The first season consists of twelve episodes, the first ten of which were funded via a Kickstarter campaign. In November 2019, ahead of the series premiere, it was renewed by Amazon for a second season which premiered on January 20, 2023. In October 2022, ahead of season two's premiere, Amazon renewed the series for a third season, which premiered on October 3, 2024. It was renewed for a fourth season the same month, which premiered on June 3, 2026. In July 2025, Amazon renewed the show for a fifth and final season. The series received widespread acclaim from critics and audiences, with praise for its animation, humor, voice acting, action sequences, writing, and faithfulness to the actual play web show. A spin-off series set twenty years later, The Mighty Nein, premiered on November 19, 2025 and adapts Critical Role's second campaign. | other articles: Critical Role Productions, Marisha Ray"
+   "tool_call_id": "call_mSLyObEaKeQo9yl99dF7GV5Z",
+   "content": "[The Legend of Vox Machina] The Legend of Vox Machina is an American adult animated fantasy television series produced by Metapigeon, Titmouse, Inc., and Amazon MGM Studios, which premiered on Amazon Prime Video on January 28, 2022. The series is based on the first campaign of the Dungeons & Dragons web series Critical Role. It stars Laura Bailey, Taliesin Jaffe, Ashley Johnson, Matthew Mercer, Liam O'Brien, Marisha Ray, Sam Riegel, and Travis Willingham, reprising their roles from the campaign. The first season consists of twelve episodes, the first ten of which were funded via a Kickstarter campaign. In November 2019, ahead of the series premiere, it was renewed by Amazon for a second season which premiered on January 20, 2023. In October 2022, ahead of season two's premiere, Amazon renewed the series for a third season, which premiered on October 3, 2024. It was renewed for a fourth season the same month, which premiered on June 3, 2026. In July 2025, Amazon renewed the show for a fifth and final season. The series received widespread acclaim from critics and audiences, with praise for its animation, humor, voice acting, action sequences, writing, and faithfulness to the actual play web show. A spin-off series set twenty years later, The Mighty Nein, premiered on November 19, 2025 and adapts Critical Role's second campaign. | other articles: List of The Legend of Vox Machina episodes, List of The Legend of Vox Machina characters"
   },
   {
    "role": "assistant",
-   "content": "Season 4 of The Legend of Vox Machina premiered on Amazon Prime Video on June 3, 2026. \n\nFINAL: Amazon Prime Video",
+   "content": "Season 4 of The Legend of Vox Machina premiered on June 3, 2026, on Amazon Prime Video. \n\nFINAL: Amazon Prime Video",
    "refusal": null,
    "reasoning": null
   }

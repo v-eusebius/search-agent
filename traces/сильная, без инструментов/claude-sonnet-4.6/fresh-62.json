@@ -1,0 +1,24 @@
+{
+ "task": {
+  "id": "fresh-62",
+  "source": "fresh",
+  "question": "What is the prison sentence given to the Syrian national in March 2026?",
+  "answer": "13 years",
+  "evidence": "5 March – A court in Berlin convicts a Syrian national for carrying out a antisemitic knife attack at the Memorial to the Murdered Jews of Europe that injured one person in 2025 and sentences him to 13 years' imprisonment.",
+  "page": "2026 in Germany",
+  "url": "https://en.wikipedia.org/wiki/2026_in_Germany",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "FINAL: Unknown.",
+ "correct": false,
+ "cost": 0.0002009999999999998,
+ "messages": [
+  {
+   "role": "assistant",
+   "content": "Unknown.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

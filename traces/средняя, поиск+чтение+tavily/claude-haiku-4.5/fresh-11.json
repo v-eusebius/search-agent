@@ -1,0 +1,68 @@
+{
+ "task": {
+  "id": "fresh-11",
+  "source": "fresh",
+  "question": "What was the title of the art exhibition at Fondazione Prada in Venice from May 9 to May 23, 2026?",
+  "answer": "Helter Skelter",
+  "evidence": "May 9 until May 23 – Helter Skelter: Arthur Jafa and Richard Prince at Fondazione Prada in Venice.",
+  "page": "2026 in art",
+  "url": "https://en.wikipedia.org/wiki/2026_in_art",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "Perfect! I found the information about the exhibition.\n\nFINAL: The title of the art exhibition at Fondazione Prada in Venice from May 9 to May 23, 2026 (continuing through November 23) was \"Helter Skelter: Arthur Jafa and Richard Prince,\" curated by Nancy Spector.",
+ "correct": true,
+ "cost": 0.005126000000000019,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You answer questions about recent events (2025–2026). Never answer from memory: use web_search (and tavily_search if available) to find the right article, then page_find to look inside long articles such as '2026 in <country or field>' for the specific fact. Do not repeat the same call. When done, write the last line as FINAL: <short answer>."
+  },
+  {
+   "role": "user",
+   "content": "What was the title of the art exhibition at Fondazione Prada in Venice from May 9 to May 23, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "I'll search for information about the art exhibition at Fondazione Prada in Venice during that specific period.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01BBJAinu7agCJyqUaBPXRV9",
+     "function": {
+      "name": "tavily_search",
+      "arguments": "{\"query\": \"Fondazione Prada Venice exhibition May 9-23 2026\"}"
+     }
+    },
+    {
+     "type": "function",
+     "index": 1,
+     "id": "toolu_bdrk_019vUU1wKPRE7QxnNAdDMUip",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\": \"Fondazione Prada Venice May 2026 exhibition\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01BBJAinu7agCJyqUaBPXRV9",
+   "content": "[Helter Skelter Jafa Prince Fondazione Prada Venice | Madama](https://www.madamavenice.it/en/blog/16/helter-skelter-jafa-and-prince-at-ca-corner-della-regina-venice-2026) 4 maggio 2026 Helter Skelter: Arthur Jafa and Richard Prince is the exhibition presented by Fondazione Prada at Ca' Corner della Regina from 9 May to 23 November 2026, in conjunction with the Biennale Arte. Curated by Nancy Spector, former Artistic Director of the Guggenheim Museum, the show brings together for the first time in a systematic way the practices of two of the most influential contemporary American artists: Arthur Jafa (b. 1960) and Richard Prince (b. 1949). [...] Helter Skelter is \n[[PDF] fondazione prada announces its 2026 program in milan and venice](https://www.fondazioneprada.org/wp-content/uploads/Fondazione-Prada_2026-Program_PR.pdf) reflects on how technology enhances efficiency, reduces labor, and safeguards food security amid climate uncertainty and rural aging. It also explores how algorithms are displacing traditional knowledge, reshaping human-land relationships, and changing rural-urban dynamics, raising concerns about ecology, employment, and cultural continuity. The exhibition “Helter Skelter: Arthur Jafa and Richard Prince”, curated by Nancy Spector and presented in Venice from 9 May to 23 November 2026 during the \n[Arthur Jafa & Richard Prince - Helter Skelter - Almine Rech](https://www.alminerech.com/exhibitions/12328-arthur-jafa-richard-prince-helter-skelter) Almine Rech Exhibitions Artists Fairs Features News Shop (opens in new window) Locations # Arthur Jafa & Richard Prince Helter Skelter May 9 — Nov 23, 2026 | Fondazione Prada, Venice, Italy Fondazione Prada presents 'Helter Skelter: Arthur Jafa and Richard Prince,' an exhibition curated by Nancy Spector, in its Venetian venue, Ca’ Corner della Regina, from 9 May to 23 November 2026, during the Art Biennale. [...] ## Press release read or download in English ### en Arthur Jafa & Richard Prince He\n[Instagram](https://www.instagram.com/p/DbbeQj-lLea) \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_ #RichardPrince #GagosianQuarterly #Gagosian @fondazioneprada (1–3) Richard Prince, “Untitled (Sunsets),” 1981–82 (detail); (4–6) Installation views, “Helter Skelter: Arthur Jafa and Richard Prince,” Fondazione Prada, Venice, May 9–November 23, 2026. Artwork © Arthur Jafa; © Richard Prince. Video: Jurio Toyoshima (@j.toshi), courtesy Fondazione Prada. Photo: Andrea Rossetti, courtesy Fondazione Prada [...] “Helter Skelter,” an exhibition "
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_019vUU1wKPRE7QxnNAdDMUip",
+   "content": "[2026 in art] Significant events relating to the year 2026 in art are listed below. | other articles: Marc Quinn, Michael Heizer"
+  },
+  {
+   "role": "assistant",
+   "content": "Perfect! I found the information about the exhibition.\n\nFINAL: The title of the art exhibition at Fondazione Prada in Venice from May 9 to May 23, 2026 (continuing through November 23) was \"Helter Skelter: Arthur Jafa and Richard Prince,\" curated by Nancy Spector.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

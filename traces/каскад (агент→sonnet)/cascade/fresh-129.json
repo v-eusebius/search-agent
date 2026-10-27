@@ -8,11 +8,11 @@
   "page": "2026 in sports",
   "url": "https://en.wikipedia.org/wiki/2026_in_sports"
  },
- "answer": "Unknown.",
- "correct": false,
- "cost": 0.0004110000000000502,
- "escalated": true,
- "confidence": 0.0,
+ "answer": "Nelly Korda",
+ "correct": true,
+ "cost": 0.0003315000000001511,
+ "escalated": false,
+ "confidence": 1.0,
  "agent_messages": [
   {
    "role": "system",
@@ -31,22 +31,22 @@
     {
      "type": "function",
      "index": 0,
-     "id": "call_Qsjj6nUlS6eJPtw98krrLRBu",
+     "id": "call_UIlrTG9kb48vnyYLOrN7CS1N",
      "function": {
-      "name": "web_search",
-      "arguments": "{\"query\":\"2026 Chevron Championship golf tournament winner\"}"
+      "name": "tavily_search",
+      "arguments": "{\"query\":\"2026 Chevron Championship golf tournament winner April 2026\"}"
      }
     }
    ]
   },
   {
    "role": "tool",
-   "tool_call_id": "call_Qsjj6nUlS6eJPtw98krrLRBu",
-   "content": "[2026 Chevron Championship] The 2026 Chevron Championship was the 55th Chevron Championship, an LPGA golf tournament held April 23–26 at Memorial Park Golf Course in Houston, Texas. The tournament was in its fifth year with Chevron Corporation as the title sponsor and its 44th year as a major championship. Nelly Korda led wire-to-wire to win her second Chevron Championship and third major. The win also propelled her to the number one world ranking. | other articles: Chevron Championship, 2026 in sports"
+   "tool_call_id": "call_UIlrTG9kb48vnyYLOrN7CS1N",
+   "content": "[2026 Chevron Championship - Wikipedia](https://en.wikipedia.org/wiki/2026_Chevron_Championship) The 2026 Chevron Championship was the 55th Chevron Championship, an LPGA golf tournament held April 23–26 at Memorial Park Golf Course in Houston, Texas. The tournament was in its fifth year with Chevron Corporation as the title sponsor and its 44th year as a major championship. Nelly Korda led wire-to-wire to win her second Chevron Championship and third major. The win also propelled her to the number one world ranking. ## Field [edit] [...] | Tournament information | | Dates | April 23–26, 202\n[Chevron Championship 2026 Leaderboard](https://sportsdata.usatoday.com/golf/lpga/chevron-championship) Purse: $1,350,000 ## 2026 Chevron Championship Winner 1. Nelly Korda Nelly KordaFinish:-18Total:270 T2. Patty Tavatanakit Patty TavatanakitFinish:-13Total:275 T2. Ruoning Yin Ruoning YinFinish:-13Total:275 ## 2026 Chevron Championship Winner 1. Nelly Korda Nelly KordaFinish:-18Total:270 T2. Patty Tavatanakit Patty TavatanakitFinish:-13Total:275 T2. Ruoning Yin Ruoning YinFinish:-13Total:275 ## 2026 Chevron Championship Leaderboard Golfer Total Winnings R1 R2 R3 R4 [...] R1 R2 R3 R4 1 Nelly Korda\n[Nelly Korda Wins The Chevron Championship for Third Major and Returns to No. 1 | News | LPGA | Ladies Professional Golf Association](https://www.lpga.com/news/2026/nelly-korda-wins-second-chevron-championship-with-dominant-18-under-performance-in-houston) Nelly Korda of the United States poses with the Dinah Shore Trophy after winning The Chevron Championship 2026 at Memorial Park Golf Course on April 26, 2026 in Houston, Texas. By: Associated Press ## Related Articles View All ArticlesView All Articles [...] SKIP TO MAIN CONTENT Login or Sign Up LPGA Home Shop LPGA Home - Leaderboard - Shop Login or Sign Up ## Nelly Korda Wins The Chevron Championship for Third Major and Returns to No. 1 Tournament Newschevron-championshipNelly Korda April 26, 2\n[The Chevron Championship](https://www.thechevronchampionship.com) 2026 Champion ## Congratulations, Nelly Korda! Nelly Korda wins The Chevron Championship for her third Major Championship and returns to world No. 1. Score -18 Total 270 Purse $9,000,000 Winner's Share $1,350,000 LPGA Player Profile Nelly Korda, 2026 champion View All Past Champions ## Partners & Sponsors Chevron Accenture Aon Cadillac Enterprise Products Jersey Mikes Mitsubishi Power Nitto Tire Pepsi PGA TOUR Superstore PODs Storage Rolex Rudy's Sodexo [...] Skip Nav"
   },
   {
    "role": "assistant",
-   "content": "Nelly Korda won the 2026 Chevron Championship, marking her second victory at this tournament and her third major overall. This win also elevated her to the number one world ranking in women's golf. \n\nFINAL: Nelly Korda",
+   "content": "Nelly Korda won the 2026 Chevron Championship golf tournament held in Houston, Texas, from April 23 to 26. She led wire-to-wire and finished with a score of -18, securing her second Chevron Championship and third major title overall. This victory also propelled her back to the number one world ranking. \n\nFINAL: Nelly Korda",
    "refusal": null,
    "reasoning": null
   }

@@ -8,11 +8,11 @@
   "page": "2026 in chess",
   "url": "https://en.wikipedia.org/wiki/2026_in_chess"
  },
- "answer": "Unknown.",
- "correct": false,
- "cost": 0.0004990500000000564,
- "escalated": true,
- "confidence": 0.0,
+ "answer": "Vincent Keymer",
+ "correct": true,
+ "cost": 0.0003378000000000547,
+ "escalated": false,
+ "confidence": 1.0,
  "agent_messages": [
   {
    "role": "system",
@@ -31,9 +31,9 @@
     {
      "type": "function",
      "index": 0,
-     "id": "call_N2lXmQv9vPdnA8eijPEU2B3h",
+     "id": "call_cFFSypBxWp2VQ8jIHZKZTWkn",
      "function": {
-      "name": "web_search",
+      "name": "tavily_search",
       "arguments": "{\"query\":\"GCT Super Chess Classic Romania May 23 2026 winner\"}"
      }
     }
@@ -41,34 +41,12 @@
   },
   {
    "role": "tool",
-   "tool_call_id": "call_N2lXmQv9vPdnA8eijPEU2B3h",
-   "content": "[2026 in chess] Major chess events in 2026 include the annual Tata Steel Chess Tournament, Prague Chess Festival, Norway Chess and Grand Chess Tour. The Candidates Tournament and the Women's Candidates Tournament were held at Paphos, Cyprus to determine the challengers for the reigning world champions Gukesh Dommaraju and Ju Wenjun. The winners, Javokhir Sindarov and Vaishali Rameshbabu, advanced to the World Chess Championship 2026 and the Women's World Chess Championship 2027 respectively. The 46th Chess Olympiad featuring open and women's sections will be held in September at Samarkand, Uzbekistan. The pilot version of Total Chess World Championship Tour will kick off in November at Budapest, Hungary. | other articles: Grand Chess Tour 2026, Super Chess Classic"
+   "tool_call_id": "call_cFFSypBxWp2VQ8jIHZKZTWkn",
+   "content": "[GM Keymer Wins Super Chess Classic 2026! | Round 9 Game](https://grandchesstour.org/games/keymer-foreest-rd9-2026-super-romania) Bucharest, Romania, May 23, 2026 – Grandmaster (GM) Vincent Keymer from Germany captured the title at the Super Chess Classic Romania, first-place after defeating Jorden van Foreest in the only decisive game of the ninth and final round to avoid a playoff. The victory marks Keymer’s first tournament win in a classical event on the 2026 Grand Chess Tour (GCT) during his debut appearance as a full tour player on the circuit. [...] “Congratulations to Vincent Keymer for an extraordinary performance\n[GCT Super Chess Classic Romania 2026 | The Week in Chess](https://theweekinchess.com/chessnews/events/gct-super-chess-classic-romania-2026) The Grand Chess Tour Super Chess Classic Romania took place Thu 14th May to Sat 23rd May 2026. Players: Caruana, Sindarov, Giri, Firouzja, Keymer, Wesley So, Jorden Van Foreest, Praggnanandhaa, MVL and Deac. Vincent Keymer emerged as the clear winner with 6/9 half a point clear of Fabiano Caruana on 5.5, Javokhir Sindarov and Wesley So were half a point further back on 5 points. Alireza Firouzja withdrew after five rounds after badly hurting his ankle, he had tried to carry on for a couple of [.\n[Keymer beats Van Foreest, wins Super Chess Classic Romania | ChessBase](https://en.chessbase.com/post/super-classic-romania-2026-9) 5/23/2026 – Vincent Keymer secured outright victory at the Super Chess Classic in Bucharest with a final-round win over Jorden van Foreest. Fabiano Caruana, who had started the day level with Keymer, missed a winning chance against Maxime Vachier-Lagrave and had to settle for second place. Keymer finished on 6/9, gained 7.8 rating points and called it his \"biggest classical tournament victory ever\". | Photo: Lennart Ootes new: Fritz 20 [...] | | | | | | | --- --- --- | | Bo. | Rtg | White | Resu\n[Keymer Wins Super Chess Classic With Final-Round Victory - Chess.com](https://www.chess.com/news/view/keymer-wins-gct-super-chess-classic-romania) GM Vincent Keymer has won the Super Chess Classic Romania 2026 and its $100,000 first place prize after defeating GM Jorden van Foreest in the only decisive game of the ninth and final round, avoiding playoffs. GM Fabiano Caruana, who entered the day sharing the lead with Keymer, missed a big chance to gain an advantage over GM Maxime Vachier-Lagrave before a draw which clinched second place for Caruana. The other two games were relatively q"
   },
   {
    "role": "assistant",
-   "content": null,
-   "refusal": null,
-   "reasoning": null,
-   "tool_calls": [
-    {
-     "type": "function",
-     "index": 0,
-     "id": "call_BJqDKP5p50xdHT1xPqO7k2qO",
-     "function": {
-      "name": "page_find",
-      "arguments": "{\"title\":\"2026 in chess\",\"keywords\":\"GCT Super Chess Classic Romania winner\"}"
-     }
-    }
-   ]
-  },
-  {
-   "role": "tool",
-   "tool_call_id": "call_BJqDKP5p50xdHT1xPqO7k2qO",
-   "content": "May 23 – Vincent Keymer won the GCT Super Chess Classic Romania with a score of 6/9. Fabiano Caruana finished second with 5½/9, while Javokhir Sindarov and Wesley So tied for third place with 5/9."
-  },
-  {
-   "role": "assistant",
-   "content": "Vincent Keymer won the GCT Super Chess Classic Romania on May 23, 2026, with a score of 6/9. FINAL: Vincent Keymer.",
+   "content": "Grandmaster Vincent Keymer from Germany won the GCT Super Chess Classic Romania on May 23, 2026, after defeating Jorden van Foreest in the final round. This victory marked Keymer's first tournament win in a classical event on the 2026 Grand Chess Tour. \n\nFINAL: Vincent Keymer",
    "refusal": null,
    "reasoning": null
   }

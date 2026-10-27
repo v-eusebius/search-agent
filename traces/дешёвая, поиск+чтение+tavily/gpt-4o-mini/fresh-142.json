@@ -8,9 +8,9 @@
   "page": "2026 in chess",
   "url": "https://en.wikipedia.org/wiki/2026_in_chess"
  },
- "answer": "Frederik Svane won the Sardinia International Chess Festival on May 10, 2026. He finished the tournament with a score of 7½ points out of 9. FINAL: Frederik Svane.",
+ "answer": "Frederik Svane won the Sardinia International Chess Festival on May 10, 2026, with a score of 7½ out of 9 points. FINAL: Frederik Svane.",
  "correct": true,
- "cost": 0.0001987500000000253,
+ "cost": 0.0003463500000000508,
  "messages": [
   {
    "role": "system",
@@ -29,7 +29,7 @@
     {
      "type": "function",
      "index": 0,
-     "id": "call_SkuBWV5fB6Jo5UaXv7iHRK8S",
+     "id": "call_mfBwrfhQEWL86axk6KsNPwLZ",
      "function": {
       "name": "tavily_search",
       "arguments": "{\"query\":\"Sardinia International Chess Festival May 10 2026 winner\"}"
@@ -39,12 +39,34 @@
   },
   {
    "role": "tool",
-   "tool_call_id": "call_SkuBWV5fB6Jo5UaXv7iHRK8S",
-   "content": "[Frederik Svane wins Sardinia World Chess Festival 2026 ...](https://www.fide.com/frederik-svane-wins-sardinia-world-chess-festival-2026-as-faustino-oro-secures-historic-grandmaster-title) Frederik Svane wins Sardinia World Chess Festival 2026 as Faustino Oro secures historic grandmaster title · Sunday, 10 May 2026 · UTC +1 19:42.\n[2026 Sardinia World Chess Festival](https://www.chessfocus.com/tournament-results/2026-sardinia-world-chess-festival) May 03, 2026 to May 10, 2026 9 rounds. Swiss tournament. Winner: Frederik Svane. Color guide. Tournament results. Place, Player, Score, W, L, D. 1. Frederik\n[Sardinia World Chess Festival (@sardiniaworldchess)](https://www.facebook.com/sardiniaworldchess) GM Frederik Svane is the champion of the Sardinia World Chess Festival 2026 ♟️ We congratulate him and wish all the best in upcoming tournaments\n[Sardinia World Chess Festival | A Open - Live Games](https://www.chess.com/events/sardinia-world-chess-festival-open-a/games) Only Active Games. Round 09 - May 10, 2026. Avatar. GM. Karthikeyan Murali. (2648). White Won. Avatar. GM. Frederik Svane. (2645). Avatar. GM. Faustino Oro.\n[Frederik Svane wins Sardinia Chess Festival, Faustino Oro ...](https://en.chessbase.com/post/sardinia-festival-2026-final-report) 5/12/2026 – Frederik Svane won the Sardinia World Chess Festival outright with 7½/9 points, defeating Karthikeyan Murali in the final round after both had"
+   "tool_call_id": "call_mfBwrfhQEWL86axk6KsNPwLZ",
+   "content": "[Frederik Svane wins Sardinia World Chess Festival 2026 ...](https://www.fide.com/frederik-svane-wins-sardinia-world-chess-festival-2026-as-faustino-oro-secures-historic-grandmaster-title) Frederik Svane wins Sardinia World Chess Festival 2026 as Faustino Oro secures historic grandmaster title · Sunday, 10 May 2026 · UTC +1 19:42.\n[Sardinia World Chess Festival (@sardiniaworldchess)](https://www.facebook.com/sardiniaworldchess) GM Frederik Svane is the champion of the Sardinia World Chess Festival 2026 ♟️ We congratulate him and wish all the best in upcoming tournaments\n[Frederik Svane wins Sardinia Chess Festival, Faustino Oro ...](https://en.chessbase.com/post/sardinia-festival-2026-final-report) 5/12/2026 – Frederik Svane won the Sardinia World Chess Festival outright with 7½/9 points, defeating Karthikeyan Murali in the final round after both had\n[GM Frederik Svane wins the 2026 Sardinia World Chess ...](https://www.facebook.com/sardiniaworldchess/videos/75-out-of-9-points-is-a-really-great-result-for-me-gm-frederik-svane-wins-the-20/1290394473297061) “7.5 out of 9 points is a really great result for me” - GM Frederik Svane wins the 2026 Sardinia World Chess Festival with a Swiss Gambit,\n[Results & Standings - Sardinia World Chess Festival | A Open - Chess.com](https://www.chess.com/events/sardinia-world-chess-festival-open-a/results) Chess.com play-white Coach play-white puzzle-piece Coach puzzle-piece lessons Coach lessons training Coach training binoculars Coach binoculars friends Coach friends ellipsis Coach ellipsis TEMPLATE#icon-name Coach TEMPLATE#icon-name ## Search ## Search"
   },
   {
    "role": "assistant",
-   "content": "Frederik Svane won the Sardinia International Chess Festival on May 10, 2026. He finished the tournament with a score of 7½ points out of 9. FINAL: Frederik Svane.",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_Rm2AotuFhsZLQnApOG6XJKsy",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"2026 in chess\",\"keywords\":\"Sardinia International Chess Festival winner\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_Rm2AotuFhsZLQnApOG6XJKsy",
+   "content": "May 10 – Frederik Svane won the Sardinia International Chess Festival with 7½/9, ahead of Haik M. Martirosyan and Ian Nepomniachtchi.\nMay 10 – Faustino Oro earned his final GM norm at the Sardinia International Chess Festival, and became the second youngest grandmaster in chess history, at the age of 12 years, 6 months and 26 days."
+  },
+  {
+   "role": "assistant",
+   "content": "Frederik Svane won the Sardinia International Chess Festival on May 10, 2026, with a score of 7½ out of 9 points. FINAL: Frederik Svane.",
    "refusal": null,
    "reasoning": null
   }

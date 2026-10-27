@@ -1,0 +1,90 @@
+{
+ "task": {
+  "id": "fresh-60",
+  "source": "fresh",
+  "question": "What is the number of people arrested in Ankara in June 2026?",
+  "answer": "209",
+  "evidence": "23 June – At least 209 people are arrested in raids by security forces across Ankara ahead of the 2026 Ankara NATO summit.",
+  "page": "2026 in Turkey",
+  "url": "https://en.wikipedia.org/wiki/2026_in_Turkey",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "In June 2026, at least 209 people were arrested in Ankara during raids by security forces ahead of the NATO summit. FINAL: 209 arrests.",
+ "correct": true,
+ "cost": 0.0003670499999999244,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You answer questions about recent events (2025–2026). Never answer from memory: use web_search (and tavily_search if available) to find the right article, then page_find to look inside long articles such as '2026 in <country or field>' for the specific fact. Do not repeat the same call. When done, write the last line as FINAL: <short answer>."
+  },
+  {
+   "role": "user",
+   "content": "What is the number of people arrested in Ankara in June 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_rojvlTvjjQZgePkdoFQkMCZC",
+     "function": {
+      "name": "tavily_search",
+      "arguments": "{\"query\":\"Ankara arrests June 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_rojvlTvjjQZgePkdoFQkMCZC",
+   "content": "[Latest arrests reveal a disturbing pattern of harassment in ...](https://www.lawyersforlawyers.org/latest-arrests-reveal-a-disturbing-pattern-of-harassment-in-turkiye-ahead-of-nato-summit) Our organisations previously expressed concern about the arrest of lawyers Semra Demir, Kürşat Bafra and Doğa İncesu on 23 June 2026, during coordinated police\n[Dozens arrested ahead of the NATO summit in Türkiye remain in prison - World Socialist Web Site](https://www.wsws.org/en/articles/2026/10/13/eunp-o13.html) On June 22, the Ankara Governor’s Office announced a 13-day ban, from June 28 to July 10, on all actions and activities in the city, including meetings, demonstrations, press statements, leafleting and the hanging of banners. The very next morning, June 23, after this decision amounting to a de facto state of emergency, simultaneous house raids began in many cities, above all in Ankara. Police broke down doors, and detainees were barred from seeing their lawyers. [...] The most striking example \n[Turkey arrests more than 200 in crackdown before NATO ...](https://www.dw.com/en/turkey-arrests-more-than-200-in-crackdown-before-nato-summit/a-77669771) Turkish security forces on Tuesday arrested more than 200 people suspected of links to the self-styled Islamic State and other groups Ankara\n[HRW denounces Turkey arrests ahead of NATO summit](https://www.france24.com/en/live-news/20260625-hrw-denounces-turkey-arrests-ahead-of-nato-summit) Human Rights Watch on Thursday denounced Turkey's arrest of over 200 people ahead of the NATO summit in Ankara, saying it showed a \"ruthless\n[Turkish Police Detained Over 100 Protesters In Ankara Ahead ...](https://www.youtube.com/watch?v=xmrqazMRRHg) More than 100 people were detained in Ankara during an anti-NATO protest march organized by the Communist Party of Turkey (TKP),"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_heAaphdWfTR13aNklsyRuic6",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\": \"2026 in Turkey\", \"keywords\": \"arrests Ankara June\"}"
+     }
+    },
+    {
+     "type": "function",
+     "index": 1,
+     "id": "call_gb32GVTby30AVNSEXEOZecsm",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\": \"2026 in Turkey\", \"keywords\": \"NATO summit arrests\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_heAaphdWfTR13aNklsyRuic6",
+   "content": "23 June – At least 209 people are arrested in raids by security forces across Ankara ahead of the 2026 Ankara NATO summit."
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_gb32GVTby30AVNSEXEOZecsm",
+   "content": "23 June – At least 209 people are arrested in raids by security forces across Ankara ahead of the 2026 Ankara NATO summit.\n7—8 July — 2026 Ankara NATO summit"
+  },
+  {
+   "role": "assistant",
+   "content": "In June 2026, at least 209 people were arrested in Ankara during raids by security forces ahead of the NATO summit. FINAL: 209 arrests.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

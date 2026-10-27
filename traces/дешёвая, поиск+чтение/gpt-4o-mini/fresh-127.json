@@ -8,9 +8,9 @@
   "page": "2026 in sports",
   "url": "https://en.wikipedia.org/wiki/2026_in_sports"
  },
- "answer": "Wyndham Clark won the 2026 U.S. Open golf tournament at Shinnecock Hills, leading wire-to-wire to claim his second title. FINAL: Wyndham Clark.",
+ "answer": "Wyndham Clark won the 2026 U.S. Open golf tournament at Shinnecock Hills, leading wire-to-wire to secure his second title in this event. \n\nFINAL: Wyndham Clark.",
  "correct": true,
- "cost": 0.0001406999999999936,
+ "cost": 0.00014264999999999417,
  "messages": [
   {
    "role": "system",
@@ -29,7 +29,7 @@
     {
      "type": "function",
      "index": 0,
-     "id": "call_84QpsiTYTFqP7Iwh2vC24lMW",
+     "id": "call_z2FXBT6lo8E7Ng8eDR33kdBp",
      "function": {
       "name": "web_search",
       "arguments": "{\"query\":\"2026 U.S. Open golf tournament winner Shinnecock Hills\"}"
@@ -39,12 +39,12 @@
   },
   {
    "role": "tool",
-   "tool_call_id": "call_84QpsiTYTFqP7Iwh2vC24lMW",
-   "content": "[2026 U.S. Open (golf)] The 2026 United States Open Championship was the 126th edition of the U.S. Open, the national open golf championship of the United States. It was held from June 18–21, 2026 at Shinnecock Hills Golf Club in Southampton, New York. It was the sixth Open hosted at the club. The prize pool was $22.5 million, which was an increase of $1 million compared to the 2025 edition. The winner's share also rose from $4.3 to $4.5 million. Wyndham Clark led wire-to-wire to claim his second U.S. Open title. | other articles: Shinnecock Hills Golf Club, 2018 U.S. Open (golf)"
+   "tool_call_id": "call_z2FXBT6lo8E7Ng8eDR33kdBp",
+   "content": "[2026 U.S. Open (golf)] The 2026 United States Open Championship was the 126th edition of the U.S. Open, the national open golf championship of the United States. It was held from June 18–21, 2026 at Shinnecock Hills Golf Club in Southampton, New York. It was the sixth Open hosted at the club. The prize pool was $22.5 million, which was an increase of $1 million compared to the 2025 edition. The winner's share also rose from $4.3 to $4.5 million. Wyndham Clark led wire-to-wire to claim his second U.S. Open title. | other articles: Shinnecock Hills Golf Club, U.S. Open (golf)"
   },
   {
    "role": "assistant",
-   "content": "Wyndham Clark won the 2026 U.S. Open golf tournament at Shinnecock Hills, leading wire-to-wire to claim his second title. FINAL: Wyndham Clark.",
+   "content": "Wyndham Clark won the 2026 U.S. Open golf tournament at Shinnecock Hills, leading wire-to-wire to secure his second title in this event. \n\nFINAL: Wyndham Clark.",
    "refusal": null,
    "reasoning": null
   }

@@ -1,0 +1,76 @@
+{
+ "task": {
+  "id": "fresh-50",
+  "source": "fresh",
+  "question": "What fine was issued to Amed S.F.K. by the Turkish Football Federation on January 29, 2026?",
+  "answer": "802,500 lira",
+  "evidence": "29 January – The Turkish Football Federation issues a fine of 802,500 lira ($18,500) on Diyarbakır-based club Amed S.F.K. and suspends its president, Nahit Eren, on charges of \"making ideological propaganda\" after the club uploads a video of a woman having her hair braided amid similar acts by Kurds in protests against the 2026 northeastern Syria offensive.",
+  "page": "2026 in Turkey",
+  "url": "https://en.wikipedia.org/wiki/2026_in_Turkey",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "On January 29, 2026, the Turkish Football Federation issued a fine of 802,500 lira (approximately $18,500) to Amed S.F.K. for \"making ideological propaganda.\" Additionally, the club's president, Nahit Eren, was suspended. This action was taken after the club posted a video of a woman having her hair braided, which was associated with Kurdish protests against the 2026 northeastern Syria offensive.\n\nFINAL: Amed S.F.K. was fined 802,500 lira ($18,500) and its president was suspended.",
+ "correct": true,
+ "cost": 0.00030045000000000766,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You answer questions about recent events (2025–2026). Never answer from memory: use web_search (and tavily_search if available) to find the right article, then page_find to look inside long articles such as '2026 in <country or field>' for the specific fact. Do not repeat the same call. When done, write the last line as FINAL: <short answer>."
+  },
+  {
+   "role": "user",
+   "content": "What fine was issued to Amed S.F.K. by the Turkish Football Federation on January 29, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_oJ3tHjJLC8XBzvluVN2VsU9p",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Amed S.F.K. Turkish Football Federation fine January 29, 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_oJ3tHjJLC8XBzvluVN2VsU9p",
+   "content": "[Amed S.F.K.] Amed Sportif Faaliyetler Kulübü (Kurmanji Kurdish: Klûba Çalakiyên Sporê ya Amedê, 'Amed Sports Activities Club'), commonly known as Amedspor, is a sports club based in Diyarbakır, Turkey. The club is widely supported by Kurds in Turkey and abroad for its embrace of Kurdish identity. Its football section plays in the Süper Lig in the 2026–27 season after having been promoted from the TFF 1. Lig in 2025–26. The club also has a women's team and a women's volleyball team. | other articles: 2026 in Turkey, Cave diving"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_F33BpRSwF5dmRN5dhevYVywL",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"2026 in Turkey\",\"keywords\":\"Amed S.F.K. fine Turkish Football Federation January 29\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_F33BpRSwF5dmRN5dhevYVywL",
+   "content": "29 January – The Turkish Football Federation issues a fine of 802,500 lira ($18,500) on Diyarbakır-based club Amed S.F.K. and suspends its president, Nahit Eren, on charges of \"making ideological propaganda\" after the club uploads a video of a woman having her hair braided amid similar acts by Kurds in protests against the 2026 northeastern Syria offensive.\n29 September – The chair of the Turkish Football Federation's central referee board, Ferhat Gündoğdu, is detained along with six others as part of a police investigation into corruption."
+  },
+  {
+   "role": "assistant",
+   "content": "On January 29, 2026, the Turkish Football Federation issued a fine of 802,500 lira (approximately $18,500) to Amed S.F.K. for \"making ideological propaganda.\" Additionally, the club's president, Nahit Eren, was suspended. This action was taken after the club posted a video of a woman having her hair braided, which was associated with Kurdish protests against the 2026 northeastern Syria offensive.\n\nFINAL: Amed S.F.K. was fined 802,500 lira ($18,500) and its president was suspended.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

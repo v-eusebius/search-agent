@@ -1,0 +1,24 @@
+{
+ "task": {
+  "id": "fresh-96",
+  "source": "fresh",
+  "question": "In which city were the 2026 European Men's and Women's Team Badminton Championships held?",
+  "answer": "Istanbul",
+  "evidence": "February 11 – 15 : 2026 European Men's and Women's Team Badminton Championships in Istanbul, Turkey",
+  "page": "2026 in sports",
+  "url": "https://en.wikipedia.org/wiki/2026_in_sports",
+  "sonnet_answer": "Katowice",
+  "agent_ok": true
+ },
+ "answer": "FINAL: Odense",
+ "correct": false,
+ "cost": 0.0002370000000000011,
+ "messages": [
+  {
+   "role": "assistant",
+   "content": "Odense",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

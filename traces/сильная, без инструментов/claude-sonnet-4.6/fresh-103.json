@@ -1,0 +1,24 @@
+{
+ "task": {
+  "id": "fresh-103",
+  "source": "fresh",
+  "question": "Who replaced José Jerí as president of Peru in February 2026?",
+  "answer": "José María Balcázar",
+  "evidence": "February 17 – Peruvian president José Jerí was censured by Congress and replaced by José María Balcázar.",
+  "page": "2026 in politics",
+  "url": "https://en.wikipedia.org/wiki/2026_in_politics",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "FINAL: Unknown.",
+ "correct": false,
+ "cost": 0.0002009999999999998,
+ "messages": [
+  {
+   "role": "assistant",
+   "content": "Unknown.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

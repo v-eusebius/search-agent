@@ -1,0 +1,68 @@
+{
+ "task": {
+  "id": "fresh-47",
+  "source": "fresh",
+  "question": "What position did Dharmendra Pradhan resign from in India in July 2026?",
+  "answer": "Education Minister",
+  "evidence": "July 25 – Indian Education Minister Dharmendra Pradhan resigns from the position in light of the protests over a NEET exam leak. Most of the protests ceased following his resignation.",
+  "page": "2026 in politics",
+  "url": "https://en.wikipedia.org/wiki/2026_in_politics",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "FINAL: Dharmendra Pradhan resigned from the position of **Minister of Education** in July 2026. He resigned on July 25, 2026, following mass youth-led protests demanding his ouster over irregularities in the NEET (National Eligibility cum Entrance Test) examinations.",
+ "correct": true,
+ "cost": 0.005253000000000063,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You answer questions about recent events (2025–2026). Never answer from memory: use web_search (and tavily_search if available) to find the right article, then page_find to look inside long articles such as '2026 in <country or field>' for the specific fact. Do not repeat the same call. When done, write the last line as FINAL: <short answer>."
+  },
+  {
+   "role": "user",
+   "content": "What position did Dharmendra Pradhan resign from in India in July 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "I'll search for information about Dharmendra Pradhan's resignation in July 2026.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01NaaUusT4svfD4vhvvFcbTk",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\": \"Dharmendra Pradhan resign July 2026\"}"
+     }
+    },
+    {
+     "type": "function",
+     "index": 1,
+     "id": "toolu_bdrk_01W8XZMo7nnRFqRudkhJdeug",
+     "function": {
+      "name": "tavily_search",
+      "arguments": "{\"query\": \"Dharmendra Pradhan resignation July 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01NaaUusT4svfD4vhvvFcbTk",
+   "content": "[Dharmendra Pradhan] Dharmendra Pradhan (born 26 June 1969) is an Indian politician who served as the 9th Minister of Education from 2021 until his resignation in 2026. He previously served as Minister of Petroleum and Natural Gas from 2014 to 2021, Minister of Steel from 2019 to 2021, and Minister of Skill Development and Entrepreneurship from 2017 to 2024. Pradhan is currently a member of the Indian parliament representing the Sambalpur constituency in the Lok Sabha as a member of the Bharatiya Janata Party. Previously, he has also served as a member of Rajya Sabha representing Bihar and Madhya Pradesh. His tenure as the union education minister was marred with irregularities, including leakage of the scripts for 2024 and 2026 NEET (UG) exams. The government conducted a re-examination involving over 2.2 million students after the 2026 leakage. The irregularities led to suicides of at least 12 students, and has served as a catalyst to the 2026 Jantar Mantar protests in Delhi calling for Pradhan's resignation. The protests turned violent, with clashes occurring between protestors and law enforcement officials, followed by negotiations between government and protestors and resignation of Pradhan. | other articles: 2026 Delhi Jantar Mantar protests, 2026 NEET scandal"
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01W8XZMo7nnRFqRudkhJdeug",
+   "content": "[India's education minister resigns amid countrywide 'cockroach' protests](https://www.lemonde.fr/en/international/article/2026/07/25/india-education-minister-announces-resignation-after-countrywide-protests_6755822_4.html) Date: Loading date... Time: Loading time... # India's education minister resigns amid countrywide 'cockroach' protests Le Monde with AP and AFP Cockroach Janta Party (CJP) supporters celebrate the resignation of India's Education Minister Dharmendra Pradhan, at Jantar Mantar in New Delhi on July 25, 2026. [...] India's education minister Dharmendra Pradhan resigned on Saturday, July 25, after mass youth-led protests demanded his ouster in anger over a string of irregularities in potentially life\n[India's education minister resigns after weeks of protests against him | AP News](https://apnews.com/article/india-cockroach-education-minister-56d69c289589f057c0e72cde0c3d75d3) Read More 2 of 6 Protesters react after India’s Education Minister Dharmendra Pradhan resigned following nationwide protests as part of the Cockroach Janta Party’s protest movement in New Delhi, India, Saturday, July 25, 2026. (AP Photo/Vipin) License this photo Add AP News on Google Add AP News as your preferred source to see more of our stories on Google. Share Share [...] License this photo Read More 4 of 6 Protesters react after India’s Education Minister Dharmendra Pradhan resigned followin\n[2026 NEET scandal - Wikipedia](https://en.wikipedia.org/wiki/2026_NEET_scandal) [edit] On 25 July 2026, due to mounting pressure and demands from the protestors, Pradhan resigned as Education Minister and was replaced with BJP MP and Union Minister Prahlad Joshi. ## Retest [edit] [...] A replacement examination (\"re-NEET\") was announced for June 2026. At least 12 students who were scheduled to retake the exam took their own lives. The controversy led to protests, political criticism, and petitions to the Supreme Court of India. It drew comparisons with the 2024 NEET controv\n[Why Youth Protests Made the Modi Government Back Down on Dharmendra Pradhan - Frontline](https://frontline.thehindu.com/politics/dharmendra-pradhan-resignation-bjp-modi-youth-protests-cjp/article71268617.ece) Union Minister J.P. Nadda with Minister of State Jitendra Singh and CJP spokespersons Saurav Das and Ashutosh Ranka during a joint press conference after Education Minister Dharmendra Pradhan resigned from the Union Cabinet at the Constitution Club of India in New Delhi, on July 25, 2026. [...] Union M"
+  },
+  {
+   "role": "assistant",
+   "content": "FINAL: Dharmendra Pradhan resigned from the position of **Minister of Education** in July 2026. He resigned on July 25, 2026, following mass youth-led protests demanding his ouster over irregularities in the NEET (National Eligibility cum Entrance Test) examinations.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

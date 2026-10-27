@@ -10,9 +10,9 @@
   "sonnet_answer": "unknown",
   "agent_ok": false
  },
- "answer": "Извините, я не могу предоставить информацию по этому вопросу без необходимого доступа к актуальным данным. Пожалуйста, проверьте новостные источники или официальные объявления для получения точной информации. \n\nFINAL: Неизвестно.",
+ "answer": "На данный момент мне не удалось найти информацию о MP, который перешёл из Консервативной партии в Либеральную партию в апреле 2026 года. Текущая информация ограничена и может потребовать более глубокого исследования. \n\nFINAL: Информация о таком событии отсутствует.",
  "correct": false,
- "cost": 0.0018874499999999989,
+ "cost": 0.0018084000000000017,
  "messages": [
   {
    "role": "system",
@@ -31,18 +31,18 @@
     {
      "type": "function",
      "index": 0,
-     "id": "call_wy4EtL4KXmZExo9W7sQ3ccHE",
+     "id": "call_8ou7F9GSCeQhiV47HbFfGz1v",
      "function": {
       "name": "web_search",
-      "arguments": "{\"query\":\"MP defected from Conservative to Liberal Party April 2026\"}"
+      "arguments": "{\"query\":\"MP defected Conservative Party Liberal Party April 2026\"}"
      }
     }
    ]
   },
   {
    "role": "tool",
-   "tool_call_id": "call_wy4EtL4KXmZExo9W7sQ3ccHE",
-   "content": "[Conservative Party (UK)] The Conservative and Unionist Party, commonly known as the Conservative Party and colloquially as the Tories, is a political party in the United Kingdom. It sits on the centre-right to right-wing of the left–right political spectrum. Following its defeat by the Labour Party at the 2024 general election, it is currently the second-largest party by the number of votes cast and number of seats in the House of Commons; as such it has the formal parliamentary role of His Majesty's Most Loyal Opposition. It encompasses various ideological factions including one-nation conservatives, Thatcherites and traditionalist conservatives. There have been 20 Conservative prime ministers. The party meets annually during autumn, for the Conservative Party Conference. The Conservative Party was founded in 1834 from the Tory Party and was one of two dominant political parties in the 19th century, along with the Liberal Party. Under Benjamin Disraeli it played a preeminent role in politics at the height of the British Empire. In 1912, the Liberal Unionist Party merged with the party to form the Conservative and Unionist Party. Its rivalry with the Labour Party has shaped modern British politics for the last century. David Cameron sought to modernise the party after his election as leader in 2005, and the party governed from 2010 to 2024 under five prime ministers, latterly Rishi Sunak. The party has generally adopted liberal economic policies favouring free markets since the 1980s, although histor | other articles: Conservative Party of British Columbia, Reform UK"
+   "tool_call_id": "call_8ou7F9GSCeQhiV47HbFfGz1v",
+   "content": "[Reform UK] Reform UK, also known as the Reform Party or simply Reform, is a right-wing populist and far-right political party in the United Kingdom. It has eight members of Parliament in the House of Commons, two members of the London Assembly, thirty-three members of the Senedd, sixteen members of the Scottish Parliament, two police and crime commissioners, and controls twenty-six local councils. It is to the right of the Conservative Party. Nigel Farage has been leader of Reform UK since June 2024. The party was co-founded by Farage and Catherine Blaiklock in 2018 as the Brexit Party, advocating a no-deal Brexit; it won the most seats at the 2019 European Parliament election in the UK. The UK withdrew from the European Union in January 2020, and later in the same year the COVID-19 pandemic began in the UK. The Conservative government imposed a series of national lockdowns and Farage focused on anti-lockdown campaigning. The party was renamed Reform UK in January 2021. Farage stepped down as leader in March 2021 and was succeeded by Richard Tice. Classified as part of the radical right, since 2022, the party has campaigned on a broader platform, pledging to reduce taxation, limit immigration, oppose net-zero emissions policies and substantially reduce public spending. In March 2024, Lee Anderson, who was elected in 2019 as a Conservative MP, defected to Reform UK, becoming its first MP. In June 2024, Farage resumed the leadership. The party won five seats at the 2024 general election,  | other articles: 2026 Conservative Party of British Columbia leadership election, Conservative Party of Quebec"
   },
   {
    "role": "assistant",
@@ -53,18 +53,18 @@
     {
      "type": "function",
      "index": 0,
-     "id": "call_fQNLLQxPQEV0zEvp6V3FvC7e",
+     "id": "call_MyFLoLLtZTzSx9stCJDl5VVS",
      "function": {
       "name": "web_search",
-      "arguments": "{\"query\":\"MP defected Conservative Party Liberal Party news April 2026\"}"
+      "arguments": "{\"query\":\"April 2026 UK MP defect Conservative Liberal\"}"
      }
     }
    ]
   },
   {
    "role": "tool",
-   "tool_call_id": "call_fQNLLQxPQEV0zEvp6V3FvC7e",
-   "content": "[Reform UK] Reform UK, also known as the Reform Party or simply Reform, is a right-wing populist and far-right political party in the United Kingdom. It has eight members of Parliament in the House of Commons, two members of the London Assembly, thirty-three members of the Senedd, seventeen members of the Scottish Parliament, two police and crime commissioners, and controls twenty-six local councils. It is to the right of the Conservative Party. Nigel Farage has been leader of Reform UK since June 2024. The party was co-founded by Farage and Catherine Blaiklock in 2018 as the Brexit Party, advocating a no-deal Brexit; it won the most seats at the 2019 European Parliament election in the UK. The UK withdrew from the European Union in January 2020, and later in the same year the COVID-19 pandemic began in the UK. The Conservative government imposed a series of national lockdowns and Farage focused on anti-lockdown campaigning. The party was renamed Reform UK in January 2021. Farage stepped down as leader in March 2021 and was succeeded by Richard Tice. Classified as part of the radical right, since 2022, the party has campaigned on a broader platform, pledging to reduce taxation, limit immigration, oppose net-zero emissions policies and substantially reduce public spending. In March 2024, Lee Anderson, who was elected in 2019 as a Conservative MP, defected to Reform UK, becoming its first MP. In June 2024, Farage resumed the leadership. The party won five seats at the 2024 general election | other articles: 2024 Conservative Party leadership election, 2026 Conservative Party of British Columbia leadership election"
+   "tool_call_id": "call_MyFLoLLtZTzSx9stCJDl5VVS",
+   "content": "[Reform UK] Reform UK, also known as the Reform Party or simply Reform, is a right-wing populist and far-right political party in the United Kingdom. It has eight members of Parliament in the House of Commons, two members of the London Assembly, thirty-three members of the Senedd, sixteen members of the Scottish Parliament, two police and crime commissioners, and controls twenty-six local councils. It is to the right of the Conservative Party. Nigel Farage has been leader of Reform UK since June 2024. The party was co-founded by Farage and Catherine Blaiklock in 2018 as the Brexit Party, advocating a no-deal Brexit; it won the most seats at the 2019 European Parliament election in the UK. The UK withdrew from the European Union in January 2020, and later in the same year the COVID-19 pandemic began in the UK. The Conservative government imposed a series of national lockdowns and Farage focused on anti-lockdown campaigning. The party was renamed Reform UK in January 2021. Farage stepped down as leader in March 2021 and was succeeded by Richard Tice. Classified as part of the radical right, since 2022, the party has campaigned on a broader platform, pledging to reduce taxation, limit immigration, oppose net-zero emissions policies and substantially reduce public spending. In March 2024, Lee Anderson, who was elected in 2019 as a Conservative MP, defected to Reform UK, becoming its first MP. In June 2024, Farage resumed the leadership. The party won five seats at the 2024 general election,  | other articles: Liberal Democrats (UK), Conservative Party (UK)"
   },
   {
    "role": "assistant",
@@ -75,18 +75,18 @@
     {
      "type": "function",
      "index": 0,
-     "id": "call_og8SdpTcaUzXTfsvO8RB2Cl6",
+     "id": "call_ywpMUtTIAkL6BQs01claIkZC",
      "function": {
       "name": "web_search",
-      "arguments": "{\"query\":\"April 2026 MP defected Conservative to Liberal Party details\"}"
+      "arguments": "{\"query\":\"UK MP crosses party lines April 2026\"}"
      }
     }
    ]
   },
   {
    "role": "tool",
-   "tool_call_id": "call_og8SdpTcaUzXTfsvO8RB2Cl6",
-   "content": "[Reform UK] Reform UK, also known as the Reform Party or simply Reform, is a right-wing populist and far-right political party in the United Kingdom. It has eight members of Parliament in the House of Commons, two members of the London Assembly, thirty-three members of the Senedd, seventeen members of the Scottish Parliament, two police and crime commissioners, and controls twenty-six local councils. It is to the right of the Conservative Party. Nigel Farage has been leader of Reform UK since June 2024. The party was co-founded by Farage and Catherine Blaiklock in 2018 as the Brexit Party, advocating a no-deal Brexit; it won the most seats at the 2019 European Parliament election in the UK. The UK withdrew from the European Union in January 2020, and later in the same year the COVID-19 pandemic began in the UK. The Conservative government imposed a series of national lockdowns and Farage focused on anti-lockdown campaigning. The party was renamed Reform UK in January 2021. Farage stepped down as leader in March 2021 and was succeeded by Richard Tice. Classified as part of the radical right, since 2022, the party has campaigned on a broader platform, pledging to reduce taxation, limit immigration, oppose net-zero emissions policies and substantially reduce public spending. In March 2024, Lee Anderson, who was elected in 2019 as a Conservative MP, defected to Reform UK, becoming its first MP. In June 2024, Farage resumed the leadership. The party won five seats at the 2024 general election | other articles: Conservative Party (UK), Liberal Democrats (UK)"
+   "tool_call_id": "call_ywpMUtTIAkL6BQs01claIkZC",
+   "content": "[Rupert Lowe] Rupert James Graham Lowe (born 31 October 1957) is a British politician who is the leader of the ethno-nationalist and far-right party Restore Britain and has been the member of Parliament (MP) for Great Yarmouth since 2024. Elected for Reform UK, he sat as an independent from March 2025 to March 2026 following the suspension of the party whip. Lowe founded the political organisation Restore Britain on 30 June 2025, and registered it as an official political party on 20 March 2026, becoming the party's sole MP on the same day. He was a member of the European Parliament (MEP) for the West Midlands from 2019 to 2020. Lowe has faced political and media scrutiny due to his views on ethnicity and migration, and due to controversies surrounding the membership admissions policies of Restore Britain under his leadership. Before entering politics, Lowe worked in banking and business and was the chairman of Southampton F.C. from 1996 to 2006 and then from 2008 to 2009, when it entered administration. At the 2019 European Parliament election, Lowe was elected as an MEP for the West Midlands, representing the Brexit Party, which later became Reform UK. He held this role until the UK's withdrawal from the European Union in 2020. Lowe entered the House of Commons at the 2024 general election as MP for Great Yarmouth and was appointed Reform UK's Business and Agriculture Spokesman. In March 2025, he had the whip suspended due to legal accusations, days after criticising Reform UK leader Nig | other articles: Conservative Party (UK), George Galloway"
   },
   {
    "role": "assistant",
@@ -97,18 +97,18 @@
     {
      "type": "function",
      "index": 0,
-     "id": "call_NIFRucAczRv83MGaYkwH09c1",
+     "id": "call_iPOLeHtcZlOiFQkZkgvF3ie0",
      "function": {
       "name": "web_search",
-      "arguments": "{\"query\":\"April 2026 MP defection Liberal Party UK news\"}"
+      "arguments": "{\"query\":\"UK Liberal Party defection April 2026 news\"}"
      }
     }
    ]
   },
   {
    "role": "tool",
-   "tool_call_id": "call_NIFRucAczRv83MGaYkwH09c1",
-   "content": "[Reform UK] Reform UK, also known as the Reform Party or simply Reform, is a right-wing populist and far-right political party in the United Kingdom. It has eight members of Parliament in the House of Commons, two members of the London Assembly, thirty-three members of the Senedd, seventeen members of the Scottish Parliament, two police and crime commissioners, and controls twenty-six local councils. It is to the right of the Conservative Party. Nigel Farage has been leader of Reform UK since June 2024. The party was co-founded by Farage and Catherine Blaiklock in 2018 as the Brexit Party, advocating a no-deal Brexit; it won the most seats at the 2019 European Parliament election in the UK. The UK withdrew from the European Union in January 2020, and later in the same year the COVID-19 pandemic began in the UK. The Conservative government imposed a series of national lockdowns and Farage focused on anti-lockdown campaigning. The party was renamed Reform UK in January 2021. Farage stepped down as leader in March 2021 and was succeeded by Richard Tice. Classified as part of the radical right, since 2022, the party has campaigned on a broader platform, pledging to reduce taxation, limit immigration, oppose net-zero emissions policies and substantially reduce public spending. In March 2024, Lee Anderson, who was elected in 2019 as a Conservative MP, defected to Reform UK, becoming its first MP. In June 2024, Farage resumed the leadership. The party won five seats at the 2024 general election | other articles: 2026 in United Kingdom politics and government, List of MPs elected in the 2024 United Kingdom general election"
+   "tool_call_id": "call_iPOLeHtcZlOiFQkZkgvF3ie0",
+   "content": "[Liberal Democrats (UK)] The Liberal Democrats, colloquially known as the Lib Dems, is a political party in the United Kingdom. Ideologically adhering to liberalism, it was founded in 1988. The party is based at Liberal Democrat Headquarters, which since September 2025 has been located at Buckingham Gate, in the Westminster area of Central London. The party's leader is Ed Davey. It is the third-largest party in the United Kingdom, with 71 members of Parliament (MPs) in the House of Commons. It has 80 members of the House of Lords, 10 in the Scottish Parliament, 1 in the Welsh Senedd, and around 3,200 local council seats. The party holds a twice yearly Liberal Democrat Conference, at which policy is formulated. In contrast to its main opponents, the Lib Dems grant all members attending Conference the right to vote on policy, under a one member, one vote system. As well as voting in the Conference Hall, the party allows its members to vote online for its policies and leadership elections. Members are also free to join organisations representing strands of party thinking, such as Liberal Reform and Social Liberal Forum, and for those under 30 years, Young Liberals. In 1981, an electoral alliance was established between the Liberal Party, a group which descended from the 18th-century Whigs, and the Social Democratic Party (SDP), a splinter group from the Labour Party. In 1988, the parties merged as the Social and Liberal Democrats, adopting their present name a year later. Under the leaderships of Paddy  | other articles: Reform UK, 2026 in United Kingdom politics and government"
   },
   {
    "role": "assistant",
@@ -119,18 +119,18 @@
     {
      "type": "function",
      "index": 0,
-     "id": "call_YpRNqY8wl1gPvFrrgpS34dHY",
+     "id": "call_S8rBF4Xy62bJA4kFNxoIPeSW",
      "function": {
       "name": "web_search",
-      "arguments": "{\"query\":\"April 2026 UK MP defection Conservative Liberal news\"}"
+      "arguments": "{\"query\":\"April 2026 MP defection Conservative Party to Liberal Party UK news\"}"
      }
     }
    ]
   },
   {
    "role": "tool",
-   "tool_call_id": "call_YpRNqY8wl1gPvFrrgpS34dHY",
-   "content": "[Reform UK] Reform UK, also known as the Reform Party or simply Reform, is a right-wing populist and far-right political party in the United Kingdom. It has eight members of Parliament in the House of Commons, two members of the London Assembly, thirty-three members of the Senedd, seventeen members of the Scottish Parliament, two police and crime commissioners, and controls twenty-six local councils. It is to the right of the Conservative Party. Nigel Farage has been leader of Reform UK since June 2024. The party was co-founded by Farage and Catherine Blaiklock in 2018 as the Brexit Party, advocating a no-deal Brexit; it won the most seats at the 2019 European Parliament election in the UK. The UK withdrew from the European Union in January 2020, and later in the same year the COVID-19 pandemic began in the UK. The Conservative government imposed a series of national lockdowns and Farage focused on anti-lockdown campaigning. The party was renamed Reform UK in January 2021. Farage stepped down as leader in March 2021 and was succeeded by Richard Tice. Classified as part of the radical right, since 2022, the party has campaigned on a broader platform, pledging to reduce taxation, limit immigration, oppose net-zero emissions policies and substantially reduce public spending. In March 2024, Lee Anderson, who was elected in 2019 as a Conservative MP, defected to Reform UK, becoming its first MP. In June 2024, Farage resumed the leadership. The party won five seats at the 2024 general election | other articles: Conservative Party (UK), Liberal Democrats (UK)"
+   "tool_call_id": "call_S8rBF4Xy62bJA4kFNxoIPeSW",
+   "content": "[Conservative Party (UK)] The Conservative and Unionist Party, commonly known as the Conservative Party and The Conservatives, and colloquially as the Tories, is a political party in the United Kingdom. It sits on the centre-right to right-wing of the left–right political spectrum. Following its defeat by the Labour Party at the 2024 general election, it is currently the second-largest party by the number of votes cast and number of seats in the House of Commons; as such it has the formal parliamentary role of His Majesty's Most Loyal Opposition. It encompasses various ideological factions including one-nation conservatives, Thatcherites and traditionalist conservatives. There have been 20 Conservative prime ministers. The party meets annually during autumn, for the Conservative Party Conference. The Conservative Party was founded in 1834 from the Tory Party and was one of two dominant political parties in the 19th century, along with the Liberal Party. Under Benjamin Disraeli it played a preeminent role in politics at the height of the British Empire. In 1912, the Liberal Unionist Party merged with the party to form the Conservative and Unionist Party. Its rivalry with the Labour Party has shaped modern British politics, which since 1922 created a de facto two-party system. David Cameron sought to modernise the party after his election as leader in 2005, and the party governed from 2010 to 2024 under five prime ministers, latterly Rishi Sunak. The party has generally adopted liberal economic policies | other articles: UK Independence Party, Liberal Party (UK, 1989)"
   },
   {
    "role": "assistant",
@@ -141,18 +141,18 @@
     {
      "type": "function",
      "index": 0,
-     "id": "call_YztrM6jbz3gWtIYwrB9isBj5",
+     "id": "call_ROBfalWhH6fdDXna8gPU27CX",
      "function": {
       "name": "web_search",
-      "arguments": "{\"query\":\"April 2026 defection from Conservative to Liberal party UK\"}"
+      "arguments": "{\"query\":\"UK Liberal Democrat party defection news April 2026\"}"
      }
     }
    ]
   },
   {
    "role": "tool",
-   "tool_call_id": "call_YztrM6jbz3gWtIYwrB9isBj5",
-   "content": "[Reform UK] Reform UK, also known as the Reform Party or simply Reform, is a right-wing populist and far-right political party in the United Kingdom. It has eight members of Parliament in the House of Commons, two members of the London Assembly, thirty-three members of the Senedd, seventeen members of the Scottish Parliament, two police and crime commissioners, and controls twenty-six local councils. It is to the right of the Conservative Party. Nigel Farage has been leader of Reform UK since June 2024. The party was co-founded by Farage and Catherine Blaiklock in 2018 as the Brexit Party, advocating a no-deal Brexit; it won the most seats at the 2019 European Parliament election in the UK. The UK withdrew from the European Union in January 2020, and later in the same year the COVID-19 pandemic began in the UK. The Conservative government imposed a series of national lockdowns and Farage focused on anti-lockdown campaigning. The party was renamed Reform UK in January 2021. Farage stepped down as leader in March 2021 and was succeeded by Richard Tice. Classified as part of the radical right, since 2022, the party has campaigned on a broader platform, pledging to reduce taxation, limit immigration, oppose net-zero emissions policies and substantially reduce public spending. In March 2024, Lee Anderson, who was elected in 2019 as a Conservative MP, defected to Reform UK, becoming its first MP. In June 2024, Farage resumed the leadership. The party won five seats at the 2024 general election | other articles: Conservative Party (UK), 2026 Camden London Borough Council election"
+   "tool_call_id": "call_ROBfalWhH6fdDXna8gPU27CX",
+   "content": "[Liberal Democrats (UK)] The Liberal Democrats, colloquially known as the Lib Dems, is a political party in the United Kingdom. Ideologically adhering to liberalism, it was founded in 1988. The party is based at Liberal Democrat Headquarters, which since September 2025 has been located at Buckingham Gate, in the Westminster area of Central London. The party's leader is Ed Davey. It is the third-largest party in the United Kingdom, with 71 members of Parliament (MPs) in the House of Commons. It has 80 members of the House of Lords, 10 in the Scottish Parliament, 1 in the Welsh Senedd, and around 3,200 local council seats. The party holds a twice yearly Liberal Democrat Conference, at which policy is formulated. In contrast to its main opponents, the Lib Dems grant all members attending Conference the right to vote on policy, under a one member, one vote system. As well as voting in the Conference Hall, the party allows its members to vote online for its policies and leadership elections. Members are also free to join organisations representing strands of party thinking, such as Liberal Reform and Social Liberal Forum, and for those under 30 years, Young Liberals. In 1981, an electoral alliance was established between the Liberal Party, a group which descended from the 18th-century Whigs, and the Social Democratic Party (SDP), a splinter group from the Labour Party. In 1988, the parties merged as the Social and Liberal Democrats, adopting their present name a year later. Under the leaderships of Paddy  | other articles: Reform UK, Liberal Party (UK, 1989)"
   },
   {
    "role": "assistant",
@@ -163,18 +163,18 @@
     {
      "type": "function",
      "index": 0,
-     "id": "call_I3J0W9qB38jBaUcDraCn57y0",
+     "id": "call_J5eejP0t36AeLWjzH07ODtDX",
      "function": {
       "name": "web_search",
-      "arguments": "{\"query\":\"April 2026 UK MP defection Conservative Liberal party\"}"
+      "arguments": "{\"query\":\"UK April 2026 MP switch parties news\"}"
      }
     }
    ]
   },
   {
    "role": "tool",
-   "tool_call_id": "call_I3J0W9qB38jBaUcDraCn57y0",
-   "content": "[Reform UK] Reform UK, also known as the Reform Party or simply Reform, is a right-wing populist and far-right political party in the United Kingdom. It has eight members of Parliament in the House of Commons, two members of the London Assembly, thirty-three members of the Senedd, seventeen members of the Scottish Parliament, two police and crime commissioners, and controls twenty-six local councils. It is to the right of the Conservative Party. Nigel Farage has been leader of Reform UK since June 2024. The party was co-founded by Farage and Catherine Blaiklock in 2018 as the Brexit Party, advocating a no-deal Brexit; it won the most seats at the 2019 European Parliament election in the UK. The UK withdrew from the European Union in January 2020, and later in the same year the COVID-19 pandemic began in the UK. The Conservative government imposed a series of national lockdowns and Farage focused on anti-lockdown campaigning. The party was renamed Reform UK in January 2021. Farage stepped down as leader in March 2021 and was succeeded by Richard Tice. Classified as part of the radical right, since 2022, the party has campaigned on a broader platform, pledging to reduce taxation, limit immigration, oppose net-zero emissions policies and substantially reduce public spending. In March 2024, Lee Anderson, who was elected in 2019 as a Conservative MP, defected to Reform UK, becoming its first MP. In June 2024, Farage resumed the leadership. The party won five seats at the 2024 general election | other articles: 2026 in United Kingdom politics and government, Scottish Conservatives"
+   "tool_call_id": "call_J5eejP0t36AeLWjzH07ODtDX",
+   "content": "[Reform UK] Reform UK, also known as the Reform Party or simply Reform, is a right-wing populist and far-right political party in the United Kingdom. It has eight members of Parliament in the House of Commons, two members of the London Assembly, thirty-three members of the Senedd, sixteen members of the Scottish Parliament, two police and crime commissioners, and controls twenty-six local councils. It is to the right of the Conservative Party. Nigel Farage has been leader of Reform UK since June 2024. The party was co-founded by Farage and Catherine Blaiklock in 2018 as the Brexit Party, advocating a no-deal Brexit; it won the most seats at the 2019 European Parliament election in the UK. The UK withdrew from the European Union in January 2020, and later in the same year the COVID-19 pandemic began in the UK. The Conservative government imposed a series of national lockdowns and Farage focused on anti-lockdown campaigning. The party was renamed Reform UK in January 2021. Farage stepped down as leader in March 2021 and was succeeded by Richard Tice. Classified as part of the radical right, since 2022, the party has campaigned on a broader platform, pledging to reduce taxation, limit immigration, oppose net-zero emissions policies and substantially reduce public spending. In March 2024, Lee Anderson, who was elected in 2019 as a Conservative MP, defected to Reform UK, becoming its first MP. In June 2024, Farage resumed the leadership. The party won five seats at the 2024 general election,  | other articles: List of Conservative Party defections to Reform UK, 2026 United Kingdom local elections"
   },
   {
    "role": "user",
@@ -182,7 +182,7 @@
   },
   {
    "role": "assistant",
-   "content": "Извините, я не могу предоставить информацию по этому вопросу без необходимого доступа к актуальным данным. Пожалуйста, проверьте новостные источники или официальные объявления для получения точной информации. \n\nFINAL: Неизвестно.",
+   "content": "На данный момент мне не удалось найти информацию о MP, который перешёл из Консервативной партии в Либеральную партию в апреле 2026 года. Текущая информация ограничена и может потребовать более глубокого исследования. \n\nFINAL: Информация о таком событии отсутствует.",
    "refusal": null,
    "reasoning": null
   }

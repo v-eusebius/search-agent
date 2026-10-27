@@ -10,9 +10,9 @@
   "sonnet_answer": "unknown",
   "agent_ok": false
  },
- "answer": "The earthquake that struck off the island of Flores, Indonesia on August 15, 2026, resulted in 68 fatalities. Additionally, 213 people were reported injured. FINAL: 68 deaths.",
+ "answer": "The earthquake that struck off the island of Flores, Indonesia on August 15, 2026, killed at least 142 people. FINAL: 142 fatalities",
  "correct": false,
- "cost": 0.00022965000000008118,
+ "cost": 0.0003994499999999679,
  "messages": [
   {
    "role": "system",
@@ -31,22 +31,44 @@
     {
      "type": "function",
      "index": 0,
-     "id": "call_zaAOBxiG62wFbM1CF1XSxaSN",
+     "id": "call_km56TbdjlxvmTGcyWa5oWgGM",
      "function": {
       "name": "tavily_search",
-      "arguments": "{\"query\":\"earthquake Flores Indonesia August 15 2026 casualties deaths\"}"
+      "arguments": "{\"query\":\"earthquake Flores Indonesia August 15 2026 casualties\"}"
      }
     }
    ]
   },
   {
    "role": "tool",
-   "tool_call_id": "call_zaAOBxiG62wFbM1CF1XSxaSN",
-   "content": "[Indonesia Flores Earthquake (August 2026) | KÜRE Encyclopedia](https://kureansiklopedi.com/en/detay/indonesia-flores-earthquake-august-2026-3b57d) The death toll from the 7.7-magnitude earthquake that struck Flores in Indonesia on 15 August 2026 has risen to 68 as search and rescue and debris removal operations progressed. Authorities reported that 213 people were injured as a result of the earthquake. It was stated that much of the debris in hard-to-reach areas had been cleared and some closed roads had been reopened to traffic. [...] 2026 Indonesia Flores earthquake is a magnitude 7.7 earthquake that struck the island of Flores and its s\n[Indonesia Earthquake: Flores & Komodo Travel Safety Update August 2026](https://eglobaltravelmedia.com.au/2026/08/17/indonesia-earthquake-flores-travel-alert-after-m7-7) Title: Indonesia Earthquake: Flores & Komodo Travel Safety Update August 2026 [pj-news-ticker]Indonesia Earthquake: Flores & Komodo Travel Safety Update August 2026. # Indonesia Earthquake: Flores Travel Alert After M7.7. A powerful earthquake off Indonesia’s Flores region has delivered a sobering reminder that paradise can change character in seconds and that, for travellers and the travel trade, verified information matters far more than rumour. The main earthquake struck at 5.58 am**Central I\n[Significant Earthquake Strikes Indonesia on August 15, 2026](https://www.indianewsnetwork.com/en/significant-earthquake-strikes-indonesia-august-15-2026-20260815) Title: Significant Earthquake Strikes Indonesia on August 15, 2026 # Significant Earthquake Strikes Indonesia on August 15, 2026. India News Network | 2026-08-15. An earthquake of notable magnitude hit Indonesia, prompting warnings and emergency responses across the region. An earthquake registering a substantial magnitude occurred in Indonesia on August 15, 2026, causing concern among residents and officials alike. Local agencies swiftly mobilised resources to assess damage and provide support \n[August 15, 2026 earthquake off Flores Island, Indonesia_Baiduwiki](https://baike.baidu.com/en/item/August%2015%2C%202026%20earthquake%20off%20Flores%20Island%2C%20Indonesia/4570107) Title: August 15, 2026 earthquake off Flores Island, Indonesia_Baiduwiki # August 15, 2026 earthquake off Flores Island, Indonesia. An earthquake that occurred off the coast of Flores Island, Indonesia in 2026. On August 15, 2026, at 05:58, an earthquake with a magnitude of approximately 7.7 occurred off the coast of Flores Islan"
+   "tool_call_id": "call_km56TbdjlxvmTGcyWa5oWgGM",
+   "content": "[2026 Flores earthquake - Wikipedia](https://en.wikipedia.org/wiki/2026_Flores_earthquake) On 15 August 2026, at 05:58 WITA (UTC+8), a Mw 7.8 earthquake struck off the coast of the island of Flores in East Nusa Tenggara, Indonesia. The earthquake was caused by movement on the Flores back-arc thrust fault located north of the island. Seismic observatories recorded a maximum Modified Mercalli intensity of VIII (Severe) on Flores. It triggered a tsunami with a maximum recorded height of 2.68 m (8 ft 10 in). At least 142 people were killed in the earthquake while another 1,776 people [...\n[Magnitude 7.7 quake hits Indonesia, killing at least 47 | Earthquakes News | Al Jazeera](https://www.aljazeera.com/news/2026/8/15/at-least-two-killed-as-magnitude-7-7-quake-hits-indonesia) Published On 15 Aug 202615 Aug 2026 A powerful magnitude 7.7 earthquake has killed at least 47 people after it struck off the coast of Indonesia’s Flores Island, causing widespread damage. The United States Geological Survey (USGS) said the quake struck early Saturday at 5:58am local time (21:58 GMT Friday), with the epicentre about 68 kilometres (42 miles) north-northwest of the city of Ende, in East Nusa Tenggara province. USGS put the depth at 10 kilometres (6.2 miles). [...] Live Live News|E\n[Thousands of evacuees await aid after deadly quake on Indonesia's Flores island - France 24](https://www.france24.com/en/asia-pacific/20260816-thousands-await-aid-after-deadly-indonesian-quake) In this image released by the Indonesian National Search and Rescue Agency (BASARNAS), rescue workers search for victims in a damaged building following an earthquake in Maumere, in the province of East Nusa Tenggara, Indonesia, on August 15, 2026. Help started arriving Sunday for thousands of evacuees on Indonesia's Flores island after a powerful earthquake killed 53 people, injured dozens and damaged hundreds of houses and buildings. [...] Read next People evacuate from a collapsed building at\n[Indonesia earthquake death toll nears 70 as thousands wait for help on country's Independence Day - CBS News](https://www.cbsnews.com/news/indonesia-earthquake-death-toll-flores-island-independence-day) Watch CBS News # Indonesia earthquake death toll nears 70 as thousands wait for help on country's Independence Day August 17, 2026 / 7:22 AM EDT / AP Reo, Indonesia — Thousands of people were still waiting for aid on the Indonesian island of Flores as the country marked its 81st Independence Day on Monday, days afte"
   },
   {
    "role": "assistant",
-   "content": "The earthquake that struck off the island of Flores, Indonesia on August 15, 2026, resulted in 68 fatalities. Additionally, 213 people were reported injured. FINAL: 68 deaths.",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_a2mHANP9qFxl8YQG2g3TwVyi",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"2026 Flores earthquake\",\"keywords\":\"death toll, killed\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_a2mHANP9qFxl8YQG2g3TwVyi",
+   "content": "According to the National Agency for Disaster Countermeasure (BNPB), at least 142 people were killed and 1,776 others were injured, 336 of them seriously. It is the deadliest earthquake in Indonesia since the 2022 West Java earthquake. East Nusa Tenggara governor Emanuel Melkiades Laka Lena said most of the victims died while they were asleep as rubble fell onto them. Manggarai and East Manggarai "
+  },
+  {
+   "role": "assistant",
+   "content": "The earthquake that struck off the island of Flores, Indonesia on August 15, 2026, killed at least 142 people. FINAL: 142 fatalities",
    "refusal": null,
    "reasoning": null
   }

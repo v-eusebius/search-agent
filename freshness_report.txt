@@ -1,5 +1,5 @@
-Sonnet без инструментов: 0 из 147 верно после замены угаданного fresh-140, ранее 1/147 (1%).
-Потрачено на полный прогон ~$0.035
-критерий свежести пройден (не выше 20%)
-Угаданный и заменённый: fresh-140 (Peter Zumthor / LACMA) -> President Curtis spin-off.
-Повторная проверка замены: Sonnet ответил unknown.
+записей: 147, проблем: 0
+
+Sonnet без инструментов: 1 из 147 верно, 1%. Потрачено $0.240
+критерий свежести пройден
+  fresh-43: Who was sworn in as the Mayor of New York City on January 1, 2026? -> Zohran Mamdani was sworn in as the Mayor

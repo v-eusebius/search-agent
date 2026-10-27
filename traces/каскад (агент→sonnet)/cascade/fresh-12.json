@@ -10,11 +10,11 @@
   "sonnet_answer": "unknown",
   "agent_ok": true
  },
- "answer": "Информация недоступна.",
+ "answer": "1.86 миллиона.",
  "correct": false,
- "cost": 0.0016357499999999359,
+ "cost": 0.00164910000000007,
  "escalated": false,
- "confidence": 0.9,
+ "confidence": 1.0,
  "agent_messages": [
   {
    "role": "system",
@@ -33,18 +33,18 @@
     {
      "type": "function",
      "index": 0,
-     "id": "call_btOpUlzrqiOCvf7lZRgw02jF",
+     "id": "call_maV4P93rbUiYeb8nUs5sqcwm",
      "function": {
-      "name": "web_search",
-      "arguments": "{\"query\":\"special educational needs and disabilities support children UK January 2026\"}"
+      "name": "tavily_search",
+      "arguments": "{\"query\":\"children receiving support for special educational needs and disabilities UK January 2026\"}"
      }
     }
    ]
   },
   {
    "role": "tool",
-   "tool_call_id": "call_btOpUlzrqiOCvf7lZRgw02jF",
-   "content": "[Special education] Special education, also called SPED, special ed, aided education, alternative provision, exceptional student education, or special day class (SDC), is the practice of educating students in a way that accommodates their individual differences, disabilities, and special needs. This involves the individually planned and systematically monitored arrangement of teaching procedures, adapted equipment and materials, and accessible settings. These interventions are designed to help individuals with special needs achieve a higher level of personal self-sufficiency and success in school and in their community. This may not be available if the student were only given access to a typical classroom education. Special education aims to provide accommodated education for students with disabilities such as learning disabilities or difficulties (such as dyslexia), communication disorders, emotional and behavioral disorders, physical disabilities (such as osteogenesis imperfecta, down syndrome, and muscular dystrophy), developmental disabilities (such as autism spectrum disorder, and intellectual disabilities) and other disabilities. Students with disabilities are likely to benefit from additional educational services such as different approaches to teaching, the use of technology, a specifically adapted teaching area, a resource room, or a separate classroom altogether. In the Western world, educators modify teaching methods, curriculum materials, and environments so that the maximum number o | other articles: Special education in the United Kingdom, Intellectual disability"
+   "tool_call_id": "call_maV4P93rbUiYeb8nUs5sqcwm",
+   "content": "[Number of children getting special educational needs support hits record high](https://www.bbc.com/news/articles/cj4g18gy14no) Between January 2025 and January 2026, there was a 12.5% increase in the number of children with education, health and care plans (EHCPs) - the legal documents setting out the support they are entitled to. It is the highest yearly increase since EHCPs were introduced over a decade ago, with numbers now over 700,000. [...] ## Special school's relocation could make it among UK's biggest ## Parents fear for future over school travel changes ## SEND mothers continue to battle fines over school atten\n[Special Educational Needs: support in England - House of Commons Library](https://commonslibrary.parliament.uk/research-briefings/sn07020) SEN Support, provided to a child or young person in their pre-school, school, or college Education, Health, and Care Plans (EHCPs) which provide a formal basis for support for children and young people who need more support than is available through SEN Support Education is a devolved policy area and this paper applies to England only. ## How many school pupils have SEN? In January 2026, there were over 1.8 million school pupils in England with identified SEN (20.8% of all pupils). [...] The gov\n[Release home - Special educational needs in England - Explore education statistics - GOV.UK](https://explore-education-statistics.service.gov.uk/find-statistics/special-educational-needs-in-england/2025-26) 26.6% of pupils recorded as Traveller of Irish heritage ethnic group had SEN support in 2026, and a further 10.4% had an EHC plan. The lowest rate for SEN is in the Chinese ethnic group; 5.8% of pupils in this ethnic group had SEN support and 2.6% had an EHC plan. [...] There are now 6.0% of pupils with an EHC plan, and 14.8% pupils with SEN support, continuing the increasing trend since 2016. Prior to 2016, the rate had remained steady at 2.8% (opens in new tab). This increase is consistent wit\n[And so it begins: 2026 will be the year of a huge Special Needs battle, and this is why](https://maybeimamazed.substack.com/p/and-so-it-begins-2026-will-be-the) Teachers and school staff will be expected to take a far greater role in identifying children with special educational needs and disabilities(SEND) under reforms to the system expected in the coming year… The move will mean more onus placed on teaching staff to both spot and meet the needs of children with SEND. [...] One of Westminster and Whitehall’s most"
   },
   {
    "role": "assistant",
@@ -55,18 +55,32 @@
     {
      "type": "function",
      "index": 0,
-     "id": "call_fuD0D81qfRz3izRhQ97HRiYs",
+     "id": "call_JpaJcAQ9V2PPspakHG3rw2t8",
      "function": {
-      "name": "web_search",
-      "arguments": "{\"query\":\"2026 in education UK special educational needs children statistics\"}"
+      "name": "page_find",
+      "arguments": "{\"title\": \"Number of children getting special educational needs support hits record high\", \"keywords\": \"January 2026, support, special educational needs\"}"
+     }
+    },
+    {
+     "type": "function",
+     "index": 1,
+     "id": "call_r3YBoKzKxljTcdkSTekjerba",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\": \"Special Educational Needs: support in England - House of Commons Library\", \"keywords\": \"January 2026, children, support, special educational needs\"}"
      }
     }
    ]
   },
   {
    "role": "tool",
-   "tool_call_id": "call_fuD0D81qfRz3izRhQ97HRiYs",
-   "content": "[Special education] Special education, also called SPED, special ed, aided education, alternative provision, exceptional student education, or special day class (SDC), is the practice of educating students in a way that accommodates their individual differences, disabilities, and special needs. This involves the individually planned and systematically monitored arrangement of teaching procedures, adapted equipment and materials, and accessible settings. These interventions are designed to help individuals with special needs achieve a higher level of personal self-sufficiency and success in school and in their community. This may not be available if the student were only given access to a typical classroom education. Special education aims to provide accommodated education for students with disabilities such as learning disabilities or difficulties (such as dyslexia), communication disorders, emotional and behavioral disorders, physical disabilities (such as osteogenesis imperfecta, down syndrome, and muscular dystrophy), developmental disabilities (such as autism spectrum disorder, and intellectual disabilities) and other disabilities. Students with disabilities are likely to benefit from additional educational services such as different approaches to teaching, the use of technology, a specifically adapted teaching area, a resource room, or a separate classroom altogether. In the Western world, educators modify teaching methods, curriculum materials, and environments so that the maximum number o | other articles: Waldorf education, Special interest (autism)"
+   "tool_call_id": "call_JpaJcAQ9V2PPspakHG3rw2t8",
+   "content": "no such page"
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_r3YBoKzKxljTcdkSTekjerba",
+   "content": "no such page"
   },
   {
    "role": "assistant",
@@ -77,18 +91,18 @@
     {
      "type": "function",
      "index": 0,
-     "id": "call_66NE2MMWBT70iImhlpSXLoZH",
+     "id": "call_8EF8okZbVkEyfVhw8uMnopAk",
      "function": {
-      "name": "web_search",
-      "arguments": "{\"query\":\"number of children in special education UK January 2026\"}"
+      "name": "tavily_search",
+      "arguments": "{\"query\":\"UK special educational needs statistics January 2026\"}"
      }
     }
    ]
   },
   {
    "role": "tool",
-   "tool_call_id": "call_66NE2MMWBT70iImhlpSXLoZH",
-   "content": "[Special education] Special education, also called SPED, special ed, aided education, alternative provision, exceptional student education, or special day class (SDC), is the practice of educating students in a way that accommodates their individual differences, disabilities, and special needs. This involves the individually planned and systematically monitored arrangement of teaching procedures, adapted equipment and materials, and accessible settings. These interventions are designed to help individuals with special needs achieve a higher level of personal self-sufficiency and success in school and in their community. This may not be available if the student were only given access to a typical classroom education. Special education aims to provide accommodated education for students with disabilities such as learning disabilities or difficulties (such as dyslexia), communication disorders, emotional and behavioral disorders, physical disabilities (such as osteogenesis imperfecta, down syndrome, and muscular dystrophy), developmental disabilities (such as autism spectrum disorder, and intellectual disabilities) and other disabilities. Students with disabilities are likely to benefit from additional educational services such as different approaches to teaching, the use of technology, a specifically adapted teaching area, a resource room, or a separate classroom altogether. In the Western world, educators modify teaching methods, curriculum materials, and environments so that the maximum number o | other articles: Reform UK, 2026 in the United Kingdom"
+   "tool_call_id": "call_8EF8okZbVkEyfVhw8uMnopAk",
+   "content": "[Release home - Special educational needs in England](https://dera.ioe.ac.uk/id/eprint/42217/1/Release%20home%20-%20Special%20educational%20needs%20in%20England%20-%20Explore%20education%20statistics%20-%20GOV.UK.pdf) Number of SEN units and resourced provisions has increased In January 2026, there were 514 schools in England with SEN units, an increase from 449 in 2025. There were 1,309 schools with a resourced provision, a slight increase from 1,217 in 2025. [...] The number of pupils with SEN in AP schools has increased, this is largely driven by the increase in pupils with an EHC plan (up from 26.3% to 30.7%), whereas the proportion of pupils with SEN support has decreased from 57.1% to 54.2%. The percent\n[Special educational needs in England: January 2026 - GOV.UK](https://www.gov.uk/government/statistics/special-educational-needs-in-england-january-2026) View cookies Accredited official statistics # Special educational needs in England: January 2026 Information from the school census on pupils with special educational needs (SEN) and SEN provision in schools. From: : Department for Education Published: : 11 June 2026 Accredited official statistics ## Applies to England ## Documents ### Special educational needs in England: January 2026 ## Details This publication analyses the characteristics of pupils by their: [...] special educational needs pr\n[SEND 2026: Tracking a decade of rising need with earlier EHCPs and moves to specialist provision for secondary — Special Needs Jungle](https://www.specialneedsjungle.com/send-2026-tracking-decade-rising-need-earlier-ehcps-specialist-provision-secondary) In January 2026, there were 8.9 million pupils recorded on the English school census in state schools, mainstream independent schools, and non-maintained special schools. Of those, roughly 1.86 million (20.8% of them) were reported to have a special educational need. [...] According to the figures, both these types of base are already on the increase. In January 2026, 519 schools reported that they had a SEN unit (60 more than in 2025), and 1,309 schools reported that they had a resourced provis\n[Latest SEN stats released by DfE | Whole School SEND](https://www.wholeschoolsend.org.uk/news/latest-sen-stats-released-dfe) This means that pupils with EHC plans now make up 29% of all pupils with SEN, compared with 19.3% in 2016. Alongside this, the number of ‘SEN units’ and resourced provisions have increased. In January 2026, there were 514 schools in England wit"
   },
   {
    "role": "assistant",
@@ -99,18 +113,32 @@
     {
      "type": "function",
      "index": 0,
-     "id": "call_HhPwMfsTckHiIbZY67wKIR1n",
+     "id": "call_tvDVV4OakHUIY75ODRMwFpbv",
      "function": {
-      "name": "web_search",
-      "arguments": "{\"query\":\"UK children with special educational needs statistics January 2026\"}"
+      "name": "page_find",
+      "arguments": "{\"title\": \"Special educational needs in England: January 2026\", \"keywords\": \"January 2026, children, special educational needs\"}"
+     }
+    },
+    {
+     "type": "function",
+     "index": 1,
+     "id": "call_FKbjK5PLnffe7TXRtwA2p0Fv",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\": \"SEND 2026: Tracking a decade of rising need\", \"keywords\": \"January 2026, special educational needs\"}"
      }
     }
    ]
   },
   {
    "role": "tool",
-   "tool_call_id": "call_HhPwMfsTckHiIbZY67wKIR1n",
-   "content": "[Special education] Special education, also called SPED, special ed, aided education, alternative provision, exceptional student education, or special day class (SDC), is the practice of educating students in a way that accommodates their individual differences, disabilities, and special needs. This involves the individually planned and systematically monitored arrangement of teaching procedures, adapted equipment and materials, and accessible settings. These interventions are designed to help individuals with special needs achieve a higher level of personal self-sufficiency and success in school and in their community. This may not be available if the student were only given access to a typical classroom education. Special education aims to provide accommodated education for students with disabilities such as learning disabilities or difficulties (such as dyslexia), communication disorders, emotional and behavioral disorders, physical disabilities (such as osteogenesis imperfecta, down syndrome, and muscular dystrophy), developmental disabilities (such as autism spectrum disorder, and intellectual disabilities) and other disabilities. Students with disabilities are likely to benefit from additional educational services such as different approaches to teaching, the use of technology, a specifically adapted teaching area, a resource room, or a separate classroom altogether. In the Western world, educators modify teaching methods, curriculum materials, and environments so that the maximum number o | other articles: 2026 in the United Kingdom, 2025–2026 Iranian protests"
+   "tool_call_id": "call_tvDVV4OakHUIY75ODRMwFpbv",
+   "content": "no such page"
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_FKbjK5PLnffe7TXRtwA2p0Fv",
+   "content": "no such page"
   },
   {
    "role": "assistant",
@@ -121,62 +149,18 @@
     {
      "type": "function",
      "index": 0,
-     "id": "call_1CcOK0E9pB3MlUKGQhG2zPSw",
+     "id": "call_JSdIWEv1JH7Qh2spk1qoQk1T",
      "function": {
-      "name": "web_search",
-      "arguments": "{\"query\":\"children receiving special educational needs support UK January 2026 statistics\"}"
+      "name": "tavily_search",
+      "arguments": "{\"query\":\"number of children with special educational needs UK January 2026\"}"
      }
     }
    ]
   },
   {
    "role": "tool",
-   "tool_call_id": "call_1CcOK0E9pB3MlUKGQhG2zPSw",
-   "content": "[Special education] Special education, also called SPED, special ed, aided education, alternative provision, exceptional student education, or special day class (SDC), is the practice of educating students in a way that accommodates their individual differences, disabilities, and special needs. This involves the individually planned and systematically monitored arrangement of teaching procedures, adapted equipment and materials, and accessible settings. These interventions are designed to help individuals with special needs achieve a higher level of personal self-sufficiency and success in school and in their community. This may not be available if the student were only given access to a typical classroom education. Special education aims to provide accommodated education for students with disabilities such as learning disabilities or difficulties (such as dyslexia), communication disorders, emotional and behavioral disorders, physical disabilities (such as osteogenesis imperfecta, down syndrome, and muscular dystrophy), developmental disabilities (such as autism spectrum disorder, and intellectual disabilities) and other disabilities. Students with disabilities are likely to benefit from additional educational services such as different approaches to teaching, the use of technology, a specifically adapted teaching area, a resource room, or a separate classroom altogether. In the Western world, educators modify teaching methods, curriculum materials, and environments so that the maximum number o | other articles: 2026 in the United Kingdom, 2025–2026 Iranian protests"
-  },
-  {
-   "role": "assistant",
-   "content": null,
-   "refusal": null,
-   "reasoning": null,
-   "tool_calls": [
-    {
-     "type": "function",
-     "index": 0,
-     "id": "call_KFlL2hAwIrqDgxqau5CTVhRz",
-     "function": {
-      "name": "web_search",
-      "arguments": "{\"query\":\"current statistics special educational needs children UK January 2026\"}"
-     }
-    }
-   ]
-  },
-  {
-   "role": "tool",
-   "tool_call_id": "call_KFlL2hAwIrqDgxqau5CTVhRz",
-   "content": "[Special education] Special education, also called SPED, special ed, aided education, alternative provision, exceptional student education, or special day class (SDC), is the practice of educating students in a way that accommodates their individual differences, disabilities, and special needs. This involves the individually planned and systematically monitored arrangement of teaching procedures, adapted equipment and materials, and accessible settings. These interventions are designed to help individuals with special needs achieve a higher level of personal self-sufficiency and success in school and in their community. This may not be available if the student were only given access to a typical classroom education. Special education aims to provide accommodated education for students with disabilities such as learning disabilities or difficulties (such as dyslexia), communication disorders, emotional and behavioral disorders, physical disabilities (such as osteogenesis imperfecta, down syndrome, and muscular dystrophy), developmental disabilities (such as autism spectrum disorder, and intellectual disabilities) and other disabilities. Students with disabilities are likely to benefit from additional educational services such as different approaches to teaching, the use of technology, a specifically adapted teaching area, a resource room, or a separate classroom altogether. In the Western world, educators modify teaching methods, curriculum materials, and environments so that the maximum number o | other articles: 2026 in the United Kingdom, Library"
-  },
-  {
-   "role": "assistant",
-   "content": null,
-   "refusal": null,
-   "reasoning": null,
-   "tool_calls": [
-    {
-     "type": "function",
-     "index": 0,
-     "id": "call_2aeuGOsZH6VFi0eIKB9cgr4g",
-     "function": {
-      "name": "web_search",
-      "arguments": "{\"query\":\"January 2026 UK special educational needs children statistics\"}"
-     }
-    }
-   ]
-  },
-  {
-   "role": "tool",
-   "tool_call_id": "call_2aeuGOsZH6VFi0eIKB9cgr4g",
-   "content": "[Special education] Special education, also called SPED, special ed, aided education, alternative provision, exceptional student education, or special day class (SDC), is the practice of educating students in a way that accommodates their individual differences, disabilities, and special needs. This involves the individually planned and systematically monitored arrangement of teaching procedures, adapted equipment and materials, and accessible settings. These interventions are designed to help individuals with special needs achieve a higher level of personal self-sufficiency and success in school and in their community. This may not be available if the student were only given access to a typical classroom education. Special education aims to provide accommodated education for students with disabilities such as learning disabilities or difficulties (such as dyslexia), communication disorders, emotional and behavioral disorders, physical disabilities (such as osteogenesis imperfecta, down syndrome, and muscular dystrophy), developmental disabilities (such as autism spectrum disorder, and intellectual disabilities) and other disabilities. Students with disabilities are likely to benefit from additional educational services such as different approaches to teaching, the use of technology, a specifically adapted teaching area, a resource room, or a separate classroom altogether. In the Western world, educators modify teaching methods, curriculum materials, and environments so that the maximum number o | other articles: 2026 in the United Kingdom, 2025–2026 Iranian protests"
+   "tool_call_id": "call_JSdIWEv1JH7Qh2spk1qoQk1T",
+   "content": "[SEND 2026: Tracking a decade of rising need with earlier EHCPs and moves to specialist provision for secondary — Special Needs Jungle](https://www.specialneedsjungle.com/send-2026-tracking-decade-rising-need-earlier-ehcps-specialist-provision-secondary) In January 2026, there were 8.9 million pupils recorded on the English school census in state schools, mainstream independent schools, and non-maintained special schools. Of those, roughly 1.86 million (20.8% of them) were reported to have a special educational need. [...] So in all, we have 1.86 million pupils identified with SEND in January 2026. 71% of those– 1.32 million, or 14.8% of the total school population – were on SEN Support. These pupils are supported almost entirely through resourc\n[Release home - Special educational needs in England](https://dera.ioe.ac.uk/id/eprint/42217/1/Release%20home%20-%20Special%20educational%20needs%20in%20England%20-%20Explore%20education%20statistics%20-%20GOV.UK.pdf) Number of SEN units and resourced provisions has increased In January 2026, there were 514 schools in England with SEN units, an increase from 449 in 2025. There were 1,309 schools with a resourced provision, a slight increase from 1,217 in 2025. [...] Back to top Pupils with special educational needs in schools The number and percentage of pupils with SEN has continued to rise The number of pupils with an EHC plan increased by 11.6% between 2025 and 2026 to 538,500, and has more than doubled si\n[Number of children getting special educational needs support hits record high](https://www.bbc.com/news/articles/cj4g18gy14no) Between January 2025 and January 2026, there was a 12.5% increase in the number of children with education, health and care plans (EHCPs) - the legal documents setting out the support they are entitled to. It is the highest yearly increase since EHCPs were introduced over a decade ago, with numbers now over 700,000. [...] Under the government's SEND reform plans, which were released in the spring, fewer children will qualify for EHCPs from 2030. Instead, all children with SEND - currently over 1\n[Release home - Special educational needs in England - Explore education statistics - GOV.UK](https://explore-education-statistics.service.gov.uk/find-statistics/special-educational-needs-in-england/2025-26) #### Number of SEN units and resourced provisions has increased In January 2026, there were 514 schools in England with SEN units, an increase from 449 in 2025. There were 1,309 schools wi"
   },
   {
    "role": "user",
@@ -184,7 +168,7 @@
   },
   {
    "role": "assistant",
-   "content": "К сожалению, у меня нет доступа к данным, связанным с количеством детей, получающих поддержку в области специальных образовательных потребностей и инвалидности в Соединённом Королевстве в январе 2026 года. Я не могу предоставить изолированные факты без дополнительных источников.\n\nFINAL: Информация недоступна.",
+   "content": "В январе 2026 года в Великобритании примерно 1.86 миллиона детей были зарегистрированы с особыми образовательными потребностями (SEND), что составляет около 20.8% от общего числа обучающихся. Из них 1.32 миллиона детей получали поддержку через программы, не требующие наличия индивидуального плана образования и здоровья (SEN Support). \n\nFINAL: 1.86 миллиона.",
    "refusal": null,
    "reasoning": null
   }

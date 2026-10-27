@@ -1,0 +1,24 @@
+{
+ "task": {
+  "id": "fresh-114",
+  "source": "fresh",
+  "question": "What type of facility opened in St. John's, Newfoundland and Labrador on January 12, 2026?",
+  "answer": "Urgent Care Centre",
+  "evidence": "January 12 – A new Urgent Care Centre opens in St. John's, Newfoundland and Labrador.",
+  "page": "2026 in Canada",
+  "url": "https://en.wikipedia.org/wiki/2026_in_Canada",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "FINAL: Unknown.",
+ "correct": false,
+ "cost": 8.250000000001312e-06,
+ "messages": [
+  {
+   "role": "assistant",
+   "content": "Unknown.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

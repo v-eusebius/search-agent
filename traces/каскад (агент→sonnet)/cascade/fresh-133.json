@@ -8,11 +8,11 @@
   "page": "2026 in sports",
   "url": "https://en.wikipedia.org/wiki/2026_in_sports"
  },
- "answer": "Unknown.",
+ "answer": "Padraig Harrington.",
  "correct": false,
- "cost": 0.0005731500000000223,
- "escalated": true,
- "confidence": 0.0,
+ "cost": 0.0003415500000001348,
+ "escalated": false,
+ "confidence": 1.0,
  "agent_messages": [
   {
    "role": "system",
@@ -31,44 +31,22 @@
     {
      "type": "function",
      "index": 0,
-     "id": "call_oaCTRR5s6qonqkTJN3UJDFdn",
+     "id": "call_vuTHwEjPttcOE6LGdPnYiGkQ",
      "function": {
-      "name": "web_search",
-      "arguments": "{\"query\":\"2026 U.S. Senior Open winner Scioto Country Club\"}"
+      "name": "tavily_search",
+      "arguments": "{\"query\":\"U.S. Senior Open Scioto Country Club July 2026 winner\"}"
      }
     }
    ]
   },
   {
    "role": "tool",
-   "tool_call_id": "call_oaCTRR5s6qonqkTJN3UJDFdn",
-   "content": "[U.S. Senior Open] The U.S. Senior Open is one of the five major championships in senior golf, introduced 46 years ago in 1980. It is administered by the United States Golf Association (USGA) and is recognized as a major championship by both the PGA Tour Champions and the European Senior Tour. The lower age limit was 55 in 1980, but it was lowered to 50 for the second edition in 1981, which is the standard limit for men's senior professional golf tournaments. By definition, the event is open to amateurs, but has been dominated by professionals; through 2022, all editions have been won by pros. Like other USGA championships, it has been played on many courses throughout the United States. Bernhard Langer became the oldest U.S. Senior Open Champion in 2023, winning at the age of 65 years 10 months. The total purse was the highest of any senior tour event until the Posco E&C Songdo Championship in South Korea, a Champions Tour event in 2010 and 2011 with a $3 million purse, but had a lower winner's share ($450,000). The U.S. Senior Open is again the highest purse on the PGA Tour Champions; in 2016 it was $3.75 million, and champion Gene Sauers earned $675,000. The purse in 2017 is anticipated to be $4 million, yielding a winner's share of $720,000. Like other senior majors, players must walk the course unless they receive a medical exemption to use a cart. Winners gain entry into the following year's U.S. Open. The playoff format was modified for 2018, reduced from three to two aggregate holes, fo | other articles: 2026 in sports, Medinah Country Club"
+   "tool_call_id": "call_vuTHwEjPttcOE6LGdPnYiGkQ",
+   "content": "[2026 U.S. Senior Open Winner and Scores](https://www.golfcompendium.com/2026/04/2026-us-senior-open.html) ### Search Golf Compendium # Golf Compendium ### 2026 U.S. Senior Open Winner and Scores Get link Facebook X Pinterest Email Other Apps The 2026 U.S. Senior Open was the 46th time this major championship of senior (ages 50-and-over) golf was played. And for the third time, the tournament's champion was Padraig Harrington. Winner: Padraig Harrington, 268 Where it was played: Scioto Country Club in Columbus, Ohio Tournament dates: July 2-5, 2026 [...] | Chad Campbell | 71-73-75-75—294 | | Thammano\n[U.S. Senior Open Championship 2026 Golf Leaderboard - PGA Tour - Overview](https://www.pgatour.com/pgatour-champions/tournaments/2026/u.s-senior-open-championship/S2026512/overview) PGA Tour ChampionsLeaderboardWatch & ListenNewsSchwab CupSchedulePlayersStatsTicketsShopPGA TourPGA Tour ChampionsKorn Ferry TourPGA Tour AmericasPGA Tour UniversityDP World TourLPGA TourTGL PGA Tour Champions PGA Tour Champions U.S. Senior Open Championship # U.S. Senior Open Championship Scioto Country Club Columbus, Ohio • USA Jul 2 - 5, 2026 Scioto Country Club Jul 2 - 5, 2026 Conducted by the USGA ### Event Overview ### Past Champions ### 2026 Padraig Harrington IRL [...] - #### Total 289##\n[2026 U.S. Senior Open Highlights: Final Round, Extended Action from Scioto Country Club](https://www.youtube.com/watch?v=B0hV5JU0Szc) # 2026 U.S. Senior Open Highlights: Final Round, Extended Action from Scioto Country Club ## Channel: United States Golf Association (USGA) (verified) 619K subscribers 278 likes ### Description 37,959 views Posted: 2026-07-05 The final round of the 2026 U.S. Senior Open at Scioto Country Club is complete, and Padraig Harrington is your back-to-back champion! Relive the best moments from an unforgettable final round.\n[U.S. Senior Open - Wikipedia](https://en.wikipedia.org/wiki/U.S._Senior_Open) | Year | Winner | Score | To par | Margin of victory | Runner(s)-up | Purse ($) | Winner's share ($) | Venue | Location | --- --- --- --- --- | | 2026 | Republic of Ireland Pádraig Harrington (3) | 268 | −12 | 4 strokes | United States Stewart Cink | 4,000,000 | 800,000 | Scioto | Columbus, Ohio | | 2025 | Republic of Ireland Pádraig Harrington (2) | 269 | −11 | 1 stroke | United States Stewart Cink | 4,000,000 | 800,000 | Broadmoor (East Course) | Colorado Springs, Colorado | [...] ## Multiple \n[46TH U.S. SENIOR OPEN – FACT SHEET](https://pgatourmedia.pgatourhq.com/s"
   },
   {
    "role": "assistant",
-   "content": null,
-   "refusal": null,
-   "reasoning": null,
-   "tool_calls": [
-    {
-     "type": "function",
-     "index": 0,
-     "id": "call_3XFZhmviGb5KbGJy1M7Fr4eI",
-     "function": {
-      "name": "page_find",
-      "arguments": "{\"title\":\"2026 in sports\",\"keywords\":\"U.S. Senior Open winner Scioto Country Club\"}"
-     }
-    }
-   ]
-  },
-  {
-   "role": "tool",
-   "tool_call_id": "call_3XFZhmviGb5KbGJy1M7Fr4eI",
-   "content": "June 4–7: 2026 U.S. Women's Open at Riviera Country Club in Pacific Palisades, California –  Nelly Korda\nJuly 2–5: U.S. Senior Open at Scioto Country Club in Columbus, Ohio –  Pádraig Harrington"
-  },
-  {
-   "role": "assistant",
-   "content": "The winner of the U.S. Senior Open at Scioto Country Club in July 2026 was Pádraig Harrington. \n\nFINAL: Pádraig Harrington",
+   "content": "Padraig Harrington won the U.S. Senior Open at Scioto Country Club in July 2026. He finished with a score of 268, 12 under par, defeating Stewart Cink by four strokes. FINAL: Padraig Harrington.",
    "refusal": null,
    "reasoning": null
   }

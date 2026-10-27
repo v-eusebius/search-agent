@@ -1,0 +1,164 @@
+{
+ "task": {
+  "id": "fresh-91",
+  "source": "fresh",
+  "question": "What was the amount released by Shivraj Singh Chouhan for the VB-G RAM-G scheme in July 2026?",
+  "answer": "₹25,863 crore",
+  "evidence": "5 July – Union Agriculture and Rural Development Minister Shivraj Singh Chouhan releases the first instalment of ₹25,863 crore (US$2.7 billion) to states for the implementation of the VB-G RAM-G scheme.",
+  "page": "2026 in India",
+  "url": "https://en.wikipedia.org/wiki/2026_in_India",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "I could not find any specific information regarding the funding amount released by Shivraj Singh Chouhan for the VB-G RAM-G scheme in July 2026. It appears that relevant sources may not be accessible at this time. \n\nFINAL: Information not found.",
+ "correct": false,
+ "cost": 0.0007903499999999952,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You answer questions about recent events (2025–2026). Never answer from memory: use web_search (and tavily_search if available) to find the right article, then page_find to look inside long articles such as '2026 in <country or field>' for the specific fact. Do not repeat the same call. When done, write the last line as FINAL: <short answer>."
+  },
+  {
+   "role": "user",
+   "content": "What was the amount released by Shivraj Singh Chouhan for the VB-G RAM-G scheme in July 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_l5wAD2GC9xo5rE38dD8qybSZ",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Shivraj Singh Chouhan VB-G RAM-G scheme July 2026 funding amount\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_l5wAD2GC9xo5rE38dD8qybSZ",
+   "content": "nothing found"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_Dcv64ZZoFszGrtWwhhqOWXpN",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"VB-G RAM-G scheme funding July 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_Dcv64ZZoFszGrtWwhhqOWXpN",
+   "content": "[Mahatma Gandhi National Rural Employment Guarantee Act, 2005] The Mahatma Gandhi National Rural Employment Guarantee Act 2005 (MGNREGA) was an Indian social welfare measure that aimed to guarantee the 'right to work'. This act was passed on 23 August 2005 and was implemented in February 2006 under the UPA government of Prime Minister Manmohan Singh following the tabling of the bill in parliament by the Minister for Rural Development Raghuvansh Prasad Singh. The bill was originally known as the National Rural Employment Guarantee Act (NREGA). In 2025, it was repealed by the Parliament of India after the Lok Sabha and Rajya Sabha passed the Viksit Bharat–Guarantee for Rozgar and Ajeevika Mission (Gramin) Act, 2025 (VB–G RAM G). The new legislation replaced MGNREGA with an updated rural employment and livelihood guarantee framework under the Ministry of Rural Development. It aimed to enhance livelihood security in rural areas by providing at least 100 days of assured and guaranteed wage employment in a financial year to at least one member of every Indian rural household whose adult members volunteer to do unskilled manual work. Women are guaranteed one half of the jobs made available under the MGNREGA and efforts are made to ensure that cross the limit of 50%. Another aim of MGNREGA is to create durable assets (such as roads, canals, ponds and wells). Employment is to be provided within 5 km of an applicant's residence, and minimum legal wage under the law is to be paid. If work is not provided within 15 days of applying, applicants are e | other articles: Workfare, Atal Bihari Vajpayee"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_J1AaTi6wixEO8LJNLQtPWqu8",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"VB-G RAM-G scheme Shivraj Singh Chouhan funding July 2026 news\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_J1AaTi6wixEO8LJNLQtPWqu8",
+   "content": "nothing found"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_n25cBKvn6fIaXd6i3aDxjsOH",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Shivraj Singh Chouhan July 2026 government releases funding VB-G RAM-G scheme\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_n25cBKvn6fIaXd6i3aDxjsOH",
+   "content": "nothing found"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_5BGH4KwJdANatCTE09RCeS66",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Shivraj Singh Chouhan announcements July 2026 funding VB-G RAM-G scheme\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_5BGH4KwJdANatCTE09RCeS66",
+   "content": "nothing found"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_QBvYvJpBw5h12qwboP0bPwFl",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"VB-G RAM-G scheme July 2026 funding announcement Shivraj Singh Chouhan\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_QBvYvJpBw5h12qwboP0bPwFl",
+   "content": "nothing found"
+  },
+  {
+   "role": "assistant",
+   "content": "I could not find any specific information regarding the funding amount released by Shivraj Singh Chouhan for the VB-G RAM-G scheme in July 2026. It appears that relevant sources may not be accessible at this time. \n\nFINAL: Information not found.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

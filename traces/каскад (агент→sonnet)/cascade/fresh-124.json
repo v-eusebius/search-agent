@@ -1,0 +1,56 @@
+{
+ "task": {
+  "id": "fresh-124",
+  "source": "fresh",
+  "question": "What city in Germany experienced a nightclub fire in March 2026?",
+  "answer": "Kehl",
+  "evidence": "29 March – A nightclub burns down in Kehl, Baden-Württemberg. All 750 people inside are evacuated, three of whom are treated for shock.",
+  "page": "2026 in Germany",
+  "url": "https://en.wikipedia.org/wiki/2026_in_Germany",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "Kehl.",
+ "correct": true,
+ "cost": 0.0003129000000001714,
+ "escalated": false,
+ "confidence": 1.0,
+ "agent_messages": [
+  {
+   "role": "system",
+   "content": "You answer questions about recent events (2025–2026). Never answer from memory: use web_search (and tavily_search if available) to find the right article, then page_find to look inside long articles such as '2026 in <country or field>' for the specific fact. Do not repeat the same call. When done, write the last line as FINAL: <short answer>."
+  },
+  {
+   "role": "user",
+   "content": "What city in Germany experienced a nightclub fire in March 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_8Udom4hjODjfQJnyrTDovuJm",
+     "function": {
+      "name": "tavily_search",
+      "arguments": "{\"query\":\"Germany nightclub fire March 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_8Udom4hjODjfQJnyrTDovuJm",
+   "content": "[Hundreds of revellers flee after fire breaks out at a dance club in Germany](https://www.greenwichtime.com/news/world/article/hundreds-of-revellers-flee-after-fire-breaks-out-22158270.php) # Hundreds of revellers flee after fire breaks out at a dance club in Germany The fire department extinguishes a fire in a club in Kehl, Germany, Sunday, March 29, 2026. (Philipp von Ditfurth/dpa via AP) BERLIN (AP) — Hundreds of partygoers had to flee a dance club in southwestern Germany when a fire broke out in the early hours of Sunday. None of the 750 guests were injured in the incident in Kehl, a town near the French border, emergency services said. Advertisement [...] Advertisement Article\n[Hundreds Evacuated as fire tears through German nightclub near French border | CTIF - International Association of Fire Services for Safer Citizens through Skilled Firefighters](https://ctif.org/news/hundreds-evacuated-fire-tears-through-german-nightclub-near-french-border) The fire broke out at approximately 3:45 a.m.(CET) inside K Club, a well‑known hip‑hop and Afro‑music venue in the town of Kehl, directly across the Rhine River from Strasbourg. According to police, flames spread rapidly through the building, but all patrons and staff managed to escape before the structure became fully engulfed. Three people received medical attention at the scene for minor injuries but did not require hospitalization, Euronews reported (Euronews, 29 March 2026). [...] Additiona\n[Hundreds evacuated as fire rips through German nightclub](https://www.youtube.com/watch?v=0t3HaPNdp4E&vl=en-US) # Hundreds evacuated as fire rips through German nightclub ## Channel: euronews (verified) 2.59M subscribers 7 likes ### Description 691 views Posted: 2026-03-29 Hundreds evacuated as fire rips through German nightclub Roughly 750 people were successfully evacuated as a fire ripped through a nightclub in southwest Germany. READ MORE : Subscribe to our channel: Watch our LIVE here: / euronews [...] ### Transcript [0:02] Hundreds of people were evacuated on Saturday night from a club in Kell, sout\n[Hundreds evacuated as fire rips through German nightclub | Euronews](https://www.euronews.com/2026/03/29/hundreds-evacuated-as-fire-rips-through-german-nightclub) The incident came a few months after fire at a bar in the Swiss Crans-Montana ski resort killed 41 people and injured 115. Unlike in the Crans-Montana fire, in Kehl the evacuation process appears to have gone smoothly. Additional sources • AFP, DNA ## Re"
+  },
+  {
+   "role": "assistant",
+   "content": "The city in Germany that experienced a nightclub fire in March 2026 was Kehl. The fire occurred at the K Club, a popular venue, and about 750 guests had to be evacuated, but thankfully, there were no serious injuries reported. \n\nFINAL: Kehl.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

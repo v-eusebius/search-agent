@@ -1,0 +1,54 @@
+{
+ "task": {
+  "id": "fresh-33",
+  "source": "fresh",
+  "question": "Which MP defected from the Conservative Party to the Liberal Party in April 2026?",
+  "answer": "Marilyn Gladu",
+  "evidence": "April 8 – Sarnia—Lambton—Bkejwanong MP Marilyn Gladu defects from the Conservative Party to the Liberal Party.",
+  "page": "2026 in Canada",
+  "url": "https://en.wikipedia.org/wiki/2026_in_Canada",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "FINAL: **Marilyn Gladu**, an Ontario Conservative MP, defected from the Conservative Party to the Liberal Party in April 2026. She cited Trump's tariff threats and sovereignty concerns as her reasons for crossing the floor.",
+ "correct": true,
+ "cost": 0.004413,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You answer questions about recent events (2025–2026). Never answer from memory: use web_search (and tavily_search if available) to find the right article, then page_find to look inside long articles such as '2026 in <country or field>' for the specific fact. Do not repeat the same call. When done, write the last line as FINAL: <short answer>."
+  },
+  {
+   "role": "user",
+   "content": "Which MP defected from the Conservative Party to the Liberal Party in April 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "I'll search for information about an MP defecting from the Conservative Party to the Liberal Party in April 2026.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01JskBe9eDxWbz2hmb85Qhu2",
+     "function": {
+      "name": "tavily_search",
+      "arguments": "{\"query\": \"MP defected Conservative Party Liberal Party April 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01JskBe9eDxWbz2hmb85Qhu2",
+   "content": "[Former Conservative MP Marilyn Gladu crosses floor to Liberals | CBC News](https://www.cbc.ca/news/politics/conservative-mp-marilyn-gladu-crosses-floor-to-liberals-9.7156167) The defection marks another blow for Poilievre, who despite securing an over 87 per cent approval rating at his party's convention earlier this year will likely once again face questions about his ability to hold the party together. He's already dealing with some internal dissatisfaction and changes. As the Toronto Star reported last week, Poilievre sent letters to his critic MPs asking them to justify their roles, which some caucus members told the paper they found insulting. [...] \"She's going\n[Canadian Prime Minister Mark Carney attracts yet another ...](https://www.latimes.com/world-nation/story/2026-04-08/canadian-prime-minister-mark-carney-attracts-yet-another-conservative-lawmaker-to-his-liberal-party) Ontario Conservative MP Marilyn Gladu defects to Mark Carney's Liberals, citing Trump's tariff threats and sovereignty concerns as her reason\n[Carney inches closer to majority, as fourth MP defects to Liberals](https://www.bbc.com/news/articles/c0e5jwz0703o) Sean Fraser, with short cropped dark hair and a beard, seen in a two-thirds profile. He is speaking and wears a navy suit and patterned blue tie. ## Canada suspends plans to expand assisted dying to people with mental illness People with mental illness alone were to be eligible for assisted dying in Canada in March 2027, but that has now been paused indefinitely. Chris Rodgers ## Pochettino says perfect campaign was 'massive' effort [...] Canada's Parti Québécois has promised it will hold the pr\n[Canada's Carney on verge of majority government after ...](https://www.reuters.com/world/americas/canada-pm-carney-verge-majority-after-opposition-member-joins-ruling-liberals-2026-04-08) Marilyn Gladu becomes fifth legislator to defect to Liberals since November Defection. Conservative leader Pierre Poilievre. A Canadian\n[Carney attracts a 5th Conservative lawmaker to Canada's ...](https://wtop.com/world/2026/04/canadian-prime-minister-mark-carney-attracts-yet-another-conservative-lawmaker-to-his-liberal-party) Her defection puts the Liberals on the verge of having a majority government and being able to pass any bill without opposition party support."
+  },
+  {
+   "role": "assistant",
+   "content": "FINAL: **Marilyn Gladu**, an Ontario Conservative MP, defected from the Conservative Party to the Liberal Party in April 2026. She cited Trump's tariff threats and sovereignty concerns as her reasons for crossing the floor.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

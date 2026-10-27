@@ -10,9 +10,9 @@
   "sonnet_answer": "unknown",
   "agent_ok": true
  },
- "answer": "The Montreal Victoire won their first Walter Cup on May 20, 2026. FINAL: Montreal Victoire",
+ "answer": "The Montreal Victoire won their first Walter Cup on May 20, 2026. \n\nFINAL: Montreal Victoire",
  "correct": true,
- "cost": 0.0003405000000000005,
+ "cost": 0.00013350000000000167,
  "messages": [
   {
    "role": "system",
@@ -31,66 +31,22 @@
     {
      "type": "function",
      "index": 0,
-     "id": "call_7CTJNZWjIthbVhUuKP0LL2Dj",
+     "id": "call_aQyTbdoztr3LU3hXTNeXXU5A",
      "function": {
       "name": "web_search",
-      "arguments": "{\"query\":\"first Walter Cup winner May 20 2026 ice hockey\"}"
+      "arguments": "{\"query\":\"2026 Walter Cup winner May 20\"}"
      }
     }
    ]
   },
   {
    "role": "tool",
-   "tool_call_id": "call_7CTJNZWjIthbVhUuKP0LL2Dj",
-   "content": "[Walter Cup] The Walter Cup (French: La coupe Walter) is the championship trophy awarded to the winner of the Walter Cup playoffs (French: Séries éliminatoires de la Coupe Walter de la LPHF), which culminate in an annual best-of-five series that determines the champion of the Professional Women's Hockey League (PWHL). The trophy is named in honour of PWHL co-founders and spouses Mark Walter and Kimbra Walter. Two teams have won the Cup since its establishment: the Minnesota Frost in both 2024 and 2025, and the Montreal Victoire in 2026. The Walter Cup is permanently on display at the Hockey Hall of Fame in Toronto. In contrast to the Stanley Cup, a replica of the Walter Cup is made for each year's champions. | other articles: 2026 Walter Cup Finals, Professional Women's Hockey League"
+   "tool_call_id": "call_aQyTbdoztr3LU3hXTNeXXU5A",
+   "content": "[2026 Walter Cup playoffs] The 2026 Walter Cup playoffs was the playoff tournament of the Professional Women's Hockey League (PWHL) for the 2025–26 season. The playoffs began on April 30, 2026, and concluded with the PWHL Finals on May 20, 2026, with the Montreal Victoire winning their first Walter Cup. The Boston Fleet were the first team to make the playoffs, when they did so on March 29 in a 4–2 win over the Minnesota Frost. In doing so, they became the fastest team in league history to clinch a playoff spot, having accomplished the feat in their 24th game of the season. Three days later, the Montreal Victoire were the second team to qualify for the playoffs, after a 3–0 win over the Vancouver Goldeneyes. On April 4, the Minnesota Frost clinched a spot after defeating the Goldeneyes, 6–5. The Ottawa Charge qualified for the fourth and final playoff spot in their last regular season game, defeating the Toronto Sceptres, 3–0 on April 25. The Sceptres would have earned the playoff spot instead had they won the game in regulation. It was the first time in league history that Toronto had missed the playoffs. Montreal secured first place in their final game of the season, also on April 25, a 2–1 shootout victory against the Seattle Torrent. They finished the season tied with the Boston Fleet at 62 points, but held the tiebreaker over Boston. | other articles: 2026 FIFA World Cup knockout stage, Walter Cup"
   },
   {
    "role": "assistant",
-   "content": null,
-   "refusal": null,
-   "reasoning": null,
-   "tool_calls": [
-    {
-     "type": "function",
-     "index": 0,
-     "id": "call_PyDc3hJYz7cv3WcZ1ABjErYM",
-     "function": {
-      "name": "web_search",
-      "arguments": "{\"query\":\"Montreal Victoire Wu Walter Cup 2026\"}"
-     }
-    }
-   ]
-  },
-  {
-   "role": "tool",
-   "tool_call_id": "call_PyDc3hJYz7cv3WcZ1ABjErYM",
-   "content": "[2026 in sports] The main sporting events scheduled to be held in 2026 are the 2026 Winter Olympics, the 2026 Winter Paralympics, both staged in Milano Cortina, the 2026 FIFA World Cup in the United States, Canada and Mexico, the 2026 Commonwealth Games in Glasgow and the 2026 World Baseball Classic in the United States, Puerto Rico and Japan. In rugby league, the Men's, Women's and the Wheelchair Rugby League World Cups will all be held in Australia, New Zealand and Papua New Guinea. In rugby union, there will be a new international rugby union tournament, which will be known as the World Rugby Nations Championship. There are also two T20 Cricket World Cups in 2026, the men's version will be staged in India and Sri Lanka while the women's version will be staged in England and Wales. | other articles: Deaths in October 2023"
-  },
-  {
-   "role": "assistant",
-   "content": null,
-   "refusal": null,
-   "reasoning": null,
-   "tool_calls": [
-    {
-     "type": "function",
-     "index": 0,
-     "id": "call_8jtGuFBDlXcZKwhVc8Qlep0Z",
-     "function": {
-      "name": "web_search",
-      "arguments": "{\"query\":\"Montreal Victoire Walter Cup 2026 May 20\"}"
-     }
-    }
-   ]
-  },
-  {
-   "role": "tool",
-   "tool_call_id": "call_8jtGuFBDlXcZKwhVc8Qlep0Z",
-   "content": "[Montreal Victoire] The Montréal Victoire (French: Victoire de Montréal) are a professional ice hockey team based in the Greater Montreal area that competes in the Professional Women's Hockey League (PWHL). They are one of the six charter franchises of the league. The team plays its home games at Place Bell in Laval, Quebec. The Victoire are the current Walter Cup champions, having won the championship in 2026. | other articles: Walter Cup, 2026 Walter Cup Finals"
-  },
-  {
-   "role": "assistant",
-   "content": "The Montreal Victoire won their first Walter Cup on May 20, 2026. FINAL: Montreal Victoire",
+   "content": "The Montreal Victoire won their first Walter Cup on May 20, 2026. \n\nFINAL: Montreal Victoire",
    "refusal": null,
    "reasoning": null
   }

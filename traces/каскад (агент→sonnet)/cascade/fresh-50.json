@@ -1,0 +1,56 @@
+{
+ "task": {
+  "id": "fresh-50",
+  "source": "fresh",
+  "question": "What fine was issued to Amed S.F.K. by the Turkish Football Federation on January 29, 2026?",
+  "answer": "802,500 lira",
+  "evidence": "29 January – The Turkish Football Federation issues a fine of 802,500 lira ($18,500) on Diyarbakır-based club Amed S.F.K. and suspends its president, Nahit Eren, on charges of \"making ideological propaganda\" after the club uploads a video of a woman having her hair braided amid similar acts by Kurds in protests against the 2026 northeastern Syria offensive.",
+  "page": "2026 in Turkey",
+  "url": "https://en.wikipedia.org/wiki/2026_in_Turkey",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "802,500 lira ($18,500) fine.",
+ "correct": true,
+ "cost": 0.0003706500000000279,
+ "escalated": false,
+ "confidence": 1.0,
+ "agent_messages": [
+  {
+   "role": "system",
+   "content": "You answer questions about recent events (2025–2026). Never answer from memory: use web_search (and tavily_search if available) to find the right article, then page_find to look inside long articles such as '2026 in <country or field>' for the specific fact. Do not repeat the same call. When done, write the last line as FINAL: <short answer>."
+  },
+  {
+   "role": "user",
+   "content": "What fine was issued to Amed S.F.K. by the Turkish Football Federation on January 29, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_l6aPswShT4S6c1pUY31SNjSp",
+     "function": {
+      "name": "tavily_search",
+      "arguments": "{\"query\":\"Amed S.F.K. fine Turkish Football Federation January 29 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_l6aPswShT4S6c1pUY31SNjSp",
+   "content": "[Amed S.F.K. - Wikipedia](https://en.wikipedia.org/wiki/Amed_S.F.K.) In January 2026, the Turkish Football Federation issued a fine of 802,500 lira ($18,500) on Amedspor and suspended its president, Nahit Eren, from football-related activities for 15 days for \"damaging the reputation of football\" by \"making ideological propaganda\", after the club uploaded a video of a woman having her hair braided amid similar acts by Kurds in solidarity with their compatriots in Syria during the 2026 northeastern Syria offensive. In connection with this, on 1 February, during a \n[Amedspor football club in Turkiye fined for pro-Kurdish ‘propaganda’ | Football News | Al Jazeera](https://www.aljazeera.com/sports/2026/1/30/football-club-in-turkiye-fined-for-pro-kurdish-propaganda) Live Live Sport|Football # Amedspor football club in Turkiye fined for pro-Kurdish ‘propaganda’ Turkish Football Federation fines second-division title favourites Amedspor and suspends president for social media video. Save Share A man shouts slogans as he holds a scarf of Amedspor soccer team Amedspor top the second division in Turkish football and are favourites to be promoted to the top flight [Murad Sezer/Reuters] By News Agencies Published On 30 Jan 202630 Jan 2026 [...] Turkiye’s main Kurd\n[Amedspor football club in Turkiye fined for pro-Kurdish ‘propaganda’ - Yahoo Sports](https://sports.yahoo.com/articles/amedspor-football-club-turkiye-fined-110517103.html) Amedspor FC, which is based in Diyarbakir, the main city in the Kurdish-majority southeast, was fined 802,500 Turkish lira (nearly $18,500) and its president slapped with a 15-day suspension from all football activity, the TFF said in a statement late on Thursday. Advertisement Advertisement Advertisement [...] News Agencies · 1 min read About Our Ads Advertisement Advertisement Advertisement Turkiye's main Kurdish football team has been fined for \"ideological propaganda\" in favour of Kurdish fo\n[Turkish football federation bars player for life over injuries to 4 others in match - Turkish Minute](https://turkishminute.com/2019/03/07/turkish-football-federation-bars-player-for-life-over-injuries-to-4-others-in-match) The Professional Football Disciplinary Board announced on Thursday that Mansur Çalar of Amed SFK was banned for “attacks on rival team players” last Saturday during a home game against Sakaryaspor in the mostly Kurdish populated southeastern city of Diyarbakır. Also, two teammates and a Sakaryaspor player were barred from play"
+  },
+  {
+   "role": "assistant",
+   "content": "On January 29, 2026, the Turkish Football Federation issued a fine of 802,500 lira (approximately $18,500) to Amed S.F.K. Additionally, the club's president, Nahit Eren, was suspended from football-related activities for 15 days for \"damaging the reputation of football\" by making ideological propaganda. This was in response to a video the club uploaded showing solidarity with Kurds in Syria during the northeastern Syria offensive. \n\nFINAL: 802,500 lira ($18,500) fine.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

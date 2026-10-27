@@ -1,0 +1,134 @@
+{
+ "task": {
+  "id": "fresh-102",
+  "source": "fresh",
+  "question": "Who was recognized as Hero of Ukraine in 2025?",
+  "answer": "Oleksandr Dovhach",
+  "evidence": "9 March – Oleksandr Dovhach, military pilot, Hero of Ukraine (2025).",
+  "page": "2026 in Ukraine",
+  "url": "https://en.wikipedia.org/wiki/2026_in_Ukraine",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "Based on the search results, I found information about several individuals recognized as Hero of Ukraine in 2025. Let me provide a comprehensive answer:\n\nFINAL: In 2025, multiple individuals were recognized as Heroes of Ukraine. Notable recipients included **Valeriy Demenev**, who was posthumously honored with the title in 2025. According to the information available, a total of 212 Hero of Ukraine awards were given in 2025. The title of Hero of Ukraine is the highest national decoration in Ukraine and is conferred by the President for outstanding service and bravery, including both military personnel and civilians.",
+ "correct": false,
+ "cost": 0.01856099999999994,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You answer questions about recent events (2025–2026). Never answer from memory: use web_search (and tavily_search if available) to find the right article, then page_find to look inside long articles such as '2026 in <country or field>' for the specific fact. Do not repeat the same call. When done, write the last line as FINAL: <short answer>."
+  },
+  {
+   "role": "user",
+   "content": "Who was recognized as Hero of Ukraine in 2025?"
+  },
+  {
+   "role": "assistant",
+   "content": "I'll search for information about who was recognized as a Hero of Ukraine in 2025.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01Jasx9x86qdMEk9Ne131B1M",
+     "function": {
+      "name": "tavily_search",
+      "arguments": "{\"query\": \"Hero of Ukraine 2025 recognized\"}"
+     }
+    },
+    {
+     "type": "function",
+     "index": 1,
+     "id": "toolu_bdrk_01HR2YnJKgnJ1id9hk86i9F3",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\": \"Hero of Ukraine 2025\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01Jasx9x86qdMEk9Ne131B1M",
+   "content": "[Valeriy Demenev posthumously honored as Hero of Ukraine ...](https://inkorr.com/en/amp/demenev-valerij-anatolijovic-stav-geroem-ukraini-posmertno-zahisauci-harkivsinu-u-2023-roci-352198) Valeriy Anatoliyovych Demenev, awarded the title Hero of Ukraine posthumously in 2025, served as a junior sergeant in the Armed Forces of\n[Ukrainian soldier awarded Hero of Ukraine title for spending 343 days at positions without break | Ukrainska Pravda](https://www.pravda.com.ua/eng/news/2026/04/23/8031427) Details: Mykhailov, a service member from the 3rd Mountain Assault Battalion of the Zakarpattia unit – Ukraine's 128th Separate Mountain Assault Brigade – stayed in the contact zone for almost a full year without relief – 343 days in total. He arrived at the positions on 1 April 2025 and left on 8 March 2026. Advertisement: [...] President Volodymyr Zelenskyy has conferred the title of Hero of Ukraine and the Order of the Gold Star on Captain Oleksii Mykhailov, alias \"Botanik\" (Nerd). Source: a \n[Hero of Ukraine - Wikipedia](https://en.wikipedia.org/wiki/Hero_of_Ukraine) A Hero of Ukraine (abbr. HOU; Ukrainian: Герой України, romanized: Heroi Ukrainy) is the highest national decoration that can be conferred upon an individual citizen by the president of Ukraine. The decoration was created in 1998 by President Leonid Kuchma. As of October 6, 2026, the total number of recipients was no less than 1,367 (of which decrees awarding 1,318 individuals were published, and for at least 49 individuals, the decrees were not made public). [...] | Order of the State (left), O\n[Volodymyr Zelenskyy Awarded Representatives of Local Self-Government Bodies and Military Administrations and Presented the Honorary Distinctions “Hero City of Ukraine” — Official website of the President of Ukraine](https://www.president.gov.ua/en/news/volodimir-zelenskij-vidznachiv-nagorodami-predstavnikiv-orga-103781) Volodymyr Zelenskyy established the honorary distinction “Hero City of Ukraine” on March 6, 2022, conferring it on Volnovakha, Hostomel, Mariupol, Kharkiv, Kherson, and Chernihiv; on March 24, 2022, to Bucha, Irpin, Mykolaiv, and Okhtyrka; and on September 30, 2025, to another 16 cities across seven regions of Ukraine: Bashtanka, Voznesensk, Huliaipole, Druzhkivka, Kostiantynivka, Kramatorsk, Kupyansk, Marhanets, Nikopol, Orikhiv, Pavlohrad, Pokrovsk, Slovyansk, Starokostiantyniv, Sumy, and [...\n[Zelensky awards Hero of Ukraine title to six service members, five posthumously](https://www.ukri"
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01HR2YnJKgnJ1id9hk86i9F3",
+   "content": "[Hero of Ukraine] A Hero of Ukraine (abbr. HOU; Ukrainian: Герой України, romanized: Heroi Ukrainy) is the highest national decoration that can be conferred upon an individual citizen by the president of Ukraine. The decoration was created in 1998 by President Leonid Kuchma. As of October 6, 2026, the total number of recipients was no less than 1,367 (of which decrees awarding 1,318 individuals were published, and for at least 49 individuals, the decrees were not made public). The decoration is granted to two classes of recipients: to civilians, the Order of the State (abbr. OS, Ukrainian: Орден Держави, romanized: Orden Derzhavy); and to military recipients, the Order of the Gold Star (abbr. OGS, Орден «Золота Зірка», Orden \"Zolota Zirka\"). The first foreigner awarded the decoration was Belarusian Mykhailo Zhyznevskyi in June 2017. | other articles: Hero City of Ukraine, List of Heroes of Ukraine"
+  },
+  {
+   "role": "assistant",
+   "content": "Based on the search results, I found information about heroes recognized in 2025. Let me search for more specific names.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01BfHxZLpyDZvTnJ7XTQnN8S",
+     "function": {
+      "name": "tavily_search",
+      "arguments": "{\"query\": \"\\\"Hero of Ukraine\\\" 2025 awarded names\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01BfHxZLpyDZvTnJ7XTQnN8S",
+   "content": "[Zelensky awards Hero of Ukraine title to six service members, five posthumously](https://www.ukrinform.net/rubric-ato/4176792-zelensky-awards-hero-of-ukraine-title-to-six-service-members-five-posthumously.html) The decrees to that effect, dated October 19, have been published on the president's official website, Ukrinform reports. Under Decree No. 1050/2026, the title of Hero of Ukraine was awarded to Junior Sergeant Andrii Tkachuk. Under Decree No. 1051/2026, Junior Lieutenant Oles-Yulian Shcherba was posthumously awarded the title of Hero of Ukraine. Decree No. 1052/2026 states that Captain Bohdan Khmil was posthumously awarded the title of Hero of Ukraine. [...] Read also: Zelensky awards state hono\n[Zelensky awards five more military personnel title of Hero of Ukraine posthumously](https://www.ukrinform.net/rubric-ato/4170197-zelensky-awards-five-more-military-personnel-title-of-hero-of-ukraine-posthumously.html) Under Decree No. 1001/2026, the title of Hero of Ukraine, together with the Order of the Gold Star, was awarded to Oleksandr Ustych, a police lieutenant, posthumously. Under Decree No. 1002/2026, the title of Hero of Ukraine, together with the Order of the Gold Star, was awarded to Myroslav Yarmishko, a police captain, posthumously. [...] Under Decree No. 1003/2026, the title of Hero of Ukraine, together with the Order of the Gold Star, was awarded to Volodymyr Kosmirak, a senior soldier, posthu\n[List of Heroes of Ukraine - Wikipedia](https://en.wikipedia.org/wiki/List_of_Heroes_of_Ukraine) There are 17 heroes of Ukraine who previously were awarded the Hero of Socialist Labour \"Hero of Socialist Labour (USSR)\"). ## Contents ## 2026 As of 28 June 2026( 73. ## 2025 Total number of awards: 212. ## 2024 Total number of awards: 162. [...] Wikipedia # List of Heroes of Ukraine This is a list of individuals who have been presented with the title Hero of Ukraine in reverse chronological order. As of 26 July 2026( the total number of recipients was no less than 1,328 (of which decrees award\n[Ukrainian soldier awarded Hero of Ukraine title for spending 343 days at positions without break | Ukrainska Pravda](https://www.pravda.com.ua/eng/news/2026/04/23/8031427) Details: Mykhailov, a service member from the 3rd Mountain Assault Battalion of the Zakarpattia unit – Ukraine's 128th Separate Mountain Assault Brigade – stayed in the contact zone for almost a full year without relief – 343 days in total. He arrived at the positions on 1 April 2025 and left on"
+  },
+  {
+   "role": "assistant",
+   "content": "Let me get more comprehensive information from the Wikipedia list of Heroes of Ukraine for 2025.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01TXDexrFQ2HNGCW94gRahgv",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\": \"List of Heroes of Ukraine\", \"keywords\": \"2025 awarded recognized\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01TXDexrFQ2HNGCW94gRahgv",
+   "content": "keywords not found on the page"
+  },
+  {
+   "role": "assistant",
+   "content": "Let me search for more recent information about 2025 awards.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01784icBvQZBnjsbQrfTMXPa",
+     "function": {
+      "name": "tavily_search",
+      "arguments": "{\"query\": \"Valeriy Demenev Hero of Ukraine 2025\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01784icBvQZBnjsbQrfTMXPa",
+   "content": "[Valeriy Demenev posthumously honored as Hero of Ukraine ...](https://inkorr.com/en/demenev-valerij-anatolijovic-stav-geroem-ukraini-posmertno-zahisauci-harkivsinu-u-2023-roci-352198) In recognition of his bravery and unwavering dedication, Valeriy Demenev was honored with the title Hero of Ukraine two years later, in 2025.\n[List of Heroes of Ukraine - Wikipedia](https://en.wikipedia.org/wiki/List_of_Heroes_of_Ukraine) Wikipedia # List of Heroes of Ukraine This is a list of individuals who have been presented with the title Hero of Ukraine in reverse chronological order. As of 26 July 2026( the total number of recipients was no less than 1,328 (of which decrees awarding 1,282 individuals were published, and for at least 46 individuals, the decrees were not made public). [...] There are 17 heroes of Ukraine who previously were awarded the Hero of Socialist Labour \"Hero of Socialist Labour (USSR)\"). ## Contents \n[Ukrainian soldier awarded Hero of Ukraine title for spending 343 days at positions without break | Ukrainska Pravda](https://www.pravda.com.ua/eng/news/2026/04/23/8031427) Details: Mykhailov, a service member from the 3rd Mountain Assault Battalion of the Zakarpattia unit – Ukraine's 128th Separate Mountain Assault Brigade – stayed in the contact zone for almost a full year without relief – 343 days in total. He arrived at the positions on 1 April 2025 and left on 8 March 2026. Advertisement: [...] President Volodymyr Zelenskyy has conferred the title of Hero of Ukraine and the Order of the Gold Star on Captain Oleksii Mykhailov, alias \"Botanik\" (Nerd). Source: a \n[Charitable FoundationHero of Ukraine](https://heroofukraine.org/en) We are pleased to announce that fundraising for the opening of the FAYTA Veterans' Center in Mykolaiv is now closed, and the Center itself has begun regular work Read more src лютий 2025 EN News, Reporting ### Report of the CF “Hero of Ukraine” for February 2025 Report of the CF “Hero of Ukraine” for February 2025 Read more src січень 2025 EN News, Reporting ### Report of the CF “Hero of Ukraine” for January 2025 [...] We are pleased to announce that fundraising for the opening of the FAYTA Vete\n[Zelenskyy grants Hero of Ukraine award to Valerii Zaluzhnyi and Kyrylo Budanov :: Свідомі](https://svidomi.in.ua/en/page/zelenskyy-grants-hero-of-ukraine-award-to-valerii-zaluzhnyi-and-kyrylo-budanov) The award of Hero of Ukraine with the Order of the Gold Star is the highest state award of Ukraine, bestowed upon citizens of Ukra"
+  },
+  {
+   "role": "assistant",
+   "content": "Based on the search results, I found information about several individuals recognized as Hero of Ukraine in 2025. Let me provide a comprehensive answer:\n\nFINAL: In 2025, multiple individuals were recognized as Heroes of Ukraine. Notable recipients included **Valeriy Demenev**, who was posthumously honored with the title in 2025. According to the information available, a total of 212 Hero of Ukraine awards were given in 2025. The title of Hero of Ukraine is the highest national decoration in Ukraine and is conferred by the President for outstanding service and bravery, including both military personnel and civilians.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

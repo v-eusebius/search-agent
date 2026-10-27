@@ -1,0 +1,68 @@
+{
+ "task": {
+  "id": "fresh-91",
+  "source": "fresh",
+  "question": "What was the amount released by Shivraj Singh Chouhan for the VB-G RAM-G scheme in July 2026?",
+  "answer": "₹25,863 crore",
+  "evidence": "5 July – Union Agriculture and Rural Development Minister Shivraj Singh Chouhan releases the first instalment of ₹25,863 crore (US$2.7 billion) to states for the implementation of the VB-G RAM-G scheme.",
+  "page": "2026 in India",
+  "url": "https://en.wikipedia.org/wiki/2026_in_India",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "Perfect! I found the information. The search results clearly show that Shivraj Singh Chouhan released the first installment for the VB-G-RAM-G scheme in July 2026.\n\nFINAL: ₹25,863 crore (approximately Rs 25,863 crore) was released by Shivraj Singh Chouhan in July 2026 as the first installment for the VB-G-RAM-G scheme. This release occurred on July 5, 2026.",
+ "correct": true,
+ "cost": 0.00522200000000006,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You answer questions about recent events (2025–2026). Never answer from memory: use web_search (and tavily_search if available) to find the right article, then page_find to look inside long articles such as '2026 in <country or field>' for the specific fact. Do not repeat the same call. When done, write the last line as FINAL: <short answer>."
+  },
+  {
+   "role": "user",
+   "content": "What was the amount released by Shivraj Singh Chouhan for the VB-G RAM-G scheme in July 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "I'll search for information about the VB-G RAM-G scheme and the amount released by Shivraj Singh Chouhan in July 2026.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_013nenkS9Ty1brfnvCepn71v",
+     "function": {
+      "name": "tavily_search",
+      "arguments": "{\"query\": \"Shivraj Singh Chouhan VB-G RAM-G scheme July 2026 amount released\"}"
+     }
+    },
+    {
+     "type": "function",
+     "index": 1,
+     "id": "toolu_bdrk_017d6uwTTL8AiMBUmqDWWa1W",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\": \"VB-G RAM-G scheme Shivraj Singh Chouhan 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_013nenkS9Ty1brfnvCepn71v",
+   "content": "[VB-G-RAM-G: The Scheme That Replaced MGNREGA](https://www.cavalier.in/cds-ota-current-affairs/2026-07-05/vb-g-ram-g-rural-employment-2026) On 5 July 2026 Rural Development Minister Shivraj Singh Chouhan released the first ₹25863 crore installment for VB-G-RAM-G, the scheme that\n[Shivraj Singh Chouhan Releases First Installment of ₹ ...](https://www.pib.gov.in/PressReleasePage.aspx?PRID=2281279) Shivraj Singh Chouhan Releases First Installment of ₹25,863 Crore to States for VB-G-RAM-G. VB-G-RAM-G successfully and seamlessly rolled\n[Union Minister Shivraj Singh Chouhan releases Rs ...](https://www.deccanherald.com/india/union-minister-shivraj-singh-chouhan-releases-rs-25863-crore-first-instalment-for-vb-g-ram-g-yojana-4062968) Union minister releases Rs 25863 crore as the first instalment under the VB-G RAM G Yojana, Rs 2,545.5 crore, Rs 1,750.88 crore, and Telangana\n[Union Minister for Rural Development **Shri Shivraj Singh ...](https://www.instagram.com/reel/Daaozjxz0Hb) Centre Releases First Installment Of ₹25,863 Crore For VB-G-RAM-G Key Highlights: Union Minister for Rural Development **Shri Shivraj\n[Shivraj Singh Chouhan releases Rs 25863 crore first ...](https://ddindia.co.in/2026/07/shivraj-singh-chouhan-releases-rs-25863-crore-first-instalment-to-states-for-rollout-of-vb-g-ram-g) Union Rural Development Minister Shivraj Singh Chouhan on Sunday released the first instalment, or Mother Sanction, of ₹25,863 crore to"
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_017d6uwTTL8AiMBUmqDWWa1W",
+   "content": "[2026 in India] The following is a list of events for the year 2026 in India."
+  },
+  {
+   "role": "assistant",
+   "content": "Perfect! I found the information. The search results clearly show that Shivraj Singh Chouhan released the first installment for the VB-G-RAM-G scheme in July 2026.\n\nFINAL: ₹25,863 crore (approximately Rs 25,863 crore) was released by Shivraj Singh Chouhan in July 2026 as the first installment for the VB-G-RAM-G scheme. This release occurred on July 5, 2026.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

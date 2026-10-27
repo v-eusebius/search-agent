@@ -1,0 +1,190 @@
+{
+ "task": {
+  "id": "fresh-91",
+  "source": "fresh",
+  "question": "What was the amount released by Shivraj Singh Chouhan for the VB-G RAM-G scheme in July 2026?",
+  "answer": "₹25,863 crore",
+  "evidence": "5 July – Union Agriculture and Rural Development Minister Shivraj Singh Chouhan releases the first instalment of ₹25,863 crore (US$2.7 billion) to states for the implementation of the VB-G RAM-G scheme.",
+  "page": "2026 in India",
+  "url": "https://en.wikipedia.org/wiki/2026_in_India",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "Извините, но у меня нет информации о сумме, выделенной Шивраджем Сингхом Чауханом на схему VB-G RAM-G в июле 2026 года. Я не смог найти подтверждающих источников для этого запроса. \n\nFINAL: Информация недоступна.",
+ "correct": false,
+ "cost": 0.0012459000000000081,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You answer questions about recent events (2025–2026). Never answer from memory: use web_search (and tavily_search if available) to find the right article, then page_find to look inside long articles such as '2026 in <country or field>' for the specific fact. Do not repeat the same call. When done, write the last line as FINAL: <short answer>."
+  },
+  {
+   "role": "user",
+   "content": "What was the amount released by Shivraj Singh Chouhan for the VB-G RAM-G scheme in July 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_x2cnmG40OAWjN1yb7MREU2ef",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Shivraj Singh Chouhan VB-G RAM-G scheme July 2026 funding amount\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_x2cnmG40OAWjN1yb7MREU2ef",
+   "content": "nothing found"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_D8uHyUS2saQA89HsOB0wfyQU",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"VB-G RAM-G scheme Shivraj Singh Chouhan funding July 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_D8uHyUS2saQA89HsOB0wfyQU",
+   "content": "nothing found"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_StYttCcAm4vcnjKHdtKIQT0u",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Shivraj Singh Chouhan RAM-G scheme July 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_StYttCcAm4vcnjKHdtKIQT0u",
+   "content": "[Shivraj Singh Chouhan] Shivraj Singh Chouhan (also spelt Chauhan; Hindi pronunciation: [ʃɪʋ.ɾaːd͡ʒ sɪŋɡʱ t͡ʃɔːɦaːn̪]; born 5 March 1959) is an Indian politician who is serving as the 32nd Minister of Agriculture and Farmers' Welfare and 23rd Minister of Rural Development since 2024. Chouhan served as the Chief Minister of Madhya Pradesh from 2005 to 2018 and again from 2020 to 2023, and was a member of the Madhya Pradesh Legislative Assembly from Budhni from 2006 to 2024, and earlier from 1990 to 1991. He is the longest-serving Chief Minister of Madhya Pradesh. He served as the Vice President of the Bharatiya Janata Party from 2019 to 2020, and has been a member of the party's Parliamentary Board and Central Election Committee. He was the National President of the Bharatiya Janata Yuva Morcha from 2000 to 2002. Chouhan represented the Vidisha Lok Sabha constituency in the Lok Sabha from 1991 to 2005, and was again elected to the 18th Lok Sabha from the same constituency. Within the BJP, he has also served as General Secretary and President of the party’s Madhya Pradesh state unit. Chouhan joined the Rashtriya Swayamsevak Sangh in 1972, at the age of 13. He is known for launching various welfare schemes such as rice at ₹1 per kg for the poor, the Sambal scheme providing maternity assistance to women labourers, free education for underprivileged girls, subsidised electricity, the Ladli Laxmi Yojana, and the Beti Bachao Abhiyan. These welfare initiatives introduced by Chouhan are credited with contrib | other articles: 2026 in India, 2023 Madhya Pradesh Legislative Assembly election"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_fJKRy2gp1DFYRYnuZNwH3ZYS",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Madhya Pradesh July 2026 RAM-G scheme funding announcement\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_fJKRy2gp1DFYRYnuZNwH3ZYS",
+   "content": "[Reliance Industries] Reliance Industries Limited is an Indian multinational conglomerate headquartered in Mumbai. Its businesses include energy, petrochemicals, natural gas, retail, entertainment, telecommunications, mass media, and textiles. Reliance is the largest public company in India by market capitalisation and revenue, and the 88th largest company worldwide. It is India's largest private tax payer and largest exporter, accounting for 7% of India's total merchandise exports. The company has attracted controversy for reports of political corruption, cronyism, fraud, financial manipulation, and exploitation of its customers, Indian citizens, and natural resources. | other articles: Atal Bihari Vajpayee, 2014 Indian general election"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_FbMQNvqWMiTy3o8jjbogQshv",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Madhya Pradesh government July 2026 funding announcement\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_FbMQNvqWMiTy3o8jjbogQshv",
+   "content": "[Public Sector Undertakings in India] Public Sector Undertakings (PSU) in India are enterprises in which at least 51% of the stake in the corporation is under the ownership of the Government of India or state governments. These types of firms can also be a joint venture of multiple PSUs. These entities perform commercial functions on behalf of the government. Depending on the level of government ownership, PSUs are officially classified into two categories: Central Public Sector Undertakings (CPSUs), owned by the central government or other CPSUs; and State Public Sector Undertakings (SPSUs), owned by state governments. CPSU and SPSU is further classified into Strategic Sector and Non-Strategic Sector. Depending on their financial performance and progress, CPSUs are granted the status of Maharatna, Navaratna, and Miniratna (Category I and II). Following India's independence in 1947, the limited pre-existing industries were insufficient for sustainable economic growth. The Industrial Policy Resolution of 1956, adopted during the Second Five-Year Plan, laid the framework for PSUs. The government initially prioritized strategic sectors, such as communication, irrigation, chemicals, and heavy industries, followed by the nationalisation of corporations. PSUs subsequently expanded into consumer goods production and service areas like contracting, consulting, and transportation. Their goals include increasing exports, reducing imports, fostering infrastructure development, driving economic growth, and generating job opp | other articles: Ladli Laxmi Yojana, Protests against the 2026 Iran war"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_UdBnhzjyx9NBOTJFPR3YAfry",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Madhya Pradesh July 2026 Shivraj Chouhan government announcements\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_UdBnhzjyx9NBOTJFPR3YAfry",
+   "content": "[Mohan Yadav] Mohan Yadav (born 25 March 1965) is an Indian politician serving as the current Chief Minister of Madhya Pradesh and also serving as leader of the house in legislative assembly. A member of the Bharatiya Janata Party, he represents Ujjain South constituency as Member of Legislative Assembly of Madhya Pradesh since 2013. | other articles: Ladli Laxmi Yojana, 2014 Indian general election"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_q4EyMU2NPhy7rpjIvZR2WJgS",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Madhya Pradesh government funding VB-G RAM-G July 2026 details\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_q4EyMU2NPhy7rpjIvZR2WJgS",
+   "content": "[Mahatma Gandhi National Rural Employment Guarantee Act, 2005] The Mahatma Gandhi National Rural Employment Guarantee Act 2005 (MGNREGA) was an Indian social welfare measure that aimed to guarantee the 'right to work'. This act was passed on 23 August 2005 and was implemented in February 2006 under the UPA government of Prime Minister Manmohan Singh following the tabling of the bill in parliament by the Minister for Rural Development Raghuvansh Prasad Singh. The bill was originally known as the National Rural Employment Guarantee Act (NREGA). In 2025, it was repealed by the Parliament of India after the Lok Sabha and Rajya Sabha passed the Viksit Bharat–Guarantee for Rozgar and Ajeevika Mission (Gramin) Act, 2025 (VB–G RAM G). The new legislation replaced MGNREGA with an updated rural employment and livelihood guarantee framework under the Ministry of Rural Development. It aimed to enhance livelihood security in rural areas by providing at least 100 days of assured and guaranteed wage employment in a financial year to at least one member of every Indian rural household whose adult members volunteer to do unskilled manual work. Women are guaranteed one half of the jobs made available under the MGNREGA and efforts are made to ensure that cross the limit of 50%. Another aim of MGNREGA is to create durable assets (such as roads, canals, ponds and wells). Employment is to be provided within 5 km of an applicant's residence, and minimum legal wage under the law is to be paid. If work is not provided within 15 days of applying, applicants are e | other articles: Atal Bihari Vajpayee, British Indian Army"
+  },
+  {
+   "role": "user",
+   "content": "Инструменты больше недоступны. Ответь по тому, что уже известно, последней строкой FINAL: <ответ>."
+  },
+  {
+   "role": "assistant",
+   "content": "Извините, но у меня нет информации о сумме, выделенной Шивраджем Сингхом Чауханом на схему VB-G RAM-G в июле 2026 года. Я не смог найти подтверждающих источников для этого запроса. \n\nFINAL: Информация недоступна.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

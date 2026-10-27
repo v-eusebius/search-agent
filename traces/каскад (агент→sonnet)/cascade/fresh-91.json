@@ -1,0 +1,56 @@
+{
+ "task": {
+  "id": "fresh-91",
+  "source": "fresh",
+  "question": "What was the amount released by Shivraj Singh Chouhan for the VB-G RAM-G scheme in July 2026?",
+  "answer": "₹25,863 crore",
+  "evidence": "5 July – Union Agriculture and Rural Development Minister Shivraj Singh Chouhan releases the first instalment of ₹25,863 crore (US$2.7 billion) to states for the implementation of the VB-G RAM-G scheme.",
+  "page": "2026 in India",
+  "url": "https://en.wikipedia.org/wiki/2026_in_India",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "₹25,863 crore",
+ "correct": true,
+ "cost": 0.00035399999999996545,
+ "escalated": false,
+ "confidence": 1.0,
+ "agent_messages": [
+  {
+   "role": "system",
+   "content": "You answer questions about recent events (2025–2026). Never answer from memory: use web_search (and tavily_search if available) to find the right article, then page_find to look inside long articles such as '2026 in <country or field>' for the specific fact. Do not repeat the same call. When done, write the last line as FINAL: <short answer>."
+  },
+  {
+   "role": "user",
+   "content": "What was the amount released by Shivraj Singh Chouhan for the VB-G RAM-G scheme in July 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_stIbsHs2ePAlDezVPLciGhYV",
+     "function": {
+      "name": "tavily_search",
+      "arguments": "{\"query\":\"Shivraj Singh Chouhan VB-G RAM-G scheme July 2026 amount released\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_stIbsHs2ePAlDezVPLciGhYV",
+   "content": "[VB-G-RAM-G: The Scheme That Replaced MGNREGA — What Changed & Why | The Cavalier](https://www.cavalier.in/cds-ota-current-affairs/2026-07-05/vb-g-ram-g-rural-employment-2026) On 5 July 2026, Union Rural Development Minister Shivraj Singh Chouhan released the first installment (\"Mother Sanction\") of ₹25,863 crore to States for the Viksit Bharat – Guarantee for Rozgar and Aajeevika Mission (Gramin), abbreviated VB-G-RAM-G. The release came during a video conference with the Rural Development Ministers of all States and Union Territories, and it marks the real operational start of the scheme that has replaced MGNREGA — the country's flagship rural jobs programme for [..\n[Rs 25,863 Crore Released for VB-G RAM G Yojana](https://www.newkerala.com/news/a/union-minister-shivraj-singh-chouhan-releases-rs-25863-849.htm) Union Minister Shivraj Singh Chouhan released Rs 25,863 crore as the first instalment for states under the VB-G RAM G Yojana. The scheme, effective from July 1, 2026, replaces MGNREGA and guarantees 125 days of wage employment per rural household annually. The Opposition has criticized the removal of Mahatma Gandhi's name and the new 60:40 fund-sharing ratio. Wages will be paid via DBT weekly or within 15 days, with unemployment allowance provisions for delays. · 2 min read [...] Tue, 27 Oct 202\n[Press Release Page | Press Information Bureau](https://www.pib.gov.in/PressReleasePage.aspx?PRID=2281279) | Ministry of Rural Development Shivraj Singh Chouhan Releases First Installment of ₹25,863 Crore to States for VB-G-RAM-G VB-G-RAM-G successfully and seamlessly rolled out across the country on a single day under the leadership of Prime Minister Shri Narendra Modi: Shivraj Singh Chouhan No state will have a wage rate below ₹300 per day; Government lays special emphasis on timely wage payments, transparency and quality assets Posted On: 05 JUL 2026 3:02PM by PIB Bhopal Union [...] Union Minister\n[Union Minister Shivraj Singh Chouhan releases Rs 25,863 crore first instalment for VB-G RAM G Yojana](https://www.deccanherald.com/india/union-minister-shivraj-singh-chouhan-releases-rs-25863-crore-first-instalment-for-vb-g-ram-g-yojana-4062968) Story continues below. Go Ad Lite Join Us Prefer Comments Advertisement. Go Ad Lite Published 05 July 2026, 18:33IST India NewsShivraj Singh ChouhanMNREGA ## Follow us on : ## Follow Us [...] Features Health Education Technology DH Brandspot Menu Go Ad Lite Advertisement. Story continues below. Go Ad Lite Homeindia # Un"
+  },
+  {
+   "role": "assistant",
+   "content": "In July 2026, Shivraj Singh Chouhan released ₹25,863 crore as the first installment for the Viksit Bharat – Guarantee for Rozgar and Aajeevika Mission (Gramin) scheme, known as VB-G RAM-G. This event marked the operational start of the scheme, which replaces MGNREGA. \n\nFINAL: ₹25,863 crore",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

@@ -1,0 +1,76 @@
+{
+ "task": {
+  "id": "fresh-76",
+  "source": "fresh",
+  "question": "What was the sentence given to former president Yoon Suk Yeol in South Korea in February 2026?",
+  "answer": "life imprisonment",
+  "evidence": "19 February – Former president Yoon Suk Yeol is convicted and sentenced to life imprisonment for insurrection relating to the 2024 South Korean martial law crisis.",
+  "page": "2026 in South Korea",
+  "url": "https://en.wikipedia.org/wiki/2026_in_South_Korea",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "In February 2026, former President Yoon Suk Yeol of South Korea was sentenced to seven years' imprisonment on charges of abuse of power, obstruction of justice, and falsification of official documents related to his failed martial law bid in 2024. This sentence was an increase from an initial five-year term following an appeal by his lawyers. \n\nFINAL: Seven years imprisonment.",
+ "correct": false,
+ "cost": 0.00036930000000001684,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You answer questions about recent events (2025–2026). Never answer from memory: use web_search (and tavily_search if available) to find the right article, then page_find to look inside long articles such as '2026 in <country or field>' for the specific fact. Do not repeat the same call. When done, write the last line as FINAL: <short answer>."
+  },
+  {
+   "role": "user",
+   "content": "What was the sentence given to former president Yoon Suk Yeol in South Korea in February 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_8beuSIrjBcNEJIOdPHXcRXLj",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Yoon Suk Yeol February 2026 sentence South Korea\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_8beuSIrjBcNEJIOdPHXcRXLj",
+   "content": "[Yoon Suk Yeol] Yoon Suk Yeol (Korean: 윤석열; pronounced [jun sʰʌŋnjʌɭ]; born 18 December 1960) is a South Korean politician who served as the 13th President of South Korea from 2022 until his removal from office in 2025. A member of the People Power Party during his presidency, he had the shortest presidency as an elected leader in the country's democratic history. Yoon previously served as prosecutor general from 2019 to 2021. Yoon is currently serving a life sentence in prison after being convicted of heading an insurrection and other crimes. Born in Seoul, Yoon received his bachelor's and master's degrees in law from Seoul National University. In his capacity as chief of the Seoul Central District Prosecutor's Office, he played a key role in convicting former presidents Park Geun-hye and Lee Myung-bak for corruption and abuse of power. In 2019, President Moon Jae-in appointed Yoon as Prosecutor General of South Korea. Under Yoon's leadership, the Supreme Prosecutor's Office conducted embattled investigations into Cho Kuk, an influential figure in the Moon administration, that led to Cho's resignation as Minister of Justice. Yoon's clashes with the Moon administration prior to his resignation as prosecutor general in 2021 led to his rise as a potential presidential candidate among conservative voters. On 29 June 2021, Yoon announced his candidacy in the 2022 presidential election. He joined the People Power Party (PPP) in July and won its nomination in November. Considered a conservative po | other articles: Arrest of Yoon Suk Yeol, 2024 South Korean martial law crisis"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_vt11HaRUHgygCVLVNzCHr5Oo",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"Yoon Suk Yeol\",\"keywords\":\"February 2026 sentence\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_vt11HaRUHgygCVLVNzCHr5Oo",
+   "content": "On 3 December 2024, Yoon attempted a self-coup by declaring martial law, the first time it had been declared in South Korea since the military dictatorship of Chun Doo-hwan in 1980. He accused members of the National Assembly of supporting North Korea, but lifted martial law after the Assembly passed an emergency motion nullifying the declaration a few hours later. Amid widespread criticism and ma\nYoon vetoed a special prosecutor bill on investigating allegations of corruption related to himself and his wife Kim Keon Hee. He has received criticism for this. On 28 January 2026, Seoul Central District Court sentenced Kim to 20 months in prison for corruption, for receiving luxury gifts like a Graff diamond necklace and a Chanel bag from the Unification Church in return for promises of busines\nOn 13 January 2026, the prosecution sought the death penalty for Yoon. On 16 January 2026, Yoon was convicted in a related trial and sentenced to five years' imprisonment on charges of abuse of power, obstruction of justice and falsification of official documents related to his failed martial law bid in 2024, subsequently increased to seven years after his lawyers appealed the sentence. On 19 Febr\nThe Seoul Central District Court issued a fresh arrest warrant for former President Yoon Suk Yeol on 2 January 2026, extending his detention over allegations tied to drone deployments toward North Korea in October 2025. He also faces charges connected to his attempted imposition of martial law in December 2024. The detention order that was due to expire on 18 January 2026 was extended by up to six\nOn 13 July 2026, Yoon was sentenced to two years imprisonment by a Seoul court for accepting free opinion polls in exchange for political support. However, on 7 October 2026, an appellite court aquitted Yoon in the free opinion polls case."
+  },
+  {
+   "role": "assistant",
+   "content": "In February 2026, former President Yoon Suk Yeol of South Korea was sentenced to seven years' imprisonment on charges of abuse of power, obstruction of justice, and falsification of official documents related to his failed martial law bid in 2024. This sentence was an increase from an initial five-year term following an appeal by his lawyers. \n\nFINAL: Seven years imprisonment.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

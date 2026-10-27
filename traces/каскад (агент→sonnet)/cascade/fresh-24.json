@@ -10,11 +10,11 @@
   "sonnet_answer": "unknown",
   "agent_ok": true
  },
- "answer": "Unknown.",
- "correct": false,
- "cost": 0.0006147000000000791,
- "escalated": true,
- "confidence": 0.3,
+ "answer": "Drought declared across Wales.",
+ "correct": true,
+ "cost": 0.0005150999999998795,
+ "escalated": false,
+ "confidence": 0.9,
  "agent_messages": [
   {
    "role": "system",
@@ -33,18 +33,18 @@
     {
      "type": "function",
      "index": 0,
-     "id": "call_TmK1jurwDUbXWizM46ZSIvRi",
+     "id": "call_Y54jCca588xhS6KS7R8DfYqO",
      "function": {
-      "name": "web_search",
-      "arguments": "{\"query\":\"July 2026 Wales news declaration\"}"
+      "name": "tavily_search",
+      "arguments": "{\"query\":\"July 2026 Wales declaration\"}"
      }
     }
    ]
   },
   {
    "role": "tool",
-   "tool_call_id": "call_TmK1jurwDUbXWizM46ZSIvRi",
-   "content": "[2026 United Kingdom heatwaves] During 2026, parts of the United Kingdom were severely affected by a series of record-breaking heatwaves, forming the western extent of a broader sequence of extreme heat events across Western and Central Europe. The first heatwave started on 22 May and saw the country's record for hottest day during May broken on 25 May when 34.8 °C (94.6 °F) was recorded at Kew Gardens in London, surpassing the previous record of 32.8 °C (91.0 °F) set in 1922 by 2 °C (3.6 °F); this record was broken again when 35.1 °C (95.2 °F) was recorded in the same location the following day. Other records which were broken included the hottest May day in Guernsey, Jersey and Wales, as well as the highest minimum May temperature in the UK. Experts estimated that around 550 people died during this period of extreme heat. The second heatwave started on 19 June and saw more records broken, including that for hottest day during June when 38.0 °C (100.4 °F) was recorded in Lingwood, Norfolk on 26 June, which is also the fifth hottest day in the UK ever. The previous record for June of 35.6 °C (96.1 °F) was set in 1957 and 1976. A further 2,200 deaths were estimated to have occurred during this heatwave, bringing the total to roughly 2,700. A third heatwave began on 4 July, with temperatures peaking at 35.5 °C (95.9 °F) in Wisley, Surrey, on 9 July. This marked the first year when temperatures have reached 35 °C (95 °F) in three separate months, whilst the records for most days reaching both 34 °C (93 °F) and | other articles: 2026 in the United Kingdom, 2026 in United Kingdom politics and government"
+   "tool_call_id": "call_Y54jCca588xhS6KS7R8DfYqO",
+   "content": "[All Wales bluetongue virus restricted zone and infected area declaration: 31 July 2026 | GOV.WALES](https://www.gov.wales/all-wales-bluetongue-virus-restricted-zone-and-infected-area-declaration-31-july-2026) GOV.WALES uses cookies which are essential for the site to work. Non-essential cookies are also used to tailor and improve services. By continuing to use this site, you agree to our use of cookies. About cookies English Cymraeg Guidance # All Wales bluetongue virus restricted zone and infected area declaration: 31 July 2026 A bluetongue virus restricted zone and infected area was declared across the whole of Wales from 00:01 on Monday 10 November 2025. Part of: [...] Part of: Bluetongue virus: c\n[Oral Statement: New Development Agency for Wales (8 July 2026) | GOV.WALES](https://www.gov.wales/oral-statement-new-development-agency-wales) GOV.WALES uses cookies which are essential for the site to work. Non-essential cookies are also used to tailor and improve services. By continuing to use this site, you agree to our use of cookies. About cookies English Cymraeg Cabinet statement # Oral Statement: New Development Agency for Wales Adam Price MS, Cabinet Minister for Enterprise, Connectivity and Energy Topical events: Progress on our priorities First published: 8 July 2026 Last updated: ## Share this page [...] ## Share this page S\n[Plaid Cymru 'ready to form next government of Wales', leader declares | Vote 2026](https://www.youtube.com/watch?v=uSPbh3Oln6A) [0:35] This is a moment 100 years in the making. A moment in which we hold the promise and ambition of a nation in our [0:44] hands. The promise of fairness, of opportunity, of prosperity, of a nation [0:51] determined in its ambition and uncompromising in its compassion. [0:57] This victory comes not only because of those campaigners whose hard work and passion propelled us forward in recent [...] [1:34] We have won because we represent hope over division, credibility over chaos, and progress o\n[2026 Senedd election - Wikipedia](https://en.wikipedia.org/wiki/2026_Senedd_election) ## Aftermath and analysis Eluned Morgan resigned as leader of Welsh Labour after failing to be elected in Ceredigion Penfro. Ken Skates was declared as interim Welsh Labour leader. Plaid Cymru party leader Rhun ap Iorwerth confirmed his party's intention to form a minority government after it won 43 seats, 6 seats short of a majority. Ap Iowerth said that the party preferred a \"cooperative approach\" to a coalition. [...] pe"
   },
   {
    "role": "assistant",
@@ -55,22 +55,22 @@
     {
      "type": "function",
      "index": 0,
-     "id": "call_SZz7UT1EwKGcevSfVvXZYIoZ",
+     "id": "call_7XrgbhllhqkjwxuS7fwAC0Jc",
      "function": {
       "name": "page_find",
-      "arguments": "{\"title\":\"2026 in the United Kingdom\",\"keywords\":\"Wales, declaration, July\"}"
+      "arguments": "{\"title\":\"2026 in Wales\",\"keywords\":\"declaration July 2026\"}"
      }
     }
    ]
   },
   {
    "role": "tool",
-   "tool_call_id": "call_SZz7UT1EwKGcevSfVvXZYIoZ",
-   "content": "28 June to 11 July – Wales hosts the 2026 UEFA European Under-19 Championship in football.\n2026 United Kingdom heatwaves: Natural Resources Wales declares parts of north Wales and the Upper Severn to be in drought, while all remaining Welsh catchments are placed under prolonged dry weather status. July is on course to become the driest recorded in Wales for almost 190 years, following successive heatwaves, widespread wildfires and exceptionally low river levels.\n2026 United Kingdom heatwaves: A drought is declared across the whole of Wales, with the country on course to experience its driest July for 190 years.\n2026 United Kingdom heatwaves: The Met Office confirms that England and Wales are on course for their driest July since records began."
+   "tool_call_id": "call_7XrgbhllhqkjwxuS7fwAC0Jc",
+   "content": "12 July – 2026 United Kingdom heatwaves: Emergency services declare a major incident over a large wildfire on Conwy Mountain, on the edge of Snowdonia in north Wales, prompting the evacuation of nearby residents. Firefighters also tackle wildfires elsewhere across England and Wales amid the ongoing heatwave.\n2026 United Kingdom heatwaves: Natural Resources Wales declares parts of north Wales and the Upper Severn to be in drought, while all remaining Welsh catchments are placed under prolonged dry weather status. July is on course to become the driest recorded in Wales for almost 190 years, following successive heatwaves, widespread wildfires and exceptionally low river levels.\n2026 United Kingdom heatwaves: A drought is declared across the whole of Wales, with the country on course to experience its driest July for 190 years.\n28 June–11 July – 2026 UEFA European Under-19 Championship\n28 July – Gymnast Ruby Evans wins Wales' first gold medal at the 2026 Commonwealth Games after winning the floor final."
   },
   {
    "role": "assistant",
-   "content": "In July 2026, a drought is declared across the whole of Wales, with the month expected to be the driest recorded in nearly 190 years. \n\nFINAL: Drought is declared across Wales.",
+   "content": "In July 2026, a drought was declared across the whole of Wales as the country was on course to experience its driest July in 190 years. FINAL: Drought declared across Wales.",
    "refusal": null,
    "reasoning": null
   }

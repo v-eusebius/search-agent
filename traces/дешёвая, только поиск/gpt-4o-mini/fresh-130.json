@@ -8,9 +8,9 @@
   "page": "2026 in sports",
   "url": "https://en.wikipedia.org/wiki/2026_in_sports"
  },
- "answer": "Nelly Korda won the 2026 Women's PGA Championship at Hazeltine National Golf Club. \n\nFINAL: Nelly Korda",
- "correct": false,
- "cost": 0.0011111999999999997,
+ "answer": "Ryu Hae-ran won the 2026 Women's PGA Championship at Hazeltine National Golf Club, claiming her first major championship by two strokes over Ina Yoon. \n\nFINAL: Ryu Hae-ran",
+ "correct": true,
+ "cost": 0.0006043499999999757,
  "messages": [
   {
    "role": "system",
@@ -29,17 +29,17 @@
     {
      "type": "function",
      "index": 0,
-     "id": "call_3cQThefm0cnxZ6ugbhuuOfvT",
+     "id": "call_7zPMo5A71XbtCCjx0Jzou3F7",
      "function": {
       "name": "web_search",
-      "arguments": "{\"query\":\"2026 Women's PGA Championship Hazeltine National Golf Club winner\"}"
+      "arguments": "{\"query\":\"2026 Women's PGA Championship winner Hazeltine National Golf Club\"}"
      }
     }
    ]
   },
   {
    "role": "tool",
-   "tool_call_id": "call_3cQThefm0cnxZ6ugbhuuOfvT",
+   "tool_call_id": "call_7zPMo5A71XbtCCjx0Jzou3F7",
    "content": "[Hazeltine National Golf Club] Hazeltine National Golf Club ( HAY-zəl-teen) is a golf club in the north central United States, located in Chaska, Minnesota, a suburb southwest of Minneapolis. It is a private club and therefore closed to guests not accompanied by a member. The golf course was designed by Robert Trent Jones and opened in 1962. Hazeltine also hosts functions other than golf; its clubhouse has a ballroom and two restaurants. | other articles: Women's PGA Championship, 2026 Women's PGA Championship"
   },
   {
@@ -51,7 +51,29 @@
     {
      "type": "function",
      "index": 0,
-     "id": "call_ewgYYjD5PWQtGJgXxtPtGCRO",
+     "id": "call_YY7iTRDtEfypsBCGLOEvqFSm",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"2026 Women's PGA Championship results winner\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_YY7iTRDtEfypsBCGLOEvqFSm",
+   "content": "[2026 PGA Championship] The 2026 PGA Championship was the 108th edition of the PGA Championship, the second of the four men's major golf championships held in 2026. The tournament took place on May 14–17 at Aronimink Golf Club in Newtown Square, Pennsylvania, a suburb west of Philadelphia. Aaron Rai won the golf tournament and his first career major championship, winning by three strokes over runners-up Jon Rahm and Alex Smalley. Rai became the second player of Indian heritage to win a men's major championship, after Vijay Singh, and the first from England to win the PGA Championship since Jim Barnes, who won the first two editions in 1916 and 1919. Rai became only the eighth player to win a major with a lower score in each round. | other articles: Yin Ruoning, Ryu Hae-ran"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_udDE98cP6rcySWPFHcdYNgMg",
      "function": {
       "name": "web_search",
       "arguments": "{\"query\":\"2026 Women's PGA Championship results\"}"
@@ -61,8 +83,8 @@
   },
   {
    "role": "tool",
-   "tool_call_id": "call_ewgYYjD5PWQtGJgXxtPtGCRO",
-   "content": "[2026 PGA Championship] The 2026 PGA Championship was the 108th edition of the PGA Championship, the second of the four men's major golf championships held in 2026. The tournament took place on May 14–17 at Aronimink Golf Club in Newtown Square, Pennsylvania, a suburb west of Philadelphia. Aaron Rai won the golf tournament and his first career major championship, winning by three strokes over runners-up Jon Rahm and Alex Smalley. Rai became the second player of Indian heritage to win a men's major championship, after Vijay Singh, and the first from England to win the PGA Championship since Jim Barnes, who won the first two editions in 1916 and 1919. Rai became only the eighth player to win a major with a lower score in each round. | other articles: Yealimi Noh, Nelly Korda"
+   "tool_call_id": "call_udDE98cP6rcySWPFHcdYNgMg",
+   "content": "[2026 PGA Championship] The 2026 PGA Championship was the 108th edition of the PGA Championship, the second of the four men's major golf championships held in 2026. The tournament took place on May 14–17 at Aronimink Golf Club in Newtown Square, Pennsylvania, a suburb west of Philadelphia. Aaron Rai won the golf tournament and his first career major championship, winning by three strokes over runners-up Jon Rahm and Alex Smalley. Rai became the second player of Indian heritage to win a men's major championship, after Vijay Singh, and the first from England to win the PGA Championship since Jim Barnes, who won the first two editions in 1916 and 1919. Rai became only the eighth player to win a major with a lower score in each round. | other articles: Yin Ruoning, USA Sports (2025–present)"
   },
   {
    "role": "assistant",
@@ -73,18 +95,18 @@
     {
      "type": "function",
      "index": 0,
-     "id": "call_K4eK43n1y86hd4BybsG5i2y4",
+     "id": "call_RhQwCwmH4Hi1rmGu8hGCJxGQ",
      "function": {
       "name": "web_search",
-      "arguments": "{\"query\":\"2026 Women's PGA Championship Hazeltine National Golf Club winner report results\"}"
+      "arguments": "{\"query\":\"2026 Women's PGA Championship recap\"}"
      }
     }
    ]
   },
   {
    "role": "tool",
-   "tool_call_id": "call_K4eK43n1y86hd4BybsG5i2y4",
-   "content": "[Olympic Club] The Olympic Club is an athletic club and private social club in San Francisco, California. First named the \"San Francisco Olympic Club\", it is the oldest athletic club in the United States. Established on May 6, 1860, its first officers were President, G.W. Bell, Secretary, E. Bonnell, Treasurer, H.G. Hanks, and Leader, Arthur Nahl. Its main \"City Clubhouse\" is located in San Francisco's Union Square district, and its three golf courses are in the southwestern corner of the city, at the border with Daly City. The \"Lakeside Clubhouse\" is located just north of the Daly City border; the two clubhouses are separated by about 10 miles (16 km). The three golf courses are named Lake, Ocean, and Cliffs. Lake and Ocean are 18-hole par-71 courses, and the Cliffs is a nine-hole par-3 course in the bluffs overlooking the Pacific Ocean. All three venues are lined with many trees and offer views of the Golden Gate Bridge and Golden Gate Park. The United States Golf Association recognizes the Olympic Club as one of the first 100 golf clubs established in the United States. In November 2017, it was announced that Olympic Club would host the 2033 Ryder Cup. | other articles: Phil Mickelson, Arnold Palmer"
+   "tool_call_id": "call_RhQwCwmH4Hi1rmGu8hGCJxGQ",
+   "content": "[Golf on NBC] Golf telecasts have aired on NBC since June 18, 1954, with some of its earliest telecasts having included the 1954 U.S. Open, and the first televised coverage of the Ryder Cup in 1959. Presently, NBC televises around 8 PGA Tour events per-season, alternating with CBS on the FedEx Cup Playoffs since 2022. It also serves as the broadcast television outlet for two of the men's majors, the U.S. Open and The Open Championship. NBC has occasionally aired coverage for selected European Tour and LPGA events, although the majority of these tours' events are broadcast by sister network Golf Channel. After NBC's parent company NBC Universal was acquired by Comcast, owner and operator of Golf Channel in February 2011, the channel's operations were merged directly into NBC Sports, and golf broadcasts on NBC took on the Golf Channel on NBC branding. Since 2022, due to the realignments of NBC Sports output stemming from the launch of Peacock, closure of NBCSN, the move of cable rights to majors to USA Network, and NBC's renewed PGA Tour contract, the Golf Channel on NBC title was dropped and all golf telecasts across NBCUniversal properties (including Golf Channel) are now billed as NBC Sports telecasts on-air. | other articles: Lilia Vu, Kiara Romero"
   },
   {
    "role": "assistant",
@@ -95,88 +117,22 @@
     {
      "type": "function",
      "index": 0,
-     "id": "call_aijbKWJ1VItIEp6cDzioeC0T",
+     "id": "call_QpNC3MtHo0UwqKVnUUlZv6qS",
      "function": {
       "name": "web_search",
-      "arguments": "{\"query\":\"2026 Women's PGA Championship winner report results article\"}"
+      "arguments": "{\"query\":\"2026 Women's PGA Championship Hazeltine National winner\"}"
      }
     }
    ]
   },
   {
    "role": "tool",
-   "tool_call_id": "call_aijbKWJ1VItIEp6cDzioeC0T",
-   "content": "[PGA Tour] The PGA Tour (stylized as PGA TOUR by its officials) is an organizer of professional golf tours in North America. It organizes most of the events on the flagship annual series of tournaments also known as the PGA Tour, the PGA Tour Champions (age 50 and older), the Korn Ferry Tour (for professional players who have not yet qualified to play on the PGA Tour), and PGA Tour Americas. The PGA Tour is a nonprofit organization headquartered in Ponte Vedra Beach, Florida, a suburb southeast of Jacksonville. Originally established by the Professional Golfers' Association of America (PGA of America), it was spun off in December 1968 into a separate organization for tour players, as opposed to club professionals, the focal members of today's PGA of America. Originally the \"Tournament Players Division\", it adopted the name \"PGA Tour\" in 1975 and runs most of the week-to-week professional golf events on the tournament known as the PGA Tour, including The Players Championship, hosted at TPC Sawgrass; the FedEx Cup, with its finale at the Tour Championship at East Lake Golf Club; and the biennial Presidents Cup. The remaining events on the PGA Tour are run by different organizations, as are the American-based LPGA Tour for women and other men's and women's professional tours around the world. | other articles: Professional Golfers' Association of America, Michelle Wie West"
+   "tool_call_id": "call_QpNC3MtHo0UwqKVnUUlZv6qS",
+   "content": "[2026 Women's PGA Championship] The 2026 KPMG Women's PGA Championship is the 72nd Women's PGA Championship. It is being played June 25–28 at Hazeltine National Golf Club in Chaska, Minnesota. Hazeltine previously hosted the Women's PGA Championship in 2019, won by Hannah Green. It also hosted the U.S. Women's Open in 1966 and 1977. The PGA Championship was the third of five major championships on the LPGA Tour during the 2026 season. Ryu Hae-ran won her first major championship by two strokes over Ina Yoon. | other articles: Hazeltine National Golf Club, Women's PGA Championship"
   },
   {
    "role": "assistant",
-   "content": null,
-   "refusal": null,
-   "reasoning": null,
-   "tool_calls": [
-    {
-     "type": "function",
-     "index": 0,
-     "id": "call_oKJgyyconItmXCYt4RY3jWc5",
-     "function": {
-      "name": "web_search",
-      "arguments": "{\"query\":\"2026 Women's PGA Championship final results\"}"
-     }
-    }
-   ]
-  },
-  {
-   "role": "tool",
-   "tool_call_id": "call_oKJgyyconItmXCYt4RY3jWc5",
-   "content": "[2026 PGA Championship] The 2026 PGA Championship was the 108th edition of the PGA Championship, the second of the four men's major golf championships held in 2026. The tournament took place on May 14–17 at Aronimink Golf Club in Newtown Square, Pennsylvania, a suburb west of Philadelphia. Aaron Rai won the golf tournament and his first career major championship, winning by three strokes over runners-up Jon Rahm and Alex Smalley. Rai became the second player of Indian heritage to win a men's major championship, after Vijay Singh, and the first from England to win the PGA Championship since Jim Barnes, who won the first two editions in 1916 and 1919. Rai became only the eighth player to win a major with a lower score in each round. | other articles: PGA Tour, Anna Nordqvist"
-  },
-  {
-   "role": "assistant",
-   "content": null,
-   "refusal": null,
-   "reasoning": null,
-   "tool_calls": [
-    {
-     "type": "function",
-     "index": 0,
-     "id": "call_V5k9FjOwLHhLj7QRkjAnusjB",
-     "function": {
-      "name": "web_search",
-      "arguments": "{\"query\":\"2026 Women's PGA Championship winner news\"}"
-     }
-    }
-   ]
-  },
-  {
-   "role": "tool",
-   "tool_call_id": "call_V5k9FjOwLHhLj7QRkjAnusjB",
-   "content": "[2026 PGA Championship] The 2026 PGA Championship was the 108th edition of the PGA Championship, the second of the four men's major golf championships held in 2026. The tournament took place on May 14–17 at Aronimink Golf Club in Newtown Square, Pennsylvania, a suburb west of Philadelphia. Aaron Rai won the golf tournament and his first career major championship, winning by three strokes over runners-up Jon Rahm and Alex Smalley. Rai became the second player of Indian heritage to win a men's major championship, after Vijay Singh, and the first from England to win the PGA Championship since Jim Barnes, who won the first two editions in 1916 and 1919. Rai became only the eighth player to win a major with a lower score in each round. | other articles: 2026 in sports, 2026 U.S. Women's Open"
-  },
-  {
-   "role": "assistant",
-   "content": null,
-   "refusal": null,
-   "reasoning": null,
-   "tool_calls": [
-    {
-     "type": "function",
-     "index": 0,
-     "id": "call_ulNe07OJJjSsBKdgXA20vN3s",
-     "function": {
-      "name": "web_search",
-      "arguments": "{\"query\":\"2026 Women's PGA Championship winner Nelly Korda\"}"
-     }
-    }
-   ]
-  },
-  {
-   "role": "tool",
-   "tool_call_id": "call_ulNe07OJJjSsBKdgXA20vN3s",
-   "content": "[Nelly Korda] Nelly Korda (born July 28, 1998) is an American professional golfer who plays on the LPGA Tour. She is a four-time major winner, claiming victories at the 2021 Women's PGA Championship, the 2024 and 2026 Chevron Championships and the 2026 U.S. Women's Open. In total, she has won 24 professional titles including 19 on the LPGA Tour and was a gold medalist at the 2020 Summer Olympics. She has spent over 100 weeks as number one in the Women's World Golf Rankings and in both 2021 and 2024 finished as year-end number one. She has represented the United States at five Solheim Cups and was a member of the winning team in 2024. Korda turned professional in 2016 and won her first professional tournament at the Sioux Falls GreatLIFE Challenge the same year. She began playing on the LPGA Tour in 2017 and won her first LPGA event in 2018 at the Swinging Skirts LPGA Taiwan Championship. In 2019, she triumphed at the Women's Australian Open and subsequently entered the top-10 of the world rankings for the first time. Korda won further LPGA titles, and in 2021, she claimed her first major with victory at the 2021 Women's PGA Championship, with her victory also taking her to world number one. At the delayed 2020 Summer Olympics, she became the first American female golfer to win individual gold at an Olympic Games since 1900. In 2024, Korda became the third player to have won five consecutive tournaments on the LPGA Tour and this run culminated with her second win in a major: the 2024 Chevro | other articles: 2026 Women's PGA Championship, 2026 U.S. Women's Open"
-  },
-  {
-   "role": "assistant",
-   "content": "Nelly Korda won the 2026 Women's PGA Championship at Hazeltine National Golf Club. \n\nFINAL: Nelly Korda",
+   "content": "Ryu Hae-ran won the 2026 Women's PGA Championship at Hazeltine National Golf Club, claiming her first major championship by two strokes over Ina Yoon. \n\nFINAL: Ryu Hae-ran",
    "refusal": null,
    "reasoning": null
   }

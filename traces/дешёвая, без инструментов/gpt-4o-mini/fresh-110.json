@@ -1,0 +1,24 @@
+{
+ "task": {
+  "id": "fresh-110",
+  "source": "fresh",
+  "question": "Who wins the special election in Georgia in 2026?",
+  "answer": "Clay Fuller",
+  "evidence": "Assistant District Attorney Clay Fuller, a Trump-endorsed Republican, wins the special election in Georgia to replace Marjorie Taylor Greene, who resigned in January following a public fallout with Trump.",
+  "page": "2026 in the United States",
+  "url": "https://en.wikipedia.org/wiki/2026_in_the_United_States",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "FINAL: Unknown.",
+ "correct": false,
+ "cost": 6.749999999999812e-06,
+ "messages": [
+  {
+   "role": "assistant",
+   "content": "Unknown.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

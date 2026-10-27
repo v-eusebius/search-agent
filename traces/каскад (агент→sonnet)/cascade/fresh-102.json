@@ -1,0 +1,192 @@
+{
+ "task": {
+  "id": "fresh-102",
+  "source": "fresh",
+  "question": "Who was recognized as Hero of Ukraine in 2025?",
+  "answer": "Oleksandr Dovhach",
+  "evidence": "9 March – Oleksandr Dovhach, military pilot, Hero of Ukraine (2025).",
+  "page": "2026 in Ukraine",
+  "url": "https://en.wikipedia.org/wiki/2026_in_Ukraine",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "Среди награжденных в 2025 - капитан Иван Коцюр и полковник Александр Довгач.",
+ "correct": false,
+ "cost": 0.002251500000000073,
+ "escalated": false,
+ "confidence": 0.95,
+ "agent_messages": [
+  {
+   "role": "system",
+   "content": "You answer questions about recent events (2025–2026). Never answer from memory: use web_search (and tavily_search if available) to find the right article, then page_find to look inside long articles such as '2026 in <country or field>' for the specific fact. Do not repeat the same call. When done, write the last line as FINAL: <short answer>."
+  },
+  {
+   "role": "user",
+   "content": "Who was recognized as Hero of Ukraine in 2025?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_G2y9zxgac06k2P8eWFogrvkl",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Hero of Ukraine 2025\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_G2y9zxgac06k2P8eWFogrvkl",
+   "content": "[Hero of Ukraine] A Hero of Ukraine (abbr. HOU; Ukrainian: Герой України, romanized: Heroi Ukrainy) is the highest national decoration that can be conferred upon an individual citizen by the president of Ukraine. The decoration was created in 1998 by President Leonid Kuchma. As of October 6, 2026, the total number of recipients was no less than 1,367 (of which decrees awarding 1,318 individuals were published, and for at least 49 individuals, the decrees were not made public). The decoration is granted to two classes of recipients: to civilians, the Order of the State (abbr. OS, Ukrainian: Орден Держави, romanized: Orden Derzhavy); and to military recipients, the Order of the Gold Star (abbr. OGS, Орден «Золота Зірка», Orden \"Zolota Zirka\"). The first foreigner awarded the decoration was Belarusian Mykhailo Zhyznevskyi in June 2017. | other articles: Hero City of Ukraine, List of Heroes of Ukraine"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_oK9vnksVR12wajkqc8lJzBQ5",
+     "function": {
+      "name": "tavily_search",
+      "arguments": "{\"query\":\"Hero of Ukraine recipients 2025\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_oK9vnksVR12wajkqc8lJzBQ5",
+   "content": "[Hero of Ukraine - Wikipedia](https://en.wikipedia.org/wiki/Hero_of_Ukraine) A Hero of Ukraine (abbr. HOU; Ukrainian: Герой України, romanized: Heroi Ukrainy) is the highest national decoration that can be conferred upon an individual citizen by the president of Ukraine. The decoration was created in 1998 by President Leonid Kuchma. As of October 6, 2026, the total number of recipients was no less than 1,367 (of which decrees awarding 1,318 individuals were published, and for at least 49 individuals, the decrees were not made public). [...] | Order of the State (left), O\n[Ukrainian soldier awarded Hero of Ukraine title for spending 343 days at positions without break | Ukrainska Pravda](https://www.pravda.com.ua/eng/news/2026/04/23/8031427) Details: Mykhailov, a service member from the 3rd Mountain Assault Battalion of the Zakarpattia unit – Ukraine's 128th Separate Mountain Assault Brigade – stayed in the contact zone for almost a full year without relief – 343 days in total. He arrived at the positions on 1 April 2025 and left on 8 March 2026. Advertisement: [...] President Volodymyr Zelenskyy has conferred the title of Hero of Ukraine and the Order of the Gold Star on Captain Oleksii Mykhailov, alias \"Botanik\" (Nerd). Source: a \n[Charitable FoundationHero of Ukraine](https://heroofukraine.org/en) The NGO “Women Defenders of Ukraine,” with the support and assistance of the Hero of Ukraine Charitable Foundation, held a photo exhibition entitled “Defiant Hearts” in Mykolaiv in honor of the mothers and wives of fallen defenders. Read more src червень 2025 EN News, Reporting ### Report of the CF “Hero of Ukraine” for June 2025 Financial report of the Charitable Foundation “Hero of Ukraine” for June 2025 Read more Звіт Файта 06 2025 EN News, Reporting [...] The NGO “Women Defenders of Ukraine,\n[Ukraine’s heroes tell their story](https://www.youtube.com/watch?v=m77VcBNDAxE) [3:01] was awarded a state medal presented by Ukrainian ambassador to Poland Vasil Bodner who told TVP World that this support is crucial and appreciated. [3:11] We are grateful for all the volunteers who participated in uh defending Ukraine because they are also uh keeping the war [3:19] out of their homes. Unfortunately, there are dozens of people uh from with Polish descent or with Polish passports who [...] # Ukraine’s heroes tell their story ## Channel: TVP WORLD (verified) 636K subscribers\n[Ukrainians Greet Heroes Freed From Russian Captivity](https://www.facebook.com/inukraine.offici"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_BBvQKVgp6DakPMkpwrXFuaOB",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"Hero of Ukraine\",\"keywords\":\"2025 award recipient\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_BBvQKVgp6DakPMkpwrXFuaOB",
+   "content": "The decoration was created in 1998 by President Leonid Kuchma. As of October 6, 2026, the total number of recipients was no less than 1,367 (of which decrees awarding 1,318 individuals were published, and for at least 49 individuals, the decrees were not made public).\nThe origin of the \"Hero of Ukraine\" award can be traced to the Hero of the Soviet Union (established 16 April 1934) and the Hero of Socialist Labor (27 December 1938), the highest decorations established in the Soviet Union, of which Ukraine was a constituent republic. Most of the recipients of the former title received it for heroic military action (with Soviet cosmonauts being a notable exceptio\nThe title Hero of Ukraine was created on 23 August 1998 with Edict #944/98 by President Leonid Kuchma. Similar in structure to the titles issued by the Soviet Union, the title is awarded in two distinctions: \"The Order of the Gold Star\" and \"The Order of the State\". Unlike the Soviet awards, Ukrainian law allows a person to receive a title in each distinction only once, although the person may rec\nBelow the ribbon of the Order of the Gold Star, the golden suspension device contains a small engraving of the trident representing the Ukrainian Coat of Arms. The medallion is shaped like a five-pointed star 35 mm (1.4 in) wide from one point to the other, and is set within a wreath of oak leaves. Two smaller five-pointed stars are engraved within the larger star. In contrast, the medallion for t\nRecipients have been awarded the title, Hero of Ukraine, for a variety of accomplishments. The first to receive the title—in 1998—was Borys Paton. He was recognised for studies in metallurgy of electrical welding and was President of the National Academy of Sciences of Ukraine from 1962 until his death in 2020. Other science-related honors were given to Platon Kostyuk, for his work in neurophysiol"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_RxjYfq5RxeylpuOLVyC828Yk",
+     "function": {
+      "name": "tavily_search",
+      "arguments": "{\"query\":\"2025 Hero of Ukraine awards list\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_RxjYfq5RxeylpuOLVyC828Yk",
+   "content": "[List of Heroes of Ukraine - Wikipedia](https://en.wikipedia.org/wiki/List_of_Heroes_of_Ukraine) Wikipedia # List of Heroes of Ukraine This is a list of individuals who have been presented with the title Hero of Ukraine in reverse chronological order. As of 26 July 2026( the total number of recipients was no less than 1,328 (of which decrees awarding 1,282 individuals were published, and for at least 46 individuals, the decrees were not made public). [...] There are 17 heroes of Ukraine who previously were awarded the Hero of Socialist Labour \"Hero of Socialist Labour (USSR)\"). ## Contents \n[Five fallen service members named Heroes of Ukraine | Censor.NET](https://censor.net/en/news/4026262/five-fallen-service-members-named-heroes-of-ukraine) Under Decree No. 1000/2026, Colonel Roman Palamar was posthumously awarded the title of Hero of Ukraine with the Order of the Gold Star. Under Decree No. 1001/2026, Police Lieutenant Oleksandr Ustych was posthumously awarded the title of Hero of Ukraine. Under Decree No. 1002/2026, Police Captain Myroslav Yarmishko was posthumously awarded the title of Hero of Ukraine. Under Decree No. 1003/2026, Senior Soldier Volodymyr Kosmirak was posthumously awarded the title of Hero of Ukraine. [...] The d\n[Zelensky awards Hero of Ukraine title to six service members, five posthumously](https://www.ukrinform.net/rubric-ato/4176792-zelensky-awards-hero-of-ukraine-title-to-six-service-members-five-posthumously.html) The decrees to that effect, dated October 19, have been published on the president's official website, Ukrinform reports. Under Decree No. 1050/2026, the title of Hero of Ukraine was awarded to Junior Sergeant Andrii Tkachuk. Under Decree No. 1051/2026, Junior Lieutenant Oles-Yulian Shcherba was posthumously awarded the title of Hero of Ukraine. Decree No. 1052/2026 states that Captain Bohdan Khmil was posthumously awarded the title of Hero of Ukraine. [...] Read also: Zelensky awards state hono\n[Zelensky awards Hero of Ukraine title to five more service members, four posthumously](https://www.ukrinform.net/rubric-society/4170010-zelensky-awards-hero-of-ukraine-title-to-five-more-service-members-four-posthumously.html) Specifically under Decree No. 987/2026, the title of Hero of Ukraine, with the Order of the Gold Star, was awarded to Senior Sergeant Olha Oleksandrivna Taran, under Decree No. 988/2026, the title was awarded to Sergeant Oleksandr Oleh­ovych Kalashnyk, under Decree No. 989/2026, the title was awarded to "
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_3KmcKBili3nvn9r6ZvFNND1u",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"List of Heroes of Ukraine\",\"keywords\":\"2025\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_3KmcKBili3nvn9r6ZvFNND1u",
+   "content": "== 2025 =="
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_hDkHWKZ2b42aQCzhyv2z8hzJ",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"List of Heroes of Ukraine\",\"keywords\":\"2025 recipients\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_hDkHWKZ2b42aQCzhyv2z8hzJ",
+   "content": "As of 6 October 2026, the total number of recipients was no less than 1,367 (of which decrees awarding 1,318 individuals were published, and for at least 49 individuals, the decrees were not made public).\nOut of all recipients (considering only published decrees), 1042 (79%) have a distinction of the \"Order of the Gold Star\" and 276 (21%) have a distinction of the \"Order of the State\". Number of awards that were given posthumously is 677 (51%). By gender, 1271 (96%) of the recipients are men.\n== 2025 =="
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_BBQjEio4DfUahu9TJ4gZgfDv",
+     "function": {
+      "name": "tavily_search",
+      "arguments": "{\"query\":\"Hero of Ukraine recipients list specific 2025\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_BBQjEio4DfUahu9TJ4gZgfDv",
+   "content": "[President Zelensky Awards Hero of Ukraine Title to 11 Servicemen | Межа](https://mezha.net/eng/news/president-zelensky-awards-hero-of-ukraine-title-to-11-servicemen) The documents speak of displays of personal courage, heroism, and selfless service to the Ukrainian people in defending the sovereignty and territorial integrity of Ukraine. ## List of recipients and the corresponding decrees By Decree No. 702/2025, the title of Hero of Ukraine with the Order of the Golden Star is conferred on Captain Ivan Kotsur (posthumously). [...] By Decree No. 707/2025, the title of Hero of Ukraine with the Order of the Golden Star is conferred on Colonel Oleksandr Dovhach.\n[List of Heroes of Ukraine - Wikipedia](https://en.wikipedia.org/wiki/List_of_Heroes_of_Ukraine) There are 17 heroes of Ukraine who previously were awarded the Hero of Socialist Labour \"Hero of Socialist Labour (USSR)\"). ## Contents ## 2026 As of 28 June 2026( 73. ## 2025 Total number of awards: 212. ## 2024 Total number of awards: 162. [...] Wikipedia # List of Heroes of Ukraine This is a list of individuals who have been presented with the title Hero of Ukraine in reverse chronological order. As of 26 July 2026( the total number of recipients was no less than 1,328 (of which decrees award\n[Heroes of Ukraine](https://dpsu.gov.ua/en/geroyi-ukrayini) HERO OF UKRAINE master sergeant MASLAK Oleksandr Viktorovych Learn More HERO OF UKRAINE major VOLOCHII Ivan Mykolaiovych Learn More HERO OF UKRAINE chief sergeant POPOV Artem Mykolaiovych Learn More HERO OF UKRAINE colonel YURCHYK Yurii Oleksandrovych Learn More HERO OF UKRAINE staff sergeant KUSHNIR Dmytro Volodymyrovych Learn More HERO OF UKRAINE colonel HAKH Roman Vasylovych Learn More HERO OF UKRAINE major STRELKOV Heorhii Mykolaiovych Learn More [...] HERO OF UKRAINE colonel PADYTEL Valerii\n[Zelensky awards Hero of Ukraine title to six service members, five posthumously](https://www.ukrinform.net/rubric-ato/4176792-zelensky-awards-hero-of-ukraine-title-to-six-service-members-five-posthumously.html) Read also: Zelensky awards state honors to another 319 military personnel, 205 posthumously Under Decree No. 1053/2026, the president posthumously awarded the title of Hero of Ukraine to Major Yurii Voron. Under Decree No. 1054/2026, Lieutenant Colonel Valentyn Mukshynov was posthumously awarded the title of Hero of Ukraine. Decree No. 1055/2026 posthumously awarded the title of Hero of Ukraine to Sergeant Mykhailo Deriaha. [...] The decrees to that effect,"
+  },
+  {
+   "role": "user",
+   "content": "Инструменты больше недоступны. Ответь по тому, что уже известно, последней строкой FINAL: <ответ>."
+  },
+  {
+   "role": "assistant",
+   "content": "В 2025 году звание Героя Украины присвоено многим военнослужащим, в том числе:\n\n- Капитан Иван Коцюр (посмертно) — Указ № 702/2025.\n- Полковник Александр Довгач — Указ № 707/2025.\n\nЭти награды были даны за проявление мужества и самоотверженности в защите Украины. \n\nFINAL: Среди награжденных в 2025 - капитан Иван Коцюр и полковник Александр Довгач.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

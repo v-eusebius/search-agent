@@ -1,0 +1,24 @@
+{
+ "task": {
+  "id": "fresh-118",
+  "source": "fresh",
+  "question": "What artist's paintings were stolen in August 2026 in Italy?",
+  "answer": "Antonello da Messina",
+  "evidence": "15 August – Four Renaissance paintings attributed to Antonello da Messina are stolen in an overnight heist at the Regional Museum of Messina.",
+  "page": "2026 in Italy",
+  "url": "https://en.wikipedia.org/wiki/2026_in_Italy",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "FINAL: Unknown.",
+ "correct": false,
+ "cost": 0.0001979999999999968,
+ "messages": [
+  {
+   "role": "assistant",
+   "content": "Unknown.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

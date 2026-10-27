@@ -8,9 +8,9 @@
   "page": "2026 in animation",
   "url": "https://en.wikipedia.org/wiki/2026_in_animation"
  },
- "answer": "On January 29, 2026, several films were inducted into the National Film Registry, including \"Philadelphia,\" \"Clueless,\" \"The Karate Kid,\" and \"The Big Chill,\" among others. \n\nFINAL: Various films including \"Philadelphia\" and \"Clueless\" were inducted.",
+ "answer": "On January 29, 2026, several films were inducted into the National Film Registry, including \"The Grand Budapest Hotel\" directed by Wes Anderson, among others. Other notable films included \"The Karate Kid,\" \"Philadelphia,\" \"Glory,\" and \"Clueless.\" \n\nFINAL: \"The Grand Budapest Hotel\"",
  "correct": false,
- "cost": 0.0008673000000000153,
+ "cost": 0.001098449999999973,
  "messages": [
   {
    "role": "system",
@@ -29,18 +29,18 @@
     {
      "type": "function",
      "index": 0,
-     "id": "call_faYtFRegElk3cq4UzQRiCTLX",
+     "id": "call_XCf3mdZveeR4smlzQkfhxztk",
      "function": {
       "name": "tavily_search",
-      "arguments": "{\"query\":\"film inducted into National Film Registry January 29 2026\"}"
+      "arguments": "{\"query\":\"film inducted National Film Registry January 29 2026\"}"
      }
     }
    ]
   },
   {
    "role": "tool",
-   "tool_call_id": "call_faYtFRegElk3cq4UzQRiCTLX",
-   "content": "[National Film Registry adds 'Philadelphia,' 'Clueless,' 'The Karate Kid,' 'Glory' and more : NPR](https://www.npr.org/2026/01/29/nx-s1-5686770/national-film-registry-clueless-karate-kid) ##### Correction Jan. 29, 2026 A previous version of this web story contained an incomplete list of the 25 movies that were added to the National Film Registry for 2025. The following films were also added: The Wrecking Crew, Inception, The Loving Story, and The Grand Budapest Hotel. NPR does not offer or accept money for coverage or interviews. Anyone who makes such an offer or request is not an NPR employee and does not represent NPR. [...] Bing Crosby, the popular midcentury crooner, starred \n[National Film Registry - Wikipedia](https://en.wikipedia.org/wiki/National_Film_Registry) Released in 1895 and 1896, and selected in December 2024 and January 2026, Annabelle Serpentine Dance and The Tramp and the Dog jointly experienced the longest wait, at 129 years each, while Raging Bull, released theatrically in New York City, Los Angeles and Toronto on November 14, 1980, and inducted in October 1990, holds the record for the shortest delay, having been inducted slightly shy of the 10-year minimum. Only eight other films have been inducted at the 10-year mark: Do the Right [...]\n[Deadline Hollywood](https://www.facebook.com/deadline/posts/the-library-of-congress-has-revealed-25-films-it-is-adding-to-its-national-film-/1252347840098887) Log In Log In Forgot Account? ## Deadline Hollywood's Post []( ### Deadline Hollywood January 29 · The Library of Congress has revealed 25 films it is adding to its National Film Registry, including The Karate Kid and Clueless. Read more below. Image 1: No photo description available. Image 2 Image 3 All reactions: 51 1 comment 12 shares Like Comment Most relevant []( Image 4Author Deadline Hollywood bit.ly/3LGJJRH\n[These popular movies were recently added to the National Film Registry | LiveNOW from FOX](https://www.livenowfox.com/news/movies-added-national-film-registry-2026) LiveNOW from FOX | Breaking News, Live Events LiveNOW from FOX | Breaking News, Live Events Expand / Collapse search # These popular movies were recently added to the National Film Registry By Daniel Miller FOX Local Entertainment Published January 29, 2026 3:27 PM EST Share Copy Link Email Facebook Twitter LinkedIn Reddit Published January 29, 2026 3:27 PM EST article FILE-Moviegoers watch a film in an IMAX theater. (Photo by Qu Honglun/China News Service/VCG via Getty"
+   "tool_call_id": "call_XCf3mdZveeR4smlzQkfhxztk",
+   "content": "[DGA Congratulates Members with Films Added to the Library of Congress National Film Registry for Preservation](https://www.dga.org/news/pressreleases/2026/260129_dga_congratulatesfilmsadded2nationalfilmregistry) LOS ANGELES – On January 29, 2026, Acting Librarian of Congress Robert R. Newlen announced the annual selection of 25 motion pictures that have been added to the National Film Registry of the Library of Congress. These films were selected for inclusion due to their cultural, historic, and aesthetic importance to the nation’s film heritage. Included on this year’s list are DGA Award-nominated films such as The Truman Show (1998), directed by Peter Weir, The Hours (2002) directed by Stephen [...] \n[National Film Registry - Wikipedia](https://en.wikipedia.org/wiki/National_Film_Registry) 44. 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 \"Library Names 25 Films to the National Film Registry for Preservation\". Library of Congress. January 29, 2026. Retrieved January 29, 2026. 45. 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 |Morgan, David (December 16, 2015). \"\"Shawshank Redemption,\" \"Ghostbusters\" added to National Film Registry\". CBS News. Retrieved December 16, 2015. [...] Released in 1895 and 1896, and selected in December 2024 and Janu\n[National Film Registry adds 'Philadelphia,' 'Clueless,' 'The Karate Kid,' 'Glory' and more : NPR](https://www.npr.org/2026/01/29/nx-s1-5686770/national-film-registry-clueless-karate-kid) ##### Correction Jan. 29, 2026 A previous version of this web story contained an incomplete list of the 25 movies that were added to the National Film Registry for 2025. The following films were also added: The Wrecking Crew, Inception, The Loving Story, and The Grand Budapest Hotel. NPR does not offer or accept money for coverage or interviews. Anyone who makes such an offer or request is not an NPR employee and does not represent NPR. [...] Bing Crosby, the popular midcentury crooner, starred \n[See you in 2026 – The Horse's Head](https://thehorseshead.blog/2025/12/09/see-you-in-2026) Skip to content The Horse's Head Every film on the National Film Registry…maybe. The Horse's Head # See you in 2026 Hello dear readers, This is typically the point in the year where the Library of Congress announces its 25 newest inductees to the National Film Registry and I take a closer look at which movies I’ll be forcing myself to watch over the next few years. Unfortunately, in keeping with how the rest o"
   },
   {
    "role": "assistant",
@@ -51,17 +51,61 @@
     {
      "type": "function",
      "index": 0,
-     "id": "call_8kpvEoAp8eCuVukihQiuL1ml",
+     "id": "call_S9lL5ou5hStR7yumCc4nbXlK",
      "function": {
       "name": "page_find",
-      "arguments": "{\"title\":\"National Film Registry\",\"keywords\":\"January 29 2026 film inducted\"}"
+      "arguments": "{\"title\":\"2026 in film\",\"keywords\":\"National Film Registry January 29\"}"
      }
     }
    ]
   },
   {
    "role": "tool",
-   "tool_call_id": "call_8kpvEoAp8eCuVukihQiuL1ml",
+   "tool_call_id": "call_S9lL5ou5hStR7yumCc4nbXlK",
+   "content": "Golden Bear (76th Berlin International Film Festival):\nGolden Lion (83rd Venice International Film Festival):\nPeople's Choice Award (51st Toronto International Film Festival):"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_xjF3snLEYKHoJTJ1X2QzVl75",
+     "function": {
+      "name": "tavily_search",
+      "arguments": "{\"query\":\"list of films inducted National Film Registry 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_xjF3snLEYKHoJTJ1X2QzVl75",
+   "content": "[National Film Registry 2026 Additions: Full List](https://www.billboard.com/music/awards/national-film-registry-2026-additions-announced-full-list-1236161953) Two other inducted films featured Oscar-nominated songs. High Society (1956) included Cole Porter’s “True Love,” a hit that year for Crosby and Grace Kelly. Frida (2002) featured “Burn It Blue,” co-written by composer Eliot Goldenthal and the film’s director, Julie Taymor. Five of the inducted films had Oscar-nominated scores: High Society (Johnny Green and Saul Chaplin), Frida (Goldenthal), The Hours (Philip Glass), Inception (Hans Zimmer) and The Grand Budapest Hotel (Alexandre Desplat). [...]\n[National Film Registry - Wikipedia](https://en.wikipedia.org/wiki/National_Film_Registry) 44. 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 \"Library Names 25 Films to the National Film Registry for Preservation\". Library of Congress. January 29, 2026. Retrieved January 29, 2026. 45. 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 |Morgan, David (December 16, 2015). \"\"Shawshank Redemption,\" \"Ghostbusters\" added to National Film Registry\". CBS News. Retrieved December 16, 2015. [...] Released in 1895 and 1896, and selected in December 2024 and Janu\n[See you in 2026 – The Horse's Head](https://thehorseshead.blog/2025/12/09/see-you-in-2026) Skip to content The Horse's Head Every film on the National Film Registry…maybe. The Horse's Head # See you in 2026 Hello dear readers, This is typically the point in the year where the Library of Congress announces its 25 newest inductees to the National Film Registry and I take a closer look at which movies I’ll be forcing myself to watch over the next few years. Unfortunately, in keeping with how the rest of 2025 has gone, things are a bit different this year. [...] American films. I know it’\n[National Film Registry](https://www.tcm.com/articles/59928/national-film-registry) # National Film Registry by Raquel Stecher | March 01, 2026 High Society hero 1500x1000 This article was originally written about programming for the TCM Now Playing newsletter in March 2026. Thursday March 19 | 5 movies [...] Every year, the Library of Congress chooses 25 films to be inducted into the National Film Registry. The films are chosen based on nominations from the public, which are then narrowed down by the National Film Preservation Board to a selection of titles that are deemed \"cu\n[National Film Registry - List & Links - Cinema & Media Studies - Gui"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_tz6Wpmfy3s4qJax6UASign1o",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"National Film Registry\",\"keywords\":\"January 29 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_tz6Wpmfy3s4qJax6UASign1o",
    "content": "Throughout the 1980s, several prominent filmmakers and industry personalities in the United States, such as Frank Capra and Martin Scorsese, advocated for Congress to enact a film preservation bill in order to avoid commercial modifications (such as pan and scan and editing for television) of classic films, which they saw as negative. In response to the controversy over the colorization of origina\nReleased in 1895 and 1896, and selected in December 2024 and January 2026, Annabelle Serpentine Dance and The Tramp and the Dog jointly experienced the longest wait, at 129 years each, while Raging Bull, released theatrically in New York City, Los Angeles and Toronto on November 14, 1980, and inducted in October 1990, holds the record for the shortest delay, having been inducted slightly shy of th"
   },
   {
@@ -73,66 +117,22 @@
     {
      "type": "function",
      "index": 0,
-     "id": "call_TNNvtkMjN3b8LWOJHZvF7j5V",
-     "function": {
-      "name": "page_find",
-      "arguments": "{\"title\":\"2026 in film\",\"keywords\":\"National Film Registry inductees January 29\"}"
-     }
-    }
-   ]
-  },
-  {
-   "role": "tool",
-   "tool_call_id": "call_TNNvtkMjN3b8LWOJHZvF7j5V",
-   "content": "keywords not found on the page"
-  },
-  {
-   "role": "assistant",
-   "content": null,
-   "refusal": null,
-   "reasoning": null,
-   "tool_calls": [
-    {
-     "type": "function",
-     "index": 0,
-     "id": "call_AHUuTfHMoEy4VWGuVrJt5CbT",
-     "function": {
-      "name": "web_search",
-      "arguments": "{\"query\":\"January 29 2026 National Film Registry movie inductees\"}"
-     }
-    }
-   ]
-  },
-  {
-   "role": "tool",
-   "tool_call_id": "call_AHUuTfHMoEy4VWGuVrJt5CbT",
-   "content": "[National Film Registry] The National Film Registry (NFR) is the United States National Film Preservation Board's (NFPB) collection of films selected for preservation, each for its cultural, historical and aesthetic contributions since the NFPB's inception in 1988. | other articles: Network (1976 film), L.A. Confidential (film)"
-  },
-  {
-   "role": "assistant",
-   "content": null,
-   "refusal": null,
-   "reasoning": null,
-   "tool_calls": [
-    {
-     "type": "function",
-     "index": 0,
-     "id": "call_b8tx0XnJ29BCo2SZZMUl0lbq",
+     "id": "call_FhbEhssWU2PA27gXD472rOT9",
      "function": {
       "name": "tavily_search",
-      "arguments": "{\"query\":\"films added to National Film Registry January 29 2026\"}"
+      "arguments": "{\"query\":\"2026 National Film Registry list of movies\"}"
      }
     }
    ]
   },
   {
    "role": "tool",
-   "tool_call_id": "call_b8tx0XnJ29BCo2SZZMUl0lbq",
-   "content": "[National Film Registry adds 'Philadelphia,' 'Clueless,' 'The ...](https://www.npr.org/2026/01/29/nx-s1-5686770/national-film-registry-clueless-karate-kid) ##### Correction Jan. 29, 2026 A previous version of this web story contained an incomplete list of the 25 movies that were added to the National Film Registry for 2025. The following films were also added: The Wrecking Crew, Inception, The Loving Story, and The Grand Budapest Hotel. NPR does not offer or accept money for coverage or interviews. Anyone who makes such an offer or request is not an NPR employee and does not represent NPR. [...] Bing Crosby, the popular midcentury crooner, starred \n[Library of Congress Adds 25 Films to National Film Registry - I Love Libraries](https://ilovelibraries.org/article/library-of-congress-adds-25-films-to-national-film-registry) ALA Logo - Black # Library of Congress Adds 25 Films to National Film Registry By Phil Morehart Libraries are Awesome 2026 National Film Registry graphic What do “The Karate Kid,” “Clueless,” “Before Sunrise,” and “The Big Chill” have in common (besides being great films that hold-up over multiple watches)? They’ve all been added to the National Film Registry by the Library of Congress (LC). [...] The public submitted 7,559 titles for consideration this year. The public can submit nominations th\n[National Film Registry Adds 'Karate Kid', 'Clueless', 'Inception'](https://deadline.com/2026/01/national-film-registry-2025-karate-kid-clueless-inception-1236697189) ### Toronto Film Festival 2026: Read All Of Deadline’s Reviews ### Bob Mackie Dies: Fashion Designer To The Stars Who Dressed Cher, Carol Burnett And Many More Was 87 ### Marketplace ### Trending on Deadline Gold Derby ## Predictions Center PRESENTED BY Sponsor ### People's Choice Award The Debut I Play Rocky La Bola Negra ## Latest from Deadline's Awards Coverage ### Emmy Winners From Night 1 & Night 2: The Complete List ### Party List 2026: Evening Before Changes Zip Codes & More [...] By prov\n[National Film Registry](https://en.wikipedia.org/wiki/National_Film_Registry) Released in 1895 and 1896, and selected in December 2024 and January 2026, Annabelle Serpentine Dance and The Tramp and the Dog jointly experienced the longest wait, at 129 years each, while Raging Bull, released theatrically in New York City, Los Angeles and Toronto on November 14, 1980, and inducted in October 1990, holds the record for the shortest delay, having been inducted slightly shy of the 10-year minimum."
+   "tool_call_id": "call_FhbEhssWU2PA27gXD472rOT9",
+   "content": "[National Film Registry 2026 Additions: Full List](https://www.billboard.com/music/awards/national-film-registry-2026-additions-announced-full-list-1236161953) The Grand Budapest Hotel, directed by Wes Anderson and released in 2014, is the newest film added to the National Film Registry this year. Six of the selections date from the silent film era, specifically 1896 to 1926. Some of those silents are quite obscure. The Tramp and the Dog (1896) was lost until 2021. The Maid of McMillan (1916) was a student film. [...] Music is well-represented on the annual roster of 25 additions to the National Film Registry, which include the 1982 documentary Say Ame\n[National Film Registry - Wikipedia](https://en.wikipedia.org/wiki/National_Film_Registry) 44. 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 \"Library Names 25 Films to the National Film Registry for Preservation\". Library of Congress. January 29, 2026. Retrieved January 29, 2026. 45. 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 |Morgan, David (December 16, 2015). \"\"Shawshank Redemption,\" \"Ghostbusters\" added to National Film Registry\". CBS News. Retrieved December 16, 2015. [...] Released in 1895 and 1896, and selected in December 2024 and Janu\n[National Film Registry adds 'Philadelphia,' 'Clueless,' 'The Karate Kid,' 'Glory' and more : NPR](https://www.npr.org/2026/01/29/nx-s1-5686770/national-film-registry-clueless-karate-kid) ##### Correction Jan. 29, 2026 A previous version of this web story contained an incomplete list of the 25 movies that were added to the National Film Registry for 2025. The following films were also added: The Wrecking Crew, Inception, The Loving Story, and The Grand Budapest Hotel. NPR does not offer or accept money for coverage or interviews. Anyone who makes such an offer or request is not an NPR employee and does not represent NPR. [...] Bing Crosby, the popular midcentury crooner, starred \n[‎National Film Registry 1989-2025, a list of films by TheCinema4Pylon • Letterboxd](https://letterboxd.com/thecinema4pylon/list/national-film-registry-1989-2025) Thanks. I had gotten so tired of checking through most of January for them to finally announce the list that I gave up on checking. I will get these up today. Thanks again. TheCinema4Pylon TheCinema4Pylon List updated 2026-02-02 with the 25 latest selections for the National Film Registry (announced Jan. 29, 2026). Eduardo Ramírez Eduardo Ramírez thanks!! Nialldude3 Nialldude3 Check out my 20"
   },
   {
    "role": "assistant",
-   "content": "On January 29, 2026, several films were inducted into the National Film Registry, including \"Philadelphia,\" \"Clueless,\" \"The Karate Kid,\" and \"The Big Chill,\" among others. \n\nFINAL: Various films including \"Philadelphia\" and \"Clueless\" were inducted.",
+   "content": "On January 29, 2026, several films were inducted into the National Film Registry, including \"The Grand Budapest Hotel\" directed by Wes Anderson, among others. Other notable films included \"The Karate Kid,\" \"Philadelphia,\" \"Glory,\" and \"Clueless.\" \n\nFINAL: \"The Grand Budapest Hotel\"",
    "refusal": null,
    "reasoning": null
   }

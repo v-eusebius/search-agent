@@ -1,0 +1,24 @@
+{
+ "task": {
+  "id": "fresh-47",
+  "source": "fresh",
+  "question": "What position did Dharmendra Pradhan resign from in India in July 2026?",
+  "answer": "Education Minister",
+  "evidence": "July 25 – Indian Education Minister Dharmendra Pradhan resigns from the position in light of the protests over a NEET exam leak. Most of the protests ceased following his resignation.",
+  "page": "2026 in politics",
+  "url": "https://en.wikipedia.org/wiki/2026_in_politics",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "FINAL: Unknown.",
+ "correct": false,
+ "cost": 7.650000000004875e-06,
+ "messages": [
+  {
+   "role": "assistant",
+   "content": "Unknown.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

@@ -1,0 +1,66 @@
+{
+ "task": {
+  "id": "fresh-139",
+  "source": "fresh",
+  "question": "How much did Michelangelo's preparatory sketch of a foot for The Libyan Sibyl sell for at Christie’s on February 5, 2026?",
+  "answer": "$27.2 million",
+  "evidence": "February 5 – Michelangelo's preparatory sketch of a foot for The Libyan Sibyl is sold at Christie’s for $27.2 million including fees.",
+  "page": "2026 in art",
+  "url": "https://en.wikipedia.org/wiki/2026_in_art"
+ },
+ "answer": "Perfect! I found the information.\n\nFINAL: Michelangelo's preparatory sketch of a foot for The Libyan Sibyl sold for $27,200,000 (US$27.2 million) at Christie's New York on February 5, 2026. This red chalk drawing from about 1511-12 became the most valuable Michelangelo work ever sold at auction.",
+ "correct": true,
+ "cost": 0.005670999999999982,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You answer questions about recent events (2025–2026). Never answer from memory: use web_search (and tavily_search if available) to find the right article, then page_find to look inside long articles such as '2026 in <country or field>' for the specific fact. Do not repeat the same call. When done, write the last line as FINAL: <short answer>."
+  },
+  {
+   "role": "user",
+   "content": "How much did Michelangelo's preparatory sketch of a foot for The Libyan Sibyl sell for at Christie’s on February 5, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "I'll search for information about this Michelangelo sketch sale at Christie's.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01N4FT9U7DjRWAyE4ZxHW6TK",
+     "function": {
+      "name": "tavily_search",
+      "arguments": "{\"query\": \"Michelangelo preparatory sketch foot Libyan Sibyl Christie's February 5 2026\"}"
+     }
+    },
+    {
+     "type": "function",
+     "index": 1,
+     "id": "toolu_bdrk_01VXCVw3PTbymzUX2aDpyon2",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\": \"Michelangelo foot sketch Libyan Sibyl Christie's 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01N4FT9U7DjRWAyE4ZxHW6TK",
+   "content": "[Michelangelo's rare Libyan Sibyl foot study at Christie's](https://www.facebook.com/WoodwardGalleryArt/posts/%EF%B8%8F-sharing-news-of-a-rare-work-by-michelangelo-14751564study-for-the-right-foot-o/1232788995540382) ... Christie's New York 🗓️ 5 February 2026. Estimate: $1,500,000 ... Preparatory sketch for the Libyan Sibyl (Metropolitan Museum of Art).\n[Michelangelo study for the Sistine Chapel sells for $27.2M | Christie’s](https://www.christies.com/en/stories/michelangelo-sistine-chapel-drawing-discovery-309182ff3ac24a498fe7ae60c2cb790d) Open link Study for the right foot of The Libyan Sibyl on the Sistine Chapel ceiling, about 1511-12. Michelangelo Buonarroti (Caprese 1475-1564 Rome). Red chalk on paper. Inscribed ‘Michelangelo Buona Roti’. 5.1/4 x 4.5/8 in. (13.5 x 11.5 cm). Sold for $27,200,000 in Old Master and British Drawings on 5 February 2026 at Christie’s in New York [...] Open link Study for the right foot of The Libyan Sibyl on the Sistine Chapel ceiling, about 1511-12. Michelangelo Buonarroti (Caprese 1475-1564 Rome)\n[This Michelangelo work just marked history: Sold for US ...](https://www.facebook.com/Christies/videos/this-michelangelo-work-just-marked-history-sold-for-us27200000-a-new-artist-reco/1273403854708609) this rare drawing, a study for the foot of the Libyan Sibyl, became the most valuable Michelangelo work ever sold at auction.\n[Michelangelo Drawing Sells for Record-Breaking $27.2 ...](https://mymodernmet.com/michelangelo-drawing-auction) A rare Michelangelo red chalk study for the Libyan Sibyl on the Sistine Chapel ceiling sold for $27.2 million at Christie's New York,\n[Michelangelo Buonarroti - Studies for the Libyan Sibyl (recto); Studies for the Libyan Sibyl and a small Sketch for a Seated Figure (verso) - The Metropolitan Museum of Art](https://www.metmuseum.org/art/collection/search/337497) # Studies for the Libyan Sibyl (recto); Studies for the Libyan Sibyl and a small Sketch for a Seated Figure (verso) [...] ## Artwork Details ## Audio Cover Image for 9917. Libyan Sibyl # 9917. Libyan Sibyl ## ## More Artwork [...] ## Content Notice The Metropolitan Museum of Art presents over 5,000 years of art from around the world, and our online collection reflects ongoing work conducted over the course of our more than 150-year history. You may encounter objects or images that may be inappro"
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01VXCVw3PTbymzUX2aDpyon2",
+   "content": "[Libyan Sibyl] The Libyan Sibyl was the prophetic priestess presiding over the Oracle of Zeus-Ammon (Zeus represented with the Horns of Ammon) at Siwa Oasis in the Libyan Desert. The term sibyl comes (via Latin) from the ancient Greek word sibylla, meaning prophetess. There were many Sibyls in the ancient world, but the Libyan Sibyl, in Classical mythology, foretold the \"coming of the day when that which is hidden shall be revealed.\" In Pausanias' Description of Greece, the Sibyl names her parents in her oracles: I am by birth half mortal, half divine; An immortal nymph was my mother, my father an eater of grain; On my mother's side of Idaean birth, but my fatherland was red Marpessus, sacred to the Mother, and the river Aidoneus. (Pausanias 10.12.3) The Greeks say she was the daughter of Lamia – a daughter of Poseidon – and Zeus. Euripides mentions the Libyan Sibyl in the prologue of the Lamia. The Greeks further state that she was the first woman to chant oracles; that she lived most of her life in Samos; and that the name Sibyl was given her by the Libyans. Serapion, in his epic verses, says that the Sibyl, even when dead, ceased not from divination. He writes that what proceeded from her into the air after her death was what gave oracular utterances in voices and omens; and on her body being changed into earth, and the grass as natural growing out of it, whatever beasts happening to be in that place fed on it exhibited to men an accurate knowledge of futurity by their entrails. He also  | other articles: 2026 in art"
+  },
+  {
+   "role": "assistant",
+   "content": "Perfect! I found the information.\n\nFINAL: Michelangelo's preparatory sketch of a foot for The Libyan Sibyl sold for $27,200,000 (US$27.2 million) at Christie's New York on February 5, 2026. This red chalk drawing from about 1511-12 became the most valuable Michelangelo work ever sold at auction.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

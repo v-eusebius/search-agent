@@ -1,0 +1,120 @@
+{
+ "task": {
+  "id": "fresh-66",
+  "source": "fresh",
+  "question": "How many people were reportedly trapped after a hotel collapse in Anuppur, Madhya Pradesh in April 2026?",
+  "answer": "at least six",
+  "evidence": "4 April – One person is killed and at least six others are reportedly trapped after a four-story hotel collapses in Anuppur, Madhya Pradesh.",
+  "page": "2026 in India",
+  "url": "https://en.wikipedia.org/wiki/2026_in_India",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "In the hotel collapse that occurred in Anuppur, Madhya Pradesh, on April 4, 2026, at least six people were reportedly trapped under the debris. FINAL: 6 people trapped.",
+ "correct": false,
+ "cost": 0.0007790999999999215,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You answer questions about recent events (2025–2026). Never answer from memory: use web_search (and tavily_search if available) to find the right article, then page_find to look inside long articles such as '2026 in <country or field>' for the specific fact. Do not repeat the same call. When done, write the last line as FINAL: <short answer>."
+  },
+  {
+   "role": "user",
+   "content": "How many people were reportedly trapped after a hotel collapse in Anuppur, Madhya Pradesh in April 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_BhvcQVLSRffc0sMUcsMwQmgY",
+     "function": {
+      "name": "tavily_search",
+      "arguments": "{\"query\":\"hotel collapse Anuppur Madhya Pradesh April 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_BhvcQVLSRffc0sMUcsMwQmgY",
+   "content": "[Three people are killed and at least 10 others ...](https://newsasfacts.com/news/152859) Three people are killed and at least 10 others are reportedly trapped after a four-story hotel collapses in Anuppur, Madhya Pradesh, India.\n[4-Storey Hotel Crashes, 2 Dead, More Details Awited | NewsX](https://www.youtube.com/watch?v=HdOBREJ1xDA) A tragic building collapse has been reported from Anuppur district, where a four-storey hotel structure near the Kotma bus stand came\n[Building collapse in India's Madhya Pradesh leaves one ...](https://english.ratopati.com/story/57283/one-dead-many-feared-buried-as-multiple-buildings-collapse-in-madhya-pradesh-india) A major accident occurred on Saturday evening when a multi-story building collapsed in the Anuppur district of Madhya Pradesh, India. The Agarwal Lodge building\n[Madhya Pradesh lodge collapse death toll rises to two](https://www.thehindu.com/news/national/madhya-pradesh/madhya-pradesh-lodge-collapse-death-toll-ndrf-rescue-operation-april-5-2026/article70825907.ece) At least three people, including a woman, died after a four-storey building collapsed in Anuppur district in Madhya Pradesh, trapping six people\n[Two killed, 3 injured as 4-storey lodge collapses in #MP and ...](https://www.facebook.com/DDNews/posts/newscapsule-two-killed-3-injured-as-4-storey-lodge-collapses-in-mp-and-watch-oth/1378870537601164) A 100-year-old residential building collapsed in #MadhyaPradesh's #Sagar district following heavy rains. No casualties were reported in the"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_tVUSqVfxuh795T6MDVMBBiGr",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"2026 in India\",\"keywords\":\"Anuppur hotel collapse trapped people\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_tVUSqVfxuh795T6MDVMBBiGr",
+   "content": "4 April – One person is killed and at least six others are reportedly trapped after a four-story hotel collapses in Anuppur, Madhya Pradesh."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_93fxHWgIHDMjm9aOxO6qxu1Z",
+     "function": {
+      "name": "tavily_search",
+      "arguments": "{\"query\":\"Anuppur hotel collapse April 2026 news update\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_93fxHWgIHDMjm9aOxO6qxu1Z",
+   "content": "[Microsoft Quietly Retires Contoso and Fabrikam, Introduces ‘Zava’ as Its New AI-Era Demo Brand](https://windowsreport.com/microsoft-quietly-retires-contoso-and-fabrikam-introduces-zava-as-its-new-ai-era-demo-brand) Read our disclosure page to find out how can you help Windows Report sustain the editorial team. Read more Google Preferred Source badge Google news icon Article feedback Improve this guide User forum 0 messages #### Leave a Reply Cancel reply Discover more XBOX_TMO_16x9-R2D-4f063534a7b256d7123f Xbox Game Pass Ultimate and Premium are coming to T-Mobile’s T-Mix plans in November Microsoft logo [...] Microsoft logo Microsoft Unveils New Voluntary Exit Offer (VEO) For 60,000 Employees Across 4 Cou\n[Microsoft replaces loyal ‘customers’ Contoso and Fabrikam](https://www.theregister.com/offbeat/2025/12/01/microsoft-replaces-loyal-customers-contoso-and-fabrikam/2808360) ## MORE CONTEXT At its recent Ignite event, Microsoft introduced a new fake brand called “Zava,” a retailer which “specializes in intelligent athletic apparel.\" Whatever that is. [...] # Microsoft appears to move on from its most loyal ‘customers’ – Contoso and Fabrikam Outfit called 'Zava' selling 'intelligent athletic apparel' is now in the spotlight as Redmond's fake brand for the AI age Microsoft appears to have moved on from two of its most loyal and enthusiastic \"customers\". The firms Redm\n[Microsoft 365 for enterprise for the Contoso Corporation - Microsoft 365 Enterprise | Microsoft Learn](https://learn.microsoft.com/en-us/microsoft-365/enterprise/contoso-case-study?view=o365-worldwide) This browser is no longer supported. Upgrade to Microsoft Edge to take advantage of the latest features, security updates, and technical support. Note Access to this page requires authorization. You can try signing in or changing directories. Access to this page requires authorization. You can try changing directories. # Microsoft 365 for enterprise for the Contoso Corporation ## In this article [...] ## In this article Microsoft 365 for enterprise is the Microsoft premier cloud offering that co\n[Overview of Contoso Corporation - Microsoft 365 Enterprise | Microsoft Learn](https://learn.microsoft.com/en-us/microsoft-365/enterprise/contoso-overview?view=o365-worldwide) Skip to Ask Learn chat experience This browser is no longer supported. Upgrade to Microsoft Edge to take advantage of the latest features, security updates, and technical support. Download Microsoft Edge More info about Internet E"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_DtApoYn86TEIaDj9HdK5wWX8",
+     "function": {
+      "name": "tavily_search",
+      "arguments": "{\"query\":\"Anuppur hotel collapse April 2026 latest details\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_DtApoYn86TEIaDj9HdK5wWX8",
+   "content": "[MP Building Collapse: 4-Storey Hotel Crashes, 2 Dead, More Details Awited | NewsX](https://www.youtube.com/watch?v=HdOBREJ1xDA) # MP Building Collapse: 4-Storey Hotel Crashes, 2 Dead, More Details Awited | NewsX ## Channel: NewsX Live (verified) 1.67M subscribers 1 likes ### Description 98 views Posted: 2026-04-04 A tragic building collapse has been reported from Anuppur district, where a four-storey hotel structure near the Kotma bus stand came crashing down. Several people are feared trapped under the debris, prompting an urgent rescue operation at the site. #MadhyaPradesh #BuildingCollapse #BreakingNews #Anuppur [...]\n[Madhya Pradesh lodge collapse death toll rises to two; NDRF continues rescue ops - The Hindu](https://www.thehindu.com/news/national/madhya-pradesh/madhya-pradesh-lodge-collapse-death-toll-ndrf-rescue-operation-april-5-2026/article70825907.ece) According to the police, the incident took place in Kotma town where the narrow building of a private lodge collapsed around 5.15 p.m. on Saturday (April 4, 2026), allegedly due to digging work going on in an adjacent plot. Anuppur Superintendent of Police (SP) Moti Ur Rahman told The Hindu that six people had been trapped under the debris of which three had been rescued with injuries. All six were labourers involved in tile flooring work at the lodge. [...] Updated - April 05, 2026 09:15 pm IST\n[MP: Several feared trapped after four-storey building collapses in Anuppur](https://www.aninews.in/news/national/general-news/mp-several-feared-trapped-after-four-storey-building-collapses-in-anuppur20260405042135) हिंदी खबर Four-storey building collapsed in Anuppur (Photo/ANI) Four-storey building collapsed in Anuppur (Photo/ANI) # MP: Several feared trapped after four-storey building collapses in Anuppur ANI | Updated: Apr 05, 2026 04:21 IST ani-trusted-source ANI News Join our Whatsapp channel [...] Officials have not yet confirmed the exact number of people trapped or injured in the incident. Rescue teams are continuing their efforts amid the debris. Municipal Chief Officer Pradeep Jharia declined to c\n[نشر](https://x.com/i/status/2040607932140879882?lang=ar-x-fm) As of now, at least two people have died following the collapse of the 4-storey building in Kotma, Anuppur district, on the evening of Saturday,\n[Building collapse in India's Madhya Pradesh leaves one dead, rescue operations underway | Ratopati | No.1 Nepali News Portal](https://english.ratopati.com/story/57283/one-dead-many-feared-buried-as"
+  },
+  {
+   "role": "assistant",
+   "content": "In the hotel collapse that occurred in Anuppur, Madhya Pradesh, on April 4, 2026, at least six people were reportedly trapped under the debris. FINAL: 6 people trapped.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

@@ -8,11 +8,11 @@
   "page": "2026 in animation",
   "url": "https://en.wikipedia.org/wiki/2026_in_animation"
  },
- "answer": "Спин-офф \"Рика и Морти\" 26 июля 2026 года мне не удалось найти.",
- "correct": false,
- "cost": 0.0016030500000000503,
+ "answer": "President Curtis",
+ "correct": true,
+ "cost": 0.000319200000000075,
  "escalated": false,
- "confidence": 0.9,
+ "confidence": 1.0,
  "agent_messages": [
   {
    "role": "system",
@@ -31,158 +31,22 @@
     {
      "type": "function",
      "index": 0,
-     "id": "call_1BoeQjVXYTDDfb9kX4MBcjyA",
+     "id": "call_fsAB0OoAdk7n99pga85TOMKC",
      "function": {
-      "name": "web_search",
-      "arguments": "{\"query\":\"Rick and Morty spin-off July 26 2026 Adult Swim\"}"
+      "name": "tavily_search",
+      "arguments": "{\"query\":\"Rick and Morty spin-off premiered July 26, 2026\"}"
      }
     }
    ]
   },
   {
    "role": "tool",
-   "tool_call_id": "call_1BoeQjVXYTDDfb9kX4MBcjyA",
-   "content": "[List of Rick and Morty episodes] Rick and Morty is an American animated science fiction sitcom created by Justin Roiland and Dan Harmon. The series follows Rick Sanchez, an alcoholic, nihilistic mad scientist, and his easily distressed grandson, Morty Smith as they travel to parallel dimensions and exotic planets with extraterrestrials. These adventures commonly cause trouble for Morty's family (Jerry, Beth, and Summer), who are often dragged along as well. The series premiered on December 2, 2013, on Cartoon Network's late-night programming block Adult Swim. On May 10, 2018, Adult Swim announced a long-term deal with the creators, ordering 70 new episodes of Rick and Morty, through to a tenth season. At a New York Comic Con panel in 2024, it was announced that the series had been renewed for an additional two seasons, renewing the show through season 12. The ninth season premiered on May 24, 2026. As of July 26, 2026, 91 episodes of Rick and Morty have aired, currently in its ninth season. | other articles: Rick and Morty, Rick and Morty (franchise)"
+   "tool_call_id": "call_fsAB0OoAdk7n99pga85TOMKC",
+   "content": "[Rick and Morty's X-Files-Like Spinoff Officially Sets Premiere Date](https://www.cbr.com/rick-and-morty-president-curtis-release-date-trailer) President Curtis, which has been teased as reminiscent of The X-Files with the unique brand of humor Rick and Morty fans will appreciate, is set to premiere on July 26, 2026, at 11:30 p.m. ET/PT. This will be immediately following the Rick and Morty Season 9 finale. After airing on Adult Swim, episodes will be made available to stream the next day on HBO Max. Ahead of the show's arrival, fans can get a sneak peek by watching the new trailer for President Curtis below. [...] President Curtis debu\n[President Curtis: Rick and Morty Spinoff Gets Premiere Date, Trailer](https://www.hollywoodreporter.com/tv/tv-news/president-curtis-rick-and-morty-spinoff-premiere-trailer-1236629046) Adult Swim‘s new series President Curtis is set to premiere July 26 at 11:30 p.m., The Hollywood Reporter has learned. The project is a spinoff of Rick and Morty and will debut immediately following the season nine finale of the flagship series. President Curtis episodes will stream the following day on HBO Max. [...] Betty Gilpin and Ethan Hawke in The Lowdown season 2 ### TV Premiere Dates 2026: The Complete Guide From left 'Friday Night Lights,' 'Shorsey,' 'Pitch,' 'Glow,' 'Survivors Remorse'\n[President Curtis Official Trailer: New Rick and Morty Spin-Off ...](https://www.facebook.com/rottentomatoes/videos/check-out-the-official-trailer-for-the-new-rickandmorty-spin-off-series-presiden/2143548633158262) New Rick and Morty Spin-Off Premieres July 26 ・ new animated series titled 'President Curtis' on Adult Swim. It establishes ・ featuring\n[Instagram](https://www.instagram.com/p/DaeBZ9wCPiF?hl=en) Rick and Morty‘s new spinoff will begin on July 26 at Adult Swim the same night the original show’s ninth season ends. President Curtis will see Keith David’s Commander-in-Chief having his own adventures free of the multiverse’s drunkest grandpa. Considering how many times Rick and Morty have partnered with (or against) their world’s POTUS, it’s been unclear exactly how this new show will differentiate itself from the old one. [...] But co-creators Dan Harmon and James Siciliano have provided an\n[Trailer: 'Rick and Morty' Spin-Off 'President Curtis' Sets July Premiere (New Images) - Animation Magazine](https://www.animationmagazine.net/2026/06/trailer-rick-and-morty-spin-off-president-curtis-sets-july-premiere-new-images) FacebookXLinkedin Adult Swi"
   },
   {
    "role": "assistant",
-   "content": null,
-   "refusal": null,
-   "reasoning": null,
-   "tool_calls": [
-    {
-     "type": "function",
-     "index": 0,
-     "id": "call_NXCQc1hXd9bnXtPRatt2xz39",
-     "function": {
-      "name": "web_search",
-      "arguments": "{\"query\":\"Rick and Morty spin-off July 26 2026\"}"
-     }
-    }
-   ]
-  },
-  {
-   "role": "tool",
-   "tool_call_id": "call_NXCQc1hXd9bnXtPRatt2xz39",
-   "content": "[List of Rick and Morty episodes] Rick and Morty is an American animated science fiction sitcom created by Justin Roiland and Dan Harmon. The series follows Rick Sanchez, an alcoholic, nihilistic mad scientist, and his easily distressed grandson, Morty Smith as they travel to parallel dimensions and exotic planets with extraterrestrials. These adventures commonly cause trouble for Morty's family (Jerry, Beth, and Summer), who are often dragged along as well. The series premiered on December 2, 2013, on Cartoon Network's late-night programming block Adult Swim. On May 10, 2018, Adult Swim announced a long-term deal with the creators, ordering 70 new episodes of Rick and Morty, through to a tenth season. At a New York Comic Con panel in 2024, it was announced that the series had been renewed for an additional two seasons, renewing the show through season 12. The ninth season premiered on May 24, 2026. As of July 26, 2026, 91 episodes of Rick and Morty have aired, currently in its ninth season. | other articles: Rick and Morty (franchise), President Curtis (Rick and Morty character)"
-  },
-  {
-   "role": "assistant",
-   "content": null,
-   "refusal": null,
-   "reasoning": null,
-   "tool_calls": [
-    {
-     "type": "function",
-     "index": 0,
-     "id": "call_2m2hB7tw3pJLcgn76vMsZ2WZ",
-     "function": {
-      "name": "web_search",
-      "arguments": "{\"query\":\"Rick and Morty spin-off premiere Adult Swim July 2026\"}"
-     }
-    }
-   ]
-  },
-  {
-   "role": "tool",
-   "tool_call_id": "call_2m2hB7tw3pJLcgn76vMsZ2WZ",
-   "content": "[List of Rick and Morty episodes] Rick and Morty is an American animated science fiction sitcom created by Justin Roiland and Dan Harmon. The series follows Rick Sanchez, an alcoholic, nihilistic mad scientist, and his easily distressed grandson, Morty Smith as they travel to parallel dimensions and exotic planets with extraterrestrials. These adventures commonly cause trouble for Morty's family (Jerry, Beth, and Summer), who are often dragged along as well. The series premiered on December 2, 2013, on Cartoon Network's late-night programming block Adult Swim. On May 10, 2018, Adult Swim announced a long-term deal with the creators, ordering 70 new episodes of Rick and Morty, through to a tenth season. At a New York Comic Con panel in 2024, it was announced that the series had been renewed for an additional two seasons, renewing the show through season 12. The ninth season premiered on May 24, 2026. As of July 26, 2026, 91 episodes of Rick and Morty have aired, currently in its ninth season. | other articles: Rick and Morty, Rick and Morty (franchise)"
-  },
-  {
-   "role": "assistant",
-   "content": null,
-   "refusal": null,
-   "reasoning": null,
-   "tool_calls": [
-    {
-     "type": "function",
-     "index": 0,
-     "id": "call_Y2VQsenIIBjrTNzYQB3JY0JL",
-     "function": {
-      "name": "web_search",
-      "arguments": "{\"query\":\"Rick and Morty spin-off premiered on Adult Swim July 26 2026\"}"
-     }
-    }
-   ]
-  },
-  {
-   "role": "tool",
-   "tool_call_id": "call_Y2VQsenIIBjrTNzYQB3JY0JL",
-   "content": "[List of Rick and Morty episodes] Rick and Morty is an American animated science fiction sitcom created by Justin Roiland and Dan Harmon. The series follows Rick Sanchez, an alcoholic, nihilistic mad scientist, and his easily distressed grandson, Morty Smith as they travel to parallel dimensions and exotic planets with extraterrestrials. These adventures commonly cause trouble for Morty's family (Jerry, Beth, and Summer), who are often dragged along as well. The series premiered on December 2, 2013, on Cartoon Network's late-night programming block Adult Swim. On May 10, 2018, Adult Swim announced a long-term deal with the creators, ordering 70 new episodes of Rick and Morty, through to a tenth season. At a New York Comic Con panel in 2024, it was announced that the series had been renewed for an additional two seasons, renewing the show through season 12. The ninth season premiered on May 24, 2026. As of July 26, 2026, 91 episodes of Rick and Morty have aired, currently in its ninth season. | other articles: Rick and Morty, Rick and Morty (franchise)"
-  },
-  {
-   "role": "assistant",
-   "content": null,
-   "refusal": null,
-   "reasoning": null,
-   "tool_calls": [
-    {
-     "type": "function",
-     "index": 0,
-     "id": "call_710UhqOE93JayvD8XRBzTdEV",
-     "function": {
-      "name": "web_search",
-      "arguments": "{\"query\":\"Rick and Morty spin-off July 2026 title\"}"
-     }
-    }
-   ]
-  },
-  {
-   "role": "tool",
-   "tool_call_id": "call_710UhqOE93JayvD8XRBzTdEV",
-   "content": "[List of Rick and Morty episodes] Rick and Morty is an American animated science fiction sitcom created by Justin Roiland and Dan Harmon. The series follows Rick Sanchez, an alcoholic, nihilistic mad scientist, and his easily distressed grandson, Morty Smith as they travel to parallel dimensions and exotic planets with extraterrestrials. These adventures commonly cause trouble for Morty's family (Jerry, Beth, and Summer), who are often dragged along as well. The series premiered on December 2, 2013, on Cartoon Network's late-night programming block Adult Swim. On May 10, 2018, Adult Swim announced a long-term deal with the creators, ordering 70 new episodes of Rick and Morty, through to a tenth season. At a New York Comic Con panel in 2024, it was announced that the series had been renewed for an additional two seasons, renewing the show through season 12. The ninth season premiered on May 24, 2026. As of July 26, 2026, 91 episodes of Rick and Morty have aired, currently in its ninth season. | other articles: Rick and Morty (comics), Rick and Morty (franchise)"
-  },
-  {
-   "role": "assistant",
-   "content": null,
-   "refusal": null,
-   "reasoning": null,
-   "tool_calls": [
-    {
-     "type": "function",
-     "index": 0,
-     "id": "call_6dUAArCP4GXWvlbQfZvFR7rg",
-     "function": {
-      "name": "web_search",
-      "arguments": "{\"query\":\"Rick and Morty spin-off July 26 2026 premiered title\"}"
-     }
-    }
-   ]
-  },
-  {
-   "role": "tool",
-   "tool_call_id": "call_6dUAArCP4GXWvlbQfZvFR7rg",
-   "content": "[List of Rick and Morty episodes] Rick and Morty is an American animated science fiction sitcom created by Justin Roiland and Dan Harmon. The series follows Rick Sanchez, an alcoholic, nihilistic mad scientist, and his easily distressed grandson, Morty Smith as they travel to parallel dimensions and exotic planets with extraterrestrials. These adventures commonly cause trouble for Morty's family (Jerry, Beth, and Summer), who are often dragged along as well. The series premiered on December 2, 2013, on Cartoon Network's late-night programming block Adult Swim. On May 10, 2018, Adult Swim announced a long-term deal with the creators, ordering 70 new episodes of Rick and Morty, through to a tenth season. At a New York Comic Con panel in 2024, it was announced that the series had been renewed for an additional two seasons, renewing the show through season 12. The ninth season premiered on May 24, 2026. As of July 26, 2026, 91 episodes of Rick and Morty have aired, currently in its ninth season. | other articles: Rick and Morty (franchise), President Curtis (Rick and Morty character)"
-  },
-  {
-   "role": "assistant",
-   "content": null,
-   "refusal": null,
-   "reasoning": null,
-   "tool_calls": [
-    {
-     "type": "function",
-     "index": 0,
-     "id": "call_fGbsYSG7KrgY0NjvnuvyhMo4",
-     "function": {
-      "name": "web_search",
-      "arguments": "{\"query\":\"Rick and Morty spin-off July 2026 premiere details\"}"
-     }
-    }
-   ]
-  },
-  {
-   "role": "tool",
-   "tool_call_id": "call_fGbsYSG7KrgY0NjvnuvyhMo4",
-   "content": "[Rick and Morty (franchise)] Rick and Morty is an American animated science fiction comedy franchise, whose eponymous duo consists of Rick Sanchez and Morty Smith; they were created by cartoonist Justin Roiland for a 2006 parody film of Back to the Future for Channel 101, a short film festival co-founded by Dan Harmon. After six years, the sketch was developed into Rick and Morty, a half-hour prime time series that was a hit for Adult Swim, receiving universal acclaim across all seasons. Alongside the original television series, its characters have been featured in a variety of media, including spin-offs, comic books, musical releases and video games. The show has earned hundreds of millions of dollars in income across their merchandising and media franchise. The series centers on the misadventures of cynical mad scientist Rick Sanchez and his good-hearted but fretful grandson Morty Smith, who split their time between domestic life and interdimensional adventures, with the characters traveling to other planets and dimensions through portals and Rick's flying car. Different versions of the characters inhabit other dimensions throughout the show's multiverse and their personal characteristics can vary from one reality to another. The Rick and Morty franchise has received widespread critical acclaim, winning two Annie and Emmy Awards. | other articles: Rick and Morty, 2026 in animation"
-  },
-  {
-   "role": "user",
-   "content": "Инструменты больше недоступны. Ответь по тому, что уже известно, последней строкой FINAL: <ответ>."
-  },
-  {
-   "role": "assistant",
-   "content": "На больше недоступных инструментах мне не удалось найти конкретную информацию о премьере спин-оффа \"Рика и Морти\", который состоялся 26 июля 2026 года. Однако, известное время выхода новых проектов Rick and Morty может указывать на появление новых интересных историй во вселенной данного шоу.\n\nFINAL: Спин-офф \"Рика и Морти\" 26 июля 2026 года мне не удалось найти.",
+   "content": "The Rick and Morty spin-off that premiered on Adult Swim on July 26, 2026, is titled \"President Curtis.\" It is described as having a unique style reminiscent of The X-Files. \n\nFINAL: President Curtis",
    "refusal": null,
    "reasoning": null
   }

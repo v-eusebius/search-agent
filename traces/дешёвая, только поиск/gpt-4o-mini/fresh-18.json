@@ -10,9 +10,9 @@
   "sonnet_answer": "November 25, 2021",
   "agent_ok": false
  },
- "answer": "On July 13, 2026, a Munich court sentenced an Iraqi couple, Twana H.S. and Asia R.A., to life imprisonment and a juvenile sentence respectively for crimes, including the enslavement and rape of Yazidi girls. FINAL: July 13, 2026.",
- "correct": true,
- "cost": 0.0007648500000000009,
+ "answer": "Неправильное обращение с ресурсами и отсутствие объявления о дате осуждения пары из Ирака, которая enslaved и подвергала изнасилованию девушек-йезидов в Мюнхене, препятствовали мне найти точные данные. Однако, известные факты предполагают, что суды по таким делам состоялись в последние годы в Германии, с отдельными случаями в 2025 и 2026 годах. Без конкретной информации я не могу дать окончательный ответ.\n\nFINAL: Неизвестно.",
+ "correct": false,
+ "cost": 0.0017926499999999998,
  "messages": [
   {
    "role": "system",
@@ -31,7 +31,7 @@
     {
      "type": "function",
      "index": 0,
-     "id": "call_yAMMnR3HuuwV4g5xf5K3V8PH",
+     "id": "call_FUOXV8ClzRU75Qh2UArtFLAr",
      "function": {
       "name": "web_search",
       "arguments": "{\"query\":\"Munich court imprisoned Iraqi couple enslaving raping Yazidi girls date\"}"
@@ -41,8 +41,8 @@
   },
   {
    "role": "tool",
-   "tool_call_id": "call_yAMMnR3HuuwV4g5xf5K3V8PH",
-   "content": "[Yazidi genocide] The Yazidi genocide also known as the 74th firman by Yazidis, was perpetrated by the Islamic State in Iraq and Syria between 2014 and 2017. It was characterized by massacres, genocidal rape, and forced conversions to Islam. The Yazidis are a Kurdish-speaking people who are indigenous to Kurdistan who practice Yazidism, a monotheistic Iranian ethnoreligion derived from the Indo-Iranian tradition. Over a period of three years, Islamic State militants trafficked thousands of Yazidi women and girls and killed thousands of Yazidi men. The United Nations reported that the Islamic State killed about 5,000 Yazidis and trafficked about 10,800 Yazidi women and girls in a \"forced conversion campaign\" throughout Iraq. By 2015, upwards of 71% of the global Yazidi population was displaced by the genocide, with most Yazidi refugees having fled to Iraq's Kurdistan Region and Syria's Rojava. The persecution of Yazidis, along with other religious minorities, took place after the Islamic State's Northern Iraq offensive of June 2014. Amid numerous atrocities committed by the Islamic State, the Yazidi genocide attracted international attention and prompted the United States to establish CJTF–OIR, a military coalition consisting of many Western countries and Turkey, Morocco, and Jordan. Additionally, the United States, the United Kingdom, and Australia made emergency airdrops to support Yazidi refugees who were trapped in the Sinjar Mountains due to the Islamic State's Northern Iraq offensive of A | other articles: 2026 in Germany"
+   "tool_call_id": "call_FUOXV8ClzRU75Qh2UArtFLAr",
+   "content": "[Yazidi genocide] The Yazidi genocide also known as the 74th firman by Yazidis, was perpetrated by the Islamic State in Iraq and Syria between 2014 and 2017. It was characterized by massacres, genocidal rape, and forced conversions to Islam. The Yazidis are a Kurdish-speaking ethnoreligious group who practice Yazidism and who are indigenous to Kurdistan. Over a period of three years, Islamic State militants trafficked thousands of Yazidi women and girls and killed thousands of Yazidi men. The United Nations reported that the Islamic State killed about 5,000 Yazidis and trafficked about 10,800 Yazidi women and girls in a \"forced conversion campaign\" throughout Iraq. By 2015, upwards of 71% of the global Yazidi population had been displaced by the genocide, with most Yazidi refugees having fled to Iraq's Kurdistan Region and Syria's Rojava. The persecution of Yazidis, along with other religious minorities, took place after the Islamic State's Northern Iraq offensive of June 2014. Amid numerous atrocities committed by the Islamic State, the Yazidi genocide attracted international attention and prompted the United States to establish CJTF–OIR, a military coalition consisting of many Western countries and Turkey, Morocco, and Jordan. Additionally, the United States, the United Kingdom, and Australia made emergency airdrops to support Yazidi refugees who were trapped in the Sinjar Mountains due to the Islamic State's Northern Iraq offensive of August 2014. During the Sinjar massacre, in which the Is | other articles: 2026 in Germany"
   },
   {
    "role": "assistant",
@@ -53,18 +53,18 @@
     {
      "type": "function",
      "index": 0,
-     "id": "call_azmJ6r8ZXDxbeoiNx1bow2ab",
+     "id": "call_DjATEYx56yDYYvjxyRBLzAZ8",
      "function": {
       "name": "web_search",
-      "arguments": "{\"query\":\"Munich court Iraqi couple enslaving Yazidi girls sentencing date 2025 2026\"}"
+      "arguments": "{\"query\":\"2026 in Germany court ruling Iraqi couple enslaving Yazidi girls\"}"
      }
     }
    ]
   },
   {
    "role": "tool",
-   "tool_call_id": "call_azmJ6r8ZXDxbeoiNx1bow2ab",
-   "content": "[Yazidi genocide] The Yazidi genocide also known as the 74th firman by Yazidis, was perpetrated by the Islamic State in Iraq and Syria between 2014 and 2017. It was characterized by massacres, genocidal rape, and forced conversions to Islam. The Yazidis are a Kurdish-speaking people who are indigenous to Kurdistan who practice Yazidism, a monotheistic Iranian ethnoreligion derived from the Indo-Iranian tradition. Over a period of three years, Islamic State militants trafficked thousands of Yazidi women and girls and killed thousands of Yazidi men. The United Nations reported that the Islamic State killed about 5,000 Yazidis and trafficked about 10,800 Yazidi women and girls in a \"forced conversion campaign\" throughout Iraq. By 2015, upwards of 71% of the global Yazidi population was displaced by the genocide, with most Yazidi refugees having fled to Iraq's Kurdistan Region and Syria's Rojava. The persecution of Yazidis, along with other religious minorities, took place after the Islamic State's Northern Iraq offensive of June 2014. Amid numerous atrocities committed by the Islamic State, the Yazidi genocide attracted international attention and prompted the United States to establish CJTF–OIR, a military coalition consisting of many Western countries and Turkey, Morocco, and Jordan. Additionally, the United States, the United Kingdom, and Australia made emergency airdrops to support Yazidi refugees who were trapped in the Sinjar Mountains due to the Islamic State's Northern Iraq offensive of A | other articles: 2026 in Germany"
+   "tool_call_id": "call_DjATEYx56yDYYvjxyRBLzAZ8",
+   "content": "[Völkerstrafgesetzbuch] The Völkerstrafgesetzbuch (German: [ˈfœlkɐˌʃtʁaːfɡəˌzɛtsbuːx], \"Code of Crimes against International Law\"), abbreviated VStGB, is a German law that regulates crimes against (public) international law. It allows cases to be brought against suspects under international criminal law provisions, meaning that suspects can be prosecuted even though both they and their victims are foreigners and the crime itself took place abroad. The VStGB was created to bring the German criminal law in accordance with the Rome Statute of the International Criminal Court. It was announced on 26 June 2002 and became law 30 June 2002. | other articles: Abu Bakr al-Baghdadi, Sexual slavery"
   },
   {
    "role": "assistant",
@@ -75,18 +75,18 @@
     {
      "type": "function",
      "index": 0,
-     "id": "call_8jErYdIUEh65gxUlyEfwN4pu",
+     "id": "call_RawBNYJK04MVX92NnDPPAK5J",
      "function": {
       "name": "web_search",
-      "arguments": "{\"query\":\"Iraqi couple sentenced for enslaving raping Yazidi girls Germany 2025 2026\"}"
+      "arguments": "{\"query\":\"Iraqi couple sentenced Munich court Yazidi girls date\"}"
      }
     }
    ]
   },
   {
    "role": "tool",
-   "tool_call_id": "call_8jErYdIUEh65gxUlyEfwN4pu",
-   "content": "[Yazidi genocide] The Yazidi genocide also known as the 74th firman by Yazidis, was perpetrated by the Islamic State in Iraq and Syria between 2014 and 2017. It was characterized by massacres, genocidal rape, and forced conversions to Islam. The Yazidis are a Kurdish-speaking people who are indigenous to Kurdistan who practice Yazidism, a monotheistic Iranian ethnoreligion derived from the Indo-Iranian tradition. Over a period of three years, Islamic State militants trafficked thousands of Yazidi women and girls and killed thousands of Yazidi men. The United Nations reported that the Islamic State killed about 5,000 Yazidis and trafficked about 10,800 Yazidi women and girls in a \"forced conversion campaign\" throughout Iraq. By 2015, upwards of 71% of the global Yazidi population was displaced by the genocide, with most Yazidi refugees having fled to Iraq's Kurdistan Region and Syria's Rojava. The persecution of Yazidis, along with other religious minorities, took place after the Islamic State's Northern Iraq offensive of June 2014. Amid numerous atrocities committed by the Islamic State, the Yazidi genocide attracted international attention and prompted the United States to establish CJTF–OIR, a military coalition consisting of many Western countries and Turkey, Morocco, and Jordan. Additionally, the United States, the United Kingdom, and Australia made emergency airdrops to support Yazidi refugees who were trapped in the Sinjar Mountains due to the Islamic State's Northern Iraq offensive of A | other articles: 2026 Munich Yazidi genocide trial, 2026 in Germany"
+   "tool_call_id": "call_RawBNYJK04MVX92NnDPPAK5J",
+   "content": "[Yazidi genocide] The Yazidi genocide also known as the 74th firman by Yazidis, was perpetrated by the Islamic State in Iraq and Syria between 2014 and 2017. It was characterized by massacres, genocidal rape, and forced conversions to Islam. The Yazidis are a Kurdish-speaking ethnoreligious group who practice Yazidism and who are indigenous to Kurdistan. Over a period of three years, Islamic State militants trafficked thousands of Yazidi women and girls and killed thousands of Yazidi men. The United Nations reported that the Islamic State killed about 5,000 Yazidis and trafficked about 10,800 Yazidi women and girls in a \"forced conversion campaign\" throughout Iraq. By 2015, upwards of 71% of the global Yazidi population had been displaced by the genocide, with most Yazidi refugees having fled to Iraq's Kurdistan Region and Syria's Rojava. The persecution of Yazidis, along with other religious minorities, took place after the Islamic State's Northern Iraq offensive of June 2014. Amid numerous atrocities committed by the Islamic State, the Yazidi genocide attracted international attention and prompted the United States to establish CJTF–OIR, a military coalition consisting of many Western countries and Turkey, Morocco, and Jordan. Additionally, the United States, the United Kingdom, and Australia made emergency airdrops to support Yazidi refugees who were trapped in the Sinjar Mountains due to the Islamic State's Northern Iraq offensive of August 2014. During the Sinjar massacre, in which the Is | other articles: Iraq War, 2026 in Germany"
   },
   {
    "role": "assistant",
@@ -97,36 +97,92 @@
     {
      "type": "function",
      "index": 0,
-     "id": "call_nJHd1sklPcY86Z5sI5BG8zdw",
+     "id": "call_LPD0JtMLxWEwJH3oTQejYeNJ",
      "function": {
       "name": "web_search",
-      "arguments": "{\"query\": \"2025 Munich trial Iraqi couple Yazidi girls sentenced\"}"
-     }
-    },
-    {
-     "type": "function",
-     "index": 1,
-     "id": "call_gRkF2c55dWfuScGyTsL6TaoX",
-     "function": {
-      "name": "web_search",
-      "arguments": "{\"query\": \"Munich court ruling Iraqi couple Yazidi girls date\"}"
+      "arguments": "{\"query\":\"Munich court Iraqi couple Yazidi girls enslaved date sentenced\"}"
      }
     }
    ]
   },
   {
    "role": "tool",
-   "tool_call_id": "call_nJHd1sklPcY86Z5sI5BG8zdw",
-   "content": "[2026 Munich Yazidi genocide trial] Twana H.S. and Asia R.A., an Iraqi Kurdish former married couple and former members of the Islamic State (IS), were convicted by the Higher Regional Court (Oberlandesgericht) in Munich, Germany, on 13 July 2026 of genocide, crimes against humanity, and war crimes, among other offences, over the enslavement, torture, and sexual abuse of two Yazidi girls in Iraq and Syria between 2015 and 2017. Twana H.S. was sentenced to life imprisonment; Asia R.A., who was a minor for part of the period covered by the charges, received a juvenile sentence of nine years and six months. The case was tried under Germany's application of the principle of universal jurisdiction, which allows German courts to prosecute genocide, crimes against humanity, and war crimes committed abroad regardless of the nationality of the perpetrator or victim. It followed several earlier German prosecutions of IS members over crimes against Yazidis, including the 2021 genocide conviction of Taha al-Jumailly and the related 2021 conviction of his then-wife Jennifer Wenisch, both also tried before Munich courts. | other articles: Yazidi genocide, Iraq War"
-  },
-  {
-   "role": "tool",
-   "tool_call_id": "call_gRkF2c55dWfuScGyTsL6TaoX",
-   "content": "[Druze] The Druze, who call themselves al-Muwaḥḥidūn (lit. 'the monotheists' or 'the unitarians'), are an esoteric religious group of Arabs who adhere to Druzism or the Druze faith, an Abrahamic, esoteric, monotheistic, ethnic, and syncretic religion whose main tenets assert the unity of God, reincarnation, and the eternity of the soul. Although the Druze faith originally developed from the Ismā‘īli branch of Shiʿa Islam, members of the Druze community do not identify as Muslims. They maintain the Arabic language and culture as integral parts of their identity, with Arabic being their primary language. Most Druze religious practices are kept secret, and conversion to their religion is not permitted for outsiders. Interfaith marriages are rare and strongly discouraged. They differentiate between spiritual individuals, known as \"uqqāl\", who hold the faith's secrets, and secular ones, known as \"juhhāl\", who focus on worldly matters. Druze believe that, after completing the cycle of rebirth through successive reincarnations, the soul reunites with the Cosmic Mind (al-ʻaql al-kullī). The Epistles of Wisdom (Rasāʾil al-Ḥikma) is the foundational and central text of the Druze faith. The Druze faith originated in the Ismā‘īli denomination of Shiʿa Islam, and has been influenced by a diverse range of philosophical and religious traditions, including Christianity, Gnosticism, Neoplatonism, Zoroastrianism, Manichaeism, and Pythagoreanism. This has led to the development of a distinct and secret | other articles: Turkish War of Independence"
+   "tool_call_id": "call_LPD0JtMLxWEwJH3oTQejYeNJ",
+   "content": "[Yazidi genocide] The Yazidi genocide also known as the 74th firman by Yazidis, was perpetrated by the Islamic State in Iraq and Syria between 2014 and 2017. It was characterized by massacres, genocidal rape, and forced conversions to Islam. The Yazidis are a Kurdish-speaking ethnoreligious group who practice Yazidism and who are indigenous to Kurdistan. Over a period of three years, Islamic State militants trafficked thousands of Yazidi women and girls and killed thousands of Yazidi men. The United Nations reported that the Islamic State killed about 5,000 Yazidis and trafficked about 10,800 Yazidi women and girls in a \"forced conversion campaign\" throughout Iraq. By 2015, upwards of 71% of the global Yazidi population had been displaced by the genocide, with most Yazidi refugees having fled to Iraq's Kurdistan Region and Syria's Rojava. The persecution of Yazidis, along with other religious minorities, took place after the Islamic State's Northern Iraq offensive of June 2014. Amid numerous atrocities committed by the Islamic State, the Yazidi genocide attracted international attention and prompted the United States to establish CJTF–OIR, a military coalition consisting of many Western countries and Turkey, Morocco, and Jordan. Additionally, the United States, the United Kingdom, and Australia made emergency airdrops to support Yazidi refugees who were trapped in the Sinjar Mountains due to the Islamic State's Northern Iraq offensive of August 2014. During the Sinjar massacre, in which the Is | other articles: 2026 in Germany"
   },
   {
    "role": "assistant",
-   "content": "On July 13, 2026, a Munich court sentenced an Iraqi couple, Twana H.S. and Asia R.A., to life imprisonment and a juvenile sentence respectively for crimes, including the enslavement and rape of Yazidi girls. FINAL: July 13, 2026.",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_sJk635IrXYGfte58et9TItRr",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Munich court Iraqi couple sentenced Yazidi girls February 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_sJk635IrXYGfte58et9TItRr",
+   "content": "[Yazidi genocide] The Yazidi genocide also known as the 74th firman by Yazidis, was perpetrated by the Islamic State in Iraq and Syria between 2014 and 2017. It was characterized by massacres, genocidal rape, and forced conversions to Islam. The Yazidis are a Kurdish-speaking ethnoreligious group who practice Yazidism and who are indigenous to Kurdistan. Over a period of three years, Islamic State militants trafficked thousands of Yazidi women and girls and killed thousands of Yazidi men. The United Nations reported that the Islamic State killed about 5,000 Yazidis and trafficked about 10,800 Yazidi women and girls in a \"forced conversion campaign\" throughout Iraq. By 2015, upwards of 71% of the global Yazidi population had been displaced by the genocide, with most Yazidi refugees having fled to Iraq's Kurdistan Region and Syria's Rojava. The persecution of Yazidis, along with other religious minorities, took place after the Islamic State's Northern Iraq offensive of June 2014. Amid numerous atrocities committed by the Islamic State, the Yazidi genocide attracted international attention and prompted the United States to establish CJTF–OIR, a military coalition consisting of many Western countries and Turkey, Morocco, and Jordan. Additionally, the United States, the United Kingdom, and Australia made emergency airdrops to support Yazidi refugees who were trapped in the Sinjar Mountains due to the Islamic State's Northern Iraq offensive of August 2014. During the Sinjar massacre, in which the Is | other articles: 2026 Munich Yazidi genocide trial, 2026 in Germany"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_bFoU2ZeRwtc74TUHOvA6LGpT",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"February 2026 Munich court ruling Iraqi couple Yazidi girls\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_bFoU2ZeRwtc74TUHOvA6LGpT",
+   "content": "[Völkerstrafgesetzbuch] The Völkerstrafgesetzbuch (German: [ˈfœlkɐˌʃtʁaːfɡəˌzɛtsbuːx], \"Code of Crimes against International Law\"), abbreviated VStGB, is a German law that regulates crimes against (public) international law. It allows cases to be brought against suspects under international criminal law provisions, meaning that suspects can be prosecuted even though both they and their victims are foreigners and the crime itself took place abroad. The VStGB was created to bring the German criminal law in accordance with the Rome Statute of the International Criminal Court. It was announced on 26 June 2002 and became law 30 June 2002. | other articles: Turkish War of Independence, List of convicted war criminals"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_9YFu9v6UjVXZ31g1sGEFR1OX",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"February 2026 Munich court sentencing Iraqi couple Yazidi girls\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_9YFu9v6UjVXZ31g1sGEFR1OX",
+   "content": "[Yazidi genocide] The Yazidi genocide also known as the 74th firman by Yazidis, was perpetrated by the Islamic State in Iraq and Syria between 2014 and 2017. It was characterized by massacres, genocidal rape, and forced conversions to Islam. The Yazidis are a Kurdish-speaking ethnoreligious group who practice Yazidism and who are indigenous to Kurdistan. Over a period of three years, Islamic State militants trafficked thousands of Yazidi women and girls and killed thousands of Yazidi men. The United Nations reported that the Islamic State killed about 5,000 Yazidis and trafficked about 10,800 Yazidi women and girls in a \"forced conversion campaign\" throughout Iraq. By 2015, upwards of 71% of the global Yazidi population had been displaced by the genocide, with most Yazidi refugees having fled to Iraq's Kurdistan Region and Syria's Rojava. The persecution of Yazidis, along with other religious minorities, took place after the Islamic State's Northern Iraq offensive of June 2014. Amid numerous atrocities committed by the Islamic State, the Yazidi genocide attracted international attention and prompted the United States to establish CJTF–OIR, a military coalition consisting of many Western countries and Turkey, Morocco, and Jordan. Additionally, the United States, the United Kingdom, and Australia made emergency airdrops to support Yazidi refugees who were trapped in the Sinjar Mountains due to the Islamic State's Northern Iraq offensive of August 2014. During the Sinjar massacre, in which the Is | other articles: 2026 Munich Yazidi genocide trial, 2026 in Germany"
+  },
+  {
+   "role": "user",
+   "content": "Инструменты больше недоступны. Ответь по тому, что уже известно, последней строкой FINAL: <ответ>."
+  },
+  {
+   "role": "assistant",
+   "content": "Неправильное обращение с ресурсами и отсутствие объявления о дате осуждения пары из Ирака, которая enslaved и подвергала изнасилованию девушек-йезидов в Мюнхене, препятствовали мне найти точные данные. Однако, известные факты предполагают, что суды по таким делам состоялись в последние годы в Германии, с отдельными случаями в 2025 и 2026 годах. Без конкретной информации я не могу дать окончательный ответ.\n\nFINAL: Неизвестно.",
    "refusal": null,
    "reasoning": null
   }

@@ -1,0 +1,24 @@
+{
+ "task": {
+  "id": "fresh-44",
+  "source": "fresh",
+  "question": "What is the name of the super-Earth with a confirmed atmosphere reported on July 16, 2026?",
+  "answer": "LHS 1140 b",
+  "evidence": "16 July – Astronomers report the first observationally confirmed atmosphere around a rocky exoplanet within its star's habitable zone, after detecting helium escaping from the upper atmosphere of LHS 1140 b, a super-Earth approximately 49 light-years from Earth.",
+  "page": "2026 in science",
+  "url": "https://en.wikipedia.org/wiki/2026_in_science",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "FINAL: Unknown.",
+ "correct": false,
+ "cost": 8.399999999998686e-06,
+ "messages": [
+  {
+   "role": "assistant",
+   "content": "Unknown.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

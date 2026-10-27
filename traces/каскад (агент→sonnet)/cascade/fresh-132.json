@@ -8,11 +8,11 @@
   "page": "2026 in sports",
   "url": "https://en.wikipedia.org/wiki/2026_in_sports"
  },
- "answer": "Unknown.",
- "correct": false,
- "cost": 0.0016021499999999689,
- "escalated": true,
- "confidence": 0.0,
+ "answer": "Stewart Cink.",
+ "correct": true,
+ "cost": 0.0003262499999998614,
+ "escalated": false,
+ "confidence": 0.95,
  "agent_messages": [
   {
    "role": "system",
@@ -31,158 +31,22 @@
     {
      "type": "function",
      "index": 0,
-     "id": "call_JjAVWEN7ineYx9R4FjxZRxfH",
+     "id": "call_SiuUXZUnsPtWTeSbLBVzPAQI",
      "function": {
-      "name": "web_search",
-      "arguments": "{\"query\":\"Senior PGA Championship 2026 winner The Concession Golf Club\"}"
+      "name": "tavily_search",
+      "arguments": "{\"query\":\"Senior PGA Championship 2026 winner Concession Golf Club\"}"
      }
     }
    ]
   },
   {
    "role": "tool",
-   "tool_call_id": "call_JjAVWEN7ineYx9R4FjxZRxfH",
-   "content": "[Senior PGA Championship] The Senior PGA Championship, established in 1937, is the oldest of the five major championships in men's senior golf. It is administered by the Professional Golfers' Association of America and is recognized as a major championship by both PGA Tour Champions and the European Senior Tour. It was formerly an unofficial money event on the European Senior Tour, but since 2007 has been an official money event. Winners gain entry into the next PGA Championship. The winners prior to 1980, the first season of the senior tour, are not considered major champions of this event by the PGA Tour Champions. The lower age limit is 50, which is the standard limit for men's senior professional golf tournaments. Like its PGA Tour counterpart, the Senior PGA Championship allows club professionals to enter. The tournament committee gives former winners of the PGA Professional National Championship a one time invitation upon turning 50 years of age and the top 35 club professionals who qualify through the Senior PGA Professional National Championship. | other articles: Royal Birkdale Golf Club, 2026 in sports"
+   "tool_call_id": "call_SiuUXZUnsPtWTeSbLBVzPAQI",
+   "content": "[Stewart Cink Wins 2026 Senior PGA, Course-Record 63 At Concession](https://golfguidebook.com/stewart-cink-wins-senior-pga-championship-2026-concession) Apr 30, 2026 · The 52-year-old former Open Championship winner closed out the 2026 Senior PGA Championship with a course-record 63 at The Concession Golf Club in Bradenton, Florida — a six-shot runaway that delivered his first senior major and one of the most dominant final rounds in the championship’s 88-year history.\n[2026 Senior PGA Championship final results: Prize money ...](https://thegolfnewsnet.com/golfnewsnetteam/2026/04/19/2026-senior-pga-championship-final-results-prize-money-payout-pga-tour-champions-leaderboard-how-much-each-golfer-won-142323) Apr 19, 2026 · The 2026 Senior PGA Championship final leaderboard is headed by winner Stewart Cink, who topped the PGA Tour Champions leaderboard this week with a win at The Concession Golf Club in Bradenton\n[Senior PGA Championship 2026 Golf Leaderboard - PGA Tour - Highlights](https://www.pgatour.com/pgatour-champions/tournaments/2026/senior-pga-championship/S2026520/highlights) PGA Tour ChampionsLeaderboardWatch & ListenNewsSchwab CupSchedulePlayersStatsTicketsShopPGA TourPGA Tour ChampionsKorn Ferry TourPGA Tour AmericasPGA Tour UniversityDP World TourLPGA TourTGL PGA Tour Champions PGA Tour Champions Senior PGA Championship Official # Senior PGA Championship The Concession Golf Club Bradenton, Florida • USA Apr 16 - 19, 2026 The Concession Golf Club Bradenton Apr 16 - 19, 2026 Full Coverage: srpgachampionship.com Image for article. Apr 19, 2026 [...] Apr 19, 2026 ## \n[Senior PGA Championship 2026 Golf Leaderboard - PGA Tour](https://www.pgatour.com/pgatour-champions/tournaments/2026/senior-pga-championship/S2026520) Senior PGA Championship The Concession Golf Club Bradenton, Florida • USA Apr 16 - 19, 2026\n[Senior PGA Championship 2026 - legendstour.com](https://www.legendstour.com/tournament/senior-pga-championship-2026) Cink seals Senior PGA Championship Stewart Cink delivered a dominant performance to win the 86th Senior PGA Championship, firing a stunning 9-under 63 on Sunday to secure a six-shot victory. Finishing at 19-under par—just one shot shy of the tournament record—Cink claimed his first senior major title and fourth win in his last six starts. A crucial mid-round eagle and birdie surge saw him"
   },
   {
    "role": "assistant",
-   "content": null,
-   "refusal": null,
-   "reasoning": null,
-   "tool_calls": [
-    {
-     "type": "function",
-     "index": 0,
-     "id": "call_OXy6Lf3EbS52nYCQqt87CQOy",
-     "function": {
-      "name": "web_search",
-      "arguments": "{\"query\":\"2026 in sports Senior PGA Championship winner\"}"
-     }
-    }
-   ]
-  },
-  {
-   "role": "tool",
-   "tool_call_id": "call_OXy6Lf3EbS52nYCQqt87CQOy",
-   "content": "[2026 PGA Championship] The 2026 PGA Championship was the 108th edition of the PGA Championship, the second of the four men's major golf championships held in 2026. The tournament took place on May 14–17 at Aronimink Golf Club in Newtown Square, Pennsylvania, a suburb west of Philadelphia. Aaron Rai won the golf tournament and his first career major championship, winning by three strokes over runners-up Jon Rahm and Alex Smalley. Rai became the second player of Indian heritage to win a men's major championship, after Vijay Singh, and the first from England to win the PGA Championship since Jim Barnes, who won the first two editions in 1916 and 1919. Rai became only the eighth player to win a major with a lower score in each round. | other articles: 2026 in sports, 2026 PGA Tour Champions season"
-  },
-  {
-   "role": "assistant",
-   "content": null,
-   "refusal": null,
-   "reasoning": null,
-   "tool_calls": [
-    {
-     "type": "function",
-     "index": 0,
-     "id": "call_2VQyrx16nOZG2AISjmSfPRs3",
-     "function": {
-      "name": "web_search",
-      "arguments": "{\"query\":\"2026 Senior PGA Championship results\"}"
-     }
-    }
-   ]
-  },
-  {
-   "role": "tool",
-   "tool_call_id": "call_2VQyrx16nOZG2AISjmSfPRs3",
-   "content": "[2026 PGA Championship] The 2026 PGA Championship was the 108th edition of the PGA Championship, the second of the four men's major golf championships held in 2026. The tournament took place on May 14–17 at Aronimink Golf Club in Newtown Square, Pennsylvania, a suburb west of Philadelphia. Aaron Rai won the golf tournament and his first career major championship, winning by three strokes over runners-up Jon Rahm and Alex Smalley. Rai became the second player of Indian heritage to win a men's major championship, after Vijay Singh, and the first from England to win the PGA Championship since Jim Barnes, who won the first two editions in 1916 and 1919. Rai became only the eighth player to win a major with a lower score in each round. | other articles: 2026 Open Championship, Jerry Kelly"
-  },
-  {
-   "role": "assistant",
-   "content": null,
-   "refusal": null,
-   "reasoning": null,
-   "tool_calls": [
-    {
-     "type": "function",
-     "index": 0,
-     "id": "call_BqzYAhPPTkPUjrHUfuhlIUDR",
-     "function": {
-      "name": "web_search",
-      "arguments": "{\"query\":\"2026 Senior PGA Championship winner results April\"}"
-     }
-    }
-   ]
-  },
-  {
-   "role": "tool",
-   "tool_call_id": "call_BqzYAhPPTkPUjrHUfuhlIUDR",
-   "content": "[2026 PGA Championship] The 2026 PGA Championship was the 108th edition of the PGA Championship, the second of the four men's major golf championships held in 2026. The tournament took place on May 14–17 at Aronimink Golf Club in Newtown Square, Pennsylvania, a suburb west of Philadelphia. Aaron Rai won the golf tournament and his first career major championship, winning by three strokes over runners-up Jon Rahm and Alex Smalley. Rai became the second player of Indian heritage to win a men's major championship, after Vijay Singh, and the first from England to win the PGA Championship since Jim Barnes, who won the first two editions in 1916 and 1919. Rai became only the eighth player to win a major with a lower score in each round. | other articles: PGA Professional Championship, Australian PGA Seniors Championship"
-  },
-  {
-   "role": "assistant",
-   "content": null,
-   "refusal": null,
-   "reasoning": null,
-   "tool_calls": [
-    {
-     "type": "function",
-     "index": 0,
-     "id": "call_K9Kp1WZzil1fhZluOIlz3iwp",
-     "function": {
-      "name": "web_search",
-      "arguments": "{\"query\":\"2026 Senior PGA Championship winner April The Concession Golf Club\"}"
-     }
-    }
-   ]
-  },
-  {
-   "role": "tool",
-   "tool_call_id": "call_K9Kp1WZzil1fhZluOIlz3iwp",
-   "content": "[Senior PGA Championship] The Senior PGA Championship, established in 1937, is the oldest of the five major championships in men's senior golf. It is administered by the Professional Golfers' Association of America and is recognized as a major championship by both PGA Tour Champions and the European Senior Tour. It was formerly an unofficial money event on the European Senior Tour, but since 2007 has been an official money event. Winners gain entry into the next PGA Championship. The winners prior to 1980, the first season of the senior tour, are not considered major champions of this event by the PGA Tour Champions. The lower age limit is 50, which is the standard limit for men's senior professional golf tournaments. Like its PGA Tour counterpart, the Senior PGA Championship allows club professionals to enter. The tournament committee gives former winners of the PGA Professional National Championship a one time invitation upon turning 50 years of age and the top 35 club professionals who qualify through the Senior PGA Professional National Championship. | other articles: Royal Birkdale Golf Club, 2026 in sports"
-  },
-  {
-   "role": "assistant",
-   "content": null,
-   "refusal": null,
-   "reasoning": null,
-   "tool_calls": [
-    {
-     "type": "function",
-     "index": 0,
-     "id": "call_oU9k8bOsXaeku8ZODhzEkN8g",
-     "function": {
-      "name": "web_search",
-      "arguments": "{\"query\":\"Senior PGA Championship 2026 results winner April\"}"
-     }
-    }
-   ]
-  },
-  {
-   "role": "tool",
-   "tool_call_id": "call_oU9k8bOsXaeku8ZODhzEkN8g",
-   "content": "[2026 PGA Championship] The 2026 PGA Championship was the 108th edition of the PGA Championship, the second of the four men's major golf championships held in 2026. The tournament took place on May 14–17 at Aronimink Golf Club in Newtown Square, Pennsylvania, a suburb west of Philadelphia. Aaron Rai won the golf tournament and his first career major championship, winning by three strokes over runners-up Jon Rahm and Alex Smalley. Rai became the second player of Indian heritage to win a men's major championship, after Vijay Singh, and the first from England to win the PGA Championship since Jim Barnes, who won the first two editions in 1916 and 1919. Rai became only the eighth player to win a major with a lower score in each round. | other articles: Australian PGA Seniors Championship, Richard Bland (golfer)"
-  },
-  {
-   "role": "assistant",
-   "content": null,
-   "refusal": null,
-   "reasoning": null,
-   "tool_calls": [
-    {
-     "type": "function",
-     "index": 0,
-     "id": "call_NmxCltWCFCvsJSRg5Y9MT277",
-     "function": {
-      "name": "web_search",
-      "arguments": "{\"query\":\"Senior PGA Championship April 2026 winner The Concession Golf Club\"}"
-     }
-    }
-   ]
-  },
-  {
-   "role": "tool",
-   "tool_call_id": "call_NmxCltWCFCvsJSRg5Y9MT277",
-   "content": "[Senior PGA Championship] The Senior PGA Championship, established in 1937, is the oldest of the five major championships in men's senior golf. It is administered by the Professional Golfers' Association of America and is recognized as a major championship by both PGA Tour Champions and the European Senior Tour. It was formerly an unofficial money event on the European Senior Tour, but since 2007 has been an official money event. Winners gain entry into the next PGA Championship. The winners prior to 1980, the first season of the senior tour, are not considered major champions of this event by the PGA Tour Champions. The lower age limit is 50, which is the standard limit for men's senior professional golf tournaments. Like its PGA Tour counterpart, the Senior PGA Championship allows club professionals to enter. The tournament committee gives former winners of the PGA Professional National Championship a one time invitation upon turning 50 years of age and the top 35 club professionals who qualify through the Senior PGA Professional National Championship. | other articles: Royal Birkdale Golf Club, 2026 in sports"
-  },
-  {
-   "role": "user",
-   "content": "Инструменты больше недоступны. Ответь по тому, что уже известно, последней строкой FINAL: <ответ>."
-  },
-  {
-   "role": "assistant",
-   "content": "К сожалению, у меня нет информации о победителе Чемпионата старших гольфистов (Senior PGA Championship) в апреле 2026 года на поле The Concession Golf Club. Я не смог найти данные по этому событию. \n\nFINAL: Неизвестно.",
+   "content": "Stewart Cink won the 2026 Senior PGA Championship at The Concession Golf Club, finishing with a course-record score of 63 and securing a six-shot victory. This marked his first senior major title. \n\nFINAL: Stewart Cink.",
    "refusal": null,
    "reasoning": null
   }

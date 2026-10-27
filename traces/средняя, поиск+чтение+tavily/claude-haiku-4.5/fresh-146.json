@@ -1,0 +1,66 @@
+{
+ "task": {
+  "id": "fresh-146",
+  "source": "fresh",
+  "question": "On which streaming service did Season 4 of The Legend of Vox Machina premiere on June 3, 2026?",
+  "answer": "Prime Video",
+  "evidence": "June 3: Season 4 of The Legend of Vox Machina premiered on Prime Video.",
+  "page": "2026 in animation",
+  "url": "https://en.wikipedia.org/wiki/2026_in_animation"
+ },
+ "answer": "FINAL: Season 4 of The Legend of Vox Machina premiered on **Prime Video** on June 3, 2026.",
+ "correct": true,
+ "cost": 0.005327999999999999,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You answer questions about recent events (2025–2026). Never answer from memory: use web_search (and tavily_search if available) to find the right article, then page_find to look inside long articles such as '2026 in <country or field>' for the specific fact. Do not repeat the same call. When done, write the last line as FINAL: <short answer>."
+  },
+  {
+   "role": "user",
+   "content": "On which streaming service did Season 4 of The Legend of Vox Machina premiere on June 3, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "I'll search for information about Season 4 of The Legend of Vox Machina and its premiere date.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01PEkSzfvJkqHTwZSna8UKDK",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\": \"The Legend of Vox Machina Season 4 premiere June 3 2026\"}"
+     }
+    },
+    {
+     "type": "function",
+     "index": 1,
+     "id": "toolu_bdrk_01MX2FyhY7swXxmbyX6pwrqL",
+     "function": {
+      "name": "tavily_search",
+      "arguments": "{\"query\": \"The Legend of Vox Machina Season 4 June 3 2026 streaming\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01PEkSzfvJkqHTwZSna8UKDK",
+   "content": "[The Legend of Vox Machina] The Legend of Vox Machina is an American adult animated fantasy television series produced by Metapigeon, Titmouse, Inc., and Amazon MGM Studios, which premiered on Amazon Prime Video on January 28, 2022. The series is based on the first campaign of the Dungeons & Dragons web series Critical Role. It stars Laura Bailey, Taliesin Jaffe, Ashley Johnson, Matthew Mercer, Liam O'Brien, Marisha Ray, Sam Riegel, and Travis Willingham, reprising their roles from the campaign. The first season consists of twelve episodes, the first ten of which were funded via a Kickstarter campaign. In November 2019, ahead of the series premiere, it was renewed by Amazon for a second season which premiered on January 20, 2023. In October 2022, ahead of season two's premiere, Amazon renewed the series for a third season, which premiered on October 3, 2024. It was renewed for a fourth season the same month, which premiered on June 3, 2026. In July 2025, Amazon renewed the show for a fifth and final season. The series received widespread acclaim from critics and audiences, with praise for its animation, humor, voice acting, action sequences, writing, and faithfulness to the actual play web show. A spin-off series set twenty years later, The Mighty Nein, premiered on November 19, 2025 and adapts Critical Role's second campaign. | other articles: List of The Legend of Vox Machina episodes, List of The Legend of Vox Machina characters"
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01MX2FyhY7swXxmbyX6pwrqL",
+   "content": "[The Legend of Vox Machina | Prime Video](http://press.amazonmgmstudios.com/us/en/press-release/the-whispers-are-trueprime-video-reveals-premiere-) CULVER CITY, California — March 3, 2026 — Today, Prime Video announced the return of the critically acclaimed and highly anticipated animated series, The Legend of Vox Machina Season Four on June 3, 2026. Season Four will have a three episode weekly rollout on Prime Video. The Legend of Vox Machina, from Critical Role and Titmouse, has remained consistent throughout all three seasons with a score of 100% on Rotten Tomatoes. It will be available in more than 240 countries and territories [...] × \n[What time will The Legend of Vox Machina season 4 be ...](https://www.radiotimes.com/tv/fantasy/legend-vox-machina-season-4-release-time) Jun 2, 2026 — The Legend of Vox Machina season 4 will premiere on Prime Video on 3 June 2026. Seasons 1-3 are currently available to stream on Prime Video\n[The epic journey continues with the first three episodes of ...](https://www.facebook.com/PrimeVideo/videos/the-epic-journey-continues-with-the-first-three-episodes-of-season-4-of-the-lege/1360144866019289) first three episodes of Season 4 of The Legend of Vox Machina, streaming now, exclusively on Prime Video. Jun 3, 2026· the first three episodes\n[Vox Machina season 4 release date... all of'em! (Updated June 2026) | Popverse](https://www.thepopverse.com/tv-gaming-critical-role-legend-of-vox-machina-season-4-release-schedule) As you can see, the above chart lists the date on which every episode of The Legend of Vox Machina season 4 drops. But to get into the nitty-gritty of it all, let's take a close look at the exact time of day that The Legend of Vox Machina season 4 episodes will be available to stream. ## Vox Machina season 4 release date FAQ #2 - When does Vox Machina season 4 come out? The Legend of Vox Machina season 4 debuted on Prime Video June 3, with new episodes dropping at 7 PM EST, 4 PM PST. [...] The L\n[The Legend of Vox Machina Season 4 Sets Premiere Date - Nerdist](https://nerdist.com/article/the-legend-of-vox-machina-season-4-sets-premiere-date-prime-video) Machina season four will release on June 3, 2026. And there was great rejoicing throughout the land! You can watch a teaser trailer for The Legend of Vox Machina‘s fourth chapter below. [...] As mentioned, The Legend of Vox Machina season four will premiere on June 3, 2026. ## What Is The Legend of Vox Machina Season 4’s Release Schedule? The Legend of Vox Ma"
+  },
+  {
+   "role": "assistant",
+   "content": "FINAL: Season 4 of The Legend of Vox Machina premiered on **Prime Video** on June 3, 2026.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

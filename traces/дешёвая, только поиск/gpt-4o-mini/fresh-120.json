@@ -1,0 +1,76 @@
+{
+ "task": {
+  "id": "fresh-120",
+  "source": "fresh",
+  "question": "What operation was involved in the United States seizing tankers in January 2026?",
+  "answer": "Operation Southern Spear",
+  "evidence": "January 7 – The United States seizes two shadow fleet tankers, including one under a Russian flag, in the United States oil blockade during Operation Southern Spear.",
+  "page": "2026",
+  "url": "https://en.wikipedia.org/wiki/2026",
+  "sonnet_answer": "The seizure of tankers in January 2026 was part of US enforcement of sanctions on Iranian oil, connected to the maximum pressure campaign against Iran. The specific operation name I'm not certain of — this may be beyond my reliable knowledge cutoff details.",
+  "agent_ok": false
+ },
+ "answer": "In January 2026, the United States conducted maritime operations under \"Operation Southern Spear,\" which included the seizure of tankers involved in oil trade with Venezuela. Notable seizures included the Russian oil tanker Marinera and the Panama-flagged M Sophia, both previously sanctioned by the U.S. government. \n\nFINAL: Operation Southern Spear.",
+ "correct": true,
+ "cost": 0.00029955000000000953,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You answer questions about recent events (2025–2026). Never answer from memory: use web_search (and tavily_search if available) to find the right article, then page_find to look inside long articles such as '2026 in <country or field>' for the specific fact. Do not repeat the same call. When done, write the last line as FINAL: <short answer>."
+  },
+  {
+   "role": "user",
+   "content": "What operation was involved in the United States seizing tankers in January 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_9segXb1hMAxlHXrPJ4EtB6G0",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"United States seizing tankers January 2026 operation\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_9segXb1hMAxlHXrPJ4EtB6G0",
+   "content": "[2026 in the United States] The following is a list of events of the year 2026 in the United States, as well as predicted and scheduled events that have not yet occurred. July 4, 2026 was the 250th anniversary of the signing of the Declaration of Independence of the United States from Great Britain. Under the second year of Donald Trump's second presidency, the United States has engaged in attacks against its adversaries. In January 2026, the U.S. launched a military raid in Venezuela that captured its president Nicolás Maduro. In February 2026, the U.S. launched a major attack on Iran with Israel with the stated goal of regime change, killing its leader Ali Khamenei. Domestically, the US underwent two partial government shutdowns, with the first lasting four days, from January 31 to February 3, and the second lasting approximately 76 days, from February 14 to April 30, becoming the longest government shutdown in U.S. history and impacting the US Department of Homeland Security, with the core issue regarding the funding of Immigration and Customs Enforcement. In addition, 2026 saw the first major judicial actions against prediction markets, in particular Kalshi and the usage of its platform and other prediction markets to bypass state regulations on sports betting, with Nevada being the first to land a court-enforced ban of Kalshi and Arizona being the first to file criminal charges against Kalshi. In science and technology, the most prominent story so far has been the April 2026 NASA mission Artemis II | other articles: 2026 United States intervention in Venezuela, 2026 Strait of Hormuz crisis"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_U8of61cpuAd1u0wCmzUp8BA1",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"2026 United States Venezuela tankers operation\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_U8of61cpuAd1u0wCmzUp8BA1",
+   "content": "[2025–2026 United States oil blockade of Venezuela] As part of Operation Southern Spear, the United States enacted a blockade on sanctioned oil tankers traveling in and out of Venezuela on 17 December 2025, after placing additional sanctions affecting oil trade with the country. A week before announcing the blockade, the US seized the oil tanker Skipper in the Caribbean Sea off the coast of Venezuela on 10 December, and then focused its military efforts on intercepting and pursuing other tankers trading with Venezuela. On 7 January 2026, the United States boarded and seized the Russian oil tanker Marinera (formerly Bella 1) in the Atlantic near Iceland and the Panama-flagged M Sophia in the Caribbean Sea. Skipper had been sanctioned by the United States Department of the Treasury in 2022 for alleged involvement in an oil trafficking shadow fleet of vessels involving the Islamic Revolutionary Guard Corps and Hezbollah. Marinera and Sophia had also been sanctioned by the Treasury Department. The Venezuelan government condemned the seizure of Skipper, describing it as an \"act of international piracy\". UN Security Council members urged restraint and some UN representatives condemned the naval blockade, and analysts said US actions tested maritime law. | other articles: 2026 in the United States, 2026 United States intervention in Venezuela"
+  },
+  {
+   "role": "assistant",
+   "content": "In January 2026, the United States conducted maritime operations under \"Operation Southern Spear,\" which included the seizure of tankers involved in oil trade with Venezuela. Notable seizures included the Russian oil tanker Marinera and the Panama-flagged M Sophia, both previously sanctioned by the U.S. government. \n\nFINAL: Operation Southern Spear.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

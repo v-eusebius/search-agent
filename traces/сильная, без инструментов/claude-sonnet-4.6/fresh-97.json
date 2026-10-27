@@ -1,0 +1,24 @@
+{
+ "task": {
+  "id": "fresh-97",
+  "source": "fresh",
+  "question": "Where was the 2026 Major League Baseball All-Star Game held?",
+  "answer": "Citizens Bank Park",
+  "evidence": "July 14: 2026 Major League Baseball All-Star Game at Citizens Bank Park in Philadelphia, Pennsylvania",
+  "page": "2026 in sports",
+  "url": "https://en.wikipedia.org/wiki/2026_in_sports",
+  "sonnet_answer": "Truist Park in Atlanta, Georgia",
+  "agent_ok": true
+ },
+ "answer": "FINAL: Unknown (the 2026 MLB All-Star Game has not yet taken place as of my knowledge cutoff).",
+ "correct": false,
+ "cost": 0.0005310000000000002,
+ "messages": [
+  {
+   "role": "assistant",
+   "content": "Unknown (the 2026 MLB All-Star Game has not yet taken place as of my knowledge cutoff).",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

@@ -10,13 +10,13 @@
   "sonnet_answer": "November 25, 2021",
   "agent_ok": false
  },
- "answer": "FINAL: July 24, 2020.",
+ "answer": "FINAL: July 24, 2020",
  "correct": false,
- "cost": 0.00032099999999999924,
+ "cost": 0.00030599999999999985,
  "messages": [
   {
    "role": "assistant",
-   "content": "July 24, 2020.",
+   "content": "July 24, 2020",
    "refusal": null,
    "reasoning": null
   }

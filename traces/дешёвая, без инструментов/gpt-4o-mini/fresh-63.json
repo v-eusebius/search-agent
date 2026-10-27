@@ -1,0 +1,24 @@
+{
+ "task": {
+  "id": "fresh-63",
+  "source": "fresh",
+  "question": "How many people were killed in the avalanche near Ratschings in March 2026?",
+  "answer": "Two",
+  "evidence": "21 March – Two people are killed in an avalanche at the Hohe Ferse near Ratschings.",
+  "page": "2026 in Italy",
+  "url": "https://en.wikipedia.org/wiki/2026_in_Italy",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "FINAL: Unknown.",
+ "correct": false,
+ "cost": 7.650000000004875e-06,
+ "messages": [
+  {
+   "role": "assistant",
+   "content": "Unknown.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

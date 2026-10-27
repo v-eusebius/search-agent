@@ -10,11 +10,11 @@
   "sonnet_answer": "unknown",
   "agent_ok": true
  },
- "answer": "Unknown.",
- "correct": false,
- "cost": 0.0005058000000000007,
- "escalated": true,
- "confidence": 0.0,
+ "answer": "Richard Lewer",
+ "correct": true,
+ "cost": 0.00032684999999998965,
+ "escalated": false,
+ "confidence": 1.0,
  "agent_messages": [
   {
    "role": "system",
@@ -33,9 +33,9 @@
     {
      "type": "function",
      "index": 0,
-     "id": "call_6dQuHFwHO0RuJKd6BNaJDGff",
+     "id": "call_gMrrqzBekvAheNAXjai75JI6",
      "function": {
-      "name": "web_search",
+      "name": "tavily_search",
       "arguments": "{\"query\":\"Archibald Prize winner May 8 2026\"}"
      }
     }
@@ -43,34 +43,12 @@
   },
   {
    "role": "tool",
-   "tool_call_id": "call_6dQuHFwHO0RuJKd6BNaJDGff",
-   "content": "[Archibald Prize] The Archibald Prize is an Australian portraiture art prize for painting, generally seen as the most prestigious portrait prize in Australia. It was first awarded in 1921 after the receipt of a bequest from J. F. Archibald, the editor of The Bulletin who died in 1919. It is administered by the trustees of the Art Gallery of New South Wales and awarded for \"the best portrait, preferentially of some man or woman distinguished in Art, Letters, Science or Politics, painted by an artist resident in Australia during the twelve months preceding the date fixed by the trustees for sending in the pictures\". The Archibald Prize has been awarded annually since 1921 (with two exceptions) and since July 2015 the prize has been AU$100,000. | other articles: List of Archibald Prize winners, List of Archibald Prize 2026 finalists"
+   "tool_call_id": "call_gMrrqzBekvAheNAXjai75JI6",
+   "content": "[Richard Lewer Wins Australia's Top Portrait Prize](https://www.artforum.com/news/richard-lewer-receives-2026-archibald-prize-1234750082) The Art Gallery of New South Wales (AGNSW) on May 8 named Richard Lewer the winner of the 2026 Archibald Prize. The award, considered Australia’s top portrait honor, is presented annually in recognition of the best portrait of an individual “distinguished in art, letters, science or politics” painted by an Australian resident. The New Zealand–born Lewer, a six-time Archibald finalist who lives and works in Melbourne, won the AU$100,000 prize (US$72,000) for his synthetic-polymer-paint-on-canvas \n[Instagram](https://www.instagram.com/p/DYD58IWDx7H?hl=en) 🔊 JUST ANNOUNCED: Congratulations to Richard Lewer, who has won the Archibald Prize 2026 for ‘Iluwanti Ken’ depicting Iluwanti Ken, a Pitjantjatjara Elder, senior artist and ngangkari (traditional healer). A six-time #ArchibaldPrize finalist, @richard\\_lewer said he was happy and proud to receive the phone call from Art Gallery of New South Wales director @Maudpage\\_ informing him of his win. [...] ‘Archibald, Wynne and Sulman Prizes 2026’ is proudly presented by @anz\\_au and supported by major \n[List of Archibald Prize 2026 finalists - Wikipedia](https://en.wikipedia.org/wiki/List_of_Archibald_Prize_2026_finalists) Amanda Davies – Marta Julia Dover – My friend Betina Fauvel-Ogden – Pride Robert Fielding \"Robert Fielding (artist)\") – Tjintir-Tjintir Juan Ford – Portrait of Chloé Hayden Stephanie Galloway Brown – Layne Beachley AO Tsering Hannaford – Portrait of Loribelle Spirovski (after Dürer) Daniel Kim – Lesleigh 'Alémais' Sean Lahy – The tragicall historie of Hamlet, Prince of Denmarke (Winner: Packing Room Prize 2026) Richard Lewer – Iluwanti Ken (Winner: Archibald Prize 2026) [...] 1. 1 2 \"Archibald P\n[Archibald Prize finalists 2026 | Art Gallery of NSW](https://www.artgallery.nsw.gov.au/prizes/archibald/2026) We acknowledge the Gadigal, the traditional custodians of the Country on which the Art Gallery of New South Wales stands. Art Gallery NSW # Archibald Prize 2026 Entries: 1034 (59 selected) Presenting partner: ANZ From 9 May to 16 August 2026, finalists and winners are exhibited in Archibald, Wynne and Sulman Prizes 2026. Winner: Archibald Prize 2026 ### Richard Lewer Iluwanti Ken Winner: Packing Room Prize 2026 ### Sean Layh The tragicall historie of Hamlet, Prince of Denmarke [...] #### Sean La\n[Archibald, Wynne and Sulman Prizes 2026 | Art Gallery of NSW](ht"
   },
   {
    "role": "assistant",
-   "content": null,
-   "refusal": null,
-   "reasoning": null,
-   "tool_calls": [
-    {
-     "type": "function",
-     "index": 0,
-     "id": "call_IIc4vTurjbE1exNGMQRS6uW2",
-     "function": {
-      "name": "page_find",
-      "arguments": "{\"title\":\"2026 in Australia\",\"keywords\":\"Archibald Prize winner May 8 2026\"}"
-     }
-    }
-   ]
-  },
-  {
-   "role": "tool",
-   "tool_call_id": "call_IIc4vTurjbE1exNGMQRS6uW2",
-   "content": "8 May – Richard Lewer wins the Archibald Prize for his portrait of artist, traditional healer, and Aboriginal elder Iluwanti Ken."
-  },
-  {
-   "role": "assistant",
-   "content": "Richard Lewer won the Archibald Prize on May 8, 2026, for his portrait of Iluwanti Ken, an artist, traditional healer, and Aboriginal elder. \n\nFINAL: Richard Lewer",
+   "content": "Richard Lewer won the Archibald Prize on May 8, 2026, for his portrait titled \"Iluwanti Ken,\" which depicts Iluwanti Ken, a Pitjantjatjara Elder and traditional healer. FINAL: Richard Lewer",
    "refusal": null,
    "reasoning": null
   }

@@ -1,0 +1,24 @@
+{
+ "task": {
+  "id": "fresh-76",
+  "source": "fresh",
+  "question": "What was the sentence given to former president Yoon Suk Yeol in South Korea in February 2026?",
+  "answer": "life imprisonment",
+  "evidence": "19 February – Former president Yoon Suk Yeol is convicted and sentenced to life imprisonment for insurrection relating to the 2024 South Korean martial law crisis.",
+  "page": "2026 in South Korea",
+  "url": "https://en.wikipedia.org/wiki/2026_in_South_Korea",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "FINAL: Unknown.",
+ "correct": false,
+ "cost": 0.00023100000000000204,
+ "messages": [
+  {
+   "role": "assistant",
+   "content": "Unknown.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

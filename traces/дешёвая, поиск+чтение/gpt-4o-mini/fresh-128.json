@@ -8,9 +8,9 @@
   "page": "2026 in sports",
   "url": "https://en.wikipedia.org/wiki/2026_in_sports"
  },
- "answer": "Ryan Fox won the 2026 Open Championship at Royal Birkdale in July 2026, finishing one stroke ahead of Cameron Young. FINAL: Ryan Fox.",
+ "answer": "Ryan Fox won the 2026 Open Championship at Royal Birkdale, defeating Cameron Young by one stroke. FINAL: Ryan Fox.",
  "correct": true,
- "cost": 0.0002287499999999998,
+ "cost": 0.0001219499999999818,
  "messages": [
   {
    "role": "system",
@@ -29,7 +29,7 @@
     {
      "type": "function",
      "index": 0,
-     "id": "call_wfpFg3t3DNesthxO4ScxTANm",
+     "id": "call_eh9G6AAT4tRcdxSEmeGwHvWk",
      "function": {
       "name": "web_search",
       "arguments": "{\"query\":\"2026 Open Championship winner Royal Birkdale\"}"
@@ -39,34 +39,12 @@
   },
   {
    "role": "tool",
-   "tool_call_id": "call_wfpFg3t3DNesthxO4ScxTANm",
+   "tool_call_id": "call_eh9G6AAT4tRcdxSEmeGwHvWk",
    "content": "[2026 Open Championship] The 2026 Open Championship, officially the 154th Open Championship, was a golf tournament played from 16–19 July 2026 at Royal Birkdale Golf Club. It was the 11th Open held at the club. Ryan Fox became the third New Zealander to win a golf major, winning by one stroke over Cameron Young. | other articles: Royal Birkdale Golf Club, Birkdale, Southport"
   },
   {
    "role": "assistant",
-   "content": null,
-   "refusal": null,
-   "reasoning": null,
-   "tool_calls": [
-    {
-     "type": "function",
-     "index": 0,
-     "id": "call_wIm92a2FMy3KZEfFLUuYsZku",
-     "function": {
-      "name": "page_find",
-      "arguments": "{\"title\":\"2026 Open Championship\",\"keywords\":\"winner, Ryan Fox\"}"
-     }
-    }
-   ]
-  },
-  {
-   "role": "tool",
-   "tool_call_id": "call_wIm92a2FMy3KZEfFLUuYsZku",
-   "content": "Ryan Fox became the third New Zealander to win a golf major, winning by one stroke over Cameron Young.\nRyan Fox, who went out early during the third round, shot an eight under round of 62, joining Burns and Lucas Herbert, who shot 62 during the second round. Fox's 62 also set the record for most low rounds in any major with three. Fox's round also put him in a tie for second with Kim Si-woo at −8.\nRyan Fox of New Zealand, who began the final round two shots behind Sam Burns, overcame a dramatic back nine to win the 2026 Open Championship at Royal Birkdale. Fox shot a two under 68 to finish at 10-under-par and claim his first major championship by one stroke over Cameron Young. Fox made four birdies in his final six holes, including a 12-foot birdie putt on the 18th, to become only the secon"
-  },
-  {
-   "role": "assistant",
-   "content": "Ryan Fox won the 2026 Open Championship at Royal Birkdale in July 2026, finishing one stroke ahead of Cameron Young. FINAL: Ryan Fox.",
+   "content": "Ryan Fox won the 2026 Open Championship at Royal Birkdale, defeating Cameron Young by one stroke. FINAL: Ryan Fox.",
    "refusal": null,
    "reasoning": null
   }

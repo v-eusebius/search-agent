@@ -8,9 +8,9 @@
   "page": "2026 in animation",
   "url": "https://en.wikipedia.org/wiki/2026_in_animation"
  },
- "answer": "The \"Rick and Morty\" spin-off that premiered on Adult Swim on July 26, 2026, is titled **President Curtis**. \n\nFINAL: President Curtis",
+ "answer": "The Rick and Morty spin-off that premiered on Adult Swim on July 26, 2026, is called \"President Curtis.\" It features Keith David as the titular character and debuted immediately following the ninth season finale of the original series. \n\nFINAL: President Curtis",
  "correct": true,
- "cost": 0.0002071500000000448,
+ "cost": 0.00040919999999999845,
  "messages": [
   {
    "role": "system",
@@ -29,22 +29,44 @@
     {
      "type": "function",
      "index": 0,
-     "id": "call_ypmXurv6LGLGwQNzi8U2QTWg",
+     "id": "call_bL4ujE8pvReXeREmpBeg9om1",
      "function": {
       "name": "tavily_search",
-      "arguments": "{\"query\":\"Rick and Morty spin-off premiered July 26 2026\"}"
+      "arguments": "{\"query\":\"Rick and Morty spin-off July 26 2026 premiere Adult Swim\"}"
      }
     }
    ]
   },
   {
    "role": "tool",
-   "tool_call_id": "call_ypmXurv6LGLGwQNzi8U2QTWg",
-   "content": "[President Curtis: Rick and Morty Spinoff Gets Premiere Date, Trailer](https://www.hollywoodreporter.com/tv/tv-news/president-curtis-rick-and-morty-spinoff-premiere-trailer-1236629046) Adult Swim‘s new series President Curtis is set to premiere July 26 at 11:30 p.m., The Hollywood Reporter has learned. The project is a spinoff of Rick and Morty and will debut immediately following the season nine finale of the flagship series. President Curtis episodes will stream the following day on HBO Max. [...] ### Essential Reads Ella Beatty as Lizzie Borden in episode 402 of Monster: The Lizzie Borden Story. ### TV Premiere Dates 2026: The Complete Guide From left 'Friday Night Lights,'\n[It is confirmed that the Rick and Morty spin-off, President ...](https://www.facebook.com/YourCountTo/posts/it-is-confirmed-that-the-rick-and-morty-spin-off-president-curtis-is-scheduled-t/1409603053950324) It is confirmed that the Rick and Morty spin-off, President Curtis, is scheduled to premiere in late 2026 on Adult Swim.\n[Trailer: 'Rick and Morty' Spin-Off 'President Curtis' Sets July ...](https://www.animationmagazine.net/2026/06/trailer-rick-and-morty-spin-off-president-curtis-sets-july-premiere-new-images) Starring Keith David, the new adult animated series 'President Curtis' from Dan Harmon and James Siciliano premieres July 26 on Adult Swim.\n['President Curtis' | 'Rick and Morty' Spin-Off Premiering July 26 ...](https://www.reddit.com/r/television/comments/1uejc2z/president_curtis_rick_and_morty_spinoff) 'President Curtis' | 'Rick and Morty' Spin-Off Premiering July 26 @ 11:30pm | [adult swim] ... A Rick and Morty spin off sounds stupid, but\n[Buckle up, fam! We're getting a President Curtis TV series ...](https://www.instagram.com/p/DZhds8SjdnQ) 'Rick & Morty' spin-off series 'President Curtis' has already been renewed for Season 2. Season 1 will premiere on Adult Swim July 26 after the"
+   "tool_call_id": "call_bL4ujE8pvReXeREmpBeg9om1",
+   "content": "[President Curtis: Rick and Morty Spinoff Gets Premiere Date, Trailer](https://www.hollywoodreporter.com/tv/tv-news/president-curtis-rick-and-morty-spinoff-premiere-trailer-1236629046) Adult Swim‘s new series President Curtis is set to premiere July 26 at 11:30 p.m., The Hollywood Reporter has learned. The project is a spinoff of Rick and Morty and will debut immediately following the season nine finale of the flagship series. President Curtis episodes will stream the following day on HBO Max. [...] Betty Gilpin and Ethan Hawke in The Lowdown season 2 ### TV Premiere Dates 2026: The Complete Guide From left 'Friday Night Lights,' 'Shorsey,' 'Pitch,' 'Glow,' 'Survivors Remorse'\n[Instagram](https://www.instagram.com/p/DaeBZ9wCPiF?hl=en) Rick and Morty‘s new spinoff will begin on July 26 at Adult Swim the same night the original show’s ninth season ends. President Curtis will see Keith David’s Commander-in-Chief having his own adventures free of the multiverse’s drunkest grandpa. Considering how many times Rick and Morty have partnered with (or against) their world’s POTUS, it’s been unclear exactly how this new show will differentiate itself from the old one. [...] But co-creators Dan Harmon and James Siciliano have provided an\n[Trailer: 'Rick and Morty' Spin-Off 'President Curtis' Sets July Premiere (New Images) - Animation Magazine](https://www.animationmagazine.net/2026/06/trailer-rick-and-morty-spin-off-president-curtis-sets-july-premiere-new-images) FacebookXLinkedin Adult Swim today debuted the official trailer for President Curtis alongside a slew of new images featuring the fearless leader. Headlined by Emmy Award-winning actor Keith David in the title role, the new adult animated comedy will debut July 26 at 11:30 p.m. ET/PT, immediately following the Rick and Morty season finale. Episodes will be available to stream the next day on HBO Max. [...] Subscription + – New Subscription + – Renew Subscription + – Gift Subscription + – Subscri\n['President Curtis' Creators On Their 'Rick And Morty' Spin-Off](https://deadline.com/2026/07/president-curtis-adult-swim-dan-harmon-james-siciliano-1236969898) 'President Curtis' EXCLUSIVE: The Rick and Morty universe is about to expand with the launch of President Curtis on Adult Swim on July 26, and its creators have told Deadline how the two madcap animated series connect. [...] ### Dan Harmon Talks Overhauling 'Rick And Morty' Workplace, Fears & Hopes For Future Of Adult Animation - Contenders TV Nominees Studio"
   },
   {
    "role": "assistant",
-   "content": "The \"Rick and Morty\" spin-off that premiered on Adult Swim on July 26, 2026, is titled **President Curtis**. \n\nFINAL: President Curtis",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_eTzZCNABtId72cD8WP0YBAip",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"President Curtis\",\"keywords\":\"premiere July 26 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_eTzZCNABtId72cD8WP0YBAip",
+   "content": "НЕ удалось вызвать инструмент page_find: HTTPSConnectionPool(host='en.wikipedia.org', port=443): Max retries exceeded with url: /w/api.php?action=query&prop=extracts&explaintext=1&titles=President+Curtis&redirects=1&format=json (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)')))"
+  },
+  {
+   "role": "assistant",
+   "content": "The Rick and Morty spin-off that premiered on Adult Swim on July 26, 2026, is called \"President Curtis.\" It features Keith David as the titular character and debuted immediately following the ninth season finale of the original series. \n\nFINAL: President Curtis",
    "refusal": null,
    "reasoning": null
   }

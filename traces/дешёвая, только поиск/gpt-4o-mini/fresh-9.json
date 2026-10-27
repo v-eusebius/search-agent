@@ -10,9 +10,9 @@
   "sonnet_answer": "Zhengzhou",
   "agent_ok": true
  },
- "answer": "The 2026 BWF World Championships was hosted in New Delhi, India. FINAL: New Delhi.",
+ "answer": "The 2026 BWF World Championships were hosted in New Delhi, India, in August 2026. FINAL: New Delhi.",
  "correct": true,
- "cost": 9.164999999999868e-05,
+ "cost": 9.525000000000505e-05,
  "messages": [
   {
    "role": "system",
@@ -31,7 +31,7 @@
     {
      "type": "function",
      "index": 0,
-     "id": "call_BuAnZwndeAW6fdHJOh3BvK6E",
+     "id": "call_Io2lpO7LBZKzJDHGahZAeoXp",
      "function": {
       "name": "web_search",
       "arguments": "{\"query\":\"2026 BWF World Championships host city August\"}"
@@ -41,12 +41,12 @@
   },
   {
    "role": "tool",
-   "tool_call_id": "call_BuAnZwndeAW6fdHJOh3BvK6E",
+   "tool_call_id": "call_Io2lpO7LBZKzJDHGahZAeoXp",
    "content": "[2026 BWF World Championships] The 2026 BWF World Championships is the 30th edition of the world badminton championships. It took place in New Delhi, India in 2026. India hosted the World Championships for the first time since 2009. | other articles: 2026 BWF World Tour, BWF World Championships"
   },
   {
    "role": "assistant",
-   "content": "The 2026 BWF World Championships was hosted in New Delhi, India. FINAL: New Delhi.",
+   "content": "The 2026 BWF World Championships were hosted in New Delhi, India, in August 2026. FINAL: New Delhi.",
    "refusal": null,
    "reasoning": null
   }

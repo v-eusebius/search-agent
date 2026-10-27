@@ -1,0 +1,66 @@
+{
+ "task": {
+  "id": "fresh-140",
+  "source": "fresh",
+  "question": "Which Rick and Morty spin-off premiered on Adult Swim on July 26, 2026?",
+  "answer": "President Curtis",
+  "evidence": "July 26: The Rick and Morty spin-off President Curtis premiered on Adult Swim (and then on HBO Max the following day).",
+  "page": "2026 in animation",
+  "url": "https://en.wikipedia.org/wiki/2026_in_animation"
+ },
+ "answer": "FINAL: **President Curtis** is the Rick and Morty spin-off that premiered on Adult Swim on July 26, 2026. The show debuted at 11:30 p.m. ET/PT, immediately following the Rick and Morty season 9 finale, and stars Keith David in the title role.",
+ "correct": true,
+ "cost": 0.005346999999999991,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You answer questions about recent events (2025–2026). Never answer from memory: use web_search (and tavily_search if available) to find the right article, then page_find to look inside long articles such as '2026 in <country or field>' for the specific fact. Do not repeat the same call. When done, write the last line as FINAL: <short answer>."
+  },
+  {
+   "role": "user",
+   "content": "Which Rick and Morty spin-off premiered on Adult Swim on July 26, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "I'll search for information about Rick and Morty spin-offs that premiered on Adult Swim in July 2026.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01H5qvfLuYxqFhvxGWWpK9je",
+     "function": {
+      "name": "tavily_search",
+      "arguments": "{\"query\": \"Rick and Morty spin-off Adult Swim July 26 2026 premiere\"}"
+     }
+    },
+    {
+     "type": "function",
+     "index": 1,
+     "id": "toolu_bdrk_01CSjmKGnRhigRxuWNT5dHY2",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\": \"Rick and Morty spin-off July 2026 Adult Swim\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01H5qvfLuYxqFhvxGWWpK9je",
+   "content": "[President Curtis: Rick and Morty Spinoff Gets Premiere Date, Trailer](https://www.hollywoodreporter.com/tv/tv-news/president-curtis-rick-and-morty-spinoff-premiere-trailer-1236629046) Adult Swim‘s new series President Curtis is set to premiere July 26 at 11:30 p.m., The Hollywood Reporter has learned. The project is a spinoff of Rick and Morty and will debut immediately following the season nine finale of the flagship series. President Curtis episodes will stream the following day on HBO Max. [...] Betty Gilpin and Ethan Hawke in The Lowdown season 2 ### TV Premiere Dates 2026: The Complete Guide From left 'Friday Night Lights,' 'Shorsey,' 'Pitch,' 'Glow,' 'Survivors Remorse'\n[‘President Curtis’: Everything We Know About the ‘Rick and Morty’ Spinoff](https://www.tvinsider.com/1273033/president-curtis-adult-swim-cast-premiere-date-details) President Curtis is cocreated by Dan Harmon and James Siciliano, both executive producers on Rick and Morty. The two also serve as executive producers on President Curtis alongside Danielle Uhlarik, Monica Mitchell, and Steve Levy. President Curtis, Series Premiere, July 26, 11:30p/10:30c, Adult Swim President Curtis key art Keith David Keith DavidJim Rash Jim RashStephanie Beatriz Stephanie Beatriz⨁Full Cast & Crew #### Adult Swim #### Series #### 2026– #### TV14 #### Animated [...] ## When doe\n[Trailer: 'Rick and Morty' Spin-Off 'President Curtis' Sets July Premiere (New Images) - Animation Magazine](https://www.animationmagazine.net/2026/06/trailer-rick-and-morty-spin-off-president-curtis-sets-july-premiere-new-images) FacebookXLinkedin Adult Swim today debuted the official trailer for President Curtis alongside a slew of new images featuring the fearless leader. Headlined by Emmy Award-winning actor Keith David in the title role, the new adult animated comedy will debut July 26 at 11:30 p.m. ET/PT, immediately following the Rick and Morty season finale. Episodes will be available to stream the next day on HBO Max. [...] Subscription + – New Subscription + – Renew Subscription + – Gift Subscription + – Subscri\n[President Curtis premieres on Adult Swim July 26th at 11:30p](https://www.facebook.com/RickandMorty/posts/president-curtis-premieres-on-adult-swim-july-26th-at-1130p-next-day-hbo-max/1561018042054623) This promotional clip for the animated series 'President Curtis' features characters from Rick and Morty. It depicts an action-packed battle ...Read more\n[The President Is Calling Premieres July 26 on Adult Swim ."
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01CSjmKGnRhigRxuWNT5dHY2",
+   "content": "[List of Rick and Morty episodes] Rick and Morty is an American animated science fiction sitcom created by Justin Roiland and Dan Harmon. The series follows Rick Sanchez, an alcoholic, nihilistic mad scientist, and his easily distressed grandson, Morty Smith as they travel to parallel dimensions and exotic planets with extraterrestrials. These adventures commonly cause trouble for Morty's family (Jerry, Beth, and Summer), who are often dragged along as well. The series premiered on December 2, 2013, on Cartoon Network's late-night programming block Adult Swim. On May 10, 2018, Adult Swim announced a long-term deal with the creators, ordering 70 new episodes of Rick and Morty, through to a tenth season. At a New York Comic Con panel in 2024, it was announced that the series had been renewed for an additional two seasons, renewing the show through season 12. The ninth season premiered on May 24, 2026. As of July 26, 2026, 91 episodes of Rick and Morty have aired, currently in its ninth season. | other articles: Rick and Morty, Rick and Morty (franchise)"
+  },
+  {
+   "role": "assistant",
+   "content": "FINAL: **President Curtis** is the Rick and Morty spin-off that premiered on Adult Swim on July 26, 2026. The show debuted at 11:30 p.m. ET/PT, immediately following the Rick and Morty season 9 finale, and stars Keith David in the title role.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

@@ -2,15 +2,15 @@
  "task": {
   "id": "fresh-134",
   "source": "fresh",
-  "question": "In which city were the 2026 Central American and Caribbean Games held?",
-  "answer": "Santo Domingo",
-  "evidence": "July 24 – August 8: 2026 Central American and Caribbean Games in Santo Domingo",
+  "question": "Who won Super Bowl LX on February 8, 2026?",
+  "answer": "Seattle Seahawks",
+  "evidence": "February 8: Super Bowl LX in Santa Clara, California. Seattle Seahawks defeated New England Patriots, 29–13",
   "page": "2026 in sports",
   "url": "https://en.wikipedia.org/wiki/2026_in_sports"
  },
  "answer": "FINAL: Unknown.",
  "correct": false,
- "cost": 7.200000000000609e-06,
+ "cost": 7.049999999994561e-06,
  "messages": [
   {
    "role": "assistant",

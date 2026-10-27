@@ -8,9 +8,9 @@
   "page": "2026 in sports",
   "url": "https://en.wikipedia.org/wiki/2026_in_sports"
  },
- "answer": "Stewart Cink won the 2026 Senior PGA Championship at The Concession Golf Club, securing his first senior major title with a record-setting final round score of 9-under 63. FINAL: Stewart Cink.",
+ "answer": "Stewart Cink won the Senior PGA Championship at The Concession Golf Club in April 2026. He finished with a score of 269, which is 19 under par, and secured the victory by six strokes over runner-up Ben Crane. \n\nFINAL: Stewart Cink",
  "correct": true,
- "cost": 0.0007207499999999367,
+ "cost": 0.0006516000000000854,
  "messages": [
   {
    "role": "system",
@@ -29,18 +29,18 @@
     {
      "type": "function",
      "index": 0,
-     "id": "call_yPG4FflbriXNkp2WBenbthGV",
+     "id": "call_11RExYi5OaRiRnTFJASB5dAX",
      "function": {
       "name": "tavily_search",
-      "arguments": "{\"query\":\"Senior PGA Championship The Concession Golf Club April 2026 winner\"}"
+      "arguments": "{\"query\":\"Senior PGA Championship 2026 winner The Concession Golf Club\"}"
      }
     }
    ]
   },
   {
    "role": "tool",
-   "tool_call_id": "call_yPG4FflbriXNkp2WBenbthGV",
-   "content": "[Senior PGA Championship | Bradenton FL](https://www.facebook.com/SeniorPGAChampionship) Stewart Cink is the 2026 Senior PGA Champion! The 87th Senior PGA Championship will be played at The Concession Golf Club in Bradenton, Florida.\n[Senior PGA Championship 2026 Golf Leaderboard - PGA Tour - Highlights](https://www.pgatour.com/pgatour-champions/tournaments/2026/senior-pga-championship/S2026520/highlights) Apr 19, 2026 ## Cink puts on clinic at Concession, wins Senior PGA Championship by six shots Daily Wrap Up Image for article. Apr 18, 2026 ## Horne never played a regular major, has one shot lead in Senior PGA Championship Daily Wrap Up Image for article. Apr 17, 2026 ## Gay, Hend share lead at Senior PGA Championship Daily Wrap Up Image for article. Apr 17, 2026 ## Langer breaks his age again, shares lead at Senior PGA Championship Daily Wrap Up Image for article. Apr 14, 2026 [...] Apr 19, 202\n[2027 Senior PGA Championship | Official Website | Senior PGA Championship](https://www.srpgachampionship.com) April 15-18, 2027 The Concession Golf Club, Sarasota-Bradenton, FL []( []( Senior PGA Championship 2026 - Final Round # Stewart Cink Sets Course Record, Captures First Senior Major Final Scores ## 2026 Recap Full Leaderboard Watch The Top Shots from the Final Round of the 2026 Senior PGA Championship Full Leaderboard Senior PGA Championship 2026 - Final Round 2026 Senior PGA Champion STEWART CINK Published Relive Stewart Cink's Winning Putt Cink-Wins-Push 5:17 Published [...] Published Justin Hi\n[2026 Senior PGA Championship | Tickets, Volunteer, Hospitality | Senior PGA Championship](https://www.srpgachampionship.com/2026) April 16-19, 2026 The Concession Golf Club, Sarasota-Bradenton, FL []( []( # Championship Tickets ## Major Championship Golf returns to Florida’s West Coast The Senior PGA Championship makes its appearance at The Concession Golf Club April 16-19, 2026. The Concession, in Sarasota-Bradenton, will host the 2026 - 2028 Senior PGA Championships. In addition to Championship golf, this historic major provides a variety of experiences with a family-friendly atmosphere. Hospitality [...] Hospitality The\n[Tournaments](https://theconcession.com/tournaments) The Concession would host the Senior PGA Championship for three consecutive years, beginning with the 2026 edition scheduled for April 16-19."
+   "tool_call_id": "call_11RExYi5OaRiRnTFJASB5dAX",
+   "content": "[Senior PGA Championship 2026 Golf Leaderboard - PGA Tour - Highlights](https://www.pgatour.com/pgatour-champions/tournaments/2026/senior-pga-championship/S2026520/highlights) PGA Tour ChampionsLeaderboardWatch & ListenNewsSchwab CupSchedulePlayersStatsTicketsShopPGA TourPGA Tour ChampionsKorn Ferry TourPGA Tour AmericasPGA Tour UniversityDP World TourLPGA TourTGL PGA Tour Champions PGA Tour Champions Senior PGA Championship Official # Senior PGA Championship The Concession Golf Club Bradenton, Florida • USA Apr 16 - 19, 2026 The Concession Golf Club Bradenton Apr 16 - 19, 2026 Full Coverage: srpgachampionship.com Image for article. Apr 19, 2026 [...] Apr 19, 2026 ## \n[Senior PGA Championship 2026 Golf Leaderboard - PGA Tour - Leaderboard Field - Qualification](https://www.pgatour.com/pgatour-champions/tournaments/2026/senior-pga-championship/S2026520/field) PGA Tour ChampionsLeaderboardWatch & ListenNewsSchwab CupSchedulePlayersStatsTicketsShopPGA TourPGA Tour ChampionsKorn Ferry TourPGA Tour AmericasPGA Tour UniversityDP World TourLPGA TourTGL PGA Tour Champions PGA Tour Champions Senior PGA Championship # Senior PGA Championship The Concession Golf Club Bradenton, Florida • USA Apr 16 - 19, 2026 The Concession Golf Club Apr 16 - 19, 2026 Full Coverage: srpgachampionship.com All Players [...] | Andrade, Billy Andrade, Billy | 90 Senior PGA Champio\n[Media Center](https://www.pgamediacenter.com/events/2026-senior-pga-championship) The most historic and prestigious major championship in senior golf, the Senior PGA Championship celebrates its 86th edition in 2026 at The Concession Golf Club. The PGA of America announced in May 2025 that The Concession would host the Senior PGA Championship for three consecutive years from 2026-2028. [...] MEDIA CENTER ### Senior PGA Championship #### Actual Yardage #### Hole Locations #### Photos #### Starting Times #### Transcripts #### Videos Contact Us Privacy Policy Copyright © 2022 PGA\n[Senior PGA Championship | Bradenton Gulf Islands](https://www.bradentongulfislands.com/event/senior-pga-championship) The Senior PGA Championship makes its appearance at The Concession Golf Club April 16-19, 2026. The Concession, in Sarasota-Bradenton, will host the 2026 – 2028 Senior PGA Championships. In addition to Championship golf, this historic major provides a variety of experiences with a family-friendly atmosphere. [...] winner of the championships with his trophy golf ball on the green with concession golf club logo man playing"
   },
   {
    "role": "assistant",
@@ -51,17 +51,17 @@
     {
      "type": "function",
      "index": 0,
-     "id": "call_I9ehCkGcc4VTZF16KIAPTqRE",
+     "id": "call_61cl18UpVRsaABJMaz6BKwXa",
      "function": {
       "name": "page_find",
-      "arguments": "{\"title\":\"2026 Senior PGA Championship\",\"keywords\":\"winner, Stewart Cink\"}"
+      "arguments": "{\"title\":\"Senior PGA Championship 2026\",\"keywords\":\"winner, The Concession Golf Club\"}"
      }
     }
    ]
   },
   {
    "role": "tool",
-   "tool_call_id": "call_I9ehCkGcc4VTZF16KIAPTqRE",
+   "tool_call_id": "call_61cl18UpVRsaABJMaz6BKwXa",
    "content": "no such page"
   },
   {
@@ -73,44 +73,22 @@
     {
      "type": "function",
      "index": 0,
-     "id": "call_Xj5ZaEZqombwwIKz0ljtuMPJ",
-     "function": {
-      "name": "web_search",
-      "arguments": "{\"query\":\"Stewart Cink won Senior PGA Championship 2026\"}"
-     }
-    }
-   ]
-  },
-  {
-   "role": "tool",
-   "tool_call_id": "call_Xj5ZaEZqombwwIKz0ljtuMPJ",
-   "content": "НЕ удалось вызвать инструмент web_search: HTTPSConnectionPool(host='en.wikipedia.org', port=443): Max retries exceeded with url: /w/api.php?action=query&list=search&srsearch=Stewart+Cink+won+Senior+PGA+Championship+2026&srlimit=3&format=json (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)')))"
-  },
-  {
-   "role": "assistant",
-   "content": null,
-   "refusal": null,
-   "reasoning": null,
-   "tool_calls": [
-    {
-     "type": "function",
-     "index": 0,
-     "id": "call_79RvfBgT63yEeBK1JIbQYtXB",
+     "id": "call_NNUMRdMgbvlpQBjyiP7swcGP",
      "function": {
       "name": "tavily_search",
-      "arguments": "{\"query\":\"Stewart Cink Senior PGA Championship 2026 recap\"}"
+      "arguments": "{\"query\":\"who won the Senior PGA Championship 2026\"}"
      }
     }
    ]
   },
   {
    "role": "tool",
-   "tool_call_id": "call_79RvfBgT63yEeBK1JIbQYtXB",
-   "content": "[Cink Wins Senior PGA for First Senior Major After Record ...](https://www.srpgachampionship.com/news-media/stewart-cink-wins-2026-senior-pga-championship-for-first-senior-major-after-record-setting-final-round) Stewart Cink Wins 2026 Senior PGA Championship for First Senior Major After Record-Setting Final Round. Craig Dolch. April 19, 2026, 7:26pm\n[Stewart Cink Final Round Highlights | 2026 Senior PGA ...](https://www.youtube.com/watch?v=3GrC-K2wfN8) Watch the highlights from Stewart Cink's record-setting day at The Concession Golf Club as his 9-under, 63, set a new competitive course\n[Stewart Cink puts on a clinic and wins the Senior PGA ...](https://www.golfchannel.com/pga-of-america/news/stewart-cink-puts-on-a-clinic-and-wins-the-senior-pga-championship-by-6-shots) Stewart Cink pulled away from the field with an astonishing stretch around the turn Sunday to close with a 9-under 63 for a six-shot victory\n[Cink shoots 3-under 67 to take U.S. Senior Open co-lead at ...](https://www.golfchannel.com/watch/golf-central/stewart-cink-shoots-67-takes-2026-us-senior-open-colead-first-round-scioto-country-club) Cink shoots 3-under 67 to take U.S. Senior Open co-lead at Scioto. Stewart Cink is eying his third straight major championship after winning the\n[Stewart Cink PGA Tour Champions Player Profile, Stats, ...](https://www.pgatour.com/pgatour-champions/player/20229/stewart-cink) The Official PGA Tour Champions Profile of Stewart Cink. PGA Tour Stats, bio, video, photos, results, and career highlights."
+   "tool_call_id": "call_NNUMRdMgbvlpQBjyiP7swcGP",
+   "content": "[Senior PGA Championship - Wikipedia](https://en.wikipedia.org/wiki/Senior_PGA_Championship) | Year | Winner | Score | To par | Margin of victory | Runner(s)-up | Winner's share ($) | Venue | --- --- --- --- | | Senior PGA Championship | | | | | | | | | 2026 | United States Stewart Cink | 269 | −19 | 6 strokes | United States Ben Crane | 540,000 | The Concession Golf Club | | 2025 | Argentina Ángel Cabrera | 280 | −8 | 1 stroke | Denmark Thomas Bjørn Republic of Ireland Pádraig Harrington | 540,000 | Congressional | | KitchenAid Senior PGA Championship | | | | | | | | [...] 2020 Not hel\n[Senior PGA Championship 2026 Golf Leaderboard - PGA Tour - Overview](https://www.pgatour.com/pgatour-champions/tournaments/2026/senior-pga-championship/S2026520/overview) PGA Tour ChampionsLeaderboardWatch & ListenNewsSchwab CupSchedulePlayersStatsTicketsShopPGA TourPGA Tour ChampionsKorn Ferry TourPGA Tour AmericasPGA Tour UniversityDP World TourLPGA TourTGL PGA Tour Champions PGA Tour Champions Senior PGA Championship # Senior PGA Championship The Concession Golf Club Bradenton, Florida • USA Apr 16 - 19, 2026 The Concession Golf Club Apr 16 - 19, 2026 Full Coverage: srpgachampionship.com ### Event Overview ### Past Champions ### 2026 Stewart Cink [...] Stewart\n[2027 Senior PGA Championship | Official Website | Senior PGA Championship](https://www.srpgachampionship.com) Published Cink Wins Senior PGA for First Senior Major After Record-Setting Final Round Senior PGA Championship 2026 - Final Round Published Justin Hicks Takes Low PGA of America Golf Professional Honors at Senior PGA Championship 2026 SR PGA/ Concession Golf Club Published 2026 Senior PGA Championship: Complete Prize Money Breakdown []( Published How the Alfred S. Bourne Trophy Got its Name 2026 SR PGA/ Concession Golf Club Published [...] April 15-18, 2027 The Concession Golf Club, Sarasota-Bra\n[PGA Championships - SrPPC](https://www.pgatournaments.com/member/srppc) Alternate Policy 2026 Section Senior PGA Professional Championship Dates and Venues Please visit your PGA Section's website to enter your Section Senior PGA Professional Championship! CONGRATULATIONS 2025 CHAMPION - JUSTIN HICKS ### SENIOR PGA PROFESSIONAL CHAMPIONSHIP PAST RESULTS All Past Results ### SENIOR PROFESSIONAL PGA CHAMPIONSHIP FUTURE HOSTS SITES 2026 Superstition Mountain - Lost Gold & Prospector Courses Gold Canyon, AZ October 22-25, 2026 2027 [...] Search this site Embedded Files 2\n[Stifel Charity Classic 2026 Golf Leaderboard -"
   },
   {
    "role": "assistant",
-   "content": "Stewart Cink won the 2026 Senior PGA Championship at The Concession Golf Club, securing his first senior major title with a record-setting final round score of 9-under 63. FINAL: Stewart Cink.",
+   "content": "Stewart Cink won the Senior PGA Championship at The Concession Golf Club in April 2026. He finished with a score of 269, which is 19 under par, and secured the victory by six strokes over runner-up Ben Crane. \n\nFINAL: Stewart Cink",
    "refusal": null,
    "reasoning": null
   }

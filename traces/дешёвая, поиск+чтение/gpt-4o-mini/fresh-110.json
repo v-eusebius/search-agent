@@ -1,0 +1,76 @@
+{
+ "task": {
+  "id": "fresh-110",
+  "source": "fresh",
+  "question": "Who wins the special election in Georgia in 2026?",
+  "answer": "Clay Fuller",
+  "evidence": "Assistant District Attorney Clay Fuller, a Trump-endorsed Republican, wins the special election in Georgia to replace Marjorie Taylor Greene, who resigned in January following a public fallout with Trump.",
+  "page": "2026 in the United States",
+  "url": "https://en.wikipedia.org/wiki/2026_in_the_United_States",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "Clay Fuller won the special election in Georgia's 14th congressional district on April 7, 2026. He defeated Shawn Harris in the runoff election after no candidate received more than 50% of the vote in the initial election on March 10, 2026. FULLER: Clay Fuller.",
+ "correct": true,
+ "cost": 0.00026639999999999997,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You answer questions about recent events (2025–2026). Never answer from memory: use web_search (and tavily_search if available) to find the right article, then page_find to look inside long articles such as '2026 in <country or field>' for the specific fact. Do not repeat the same call. When done, write the last line as FINAL: <short answer>."
+  },
+  {
+   "role": "user",
+   "content": "Who wins the special election in Georgia in 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_44GuZRgESWHrEUMgqt5FIvBW",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Georgia special election 2026 results\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_44GuZRgESWHrEUMgqt5FIvBW",
+   "content": "[2026 Georgia's 14th congressional district special election] The 2026 Georgia's 14th congressional district special election was held on March 10, 2026, to fill the vacancy in Georgia's 14th congressional district. The seat became vacant on January 5, 2026, when incumbent Marjorie Taylor Greene resigned. Under Georgia law, all candidates appeared on one ballot in the March 10, 2026 special election. As no candidate received more than 50% of the vote, a runoff election between district attorney Clay Fuller and cattleman Shawn Harris was held on April 7, 2026, with Fuller winning to serve the remainder of the 119th United States Congress, ending January 3, 2027. | other articles: 2026 Georgia's 13th congressional district special election, 2026 Georgia House of Representatives election"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_X0NfHYSIFZHPn5fGmiSM03lD",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"2026 Georgia's 14th congressional district special election\",\"keywords\":\"Clay Fuller Shawn Harris\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_X0NfHYSIFZHPn5fGmiSM03lD",
+   "content": "Under Georgia law, all candidates appeared on one ballot in the March 10, 2026 special election. As no candidate received more than 50% of the vote, a runoff election between district attorney Clay Fuller and cattleman Shawn Harris was held on April 7, 2026, with Fuller winning to serve the remainder of the 119th United States Congress, ending January 3, 2027.\nClay Fuller, former district attorney for the Lookout Mountain Judicial Circuit (2020–2026) and candidate for this district in 2020\nShawn Harris, cattleman, retired brigadier general, and nominee for this district in 2024\nClay Fuller (R) for Congress\nShawn Harris (D) for Congress"
+  },
+  {
+   "role": "assistant",
+   "content": "Clay Fuller won the special election in Georgia's 14th congressional district on April 7, 2026. He defeated Shawn Harris in the runoff election after no candidate received more than 50% of the vote in the initial election on March 10, 2026. FULLER: Clay Fuller.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

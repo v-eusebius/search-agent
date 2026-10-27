@@ -1,0 +1,168 @@
+{
+ "task": {
+  "id": "fresh-102",
+  "source": "fresh",
+  "question": "Who was recognized as Hero of Ukraine in 2025?",
+  "answer": "Oleksandr Dovhach",
+  "evidence": "9 March – Oleksandr Dovhach, military pilot, Hero of Ukraine (2025).",
+  "page": "2026 in Ukraine",
+  "url": "https://en.wikipedia.org/wiki/2026_in_Ukraine",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "В 2025 году звание Героя Украины были присуждены нескольким лицам. Одним из известных награжденных является капитан Алексей Михайлов, который получил звание за то, что провел 343 дня в боевых позициях без перерыва. Также знание о присуждении звания посмертно волонтеру Алексею Юкову, который занимался поиском и идентификацией погибших на фронте, стало широко известным.\n\nFINAL: Звание Героя Украины в 2025 году получили, например, капитан Алексей Михайлов и волонтер Алексей Юков.",
+ "correct": false,
+ "cost": 0.0015776999999999042,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You answer questions about recent events (2025–2026). Never answer from memory: use web_search (and tavily_search if available) to find the right article, then page_find to look inside long articles such as '2026 in <country or field>' for the specific fact. Do not repeat the same call. When done, write the last line as FINAL: <short answer>."
+  },
+  {
+   "role": "user",
+   "content": "Who was recognized as Hero of Ukraine in 2025?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_Bcfm2pfdNl9Dy5U3fWvrb6KM",
+     "function": {
+      "name": "tavily_search",
+      "arguments": "{\"query\":\"Hero of Ukraine 2025\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_Bcfm2pfdNl9Dy5U3fWvrb6KM",
+   "content": "[Oleksii Yukov received Hero of Ukraine title posthumously](https://gwaramedia.com/en/oleksii-yukov-head-of-fallen-soldiers-recovery-group-received-hero-of-ukraine-title-posthumously) Volunteer Oleksii Yukov puts number signs for evidence around the body of a fallen Russian soldier in Donetsk region, March 2025. Volunteer Oleksii Yukov puts number signs for evidence around the body of a fallen Russian soldier in Donetsk region, March 2025. / Photo: Hnat Holyk, Gwara Media [...] In 2025, Gwara Media journalists traveled with Oleksii and Platsdarm team to the border of Kharkiv and Donetsk regions to document the search, identification, and evacuation of human remains. ### Read \n[Ukrainian soldier awarded Hero of Ukraine title for spending 343 days at positions without break | Ukrainska Pravda](https://www.pravda.com.ua/eng/news/2026/04/23/8031427) Details: Mykhailov, a service member from the 3rd Mountain Assault Battalion of the Zakarpattia unit – Ukraine's 128th Separate Mountain Assault Brigade – stayed in the contact zone for almost a full year without relief – 343 days in total. He arrived at the positions on 1 April 2025 and left on 8 March 2026. Advertisement: [...] President Volodymyr Zelenskyy has conferred the title of Hero of Ukraine and the Order of the Gold Star on Captain Oleksii Mykhailov, alias \"Botanik\" (Nerd). Source: a \n[Hero of Ukraine - Wikipedia](https://en.wikipedia.org/wiki/Hero_of_Ukraine) A Hero of Ukraine (abbr. HOU; Ukrainian: Герой України, romanized: Heroi Ukrainy) is the highest national decoration that can be conferred upon an individual citizen by the president of Ukraine. The decoration was created in 1998 by President Leonid Kuchma. As of October 6, 2026, the total number of recipients was no less than 1,367 (of which decrees awarding 1,318 individuals were published, and for at least 49 individuals, the decrees were not made public). [...] 25. ↑ Margaritoff, Marco (1 Ju\n[List of Heroes of Ukraine - Wikipedia](https://en.wikipedia.org/wiki/List_of_Heroes_of_Ukraine) Wikipedia # List of Heroes of Ukraine This is a list of individuals who have been presented with the title Hero of Ukraine in reverse chronological order. As of 26 July 2026( the total number of recipients was no less than 1,328 (of which decrees awarding 1,282 individuals were published, and for at least 46 individuals, the decrees were not made public). [...] There are 17 heroes of Ukraine who previously were awarded the Hero of Socialist Labour \"Hero of Socia"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_J3mp4qDBajVPBfzUllEdmqTp",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"List of Heroes of Ukraine\",\"keywords\":\"2025\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_J3mp4qDBajVPBfzUllEdmqTp",
+   "content": "== 2025 =="
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_Xaf9FMtcVRPTd6RBNapTyHJP",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"List of Heroes of Ukraine 2025 recipients\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_Xaf9FMtcVRPTd6RBNapTyHJP",
+   "content": "[List of Heroes of Ukraine] The article uses the latest official Romanization of Ukrainian on resolution of the Government of Ukraine. This is a list of individuals who have been presented with the title Hero of Ukraine in reverse chronological order. As of 6 October 2026, the total number of recipients was no less than 1,367 (of which decrees awarding 1,318 individuals were published, and for at least 49 individuals, the decrees were not made public). Out of all recipients (considering only published decrees), 1042 (79%) have a distinction of the \"Order of the Gold Star\" and 276 (21%) have a distinction of the \"Order of the State\". Number of awards that were given posthumously is 677 (51%). By gender, 1271 (96%) of the recipients are men. The youngest recipient is Stepan Chubenko (died at the age of 16 years and 258 days; awarded posthumously). The oldest recipient, Maksym Hulyi, received the award on his 100th birthday. The only non-citizen awarded the award and for whom specifically an exclusion was made at parliamentary level was Belarusian Mikhail Zhyzneuski in June 2017 (Zhyzneuski was awarded posthumously). There are however 17 other individuals who were awarded the Hero of Ukraine and who were never citizens of Ukraine as they died before Ukraine obtained its independence. Among them are Avgustyn Voloshyn, Stepan Bandera (annulled), Volodymyr Ivasyuk, Vasyl Stus, liquidators Mykola Vashchuk, Vasyl Ihnatenko, Oleksandr Lelechko, Mykola Tytenok, Volodymyr Tishura. There are 17 heroes of Ukraine wh | other articles: List of deaths during the Russo-Ukrainian war (2022–present), Mykhailo Drapatyi"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_IKkjNfgmtj9qd56bTo8a6kbh",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"List of Heroes of Ukraine\",\"keywords\":\"2025 recipients\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_IKkjNfgmtj9qd56bTo8a6kbh",
+   "content": "As of 6 October 2026, the total number of recipients was no less than 1,367 (of which decrees awarding 1,318 individuals were published, and for at least 49 individuals, the decrees were not made public).\nOut of all recipients (considering only published decrees), 1042 (79%) have a distinction of the \"Order of the Gold Star\" and 276 (21%) have a distinction of the \"Order of the State\". Number of awards that were given posthumously is 677 (51%). By gender, 1271 (96%) of the recipients are men.\n== 2025 =="
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_RUsR8Cv4XHwSgPHGiNjXBzFJ",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"List of Heroes of Ukraine\",\"keywords\":\"2025 awarded\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_RUsR8Cv4XHwSgPHGiNjXBzFJ",
+   "content": "The youngest recipient is Stepan Chubenko (died at the age of 16 years and 258 days; awarded posthumously). The oldest recipient, Maksym Hulyi, received the award on his 100th birthday.\nThe only non-citizen awarded the award and for whom specifically an exclusion was made at parliamentary level was Belarusian Mikhail Zhyzneuski in June 2017 (Zhyzneuski was awarded posthumously). There are however 17 other individuals who were awarded the Hero of Ukraine and who were never citizens of Ukraine as they died before Ukraine obtained its independence. Among them are Avgustyn Voloshyn, \nThere are 17 heroes of Ukraine who previously were awarded the Hero of Socialist Labour.\n== 2025 =="
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_c2Io7v0Q6LwFcbZybGMW7FMz",
+     "function": {
+      "name": "tavily_search",
+      "arguments": "{\"query\":\"Heroes of Ukraine 2025 recipients list\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_c2Io7v0Q6LwFcbZybGMW7FMz",
+   "content": "[List of Heroes of Ukraine - Wikiwand](https://www.wikiwand.com/en/articles/List_of_heroes_of_Ukraine) # List of Heroes of Ukraine. This is a **list of individuals who have been presented with the title Hero of Ukraine** in reverse chronological order. Number of awards by years (n\\_p - not published). As of 14 November 2025, the total number of recipients was no less than 1,222 (of which decrees awarding 1,183 individuals were published, and for at least 39 individuals, the decrees were not made public). Number of awards that were given posthumously is 612 (52%). The youngest recipient is Stepan \n[List of Heroes of Ukraine - Wikipedia](https://en.wikipedia.org/wiki/List_of_Heroes_of_Ukraine) Wikipedia # List of Heroes of Ukraine This is a list of individuals who have been presented with the title Hero of Ukraine in reverse chronological order. As of 26 July 2026( the total number of recipients was no less than 1,328 (of which decrees awarding 1,282 individuals were published, and for at least 46 individuals, the decrees were not made public). [...] There are 17 heroes of Ukraine who previously were awarded the Hero of Socialist Labour \"Hero of Socialist Labour (USSR)\"). ## Contents \n[List of Heroes of Ukraine — Grokipedia](https://grokipedia.com/page/List_of_Heroes_of_Ukraine) October 1: Andriy Parubiy (former parliament speaker), for contributions to Ukraine's independence and defense coordination (Decree №739/2025); Volodymyr Vakulenko (writer, posthumous), for documenting Russian atrocities in occupied territories prior to his 2022 execution; Yegor Sidorenko (senior lieutenant), Serhiy Osypchuk (soldier), and nine other servicemen, including Anton Atamaniuk (captain, posthumous), totaling 11 for Defenders' Day honors (Decrees №708/2025, [...] In 2025, President Vol\n[List of Heroes of Ukraine - Wikipedia](https://en.wikipedia.org/wiki/List_of_Heroes_of_Ukraine#2022) # List of Heroes of Ukraine. _The article uses the latest official Romanization of Ukrainian on resolution of the Government of Ukraine._. This is a **list of individuals who have been presented with the title Hero of Ukraine** in reverse chronological order. As of 26 July 2026, the total number of recipients was no less than 1,328 (of which decrees awarding 1,282 individuals were published, and for at least 46 individuals, the decrees were not made public). The youngest recipient is Stepan Chub\n[List of Heroes of Ukraine](https://r.jina.ai/http://en.wikipedia.org/wiki/List_of_Heroes_of_Ukrai"
+  },
+  {
+   "role": "user",
+   "content": "Инструменты больше недоступны. Ответь по тому, что уже известно, последней строкой FINAL: <ответ>."
+  },
+  {
+   "role": "assistant",
+   "content": "В 2025 году звание Героя Украины были присуждены нескольким лицам. Одним из известных награжденных является капитан Алексей Михайлов, который получил звание за то, что провел 343 дня в боевых позициях без перерыва. Также знание о присуждении звания посмертно волонтеру Алексею Юкову, который занимался поиском и идентификацией погибших на фронте, стало широко известным.\n\nFINAL: Звание Героя Украины в 2025 году получили, например, капитан Алексей Михайлов и волонтер Алексей Юков.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

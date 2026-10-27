@@ -1,0 +1,24 @@
+{
+ "task": {
+  "id": "fresh-42",
+  "source": "fresh",
+  "question": "Who inaugurated the Noida International Airport in India in March 2026?",
+  "answer": "Prime Minister Narendra Modi",
+  "evidence": "28 March – The Noida International Airport is inaugurated by Prime Minister Narendra Modi.",
+  "page": "2026 in India",
+  "url": "https://en.wikipedia.org/wiki/2026_in_India",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "FINAL: Unknown. (As of my knowledge cutoff in early 2025, this event had not yet occurred.)",
+ "correct": false,
+ "cost": 0.0005039999999999992,
+ "messages": [
+  {
+   "role": "assistant",
+   "content": "Unknown. (As of my knowledge cutoff in early 2025, this event had not yet occurred.)",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

@@ -1,0 +1,76 @@
+{
+ "task": {
+  "id": "fresh-123",
+  "source": "fresh",
+  "question": "What country broke off diplomatic relations with France in June 2026?",
+  "answer": "Burkina Faso",
+  "evidence": "26 June – Burkina Faso breaks off diplomatic relations with France.",
+  "page": "2026 in France",
+  "url": "https://en.wikipedia.org/wiki/2026_in_France",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "Burkina Faso broke off diplomatic relations with France on June 26, 2026. FINAL: Burkina Faso.",
+ "correct": true,
+ "cost": 0.0001924499999999829,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You answer questions about recent events (2025–2026). Never answer from memory: use web_search (and tavily_search if available) to find the right article, then page_find to look inside long articles such as '2026 in <country or field>' for the specific fact. Do not repeat the same call. When done, write the last line as FINAL: <short answer>."
+  },
+  {
+   "role": "user",
+   "content": "What country broke off diplomatic relations with France in June 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_kAxGYx5QB9HVMPWWR59o0SUh",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"country broke off diplomatic relations with France June 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_kAxGYx5QB9HVMPWWR59o0SUh",
+   "content": "[France–Russia relations] France–Russia relations, also known as Franco-Russian relations or Russo-French relations, are the bilateral relations between the French Republic and the Russian Federation. France has an embassy in Moscow, whereas Russia has an embassy in Paris. Relations have historically been complicated, and have been more tense in recent years. | other articles: International recognition of Israel, Foreign relations of Israel"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_UpxNYxvCOZLZCBDIhi41bcSe",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"2026 in France\",\"keywords\":\"diplomatic relations break off\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_UpxNYxvCOZLZCBDIhi41bcSe",
+   "content": "26 June – Burkina Faso breaks off diplomatic relations with France."
+  },
+  {
+   "role": "assistant",
+   "content": "Burkina Faso broke off diplomatic relations with France on June 26, 2026. FINAL: Burkina Faso.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

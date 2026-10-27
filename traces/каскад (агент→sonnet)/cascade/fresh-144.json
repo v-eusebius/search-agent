@@ -8,11 +8,11 @@
   "page": "2026 in comics",
   "url": "https://en.wikipedia.org/wiki/2026_in_comics"
  },
- "answer": "Unknown.",
- "correct": false,
- "cost": 0.0013315499999999592,
- "escalated": true,
- "confidence": 0.0,
+ "answer": "Milan Hulsing",
+ "correct": true,
+ "cost": 0.000319200000000075,
+ "escalated": false,
+ "confidence": 1.0,
  "agent_messages": [
   {
    "role": "system",
@@ -31,9 +31,9 @@
     {
      "type": "function",
      "index": 0,
-     "id": "call_mqGoDtRphvXjVe5R08UuTbCW",
+     "id": "call_G9X6tSDdyiD1AHUMdRjxrpQQ",
      "function": {
-      "name": "web_search",
+      "name": "tavily_search",
       "arguments": "{\"query\":\"Stripschapprijs winner January 23 2026\"}"
      }
     }
@@ -41,162 +41,12 @@
   },
   {
    "role": "tool",
-   "tool_call_id": "call_mqGoDtRphvXjVe5R08UuTbCW",
-   "content": "[Deaths in January 2015]  | other articles: 2024 in comics, 2020 in comics"
+   "tool_call_id": "call_G9X6tSDdyiD1AHUMdRjxrpQQ",
+   "content": "[Milan Hulsing wint Stripschapprijs 2026 | Awards en prijzen | Stripspeciaalzaak](https://www.stripspeciaalzaak.be/stripnieuws/milan-hulsing-wint-stripschapprijs-2026) Overslaan en naar de inhoud gaan Terug naar overzicht ‹ vorige volgende › 388 of 2450 # Milan Hulsing wint Stripschapprijs 2026 23 januari 2026 Awards en prijzen Vandaag is bekendgemaakt dat Milan Hulsing de jaarlijkse Nederlandse Stripschapprijs wint. We delen hieronder het persbericht met je, want daar staat alles wel in. Hier end aar vulden we aan. Aansluitend vind je het juryrapport. [...] De commissie voor de Stripschapprijzen 2026 bestaat uit: Bjorn van Lent (winkelier Neat Stuff ‘s-Hertog\n[Milan Hulsing wint de Stripschapprijs 2026 - Indruk](https://indruk.nu/milan-hulsing-wint-de-stripschapprijs-2026) Milan Hulsing is de winnaar van de Stripschapprijs 2026. Hij wordt gezien als een stripmaker die het experiment niet schuwt en zichzelf durft uit te dagen. Dit levert flink wat inspirerende strips en illustratiewerk op. Hulsing kiest iedere keer een nieuwe stijl maar het blijft een typische Milan Hulsing-strip, aldus de jury: “Zelfs ‘De Aanslag’ van Harry Mulish weet hij op een zodanige manier te bewerken dat het een eigen strip wordt. Dat vergt lef, risico en dadendrang.” [...] “Milan Hulsing i\n[Milan Hulsing bekroond met Stripschapprijs voor zijn oeuvre](https://www.villamedia.nl/artikel/milan-hulsing-bekroond-met-stripschapprijs-voor-zijn-oeuvre) Milan Hulsing wint dit jaar de Stripschapprijs, de oeuvreprijs voor stripmakers in Nederland. Dat maakte het Stripschap, de koepelorganisatie van Nederlandse striptekenaars, vrijdag bekend. Laatste wijziging: 23 januari 2026, 11:27 Hulsing won in 2004 al de Stripschappenning. Diezelfde prijs won hij nog twee keer, onder meer voor zijn “verstripping” van het boek De Aanslag van Harry Mulisch. De afgelopen decennia verscheen zijn werk onder meer in de VPRO Gids en het AD. [...] “Milan Hulsing is g\n[Milan Hulsing wint Stripschapprijs 2026 voor vernieuwend stripoeuvre - NRC](https://www.nrc.nl/nieuws/2026/01/23/stripmaker-milan-hulsing-wint-stripschapprijs-2026-a4918357) Stripmaker, illustrator en animator Milan Hulsing (1973) krijgt de Stripschapprijs 2026, de enige oeuvreprijs voor striptekenaars in Nederland. De jury benoemt Hulsings veelzijdigheid, want hoewel herkenbaar, is zijn werk steeds anders. Naast verhalen die hij zelf schrijft, kiest Hulsing vaak voor bestaande romans en literaire verhalen, zoals De aanslag van Harry Mulisch en Een "
   },
   {
    "role": "assistant",
-   "content": null,
-   "refusal": null,
-   "reasoning": null,
-   "tool_calls": [
-    {
-     "type": "function",
-     "index": 0,
-     "id": "call_RKEla7RJjKpt1w6GM5xPzIzR",
-     "function": {
-      "name": "web_search",
-      "arguments": "{\"query\":\"Stripschapprijs 2026 winner\"}"
-     }
-    }
-   ]
-  },
-  {
-   "role": "tool",
-   "tool_call_id": "call_RKEla7RJjKpt1w6GM5xPzIzR",
-   "content": "[Peter van Dongen] Peter van Dongen (born 21 October 1966 in Amsterdam) is a Dutch cartoonist. He is the winner of the 2018 Stripschapprijs. | other articles: Dick Matena, Martin Lodewijk"
-  },
-  {
-   "role": "assistant",
-   "content": null,
-   "refusal": null,
-   "reasoning": null,
-   "tool_calls": [
-    {
-     "type": "function",
-     "index": 0,
-     "id": "call_yz36J20mYiu4f5gEFD2l1rbf",
-     "function": {
-      "name": "web_search",
-      "arguments": "{\"query\":\"Dutch comic artist Stripschapprijs January 2026 winner\"}"
-     }
-    }
-   ]
-  },
-  {
-   "role": "tool",
-   "tool_call_id": "call_yz36J20mYiu4f5gEFD2l1rbf",
-   "content": "[Martin Lodewijk] Martinus Spyridon Johannes Lodewijk (born 30 April 1939) is a Dutch comics writer and cartoonist, and advertising illustrator. Martin Lodewijk was born in Rotterdam. He dropped out of high school in 1957, and started drawing cartoons, notably of spacecraft and pirates. In 1959, his first cartoon was published in the newspaper Het Parool, after which he specialized in drawing for commercial advertising. For the weekly comics magazine Pep, he co-created with Jan Kruis the Agent 327 comic in 1966, a feature he ended up writing and drawing for close to fifty years. He provided scripts for other strips, such as Don Lawrence's Storm. After Pep and Sjors merged into Eppo, Lodewijk became Eppo's chief editor. In 1999, Lodewijk published the world's smallest comic book; Minimum Bug (26 mm by 37 mm). It belongs to the Agent 327 series. From 2004 onward, Lodewijk succeeded Willy Vandersteen and Karel Biddeloo as writer for De Rode Ridder, with drawings by Claus Scholz. Lodewijk worked on the third open source movie by the Blender Foundation, Sintel, released in 2010. | other articles: 1994 in comics, 2024 in comics"
-  },
-  {
-   "role": "assistant",
-   "content": null,
-   "refusal": null,
-   "reasoning": null,
-   "tool_calls": [
-    {
-     "type": "function",
-     "index": 0,
-     "id": "call_chxSixCVLNwMdUgwRbFfHPr2",
-     "function": {
-      "name": "page_find",
-      "arguments": "{\"title\":\"2026 in the Netherlands\",\"keywords\":\"Stripschapprijs winner\"}"
-     }
-    }
-   ]
-  },
-  {
-   "role": "tool",
-   "tool_call_id": "call_chxSixCVLNwMdUgwRbFfHPr2",
-   "content": "keywords not found on the page"
-  },
-  {
-   "role": "assistant",
-   "content": null,
-   "refusal": null,
-   "reasoning": null,
-   "tool_calls": [
-    {
-     "type": "function",
-     "index": 0,
-     "id": "call_QROCfgwKgHcZBUqKtU4vxnt7",
-     "function": {
-      "name": "web_search",
-      "arguments": "{\"query\":\"2026 Stripschapprijs Martin Lodewijk\"}"
-     }
-    }
-   ]
-  },
-  {
-   "role": "tool",
-   "tool_call_id": "call_QROCfgwKgHcZBUqKtU4vxnt7",
-   "content": "[Martin Lodewijk] Martinus Spyridon Johannes Lodewijk (born 30 April 1939) is a Dutch comics writer and cartoonist, and advertising illustrator. Martin Lodewijk was born in Rotterdam. He dropped out of high school in 1957, and started drawing cartoons, notably of spacecraft and pirates. In 1959, his first cartoon was published in the newspaper Het Parool, after which he specialized in drawing for commercial advertising. For the weekly comics magazine Pep, he co-created with Jan Kruis the Agent 327 comic in 1966, a feature he ended up writing and drawing for close to fifty years. He provided scripts for other strips, such as Don Lawrence's Storm. After Pep and Sjors merged into Eppo, Lodewijk became Eppo's chief editor. In 1999, Lodewijk published the world's smallest comic book; Minimum Bug (26 mm by 37 mm). It belongs to the Agent 327 series. From 2004 onward, Lodewijk succeeded Willy Vandersteen and Karel Biddeloo as writer for De Rode Ridder, with drawings by Claus Scholz. Lodewijk worked on the third open source movie by the Blender Foundation, Sintel, released in 2010. | other articles: 2025 in comics, Dick Matena"
-  },
-  {
-   "role": "assistant",
-   "content": null,
-   "refusal": null,
-   "reasoning": null,
-   "tool_calls": [
-    {
-     "type": "function",
-     "index": 0,
-     "id": "call_svD6YDI08nazit84nhcGQrvw",
-     "function": {
-      "name": "web_search",
-      "arguments": "{\"query\": \"2026 in comics\"}"
-     }
-    },
-    {
-     "type": "function",
-     "index": 1,
-     "id": "call_GpBzy3POCG7ZHqJLXUv3qUP3",
-     "function": {
-      "name": "web_search",
-      "arguments": "{\"query\": \"Stripschapprijs ceremony January 2026\"}"
-     }
-    }
-   ]
-  },
-  {
-   "role": "tool",
-   "tool_call_id": "call_svD6YDI08nazit84nhcGQrvw",
-   "content": "[2026 in comics] Notable events of 2026 in comics | other articles: List of current DC Comics publications, List of current Marvel Comics publications"
-  },
-  {
-   "role": "tool",
-   "tool_call_id": "call_GpBzy3POCG7ZHqJLXUv3qUP3",
-   "content": "[2020 in comics] Notable events of 2020 in comics. It includes any relevant comics-related events, deaths of notable comics-related people, conventions and first issues by title. | other articles: 2024 in comics, 2006 in comics"
-  },
-  {
-   "role": "assistant",
-   "content": null,
-   "refusal": null,
-   "reasoning": null,
-   "tool_calls": [
-    {
-     "type": "function",
-     "index": 0,
-     "id": "call_OE54vfWpr6NaZdX6wReEhRwE",
-     "function": {
-      "name": "web_search",
-      "arguments": "{\"query\":\"Martin Lodewijk Stripschapprijs January 23 2026\"}"
-     }
-    }
-   ]
-  },
-  {
-   "role": "tool",
-   "tool_call_id": "call_OE54vfWpr6NaZdX6wReEhRwE",
-   "content": "[2025 in comics] Notable events of 2025 in comics. | other articles: 1977 in comics, 1999 in comics"
-  },
-  {
-   "role": "user",
-   "content": "Инструменты больше недоступны. Ответь по тому, что уже известно, последней строкой FINAL: <ответ>."
-  },
-  {
-   "role": "assistant",
-   "content": "На данный момент нет информации о победителе Stripschapprijs на 23 января 2026 года. Однако наиболее вероятным кандидатом является Мартин Лодуйк, который активно участвует в комиксах и получил признание за свои работы. \n\nFINAL: Мартин Лодуйк.",
+   "content": "The Dutch comic artist who won the Stripschapprijs on January 23, 2026, is Milan Hulsing. FINAL: Milan Hulsing",
    "refusal": null,
    "reasoning": null
   }

@@ -1,0 +1,24 @@
+{
+ "task": {
+  "id": "fresh-109",
+  "source": "fresh",
+  "question": "What type of incident is investigated by Counter Terrorism Policing in May 2026?",
+  "answer": "conspiracy to commit arson",
+  "evidence": "10 May – Counter Terrorism Policing arrest a man and a woman on suspicion of conspiracy to commit arson following an attack at the former East London Central Synagogue in Whitechapel. Police say the incident is being investigated alongside several apparent attacks on Jewish sites in London since late March.",
+  "page": "2026 in the United Kingdom",
+  "url": "https://en.wikipedia.org/wiki/2026_in_the_United_Kingdom",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "FINAL: Unknown.",
+ "correct": false,
+ "cost": 7.649999999997936e-06,
+ "messages": [
+  {
+   "role": "assistant",
+   "content": "Unknown.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

@@ -1,0 +1,24 @@
+{
+ "task": {
+  "id": "fresh-41",
+  "source": "fresh",
+  "question": "What was the number of participants in the anti-war protest in Japan in April 2026?",
+  "answer": "Thirty thousand people",
+  "evidence": "April 8 – Thirty thousand people participate in an anti-war and anti-constitutional amendment protest in front of the National Diet Building in Chiyoda-ku, Tokyo. Similar protests are also held in 150 other places across Japan.",
+  "page": "2026 in Japan",
+  "url": "https://en.wikipedia.org/wiki/2026_in_Japan",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "FINAL: Unknown.",
+ "correct": false,
+ "cost": 7.80000000000225e-06,
+ "messages": [
+  {
+   "role": "assistant",
+   "content": "Unknown.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

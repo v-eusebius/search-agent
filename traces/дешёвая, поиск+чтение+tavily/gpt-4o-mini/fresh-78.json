@@ -1,0 +1,186 @@
+{
+ "task": {
+  "id": "fresh-78",
+  "source": "fresh",
+  "question": "What is the median overall survival time reported for patients with metastatic pancreatic cancer in May 2026?",
+  "answer": "13.2 months",
+  "evidence": "31 May – A Phase 3 trial published in the New England Journal of Medicine reports that daraxonrasib, an investigational oral RAS(ON) inhibitor, nearly doubles median overall survival in patients with previously treated metastatic pancreatic cancer, from 6.6 months with standard chemotherapy to 13.2 months.",
+  "page": "2026 in science",
+  "url": "https://en.wikipedia.org/wiki/2026_in_science",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "The median overall survival time for patients with metastatic pancreatic cancer reported in May 2026 was found to be 17.3 months. This was outlined in the results presented during the ASCO 2026 conference. \n\nFINAL: 17.3 months",
+ "correct": false,
+ "cost": 0.001385100000000028,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You answer questions about recent events (2025–2026). Never answer from memory: use web_search (and tavily_search if available) to find the right article, then page_find to look inside long articles such as '2026 in <country or field>' for the specific fact. Do not repeat the same call. When done, write the last line as FINAL: <short answer>."
+  },
+  {
+   "role": "user",
+   "content": "What is the median overall survival time reported for patients with metastatic pancreatic cancer in May 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_L0AWl3MkImkUT6plVhiX1Ipw",
+     "function": {
+      "name": "tavily_search",
+      "arguments": "{\"query\":\"median overall survival time metastatic pancreatic cancer May 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_L0AWl3MkImkUT6plVhiX1Ipw",
+   "content": "[ASCO 2026: Daraxonrasib doubles median overall survival in metastatic pancreatic cancer - ecancer](https://ecancer.org/en/news/28376-asco-2026-daraxonrasib-doubles-median-overall-survival-in-metastatic-pancreatic-cancer) There was also a reduction in the risk of cancer progression observed among these patients, with a median progression-free survival of 7.2 months compared to 3.6 months with chemotherapy. [...] Patients who received daraxonrasib showed meaningful improvements in overall survival compared to those treated with chemotherapy regardless of RAS mutation status. In the overall study population, patients who received daraxonrasib showed a hazard for death of 0.40, with a median overall survival of 13.2\n[First RAS Inhibitor Extends Survival in Previously Treated Metastatic Pancreatic Adenocarcinoma: What You Need to Know - Pancreatic Cancer Action Network](https://pancan.org/news/first-ras-inhibitor-extends-survival-in-previously-treated-metastatic-pancreatic-adenocarcinoma-what-you-need-to-know) ## 04/13/2026 A new therapy that targets RAS mutations present in more than 90% of patients with pancreatic adenocarcinoma — the most common type of pancreatic cancer — approximately doubles overall survival according to clinical trial results announced today. [...] Additional data from this trial is expected to be presented at the American Society of Clinical Oncology (ASCO) Annual Meeting in late May 2026. Revolution Medicines has announced their intent to take their data to the U.S. FDA for a\n[Long-Term Survival in Metastatic Pancreatic Adenocarcinoma of Intestinal Type](https://pmc.ncbi.nlm.nih.gov/articles/PMC11396449) Pancreatic cancer is the fourth leading cause of death due to cancer worldwide . The mean survival rate for patients with metastatic pancreatic adenocarcinoma is 3–6 months . The incidence and mortality are higher in men than in women. Pancreatic ductal adenocarcinoma with pancreatobiliary-type differentiation is the most common and frequent type of pancreatic cancer, occurring in more than 85% of pancreatic cancer cases. [...] Introduction and Literature Review: Pancreatic cancer is often diagn\n[Pancreatic Cancer — Cancer Stat Facts](https://seer.cancer.gov/statfacts/html/pancreas.html) Skip to Main Content An official website of the United States government Surveillance, Epidemiology, and End Results Program Share on Facebook Tweet Print;) 1. Home 2. Cancer Statistics 3. Reports on Cancer 4. Cancer Stat Facts 5. Pancreatic Cancer — "
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_IxELnqaMNKNiT7I62pByRLlo",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"ASCO 2026: Daraxonrasib doubles median overall survival in metastatic pancreatic cancer\",\"keywords\":\"median overall survival, metastatic pancreatic cancer, May 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_IxELnqaMNKNiT7I62pByRLlo",
+   "content": "no such page"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_LLSCbm4DC5wpnOiR9e3VT1Gd",
+     "function": {
+      "name": "tavily_search",
+      "arguments": "{\"query\":\"median overall survival time metastatic pancreatic cancer ASCO 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_LLSCbm4DC5wpnOiR9e3VT1Gd",
+   "content": "[ASCO 2026: An Update on Research - Let's Win Pancreatic Cancer](https://letswinpc.org/research/2026-asco-research-update) The phase IIa results highlighted survival outcomes from an expanded cohort of 55 metastatic pancreatic cancer patients. Among the 50 patients whose response could be measured, the confirmed objective response rate was 36 percent and the disease control rate was 82 percent. Among the full cohort of 55 participants, median overall survival was 17.3 months and median progression-free survival was 8.3 months. In the 43 patients who had RAS mutations detected in their circulating tumor DNA, the [...\n[ASCO 2026: Multi-selective RAS(ON) inhibitor yields unprecedented survival gains for metastatic pancreatic cancer - Oncology Central](https://www.oncology-central.com/asco-2026-multi-selective-rason-inhibitor-yields-unprecedented-survival-gains-for-metastatic-pancreatic-cancer) At a median follow-up of 8.5 months, median overall survival (OS) was 13.2 months in the daraxonrasib group (both for participants with a RAS G12 variant and for the overall group). In the chemotherapy group, median OS was 6.6 months in the participants with a RASG12 variant and 6.7 months in the total group. [...] | More than half of pancreatic cancers are diagnosed after they have already metastasized. The 5-year relative survival rate for metastatic pancreatic cancer is about 3%. Chemotherapy\n[Daraxonrasib Nearly Doubles Survival in Previously Treated Metastatic Pancreatic Cancer - The ASCO Post](https://ascopost.com/issues/june-10-2026/daraxonrasib-nearly-doubles-survival-in-previously-treated-metastatic-pancreatic-cancer) Median Overall survival was nearly doubled among patients with previously treated metastatic pancreatic cancer who received the multiselective RAS(ON) inhibitor daraxonrasib in the phase III RASolute 302 trial, the results of which were presented at the Plenary Session of the 2026 ASCO Annual Meeting by Brian M. Wolpin, MD, MPH, Director of the Hale Family Center for Pancreatic Cancer Research and the Gastrointestinal Cancer Center, Dana-Farber Cancer Institute, Boston.1 These data were [...] --\n[ASCO 2026: Daraxonrasib doubles median overall survival in metastatic pancreatic cancer - ecancer](https://ecancer.org/en/news/28376-asco-2026-daraxonrasib-doubles-median-overall-survival-in-metastatic-pancreatic-cancer) There was also a reduction in the risk of cancer progression observed among these patients, with a median progression-free survival of 7"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_SMGAnIzWz6Bb4S5vmRKWMKPA",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"ASCO 2026: An Update on Research\",\"keywords\":\"median overall survival, metastatic pancreatic cancer\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_SMGAnIzWz6Bb4S5vmRKWMKPA",
+   "content": "no such page"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_waSEvUgBbXDhi41OCWOogeYW",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"Daraxonrasib Nearly Doubles Survival in Previously Treated Metastatic Pancreatic Cancer\",\"keywords\":\"median overall survival, metastatic pancreatic cancer, ASCO 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_waSEvUgBbXDhi41OCWOogeYW",
+   "content": "no such page"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_DkRjo1GVB5CWfK9yNroFY9Fq",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"ASCO 2026: Multi-selective RAS(ON) inhibitor yields unprecedented survival gains for metastatic pancreatic cancer\",\"keywords\":\"median overall survival, metastatic pancreatic cancer, May 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_DkRjo1GVB5CWfK9yNroFY9Fq",
+   "content": "no such page"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_TidhE8kNZXWktYEex4EMokH8",
+     "function": {
+      "name": "tavily_search",
+      "arguments": "{\"query\":\"2026 ASCO pancreatic cancer survival results\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_TidhE8kNZXWktYEex4EMokH8",
+   "content": "[Presentation | Revista do Tribunal Superior do Trabalho](https://revista.tst.jus.br/rtst/user/setLocale/pt_BR?source=%2Frtst%2Farticle%2Fview%2F264%2F) Equipe Editorial, Apresentação , Revista do Tribunal Superior do Trabalho: v. 92 n. 1 (2026): Revista do Tribunal Superior do Trabalho Equipe Editorial, Sumário , Revista do Tribunal Superior do Trabalho: v. 92 n. 2 (2026): Revista do Tribunal Superior do Trabalho Equipe Editorial, Expediente , Revista do Tribunal Superior do Trabalho: v. 92 n. 2 (2026): Revista do Tribunal Superior do Trabalho [...] Equipe Editorial, Apresentação , Revista do Tribunal Superior do Trabalho: v. 92 n. 2 (2026): Re\n[Apresentação | Revista do Tribunal Superior do Trabalho](https://revista.tst.jus.br/rtst/user/setLocale/en_US?source=%2Frtst%2Farticle%2Fview%2F265) Equipe Editorial, Presentation , Revista do Tribunal Superior do Trabalho: v. 92 n. 1 (2026): Revista do Tribunal Superior do Trabalho Equipe Editorial, Sumário , Revista do Tribunal Superior do Trabalho: v. 92 n. 2 (2026): Revista do Tribunal Superior do Trabalho Equipe Editorial, Expediente , Revista do Tribunal Superior do Trabalho: v. 92 n. 2 (2026): Revista do Tribunal Superior do Trabalho [...] Equipe Editorial, Apresentação , Revista do Tribunal Superior do Trabalho: v. 92 n. 2 (2026): Re\n[revista.tst.jus.br](https://revista.tst.jus.br/rtst/citationstylelanguage/get/acm-sig-proceedings?submissionId=243&publicationId=245) Pinto Junior, A.R. e Bomfim, V. 2026. Riscos psicossociais e saúde mental no trabalho: impactos da atualização da NR-1. Revista do Tribunal Superior do Trabalho. 92, 1 (mar. 2026), 19–30. DOI:\n[Revista do Tribunal Superior do Trabalho](https://revista.tst.jus.br/rtst/user/setLocale/en_US?source=%2Frtst) ## Anúncios ### TST lança página especial em comemoração aos 100 anos da Revista do TST Nova página reúne linha do tempo, fotos e vídeos que celebram um século da Revista do TST. Saiba mais Saiba mais sobre TST lança página especial em comemoração aos 100 anos da Revista do TST ## Edição Atual v. 92 n. 2 (2026): Revista do Tribunal Superior do Trabalho [...] 133-156 + PDF DOI: #### Direito fundamental ao trabalho digno e ecologia integral diálogos entre a Encíclica Laudato Si’ e o Direito do Tra\n[Competência em razão do lugar e empresa de âmbito nacional | Revista do Tribunal Superior do Trabalho](https://revista.tst.jus.br/rtst/article/view/302) ## Como Citar Martins, S. P. (2026). Competência em razão do lugar e empresa de mbito nacional. Revi"
+  },
+  {
+   "role": "assistant",
+   "content": "The median overall survival time for patients with metastatic pancreatic cancer reported in May 2026 was found to be 17.3 months. This was outlined in the results presented during the ASCO 2026 conference. \n\nFINAL: 17.3 months",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

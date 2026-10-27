@@ -8,11 +8,11 @@
   "page": "2026 in sports",
   "url": "https://en.wikipedia.org/wiki/2026_in_sports"
  },
- "answer": "Unknown.",
- "correct": false,
- "cost": 0.0004210499999999229,
- "escalated": true,
- "confidence": 0.0,
+ "answer": "Aaron Rai.",
+ "correct": true,
+ "cost": 0.00031200000000009,
+ "escalated": false,
+ "confidence": 0.95,
  "agent_messages": [
   {
    "role": "system",
@@ -31,22 +31,22 @@
     {
      "type": "function",
      "index": 0,
-     "id": "call_W3SYAsZn9y0lriwKdE4t835S",
+     "id": "call_o4SYiYcJx0GuUPw6Nsy9UoaM",
      "function": {
-      "name": "web_search",
-      "arguments": "{\"query\":\"2026 PGA Championship winner Aronimink Golf Club May\"}"
+      "name": "tavily_search",
+      "arguments": "{\"query\":\"2026 PGA Championship winner Aronimink Golf Club May 2026\"}"
      }
     }
    ]
   },
   {
    "role": "tool",
-   "tool_call_id": "call_W3SYAsZn9y0lriwKdE4t835S",
-   "content": "[2026 PGA Championship] The 2026 PGA Championship was the 108th edition of the PGA Championship, the second of the four men's major golf championships held in 2026. The tournament took place on May 14–17 at Aronimink Golf Club in Newtown Square, Pennsylvania, a suburb west of Philadelphia. Aaron Rai won the golf tournament and his first career major championship, winning by three strokes over runners-up Jon Rahm and Alex Smalley. Rai became the second player of Indian heritage to win a men's major championship, after Vijay Singh, and the first from England to win the PGA Championship since Jim Barnes, who won the first two editions in 1916 and 1919. Rai became only the eighth player to win a major with a lower score in each round. | other articles: PGA Championship, BMW PGA Championship"
+   "tool_call_id": "call_o4SYiYcJx0GuUPw6Nsy9UoaM",
+   "content": "[Aaron Rai Wins at Aronimink: Sunday at the 2026 PGA Championship | The Shotgun Start](https://www.youtube.com/watch?v=3qvTHeGZv7s) # Aaron Rai Wins at Aronimink: Sunday at the 2026 PGA Championship | The Shotgun Start ### Description 12,473 views Posted: 2026-05-17 Join Andy Johnson and Brendan Porath as they go LIVE to recap the final round of the 2026 PGA Championship at Aronimink Golf Club. The two will discuss Aaron Rai's first major championship, risers and fallers on the leaderboard, disappointing Sunday performers, and much, much more! Listen on Spotify and Apple here: Apple: Spotify: [...] [1:41] Gentlemen, start yo\n[PGA Championship 2026 Golf Leaderboard - PGA Tour - Overview](https://www.pgatour.com/tournaments/2026/pga-championship/R2026033/overview) PGA TourLeaderboardWatch & ListenNewsFedExCupSchedulePlayersStatsFantasy & BettingSignature EventsAon Better DecisionsDP World Tour Eligibility RankingsHow It WorksTicketsShopPGA TourPGA Tour ChampionsKorn Ferry TourPGA Tour AmericasPGA Tour UniversityDP World TourLPGA TourTGL PGA Tour PGA Tour PGA Championship # PGA Championship Aronimink Golf Club Newtown Square, Pennsylvania • USA May 14 - 17, 2026 Aronimink Golf Club Newtown Square May 14 - 17, 2026 ### Event Overview 750 pts [...] Jock Hutc\n[2026 PGA Championship - Wikipedia](https://en.wikipedia.org/wiki/2026_PGA_Championship) | Field | 156 players, 82 after cut | | Cut | 144 (+4) | | Prize fund | $20,500,000 | | Winner's share | $3,690,000 | | Champion | | England Aaron Rai | | 271 (−9) | | Aronimink Golf Club is located in the United States Aronimink Golf Club Aronimink Golf Club Location in the United States Show map of the United States Aronimink Golf Club is located in Pennsylvania Aronimink Golf Club Aronimink Golf Club Location in Pennsylvania Show map of Pennsylvania | | ← 2025 2027 → | [...] ### Final round [\n[Nine things to know: Aronimink Golf Club, host of 2026 PGA Championship - PGA Tour](https://www.pgatour.com/article/news/needtoknow/2026/05/10/nine-things-to-know-aronimink-golf-club-2026-pga-championship-major-history-stats) Aronimink Golf Club, home to the 2026 PGA Championship, shares top-100 billing with the likes of such regional luminaries as Pine Valley Golf Club, Merion Golf Club and The Philadelphia Cricket Club's Wissahickon Course, with Gulph Mills Golf Club, Huntingdon Valley Country Club, Lancaster Country Club, Lehigh Country Club, Manufacturers’ Golf and Country Club, Philadelphia Country Club, Rolling Green Golf"
   },
   {
    "role": "assistant",
-   "content": "Aaron Rai won the 2026 PGA Championship held at Aronimink Golf Club in May 2026, marking his first career major championship. FINAL: Aaron Rai",
+   "content": "Aaron Rai won the 2026 PGA Championship held at Aronimink Golf Club in May 2026. FINAL: Aaron Rai.",
    "refusal": null,
    "reasoning": null
   }

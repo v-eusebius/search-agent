@@ -1,0 +1,76 @@
+{
+ "task": {
+  "id": "fresh-60",
+  "source": "fresh",
+  "question": "What is the number of people arrested in Ankara in June 2026?",
+  "answer": "209",
+  "evidence": "23 June – At least 209 people are arrested in raids by security forces across Ankara ahead of the 2026 Ankara NATO summit.",
+  "page": "2026 in Turkey",
+  "url": "https://en.wikipedia.org/wiki/2026_in_Turkey",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "Based on the search results, I found specific information about arrests in Ankara in June 2026. According to the Ankara Chief Public Prosecutor's Office statement from June 25, 2026:\n\n**225 people were detained during dawn raids on June 23, 2026** in Ankara. Of these:\n- 135 were referred to court with requests for pretrial detention\n- 103 were remanded in custody\n- 26 were placed under judicial control measures\n\nAnother source mentions that 209 people had been detained according to the Ankara prosecutor's office.\n\nFINAL: According to the Ankara Chief Public Prosecutor's Office statement from June 25, 2026, **225 people were detained** during operations launched in dawn raids on June 23, 2026 in Ankara. (Alternative figure: 209 people detained according to another prosecutor's office report.)",
+ "correct": true,
+ "cost": 0.008423999999999987,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You answer questions about recent events (2025–2026). Never answer from memory: use web_search (and tavily_search if available) to find the right article, then page_find to look inside long articles such as '2026 in <country or field>' for the specific fact. Do not repeat the same call. When done, write the last line as FINAL: <short answer>."
+  },
+  {
+   "role": "user",
+   "content": "What is the number of people arrested in Ankara in June 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "I'll search for information about arrests in Ankara in June 2026.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_015qTFd6bxH1BJoFUGtNJ1X5",
+     "function": {
+      "name": "tavily_search",
+      "arguments": "{\"query\": \"Ankara arrests June 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_015qTFd6bxH1BJoFUGtNJ1X5",
+   "content": "[Latest arrests reveal a disturbing pattern of harassment in ...](https://www.lawyersforlawyers.org/latest-arrests-reveal-a-disturbing-pattern-of-harassment-in-turkiye-ahead-of-nato-summit) Our organisations previously expressed concern about the arrest of lawyers Semra Demir, Kürşat Bafra and Doğa İncesu on 23 June 2026, during coordinated police\n[Dozens arrested ahead of the NATO summit in Türkiye remain in prison - World Socialist Web Site](https://www.wsws.org/en/articles/2026/10/13/eunp-o13.html) On June 22, the Ankara Governor’s Office announced a 13-day ban, from June 28 to July 10, on all actions and activities in the city, including meetings, demonstrations, press statements, leafleting and the hanging of banners. The very next morning, June 23, after this decision amounting to a de facto state of emergency, simultaneous house raids began in many cities, above all in Ankara. Police broke down doors, and detainees were barred from seeing their lawyers. [...] The most striking example \n[Turkey arrests more than 200 in crackdown before NATO ...](https://www.dw.com/en/turkey-arrests-more-than-200-in-crackdown-before-nato-summit/a-77669771) Turkish security forces on Tuesday arrested more than 200 people suspected of links to the self-styled Islamic State and other groups Ankara\n[HRW denounces Turkey arrests ahead of NATO summit](https://www.france24.com/en/live-news/20260625-hrw-denounces-turkey-arrests-ahead-of-nato-summit) Human Rights Watch on Thursday denounced Turkey's arrest of over 200 people ahead of the NATO summit in Ankara, saying it showed a \"ruthless\n[Turkish Police Detained Over 100 Protesters In Ankara Ahead ...](https://www.youtube.com/watch?v=xmrqazMRRHg) More than 100 people were detained in Ankara during an anti-NATO protest march organized by the Communist Party of Turkey (TKP),"
+  },
+  {
+   "role": "assistant",
+   "content": "Based on the search results, I can see there were arrests in Ankara in June 2026 related to a NATO summit. Let me search for more specific numbers about the total arrests in Ankara during that period.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01BHQPzrT46ngybCmme7gafg",
+     "function": {
+      "name": "tavily_search",
+      "arguments": "{\"query\": \"\\\"June 2026\\\" Ankara arrests number total\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01BHQPzrT46ngybCmme7gafg",
+   "content": "[Türkiye: Authorities must lift blanket protest ban ahead of NATO Summit and release scores of arbitrarily detained people    - Amnesty International](https://www.amnesty.org/en/latest/news/2026/06/turkiye-authorities-must-lift-blanket-protest-ban-ahead-of-nato-summit-and-release-scores-of-arbitrarily-detained-people) According to a statement issued by the Ankara Chief Public Prosecutor’s Office on 25 June 2026, of the 225 people detained during operations launched in dawn raids on 23 June, 135 were referred to court with requests for pretrial detention. Of these, 103 were remanded, while 26 were placed under judicial control measures, including house arrest. [...] Background On 22 June, the Ankara Governorate announced a province-wide ban on all public assemblies from 00:00 on 28 June until 23:59 on 10 July \n[Latest arrests reveal a disturbing pattern of harassment in ...](https://www.lawyersforlawyers.org/latest-arrests-reveal-a-disturbing-pattern-of-harassment-in-turkiye-ahead-of-nato-summit) Our organisations previously expressed concern about the arrest of lawyers Semra Demir, Kürşat Bafra and Doğa İncesu on 23 June 2026, during coordinated police\n[Turkey arrests more than 200 in crackdown before NATO ...](https://www.dw.com/en/turkey-arrests-more-than-200-in-crackdown-before-nato-summit/a-77669771) The Ankara prosecutor's office said that 241 arrest warrants had been issued and that 209 people had been detained. Police operations seeking\n[Dozens arrested ahead of the NATO summit in Türkiye remain in prison - World Socialist Web Site](https://www.wsws.org/en/articles/2026/10/13/eunp-o13.html) According to a report on rights violations published on July 20 by Lawyers for Justice, at least 668 people were detained nationwide in the course of the summit. In a single investigation alone, 179 people were jailed pending trial and 34 were placed under house arrest. Subsequent operations brought the number of those jailed close to 220. Those detained included trade unionists, lawyers, academics, journalists, students and members of various left-wing parties. [...] On June 22, the Ankara Gove\n[Purges in Turkey following the 2016 Turkish coup attempt - Wikipedia](https://en.wikipedia.org/wiki/Purges_in_Turkey_following_the_2016_Turkish_coup_attempt) there were 200 arrests. [...] 300,000 arrested or detained, 150,000 dismissed from government jobs (nearing 10% of public employees) [...] the suspensions and arrests decree of April 29 and 300,000 by February 2025."
+  },
+  {
+   "role": "assistant",
+   "content": "Based on the search results, I found specific information about arrests in Ankara in June 2026. According to the Ankara Chief Public Prosecutor's Office statement from June 25, 2026:\n\n**225 people were detained during dawn raids on June 23, 2026** in Ankara. Of these:\n- 135 were referred to court with requests for pretrial detention\n- 103 were remanded in custody\n- 26 were placed under judicial control measures\n\nAnother source mentions that 209 people had been detained according to the Ankara prosecutor's office.\n\nFINAL: According to the Ankara Chief Public Prosecutor's Office statement from June 25, 2026, **225 people were detained** during operations launched in dawn raids on June 23, 2026 in Ankara. (Alternative figure: 209 people detained according to another prosecutor's office report.)",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

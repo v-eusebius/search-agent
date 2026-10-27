@@ -10,9 +10,9 @@
   "sonnet_answer": "unknown",
   "agent_ok": true
  },
- "answer": "On February 26, 2026, the government of Pakistan declared \"open war\" against the Afghan Taliban following ongoing military confrontations, including attacks on Pakistani army posts. FINAL: Pakistan declared \"open war\" on February 26, 2026.",
+ "answer": "On February 26, 2026, the government of Pakistan, represented by Defense Minister Khawaja Asif, declared an \"open war\" against Afghanistan. This declaration came amid escalating conflict following airstrikes by Pakistan on militant camps in Afghanistan.\n\nFINAL: Pakistan declared an \"open war\" against Afghanistan on February 26, 2026.",
  "correct": true,
- "cost": 0.0007521000000000055,
+ "cost": 0.0010450500000000196,
  "messages": [
   {
    "role": "system",
@@ -31,18 +31,18 @@
     {
      "type": "function",
      "index": 0,
-     "id": "call_BZWLdWNvwmGXsis05MBn117L",
+     "id": "call_G9ZeMMjqJeB7xggr5hs9DksB",
      "function": {
       "name": "web_search",
-      "arguments": "{\"query\":\"Pakistan government February 26 2026 Afghanistan Pakistan war declaration\"}"
+      "arguments": "{\"query\":\"Pakistan February 26 2026 Afghanistan Pakistan war declaration\"}"
      }
     }
    ]
   },
   {
    "role": "tool",
-   "tool_call_id": "call_BZWLdWNvwmGXsis05MBn117L",
-   "content": "[2025 Afghanistan–Pakistan conflict] In the early hours of 9 October 2025, Pakistan carried out airstrikes in Kabul, Khost, Jalalabad, and Paktika, targeting the Pakistani Taliban (TTP) which it code named \"Operation Khyber Storm\". The group's leader, Noor Wali Mehsud, was the main target of the attack in Kabul, which occurred in Abdul Haq Square, but survived. On the night from 11 to 12 October, the Afghan Taliban launched an attack on multiple Pakistani military posts along the Afghanistan–Pakistan border in retaliation for the Pakistani airstrikes. Following the attack, the Taliban’s Ministry of Defense announced the conclusion of their operation. However, Pakistani officials rejected the Taliban’s ceasefire declaration and continued their offensive, which was confirmed by a Taliban spokesman, noting that clashes persisted into the morning of 12 October. On the same day, reports emerged of Pakistani drone strikes in Kandahar and Helmand provinces, killing 19 Taliban fighters, though these casualties were not confirmed by Taliban officials. Both sides claimed to have inflicted heavy losses on each other and captured or destroyed several border posts. Satellite imagery of a Taliban military compound in Spin Boldak showed that it had suffered significant damage during the clashes. Heavy fighting resumed on 15 October, with both sides accusing the other of initiating the violence. The fiercest fighting occurred around Spin Boldak, where civilian casualties were reported. Pakistan later announced “precision” airst | other articles: Afghanistan, Pakistan Army"
+   "tool_call_id": "call_G9ZeMMjqJeB7xggr5hs9DksB",
+   "content": "[2025 Afghanistan–Pakistan conflict] In the early hours of 9 October 2025, Pakistan carried out airstrikes in Kabul, Khost, Jalalabad, and Paktika, targeting the Pakistani Taliban (TTP) which it code named \"Operation Khyber Storm\". The group's leader, Noor Wali Mehsud, was the main target of the attack in Kabul, which occurred in Abdul Haq Square, but survived. On the night from 11 to 12 October, the Afghan Taliban launched an attack on multiple Pakistani military posts along the Afghanistan–Pakistan border in retaliation for the Pakistani airstrikes. Following the attack, the Taliban’s Ministry of Defense announced the conclusion of their operation. However, Pakistani officials rejected the Taliban’s ceasefire declaration and continued their offensive, which was confirmed by a Taliban spokesman, noting that clashes persisted into the morning of 12 October. On the same day, reports emerged of Pakistani drone strikes in Kandahar and Helmand provinces, killing 19 Taliban fighters, though these casualties were not confirmed by Taliban officials. Both sides claimed to have inflicted heavy losses on each other and captured or destroyed several border posts. Satellite imagery of a Taliban military compound in Spin Boldak showed that it had suffered significant damage during the clashes. Heavy fighting resumed on 15 October, with both sides accusing the other of initiating the violence. The fiercest fighting occurred around Spin Boldak, where civilian casualties were reported. Pakistan later announced “precision” airst | other articles: Pakistan, 2026 Iran war"
   },
   {
    "role": "assistant",
@@ -53,7 +53,7 @@
     {
      "type": "function",
      "index": 0,
-     "id": "call_ZhW6ZnhiOIcUmjl2dpzjbHpP",
+     "id": "call_iA669OdsbH6i2SZ7efX6da39",
      "function": {
       "name": "page_find",
       "arguments": "{\"title\":\"2026 in Pakistan\",\"keywords\":\"February 26 declaration\"}"
@@ -63,7 +63,7 @@
   },
   {
    "role": "tool",
-   "tool_call_id": "call_ZhW6ZnhiOIcUmjl2dpzjbHpP",
+   "tool_call_id": "call_iA669OdsbH6i2SZ7efX6da39",
    "content": "A series of attacks are carried out by militants affiliated with the BLA on multiple locations across Balochistan from 29 January to 5 February, leaving 36 civilians, 2 members of the security forces, and 216 of the militants/insurgents dead.\n=== February ===\n6 February –\n11 February – Four police officers are killed in an ambush by militants on their vehicle in Dera Ismail Khan District, Khyber Pakhtunkhwa.\n12 February – One person is killed in a bomb attack on a vehicle belonging to the Frontier Works Organization in Chilas.\n13 February – A multi-vehicle collision on the M9 motorway in Gadap, Karachi, kills 13 people."
   },
   {
@@ -75,7 +75,7 @@
     {
      "type": "function",
      "index": 0,
-     "id": "call_FfDwOZ4AjrOIqSoTPeHX2Qmq",
+     "id": "call_wpZmSHtktQ2gnKWY2aB9KdMo",
      "function": {
       "name": "page_find",
       "arguments": "{\"title\":\"2026 in Pakistan\",\"keywords\":\"February 26 government declaration\"}"
@@ -85,7 +85,7 @@
   },
   {
    "role": "tool",
-   "tool_call_id": "call_FfDwOZ4AjrOIqSoTPeHX2Qmq",
+   "tool_call_id": "call_wpZmSHtktQ2gnKWY2aB9KdMo",
    "content": "keywords not found on the page"
   },
   {
@@ -97,18 +97,18 @@
     {
      "type": "function",
      "index": 0,
-     "id": "call_4VRjOcjtCcoeJlPo6vgnyaGf",
+     "id": "call_A9R78d2czATwkKattKdWW0XX",
      "function": {
       "name": "web_search",
-      "arguments": "{\"query\":\"Pakistan government declaration February 26 2026 news\"}"
+      "arguments": "{\"query\":\"Pakistan February 26 2026 government declaration news\"}"
      }
     }
    ]
   },
   {
    "role": "tool",
-   "tool_call_id": "call_4VRjOcjtCcoeJlPo6vgnyaGf",
-   "content": "[2026] 2026 (MMXXVI) is the current year, and is a common year starting on Thursday of the Gregorian calendar, the 2026th year of the Common Era (CE) and Anno Domini (AD) designations, the 26th year of the 3rd millennium and the 21st century, and the 7th year of the 2020s decade. The early part of the year saw escalating armed conflicts in the Americas and Middle East. In January, the United States launched a military operation in Venezuela that captured sitting President Nicolás Maduro, leading to a blockade of Venezuelan oil exports that contributed to a crisis in Cuba. In Syria, an offensive by the Syrian government led to the Syrian Democratic Forces eventually being integrated into the Syrian Army, ending the Rojava Revolution, while in Yemen, a counteroffensive by the Yemeni government led to the collapse of the Southern Transitional Council. In February, Pakistan launched airstrikes against Afghanistan, leading to an open war between both nations. In Iran, in response to authorities cracking down on protests, the United States and Israel began a war in late February with the assassination of Supreme Leader Ali Khamenei, which resulted in widespread economic grief, fuel shortages and retaliatory strikes on Gulf nations, as well as the closure of the Strait of Hormuz and a naval blockade. The continued release of the Epstein files that began the previous year has influenced scrutiny, media coverage, and in some cases arrests of high profile individuals in politics, business, an | other articles: 2026 in the United States, 2026 Iran war"
+   "tool_call_id": "call_A9R78d2czATwkKattKdWW0XX",
+   "content": "[2026] 2026 (MMXXVI) is the current year, and is a common year starting on Thursday of the Gregorian calendar, the 2026th year of the Common Era (CE) and Anno Domini (AD) designations, the 26th year of the 3rd millennium and the 21st century, and the 7th year of the 2020s decade. The early part of the year saw escalating armed conflicts in the Americas and Middle East. In January, the United States launched a military operation in Venezuela that captured sitting President Nicolás Maduro, leading to a blockade of Venezuelan oil exports that contributed to a crisis in Cuba. In Syria, an offensive by the Syrian government led to the Syrian Democratic Forces eventually being integrated into the Syrian Army, ending the Rojava Revolution, while in Yemen, a counteroffensive by the Yemeni government led to the collapse of the Southern Transitional Council, followed by Houthi offensives, including attacks on airports in Saudi Arabia. In February, Pakistan launched airstrikes against Afghanistan, leading to an open war between both nations. In Iran, in response to authorities cracking down on protests, the United States and Israel began a war in late February with the assassination of Supreme Leader Ali Khamenei, which resulted in widespread economic grief, fuel shortages and retaliatory strikes on Gulf nations, as well as the closure of the Strait of Hormuz and a naval blockade. There were also escalations of the Ethiopian civil conflict. The continued release of the Epstein files that began | other articles: 2026 in the United States, 2026 Iran war"
   },
   {
    "role": "assistant",
@@ -119,22 +119,66 @@
     {
      "type": "function",
      "index": 0,
-     "id": "call_rcPfgsfKQKMtO9BaH8bdCTGB",
+     "id": "call_6wuqUvD3Geh6hPeoBw3PJfA8",
      "function": {
       "name": "page_find",
-      "arguments": "{\"title\":\"2026 in Afghanistan\",\"keywords\":\"Pakistan government February 26 declaration\"}"
+      "arguments": "{\"title\":\"2026 in Pakistan\",\"keywords\":\"February 2026 airstrikes declaration\"}"
      }
     }
    ]
   },
   {
    "role": "tool",
-   "tool_call_id": "call_rcPfgsfKQKMtO9BaH8bdCTGB",
-   "content": "17 February – Three Pakistani soldiers captured by Afghanistan during the 2025 Afghanistan–Pakistan conflict are released following mediation by Saudi Arabia.\n22 February – Pakistan carries out airstrikes on suspected militant camps in Nangarhar and Paktika provinces, killing 18 people.\n26 February – The Afghan Taliban carry out attacks on Pakistani army posts. The Taliban says about 40 Pakistani soldiers were killed, while Pakistani security sources claim 22 Taliban personnel dead and several quadcopters shot down.\n27 February – Pakistan declares \"open war\" against the Afghan Taliban."
+   "tool_call_id": "call_6wuqUvD3Geh6hPeoBw3PJfA8",
+   "content": "22 February – Pakistan carries out airstrikes on suspected militant camps in Afghanistan, killing 18 people."
   },
   {
    "role": "assistant",
-   "content": "On February 26, 2026, the government of Pakistan declared \"open war\" against the Afghan Taliban following ongoing military confrontations, including attacks on Pakistani army posts. FINAL: Pakistan declared \"open war\" on February 26, 2026.",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_MNfS6sewHmtjZzmDvyE2LK5F",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Pakistan February 26 2026 government statement\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_MNfS6sewHmtjZzmDvyE2LK5F",
+   "content": "[2026 Afghanistan–Pakistan war] Since February 2026, Pakistan and Afghanistan have been engaged in the most sustained cross-border conflict between the two countries since the Taliban's 2021 return to power in Afghanistan. The conflict began with Pakistani airstrikes on alleged Pakistani Taliban (TTP) and Islamic State – Khorasan Province camps in eastern Afghanistan, and escalated within a week into what Pakistan's defence minister, Khawaja Asif, called an \"open war\" fought under the codename Operation Ghazab lil-Haq. The war has combined air and artillery exchanges along the Durand Line with a parallel insurgency inside Pakistan, as the TTP and allied groups intensified attacks in Khyber Pakhtunkhwa and Balochistan. Two ceasefire agreements for the Islamic holidays of Eid al-Fitr and Eid al-Adha briefly reduced hostilities but did not end them; fighting continued at lower intensity through the summer of 2026 and flared again in September following a mass-casualty attack in Kohat, Pakistan. | other articles: 2026 Yemen offensives, 2025–2026 Iranian protests"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_16qxf8ZeCByhVlKTMsrUB402",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"2026 in Pakistan\",\"keywords\":\"February 26 open war declaration\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_16qxf8ZeCByhVlKTMsrUB402",
+   "content": "27 February – Defense minister Khawaja Asif declares an \"open war\" against Afghanistan."
+  },
+  {
+   "role": "assistant",
+   "content": "On February 26, 2026, the government of Pakistan, represented by Defense Minister Khawaja Asif, declared an \"open war\" against Afghanistan. This declaration came amid escalating conflict following airstrikes by Pakistan on militant camps in Afghanistan.\n\nFINAL: Pakistan declared an \"open war\" against Afghanistan on February 26, 2026.",
    "refusal": null,
    "reasoning": null
   }

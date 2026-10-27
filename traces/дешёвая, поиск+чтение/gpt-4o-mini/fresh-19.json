@@ -10,9 +10,9 @@
   "sonnet_answer": "unknown",
   "agent_ok": false
  },
- "answer": "На 15 июня 2026 года Disney Branded Television произошла смена бренда на \"Disney Entertainment Television\". \n\nFINAL: Disney Entertainment Television.",
+ "answer": "Disney Branded Television rebranded itself as \"Disney Animation Channel\" on June 15, 2026, focusing on showcasing animated content. \n\nFINAL: Disney Animation Channel.",
  "correct": false,
- "cost": 0.0014617499999999978,
+ "cost": 0.00154725,
  "messages": [
   {
    "role": "system",
@@ -31,7 +31,7 @@
     {
      "type": "function",
      "index": 0,
-     "id": "call_Rv5NIwN6QiJLKHkKDYfs1CEs",
+     "id": "call_A19TynyuaGK2RItnqvAD23eP",
      "function": {
       "name": "web_search",
       "arguments": "{\"query\":\"Disney Branded Television rebrand June 15 2026\"}"
@@ -41,8 +41,8 @@
   },
   {
    "role": "tool",
-   "tool_call_id": "call_Rv5NIwN6QiJLKHkKDYfs1CEs",
-   "content": "[Disney+ Hotstar] Disney+ Hotstar, known as JioHotstar is an Indian subscription video-on-demand, over-the-top streaming service owned by JioStar. The brand was introduced as Hotstar for a streaming service carrying content from Disney Star's (formerly Star India) local networks, including films, television series, live sports, and original programming, as well as featuring content licensed from third parties such as Showtime among others. Amid the significant growth of mobile broadband in India, Hotstar quickly became the dominant streaming service in the country. Following the acquisition of Star India's parent company 21st Century Fox by Disney in 2019, Hotstar was integrated into Disney's global streaming brand Disney+ as \"Disney+ Hotstar\" in April 2020. The co-branded service added Disney+ original programming, and films and television series from its main content brands of Walt Disney Studios, Pixar, Marvel Studios, Lucasfilm, and National Geographic alongside the domestic and third-party content already carried on the platform. The Indian version of Disney+ Hotstar in India was merged with JioCinema in February 2025 to form JioHotstar. Outside India, in Indonesia, Malaysia, and Thailand, Disney+ Hotstar is fully owned by The Walt Disney Company, where it similarly combines entertainment content licensed from local, third-party studios with the larger Disney+ library. Disney+ Hotstar in Indonesia, Malaysia, and Thailand became Disney+ on 9 October 2025 as part of the rebranding of Star i | other articles: Playhouse Disney, 2026 in American television"
+   "tool_call_id": "call_A19TynyuaGK2RItnqvAD23eP",
+   "content": "[Disney+ Hotstar] Disney+ Hotstar, known as JioHotstar in India and simply Hotstar in Canada, Singapore, and the United Kingdom, is an Indian subscription video-on-demand, over-the-top streaming service owned by JioStar. The brand was introduced as Hotstar for a streaming service carrying content from Disney Star's (formerly Star India) local networks, including films, television series, live sports, and original programming, as well as featuring content licensed from third parties such as Showtime among others. Amid the significant growth of mobile broadband in India, Hotstar quickly became the dominant streaming service in the country. Following the acquisition of Star India's parent company 21st Century Fox by Disney in 2019, Hotstar was integrated into Disney's global streaming brand Disney+ as \"Disney+ Hotstar\" in April 2020. The co-branded service added Disney+ original programming, and films and television series from its main content brands of Walt Disney Studios, Pixar, Marvel Studios, Lucasfilm, and National Geographic alongside the domestic and third-party content already carried on the platform. The Indian version of Disney+ Hotstar in India was merged with JioCinema in February 2025 to form JioHotstar. Outside India, in Indonesia, Malaysia, and Thailand, Disney+ Hotstar is fully owned by The Walt Disney Company, where it similarly combines entertainment content licensed from local, third-party studios with the larger Disney+ library. Disney+ Hotstar in Indonesia, Malaysia, and Tha | other articles: Playhouse Disney, Disney Kids & Family"
   },
   {
    "role": "assistant",
@@ -53,18 +53,18 @@
     {
      "type": "function",
      "index": 0,
-     "id": "call_PC6NmDJTUcGVRo94mqYkYf8b",
+     "id": "call_RcXjIa8zyNW1oaY12ureTIAc",
      "function": {
       "name": "web_search",
-      "arguments": "{\"query\":\"Disney Branded Television rebrand announcement 2026\"}"
+      "arguments": "{\"query\":\"Disney rebrands as June 15 2026\"}"
      }
     }
    ]
   },
   {
    "role": "tool",
-   "tool_call_id": "call_PC6NmDJTUcGVRo94mqYkYf8b",
-   "content": "[Disney+ Hotstar] Disney+ Hotstar, known as JioHotstar is an Indian subscription video-on-demand, over-the-top streaming service owned by JioStar. The brand was introduced as Hotstar for a streaming service carrying content from Disney Star's (formerly Star India) local networks, including films, television series, live sports, and original programming, as well as featuring content licensed from third parties such as Showtime among others. Amid the significant growth of mobile broadband in India, Hotstar quickly became the dominant streaming service in the country. Following the acquisition of Star India's parent company 21st Century Fox by Disney in 2019, Hotstar was integrated into Disney's global streaming brand Disney+ as \"Disney+ Hotstar\" in April 2020. The co-branded service added Disney+ original programming, and films and television series from its main content brands of Walt Disney Studios, Pixar, Marvel Studios, Lucasfilm, and National Geographic alongside the domestic and third-party content already carried on the platform. The Indian version of Disney+ Hotstar in India was merged with JioCinema in February 2025 to form JioHotstar. Outside India, in Indonesia, Malaysia, and Thailand, Disney+ Hotstar is fully owned by The Walt Disney Company, where it similarly combines entertainment content licensed from local, third-party studios with the larger Disney+ library. Disney+ Hotstar in Indonesia, Malaysia, and Thailand became Disney+ on 9 October 2025 as part of the rebranding of Star i | other articles: 2026 in American television, List of Marvel Cinematic Universe television series (Marvel Studios)"
+   "tool_call_id": "call_RcXjIa8zyNW1oaY12ureTIAc",
+   "content": "[Disney+ Hotstar] Disney+ Hotstar, known as JioHotstar in India and simply Hotstar in Canada, Singapore, and the United Kingdom, is an Indian subscription video-on-demand, over-the-top streaming service owned by JioStar. The brand was introduced as Hotstar for a streaming service carrying content from Disney Star's (formerly Star India) local networks, including films, television series, live sports, and original programming, as well as featuring content licensed from third parties such as Showtime among others. Amid the significant growth of mobile broadband in India, Hotstar quickly became the dominant streaming service in the country. Following the acquisition of Star India's parent company 21st Century Fox by Disney in 2019, Hotstar was integrated into Disney's global streaming brand Disney+ as \"Disney+ Hotstar\" in April 2020. The co-branded service added Disney+ original programming, and films and television series from its main content brands of Walt Disney Studios, Pixar, Marvel Studios, Lucasfilm, and National Geographic alongside the domestic and third-party content already carried on the platform. The Indian version of Disney+ Hotstar in India was merged with JioCinema in February 2025 to form JioHotstar. Outside India, in Indonesia, Malaysia, and Thailand, Disney+ Hotstar is fully owned by The Walt Disney Company, where it similarly combines entertainment content licensed from local, third-party studios with the larger Disney+ library. Disney+ Hotstar in Indonesia, Malaysia, and Tha | other articles: 2026 in animation, List of Disney Channel original films"
   },
   {
    "role": "assistant",
@@ -75,18 +75,18 @@
     {
      "type": "function",
      "index": 0,
-     "id": "call_vpXX8P0bPz1AshIiMk3XQQrG",
+     "id": "call_ZwHizqsUBy7DmZ4KTZ5yYHla",
      "function": {
       "name": "web_search",
-      "arguments": "{\"query\":\"Disney Branded Television rebrand June 2026 information\"}"
+      "arguments": "{\"query\":\"Disney rebranding news June 2026\"}"
      }
     }
    ]
   },
   {
    "role": "tool",
-   "tool_call_id": "call_vpXX8P0bPz1AshIiMk3XQQrG",
-   "content": "[2026 in American television] Certain American television events in 2026 have been scheduled. Events listed include television show debuts, finales, and cancellations; channel launches, closures, and rebrandings; stations changing or adding their network affiliations; information on controversies, business transactions, and carriage disputes; and deaths of those who made various contributions to the medium. | other articles: Disney Entertainment Television, Disney Kids & Family"
+   "tool_call_id": "call_ZwHizqsUBy7DmZ4KTZ5yYHla",
+   "content": "[The Cat in the Hat (2026 film)] The Cat in the Hat is an upcoming American animated fantasy comedy film loosely based on the 1957 children's book by Dr. Seuss. Written and directed by Alessandro Carloni and Erica Rivinoja, it is the second feature-length adaptation of the book following the 2003 live-action film. Bill Hader stars as the voice of the titular character, alongside Matt Berry, Quinta Brunson, Xochitl Gomez, Giancarlo Esposito, and America Ferrera. An animated adaptation of The Cat in the Hat was originally announced by Illumination Entertainment in 2012, following the commercial success of The Lorax, with Rob Lieber set to write the script, but the film never came to fruition. Warner Bros. picked up the rights to the book in January 2018. Rivinoja and Art Hernandez were hired to direct in October 2020 before the latter was replaced by Carloni in June 2023. Most of the cast was announced in March 2024, with DNEG providing animation. Additional casting took place in June 2025. The Cat in the Hat is scheduled to be theatrically released in the United States on November 6, 2026, by Warner Bros. Pictures. | other articles: Playhouse Disney, Disney+ Hotstar"
   },
   {
    "role": "assistant",
@@ -97,40 +97,18 @@
     {
      "type": "function",
      "index": 0,
-     "id": "call_qIevzm8iVlQczxT9DHm1hW7S",
-     "function": {
-      "name": "page_find",
-      "arguments": "{\"title\":\"2026 in American television\",\"keywords\":\"Disney Branded Television rebrand\"}"
-     }
-    }
-   ]
-  },
-  {
-   "role": "tool",
-   "tool_call_id": "call_qIevzm8iVlQczxT9DHm1hW7S",
-   "content": "Certain American television events in 2026 have been scheduled. Events listed include television show debuts, finales, and cancellations; channel launches, closures, and rebrandings; stations changing or adding their network affiliations; information on controversies, business transactions, and carriage disputes; and deaths of those who made various contributions to the medium."
-  },
-  {
-   "role": "assistant",
-   "content": null,
-   "refusal": null,
-   "reasoning": null,
-   "tool_calls": [
-    {
-     "type": "function",
-     "index": 0,
-     "id": "call_lv1v4q149Qjzv60cZ0TJCU1c",
+     "id": "call_Co4djwYPXhkJ1ekGUQ9WAswO",
      "function": {
       "name": "web_search",
-      "arguments": "{\"query\":\"Disney Branded Television rebranding announcement June 2026\"}"
+      "arguments": "{\"query\":\"Disney Branded Television rebranding\"}"
      }
     }
    ]
   },
   {
    "role": "tool",
-   "tool_call_id": "call_lv1v4q149Qjzv60cZ0TJCU1c",
-   "content": "[Disney+ Hotstar] Disney+ Hotstar, known as JioHotstar is an Indian subscription video-on-demand, over-the-top streaming service owned by JioStar. The brand was introduced as Hotstar for a streaming service carrying content from Disney Star's (formerly Star India) local networks, including films, television series, live sports, and original programming, as well as featuring content licensed from third parties such as Showtime among others. Amid the significant growth of mobile broadband in India, Hotstar quickly became the dominant streaming service in the country. Following the acquisition of Star India's parent company 21st Century Fox by Disney in 2019, Hotstar was integrated into Disney's global streaming brand Disney+ as \"Disney+ Hotstar\" in April 2020. The co-branded service added Disney+ original programming, and films and television series from its main content brands of Walt Disney Studios, Pixar, Marvel Studios, Lucasfilm, and National Geographic alongside the domestic and third-party content already carried on the platform. The Indian version of Disney+ Hotstar in India was merged with JioCinema in February 2025 to form JioHotstar. Outside India, in Indonesia, Malaysia, and Thailand, Disney+ Hotstar is fully owned by The Walt Disney Company, where it similarly combines entertainment content licensed from local, third-party studios with the larger Disney+ library. Disney+ Hotstar in Indonesia, Malaysia, and Thailand became Disney+ on 9 October 2025 as part of the rebranding of Star i | other articles: 2026 in American television, List of Marvel Cinematic Universe television series (Marvel Studios)"
+   "tool_call_id": "call_Co4djwYPXhkJ1ekGUQ9WAswO",
+   "content": "[Playhouse Disney] Playhouse Disney was a brand of programming blocks and international cable and satellite television channels that were owned by the Disney Channels Worldwide unit (now Disney Branded Television) of The Walt Disney Company's Disney–ABC Television Group. It originated in the United States as a morning program block on the Disney Channel. Aimed mainly at children at two to seven years of age, its programming featured a mix of live-action and animated series. The Playhouse Disney block on Disney Channel was rebranded as the Disney Junior block on Disney Channel on February 14, 2011. The remaining channels and blocks using the Playhouse Disney brand outside the US relaunched under the Disney Junior brand over the next two years, concluding with the rebranding of the Playhouse Disney block on Disney Channel Russia on September 1, 2013. | other articles: Disney+ Hotstar, Disney Kids & Family"
   },
   {
    "role": "assistant",
@@ -141,18 +119,18 @@
     {
      "type": "function",
      "index": 0,
-     "id": "call_fLnFu4olv1BQydC9g3pSt2Hu",
+     "id": "call_Zpb85LKRkmPPlcHzV98vG8OM",
      "function": {
       "name": "web_search",
-      "arguments": "{\"query\":\"Disney Television rebranding news June 2026\"}"
+      "arguments": "{\"query\":\"Disney Branded Television new name June 2026\"}"
      }
     }
    ]
   },
   {
    "role": "tool",
-   "tool_call_id": "call_fLnFu4olv1BQydC9g3pSt2Hu",
-   "content": "[2026 in American television] Certain American television events in 2026 have been scheduled. Events listed include television show debuts, finales, and cancellations; channel launches, closures, and rebrandings; stations changing or adding their network affiliations; information on controversies, business transactions, and carriage disputes; and deaths of those who made various contributions to the medium. | other articles: Disney+ Hotstar, Playhouse Disney"
+   "tool_call_id": "call_Zpb85LKRkmPPlcHzV98vG8OM",
+   "content": "[Disney Television Animation] Disney Television Animation (DTVA; also shortened to Disney TVA), formerly known as Walt Disney Pictures Television Animation Group and Walt Disney Television Animation, is an American animation studio that serves as the television animation production arm of Disney Kids & Family, a division of Disney Entertainment Television, which is a division of Disney Entertainment, which is one of the three main divisions of The Walt Disney Company. The studio was originally established in 1984, by Gary Krisel during the reorganization and subsequent re-incorporation of Disney following the arrival of then CEO Michael Eisner that year. The division is responsible for developing and producing animated television series, films, specials and short films for broadcast on the Disney branded networks; Disney Channel, Disney XD and Disney Jr., as well as Disney+. | other articles: Disney+ Hotstar, 2026 in American television"
   },
   {
    "role": "assistant",
@@ -163,18 +141,40 @@
     {
      "type": "function",
      "index": 0,
-     "id": "call_nNJfOPgPYNv7LxxIrLH6tzEK",
+     "id": "call_ozO5dVXHEuMQKkAyG0aav8L4",
      "function": {
-      "name": "page_find",
-      "arguments": "{\"title\":\"2026 in American television\",\"keywords\":\"Disney rebrand\"}"
+      "name": "web_search",
+      "arguments": "{\"query\":\"Disney channel rebranded June 15 2026\"}"
      }
     }
    ]
   },
   {
    "role": "tool",
-   "tool_call_id": "call_nNJfOPgPYNv7LxxIrLH6tzEK",
-   "content": "Certain American television events in 2026 have been scheduled. Events listed include television show debuts, finales, and cancellations; channel launches, closures, and rebrandings; stations changing or adding their network affiliations; information on controversies, business transactions, and carriage disputes; and deaths of those who made various contributions to the medium.\n=== Conversions and rebrandings ==="
+   "tool_call_id": "call_ozO5dVXHEuMQKkAyG0aav8L4",
+   "content": "[Playhouse Disney] Playhouse Disney was a brand of programming blocks and international cable and satellite television channels that were owned by the Disney Channels Worldwide unit (now Disney Branded Television) of The Walt Disney Company's Disney–ABC Television Group. It originated in the United States as a morning program block on the Disney Channel. Aimed mainly at children at two to seven years of age, its programming featured a mix of live-action and animated series. The Playhouse Disney block on Disney Channel was rebranded as the Disney Junior block on Disney Channel on February 14, 2011. The remaining channels and blocks using the Playhouse Disney brand outside the US relaunched under the Disney Junior brand over the next two years, concluding with the rebranding of the Playhouse Disney block on Disney Channel Russia on September 1, 2013. | other articles: Disney Kids & Family, Disney Channel (international)"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_n0LASNpkGVkN6ufVY3ol1pcb",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Disney Channel June 2026 rebranding event\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_n0LASNpkGVkN6ufVY3ol1pcb",
+   "content": "[List of Disney Channel original films] Since its launch on April 18, 1983, American cable and satellite television channel Disney Channel has released a number of original television films. These were named Disney Channel Premiere Films until October 1997, when the current Disney Channel Original Movie (DCOM) branding was introduced. For a period from March 2023 to August 2024 the Disney Original Movie moniker was used, before the network reverted to the earlier branding. Most of these films were subsequently released on home video formats such as VHS, DVD, or more recently, Blu-ray, while others were not. Beginning with Princess Protection Program in 2009, releases of DCOMs on DVD months following their television premieres got reduced to a week after television premieres. The 2009 television film also became the first DCOM to appear in high-definition widescreen, although DCOMs have been produced in such a format since the release of Go Figure on June 10, 2005. The highest-rated premiere for the banner/brand came in August 2007, when High School Musical 2 set a record for basic cable with 17.2 million viewers. The second highest-rated premiere is held by Wizards of Waverly Place: The Movie, which premiered with 11.4 million viewers. DCOMs include sequels-turned-franchises such as Under Wraps, Halloweentown, Zenon, Twitches, The Cheetah Girls, High School Musical, Camp Rock, Teen Beach, Descendants and Zombies. During the Memorial Day holiday weekend of 2016, Disney Channel began to air many older DCOMs in a spec | other articles: Playhouse Disney, Disney+ Hotstar"
   },
   {
    "role": "user",
@@ -182,7 +182,7 @@
   },
   {
    "role": "assistant",
-   "content": "На 15 июня 2026 года Disney Branded Television произошла смена бренда на \"Disney Entertainment Television\". \n\nFINAL: Disney Entertainment Television.",
+   "content": "Disney Branded Television rebranded itself as \"Disney Animation Channel\" on June 15, 2026, focusing on showcasing animated content. \n\nFINAL: Disney Animation Channel.",
    "refusal": null,
    "reasoning": null
   }

@@ -1,0 +1,76 @@
+{
+ "task": {
+  "id": "fresh-83",
+  "source": "fresh",
+  "question": "What type of device was attempted to be ignited near a Bank of America building in France in March 2026?",
+  "answer": "improvised explosive device",
+  "evidence": "28 March – A man is detained and another is at large after trying to ignite an improvised explosive device near a Bank of America building in Paris.",
+  "page": "2026 in France",
+  "url": "https://en.wikipedia.org/wiki/2026_in_France",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "In March 2026, a man attempted to ignite an improvised explosive device near a Bank of America building in Paris. FINAL: improvised explosive device",
+ "correct": true,
+ "cost": 0.0003896999999999373,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You answer questions about recent events (2025–2026). Never answer from memory: use web_search (and tavily_search if available) to find the right article, then page_find to look inside long articles such as '2026 in <country or field>' for the specific fact. Do not repeat the same call. When done, write the last line as FINAL: <short answer>."
+  },
+  {
+   "role": "user",
+   "content": "What type of device was attempted to be ignited near a Bank of America building in France in March 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_STSi7QsJj4IQoyvIRgnZT2PJ",
+     "function": {
+      "name": "tavily_search",
+      "arguments": "{\"query\":\"device ignited near Bank of America France March 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_STSi7QsJj4IQoyvIRgnZT2PJ",
+   "content": "[France opens probe into suspected attack on Bank of America in Paris | Banks News | Al Jazeera](https://www.aljazeera.com/news/2026/3/28/france-opens-probe-into-suspected-attack-on-bank-of-america-in-paris) Live Live News|Banks # France opens probe into suspected attack on Bank of America in Paris Interior minister says ‘vigilance at high level’, after police arrest suspect before setting off explosive device outside US bank’s headquarters. Save Share The Bank of America logo French police arrested one suspect outside Bank of America's Paris headquarters, while another fled [File: Michael Dwyer/AP] By Al Jazeera Staff, AFP, AP and Reuters Published On 28 Mar 202628 Mar 2026 [...] end of list French\n[Two new suspects arrested over foiled Bank of America bomb plot in Paris - France 24](https://www.france24.com/en/france/20260329-two-new-suspects-arrested-over-foiled-bank-of-america-bomb-plot-in-paris) Headings # Two new suspects arrested over foiled Bank of America bomb plot in Paris Two suspects have been arrested in connection with an apparent bomb plot targeting the Paris headquarters of Bank of America, French prosecutors said Sunday, a day after police detained a man who was about to set off a homemade explosive device outside the US bank. Issued on: 29/03/2026 - 11:47Modified: 29/03/2026 - 13:49 [...] French police stopped the apparent bomb attack when they arrested a man about to ignit\n[France foils bomb attack outside Bank of America in Paris • FRANCE 24 English](https://www.youtube.com/watch?v=BF1lL4ONZCU) ### Transcript [0:00] 5 L of fuel, a supply of powder, and a fuse to ignite it all. [0:07] An incendurary device was placed in front of a branch of the Bank of America in Paris on a street not far from the Shoneliz. Two men were in front of the bank around 3:30 a.m. early Saturday. [0:18] One kept watch while the other placed the device in front of a building entrance. They attempted to light the fuse with a lighter. That was prevented and one of the suspects was apprehended. [...] # France foil\n[France: Two new arrests over foiled Bank of America attack](https://www.dw.com/en/french-police-foil-apparent-bombing-attack-on-bank-of-america-in-paris/a-76579750) Police said they spotted two men near the bank carrying a shopping bag. One of them had reportedly just placed a device, consisting of an ignition system and container full of liquid believed to be fuel, and was about to light it when he was detained. His accomplice fled the scene. An initial"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_NMpgPLN8hIj250zQsaIXzx7g",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"2026 in France\",\"keywords\":\"Bank of America, device, bomb\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_NMpgPLN8hIj250zQsaIXzx7g",
+   "content": "28 March – A man is detained and another is at large after trying to ignite an improvised explosive device near a Bank of America building in Paris."
+  },
+  {
+   "role": "assistant",
+   "content": "In March 2026, a man attempted to ignite an improvised explosive device near a Bank of America building in Paris. FINAL: improvised explosive device",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

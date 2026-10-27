@@ -1,0 +1,24 @@
+{
+ "task": {
+  "id": "fresh-67",
+  "source": "fresh",
+  "question": "Who was announced as the winner of the 'Concertgebouw Young Talent Award' by the Concertgebouw in Amsterdam in January 2026?",
+  "answer": "Liam Nassereddine",
+  "evidence": "14 January – The Concertgebouw, Amsterdam announces Liam Nassereddine as the winner of its 'Concertgebouw Young Talent Award'.",
+  "page": "2026 in classical music",
+  "url": "https://en.wikipedia.org/wiki/2026_in_classical_music",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "FINAL: Unknown.",
+ "correct": false,
+ "cost": 9.000000000002062e-06,
+ "messages": [
+  {
+   "role": "assistant",
+   "content": "Unknown.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

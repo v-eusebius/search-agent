@@ -8,9 +8,9 @@
   "page": "2026 in art",
   "url": "https://en.wikipedia.org/wiki/2026_in_art"
  },
- "answer": "The Rijksmuseum announced retrieving the long-lost Rembrandt painting \"The Vision of Zacharias in the Temple\" on March 2, 2026. \n\nFINAL: The Vision of Zacharias in the Temple.",
+ "answer": "On March 2, 2026, the Rijksmuseum announced the retrieval of the painting titled \"Vision of Zacharias in the Temple,\" confirming it as a genuine work by Rembrandt after two years of analysis. \n\nFINAL: \"Vision of Zacharias in the Temple\"",
  "correct": true,
- "cost": 0.0006817500000000365,
+ "cost": 0.00023474999999995028,
  "messages": [
   {
    "role": "system",
@@ -29,88 +29,22 @@
     {
      "type": "function",
      "index": 0,
-     "id": "call_emY3JGNpsqM1b5EDSAJB9DRa",
+     "id": "call_Ta49jQvnLCtbxJ2tZ6BVkwUA",
      "function": {
       "name": "tavily_search",
-      "arguments": "{\"query\":\"Rijksmuseum Rembrandt painting retrieved March 2 2026\"}"
+      "arguments": "{\"query\":\"Rijksmuseum Rembrandt painting retrieval March 2 2026\"}"
      }
     }
    ]
   },
   {
    "role": "tool",
-   "tool_call_id": "call_emY3JGNpsqM1b5EDSAJB9DRa",
-   "content": "[Experts in the Netherlands confirm a painting by Rembrandt years after it was dismissed | AP News](https://apnews.com/article/rembrandt-amsterdam-rijksmuseum-discovery-9766e3a9d475f26b6c4b4dfbc7a0f169) Read More 2 of 6 The Rijksmuseum unveiled the work “Vision of Zacharias in the Temple” during a press preview in Amsterdam, Netherlands, Monday, March 2, 2026 and said two years of analysis has confirmed it was painted by Rembrandt. (AP Photo/Peter Dejong) Add AP News on Google Add AP News as your preferred source to see more of our stories on Google. Share Share Facebook Copy Link copied Print Email X LinkedIn Bluesky Flipboard Pinterest Reddit [...] 2 of 6| The Rijksmuseum unveiled the work “V\n[Rijksmuseum researchers discover new painting by Rembrandt van Rijn](https://artdaily.cc/news/193494/Rijksmuseum-researchers-discover-new-painting-by-Rembrandt-van-Rijn) Title: Rijksmuseum researchers discover new painting by Rembrandt van Rijn | | | | --- | | | | | | | --- | | | | | | | | | | | --- | | | | | | | | --- | | | | | | | | | | | | | | | | --- | --- | --- | --- | --- | | The First Art Newspaper on the Net | | Established in 1996 | | Tuesday, March 3, 2026 | | | | --- | | * Home * Last Week * Artists + Architects * Galleries * Museums * Photographers + Photography + PhotoGallery * Games * Subscribe * Comments * Search * Contact | | | | | | | | | | | | \n[Rijksmuseum researchers discover new painting by Rembrandt van Rijn - Rijksmuseum](https://www.rijksmuseum.nl/en/press/press-releases/rijksmuseum-researchers-discover-new-painting-by-rembrandt-van-rijn) # Rijksmuseum researchers discover new painting by Rembrandt van Rijn Vision of Zacharias in the Temple is by Rembrandt Publication date: 02 March 2026 - 10:00 [...] a genuine work by Rembrandt van Rijn. The work is on long-term loan to the Rijksmuseum from a private collector and will be on view to the public from Wednesday 4 March. [...] ## Zacharias The painting depicts a scene from the biblical story of high priest Zacharias. It shows the moment Zacharias receives a visit in the temple from \n[New Rembrandt Painting Discovered by Rijksmuseum - FAD Magazine](https://fadmagazine.com/2026/03/02/new-rembrandt-painting-discovered-by-rijksmuseum) Title: New Rembrandt Painting Discovered by Rijksmuseum - FAD Magazine FAD Magazine covers contemporary art – News, Exhibitions and Interviews reported on from London. # New Rembrandt Painting Discovered by Rijksmuseum. Researchers at the Rijksmuseum have confirmed th"
+   "tool_call_id": "call_Ta49jQvnLCtbxJ2tZ6BVkwUA",
+   "content": "[Amsterdam's Rijksmuseum discovers new Rembrandt](https://www.courthousenews.com/amsterdams-rijksmuseum-discovers-new-rembrandt) ... Rembrandt van Rijn in the studio building of the Rijksmuseum, Amsterdam, the Netherlands, on March 2, 2026. (Koen van Weel / ANP via AFP).\n[Could it be a Rembrandt ? Yes it is ! museum tells owner of newly identified Rembrandt masterpiece](https://www.youtube.com/watch?v=CZLyM8cXT-k) 16. STILL: The Rijksmuseum unveiled the work \"Vision of Zacharias in the Temple\" during a press preview in Amsterdam, Netherlands, Monday, March 2, 2026 and said two years of analysis has confirmed it was painted by Rembrandt. (AP Photo/Peter Dejong) ID 26061486882667 STORYLINE: LEAD IN : STORYLINE : “We always hope to find a new Rembrandt, but this happens rarely,\" he says Find out more about AP Archive: Twitter: / ap_archive [...] ### Description 167 views Posted: 2026-03-07 (2 Mar 2026) ASSOC\n[Dutch museum confirms lost painting is genuine Rembrandt](https://www.reuters.com/lifestyle/dutch-museum-confirms-lost-painting-is-genuine-rembrandt-2026-03-02) Researchers at the Netherlands' Rijksmuseum have authenticated as genuine a Rembrandt painting that will be on public display on Wednesday\n[The Night Watch - Wikipedia](https://en.wikipedia.org/wiki/The_Night_Watch) 18. ↑ Boffey, Daniel (5 July 2019). \"'Like a military operation': restoration of Rembrandt's Night Watch begins\". The Guardian. Archived from the original on 16 November 2019. Retrieved 5 July 2019. 19. ↑ \"Operation Night Watch - Rijksmuseum\". Rijksmuseum.nl. Retrieved 1 September 2026. 20. ↑ Sarah, Cascone (23 September 2025). \"The Dog in Rembrandt's 'The Night Watch' Has a Surprising Origin\". artnet. Retrieved 25 September 2025. [...] placed them off-centre, marching towards an empty space now\n[The Night Watch Gallery - Rijksmuseum](https://www.rijksmuseum.nl/en/visit/inside-the-museum/night-watch-gallery) # The Night Watch Gallery The beating heart of the museum The Night Watch Gallery was specially designed to showcase Rembrandt's famous civic guard portrait – a painting that has gone down in history as marking the turning point in his career and as the superlative example of his creative genius. Read 10 things about the Great Hall, Gallery of Honour and the Night Watch Gallery ## Night Watch Gallery 01:24 min. - The beating heart of the museum ## History of the Rijksmuseum [...] Our online coll"
   },
   {
    "role": "assistant",
-   "content": null,
-   "refusal": null,
-   "reasoning": null,
-   "tool_calls": [
-    {
-     "type": "function",
-     "index": 0,
-     "id": "call_CszzJr805l0tiGt5OxD7SHwI",
-     "function": {
-      "name": "page_find",
-      "arguments": "{\"title\":\"2026 in the Netherlands\",\"keywords\":\"Rijksmuseum, Rembrandt, Vision of Zacharias\"}"
-     }
-    }
-   ]
-  },
-  {
-   "role": "tool",
-   "tool_call_id": "call_CszzJr805l0tiGt5OxD7SHwI",
-   "content": "keywords not found on the page"
-  },
-  {
-   "role": "assistant",
-   "content": null,
-   "refusal": null,
-   "reasoning": null,
-   "tool_calls": [
-    {
-     "type": "function",
-     "index": 0,
-     "id": "call_nVQf3aALTNa8eXgNLcqHTvpq",
-     "function": {
-      "name": "page_find",
-      "arguments": "{\"title\":\"Rijksmuseum\",\"keywords\":\"Vision of Zacharias\"}"
-     }
-    }
-   ]
-  },
-  {
-   "role": "tool",
-   "tool_call_id": "call_nVQf3aALTNa8eXgNLcqHTvpq",
-   "content": "keywords not found on the page"
-  },
-  {
-   "role": "assistant",
-   "content": null,
-   "refusal": null,
-   "reasoning": null,
-   "tool_calls": [
-    {
-     "type": "function",
-     "index": 0,
-     "id": "call_dNZg1pbmioERs2QdxAglsbGK",
-     "function": {
-      "name": "page_find",
-      "arguments": "{\"title\":\"2026 in art\",\"keywords\":\"Rijksmuseum, Rembrandt, Vision of Zacharias\"}"
-     }
-    }
-   ]
-  },
-  {
-   "role": "tool",
-   "tool_call_id": "call_dNZg1pbmioERs2QdxAglsbGK",
-   "content": "March 2 – The Rijksmuseum in Amsterdam announces the retrieval of the long-lost Rembrandt painting The Vision of Zacharias in the Temple (1633)."
-  },
-  {
-   "role": "assistant",
-   "content": "The Rijksmuseum announced retrieving the long-lost Rembrandt painting \"The Vision of Zacharias in the Temple\" on March 2, 2026. \n\nFINAL: The Vision of Zacharias in the Temple.",
+   "content": "On March 2, 2026, the Rijksmuseum announced the retrieval of the painting titled \"Vision of Zacharias in the Temple,\" confirming it as a genuine work by Rembrandt after two years of analysis. \n\nFINAL: \"Vision of Zacharias in the Temple\"",
    "refusal": null,
    "reasoning": null
   }

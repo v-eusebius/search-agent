@@ -12,7 +12,7 @@
  },
  "answer": "Resident doctors in England announced a four-day strike starting at 7 am on June 15, 2026. \n\nFINAL: June 15, 2026",
  "correct": true,
- "cost": 0.00019979999999999998,
+ "cost": 0.0001984499999999889,
  "messages": [
   {
    "role": "system",
@@ -31,18 +31,18 @@
     {
      "type": "function",
      "index": 0,
-     "id": "call_LqsRim7tlPfpfnz16ehR4Td1",
+     "id": "call_scNYvT54hqs2ZqwVERhe8nEJ",
      "function": {
       "name": "web_search",
-      "arguments": "{\"query\":\"England resident doctors four-day strike June 2026\"}"
+      "arguments": "{\"query\":\"resident doctors England four-day strike June 2026 date\"}"
      }
     }
    ]
   },
   {
    "role": "tool",
-   "tool_call_id": "call_LqsRim7tlPfpfnz16ehR4Td1",
-   "content": "[2026 in England] Events of the year 2026 in England. | other articles: 2026 European heatwaves, 2026 in the United States"
+   "tool_call_id": "call_scNYvT54hqs2ZqwVERhe8nEJ",
+   "content": "[2026 in England] Events of the year 2026 in England. | other articles: 2026 European heatwaves, 2026 in the United Kingdom"
   },
   {
    "role": "assistant",
@@ -53,17 +53,17 @@
     {
      "type": "function",
      "index": 0,
-     "id": "call_7cU0MCkoHh6J2HLXtkim6ZVH",
+     "id": "call_LU199nbVdnFqgGEV2kJntbmr",
      "function": {
       "name": "page_find",
-      "arguments": "{\"title\":\"2026 in England\",\"keywords\":\"resident doctors strike June 2026\"}"
+      "arguments": "{\"title\":\"2026 in England\",\"keywords\":\"resident doctors strike June\"}"
      }
     }
    ]
   },
   {
    "role": "tool",
-   "tool_call_id": "call_7cU0MCkoHh6J2HLXtkim6ZVH",
+   "tool_call_id": "call_LU199nbVdnFqgGEV2kJntbmr",
    "content": "Resident doctors in England vote in favour of further strike action in their long-running dispute with the UK government over pay and training posts.\nThe British Medical Association announces that resident doctors in England will stage a six-day strike from 7am on 7 April after talks between union representatives and the UK government broke down.\nResident doctors in England begin a six-day strike\nResident doctors announce a four-day strike from 7am on 15 June, their 16th strike action over a pay dispute."
   },
   {

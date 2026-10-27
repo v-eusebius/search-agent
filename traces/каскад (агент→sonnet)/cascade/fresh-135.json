@@ -2,17 +2,17 @@
  "task": {
   "id": "fresh-135",
   "source": "fresh",
-  "question": "Where was the 2026 Major League Baseball draft held in July 2026?",
-  "answer": "Philadelphia, Pennsylvania",
-  "evidence": "July 12–13: 2026 Major League Baseball draft in Philadelphia, Pennsylvania",
+  "question": "Who won the 2026 United Bowl on June 13, 2026?",
+  "answer": "Louisville Kings",
+  "evidence": "June 13: 2026 United Bowl in Washington, D.C. Louisville Kings defeated DC Defenders, 27–20",
   "page": "2026 in sports",
   "url": "https://en.wikipedia.org/wiki/2026_in_sports"
  },
- "answer": "Philadelphia, Pennsylvania.",
+ "answer": "Louisville Kings",
  "correct": true,
- "cost": 0.00019815000000000804,
+ "cost": 0.00032399999999999096,
  "escalated": false,
- "confidence": 0.9,
+ "confidence": 1.0,
  "agent_messages": [
   {
    "role": "system",
@@ -20,7 +20,7 @@
   },
   {
    "role": "user",
-   "content": "Where was the 2026 Major League Baseball draft held in July 2026?"
+   "content": "Who won the 2026 United Bowl on June 13, 2026?"
   },
   {
    "role": "assistant",
@@ -31,22 +31,22 @@
     {
      "type": "function",
      "index": 0,
-     "id": "call_WZ2ZY865gq25JBPvGsBWP2cX",
+     "id": "call_LKORV3tEnlyDByggt5TiXGPI",
      "function": {
-      "name": "web_search",
-      "arguments": "{\"query\":\"2026 Major League Baseball draft location July 2026\"}"
+      "name": "tavily_search",
+      "arguments": "{\"query\":\"2026 United Bowl winner June 13 2026\"}"
      }
     }
    ]
   },
   {
    "role": "tool",
-   "tool_call_id": "call_WZ2ZY865gq25JBPvGsBWP2cX",
-   "content": "[2026 Major League Baseball draft] The 2026 Major League Baseball draft took place on July 11–12, 2026, in Philadelphia, Pennsylvania. The draft assigns amateur baseball players from the United States, Canada, and Puerto Rico to Major League Baseball (MLB) teams. The first six selections were set via a lottery, with first round picks belonging to the remaining lottery participants set in reverse order of regular season winning percentage. To complete the first round, playoff teams are in an order that combines postseason finish, revenue sharing status, and reverse order of winning percentage. Reverse order of regular season winning percentage and postseason finish will be used to set the draft order for rounds two through 20. The Chicago White Sox won the draft lottery and the first overall selection. The Atlanta Braves and Houston Astros were awarded a Prospect Promotion Incentive Pick after Drake Baldwin won the NL Rookie of the Year and Hunter Brown finished in the top three for AL Cy Young. | other articles: 2026 Major League Baseball season, 2024 Major League Baseball draft"
+   "tool_call_id": "call_LKORV3tEnlyDByggt5TiXGPI",
+   "content": "[2026 United Bowl - Wikipedia](https://en.wikipedia.org/wiki/2026_United_Bowl) The 2026 United Bowl was the third championship of the United Football League \"United Football League (2024–present)\"), and it was the first to be played under the United Bowl \"United Bowl (UFL)\") name. The game was played on June 13, 2026, at Audi Field in Washington, D.C.. The contest determined the champion of the 2026 UFL season and was played between the Louisville Kings and the DC Defenders. The game began at 3:00 p.m. EDT and aired on ABC. The Kings won 27–20, earning their first United [\n[The tale of a championship. Congratulations to the 2026 United ...](https://www.facebook.com/ufl/videos/the-tale-of-a-championshipcongratulations-to-the-2026-united-bowl-champions-the-/1536384318096799) The Louisville Kings win the 2026 United Bowl, securing the UFL championship in the league's third season. Kings defeated the DC Defenders at\n[2026 UFL United Bowl Results: Louisville Kings Clinch First-Ever Championship | FOX Sports](https://www.foxsports.com/stories/ufl/2026-ufl-united-bowl-results-defenders-kings-crowned-champions) POPULAR SEARCHES BROWSE BY Databricks 2026 UFL United Bowl Results: Louisville Kings Clinch First-Ever Championship Google Icon # 2026 UFL United Bowl Results: Louisville Kings Clinch First-Ever Championship share on facebook share on x share on reddit share on link The UFL has officially crowned the 2026 United Bowl champion, as the Louisville Kings held off the defending champion, the DC Defenders, to secure their first-ever championship in their first year as a program. [...] The second half \n[Defenders vs Kings (Championship) | Jun 13, 2026 | FULL GAME | 2026 United Bowl](https://www.youtube.com/watch?v=FefryaAMnz0) [46:24] Both teams have all their timeouts remaining. Of course, the super challenge as well. Minute 52. [46:30] Chandler Rogers, former high school teammate to his rival quarterback today, Jason Bean, former pro teammate earlier this season. They were both on [46:38] Louisville. Said it was a very toxic environment on this team earlier said even after week four when we finally [46:46] won, it just didn't feel like it. And then a complete overhaul for Louisville. [...] ### Description 20,867 vie\n[2026 United Bowl - UFL Championship - Audi Field](https://audifield.com/event/2026-united-bowl-ufl-championship) Skip to content AUDI_LOGO_2 + Upcoming Events + Event Tickets + Host Your Event + Audi Field News + Audi Field Newsletter Our Teams + D."
   },
   {
    "role": "assistant",
-   "content": "The 2026 Major League Baseball draft was held in Philadelphia, Pennsylvania, on July 11–12, 2026. \n\nFINAL: Philadelphia, Pennsylvania.",
+   "content": "The Louisville Kings won the 2026 United Bowl on June 13, 2026, defeating the DC Defenders with a score of 27–20. This victory marked the Kings' first championship in the United Football League. \n\nFINAL: Louisville Kings",
    "refusal": null,
    "reasoning": null
   }

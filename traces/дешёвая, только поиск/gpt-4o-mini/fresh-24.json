@@ -10,9 +10,9 @@
   "sonnet_answer": "unknown",
   "agent_ok": true
  },
- "answer": "В июле 2026 года в Уэльсе была объявлена чрезвычайная ситуация из-за рекордных волны жары, которые привели к высокому числу смертей и серьезным последствиям для здоровья населения. Это решение было принято в ответ на крайние температуры и связанные с ними риски. \n\nFINAL: Объявлена чрезвычайная ситуация из-за жары в Уэльсе.",
+ "answer": "В июле 2026 года по всей Уэльсу была объявлена климатическая чрезвычайная ситуация. Это объявление связано с продолжающейся глобальной климатической кризисом и направлено на принятие мер по его смягчению. \n\nFINAL: Объявление климатической чрезвычайной ситуации.",
  "correct": false,
- "cost": 0.002153099999999998,
+ "cost": 0.0010333499999999954,
  "messages": [
   {
    "role": "system",
@@ -31,18 +31,18 @@
     {
      "type": "function",
      "index": 0,
-     "id": "call_HjEPC6Xnv33fF5KJaa9O7QRi",
+     "id": "call_IfHDvn8TptoyUExqbpSZNbu5",
      "function": {
       "name": "web_search",
-      "arguments": "{\"query\":\"Wales declaration July 2026\"}"
+      "arguments": "{\"query\":\"July 2026 Wales declaration United Kingdom\"}"
      }
     }
    ]
   },
   {
    "role": "tool",
-   "tool_call_id": "call_HjEPC6Xnv33fF5KJaa9O7QRi",
-   "content": "[2026 United Kingdom heatwaves] During 2026, parts of the United Kingdom were severely affected by a series of record-breaking heatwaves, forming the western extent of a broader sequence of extreme heat events across Western and Central Europe. The first heatwave started on 22 May and saw the country's record for hottest day during May broken on 25 May when 34.8 °C (94.6 °F) was recorded at Kew Gardens in London, surpassing the previous record of 32.8 °C (91.0 °F) set in 1922 by 2 °C (3.6 °F); this record was broken again when 35.1 °C (95.2 °F) was recorded in the same location the following day. Other records which were broken included the hottest May day in Guernsey, Jersey and Wales, as well as the highest minimum May temperature in the UK. Experts estimated that around 550 people died during this period of extreme heat. The second heatwave started on 19 June and saw more records broken, including that for hottest day during June when 38.0 °C (100.4 °F) was recorded in Lingwood, Norfolk on 26 June, which is also the fifth hottest day in the UK ever. The previous record for June of 35.6 °C (96.1 °F) was set in 1957 and 1976. A further 2,200 deaths were estimated to have occurred during this heatwave, bringing the total to roughly 2,700. A third heatwave began on 4 July, with temperatures peaking at 35.5 °C (95.9 °F) in Wisley, Surrey, on 9 July. This marked the first year when temperatures have reached 35 °C (95 °F) in three separate months, whilst the records for most days reaching both 34 °C (93 °F) and | other articles: 2026, 2026 Southwark London Borough Council election"
+   "tool_call_id": "call_IfHDvn8TptoyUExqbpSZNbu5",
+   "content": "[2026 in the United Kingdom] Events from the year 2026 in the United Kingdom. | other articles: 2026 United Kingdom heatwaves, United Kingdom"
   },
   {
    "role": "assistant",
@@ -53,18 +53,18 @@
     {
      "type": "function",
      "index": 0,
-     "id": "call_UmFoF8CwXb08XF1Cs12mAeRL",
+     "id": "call_xeN0WYyRIhB3wkI4ZNPfQi6e",
      "function": {
       "name": "web_search",
-      "arguments": "{\"query\":\"Wales July 2026 declaration\"}"
+      "arguments": "{\"query\":\"2026 in Wales\"}"
      }
     }
    ]
   },
   {
    "role": "tool",
-   "tool_call_id": "call_UmFoF8CwXb08XF1Cs12mAeRL",
-   "content": "[2026 United Kingdom heatwaves] During 2026, parts of the United Kingdom were severely affected by a series of record-breaking heatwaves, forming the western extent of a broader sequence of extreme heat events across Western and Central Europe. The first heatwave started on 22 May and saw the country's record for hottest day during May broken on 25 May when 34.8 °C (94.6 °F) was recorded at Kew Gardens in London, surpassing the previous record of 32.8 °C (91.0 °F) set in 1922 by 2 °C (3.6 °F); this record was broken again when 35.1 °C (95.2 °F) was recorded in the same location the following day. Other records which were broken included the hottest May day in Guernsey, Jersey and Wales, as well as the highest minimum May temperature in the UK. Experts estimated that around 550 people died during this period of extreme heat. The second heatwave started on 19 June and saw more records broken, including that for hottest day during June when 38.0 °C (100.4 °F) was recorded in Lingwood, Norfolk on 26 June, which is also the fifth hottest day in the UK ever. The previous record for June of 35.6 °C (96.1 °F) was set in 1957 and 1976. A further 2,200 deaths were estimated to have occurred during this heatwave, bringing the total to roughly 2,700. A third heatwave began on 4 July, with temperatures peaking at 35.5 °C (95.9 °F) in Wisley, Surrey, on 9 July. This marked the first year when temperatures have reached 35 °C (95 °F) in three separate months, whilst the records for most days reaching both 34 °C (93 °F) and | other articles: 2026, 2026 Southwark London Borough Council election"
+   "tool_call_id": "call_xeN0WYyRIhB3wkI4ZNPfQi6e",
+   "content": "[2026 in Wales] Events from the year 2026 in Wales. | other articles: 2026 Senedd election, 2026 in sports"
   },
   {
    "role": "assistant",
@@ -75,18 +75,18 @@
     {
      "type": "function",
      "index": 0,
-     "id": "call_BOvl9nI77BKGvScTXbKE678x",
+     "id": "call_KMO3ZYeU1RCSEJVY2DIPjO9i",
      "function": {
       "name": "web_search",
-      "arguments": "{\"query\":\"Wales July 2026 heatwave emergency declaration\"}"
+      "arguments": "{\"query\":\"Wales July 2026 announcement\"}"
      }
     }
    ]
   },
   {
    "role": "tool",
-   "tool_call_id": "call_BOvl9nI77BKGvScTXbKE678x",
-   "content": "[2026 United Kingdom heatwaves] During 2026, parts of the United Kingdom were severely affected by a series of record-breaking heatwaves, forming the western extent of a broader sequence of extreme heat events across Western and Central Europe. The first heatwave started on 22 May and saw the country's record for hottest day during May broken on 25 May when 34.8 °C (94.6 °F) was recorded at Kew Gardens in London, surpassing the previous record of 32.8 °C (91.0 °F) set in 1922 by 2 °C (3.6 °F); this record was broken again when 35.1 °C (95.2 °F) was recorded in the same location the following day. Other records which were broken included the hottest May day in Guernsey, Jersey and Wales, as well as the highest minimum May temperature in the UK. Experts estimated that around 550 people died during this period of extreme heat. The second heatwave started on 19 June and saw more records broken, including that for hottest day during June when 38.0 °C (100.4 °F) was recorded in Lingwood, Norfolk on 26 June, which is also the fifth hottest day in the UK ever. The previous record for June of 35.6 °C (96.1 °F) was set in 1957 and 1976. A further 2,200 deaths were estimated to have occurred during this heatwave, bringing the total to roughly 2,700. A third heatwave began on 4 July, with temperatures peaking at 35.5 °C (95.9 °F) in Wisley, Surrey, on 9 July. This marked the first year when temperatures have reached 35 °C (95 °F) in three separate months, whilst the records for most days reaching both 34 °C (93 °F) and | other articles: Weather of 2026, 2026 in the United Kingdom"
+   "tool_call_id": "call_KMO3ZYeU1RCSEJVY2DIPjO9i",
+   "content": "[2026 Toronto International Film Festival] The 51st annual Toronto International Film Festival was held from September 10 to September 20, 2026. The festival's opening film was Being Heumann by Sian Heder, and its closing film was Villeneuve: The Rise of a Legend (Villeneuve : l'ascension d'une légende) by Yan Lanouette Turgeon. The festival also hosted the 2026 edition of the Student Academy Awards, and non-English language winners of the festival's Platform Prize are now automatically eligible for the Academy Award for Best International Feature Film. The festival's first programming announcement of three Gala titles was revealed on July 7, 2026, and a second announcement of five Special Presentations films was released on July 16. Several full sections were announced in the week of July 20, with additional announcements in the week of August 3, before the complete schedule was announced August 11. | other articles: 2026, Prince Alexander John of Wales"
   },
   {
    "role": "assistant",
@@ -97,18 +97,18 @@
     {
      "type": "function",
      "index": 0,
-     "id": "call_OCT1oKnZQ36kqDLFl2X6gOHc",
+     "id": "call_868HmdatYqjPCRpytJ4sh7pM",
      "function": {
       "name": "web_search",
-      "arguments": "{\"query\":\"Wales July 2026 emergency heatwave declaration\"}"
+      "arguments": "{\"query\":\"Wales July 2026 new law declaration\"}"
      }
     }
    ]
   },
   {
    "role": "tool",
-   "tool_call_id": "call_OCT1oKnZQ36kqDLFl2X6gOHc",
-   "content": "[2026 United Kingdom heatwaves] During 2026, parts of the United Kingdom were severely affected by a series of record-breaking heatwaves, forming the western extent of a broader sequence of extreme heat events across Western and Central Europe. The first heatwave started on 22 May and saw the country's record for hottest day during May broken on 25 May when 34.8 °C (94.6 °F) was recorded at Kew Gardens in London, surpassing the previous record of 32.8 °C (91.0 °F) set in 1922 by 2 °C (3.6 °F); this record was broken again when 35.1 °C (95.2 °F) was recorded in the same location the following day. Other records which were broken included the hottest May day in Guernsey, Jersey and Wales, as well as the highest minimum May temperature in the UK. Experts estimated that around 550 people died during this period of extreme heat. The second heatwave started on 19 June and saw more records broken, including that for hottest day during June when 38.0 °C (100.4 °F) was recorded in Lingwood, Norfolk on 26 June, which is also the fifth hottest day in the UK ever. The previous record for June of 35.6 °C (96.1 °F) was set in 1957 and 1976. A further 2,200 deaths were estimated to have occurred during this heatwave, bringing the total to roughly 2,700. A third heatwave began on 4 July, with temperatures peaking at 35.5 °C (95.9 °F) in Wisley, Surrey, on 9 July. This marked the first year when temperatures have reached 35 °C (95 °F) in three separate months, whilst the records for most days reaching both 34 °C (93 °F) and | other articles: Weather of 2026, 2026 in the United Kingdom"
+   "tool_call_id": "call_868HmdatYqjPCRpytJ4sh7pM",
+   "content": "[2026 in the United Kingdom] Events from the year 2026 in the United Kingdom. | other articles: 2026 Iran war, 2026"
   },
   {
    "role": "assistant",
@@ -119,18 +119,18 @@
     {
      "type": "function",
      "index": 0,
-     "id": "call_yuslR8Zl7znrJT1YssRKS0fG",
+     "id": "call_Av7Ln8314aWkgnpoqRVvJFl2",
      "function": {
       "name": "web_search",
-      "arguments": "{\"query\":\"Wales July 2026 declared emergency\"}"
+      "arguments": "{\"query\":\"Wales July 2026\"}"
      }
     }
    ]
   },
   {
    "role": "tool",
-   "tool_call_id": "call_yuslR8Zl7znrJT1YssRKS0fG",
-   "content": "[2026 United Kingdom heatwaves] During 2026, parts of the United Kingdom were severely affected by a series of record-breaking heatwaves, forming the western extent of a broader sequence of extreme heat events across Western and Central Europe. The first heatwave started on 22 May and saw the country's record for hottest day during May broken on 25 May when 34.8 °C (94.6 °F) was recorded at Kew Gardens in London, surpassing the previous record of 32.8 °C (91.0 °F) set in 1922 by 2 °C (3.6 °F); this record was broken again when 35.1 °C (95.2 °F) was recorded in the same location the following day. Other records which were broken included the hottest May day in Guernsey, Jersey and Wales, as well as the highest minimum May temperature in the UK. Experts estimated that around 550 people died during this period of extreme heat. The second heatwave started on 19 June and saw more records broken, including that for hottest day during June when 38.0 °C (100.4 °F) was recorded in Lingwood, Norfolk on 26 June, which is also the fifth hottest day in the UK ever. The previous record for June of 35.6 °C (96.1 °F) was set in 1957 and 1976. A further 2,200 deaths were estimated to have occurred during this heatwave, bringing the total to roughly 2,700. A third heatwave began on 4 July, with temperatures peaking at 35.5 °C (95.9 °F) in Wisley, Surrey, on 9 July. This marked the first year when temperatures have reached 35 °C (95 °F) in three separate months, whilst the records for most days reaching both 34 °C (93 °F) and | other articles: State of emergency, 2026"
+   "tool_call_id": "call_Av7Ln8314aWkgnpoqRVvJFl2",
+   "content": "[2026 in Wales] Events from the year 2026 in Wales. | other articles: Deaths in July 2026, 2026 United Kingdom heatwaves"
   },
   {
    "role": "assistant",
@@ -141,18 +141,32 @@
     {
      "type": "function",
      "index": 0,
-     "id": "call_OFcLlcD6cIIS0IIxgfFMiFNY",
+     "id": "call_dS7fofXcxVpZF2qSnMwDAzdi",
      "function": {
       "name": "web_search",
-      "arguments": "{\"query\":\"July 2026 Wales emergency declaration heatwave\"}"
+      "arguments": "{\"query\": \"July 2026 Wales emergency declaration\"}"
+     }
+    },
+    {
+     "type": "function",
+     "index": 1,
+     "id": "call_nsNpo98hTQF6dy8cA1C14M9i",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\": \"Wales July 2026 news\"}"
      }
     }
    ]
   },
   {
    "role": "tool",
-   "tool_call_id": "call_OFcLlcD6cIIS0IIxgfFMiFNY",
-   "content": "[2026 United Kingdom heatwaves] During 2026, parts of the United Kingdom were severely affected by a series of record-breaking heatwaves, forming the western extent of a broader sequence of extreme heat events across Western and Central Europe. The first heatwave started on 22 May and saw the country's record for hottest day during May broken on 25 May when 34.8 °C (94.6 °F) was recorded at Kew Gardens in London, surpassing the previous record of 32.8 °C (91.0 °F) set in 1922 by 2 °C (3.6 °F); this record was broken again when 35.1 °C (95.2 °F) was recorded in the same location the following day. Other records which were broken included the hottest May day in Guernsey, Jersey and Wales, as well as the highest minimum May temperature in the UK. Experts estimated that around 550 people died during this period of extreme heat. The second heatwave started on 19 June and saw more records broken, including that for hottest day during June when 38.0 °C (100.4 °F) was recorded in Lingwood, Norfolk on 26 June, which is also the fifth hottest day in the UK ever. The previous record for June of 35.6 °C (96.1 °F) was set in 1957 and 1976. A further 2,200 deaths were estimated to have occurred during this heatwave, bringing the total to roughly 2,700. A third heatwave began on 4 July, with temperatures peaking at 35.5 °C (95.9 °F) in Wisley, Surrey, on 9 July. This marked the first year when temperatures have reached 35 °C (95 °F) in three separate months, whilst the records for most days reaching both 34 °C (93 °F) and | other articles: Weather of 2026, 2026 in the United Kingdom"
+   "tool_call_id": "call_dS7fofXcxVpZF2qSnMwDAzdi",
+   "content": "[Climate emergency declaration] A climate emergency declaration is an action taken by governments and scientists to acknowledge humanity is in a climate crisis. The first such declaration was made by a local government (Darebin, Melbourne) in December 2016. Since then, over 2,100 local governments in 39 countries have made climate emergency declarations as of May 2022. Populations covered by jurisdictions that have declared a climate emergency amount to over 1 billion citizens. On 29 April 2019, the Welsh Government declared a climate emergency, which was subsequently passed by its parliament, the Senedd, on 1 May 2019, when it became the fourth country in the world to officially declare a climate emergency. On 09 May 2019, the Irish Government and Parliament declared national Climate and Biodiversity Emergency, the first state to do so, following the lead and request of the County Wicklow local community (March 2019) and local authority (April 2019). Although commonly reported in the media as the second state in the world to declare Climate Emergency, after UK, to declare, this is inaccurate, as UK parliament has never ratified the opposition motion declaring emergency. Once a government makes a declaration, the next step for the declaring government is to set priorities to mitigate climate change, prior to ultimately entering a state of emergency or equivalent. In declaring a climate emergency, a government admits that climate change (or global warming) exists and that the measures taken up to this point  | other articles: State of emergency, 2026"
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_nsNpo98hTQF6dy8cA1C14M9i",
+   "content": "[2026 in Wales] Events from the year 2026 in Wales. | other articles: 2026 in the United Kingdom, 2026 United Kingdom heatwaves"
   },
   {
    "role": "assistant",
@@ -163,18 +177,18 @@
     {
      "type": "function",
      "index": 0,
-     "id": "call_dgo9ckhif9VxL5VbvVqxpXBu",
+     "id": "call_ZM3aMDC77ouIwRNOj35RlnnF",
      "function": {
       "name": "web_search",
-      "arguments": "{\"query\":\"heatwave emergency Wales July 2026\"}"
+      "arguments": "{\"query\":\"Wales July 2026 climate emergency announcement\"}"
      }
     }
    ]
   },
   {
    "role": "tool",
-   "tool_call_id": "call_dgo9ckhif9VxL5VbvVqxpXBu",
-   "content": "[2026 European heatwaves] Starting in late May 2026, several severe heatwaves affected Europe. Temperature records were broken in Austria, Belarus, Belgium, Czech Republic, Denmark, France, Germany, Hungary, Ireland, Italy, the Netherlands, Poland, Romania, Slovakia, Slovenia, Spain, Switzerland and the United Kingdom. The first heatwave began on 24 May, with temperatures higher than normal and several heat-related deaths. Temperatures were the highest ever recorded for May, with climate change causing the earlier onset of Central Europe's summer. Western Europe was the most affected area, with reports of record-breaking temperatures in France, Ireland and the United Kingdom. Other countries with unusually high temperatures were Portugal, at 40 °C (104 °F), and Spain, with temperatures in the southwest reaching 39 °C (102 °F). A second, more severe heatwave began on 17 June, just days before the summer solstice. In France, Météo-France declared 23 June the country's hottest day since measurements began in 1947, with temperatures reaching 44.3 °C (111.7 °F) in Pissos, 42.1 °C (107.8 °F) in Bordeaux, and a June record of 40.9 °C (105.6 °F) in Paris. In the United Kingdom, temperatures peaked at 38.0 °C (100.4 °F). On 26 June, the World Meteorological Organization said the heatwave was expected to affect many areas of western, central, and southern Europe over the following two weeks, with the focus of the heat likely to shift towards the Balkans. By 5 July, over 5,600 excess deaths were reported. Analys | other articles: 2026 United Kingdom heatwaves, Weather of 2026"
+   "tool_call_id": "call_ZM3aMDC77ouIwRNOj35RlnnF",
+   "content": "[2026] 2026 (MMXXVI) is the current year, and is a common year starting on Thursday of the Gregorian calendar, the 2026th year of the Common Era (CE) and Anno Domini (AD) designations, the 26th year of the 3rd millennium and the 21st century, and the 7th year of the 2020s decade. The early part of the year saw escalating armed conflicts in the Americas and Middle East. In January, the United States launched a military operation in Venezuela that captured sitting President Nicolás Maduro, leading to a blockade of Venezuelan oil exports that contributed to a crisis in Cuba. In Syria, an offensive by the Syrian government led to the Syrian Democratic Forces eventually being integrated into the Syrian Army, ending the Rojava Revolution, while in Yemen, a counteroffensive by the Yemeni government led to the collapse of the Southern Transitional Council, followed by Houthi offensives, including attacks on airports in Saudi Arabia. In February, Pakistan launched airstrikes against Afghanistan, leading to an open war between both nations. In Iran, in response to authorities cracking down on protests, the United States and Israel began a war in late February with the assassination of Supreme Leader Ali Khamenei, which resulted in widespread economic grief, fuel shortages and retaliatory strikes on Gulf nations, as well as the closure of the Strait of Hormuz and a naval blockade. There were also escalations of the Ethiopian civil conflict. The continued release of the Epstein files that began | other articles: 2026 Iran war, William, Prince of Wales"
   },
   {
    "role": "user",
@@ -182,7 +196,7 @@
   },
   {
    "role": "assistant",
-   "content": "В июле 2026 года в Уэльсе была объявлена чрезвычайная ситуация из-за рекордных волны жары, которые привели к высокому числу смертей и серьезным последствиям для здоровья населения. Это решение было принято в ответ на крайние температуры и связанные с ними риски. \n\nFINAL: Объявлена чрезвычайная ситуация из-за жары в Уэльсе.",
+   "content": "В июле 2026 года по всей Уэльсу была объявлена климатическая чрезвычайная ситуация. Это объявление связано с продолжающейся глобальной климатической кризисом и направлено на принятие мер по его смягчению. \n\nFINAL: Объявление климатической чрезвычайной ситуации.",
    "refusal": null,
    "reasoning": null
   }

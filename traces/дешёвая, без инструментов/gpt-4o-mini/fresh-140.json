@@ -10,7 +10,7 @@
  },
  "answer": "FINAL: unknown",
  "correct": false,
- "cost": 7.349999999999718e-06,
+ "cost": 7.350000000003187e-06,
  "messages": [
   {
    "role": "assistant",

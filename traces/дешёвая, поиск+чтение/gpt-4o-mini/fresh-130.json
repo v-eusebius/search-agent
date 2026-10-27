@@ -8,9 +8,9 @@
   "page": "2026 in sports",
   "url": "https://en.wikipedia.org/wiki/2026_in_sports"
  },
- "answer": "Ryu Hae-ran won the 2026 Women's PGA Championship at Hazeltine National Golf Club, claiming her first major championship by two strokes over Ina Yoon. \n\nFINAL: Ryu Hae-ran",
+ "answer": "Ryu Hae-ran won the 2026 Women's PGA Championship at Hazeltine National Golf Club, securing her first major championship by two strokes over Ina Yoon. \n\nFINAL: Ryu Hae-ran",
  "correct": true,
- "cost": 0.0008168999999999954,
+ "cost": 0.00034259999999999846,
  "messages": [
   {
    "role": "system",
@@ -29,17 +29,17 @@
     {
      "type": "function",
      "index": 0,
-     "id": "call_SwAXVchlupwP3S3Kd716wL9N",
+     "id": "call_s4GBUCAmo2OY9fgsEuElrh3M",
      "function": {
       "name": "web_search",
-      "arguments": "{\"query\":\"2026 Women's PGA Championship Hazeltine National Golf Club winner\"}"
+      "arguments": "{\"query\":\"2026 Women's PGA Championship winner Hazeltine National Golf Club\"}"
      }
     }
    ]
   },
   {
    "role": "tool",
-   "tool_call_id": "call_SwAXVchlupwP3S3Kd716wL9N",
+   "tool_call_id": "call_s4GBUCAmo2OY9fgsEuElrh3M",
    "content": "[Hazeltine National Golf Club] Hazeltine National Golf Club ( HAY-zəl-teen) is a golf club in the north central United States, located in Chaska, Minnesota, a suburb southwest of Minneapolis. It is a private club and therefore closed to guests not accompanied by a member. The golf course was designed by Robert Trent Jones and opened in 1962. Hazeltine also hosts functions other than golf; its clubhouse has a ballroom and two restaurants. | other articles: Women's PGA Championship, 2026 Women's PGA Championship"
   },
   {
@@ -51,73 +51,7 @@
     {
      "type": "function",
      "index": 0,
-     "id": "call_qogCOuitgb2oWCRzlYKVcxSF",
-     "function": {
-      "name": "web_search",
-      "arguments": "{\"query\":\"2026 Women's PGA Championship results\"}"
-     }
-    }
-   ]
-  },
-  {
-   "role": "tool",
-   "tool_call_id": "call_qogCOuitgb2oWCRzlYKVcxSF",
-   "content": "[2026 PGA Championship] The 2026 PGA Championship was the 108th edition of the PGA Championship, the second of the four men's major golf championships held in 2026. The tournament took place on May 14–17 at Aronimink Golf Club in Newtown Square, Pennsylvania, a suburb west of Philadelphia. Aaron Rai won the golf tournament and his first career major championship, winning by three strokes over runners-up Jon Rahm and Alex Smalley. Rai became the second player of Indian heritage to win a men's major championship, after Vijay Singh, and the first from England to win the PGA Championship since Jim Barnes, who won the first two editions in 1916 and 1919. Rai became only the eighth player to win a major with a lower score in each round. | other articles: Yealimi Noh, PGA Tour"
-  },
-  {
-   "role": "assistant",
-   "content": null,
-   "refusal": null,
-   "reasoning": null,
-   "tool_calls": [
-    {
-     "type": "function",
-     "index": 0,
-     "id": "call_IidMCEMODuF3xOte3XJHfITg",
-     "function": {
-      "name": "web_search",
-      "arguments": "{\"query\":\"2026 Women's PGA Championship winner\"}"
-     }
-    }
-   ]
-  },
-  {
-   "role": "tool",
-   "tool_call_id": "call_IidMCEMODuF3xOte3XJHfITg",
-   "content": "[2026 PGA Championship] The 2026 PGA Championship was the 108th edition of the PGA Championship, the second of the four men's major golf championships held in 2026. The tournament took place on May 14–17 at Aronimink Golf Club in Newtown Square, Pennsylvania, a suburb west of Philadelphia. Aaron Rai won the golf tournament and his first career major championship, winning by three strokes over runners-up Jon Rahm and Alex Smalley. Rai became the second player of Indian heritage to win a men's major championship, after Vijay Singh, and the first from England to win the PGA Championship since Jim Barnes, who won the first two editions in 1916 and 1919. Rai became only the eighth player to win a major with a lower score in each round. | other articles: 2026 Women's PGA Championship, 2026 U.S. Women's Open"
-  },
-  {
-   "role": "assistant",
-   "content": null,
-   "refusal": null,
-   "reasoning": null,
-   "tool_calls": [
-    {
-     "type": "function",
-     "index": 0,
-     "id": "call_LZakjwfOI9m3T7YOQZhWStdM",
-     "function": {
-      "name": "web_search",
-      "arguments": "{\"query\":\"2026 Women's PGA Championship results Hazeltine National Golf Club\"}"
-     }
-    }
-   ]
-  },
-  {
-   "role": "tool",
-   "tool_call_id": "call_LZakjwfOI9m3T7YOQZhWStdM",
-   "content": "[Royal Birkdale Golf Club] Royal Birkdale Golf Club is a golf course in Southport, England. It is one of the clubs in the rotation for both the Open Championship and Women's British Open and has hosted the Open Championship eleven times between 1954 and 2026. Winners of the Open at the course include Pádraig Harrington, Mark O'Meara, Ian Baker-Finch, Tom Watson, Johnny Miller, Lee Trevino, Arnold Palmer, Peter Thomson (twice), Jordan Spieth, and Ryan Fox. Royal Birkdale hosted the women's tournament for a sixth time in 2014, and was the site of the Senior Open Championship in 2013. It has also hosted the Ryder Cup (1965, 1969), the Walker Cup (1951), and the Curtis Cup (1948). Other courses in the Open rota near Liverpool are Royal Liverpool Golf Club (Hoylake) and Royal Lytham & St Annes Golf Club. On 22 July 2017, in the third round of the 2017 Open Championship, Branden Grace became the first man in major championship history to record a score of 62 in a single round. | other articles: U.S. Women's Open, Phil Mickelson"
-  },
-  {
-   "role": "assistant",
-   "content": null,
-   "refusal": null,
-   "reasoning": null,
-   "tool_calls": [
-    {
-     "type": "function",
-     "index": 0,
-     "id": "call_GNoMO1QfiiFvRV76kwVlJUJO",
+     "id": "call_EQD51G6sIMYR8Zo77u7lKGpW",
      "function": {
       "name": "web_search",
       "arguments": "{\"query\":\"2026 Women's PGA Championship\"}"
@@ -127,7 +61,7 @@
   },
   {
    "role": "tool",
-   "tool_call_id": "call_GNoMO1QfiiFvRV76kwVlJUJO",
+   "tool_call_id": "call_EQD51G6sIMYR8Zo77u7lKGpW",
    "content": "[2026 Women's PGA Championship] The 2026 KPMG Women's PGA Championship is the 72nd Women's PGA Championship. It is being played June 25–28 at Hazeltine National Golf Club in Chaska, Minnesota. Hazeltine previously hosted the Women's PGA Championship in 2019, won by Hannah Green. It also hosted the U.S. Women's Open in 1966 and 1977. The PGA Championship was the third of five major championships on the LPGA Tour during the 2026 season. Ryu Hae-ran won her first major championship by two strokes over Ina Yoon. | other articles: 2026 PGA Championship, Women's PGA Championship"
   },
   {
@@ -139,22 +73,22 @@
     {
      "type": "function",
      "index": 0,
-     "id": "call_Icyj5GxeZ1HkOCnUWUE4KrTv",
+     "id": "call_YObbMol9NHVKf7lYHQkofPIK",
      "function": {
       "name": "page_find",
-      "arguments": "{\"title\":\"2026 Women's PGA Championship\",\"keywords\":\"winner, Ryu Hae-ran\"}"
+      "arguments": "{\"title\":\"2026 Women's PGA Championship\",\"keywords\":\"winner\"}"
      }
     }
    ]
   },
   {
    "role": "tool",
-   "tool_call_id": "call_Icyj5GxeZ1HkOCnUWUE4KrTv",
-   "content": "Ryu Hae-ran won her first major championship by two strokes over Ina Yoon.\nIna Yoon widen her lead to five strokes by shooting a second round 69. Tied for second place were four golfers including Nasa Hataoka and Ryu Hae-ran who both shot 64, the low rounds of the day. Nelly Korda, seeking her third major win of the season, shot 68 to climb into a tie for sixth place.\nRyu Hae-ran shot a 68 (4-under-par) round to take a one-stroke lead over Brooke Henderson. Ina Yoon, leader for the first two days, shot a 75 (3-over-par) to drop to third place.\nRyu Hae-ran shot a 2-under-par 70 to claimed her first major championship by two stokes over Ina Yoon."
+   "tool_call_id": "call_YObbMol9NHVKf7lYHQkofPIK",
+   "content": "2. Past winners of the Women's PGA Championship\n5. Order of Merit winners from the Ladies European Tour, LPGA of Japan Tour, and LPGA of Korea Tour\nIna Yoon tied the tournament record with a 9-under-par 63 to take a two stroke lead over Karis Davidson. Nelly Korda, winner of the season's first two majors, shot 70 and was in T-19 place."
   },
   {
    "role": "assistant",
-   "content": "Ryu Hae-ran won the 2026 Women's PGA Championship at Hazeltine National Golf Club, claiming her first major championship by two strokes over Ina Yoon. \n\nFINAL: Ryu Hae-ran",
+   "content": "Ryu Hae-ran won the 2026 Women's PGA Championship at Hazeltine National Golf Club, securing her first major championship by two strokes over Ina Yoon. \n\nFINAL: Ryu Hae-ran",
    "refusal": null,
    "reasoning": null
   }

@@ -8,9 +8,9 @@
   "page": "2026 in sports",
   "url": "https://en.wikipedia.org/wiki/2026_in_sports"
  },
- "answer": "Nelly Korda won the 2026 Chevron Championship, leading wire-to-wire for her second title at the event and securing her third major championship. This victory also elevated her to the number one world ranking. \n\nFINAL: Nelly Korda",
+ "answer": "Nelly Korda won the 2026 Chevron Championship, leading wire-to-wire to secure her second title in this tournament and her third major overall. This victory also propelled her to the number one world ranking. \n\nFINAL: Nelly Korda",
  "correct": true,
- "cost": 0.00013455000000001105,
+ "cost": 0.00013545000000000917,
  "messages": [
   {
    "role": "system",
@@ -29,22 +29,22 @@
     {
      "type": "function",
      "index": 0,
-     "id": "call_yIjKtKlV9XANeC95rsp1Dc2v",
+     "id": "call_97ABTWtnAVRHC0if2kPzGD2d",
      "function": {
       "name": "web_search",
-      "arguments": "{\"query\":\"2026 Chevron Championship golf winner\"}"
+      "arguments": "{\"query\":\"2026 Chevron Championship golf tournament winner\"}"
      }
     }
    ]
   },
   {
    "role": "tool",
-   "tool_call_id": "call_yIjKtKlV9XANeC95rsp1Dc2v",
-   "content": "[2026 Chevron Championship] The 2026 Chevron Championship was the 55th Chevron Championship, an LPGA golf tournament held April 23–26 at Memorial Park Golf Course in Houston, Texas. The tournament was in its fifth year with Chevron Corporation as the title sponsor and its 44th year as a major championship. Nelly Korda led wire-to-wire to win her second Chevron Championship and third major. The win also propelled her to the number one world ranking. | other articles: Chevron Championship, 2026 in sports"
+   "tool_call_id": "call_97ABTWtnAVRHC0if2kPzGD2d",
+   "content": "[2026 Chevron Championship] The 2026 Chevron Championship was the 55th Chevron Championship, an LPGA golf tournament held April 23–26 at Memorial Park Golf Course in Houston, Texas. The tournament was in its fifth year with Chevron Corporation as the title sponsor and its 44th year as a major championship. Nelly Korda led wire-to-wire to win her second Chevron Championship and third major. The win also propelled her to the number one world ranking. | other articles: Chevron Championship, 2026 LPGA Tour"
   },
   {
    "role": "assistant",
-   "content": "Nelly Korda won the 2026 Chevron Championship, leading wire-to-wire for her second title at the event and securing her third major championship. This victory also elevated her to the number one world ranking. \n\nFINAL: Nelly Korda",
+   "content": "Nelly Korda won the 2026 Chevron Championship, leading wire-to-wire to secure her second title in this tournament and her third major overall. This victory also propelled her to the number one world ranking. \n\nFINAL: Nelly Korda",
    "refusal": null,
    "reasoning": null
   }

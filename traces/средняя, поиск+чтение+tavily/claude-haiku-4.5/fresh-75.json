@@ -1,0 +1,76 @@
+{
+ "task": {
+  "id": "fresh-75",
+  "source": "fresh",
+  "question": "Where were two senior doctors arrested over suspicious deaths of newborn infants on January 14, 2026?",
+  "answer": "Novokuznetsk",
+  "evidence": "14 January – Two senior doctors are arrested over the suspicious deaths of nine newborn infants at a maternity hospital in Novokuznetsk from 4 to 12 January.",
+  "page": "2026 in Russia",
+  "url": "https://en.wikipedia.org/wiki/2026_in_Russia",
+  "sonnet_answer": "Rajasthan, India",
+  "agent_ok": false
+ },
+ "answer": "FINAL: Two senior doctors were arrested at **Novokuznetsk Maternity Hospital No. 1** in Siberia, Russia on January 14, 2026, following the deaths of nine newborn infants. The arrested doctors were the chief physician and the acting head of the intensive care unit.",
+ "correct": true,
+ "cost": 0.007869000000000015,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You answer questions about recent events (2025–2026). Never answer from memory: use web_search (and tavily_search if available) to find the right article, then page_find to look inside long articles such as '2026 in <country or field>' for the specific fact. Do not repeat the same call. When done, write the last line as FINAL: <short answer>."
+  },
+  {
+   "role": "user",
+   "content": "Where were two senior doctors arrested over suspicious deaths of newborn infants on January 14, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "I'll search for information about senior doctors arrested over suspicious deaths of newborn infants on January 14, 2026.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01GM6YdHAJKVbmkWvpd3AnkT",
+     "function": {
+      "name": "tavily_search",
+      "arguments": "{\"query\": \"senior doctors arrested suspicious deaths newborn infants January 14 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01GM6YdHAJKVbmkWvpd3AnkT",
+   "content": "[Top doctors arrested after 9 newborns die at hospital in Russia: \"A crime against the country\" - CBS News](https://www.cbsnews.com/news/newborns-die-hospital-russia-doctors-arrested) Watch CBS News # Top doctors arrested after 9 newborns die at hospital in Russia: \"A crime against the country\" January 14, 2026 / 7:16 AM EST / CBS/AFP Russian police have arrested the chief physician and the acting head of intensive care at a Siberian hospital where nine babies died this month, prosecutors said Wednesday. [...] Copyright ©2026 CBS Interactive Inc. All rights reserved. [...] In: © 2026 CBS Interactive Inc. All Rights Reserved. This material may not be published, broadcast, rewr\n[Russian doctors arrested over 9 babies die in maternity hospital](https://www.bbc.com/news/articles/cx2wle7028ko) Two senior doctors have been arrested in Russia following the deaths of nine babies in a maternity hospital in Siberia this month. The newborns died during the long New Year holiday in Novokuznetsk, Russia's main investigative authority said in a statement. No reason for the babies' deaths has been given. The case has caused anger around Russia. [...] #### Read the BBC In your own language Copyright 2026 BBC. All rights reserved. The BBC is not responsible for the content of external sites. Read\n[Three senior leaders arrested in lucy letby hospital case ...](https://www.facebook.com/WYFF4/posts/three-senior-leaders-at-the-english-hospital-where-nurse-lucy-letby-was-convicte/1264685361946544) Three senior leaders at the English hospital where nurse Lucy Letby was convicted of murdering babies have been arrested on suspicion of\n[Three UK hospital leaders arrested in babies' deaths](https://www.nwaonline.com/news/2025/jul/02/three-uk-hospital-leaders-arrested-in-babies) LONDON -- Three senior leaders at the English hospital where nurse Lucy Letby was convicted of murdering seven babies and trying to kill\n[Russia detains top doctors at Siberian hospital after nine ...](https://www.nbcnews.com/world/russia/russia-opens-criminal-investigation-death-nine-babies-siberian-hospita-rcna253761) Russia has detained the chief doctor and acting head of the intensive care unit at a Siberian maternity hospital after the deaths of nine"
+  },
+  {
+   "role": "assistant",
+   "content": "Based on the search results, I can see this happened in Russia. Let me get more specific details about the location.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01X1qpviCWnv6kT7BJrbHq9G",
+     "function": {
+      "name": "tavily_search",
+      "arguments": "{\"query\": \"Novokuznetsk maternity hospital doctors arrested January 2026 newborns\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01X1qpviCWnv6kT7BJrbHq9G",
+   "content": "[Top doctors arrested after 9 newborns die at hospital in Russia: \"A crime against the country\" - CBS News](https://www.cbsnews.com/news/newborns-die-hospital-russia-doctors-arrested) The hospital announced on Tuesday that it had stopped accepting patients due to a high rate of respiratory infection. \"Between January 4 and January 12, 2026, nine newborns died at Novokuznetsk Maternity Hospital No. 1 as a consequence of the suspects performing their official and professional medical duties in a substandard way,\" Russia's Investigative Committee said in a statement. A forensic probe into each baby's death was underway, it added. [...] Watch CBS News # Top doctors arrested after\n[Russian doctors arrested over 9 babies die in maternity hospital](https://www.bbc.com/news/articles/cx2wle7028ko) Two senior doctors have been arrested in Russia following the deaths of nine babies in a maternity hospital in Siberia this month. The newborns died during the long New Year holiday in Novokuznetsk, Russia's main investigative authority said in a statement. No reason for the babies' deaths has been given. The case has caused anger around Russia. [...] All the babies were born in the Novokuznetsk Maternity Hospital No.1 from 1-12 January, with the first death on 4 January, Russia's Investigative \n[Russian doctors arrested after nine newborns die](https://www.medicalbrief.co.za/russian-doctors-arrested-after-nine-newborns-die) Jan 21, 2026 — The acting head of intensive care at a Siberian hospital as well as its chief physician have been arrested after the deaths of nine babies ...Read more\n[Russia detains top doctors at Siberian hospital after nine ...](https://www.reuters.com/world/russia-detains-top-doctors-siberian-hospital-after-nine-babies-die-2026-01-14) Jan 13, 2026 — Authorities in Russia have detained the chief doctor and acting head of the intensive care unit at a Siberian maternity hospital after nine\n[Russian police have arrested the chief physician and ...](https://www.facebook.com/CBSMornings/posts/russian-police-have-arrested-the-chief-physician-and-the-acting-head-of-intensiv/1316096877211127) Russian police have arrested the chief physician and the acting head of intensive care at a Siberian hospital where nine babies died this"
+  },
+  {
+   "role": "assistant",
+   "content": "FINAL: Two senior doctors were arrested at **Novokuznetsk Maternity Hospital No. 1** in Siberia, Russia on January 14, 2026, following the deaths of nine newborn infants. The arrested doctors were the chief physician and the acting head of the intensive care unit.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

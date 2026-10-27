@@ -1,0 +1,24 @@
+{
+ "task": {
+  "id": "fresh-117",
+  "source": "fresh",
+  "question": "What line of the Nanjing Metro opens in April 2026?",
+  "answer": "Line S2",
+  "evidence": "22 April – Line S2 of the Nanjing Metro opens between Xishanqiao station and Taibai station.",
+  "page": "2026 in rail transport",
+  "url": "https://en.wikipedia.org/wiki/2026_in_rail_transport",
+  "sonnet_answer": "Line 11",
+  "agent_ok": false
+ },
+ "answer": "FINAL: Line 11.",
+ "correct": false,
+ "cost": 8.399999999998686e-06,
+ "messages": [
+  {
+   "role": "assistant",
+   "content": "Line 11.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

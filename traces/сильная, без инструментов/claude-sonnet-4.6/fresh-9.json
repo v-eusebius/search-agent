@@ -10,13 +10,13 @@
   "sonnet_answer": "Zhengzhou",
   "agent_ok": true
  },
- "answer": "FINAL: Unknown (the 2026 BWF World Championships had not yet occurred as of my knowledge cutoff).",
+ "answer": "FINAL: Unknown. The 2026 BWF World Championships has not yet occurred (as of my knowledge cutoff in early 2025).",
  "correct": false,
- "cost": 0.0005039999999999997,
+ "cost": 0.0005939999999999999,
  "messages": [
   {
    "role": "assistant",
-   "content": "Unknown (the 2026 BWF World Championships had not yet occurred as of my knowledge cutoff).",
+   "content": "Unknown. The 2026 BWF World Championships has not yet occurred (as of my knowledge cutoff in early 2025).",
    "refusal": null,
    "reasoning": null
   }

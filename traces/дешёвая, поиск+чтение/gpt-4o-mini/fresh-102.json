@@ -1,0 +1,190 @@
+{
+ "task": {
+  "id": "fresh-102",
+  "source": "fresh",
+  "question": "Who was recognized as Hero of Ukraine in 2025?",
+  "answer": "Oleksandr Dovhach",
+  "evidence": "9 March – Oleksandr Dovhach, military pilot, Hero of Ukraine (2025).",
+  "page": "2026 in Ukraine",
+  "url": "https://en.wikipedia.org/wiki/2026_in_Ukraine",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "В 2025 году несколько людей были удостоены звания Героя Украины, однако конкретные имена не были выделены в доступных источниках. Обычно награды присуждаются как военным, так и гражданским лицам за выдающиеся заслуги. Для получения точной информации о награждениях в 2025 году лучше всего обратиться к официальным документам или новостным источникам, поскольку они регулярно обновляются. \n\nFINAL: Информация о конкретных Героях Украины 2025 года недоступна.",
+ "correct": false,
+ "cost": 0.0013124999999999942,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You answer questions about recent events (2025–2026). Never answer from memory: use web_search (and tavily_search if available) to find the right article, then page_find to look inside long articles such as '2026 in <country or field>' for the specific fact. Do not repeat the same call. When done, write the last line as FINAL: <short answer>."
+  },
+  {
+   "role": "user",
+   "content": "Who was recognized as Hero of Ukraine in 2025?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_rnabptlxV4GIQUy0AEj4VWys",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Hero of Ukraine 2025\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_rnabptlxV4GIQUy0AEj4VWys",
+   "content": "[Hero of Ukraine] A Hero of Ukraine (abbr. HOU; Ukrainian: Герой України, romanized: Heroi Ukrainy) is the highest national decoration that can be conferred upon an individual citizen by the president of Ukraine. The decoration was created in 1998 by President Leonid Kuchma. As of October 6, 2026, the total number of recipients was no less than 1,367 (of which decrees awarding 1,318 individuals were published, and for at least 49 individuals, the decrees were not made public). The decoration is granted to two classes of recipients: to civilians, the Order of the State (abbr. OS, Ukrainian: Орден Держави, romanized: Orden Derzhavy); and to military recipients, the Order of the Gold Star (abbr. OGS, Орден «Золота Зірка», Orden \"Zolota Zirka\"). The first foreigner awarded the decoration was Belarusian Mykhailo Zhyznevskyi in June 2017. | other articles: List of Heroes of Ukraine, Hero City of Ukraine"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_aaq6T9xQpX4x8RBrUDxxjgK6",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"2025 in Ukraine\",\"keywords\":\"Hero of Ukraine\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_aaq6T9xQpX4x8RBrUDxxjgK6",
+   "content": "Events in the year 2025 in Ukraine.\nRussian invasion of Ukraine (2022–present)\nUkraine halts the transportation of Russian gas supplies through the country, following the expiration of a five-year transit deal.\nUkraine becomes a state party in the International Criminal Court.\n11 January – Ukraine announces the capture of two North Korean soldiers during fighting in Russia's Kursk Oblast.\n16 January – Ukraine and the United Kingdom sign a 100-year partnership agreement."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_3BNSHZt1jvpejfFRGzZ0COUI",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"2025 in Ukraine\",\"keywords\":\"recognized Hero of Ukraine\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_3BNSHZt1jvpejfFRGzZ0COUI",
+   "content": "keywords not found on the page"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_9u0jlZNF4Yrk1J01hgJsVPa4",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"recipients of Hero of Ukraine 2025\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_9u0jlZNF4Yrk1J01hgJsVPa4",
+   "content": "[Hero of Ukraine] A Hero of Ukraine (abbr. HOU; Ukrainian: Герой України, romanized: Heroi Ukrainy) is the highest national decoration that can be conferred upon an individual citizen by the president of Ukraine. The decoration was created in 1998 by President Leonid Kuchma. As of October 6, 2026, the total number of recipients was no less than 1,367 (of which decrees awarding 1,318 individuals were published, and for at least 49 individuals, the decrees were not made public). The decoration is granted to two classes of recipients: to civilians, the Order of the State (abbr. OS, Ukrainian: Орден Держави, romanized: Orden Derzhavy); and to military recipients, the Order of the Gold Star (abbr. OGS, Орден «Золота Зірка», Orden \"Zolota Zirka\"). The first foreigner awarded the decoration was Belarusian Mykhailo Zhyznevskyi in June 2017. | other articles: List of Heroes of Ukraine, Ihor Skybiuk"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_SJz72O85FEXAXKOBS0tmkxn7",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Ukrainian Hero of Ukraine recipients by year\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_SJz72O85FEXAXKOBS0tmkxn7",
+   "content": "[Hero of Ukraine] A Hero of Ukraine (abbr. HOU; Ukrainian: Герой України, romanized: Heroi Ukrainy) is the highest national decoration that can be conferred upon an individual citizen by the president of Ukraine. The decoration was created in 1998 by President Leonid Kuchma. As of October 6, 2026, the total number of recipients was no less than 1,367 (of which decrees awarding 1,318 individuals were published, and for at least 49 individuals, the decrees were not made public). The decoration is granted to two classes of recipients: to civilians, the Order of the State (abbr. OS, Ukrainian: Орден Держави, romanized: Orden Derzhavy); and to military recipients, the Order of the Gold Star (abbr. OGS, Орден «Золота Зірка», Orden \"Zolota Zirka\"). The first foreigner awarded the decoration was Belarusian Mykhailo Zhyznevskyi in June 2017. | other articles: Dmytro Kotsiubailo, Ihor Skybiuk"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_OwGbi5X7hD5tI2rHZJpVKCdC",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"2025 Hero of Ukraine recipients list\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_OwGbi5X7hD5tI2rHZJpVKCdC",
+   "content": "[List of Heroes of Ukraine] The article uses the latest official Romanization of Ukrainian on resolution of the Government of Ukraine. This is a list of individuals who have been presented with the title Hero of Ukraine in reverse chronological order. As of 6 October 2026, the total number of recipients was no less than 1,367 (of which decrees awarding 1,318 individuals were published, and for at least 49 individuals, the decrees were not made public). Out of all recipients (considering only published decrees), 1042 (79%) have a distinction of the \"Order of the Gold Star\" and 276 (21%) have a distinction of the \"Order of the State\". Number of awards that were given posthumously is 677 (51%). By gender, 1271 (96%) of the recipients are men. The youngest recipient is Stepan Chubenko (died at the age of 16 years and 258 days; awarded posthumously). The oldest recipient, Maksym Hulyi, received the award on his 100th birthday. The only non-citizen awarded the award and for whom specifically an exclusion was made at parliamentary level was Belarusian Mikhail Zhyzneuski in June 2017 (Zhyzneuski was awarded posthumously). There are however 17 other individuals who were awarded the Hero of Ukraine and who were never citizens of Ukraine as they died before Ukraine obtained its independence. Among them are Avgustyn Voloshyn, Stepan Bandera (annulled), Volodymyr Ivasyuk, Vasyl Stus, liquidators Mykola Vashchuk, Vasyl Ihnatenko, Oleksandr Lelechko, Mykola Tytenok, Volodymyr Tishura. There are 17 heroes of Ukraine wh | other articles: List of deaths during the Russo-Ukrainian war (2022–present), Andriy Biletsky"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_jHOuHPK2oxchK0OQ1Dc96mGN",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"List of Heroes of Ukraine\",\"keywords\":\"2025\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_jHOuHPK2oxchK0OQ1Dc96mGN",
+   "content": "== 2025 =="
+  },
+  {
+   "role": "user",
+   "content": "Инструменты больше недоступны. Ответь по тому, что уже известно, последней строкой FINAL: <ответ>."
+  },
+  {
+   "role": "assistant",
+   "content": "В 2025 году несколько людей были удостоены звания Героя Украины, однако конкретные имена не были выделены в доступных источниках. Обычно награды присуждаются как военным, так и гражданским лицам за выдающиеся заслуги. Для получения точной информации о награждениях в 2025 году лучше всего обратиться к официальным документам или новостным источникам, поскольку они регулярно обновляются. \n\nFINAL: Информация о конкретных Героях Украины 2025 года недоступна.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

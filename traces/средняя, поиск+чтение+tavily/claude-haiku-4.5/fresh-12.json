@@ -1,0 +1,134 @@
+{
+ "task": {
+  "id": "fresh-12",
+  "source": "fresh",
+  "question": "What is the number of children receiving support for special educational needs and disabilities in the United Kingdom in January 2026?",
+  "answer": "700,000",
+  "evidence": "The number of children getting support for special educational needs and disabilities has increased by 12% between January 2025 and January 2026, UK government figures indicate, with 700,000 children now receiving help.",
+  "page": "2026 in the United Kingdom",
+  "url": "https://en.wikipedia.org/wiki/2026_in_the_United_Kingdom",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "Perfect! I found the information. Based on the search results, the data shows:\n\nFINAL: In January 2026, there were over 1.8 million pupils (more specifically 1.86 million) in England receiving support for special educational needs and disabilities (SEND), comprising pupils with either SEN Support or an Education, Health and Care (EHC) plan. This represented a 5.2% increase of 91,400 pupils compared to 2025.",
+ "correct": false,
+ "cost": 0.01597900000000002,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You answer questions about recent events (2025–2026). Never answer from memory: use web_search (and tavily_search if available) to find the right article, then page_find to look inside long articles such as '2026 in <country or field>' for the specific fact. Do not repeat the same call. When done, write the last line as FINAL: <short answer>."
+  },
+  {
+   "role": "user",
+   "content": "What is the number of children receiving support for special educational needs and disabilities in the United Kingdom in January 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "I'll search for information about children receiving support for special educational needs and disabilities in the United Kingdom in January 2026.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_011CnrjvFke7h1R3togp5oJF",
+     "function": {
+      "name": "tavily_search",
+      "arguments": "{\"query\": \"children special educational needs disabilities United Kingdom January 2026\"}"
+     }
+    },
+    {
+     "type": "function",
+     "index": 1,
+     "id": "toolu_bdrk_01VSaX71LPnJtsphmzzbgmXy",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\": \"special educational needs disabilities children UK 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_011CnrjvFke7h1R3togp5oJF",
+   "content": "[Release home - Special educational needs in England - Explore education statistics - GOV.UK](https://explore-education-statistics.service.gov.uk/find-statistics/special-educational-needs-in-england/2025-26) #### Number of SEN units and resourced provisions has increased In January 2026, there were 514 schools in England with SEN units, an increase from 449 in 2025. There were 1,309 schools with a resourced provision, a slight increase from 1,217 in 2025. Full information on SEN units and resourced provisions is available in the school level underlying data file that accompanies this release. Back to top ## Contact us [...] The number of pupils with SEN in AP schools has increased, this is largely d\n[Special Educational Needs: support in England - House of Commons Library](https://commonslibrary.parliament.uk/research-briefings/sn07020) SEN Support, provided to a child or young person in their pre-school, school, or college Education, Health, and Care Plans (EHCPs) which provide a formal basis for support for children and young people who need more support than is available through SEN Support Education is a devolved policy area and this paper applies to England only. ## How many school pupils have SEN? In January 2026, there were over 1.8 million school pupils in England with identified SEN (20.8% of all pupils). [...] The gov\n[And so it begins: 2026 will be the year of a huge Special Needs battle, and this is why](https://maybeimamazed.substack.com/p/and-so-it-begins-2026-will-be-the) Teachers and school staff will be expected to take a far greater role in identifying children with special educational needs and disabilities(SEND) under reforms to the system expected in the coming year… The move will mean more onus placed on teaching staff to both spot and meet the needs of children with SEND. [...] This is part of what will be a massive shift, as far-reaching and demanding as any change to the education system in years. Just before Christmas, the government announced £3 billi\n[Number of children getting special educational needs ...](https://www.bbc.com/news/articles/cj4g18gy14no) Between January 2025 and January 2026, there was a 12.5% increase in the number of children with education, health and care plans (EHCPs)\n[You may have seen that the UK Government is proposing ...](https://www.facebook.com/togetherforshortlives/videos/you-may-have-seen-that-the-uk-government-is-proposing-changes-to-how-children-an/26469850199285895) This post provides a news-st"
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01VSaX71LPnJtsphmzzbgmXy",
+   "content": "[Special education in the United Kingdom] Special education in the United Kingdom, as an aspect of education, is a devolved matter, with each of the countries of the United Kingdom having separate systems under separate governments. The UK Government is responsible for England, whilst the Scottish Government, the Welsh Government and the Northern Ireland Executive are responsible for Scotland, Wales and Northern Ireland, respectively. Special education in Scotland is formally known as Additional Support Needs (ASN) or Additional Support for Learning (ASL) whereas in England it is usually referred to as 'Special educational needs' ('SEN'), or 'special educational needs and disabilities' ('SEND'). | other articles: Special education, Special Educational Needs and Disability Act 2001"
+  },
+  {
+   "role": "assistant",
+   "content": "Great! I found relevant information. Let me get more specific details from the GOV.UK source about the exact number.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01Koi8y7524udAwY3JhuZrX4",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\": \"Special educational needs in England\", \"keywords\": \"January 2026 pupils children SEN number 1.8 million\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01Koi8y7524udAwY3JhuZrX4",
+   "content": "no such page"
+  },
+  {
+   "role": "assistant",
+   "content": "Let me search for the official statistics page with a different approach:",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_0187tKKtH9XEChCVtFoLBu5z",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\": \"\\\"January 2026\\\" \\\"1.8 million\\\" SEN pupils England\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_0187tKKtH9XEChCVtFoLBu5z",
+   "content": "[Sinicization] Sinicization, sinofication, sinification, or sinonization (from the prefix sino-, 'Chinese, relating to China') is the process by which non-Chinese societies or groups are acculturated or assimilated into Chinese culture, particularly the language, societal norms, cultural practices, and ethnic identity of the Han Chinese—the largest ethnic group of China. Areas of influence include diet, writing, industry, education, language/lexicon, law, architectural style, politics, philosophy, religion, science and technology, value systems, and lifestyle. The term sinicization is also often used to refer to processes or policies of acculturation or assimilation of norms from China on neighboring East Asian societies, or on minority ethnic groups within China. Evidence of this process is reflected in the histories of Korea, Japan, and Vietnam in the adoption of the Chinese writing system, which has long been a unifying feature in the Sinosphere as the vehicle for exporting Chinese culture to other Asian countries. In recent times, the term \"Sinicization\" has sometimes been used more narrowly in reference to specific policies of the Government of China towards ethnic minorities as well as the promotion of \"ethnic unity\"."
+  },
+  {
+   "role": "assistant",
+   "content": "That search didn't work. Let me try another search:",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01AZDNUet9fs9XGeyAUsjL9V",
+     "function": {
+      "name": "tavily_search",
+      "arguments": "{\"query\": \"\\\"January 2026\\\" pupils SEN England 1.8 million statistics\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01AZDNUet9fs9XGeyAUsjL9V",
+   "content": "[Latest SEN stats released by DfE | Whole School SEND](https://www.wholeschoolsend.org.uk/news/latest-sen-stats-released-dfe) The Department for Education has released the data from the 2026 school census which show that the number of pupils identified with special educational needs (SEN) in England has increased. This reflects the continuing upward trend. There are now more than 1.8 million pupils receiving provision through SEN Support or an Education, Health and Care (EHC) plan – an increase of 91,400 pupils (5.2%) compared with data released in 2025. [...] This means that pupils with EHC plans now make up 29% of al\n[SEND 2026: Tracking a decade of rising need with earlier EHCPs and moves to specialist provision for secondary — Special Needs Jungle](https://www.specialneedsjungle.com/send-2026-tracking-decade-rising-need-earlier-ehcps-specialist-provision-secondary) So in all, we have 1.86 million pupils identified with SEND in January 2026. 71% of those– 1.32 million, or 14.8% of the total school population – were on SEN Support. These pupils are supported almost entirely through resources delegated down to individual mainstream schools and academy trusts. [...] In January 2026, there were 8.9 million pupils recorded on the English school census in state schools, mainstream independent schools, and non-maintained special schools. Of those, roughly 1.86 mil\n[Release home - Special educational needs in England](https://dera.ioe.ac.uk/id/eprint/42217/1/Release%20home%20-%20Special%20educational%20needs%20in%20England%20-%20Explore%20education%20statistics%20-%20GOV.UK.pdf) SEN support/SEN without an EHC plan 1,319,780 pupils in schools in England. Up by 2.8% from 2025 SEN support/SEN without an EHC plan (percent) 14.8% percent of pupils with SEN support. Up from 14.2% Over 1.8 million pupils in England have special educational needs (SEN) This is an increase of 91,400 (5.2%) pupils since 2025 and includes pupils with an education, health and care plan ? (EHC) plan and pupils with SEN support ? . The increasing trend has continued since 2016. [...] Back to top Pupi\n[Release home - Special educational needs in England - Explore education statistics - GOV.UK](https://explore-education-statistics.service.gov.uk/find-statistics/special-educational-needs-in-england/2025-26) The percentage of pupils in England with SEN support. This includes all state-funded nursery, primary, secondary and special schools, non-maintained special schools, pupil referral units and"
+  },
+  {
+   "role": "assistant",
+   "content": "Perfect! I found the information. Based on the search results, the data shows:\n\nFINAL: In January 2026, there were over 1.8 million pupils (more specifically 1.86 million) in England receiving support for special educational needs and disabilities (SEND), comprising pupils with either SEN Support or an Education, Health and Care (EHC) plan. This represented a 5.2% increase of 91,400 pupils compared to 2025.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

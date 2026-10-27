@@ -1,0 +1,24 @@
+{
+ "task": {
+  "id": "fresh-59",
+  "source": "fresh",
+  "question": "Who created the official poster for the 2026 FIFA World Cup unveiled on March 3, 2026?",
+  "answer": "Carson Ting",
+  "evidence": "In March and April 2025, FIFA unveiled a set of 16 posters representing each of the 2026 World Cup host cities. The posters, designed by local artists, were intended to reflect the \"distinct identity and heritage\" of each city. On March 3, 2026, the official poster for the tournament was unveiled. It was created by Carson Ting of Canada, Minerva GM of Mexico, and Hank Willis Thomas of the United States.",
+  "page": "2026 FIFA World Cup",
+  "url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "FINAL: Unknown.",
+ "correct": false,
+ "cost": 0.00022500000000000124,
+ "messages": [
+  {
+   "role": "assistant",
+   "content": "Unknown.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

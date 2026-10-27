@@ -1,0 +1,54 @@
+{
+ "task": {
+  "id": "fresh-63",
+  "source": "fresh",
+  "question": "How many people were killed in the avalanche near Ratschings in March 2026?",
+  "answer": "Two",
+  "evidence": "21 March – Two people are killed in an avalanche at the Hohe Ferse near Ratschings.",
+  "page": "2026 in Italy",
+  "url": "https://en.wikipedia.org/wiki/2026_in_Italy",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "FINAL: Two people were killed in the avalanche near Ratschings in March 2026 (specifically on March 21, 2026). Two skiers died when an avalanche struck the area in South Tyrol, Italy.",
+ "correct": true,
+ "cost": 0.004253000000000062,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You answer questions about recent events (2025–2026). Never answer from memory: use web_search (and tavily_search if available) to find the right article, then page_find to look inside long articles such as '2026 in <country or field>' for the specific fact. Do not repeat the same call. When done, write the last line as FINAL: <short answer>."
+  },
+  {
+   "role": "user",
+   "content": "How many people were killed in the avalanche near Ratschings in March 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "I'll search for information about this avalanche near Ratschings in March 2026.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01DzEkyhJZ8GSDeAwHqeLPLj",
+     "function": {
+      "name": "tavily_search",
+      "arguments": "{\"query\": \"avalanche Ratschings March 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01DzEkyhJZ8GSDeAwHqeLPLj",
+   "content": "[A deadly South Tyrol avalanche kills 2 skiers, trapping 25 ...](https://www.nbcnews.com/world/italy/italy-avalanche-death-toll-rcna264570) Mar 21, 2026 — an avalanche engulfed a group of 10 skiers near Ratschings, northern Italy, on Saturday. March 21, 2026, The avalanche happened at an altitude\n[\"Sudden — deadly avalanche in Italy At noon on March 21, ...](https://www.facebook.com/photo.php?fbid=122210347550739694&set=a.122178844742739694&type=3) Mar 22, 2026 — At noon on March 21, 2026, an avalanche struck Ratschings in South Tyrol, Italy. Two skiers were killed, and 25 people were at one point\n[2 skiers killed, 5 hurt in northern Italy avalanche](https://www.cbsnews.com/news/skiers-killed-hurt-northern-italy-avalanche) Mar 21, 2026 — Two skiers died and five others were injured on Saturday when an avalanche rumbled down on them in the Italian Alps, in the Trentino-Alto ...Read more\n[Avalanche report in Ratschings: Always up to date](https://www.ratschings.info/en/active-in-nature/winter/ski-touring/avalanche-report.html) The Ratschings avalanche report provides daily information on current avalanche danger, snow conditions, and relevant weather influences in the area.Read more\n[Avalanche in Italy's South Tyrol Kills Two Skiers Near ...](https://www.youtube.com/watch?v=M8F6VKA-kec) The avalanche happened at an altitude of around 2,400 meters on the slopes of the 2,669-meter HoheFerse, also known as Monte Tallone Grande"
+  },
+  {
+   "role": "assistant",
+   "content": "FINAL: Two people were killed in the avalanche near Ratschings in March 2026 (specifically on March 21, 2026). Two skiers died when an avalanche struck the area in South Tyrol, Italy.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

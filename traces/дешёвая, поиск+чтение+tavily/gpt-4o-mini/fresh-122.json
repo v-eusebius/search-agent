@@ -1,0 +1,76 @@
+{
+ "task": {
+  "id": "fresh-122",
+  "source": "fresh",
+  "question": "Who ousted Sussan Ley in February 2026 in Australian politics?",
+  "answer": "Angus Taylor",
+  "evidence": "February 13 – Sussan Ley, the first female leader of the Liberal Party of Australia, was ousted by Angus Taylor.",
+  "page": "2026 in politics",
+  "url": "https://en.wikipedia.org/wiki/2026_in_politics",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "Sussan Ley was ousted as the leader of the Liberal Party of Australia by Angus Taylor on February 13, 2026, during a leadership spill. Taylor won the leadership contest with a vote margin of 34 to 17. \n\nFINAL: Angus Taylor.",
+ "correct": true,
+ "cost": 0.0004369499999998805,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You answer questions about recent events (2025–2026). Never answer from memory: use web_search (and tavily_search if available) to find the right article, then page_find to look inside long articles such as '2026 in <country or field>' for the specific fact. Do not repeat the same call. When done, write the last line as FINAL: <short answer>."
+  },
+  {
+   "role": "user",
+   "content": "Who ousted Sussan Ley in February 2026 in Australian politics?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_jE5loY7aneA0tWgfcoW3zXeo",
+     "function": {
+      "name": "tavily_search",
+      "arguments": "{\"query\":\"Sussan Ley ousted February 2026 Australia\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_jE5loY7aneA0tWgfcoW3zXeo",
+   "content": "[2026 Liberal Party of Australia leadership spill - Wikipedia](https://en.wikipedia.org/wiki/2026_Liberal_Party_of_Australia_leadership_spill) A leadership spill was held on 13 February 2026 to elect the leader of the Liberal Party of Australia, and by virtue, the leader of the Opposition \"Leader of the Opposition (Australia)\"). Angus Taylor was elected, defeating incumbent leader Sussan Ley. A spill for the deputy leadership was held concurrently, with Jane Hume being elected, defeating incumbent deputy leader Ted O'Brien. [...] 36. ↑ Gould, Courtney (13 February 2026). \"Federal politics live: Angus Taylor the new Liberal leader after\n[Statement - Resignation from Federal Parliament - Sussan Ley](https://sussanley.com/statement-resignation-from-federal-parliament) Facebook Instagram Sussan Ley Quick Menu # Statement – Resignation from Federal Parliament by Sussanley | Feb 27, 2026 | Uncategorized | 0 comments This morning, I wrote to the Speaker of the House of Representatives to advise of my immediate resignation from the Parliament as the Federal Member for Farrer. [...] Naturally, I am sad to no longer represent my electorate of Farrer. I love the wide western plains of New South Wales, the country towns along the Murray and Murrumbidgee Rivers and the\n[Angus Taylor ousts Sussan Ley as Australia's Liberal Party leader](https://www.bbc.com/news/articles/cr5lmgdmy9mo) # Australia's Liberal Party ousts first woman leader Getty A blonde-haired woman in a white suit and glasses stares off camera with people in suits sitting in a green bench behind her. The first female leader of Australia's Liberal Party, Sussan Ley, has been ousted after just nine months in the job, losing a leadership ballot to her former shadow defence minister Angus Taylor. [...] ### The BBC is in multiple languages #### Read the BBC In your own language Copyright 2026 BBC. All rights reserv\n[Angus Taylor defeats Sussan Ley by hefty margin of 34-17 as Liberal leader](https://theconversation.com/angus-taylor-defeats-sussan-ley-by-hefty-margin-of-34-17-as-liberal-leader-275909) The new deputy leader is Jane Hume, defeating Ted O'Brien - who has been shadow treasurer under Ley - by 30-20 in the final ballot. Eliminated in earlier ballots were Dan Tehan and Melissa Price. Hume is a moderate and Taylor a conservative, so the new leadership team has gender balance as well as factional balance. Taylor and Hume, who was finance spokeswoman under Dutton, worked closely together during the last t"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_KlXHfn5yOWFTYdKHU10lfLYQ",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"2026 Liberal Party of Australia leadership spill\",\"keywords\":\"Sussan Ley Angus Taylor\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_KlXHfn5yOWFTYdKHU10lfLYQ",
+   "content": "A leadership spill was held on 13 February 2026 to elect the leader of the Liberal Party of Australia, and by virtue, the leader of the Opposition. Angus Taylor was elected, defeating incumbent leader Sussan Ley. A spill for the deputy leadership was held concurrently, with Jane Hume being elected, defeating incumbent deputy leader Ted O'Brien.\nTaylor, a leading member of the National Right party faction, resigned from Ley's shadow cabinet on 11 February, following his declaration that Ley was not \"in a position to lead the party as it needs to be led\". The spill motion was subsequently launched by Jess Collins and Phillip Thompson. Taylor announced his candidacy for the leadership on the morning of 12 February.\nFollowing previous Liberal leader Peter Dutton's defeat in his own seat at the 2025 election, Sussan Ley was appointed as the acting leader of the Liberal Party, until a leadership election could be held.\nThe election was contested by Ley and Angus Taylor, with Ley defeating Taylor, 29 votes to 25.\nThree outgoing Senators (Hollie Hughes, Linda Reynolds, David Fawcett) and the provisional winner of Bradfield, Gisele Kapterian, were allowed to vote in this leadership election. Hughes and Reynolds publicly endorsed Ley for leader and Kapterian identified as a moderate. Kapterian would end up narrowly losing Bradfield to Nicolette Boele on a later recount. David Fawcett was part of the conservat\nThis meant that Ley's narrow win over Taylor would likely have been even narrower had the moderate outgoing Senators and Kapterian not been present. Ley's internal mandate as party leader was therefore seen as weak from the very beginning of her tenure."
+  },
+  {
+   "role": "assistant",
+   "content": "Sussan Ley was ousted as the leader of the Liberal Party of Australia by Angus Taylor on February 13, 2026, during a leadership spill. Taylor won the leadership contest with a vote margin of 34 to 17. \n\nFINAL: Angus Taylor.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

@@ -1,0 +1,24 @@
+{
+ "task": {
+  "id": "fresh-84",
+  "source": "fresh",
+  "question": "How many games was James Pearce Jr. suspended for in the 2026 NFL season?",
+  "answer": "eight games",
+  "evidence": "2026 NFL season: The National Football League suspends Atlanta Falcons linebacker James Pearce Jr. for eight games in violation of the league's personal conduct policy after his arrest in February on domestic violence charges.",
+  "page": "2026 in the United States",
+  "url": "https://en.wikipedia.org/wiki/2026_in_the_United_States",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "FINAL: Unknown.",
+ "correct": false,
+ "cost": 0.00021599999999999744,
+ "messages": [
+  {
+   "role": "assistant",
+   "content": "Unknown.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

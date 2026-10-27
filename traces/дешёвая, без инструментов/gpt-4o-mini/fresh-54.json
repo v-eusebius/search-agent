@@ -1,0 +1,24 @@
+{
+ "task": {
+  "id": "fresh-54",
+  "source": "fresh",
+  "question": "How many people were killed in the fire at a shopping mall in Karachi on January 17, 2026?",
+  "answer": "80",
+  "evidence": "January 17 – A fire at a shopping mall in Karachi, Pakistan, kills 80 people.",
+  "page": "2026",
+  "url": "https://en.wikipedia.org/wiki/2026",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "FINAL: Unknown.",
+ "correct": false,
+ "cost": 8.399999999998686e-06,
+ "messages": [
+  {
+   "role": "assistant",
+   "content": "Unknown.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

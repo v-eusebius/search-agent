@@ -1,0 +1,56 @@
+{
+ "task": {
+  "id": "fresh-76",
+  "source": "fresh",
+  "question": "What was the sentence given to former president Yoon Suk Yeol in South Korea in February 2026?",
+  "answer": "life imprisonment",
+  "evidence": "19 February – Former president Yoon Suk Yeol is convicted and sentenced to life imprisonment for insurrection relating to the 2024 South Korean martial law crisis.",
+  "page": "2026 in South Korea",
+  "url": "https://en.wikipedia.org/wiki/2026_in_South_Korea",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "Life imprisonment for Yoon Suk Yeol.",
+ "correct": true,
+ "cost": 0.0003332999999998698,
+ "escalated": false,
+ "confidence": 0.95,
+ "agent_messages": [
+  {
+   "role": "system",
+   "content": "You answer questions about recent events (2025–2026). Never answer from memory: use web_search (and tavily_search if available) to find the right article, then page_find to look inside long articles such as '2026 in <country or field>' for the specific fact. Do not repeat the same call. When done, write the last line as FINAL: <short answer>."
+  },
+  {
+   "role": "user",
+   "content": "What was the sentence given to former president Yoon Suk Yeol in South Korea in February 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_VcrRiHJqGvebhQlDRUyGqa0k",
+     "function": {
+      "name": "tavily_search",
+      "arguments": "{\"query\":\"Yoon Suk Yeol sentence February 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_VcrRiHJqGvebhQlDRUyGqa0k",
+   "content": "[Yoon's life sentence: What it means for South Korea | NHK WORLD-JAPAN News](https://www3.nhk.or.jp/nhkworld/news/20260817de44511) Feb. 20, 2026 South Korea's former president Yoon Suk-yeol has been sentenced to life imprisonment on charges of insurrection. The punishment was handed down on February 19 by the Seoul Central District Court and comes 443 days after his declaration of martial law plunged the country into political turmoil. NHK World editor-in-chief and former Seoul bureau chief Aoki Yoshiyuki examines what it means for South Korea's political landscape.\n[South Korea Shock: Ex-President Yoon Suk Yeol Sentenced To Life For 2024 Martial Law Insurrection](https://www.youtube.com/watch?v=PJTZv11Ldpo) Former South Korean President Yoon Suk Yeol was sentenced to life in prison on February 19, 2026, after a Seoul court found him guilty of masterminding an insurrection linked to his failed attempt to impose martial law in December 2024. Reuters #yoonsukyeol #southkorea #yoon sukyeol #martiallaw #southkoreapolitics #yoonlife sentence #yoonverdict #southkoreanews #martiallaw2024 #insurrection #seoul #worldnews #asia #politicalnews #breakingnews #latestnews #internationalnews #yoon #etnow [...] # S\n[Yoon’s life sentence alone will not restore trust in South Korea’s democracy | East Asia Forum](https://eastasiaforum.org/2026/07/24/yoons-life-sentence-alone-will-not-restore-trust-in-south-koreas-democracy) A A A As a law student, former South Korean president Yoon Suk-yeol participated in a mock trial in 1980 that sentenced then-president Chun Doo-hwan to life imprisonment. On 19 February 2026, Yoon was sentenced to life imprisonment for orchestrating an insurrection through his failed declaration of martial law on 3 December 2024. But this sentence, while important, does not resolve the deeper polarisation and institutional distrust that predate and extend beyond the martial law crisis. [...] Far\n[Former South Korean President Faces Possible Death Sentence as a Result of Insurrection Charges | Death Penalty Information Center](https://deathpenaltyinfo.org/former-south-korean-president-faces-possible-death-sentence-as-a-result-of-insurrection-charges) Courtesy of Wikimedia Commons from the Office of the President of South Korea (대한민국 대통령실). [update: On February 19, 2026, the Seoul Central District Court sentenced former President Yoon Suk Yeol to life.] [...] If convicted, former South Korean President Yoon Suk Yeol faces a possible death sentence, life imp"
+  },
+  {
+   "role": "assistant",
+   "content": "Former South Korean President Yoon Suk Yeol was sentenced to life imprisonment on February 19, 2026. The sentence was handed down by the Seoul Central District Court due to his involvement in orchestrating an insurrection related to his failed declaration of martial law in December 2024. \n\nFINAL: Life imprisonment for Yoon Suk Yeol.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

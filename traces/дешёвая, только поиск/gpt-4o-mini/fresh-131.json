@@ -8,9 +8,9 @@
   "page": "2026 in sports",
   "url": "https://en.wikipedia.org/wiki/2026_in_sports"
  },
- "answer": "Shiho Kuwaki won the 2026 Women's British Open at Royal Lytham & St Annes, claiming her first major title in a sudden-death playoff against Esther Henseleit. FINAL: Shiho Kuwaki",
+ "answer": "Shiho Kuwaki won the 2026 Women's British Open at Royal Lytham & St Annes, defeating Esther Henseleit in a sudden-death playoff. FINAL: Shiho Kuwaki.",
  "correct": true,
- "cost": 0.00040935000000000277,
+ "cost": 0.00019215000000000204,
  "messages": [
   {
    "role": "system",
@@ -29,7 +29,7 @@
     {
      "type": "function",
      "index": 0,
-     "id": "call_BotCCfoxzpsQEFSPQtrlCnfx",
+     "id": "call_fgOmdhkhQIXMSH0s5jr0ribY",
      "function": {
       "name": "web_search",
       "arguments": "{\"query\":\"2026 Women's British Open winner Royal Lytham & St Annes\"}"
@@ -39,8 +39,8 @@
   },
   {
    "role": "tool",
-   "tool_call_id": "call_BotCCfoxzpsQEFSPQtrlCnfx",
-   "content": "[Royal Lytham & St Annes Golf Club] Royal Lytham & St Annes Golf Club in Lytham St Annes, Lancashire, England, is one of the courses in the Open Championship rotation. The Women's British Open has also been played on the course five times: once prior to being designated a major championship by the LPGA Tour, and four times since. It most recently hosted the Women's Open in 2026. | other articles: 2026 Women's British Open, Royal Birkdale Golf Club"
+   "tool_call_id": "call_fgOmdhkhQIXMSH0s5jr0ribY",
+   "content": "[Royal Lytham & St Annes Golf Club] Royal Lytham & St Annes Golf Club in Lytham St Annes, Lancashire, England, is one of the courses in the Open Championship rotation. The Women's British Open has also been played on the course five times: once prior to being designated a major championship by the LPGA Tour, and four times since. It most recently hosted the Women's Open in 2026. | other articles: 2026 Women's British Open, Women's British Open"
   },
   {
    "role": "assistant",
@@ -51,66 +51,22 @@
     {
      "type": "function",
      "index": 0,
-     "id": "call_iVHMYsPrAPQpHzvrJTMzxmAk",
+     "id": "call_SNbSuSwqUmMymhnOeg8jNnIs",
      "function": {
       "name": "web_search",
-      "arguments": "{\"query\":\"2026 Women's British Open results winner\"}"
+      "arguments": "{\"query\":\"2026 Women's British Open\"}"
      }
     }
    ]
   },
   {
    "role": "tool",
-   "tool_call_id": "call_iVHMYsPrAPQpHzvrJTMzxmAk",
-   "content": "[Carlota Ciganda] Carlota Ciganda Machiñena (born 1 June 1990) is a professional golfer from Spain who plays on the Ladies European Tour and the LPGA Tour. She won the LET's Order of Merit (money title) in her debut season in 2012, and was also named Player of the Year and Rookie of the Year. | other articles: 2025 British Open, Anna Nordqvist"
+   "tool_call_id": "call_SNbSuSwqUmMymhnOeg8jNnIs",
+   "content": "[2026 Women's British Open] The 2026 AIG Women's Open was played from 30 July to 2 August at the Royal Lytham & St Annes Golf Club Golf Links in Lancashire. It was the 50th Women's British Open, the 26th as a major championship on the LPGA Tour, and the seventh championship held under a sponsorship agreement with AIG. Shiho Kuwaki won on the second hole of a sudden-death playoff with Esther Henseleit to claim her first major title. | other articles: Women's British Open, 2026 in sports"
   },
   {
    "role": "assistant",
-   "content": null,
-   "refusal": null,
-   "reasoning": null,
-   "tool_calls": [
-    {
-     "type": "function",
-     "index": 0,
-     "id": "call_p9GsPP1eJ4qRi6ockZmtG3BN",
-     "function": {
-      "name": "web_search",
-      "arguments": "{\"query\":\"2026 Women's British Open winner news\"}"
-     }
-    }
-   ]
-  },
-  {
-   "role": "tool",
-   "tool_call_id": "call_p9GsPP1eJ4qRi6ockZmtG3BN",
-   "content": "[2026 U.S. Women's Open] The 2026 U.S. Women's Open presented by Ally was the 81st U.S. Women's Open, held June 4–7 at Riviera Country Club in Pacific Palisades, California. Nelly Korda won her fourth major title (and second consecutive), one stroke ahead of runners-up Charley Hull and Gaby López. This was Korda's first victory at the U.S. Women's Open. | other articles: 2026 in British television, Open Era tennis records – Men's singles"
-  },
-  {
-   "role": "assistant",
-   "content": null,
-   "refusal": null,
-   "reasoning": null,
-   "tool_calls": [
-    {
-     "type": "function",
-     "index": 0,
-     "id": "call_ZvPQ46mmwdbxpetjP9EmnYan",
-     "function": {
-      "name": "web_search",
-      "arguments": "{\"query\":\"2026 Women's British Open summary\"}"
-     }
-    }
-   ]
-  },
-  {
-   "role": "tool",
-   "tool_call_id": "call_ZvPQ46mmwdbxpetjP9EmnYan",
-   "content": "[2026 Women's British Open] The 2026 AIG Women's Open was played from 30 July to 2 August at the Royal Lytham & St Annes Golf Club Golf Links in Lancashire. It was the 50th Women's British Open, the 26th as a major championship on the LPGA Tour, and the seventh championship held under a sponsorship agreement with AIG. Shiho Kuwaki won on the second hole of a sudden-death playoff with Esther Henseleit to claim her first major title. | other articles: 2026 U.S. Women's Open, 2026 UK Open"
-  },
-  {
-   "role": "assistant",
-   "content": "Shiho Kuwaki won the 2026 Women's British Open at Royal Lytham & St Annes, claiming her first major title in a sudden-death playoff against Esther Henseleit. FINAL: Shiho Kuwaki",
+   "content": "Shiho Kuwaki won the 2026 Women's British Open at Royal Lytham & St Annes, defeating Esther Henseleit in a sudden-death playoff. FINAL: Shiho Kuwaki.",
    "refusal": null,
    "reasoning": null
   }

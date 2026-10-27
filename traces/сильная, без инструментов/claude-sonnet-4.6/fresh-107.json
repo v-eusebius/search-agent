@@ -1,0 +1,24 @@
+{
+ "task": {
+  "id": "fresh-107",
+  "source": "fresh",
+  "question": "What event occurs in Benin on January 11, 2026?",
+  "answer": "2026 Beninese parliamentary election",
+  "evidence": "January 11 – The 2026 Beninese parliamentary election is held.",
+  "page": "2026",
+  "url": "https://en.wikipedia.org/wiki/2026",
+  "sonnet_answer": "January 10 is Benin's National Voodoo Day (Fête du Vodoun), a public holiday; festivities often continue on January 11. In 2026, January 11 falls the day after this national celebration of Vodoun culture in Benin.",
+  "agent_ok": false
+ },
+ "answer": "FINAL: Unknown.",
+ "correct": false,
+ "cost": 0.0002009999999999998,
+ "messages": [
+  {
+   "role": "assistant",
+   "content": "Unknown.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

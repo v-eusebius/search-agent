@@ -1,0 +1,24 @@
+{
+ "task": {
+  "id": "fresh-95",
+  "source": "fresh",
+  "question": "Which country won the 2026 Men's T20 World Cup in cricket?",
+  "answer": "India",
+  "evidence": "8 March – India beat New Zealand in the final match and win the 2026 Men's T20 World Cup in cricket.",
+  "page": "2026 in India",
+  "url": "https://en.wikipedia.org/wiki/2026_in_India",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "FINAL: Unknown.",
+ "correct": false,
+ "cost": 7.199999999998874e-06,
+ "messages": [
+  {
+   "role": "assistant",
+   "content": "Unknown.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

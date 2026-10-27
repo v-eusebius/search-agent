@@ -1,0 +1,190 @@
+{
+ "task": {
+  "id": "fresh-102",
+  "source": "fresh",
+  "question": "Who was recognized as Hero of Ukraine in 2025?",
+  "answer": "Oleksandr Dovhach",
+  "evidence": "9 March – Oleksandr Dovhach, military pilot, Hero of Ukraine (2025).",
+  "page": "2026 in Ukraine",
+  "url": "https://en.wikipedia.org/wiki/2026_in_Ukraine",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "На данный момент у меня нет информации о конкретных лицах, удостоенных звания Героя Украины в 2025 году. Однако, эта награда присуждается за исключительные заслуги и героизм, в основном в контексте обороны страны во время войны. Желаю успехов в поисках более подробной информации. \n\nFINAL: Конкретные имена не известны.",
+ "correct": false,
+ "cost": 0.0016571999999999976,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You answer questions about recent events (2025–2026). Never answer from memory: use web_search (and tavily_search if available) to find the right article, then page_find to look inside long articles such as '2026 in <country or field>' for the specific fact. Do not repeat the same call. When done, write the last line as FINAL: <short answer>."
+  },
+  {
+   "role": "user",
+   "content": "Who was recognized as Hero of Ukraine in 2025?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_RV8JsigRBoEHYtyB8WtxbjSR",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Hero of Ukraine 2025\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_RV8JsigRBoEHYtyB8WtxbjSR",
+   "content": "[Hero of Ukraine] A Hero of Ukraine (abbr. HOU; Ukrainian: Герой України, romanized: Heroi Ukrainy) is the highest national decoration that can be conferred upon an individual citizen by the president of Ukraine. The decoration was created in 1998 by President Leonid Kuchma. As of October 6, 2026, the total number of recipients was no less than 1,367 (of which decrees awarding 1,318 individuals were published, and for at least 49 individuals, the decrees were not made public). The decoration is granted to two classes of recipients: to civilians, the Order of the State (abbr. OS, Ukrainian: Орден Держави, romanized: Orden Derzhavy); and to military recipients, the Order of the Gold Star (abbr. OGS, Орден «Золота Зірка», Orden \"Zolota Zirka\"). The first foreigner awarded the decoration was Belarusian Mykhailo Zhyznevskyi in June 2017. | other articles: List of Heroes of Ukraine, Hero City of Ukraine"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_qcocY8JkL7LdL02uDAaOhJ4V",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Heroes of Ukraine recipients 2025\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_qcocY8JkL7LdL02uDAaOhJ4V",
+   "content": "[Hero of Ukraine] A Hero of Ukraine (abbr. HOU; Ukrainian: Герой України, romanized: Heroi Ukrainy) is the highest national decoration that can be conferred upon an individual citizen by the president of Ukraine. The decoration was created in 1998 by President Leonid Kuchma. As of October 6, 2026, the total number of recipients was no less than 1,367 (of which decrees awarding 1,318 individuals were published, and for at least 49 individuals, the decrees were not made public). The decoration is granted to two classes of recipients: to civilians, the Order of the State (abbr. OS, Ukrainian: Орден Держави, romanized: Orden Derzhavy); and to military recipients, the Order of the Gold Star (abbr. OGS, Орден «Золота Зірка», Orden \"Zolota Zirka\"). The first foreigner awarded the decoration was Belarusian Mykhailo Zhyznevskyi in June 2017. | other articles: List of Heroes of Ukraine, Oleksandr Dovhach"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_dRrwpuzw7UC9Mc8bwauwlHix",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"List of Heroes of Ukraine 2025\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_dRrwpuzw7UC9Mc8bwauwlHix",
+   "content": "[List of Heroes of Ukraine] The article uses the latest official Romanization of Ukrainian on resolution of the Government of Ukraine. This is a list of individuals who have been presented with the title Hero of Ukraine in reverse chronological order. As of 6 October 2026, the total number of recipients was no less than 1,367 (of which decrees awarding 1,318 individuals were published, and for at least 49 individuals, the decrees were not made public). Out of all recipients (considering only published decrees), 1042 (79%) have a distinction of the \"Order of the Gold Star\" and 276 (21%) have a distinction of the \"Order of the State\". Number of awards that were given posthumously is 677 (51%). By gender, 1271 (96%) of the recipients are men. The youngest recipient is Stepan Chubenko (died at the age of 16 years and 258 days; awarded posthumously). The oldest recipient, Maksym Hulyi, received the award on his 100th birthday. The only non-citizen awarded the award and for whom specifically an exclusion was made at parliamentary level was Belarusian Mikhail Zhyzneuski in June 2017 (Zhyzneuski was awarded posthumously). There are however 17 other individuals who were awarded the Hero of Ukraine and who were never citizens of Ukraine as they died before Ukraine obtained its independence. Among them are Avgustyn Voloshyn, Stepan Bandera (annulled), Volodymyr Ivasyuk, Vasyl Stus, liquidators Mykola Vashchuk, Vasyl Ihnatenko, Oleksandr Lelechko, Mykola Tytenok, Volodymyr Tishura. There are 17 heroes of Ukraine wh | other articles: Hero City of Ukraine, List of Americans in the Armed Forces of Ukraine"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_74J5UZTwtTSS3oYk1opJSfzK",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"2025 Hero of Ukraine recipients list\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_74J5UZTwtTSS3oYk1opJSfzK",
+   "content": "[List of Heroes of Ukraine] The article uses the latest official Romanization of Ukrainian on resolution of the Government of Ukraine. This is a list of individuals who have been presented with the title Hero of Ukraine in reverse chronological order. As of 6 October 2026, the total number of recipients was no less than 1,367 (of which decrees awarding 1,318 individuals were published, and for at least 49 individuals, the decrees were not made public). Out of all recipients (considering only published decrees), 1042 (79%) have a distinction of the \"Order of the Gold Star\" and 276 (21%) have a distinction of the \"Order of the State\". Number of awards that were given posthumously is 677 (51%). By gender, 1271 (96%) of the recipients are men. The youngest recipient is Stepan Chubenko (died at the age of 16 years and 258 days; awarded posthumously). The oldest recipient, Maksym Hulyi, received the award on his 100th birthday. The only non-citizen awarded the award and for whom specifically an exclusion was made at parliamentary level was Belarusian Mikhail Zhyzneuski in June 2017 (Zhyzneuski was awarded posthumously). There are however 17 other individuals who were awarded the Hero of Ukraine and who were never citizens of Ukraine as they died before Ukraine obtained its independence. Among them are Avgustyn Voloshyn, Stepan Bandera (annulled), Volodymyr Ivasyuk, Vasyl Stus, liquidators Mykola Vashchuk, Vasyl Ihnatenko, Oleksandr Lelechko, Mykola Tytenok, Volodymyr Tishura. There are 17 heroes of Ukraine wh | other articles: List of deaths during the Russo-Ukrainian war (2022–present), Andriy Biletsky"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_9jdcoccHbXORAzQ7aFpaqVIP",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Ukrainian Heroes awarded in 2025\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_9jdcoccHbXORAzQ7aFpaqVIP",
+   "content": "[Hero City of Ukraine] Hero City of Ukraine (Ukrainian: Місто-герой України, romanized: Misto-heroi Ukrainy, IPA: [ˈmisto ɦeˈrɔj ʊkrɐˈjinɪ]) is a Ukrainian honorary title awarded for outstanding heroism during the Russian invasion of Ukraine. It was awarded to ten cities in March 2022. In October 2025 it was awarded to 16 more cities. This symbolic distinction for a city corresponds to the distinction of Hero of Ukraine awarded to individuals. | other articles: Hero of Ukraine, List of Heroes of Ukraine"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_L5jLfWOPGOpsnrOLoiyBwDt5",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Heroes of Ukraine recipients 2025 specific names\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_L5jLfWOPGOpsnrOLoiyBwDt5",
+   "content": "[Roman Shukhevych] Roman-Taras Osypovych Shukhevych (Ukrainian: Роман-Тарас Осипович Шухевич, also known by his pseudonym, Tur and Taras Chuprynka; 30 June 1907 – 5 March 1950) was a Ukrainian nationalist and a military leader of the nationalist Ukrainian Insurgent Army (UPA), which during the Second World War fought against the Soviet Union and to a lesser extent against Nazi Germany for Ukrainian independence. He collaborated with the Nazis from February 1941 to December 1942 as commanding officer of the Nachtigall Battalion in early 1941, and as a Hauptmann of the German Schutzmannschaft 201 auxiliary police battalion in late 1941 and 1942. Shukhevych led some of the Galicia-Volhynia massacres, where tens of thousands of Polish civilians were killed. It is unclear to what extent Shukhevych was responsible for the massacres of Poles in Volhynia, but he condoned them afterwards, and directed the murders of Poles in Eastern Galicia. Historian Per Anders Rudling has accused the Ukrainian diaspora and Ukrainian academics of \"ignoring, glossing over, or outright denying\" OUN's role in the massacres. | other articles: Andriy Biletsky, Oleksandr Usyk"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_jmR1CkWrqTWg9Xuo8KYLaaKF",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Heroes of Ukraine 2025 list specific names awarded\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_jmR1CkWrqTWg9Xuo8KYLaaKF",
+   "content": "[2025 in film] 2025 in film is an overview of events, including award ceremonies, festivals, a list of country- and genre-specific lists of films released, and notable deaths. Shochiku and Gaumont celebrated their 130th anniversaries; 20th Century Studios and Republic Pictures celebrated their 90th anniversaries; Studio Ghibli celebrated its 40th anniversary and Laika celebrated its 20th anniversary. Metro-Goldwyn-Mayer's first musical film The Broadway Melody (1929), known for being the first sound film to win the Academy Award for Best Picture, entered the public domain this year. For the second time in film history, 2025 was the year in which a non-English-language film became the highest-grossing film of the year worldwide, as the Chinese animated sequel Ne Zha 2 earned approximately $2.2 billion globally. | other articles: Oleksandr Usyk, List of humanitarian aid to Ukraine during the Russo-Ukrainian war"
+  },
+  {
+   "role": "user",
+   "content": "Инструменты больше недоступны. Ответь по тому, что уже известно, последней строкой FINAL: <ответ>."
+  },
+  {
+   "role": "assistant",
+   "content": "На данный момент у меня нет информации о конкретных лицах, удостоенных звания Героя Украины в 2025 году. Однако, эта награда присуждается за исключительные заслуги и героизм, в основном в контексте обороны страны во время войны. Желаю успехов в поисках более подробной информации. \n\nFINAL: Конкретные имена не известны.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

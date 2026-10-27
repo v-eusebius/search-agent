@@ -1,0 +1,68 @@
+{
+ "task": {
+  "id": "fresh-78",
+  "source": "fresh",
+  "question": "What is the median overall survival time reported for patients with metastatic pancreatic cancer in May 2026?",
+  "answer": "13.2 months",
+  "evidence": "31 May – A Phase 3 trial published in the New England Journal of Medicine reports that daraxonrasib, an investigational oral RAS(ON) inhibitor, nearly doubles median overall survival in patients with previously treated metastatic pancreatic cancer, from 6.6 months with standard chemotherapy to 13.2 months.",
+  "page": "2026 in science",
+  "url": "https://en.wikipedia.org/wiki/2026_in_science",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "Based on the search results, I found information about median overall survival times for metastatic pancreatic cancer reported at ASCO (American Society of Clinical Oncology) meetings in May 2026. There were multiple studies presented:\n\n1. **Daraxonrasib study** (presented May 31, 2026): \n   - **13.2 months** median overall survival in the daraxonrasib (RAS inhibitor) group\n   - 6.6-6.7 months in the chemotherapy group\n\n2. **Elraglusib study** (ASCO GI 2026):\n   - **10.1 months** median overall survival with elraglusib + gemcitabine and nab-paclitaxel\n   - 7.2 months with gemcitabine and nab-paclitaxel alone\n\nThe most prominent result reported in May 2026 was the daraxonrasib trial, which achieved a **median overall survival of 13.2 months** in patients with metastatic pancreatic cancer with RAS mutations.\n\nFINAL: In May 2026, a major study (daraxonrasib trial presented at ASCO on May 31, 2026) reported a median overall survival of 13.2 months for metastatic pancreatic cancer patients with RAS G12 variants treated with daraxonrasib, approximately double the 6.6-6.7 months observed with standard chemotherapy.",
+ "correct": true,
+ "cost": 0.00672600000000001,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You answer questions about recent events (2025–2026). Never answer from memory: use web_search (and tavily_search if available) to find the right article, then page_find to look inside long articles such as '2026 in <country or field>' for the specific fact. Do not repeat the same call. When done, write the last line as FINAL: <short answer>."
+  },
+  {
+   "role": "user",
+   "content": "What is the median overall survival time reported for patients with metastatic pancreatic cancer in May 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "I'll search for information about median overall survival time for metastatic pancreatic cancer reported in May 2026.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01TKxgVUVBvLwkxaMXUhsJDD",
+     "function": {
+      "name": "tavily_search",
+      "arguments": "{\"query\": \"median overall survival metastatic pancreatic cancer May 2026\"}"
+     }
+    },
+    {
+     "type": "function",
+     "index": 1,
+     "id": "toolu_bdrk_01K4BTYNK3xxC8ZuC3ANy1Pf",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\": \"metastatic pancreatic cancer overall survival May 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01TKxgVUVBvLwkxaMXUhsJDD",
+   "content": "[ASCO 2026: Multi-selective RAS(ON) inhibitor yields unprecedented survival gains for metastatic pancreatic cancer - Oncology Central](https://www.oncology-central.com/asco-2026-multi-selective-rason-inhibitor-yields-unprecedented-survival-gains-for-metastatic-pancreatic-cancer) At a median follow-up of 8.5 months, median overall survival (OS) was 13.2 months in the daraxonrasib group (both for participants with a RAS G12 variant and for the overall group). In the chemotherapy group, median OS was 6.6 months in the participants with a RASG12 variant and 6.7 months in the total group. [...] | More than half of pancreatic cancers are diagnosed after they have already metastasized. The 5-year relative survival rate for metastatic pancreatic cancer is about 3%. Chemotherapy\n[ASCO 2026: Daraxonrasib doubles median overall survival in metastatic pancreatic cancer - ecancer](https://ecancer.org/en/news/28376-asco-2026-daraxonrasib-doubles-median-overall-survival-in-metastatic-pancreatic-cancer) There was also a reduction in the risk of cancer progression observed among these patients, with a median progression-free survival of 7.2 months compared to 3.6 months with chemotherapy. [...] Results were presented in the plenary session by Brian Wolpin, MD, MPH, director of the Hale Family Center for Pancreatic Cancer Researchand Gastrointestinal Cancer Center at Dana-Farber Cancer Institute at the American Society of Clinical Oncology (ASCO) Annual Meeting in Chicago on May 31, 2026, and pub\n[Research ASCO GI 2026 - Let's Win Pancreatic Cancer](https://letswinpc.org/research/research-asco-gi-2026) Adding the investigational drug elraglusib (9-ING-41) to standard first-line gemcitabine and nab-paclitaxel may extend the lives of some patients with metastatic pancreatic cancer, according to phase II data. Among 233 patients with previously untreated disease, the addition of elraglusib to gemcitabine and nab-paclitaxel doubled 12-month overall survival from 22.3 percent to 44.4 percent. Median overall survival improved from 7.2 months with gemcitabine and nab-paclitaxel to 10.1 months with [.\n[First RAS Inhibitor Extends Survival in Previously Treated Metastatic Pancreatic Adenocarcinoma: What You Need to Know - Pancreatic Cancer Action Network](https://pancan.org/news/first-ras-inhibitor-extends-survival-in-previously-treated-metastatic-pancreatic-adenocarcinoma-what-you-need-to-know) ## 04/13/2026 A new therapy that targets RAS mutations present in more than 90% of patie"
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01K4BTYNK3xxC8ZuC3ANy1Pf",
+   "content": "[Pancreatic cancer] Pancreatic cancer is any cancer with a primary location in the pancreas, a glandular organ lying behind the stomach. It arises when cells in the pancreas start to multiply out of control and form a mass. These cancerous cells have the ability to invade or spread to other parts of the body. A number of types of pancreatic cancer are known. The most common type of pancreatic cancer, pancreatic adenocarcinoma, accounts for about 90% of cases, and the term \"pancreatic cancer\" is sometimes used to refer only to that type. These adenocarcinomas start within the ductal part of the pancreas that makes digestive enzymes. Several other types of cancer, which collectively represent the majority of the non-adenocarcinomas, can also arise from these cells. About 1–2% of cases of pancreatic cancer are neuroendocrine tumors, which arise from the hormone-producing cells of the pancreas. These are generally less aggressive than pancreatic adenocarcinoma. Signs and symptoms of the most-common form of pancreatic cancer may include yellow skin, abdominal or back pain, unexplained weight loss, light-colored stools, dark urine, and loss of appetite. Usually, no symptoms are seen in the disease's early stages, and symptoms that are specific enough to suggest pancreatic cancer typically do not develop until the disease has reached an advanced stage. By the time of diagnosis, pancreatic cancer has often spread to other parts of the body. Pancreatic cancer rarely occurs before the age of 40, and more  | other articles: Metastasis, Daraxonrasib"
+  },
+  {
+   "role": "assistant",
+   "content": "Based on the search results, I found information about median overall survival times for metastatic pancreatic cancer reported at ASCO (American Society of Clinical Oncology) meetings in May 2026. There were multiple studies presented:\n\n1. **Daraxonrasib study** (presented May 31, 2026): \n   - **13.2 months** median overall survival in the daraxonrasib (RAS inhibitor) group\n   - 6.6-6.7 months in the chemotherapy group\n\n2. **Elraglusib study** (ASCO GI 2026):\n   - **10.1 months** median overall survival with elraglusib + gemcitabine and nab-paclitaxel\n   - 7.2 months with gemcitabine and nab-paclitaxel alone\n\nThe most prominent result reported in May 2026 was the daraxonrasib trial, which achieved a **median overall survival of 13.2 months** in patients with metastatic pancreatic cancer with RAS mutations.\n\nFINAL: In May 2026, a major study (daraxonrasib trial presented at ASCO on May 31, 2026) reported a median overall survival of 13.2 months for metastatic pancreatic cancer patients with RAS G12 variants treated with daraxonrasib, approximately double the 6.6-6.7 months observed with standard chemotherapy.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

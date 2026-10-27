@@ -1,0 +1,76 @@
+{
+ "task": {
+  "id": "fresh-66",
+  "source": "fresh",
+  "question": "How many people were reportedly trapped after a hotel collapse in Anuppur, Madhya Pradesh in April 2026?",
+  "answer": "at least six",
+  "evidence": "4 April – One person is killed and at least six others are reportedly trapped after a four-story hotel collapses in Anuppur, Madhya Pradesh.",
+  "page": "2026 in India",
+  "url": "https://en.wikipedia.org/wiki/2026_in_India",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "In April 2026, after the hotel collapse in Anuppur, Madhya Pradesh, at least six people were reportedly trapped. FINAL: At least six people were reportedly trapped.",
+ "correct": true,
+ "cost": 0.0001929000000000236,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You answer questions about recent events (2025–2026). Never answer from memory: use web_search (and tavily_search if available) to find the right article, then page_find to look inside long articles such as '2026 in <country or field>' for the specific fact. Do not repeat the same call. When done, write the last line as FINAL: <short answer>."
+  },
+  {
+   "role": "user",
+   "content": "How many people were reportedly trapped after a hotel collapse in Anuppur, Madhya Pradesh in April 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_xbZUGftxl2OqgAbGnnK4kUdS",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Anuppur hotel collapse April 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_xbZUGftxl2OqgAbGnnK4kUdS",
+   "content": "[2026 in India] The following is a list of events for the year 2026 in India. | other articles: Madhya Pradesh, 2025 in India"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_C2BBdlqTDdOOh6ubHsM9ptP3",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"2026 in India\",\"keywords\":\"Anuppur hotel collapse trapped\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_C2BBdlqTDdOOh6ubHsM9ptP3",
+   "content": "4 April – One person is killed and at least six others are reportedly trapped after a four-story hotel collapses in Anuppur, Madhya Pradesh."
+  },
+  {
+   "role": "assistant",
+   "content": "In April 2026, after the hotel collapse in Anuppur, Madhya Pradesh, at least six people were reportedly trapped. FINAL: At least six people were reportedly trapped.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

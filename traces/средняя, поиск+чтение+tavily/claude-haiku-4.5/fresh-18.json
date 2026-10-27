@@ -1,0 +1,68 @@
+{
+ "task": {
+  "id": "fresh-18",
+  "source": "fresh",
+  "question": "In Germany, what was the date when a Munich court imprisoned an Iraqi couple for enslaving and raping Yazidi girls?",
+  "answer": "13 July",
+  "evidence": "13 July – A Munich court imprisons an Iraqi couple who were members of Islamic State for enslaving and raping Yazidi girls.",
+  "page": "2026 in Germany",
+  "url": "https://en.wikipedia.org/wiki/2026_in_Germany",
+  "sonnet_answer": "November 25, 2021",
+  "agent_ok": false
+ },
+ "answer": "FINAL: The Munich court (Higher Regional Court/Oberlandesgericht) imprisoned an Iraqi couple for enslaving and raping Yazidi girls on **13 July 2026**. The couple, Twana H.S. and Asia R.A., were convicted of genocide, crimes against humanity, war crimes, and sexual abuse of two Yazidi girls. Twana H.S. was sentenced to life imprisonment.",
+ "correct": true,
+ "cost": 0.00544699999999998,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You answer questions about recent events (2025–2026). Never answer from memory: use web_search (and tavily_search if available) to find the right article, then page_find to look inside long articles such as '2026 in <country or field>' for the specific fact. Do not repeat the same call. When done, write the last line as FINAL: <short answer>."
+  },
+  {
+   "role": "user",
+   "content": "In Germany, what was the date when a Munich court imprisoned an Iraqi couple for enslaving and raping Yazidi girls?"
+  },
+  {
+   "role": "assistant",
+   "content": "I'll search for information about this case in Germany involving an Iraqi couple and Yazidi girls.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01BDfnPdg882pGeTrY5QCjzE",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\": \"Munich court Iraqi couple enslaving raping Yazidi girls\"}"
+     }
+    },
+    {
+     "type": "function",
+     "index": 1,
+     "id": "toolu_bdrk_01HebBVX4Dft5P827gsmR9Ry",
+     "function": {
+      "name": "tavily_search",
+      "arguments": "{\"query\": \"Munich court Iraqi couple Yazidi girls slavery rape imprisoned 2025 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01BDfnPdg882pGeTrY5QCjzE",
+   "content": "[Yazidi genocide] The Yazidi genocide also known as the 74th firman by Yazidis, was perpetrated by the Islamic State in Iraq and Syria between 2014 and 2017. It was characterized by massacres, genocidal rape, and forced conversions to Islam. The Yazidis are a Kurdish-speaking ethnoreligious group who practice Yazidism and who are indigenous to Kurdistan. Over a period of three years, Islamic State militants trafficked thousands of Yazidi women and girls and killed thousands of Yazidi men. The United Nations reported that the Islamic State killed about 5,000 Yazidis and trafficked about 10,800 Yazidi women and girls in a \"forced conversion campaign\" throughout Iraq. By 2015, upwards of 71% of the global Yazidi population had been displaced by the genocide, with most Yazidi refugees having fled to Iraq's Kurdistan Region and Syria's Rojava. The persecution of Yazidis, along with other religious minorities, took place after the Islamic State's Northern Iraq offensive of June 2014. Amid numerous atrocities committed by the Islamic State, the Yazidi genocide attracted international attention and prompted the United States to establish CJTF–OIR, a military coalition consisting of many Western countries and Turkey, Morocco, and Jordan. Additionally, the United States, the United Kingdom, and Australia made emergency airdrops to support Yazidi refugees who were trapped in the Sinjar Mountains due to the Islamic State's Northern Iraq offensive of August 2014. During the Sinjar massacre, in which the Is | other articles: 2026 Munich Yazidi genocide trial, 2026 in Germany"
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01HebBVX4Dft5P827gsmR9Ry",
+   "content": "[2026 Munich Yazidi genocide trial - Wikipedia](https://en.wikipedia.org/wiki/2026_Munich_Yazidi_genocide_trial) Twana H.S. and Asia R.A., an Iraqi Kurdish former married couple and former members of the Islamic State (IS), were convicted by the Higher Regional Court (Oberlandesgericht) in Munich, Germany, on 13 July 2026 of genocide, crimes against humanity, and war crimes, among other offences, over the enslavement, torture, and sexual abuse of two Yazidi girls in Iraq and Syria between 2015 and 2017. Twana H.S. was sentenced to life imprisonment; Asia R.A., who was a minor for part of the period [...] 1\n[Germany: Iraqi migrant couple sentenced to prison for enslaving Yazidis - InfoMigrants](https://www.infomigrants.net/en/post/72487/germany-iraqi-migrant-couple-sentenced-to-prison-for-enslaving-yazidis) IS legal proceedings violence Human rights abuse Yazidi violence against women # Germany: Iraqi migrant couple sentenced to prison for enslaving Yazidis Published on : 2026/07/16 By Emma Wallis Published on : 2026/07/16 A high court in Munich has sentenced an Iraqi migrant couple to prison terms, after they found them guilty of abuse, exploitation and enslaving two Yazidis, as well as being members of the terrorist group Islamic State (IS). [...] A 45-year-old Iraqi migrant man has been condemne\n[UPDATE: Munich Court delivers Verdict against Asia R.A. and Twana H.S. for Genocide, Crimes Against Humanity, and War Crimes Against Two Yazidi Girls](https://www.yazda.org/munich-trial-update) Get in touch Donate UPDATE: Munich Court delivers Verdict against Asia R.A. and Twana H.S. for Genocide, Crimes Against Humanity, and War Crimes Against Two Yazidi Girls Date: Monday, 13 July 2026 [...] رؤية المزيد USA 5900 Balcones Drive #23510 Austin, TX, 78731, USA info@yazda.org © 2026 All Rights Reserved | Yazda Share by: [...] Munich, Germany: Today, The Higher Regional Court of Munich has delivered its verdict in the trial against Asia R.A. and Twana H.S., an Iraqi-Kurdish couple accused \n[German court convicts Iraqi couple of enslaving Yazidi girls - FreedomUnited](https://www.freedomunited.org/news/german-couple-enslaving-yazidi-girls) The older survivor testified in court, and described beatings, forced labor, and repeated rapes. The younger girl remains missing. The court sentenced Twana H.S. to life imprisonment. The charges included genocide, war crimes, crimes against humanity and the severe sexual abuse of children. Asia R.A. received a juvenile sentence of"
+  },
+  {
+   "role": "assistant",
+   "content": "FINAL: The Munich court (Higher Regional Court/Oberlandesgericht) imprisoned an Iraqi couple for enslaving and raping Yazidi girls on **13 July 2026**. The couple, Twana H.S. and Asia R.A., were convicted of genocide, crimes against humanity, war crimes, and sexual abuse of two Yazidi girls. Twana H.S. was sentenced to life imprisonment.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

@@ -12,9 +12,9 @@
  },
  "answer": "Markus Hinterhäuser.",
  "correct": true,
- "cost": 0.0007299000000000611,
+ "cost": 0.0003226499999999799,
  "escalated": false,
- "confidence": 0.9,
+ "confidence": 1.0,
  "agent_messages": [
   {
    "role": "system",
@@ -33,110 +33,22 @@
     {
      "type": "function",
      "index": 0,
-     "id": "call_bVm1GyTmygw65zUX9bxsDYXo",
+     "id": "call_ksn1R1nRswuJDFD19Nj8RKAc",
      "function": {
-      "name": "web_search",
-      "arguments": "{\"query\":\"Salzburg Festival placed on leave March 26 2026 classical music\"}"
+      "name": "tavily_search",
+      "arguments": "{\"query\":\"Salzburg Festival leave March 26 2026\"}"
      }
     }
    ]
   },
   {
    "role": "tool",
-   "tool_call_id": "call_bVm1GyTmygw65zUX9bxsDYXo",
-   "content": "[List of classical music concerts with an unruly audience response] There have been many notable instances of unruly behaviour at classical music concerts, often at the premiere of a new work or production. Audience members displayed unruly behavior for a variety of reasons. | other articles: Wolfgang Amadeus Mozart, 2019 in classical music"
+   "tool_call_id": "call_ksn1R1nRswuJDFD19Nj8RKAc",
+   "content": "[Salzburg Festival Fires Its Artistic Director - The New York Times](https://www.nytimes.com/2026/03/26/arts/music/salzburg-festival-fires-artistic-director-markus-hinterhauser.html) “Due to irreconcilable differences of opinion, the Salzburg Festival and Artistic Director Markus Hinterhäuser have decided to part ways, effective immediately,” the festival’s supervisory board said in a statement. It said Hinterhäuser would be placed on leave through the original termination date of his contract, Sept. 30. This was in addition to an earlier decision by the board to rescind a five-year contract extension. [...] The sudden termination means that the artistic leadership of the wo\n[Ticketing Information • Salzburg Festival • Tickets • Salzburg Festival](https://www.salzburgerfestspiele.at/en/ticketing-information) The 2026 Salzburg Festival looks back upon a highly successful summer featuring an extraordinary artistic programme, which will also exceed all expectations in economic terms. In the opera, concert and drama departments, classical repertoire was complemented by modern works and world premieres; revivals took their place next to new discoveries. The audience demonstrated its enthusiasm for the programme, celebrating ‘its’ artists after almost every performance with standing ovations. We are [...]\n[Salzburg Festival 2026: History, Venues & Guide | Hotel Sacher](https://www.sacher.com/en/blog/salzburg-festival) But the Salzburg Festival 2026 reaches far beyond Mozart. The programme brings together major opera classics, theatre, concerts and contemporary works. Alongside Mozart, works by Richard Strauss and Georges Bizet are also on the programme, while Jedermann remains one of the summer’s great highlights. This creates the special mix for which Salzburg is famous: festive tradition, big names and fresh artistic perspectives. [...] The festival atmosphere Explore the sound of the city What to do betwee\n[Salzburg Festival - Wikipedia](https://en.wikipedia.org/wiki/Salzburg_Festival) From 1995 to 2021, Helga Rabl-Stadler\") served as president of the Festival. Markus Hinterhäuser became Intendant in 2016. In April 2024, the Festival announced an extension of Hinterhäuser's contract as Intendant through 2031. He terminated his contract prematurely in 2026. Since 2026, Karin Bergmann\") [de] is Intendant. [...] 17. ↑ \"Markus Hinterhäuser\". Salzburger Festspiele (in German). 9 April 2026. Retrieved 18 July 2026. 18. ↑ Schütz, Larissa (8 May 2026). \"Hinterhäuser-"
   },
   {
    "role": "assistant",
-   "content": null,
-   "refusal": null,
-   "reasoning": null,
-   "tool_calls": [
-    {
-     "type": "function",
-     "index": 0,
-     "id": "call_PUHVxwwoparjImqk3fULPTYf",
-     "function": {
-      "name": "web_search",
-      "arguments": "{\"query\":\"Salzburg Festival scandal March 26 2026\"}"
-     }
-    }
-   ]
-  },
-  {
-   "role": "tool",
-   "tool_call_id": "call_PUHVxwwoparjImqk3fULPTYf",
-   "content": "[Salzburg Easter Festival] The Salzburg Easter Festival (German: Osterfestspiele Salzburg, sometimes OFS) is a classical music and opera festival held every year over the extended week before Easter (Holy Week) in Salzburg, Austria since 1967. It was created by the conductor Herbert von Karajan, and for most of its history featured the Berlin Philharmonic, of which Karajan was chief conductor; his successors in Berlin, Claudio Abbado and Simon Rattle, succeeded him in Salzburg as well. The orchestra and Rattle left in 2013, and were replaced between 2013 and 2022 by the Dresden Staatskapelle and Christian Thielemann. The Berlin Philharmonic returned as the resident orchestra in 2026, with its chief conductor Kirill Petrenko. Since 2022, the artistic director has been Nikolaus Bachler. Each edition includes the production of an opera and a series of orchestral and choral concerts, as well as a complementary programme of performances in other formats. The Easter Festival is independent from the organization which produces the (summertime) Salzburg Festival and the Salzburg Whitsun Festival. | other articles: Nestlé, Austria"
-  },
-  {
-   "role": "assistant",
-   "content": null,
-   "refusal": null,
-   "reasoning": null,
-   "tool_calls": [
-    {
-     "type": "function",
-     "index": 0,
-     "id": "call_8DMAYmNT961hJJ5czG9wLBKW",
-     "function": {
-      "name": "web_search",
-      "arguments": "{\"query\":\"classical music Salzburg Festival news March 2026\"}"
-     }
-    }
-   ]
-  },
-  {
-   "role": "tool",
-   "tool_call_id": "call_8DMAYmNT961hJJ5czG9wLBKW",
-   "content": "[Salzburg Festival] The Salzburg Festival (German: Salzburger Festspiele) is a prominent festival of music and drama established in 1920. It is held each summer, for five weeks starting in late July, in Salzburg, Austria, the birthplace of Wolfgang Amadeus Mozart. Mozart's operas are a focus of the festival; one highlight is the annual performance of Hofmannsthal's play Jedermann (Everyman). Since 1967, an annual Salzburg Easter Festival has also been held, organized by a separate organization. | other articles: 2026 in classical music, Marin Alsop"
-  },
-  {
-   "role": "assistant",
-   "content": null,
-   "refusal": null,
-   "reasoning": null,
-   "tool_calls": [
-    {
-     "type": "function",
-     "index": 0,
-     "id": "call_Rh31MdNSHog5D2Dfws31MTM7",
-     "function": {
-      "name": "web_search",
-      "arguments": "{\"query\":\"2026 in music events\"}"
-     }
-    }
-   ]
-  },
-  {
-   "role": "tool",
-   "tool_call_id": "call_Rh31MdNSHog5D2Dfws31MTM7",
-   "content": "[2026 in music] This topic covers events and articles related to 2026 in music. | other articles: 2026 in American music, 2026 in classical music"
-  },
-  {
-   "role": "assistant",
-   "content": null,
-   "refusal": null,
-   "reasoning": null,
-   "tool_calls": [
-    {
-     "type": "function",
-     "index": 0,
-     "id": "call_HnlKtJcnfcZ365LLoj5JFmvM",
-     "function": {
-      "name": "page_find",
-      "arguments": "{\"title\":\"2026 in classical music\",\"keywords\":\"Salzburg Festival leave March 26\"}"
-     }
-    }
-   ]
-  },
-  {
-   "role": "tool",
-   "tool_call_id": "call_HnlKtJcnfcZ365LLoj5JFmvM",
-   "content": "26 March – The board of directors of the Salzburg Festival announce the termination of the contract of Markus Hinterhäuser as artistic director of the festival, placing him on leave until 30 September 2026.\n7 April – The Salzburg Festival announces the appointment of Karin Bergmann as its interim artistic director, with immediate effect, the first woman to serve as the festival's artistic director."
-  },
-  {
-   "role": "assistant",
-   "content": "On March 26, 2026, the Salzburg Festival placed Markus Hinterhäuser on leave until September 30, 2026. FINAL: Markus Hinterhäuser.",
+   "content": "On March 26, 2026, Markus Hinterhäuser, the Artistic Director of the Salzburg Festival, was placed on leave until September 30, 2026. This decision was made due to irreconcilable differences of opinion between him and the festival's supervisory board. \n\nFINAL: Markus Hinterhäuser.",
    "refusal": null,
    "reasoning": null
   }

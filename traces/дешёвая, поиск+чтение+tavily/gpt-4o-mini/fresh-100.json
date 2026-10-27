@@ -1,0 +1,76 @@
+{
+ "task": {
+  "id": "fresh-100",
+  "source": "fresh",
+  "question": "What maximum distance did the crew of Artemis II reach from Earth on April 6, 2026?",
+  "answer": "252,756 miles",
+  "evidence": "April 6 – The crew of Artemis II breaks the record for the furthest humans have ever been from Earth, reaching a maximum distance of 252,756 miles (406,771 km) as they travel around the far side of the Moon.",
+  "page": "2026",
+  "url": "https://en.wikipedia.org/wiki/2026",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "On April 6, 2026, the Artemis II crew reached a maximum distance of 252,756 miles (406,771 kilometers) from Earth. FINAL: 252,756 miles (406,771 kilometers)",
+ "correct": true,
+ "cost": 0.0004546500000000009,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You answer questions about recent events (2025–2026). Never answer from memory: use web_search (and tavily_search if available) to find the right article, then page_find to look inside long articles such as '2026 in <country or field>' for the specific fact. Do not repeat the same call. When done, write the last line as FINAL: <short answer>."
+  },
+  {
+   "role": "user",
+   "content": "What maximum distance did the crew of Artemis II reach from Earth on April 6, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_7SGSe95zE65Z9CO9fPEUZtuu",
+     "function": {
+      "name": "tavily_search",
+      "arguments": "{\"query\":\"Artemis II distance from Earth April 6 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_7SGSe95zE65Z9CO9fPEUZtuu",
+   "content": "[NASA SVS | Simulating the Artemis II Lunar Flyby on April 6, 2026](https://svs.gsfc.nasa.gov/5633) At their much higher altitude, the Artemis II crew will be able to see the entire disk of the Moon throughout their flyby. The virtual camera's short focal length approximates this view, which at PC is roughly equivalent to a basketball held at arm's length. At their farthest point from Earth, the crew will be 406,740 kilometers (252,737 miles) above the Earth's surface, surpassing a record held for 56 years by Apollo 13 at 400,073 kilometers (248,647 miles). And they will be traveling hundreds \n[Artemis II Flight Day 7: Crew Makes Long‑Distance Call, Begins Return - NASA](https://www.nasa.gov/blogs/missions/2026/04/07/artemis-ii-flight-day-7-crew-makes-long%E2%80%91distance-call-begins-return) After their historic lunar flyby on April 6, the Artemis II crew is awake and preparing for the journey back to Earth. The crew started the day 36,286 miles from the Moon and 236,022 miles from Earth, waking to the sounds of “Tokyo Drifting,” by Glass Animals and Denzel Curry. [...] art002e009288 (April 6, 2026) – Earthset captured through the Orion spacecraft window at 6:41 p.m. EDT, April 6, 2026, during the Artemis II crew’s flyby of the Moon. A muted blue Earth with bright white clouds sets \n[NASA Artemis II crew head home after moon flyby : NPR](https://www.npr.org/2026/04/06/nx-s1-5773187/nasa-artemis-ii-moon-lunar-flyby) The spacecraft completed its closest approach to the Moon at about 7 p.m. ET, coming within 4,067 miles of the lunar surface. At 7:02 p.m., it reached its peak distance of 252,756 miles from the Earth, putting it 4,111 miles over the Apollo 13 record set back in 1970. At 7:24 p.m. the crew watched an \"earthrise\" as Orion came out from behind the moon. And at 8:35 p.m. the crew witnessed a solar eclipse as a tiny sun appeared to slip behind the moon for an hour. ### The Picture Show [...] This ma\n[It's official: Artemis 2 moon mission will break humanity's all-time distance record | Space](https://www.space.com/space-exploration/artemis/its-official-nasas-artemis-2-moon-mission-will-break-humanitys-all-time-distance-record) Share this article 13 Join the conversation Follow us Add us as a preferred source on Google Subscribe to our newsletter We now know how far the Artemis 2 astronauts will get from Earth — and that distance will be unprecedented. The Artemis 2 crew — NASA's Reid Wiseman, Victor Glover and Christina Koch and Canadian astronaut "
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_voksJeXwTouEbHqeMxI0VkhU",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"Artemis II\",\"keywords\":\"maximum distance, Earth, April 6 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_voksJeXwTouEbHqeMxI0VkhU",
+   "content": "Artemis II (April 1–11, 2026) flew a crew of four on a flyby of the Moon. It was the first crewed flight of the NASA-led Artemis program, the first beyond low Earth orbit (LEO) since Apollo 17 in 1972, and the first beyond LEO not part of the Apollo program. It was also the first crewed flight of the Space Launch System and of the Orion spacecraft, which the crew named Integrity.\nThe four crew members of Artemis II were Victor Glover, the only person of color, Christina Koch, the only woman, Canadian Space Agency astronaut Jeremy Hansen the only person not from the United States, and Reid Wiseman the oldest person to travel beyond low Earth orbit and around the Moon. During their lunar flyby, the crew broke Apollo 13's record of 248,655 miles (400,171 km) for the greatest \nOn flight day 6, Orion entered the Moon's sphere of influence, where lunar gravity became the dominant force shaping its trajectory. Orion flew around the Moon at a closest approach of about 4,067 miles (6,545 km; 3,534 nmi) from the far-side lunar surface at 23:00 UTC on April 6. Its farthest distance from Earth was 252,756 miles (406,771 km; 219,639 nmi) at 23:02 UTC, and it surpassed Apollo 13'"
+  },
+  {
+   "role": "assistant",
+   "content": "On April 6, 2026, the Artemis II crew reached a maximum distance of 252,756 miles (406,771 kilometers) from Earth. FINAL: 252,756 miles (406,771 kilometers)",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

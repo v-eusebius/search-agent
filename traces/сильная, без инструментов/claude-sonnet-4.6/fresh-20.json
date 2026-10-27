@@ -10,13 +10,13 @@
   "sonnet_answer": "The Round of 32 knockout stage began on June 28, 2026, as the expanded 48-team tournament introduced a Round of 32 for the first time in World Cup history.",
   "agent_ok": true
  },
- "answer": "FINAL: Unknown.",
- "correct": false,
- "cost": 0.00022199999999999998,
+ "answer": "FINAL: Single-elimination (straight knockout) format.",
+ "correct": true,
+ "cost": 0.00032700000000000003,
  "messages": [
   {
    "role": "assistant",
-   "content": "Unknown.",
+   "content": "Single-elimination (straight knockout) format.",
    "refusal": null,
    "reasoning": null
   }

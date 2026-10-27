@@ -1,0 +1,24 @@
+{
+ "task": {
+  "id": "fresh-72",
+  "source": "fresh",
+  "question": "Who is the Education Minister being demanded to resign by the Cockroach Janta Party in India in 2026?",
+  "answer": "Dharmendra Pradhan",
+  "evidence": "The Cockroach Janta Party organises the Sansad Chalo March demanding the resignation of Education Minister Dharmendra Pradhan over the 2026 NEET controversy.",
+  "page": "2026 in India",
+  "url": "https://en.wikipedia.org/wiki/2026_in_India",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "FINAL: Unknown.",
+ "correct": false,
+ "cost": 8.399999999998686e-06,
+ "messages": [
+  {
+   "role": "assistant",
+   "content": "Unknown.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

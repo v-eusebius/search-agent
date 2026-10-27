@@ -1,0 +1,76 @@
+{
+ "task": {
+  "id": "fresh-122",
+  "source": "fresh",
+  "question": "Who ousted Sussan Ley in February 2026 in Australian politics?",
+  "answer": "Angus Taylor",
+  "evidence": "February 13 – Sussan Ley, the first female leader of the Liberal Party of Australia, was ousted by Angus Taylor.",
+  "page": "2026 in politics",
+  "url": "https://en.wikipedia.org/wiki/2026_in_politics",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "Sussan Ley was ousted as leader of the Liberal Party of Australia on 13 February 2026, when Angus Taylor was elected as her successor. This leadership spill also led to Jane Hume being elected as the new deputy leader. Ley announced her resignation from parliament shortly after her defeat. \n\nFINAL: Angus Taylor ousted Sussan Ley.",
+ "correct": true,
+ "cost": 0.0003622500000000084,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You answer questions about recent events (2025–2026). Never answer from memory: use web_search (and tavily_search if available) to find the right article, then page_find to look inside long articles such as '2026 in <country or field>' for the specific fact. Do not repeat the same call. When done, write the last line as FINAL: <short answer>."
+  },
+  {
+   "role": "user",
+   "content": "Who ousted Sussan Ley in February 2026 in Australian politics?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_DdcscV6zIpMghPHet6b3lv6M",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Sussan Ley ousted February 2026 Australia politics\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_DdcscV6zIpMghPHet6b3lv6M",
+   "content": "[Sussan Ley] Sussan Penelope Ley (née Braybrooks; born 14 December 1961) is an Australian retired politician who served as the leader of the Opposition from 2025 to 2026, holding office as the 16th leader of the Liberal Party. She was the member of Parliament (MP) for the New South Wales division of Farrer from 2001 to 2026, and served as a minister in the Abbott, Turnbull, and Morrison governments. Born into an English family in Nigeria, Ley grew up in the Trucial States (now the United Arab Emirates) and England, before moving to Australia as a teenager. Prior to entering politics, she worked as a commercial pilot, farmer and public servant based in Albury. She was elected to the House of Representatives at the 2001 federal election, winning the regional New South Wales seat of Farrer. Ley was appointed parliamentary secretary by John Howard in 2004, serving until the Coalition's defeat at the 2007 election. After the election, she held positions in the Nelson, Turnbull, and Abbott shadow ministries. After the Liberal–National Coalition's victory at the 2013 election, Ley was appointed Assistant Minister for Education by Tony Abbott, later joining the cabinet in 2014 as Minister for Health and Minister for Sport. She continued to serve in the cabinet until January 2017, resigning amid a scandal regarding her travel expenses. She would return to the ministry in August 2018 after Scott Morrison succeeded Malcolm Turnbull as prime minister, becoming an assistant minister and later returnin | other articles: 2026 Liberal Party of Australia leadership spill, Opinion polling for the next Australian federal election"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_SSU1M5WF0ayieMe3dg1ajXl8",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"2026 Liberal Party of Australia leadership spill\",\"keywords\":\"Sussan Ley ousted February 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_SSU1M5WF0ayieMe3dg1ajXl8",
+   "content": "A leadership spill was held on 13 February 2026 to elect the leader of the Liberal Party of Australia, and by virtue, the leader of the Opposition. Angus Taylor was elected, defeating incumbent leader Sussan Ley. A spill for the deputy leadership was held concurrently, with Jane Hume being elected, defeating incumbent deputy leader Ted O'Brien.\nOn 11 February 2026, Angus Taylor resigned from the shadow frontbench. In a press conference outside Parliament House, Taylor announced his intention to challenge for the leadership, stating, \"I don't believe Sussan Ley is in a position to be able to lead the party as it needs to be led.\" His resignation triggered the spill motion scheduled for 13 February.\nIn the lead-up to the February 2026 leadership spill, Hume canvassed her colleagues for the deputy leadership and supported Taylor's challenge to Ley. Although Hume belonged to the party's moderate faction and Taylor to its conservative wing, the two had previously served together in Peter Dutton's economic team. Hume's election as deputy leader was seen as providing factional balance and an oppor\nImmediately after her defeat, Sussan Ley announced she would resign from parliament and quit politics. She formally tendered her resignation two weeks later on 27 February 2026. Her resignation triggered a by-election for her seat of Farrer in rural western New South Wales.\n8 February 2026: Ley and Littleproud broker a peace deal in Canberra, involving a temporary frontbench suspension for the \"rogue\" senators and a new solidarity agreement.\n11 February 2026: Angus Taylor formally quits the shadow frontbench, declaring the party is in its \"worst position\" since 1944 and confirming his challenge to Ley's leadership."
+  },
+  {
+   "role": "assistant",
+   "content": "Sussan Ley was ousted as leader of the Liberal Party of Australia on 13 February 2026, when Angus Taylor was elected as her successor. This leadership spill also led to Jane Hume being elected as the new deputy leader. Ley announced her resignation from parliament shortly after her defeat. \n\nFINAL: Angus Taylor ousted Sussan Ley.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

@@ -2,15 +2,15 @@
  "task": {
   "id": "fresh-134",
   "source": "fresh",
-  "question": "In which city were the 2026 Central American and Caribbean Games held?",
-  "answer": "Santo Domingo",
-  "evidence": "July 24 – August 8: 2026 Central American and Caribbean Games in Santo Domingo",
+  "question": "Who won Super Bowl LX on February 8, 2026?",
+  "answer": "Seattle Seahawks",
+  "evidence": "February 8: Super Bowl LX in Santa Clara, California. Seattle Seahawks defeated New England Patriots, 29–13",
   "page": "2026 in sports",
   "url": "https://en.wikipedia.org/wiki/2026_in_sports"
  },
- "answer": "The 2026 Central American and Caribbean Games were held in Santo Domingo, Dominican Republic. \n\nFINAL: Santo Domingo, Dominican Republic.",
+ "answer": "The Seattle Seahawks won Super Bowl LX on February 8, 2026, defeating the New England Patriots 29–13. FINAL: Seattle Seahawks.",
  "correct": true,
- "cost": 0.00019034999999999191,
+ "cost": 0.0001615500000000103,
  "messages": [
   {
    "role": "system",
@@ -18,7 +18,7 @@
   },
   {
    "role": "user",
-   "content": "In which city were the 2026 Central American and Caribbean Games held?"
+   "content": "Who won Super Bowl LX on February 8, 2026?"
   },
   {
    "role": "assistant",
@@ -29,44 +29,22 @@
     {
      "type": "function",
      "index": 0,
-     "id": "call_pORbDKaji9Kn4bX0nLahOPX6",
+     "id": "call_FQPgOhpwbErvYijIlSw6BCKI",
      "function": {
       "name": "web_search",
-      "arguments": "{\"query\":\"2026 Central American and Caribbean Games location\"}"
+      "arguments": "{\"query\":\"Super Bowl LX winner February 8 2026\"}"
      }
     }
    ]
   },
   {
    "role": "tool",
-   "tool_call_id": "call_pORbDKaji9Kn4bX0nLahOPX6",
-   "content": "[Chess at the 2026 Central American and Caribbean Games] The chess competition at the 2026 Central American and Caribbean Games was held in Santo Domingo, Dominican Republic, from 25 to 28 July 2026 at the Centro Olímpico Juan Pablo Duarte. | other articles: Cycling at the 2026 Central American and Caribbean Games, Central American and Caribbean Games"
+   "tool_call_id": "call_FQPgOhpwbErvYijIlSw6BCKI",
+   "content": "[Super Bowl LX] Super Bowl LX was an American football game played to determine the champion of the National Football League (NFL) for the 2025 season. The National Football Conference (NFC) champion Seattle Seahawks defeated the American Football Conference (AFC) champion New England Patriots 29–13. The game took place on February 8, 2026, at Levi's Stadium in Santa Clara, California, the second Super Bowl held in the stadium and the third held in the San Francisco Bay Area. The Seahawks' victory was their second, previously having won 2013's Super Bowl XLVIII during their Legion of Boom era. Led by their Dark Side defense, they were making their fourth appearance with a 14–3 record and the NFC's top seed. The Patriots, who finished with a 14–3 record and the AFC's second seed, extended their record of appearances to 12. They were seeking a record seventh title and their first since the Brady–Belichick era after last winning 2018's Super Bowl LIII. The two franchises previously met in Super Bowl XLIX, which was won by the Patriots. Seattle scored the only points of the first three quarters, converting four field goals to take a 12–0 lead. In the fourth quarter, the Seahawks scored the first touchdown of the game before the Patriots responded with their own touchdown to cut the score to 19–7. A series of New England turnovers, however, allowed the Seahawks to score 10 consecutive points and put the game out of reach. With the loss, the Patriots became the first team to lose six Super Bowls.  | other articles: Super Bowl LX halftime show, List of Super Bowl champions"
   },
   {
    "role": "assistant",
-   "content": null,
-   "refusal": null,
-   "reasoning": null,
-   "tool_calls": [
-    {
-     "type": "function",
-     "index": 0,
-     "id": "call_XI5SQurkGN6zF08n9Bb7qNJS",
-     "function": {
-      "name": "page_find",
-      "arguments": "{\"title\":\"Central American and Caribbean Games\",\"keywords\":\"2026 location\"}"
-     }
-    }
-   ]
-  },
-  {
-   "role": "tool",
-   "tool_call_id": "call_XI5SQurkGN6zF08n9Bb7qNJS",
-   "content": "The last Games were held primarily in Santo Domingo, Dominican Republic in 2026."
-  },
-  {
-   "role": "assistant",
-   "content": "The 2026 Central American and Caribbean Games were held in Santo Domingo, Dominican Republic. \n\nFINAL: Santo Domingo, Dominican Republic.",
+   "content": "The Seattle Seahawks won Super Bowl LX on February 8, 2026, defeating the New England Patriots 29–13. FINAL: Seattle Seahawks.",
    "refusal": null,
    "reasoning": null
   }

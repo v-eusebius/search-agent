@@ -1,0 +1,164 @@
+{
+ "task": {
+  "id": "fresh-27",
+  "source": "fresh",
+  "question": "In classical music, who was placed on leave until September 30, 2026, by the Salzburg Festival on March 26, 2026?",
+  "answer": "Markus Hinterhäuser",
+  "evidence": "26 March – The board of directors of the Salzburg Festival announce the termination of the contract of Markus Hinterhäuser as artistic director of the festival, placing him on leave until 30 September 2026.",
+  "page": "2026 in classical music",
+  "url": "https://en.wikipedia.org/wiki/2026_in_classical_music",
+  "sonnet_answer": "Teodor Currentzis",
+  "agent_ok": true
+ },
+ "answer": "Perfect! I now have all the information I need.\n\nFINAL: Markus Hinterhäuser, the artistic director of the Salzburg Festival, was placed on leave until September 30, 2026, by the Salzburg Festival on March 26, 2026.",
+ "correct": true,
+ "cost": 0.02912999999999999,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You answer questions about recent events (2025–2026). Never answer from memory: use web_search (and tavily_search if available) to find the right article, then page_find to look inside long articles such as '2026 in <country or field>' for the specific fact. Do not repeat the same call. When done, write the last line as FINAL: <short answer>."
+  },
+  {
+   "role": "user",
+   "content": "In classical music, who was placed on leave until September 30, 2026, by the Salzburg Festival on March 26, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "I'll search for information about this classical music event at the Salzburg Festival.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01DCvYbHCui8zT63sR3rVY1x",
+     "function": {
+      "name": "tavily_search",
+      "arguments": "{\"query\": \"Salzburg Festival March 26 2026 leave September 30\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01DCvYbHCui8zT63sR3rVY1x",
+   "content": "[Summer Events in Salzburg 2026: Music Festivals, Outdoor Cinema, and more | Insight Cities](https://insightcities.com/summer-events-in-salzburg-music-festivals-outdoor-cinema-and-more) Golling Castle, a medieval castle 30 kilometers south of Salzburg, plays host to a summer concert series showcasing contemporary artists in a broad variety of genres – from classical to jazz to swing and pop. The intimate setting, combined with candlelit performances, conjures a magical musical experience. This summer’s acts include several musical ensembles, including a string quartet, a brass band, and an all-female orchestra performing with renowned Austrian singer-songwriter Ernst Molden. [.\n[Salzburg Festival 2027 : Festival Program : salzburg.info](https://www.salzburg.info/en/salzburg/salzburg-festival/salzburg-festival) The 2026 Salzburg Festival took place from July 17 to August 30 and offered a comprehensive program of opera, theater, and concert performances. The diverse program invited audiences to question themselves and contemporary society. Viewers were treated to impressive productions of high-caliber works, including highlights such as Wolfgang Amadeus Mozart's 'Così fan tutte'. [...] Opera In 2026, festival audiences enjoyed a colorful mix of German, French, and Italian operas. Special highlights incl\n[Salzburg Festival 2026: History, Venues & Guide | Hotel Sacher](https://www.sacher.com/en/blog/salzburg-festival) But the Salzburg Festival 2026 reaches far beyond Mozart. The programme brings together major opera classics, theatre, concerts and contemporary works. Alongside Mozart, works by Richard Strauss and Georges Bizet are also on the programme, while Jedermann remains one of the summer’s great highlights. This creates the special mix for which Salzburg is famous: festive tradition, big names and fresh artistic perspectives. [...] The festival atmosphere Explore the sound of the city What to do betwee\n[Your Visit • Salzburg Festival](https://www.salzburgerfestspiele.at/en/planning-your-visit) From 22 May until 25 May and from 17 July until 30 August 2026 your festival ticket is valid as a public transport ticket on all SVV bus and train lines in the federal state of Salzburg (SVV network area), six hours before the start of the performance until the last service. Where can I park? The closest parking possibility to the Festival Quarter is the Altstadtgarage. Further information about parking you find on the site of the specific venue. [...] From 14 Sep"
+  },
+  {
+   "role": "assistant",
+   "content": "Let me search more specifically for news about a conductor or official being placed on leave:",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01NspGupQ2dD2zyfKJKgwHe5",
+     "function": {
+      "name": "tavily_search",
+      "arguments": "{\"query\": \"Salzburg Festival conductor on leave March 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01NspGupQ2dD2zyfKJKgwHe5",
+   "content": "[Salzburg Easter Festival - Wikipedia](https://en.wikipedia.org/wiki/Salzburg_Easter_Festival) [edit] In January 2023, the festival announced that the Berlin Philharmonic would return as resident orchestra from 2026, with its chief conductor Kirill Petrenko, after a final edition in Baden-Baden in 2025. Bachler, who remains artistic director, had previously hired Petrenko at the Vienna Volksoper and at the Bavarian State Opera; there had been speculations, when his appointment had been announced, that this was a way to facilitate the return of the Berlin Philharmonic. [...] It was created\n[Salzburg Festival 2026 – The Ultimate Guide - Salzburg Guide](https://www.my-salzburg-guide.at/en/salzburg-festival-2026-the-ultimate-guide) ## Concert The concert programme for 2026 is exceptionally strong. The Vienna Philharmonic and the Berlin Philharmonic once again form the backbone of the festival’s concert series. They are joined by Teodor Currentzis, one of the most controversial and compelling conductors of our time, who will appear in three performances. [...] Ariadne auf Naxos (Richard Strauss) is directed by Ersan Mondtag, one of the most distinctive theatre directors of his generation. His production at the Great Festiva\n[Salzburg Festival 2026 • Tickets • Programme](https://www.salzburgerfestspiele.at/en) Ariadne auf Naxos | Salzburg Festival 2026 – Manfred Honeck Saint François d’Assise | Salzburg Festival 2026 – Statement Maxime Pascal Schnee von gestern, Schnee von morgen | Salzburg Festival 2026 Faust I | Salzburg Festival 2026 – Statement Ulrich Rasche Europa | Programme presentation Markus Hinterhäuser Così fan tutte | Salzburg Festival 2026 – Aria excerpt Elsa Dreisig Der Menschenfeind | Salzburg Festival 2026 – First Look [...] Ariadne auf Naxos | Salzburg Festival 2026 – Manfred Honeck S\n[Salzburg Festival sacks its acclaimed director for refusing to blacklist Russian artists - World Socialist Web Site](https://www.wsws.org/en/articles/2026/08/18/yuyv-a18.html) But at the end of March, just weeks before rehearsals were due to begin, he was surprisingly placed on leave “with immediate effect,” his contract shortened to end in September. The festival’s board of trustees, which includes the Austrian People’s Party (ÖVP) state Governor Karoline Edlstadler and the Social Democratic Party (SPÖ) mayor of the city of Salzburg and former Porsche Holding works Council Chairman Bernhard Auinger, spoke of “irreconcilable differences,” communication problems an"
+  },
+  {
+   "role": "assistant",
+   "content": "Good! I found a reference. Let me search for more specific details about who was placed on leave:",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01GGUpqGQ8yHinrycoTM8K42",
+     "function": {
+      "name": "tavily_search",
+      "arguments": "{\"query\": \"\\\"Salzburg Festival\\\" \\\"placed on leave\\\" \\\"March\\\" 2026 director\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01GGUpqGQ8yHinrycoTM8K42",
+   "content": "[Salzburg Festival sacks its acclaimed director for refusing to blacklist Russian artists - World Socialist Web Site](https://www.wsws.org/en/articles/2026/08/18/yuyv-a18.html) But at the end of March, just weeks before rehearsals were due to begin, he was surprisingly placed on leave “with immediate effect,” his contract shortened to end in September. The festival’s board of trustees, which includes the Austrian People’s Party (ÖVP) state Governor Karoline Edlstadler and the Social Democratic Party (SPÖ) mayor of the city of Salzburg and former Porsche Holding works Council Chairman Bernhard Auinger, spoke of “irreconcilable differences,” communication problems and a \n[Organisation • Salzburg Festival](https://www.salzburgerfestspiele.at/en/organisation) Karin Bergmann Interim Artistic Director Dr. Kristina Hammer President Mag. Lukas Crepaz Executive Director artistic director pianist Markus Hinterhäuser piano Markus Hinterhäuser Artistic Concept 2026 Biographies and photos of the board members can be found in the press area. [...] Representative of the Tourism Promotion Fund of Salzburg in conjunction with the Mozarteum Foundation BM a.D. Mag. Dr. Sonja Hammerschmid Managing Director Bundestheater-Holding GmbH Representative of the Republic of\n[Salzburg Festival - Wikipedia](https://en.wikipedia.org/wiki/Salzburg_Festival) From 1995 to 2021, Helga Rabl-Stadler\") served as president of the Festival. Markus Hinterhäuser became Intendant in 2016. In April 2024, the Festival announced an extension of Hinterhäuser's contract as Intendant through 2031. He terminated his contract prematurely in 2026. Since 2026, Karin Bergmann\") [de] is Intendant. [...] 17. ↑ \"Markus Hinterhäuser\". Salzburger Festspiele (in German). 9 April 2026. Retrieved 18 July 2026. 18. ↑ Schütz, Larissa (8 May 2026). \"Hinterhäuser-Nachfolgerin Karin\n[Salzburg Festival 2026 • Tickets • Programme](https://www.salzburgerfestspiele.at/en) Ancient mythology interwoven with the present: in Europa after Wajdi Mouawad's Europa's Pledge, director Krzysztof Warlikowski asks about the inheritance of traumatic events. Details 1. August 2026 “Variations of Love under a Magnifying Glass“ Elsa Dreisig, Joana Mallwitz and Christof Loy in a Terrace Talk on the Revival of the Opera CosÏ fan tutte by W. A. Mozart Details 2. August 2026 Eroticism, Slapstick, Vocal Splendour [...] Carmen | Salzburg Festival 2026 – Aria excerpt Asmik Grigorian ###\n[Salzburg Festival 2027 : Festival Program : salzburg.info](htt"
+  },
+  {
+   "role": "assistant",
+   "content": "Perfect! I found the information. The article mentions that the artistic director was placed on leave at the end of March. Let me search for the specific name to confirm:",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01D921yXCuh1HCmbEzD5672M",
+     "function": {
+      "name": "tavily_search",
+      "arguments": "{\"query\": \"Markus Hinterhäuser Salzburg Festival leave March 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01D921yXCuh1HCmbEzD5672M",
+   "content": "[Markus Hinterhäuser • Salzburg Festival](https://www.salzburgerfestspiele.at/en/a/markus-hinterhaeuser) In October 2016, he became artistic director of the Salzburg Festival. In April 2026, Markus Hinterhäuser and the Board of Trustees agreed to terminate his\n[Hinterhäuser is out as Salzburg Festival artistic director ...](https://www.ktvb.com/article/syndication/associatedpress/hinterhuser-is-out-as-salzburg-festival-artistic-director-after-a-decade-in-the-influential-role/616-cad1613a-4f88-4275-b5d1-fc6fb830ca99) The Salzburg Festival and artistic director Markus Hinterhäuser are parting ways, cutting short what had been shaping up as a long run.\n[Salzburg Festival sacks its acclaimed director for refusing to blacklist Russian artists - World Socialist Web Site](https://www.wsws.org/en/articles/2026/08/18/yuyv-a18.html) As if on cue, his Spiegel report appeared online on March 26 at 12:50 p.m. At 1:30 p.m.—barely 40 minutes later—the board of trustees announced the immediate parting of ways with artistic director Markus Hinterhäuser! [...] The final trigger for Hinterhäuser’s dismissal was an article published by leading German news weekly Der Spiegel on March 26, which served to obscure the political background behind personal insinuations and rumour. Sebastian Hammelehle, who headed the magazine’s culture des\n[Salzburg Festival Fires Its Artistic Director](https://www.nytimes.com/2026/03/26/arts/music/salzburg-festival-fires-artistic-director-markus-hinterhauser.html) The board terminated Markus Hinterhäuser's contract early, leaving the leadership of the world's largest classical music festival in limbo\n[Salzburg Festival 2026 • Tickets • Programme](https://www.salzburgerfestspiele.at/en) Ariadne auf Naxos | Salzburg Festival 2026 – Manfred Honeck Saint François d’Assise | Salzburg Festival 2026 – Statement Maxime Pascal Schnee von gestern, Schnee von morgen | Salzburg Festival 2026 Faust I | Salzburg Festival 2026 – Statement Ulrich Rasche Europa | Programme presentation Markus Hinterhäuser Così fan tutte | Salzburg Festival 2026 – Aria excerpt Elsa Dreisig Der Menschenfeind | Salzburg Festival 2026 – First Look [...] Ariadne auf Naxos | Salzburg Festival 2026 – Manfred Honeck S"
+  },
+  {
+   "role": "assistant",
+   "content": "Excellent! I've found the information. The New York Times article confirms that on March 26, 2026, the Salzburg Festival board terminated Markus Hinterhäuser's contract. Let me verify the specific detail about the leave ending on September 30, 2026:",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01A6sz5s97VHdem24WGJuRBq",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\": \"Salzburg Festival\", \"keywords\": \"Hinterhäuser leave September 30 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01A6sz5s97VHdem24WGJuRBq",
+   "content": "From 1995 to 2021, Helga Rabl-Stadler served as president of the Festival. Markus Hinterhäuser became Intendant in 2016.  In April 2024, the Festival announced an extension of Hinterhäuser's contract as Intendant through 2031. He terminated his contract prematurely in 2026. Since 2026, Karin Bergmann is Intendant."
+  },
+  {
+   "role": "assistant",
+   "content": "Let me search for more details about the specific dates:",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01CoMu8u7hKEKh7jmDsV1bgN",
+     "function": {
+      "name": "tavily_search",
+      "arguments": "{\"query\": \"\\\"Markus Hinterhäuser\\\" \\\"September 30\\\" 2026 leave\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01CoMu8u7hKEKh7jmDsV1bgN",
+   "content": "[Salzburg Festival Breaks Ties with Markus Hinterhäuser](https://operawire.com/salzburg-festival-breaks-ties-with-markus-hinterhauser) Mar 26, 2026 — The statement also note that it has mutually agreed that Hinterhäuser will be on leave until the end of his current contract on Sept. 30, 2026.Read more\n[Sponsors Withdraw Funding From the Salzburg Festival ...](https://theviolinchannel.com/sponsors-withdraw-funding-from-the-salzburg-festival-over-artistic-director-dismissal) Hinterhäuser is currently on leave from his role through the original termination date of his contract on September 30, 2026, Opera Now reported.\n[Markus Hinterhäuser Remains Artistic Director of the ...](https://www.salzburgerfestspiele.at/en/magazine/markus-hinterhaeuser-remains-artistic-director-of-the-salzburg-festival) The current five-year contract of Markus Hinterhäuser runs through 30 September 2026. mutual possibility of termination on 30 September 2029.\n[Opera with Opera News on X: \"Discord in Salzburg](https://x.com/operamagazine/status/2037231864482791734) director Markus Hinterhäuser has been placed on leave with immediate effect until the end of his contract in September 2026.\n[the @salzburgerfestspiele Salzburg Festival's artistic ...](https://www.facebook.com/operamagazine/posts/discord-in-salzburg-the-salzburgerfestspiele-salzburg-festivals-artistic-directo/1571481031644944) director Markus Hinterhäuser has been placed on leave with immediate effect until the end of his contract in September 2026."
+  },
+  {
+   "role": "assistant",
+   "content": "Perfect! I now have all the information I need.\n\nFINAL: Markus Hinterhäuser, the artistic director of the Salzburg Festival, was placed on leave until September 30, 2026, by the Salzburg Festival on March 26, 2026.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

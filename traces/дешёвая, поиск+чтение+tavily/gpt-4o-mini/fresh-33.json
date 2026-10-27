@@ -10,9 +10,9 @@
   "sonnet_answer": "unknown",
   "agent_ok": false
  },
- "answer": "In April 2026, MP Marilyn Gladu defected from the Conservative Party to the Liberal Party. FINAL: Marilyn Gladu.",
+ "answer": "In April 2026, Ontario Conservative MP Marilyn Gladu defected to the Liberal Party, stating concerns over Trump's tariff threats and sovereignty issues as her reasons for the move. \n\nFINAL: Marilyn Gladu",
  "correct": true,
- "cost": 0.00040469999999992456,
+ "cost": 0.00021494999999993603,
  "messages": [
   {
    "role": "system",
@@ -31,44 +31,22 @@
     {
      "type": "function",
      "index": 0,
-     "id": "call_JHYVk5kw5fxlaAJArDyW9gJF",
+     "id": "call_77zeAoxLxFRmzH50uGL9NGx2",
      "function": {
       "name": "tavily_search",
-      "arguments": "{\"query\":\"MP defected from Conservative Party to Liberal Party April 2026\"}"
+      "arguments": "{\"query\":\"MP defected Conservative Party Liberal Party April 2026\"}"
      }
     }
    ]
   },
   {
    "role": "tool",
-   "tool_call_id": "call_JHYVk5kw5fxlaAJArDyW9gJF",
-   "content": "[List of Conservative Party defections to Reform UK - Wikipedia](https://en.wikipedia.org/wiki/List_of_Conservative_Party_defections_to_Reform_UK) Colin Clark \"Colin Clark (politician)\") (defected 19 April 2026) – Former MP for Gordon \"Gordon (UK Parliament constituency)\") (2017–2019) Damien Moore (defected 21 April 2026) – Former MP for Southport \"Southport (UK Parliament constituency)\") (2017–2024) Darren Henry (defected 2026) – Former MP for Broxtowe \"Broxtowe (UK Parliament constituency)\") (2019–2024) Julian Brazier (defect 2026) – Former MP for Canterbury \"Canterbury (UK Parliament constituency)\") (1987–2017) [...] Jane Stevenson \"Jan\n[Changes in Membership - Members of Parliament - Ourcommons.ca](https://www.ourcommons.ca/members/en/partystandings/changes) | Gladu, Marilyn) | Sarnia—Lambton—Bkejwanong) | Change of political affiliation — Conservative to Liberal | Wednesday, April 8, 2026 | | Auguste, Tatiana) | Terrebonne) | Elected at by-election — Liberal | Monday, April 13, 2026 | | Begum, Doly) | Scarborough Southwest) | Elected at by-election — Liberal | Monday, April 13, 2026 | | Martin, Danielle) | University—Rosedale) | Elected at by-election — Liberal | Monday, April 13, 2026 | [...] | Wilkinson, Hon. Jonathan) | North Vancouver—Capilano)\n[More than 300 MPs have crossed the floor in Parliament since Confederation](https://halifax.citynews.ca/2026/02/18/more-than-300-mps-have-crossed-the-floor-in-parliament-since-confederation-2) CityNews Everywhere Halifax # More than 300 MPs have crossed the floor in Parliament since Confederation By Catherine Morrison, The Canadian Press Posted Feb 18, 2026 02:53:04 PM. Last Updated Feb 18, 2026 03:01:31 PM. OTTAWA — Alberta MP Matt Jeneroux has crossed the floor from the Conservative party to join the Liberal caucus, nudging the Liberal seat count up by one in the current minority Parliament. [...] In September 2000, Quebec MPs David Price and Diane St-Jacques left the Progressive Co\n[Carney inches closer to majority, as fourth MP defects to Liberals](https://www.bbc.com/news/articles/c0e5jwz0703o) The portrait of King Charles III is seen on the new Canadian $20 note, along with an image of Vimy Ridge on its reverse, at its unveiling event in Ottawa, on Thursday, Sept. 3, 2026. ## Canada unveils new $20 bill featuring portrait of King Charles The vertical banknote features King Charles III, the first new monarch to appear on a Canadian banknote in more than 70 years. Massive piece of hail in someone's han"
+   "tool_call_id": "call_77zeAoxLxFRmzH50uGL9NGx2",
+   "content": "[Former Conservative MP Marilyn Gladu crosses floor to Liberals | CBC News](https://www.cbc.ca/news/politics/conservative-mp-marilyn-gladu-crosses-floor-to-liberals-9.7156167) The defection marks another blow for Poilievre, who despite securing an over 87 per cent approval rating at his party's convention earlier this year will likely once again face questions about his ability to hold the party together. He's already dealing with some internal dissatisfaction and changes. As the Toronto Star reported last week, Poilievre sent letters to his critic MPs asking them to justify their roles, which some caucus members told the paper they found insulting. [...] \"She's going\n[Canadian Prime Minister Mark Carney attracts yet another ...](https://www.latimes.com/world-nation/story/2026-04-08/canadian-prime-minister-mark-carney-attracts-yet-another-conservative-lawmaker-to-his-liberal-party) Ontario Conservative MP Marilyn Gladu defects to Mark Carney's Liberals, citing Trump's tariff threats and sovereignty concerns as her reason\n[Carney inches closer to majority, as fourth MP defects to Liberals](https://www.bbc.com/news/articles/c0e5jwz0703o) Sean Fraser, with short cropped dark hair and a beard, seen in a two-thirds profile. He is speaking and wears a navy suit and patterned blue tie. ## Canada suspends plans to expand assisted dying to people with mental illness People with mental illness alone were to be eligible for assisted dying in Canada in March 2027, but that has now been paused indefinitely. Chris Rodgers ## Pochettino says perfect campaign was 'massive' effort [...] Canada's Parti Québécois has promised it will hold the pr\n[Canada's Carney on verge of majority government after ...](https://www.reuters.com/world/americas/canada-pm-carney-verge-majority-after-opposition-member-joins-ruling-liberals-2026-04-08) Marilyn Gladu becomes fifth legislator to defect to Liberals since November Defection. Conservative leader Pierre Poilievre. A Canadian\n[Carney attracts a 5th Conservative lawmaker to Canada's ...](https://wtop.com/world/2026/04/canadian-prime-minister-mark-carney-attracts-yet-another-conservative-lawmaker-to-his-liberal-party) Her defection puts the Liberals on the verge of having a majority government and being able to pass any bill without opposition party support."
   },
   {
    "role": "assistant",
-   "content": null,
-   "refusal": null,
-   "reasoning": null,
-   "tool_calls": [
-    {
-     "type": "function",
-     "index": 0,
-     "id": "call_Sb1BYLJAK7uHjaATvVJIZIJR",
-     "function": {
-      "name": "page_find",
-      "arguments": "{\"title\":\"2026 in Canada\",\"keywords\":\"Matt Jeneroux, Conservative, Liberal\"}"
-     }
-    }
-   ]
-  },
-  {
-   "role": "tool",
-   "tool_call_id": "call_Sb1BYLJAK7uHjaATvVJIZIJR",
-   "content": "February 18 – Edmonton Riverbend MP Matt Jeneroux defects from the Conservative Party to the Liberal Party.\nApril 8 – Sarnia—Lambton—Bkejwanong MP Marilyn Gladu defects from the Conservative Party to the Liberal Party."
-  },
-  {
-   "role": "assistant",
-   "content": "In April 2026, MP Marilyn Gladu defected from the Conservative Party to the Liberal Party. FINAL: Marilyn Gladu.",
+   "content": "In April 2026, Ontario Conservative MP Marilyn Gladu defected to the Liberal Party, stating concerns over Trump's tariff threats and sovereignty issues as her reasons for the move. \n\nFINAL: Marilyn Gladu",
    "refusal": null,
    "reasoning": null
   }

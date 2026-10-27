@@ -1,0 +1,24 @@
+{
+ "task": {
+  "id": "fresh-115",
+  "source": "fresh",
+  "question": "How many people were killed in the Kenya floods on March 6–7, 2026?",
+  "answer": "66",
+  "evidence": "March 6–7 – 2026 Kenya floods: At least 66 people are killed after floods across Kenya.",
+  "page": "2026",
+  "url": "https://en.wikipedia.org/wiki/2026",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "FINAL: Unknown.",
+ "correct": false,
+ "cost": 7.949999999999624e-06,
+ "messages": [
+  {
+   "role": "assistant",
+   "content": "Unknown.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

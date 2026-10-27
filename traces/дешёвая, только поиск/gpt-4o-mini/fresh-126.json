@@ -8,9 +8,9 @@
   "page": "2026 in sports",
   "url": "https://en.wikipedia.org/wiki/2026_in_sports"
  },
- "answer": "Aaron Rai won the 2026 PGA Championship, held at Aronimink Golf Club, marking his first career major championship victory. He won by three strokes over Jon Rahm and Alex Smalley. FINAL: Aaron Rai.",
+ "answer": "Aaron Rai won the 2026 PGA Championship at Aronimink Golf Club, claiming his first major championship title by three strokes over Jon Rahm and Alex Smalley. FINAL: Aaron Rai",
  "correct": true,
- "cost": 0.0001244999999999996,
+ "cost": 0.0002191500000000013,
  "messages": [
   {
    "role": "system",
@@ -29,22 +29,44 @@
     {
      "type": "function",
      "index": 0,
-     "id": "call_CtKVgFzt9D3EC8YPa7ujRQ5n",
+     "id": "call_9gRkN8oSAyssiWZe02HOaSHE",
      "function": {
       "name": "web_search",
-      "arguments": "{\"query\":\"2026 PGA Championship winner Aronimink Golf Club\"}"
+      "arguments": "{\"query\":\"2026 PGA Championship Aronimink Golf Club winner\"}"
      }
     }
    ]
   },
   {
    "role": "tool",
-   "tool_call_id": "call_CtKVgFzt9D3EC8YPa7ujRQ5n",
-   "content": "[2026 PGA Championship] The 2026 PGA Championship was the 108th edition of the PGA Championship, the second of the four men's major golf championships held in 2026. The tournament took place on May 14–17 at Aronimink Golf Club in Newtown Square, Pennsylvania, a suburb west of Philadelphia. Aaron Rai won the golf tournament and his first career major championship, winning by three strokes over runners-up Jon Rahm and Alex Smalley. Rai became the second player of Indian heritage to win a men's major championship, after Vijay Singh, and the first from England to win the PGA Championship since Jim Barnes, who won the first two editions in 1916 and 1919. Rai became only the eighth player to win a major with a lower score in each round. | other articles: Aronimink Golf Club, Senior PGA Championship"
+   "tool_call_id": "call_9gRkN8oSAyssiWZe02HOaSHE",
+   "content": "[Aronimink Golf Club] Aronimink Golf Club is a private country club in the eastern United States, located in Newtown Square, Pennsylvania, a suburb west of Philadelphia. Its championship layout is consistently rated among the nation's top golf courses. Aronimink is currently ranked 78th in Golf Digest's \"Greatest Courses,\" 44th in \"Toughest Courses\" and 55th in Golfweek's \"Classic Courses.\" In 2010, Aronimink was ranked fourth among the toughest courses on the PGA Tour by Links magazine. The club has been host to multiple USGA and PGA championships in its history. In addition, Aronimink has indoor and outdoor tennis and paddle courts, trap shooting, three swimming pools, a fitness center and a classic Tudor clubhouse with multiple dining options. | other articles: 2026 PGA Championship, Senior PGA Championship"
   },
   {
    "role": "assistant",
-   "content": "Aaron Rai won the 2026 PGA Championship, held at Aronimink Golf Club, marking his first career major championship victory. He won by three strokes over Jon Rahm and Alex Smalley. FINAL: Aaron Rai.",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_0ZcaZXBKxFGM4wqyPtr4mAFI",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"2026 PGA Championship winner\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_0ZcaZXBKxFGM4wqyPtr4mAFI",
+   "content": "[2026 PGA Championship] The 2026 PGA Championship was the 108th edition of the PGA Championship, the second of the four men's major golf championships held in 2026. The tournament took place on May 14–17 at Aronimink Golf Club in Newtown Square, Pennsylvania, a suburb west of Philadelphia. Aaron Rai won the golf tournament and his first career major championship, winning by three strokes over runners-up Jon Rahm and Alex Smalley. Rai became the second player of Indian heritage to win a men's major championship, after Vijay Singh, and the first from England to win the PGA Championship since Jim Barnes, who won the first two editions in 1916 and 1919. Rai became only the eighth player to win a major with a lower score in each round. | other articles: 2026 PGA Tour, 2026 Open Championship"
+  },
+  {
+   "role": "assistant",
+   "content": "Aaron Rai won the 2026 PGA Championship at Aronimink Golf Club, claiming his first major championship title by three strokes over Jon Rahm and Alex Smalley. FINAL: Aaron Rai",
    "refusal": null,
    "reasoning": null
   }

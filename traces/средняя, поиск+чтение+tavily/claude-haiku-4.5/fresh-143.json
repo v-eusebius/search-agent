@@ -1,0 +1,52 @@
+{
+ "task": {
+  "id": "fresh-143",
+  "source": "fresh",
+  "question": "Who won the GCT Super Chess Classic Romania on May 23, 2026?",
+  "answer": "Vincent Keymer",
+  "evidence": "May 23 – Vincent Keymer won the GCT Super Chess Classic Romania with a score of 6/9. Fabiano Caruana finished second with 5½/9, while Javokhir Sindarov and Wesley So tied for third place with 5/9.",
+  "page": "2026 in chess",
+  "url": "https://en.wikipedia.org/wiki/2026_in_chess"
+ },
+ "answer": "Perfect! I found the answer in the search results.\n\nFINAL: Vincent Keymer won the GCT Super Chess Classic Romania on May 23, 2026 (the final day of the tournament which ran from May 12-24).",
+ "correct": true,
+ "cost": 0.004526999999999948,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You answer questions about recent events (2025–2026). Never answer from memory: use web_search (and tavily_search if available) to find the right article, then page_find to look inside long articles such as '2026 in <country or field>' for the specific fact. Do not repeat the same call. When done, write the last line as FINAL: <short answer>."
+  },
+  {
+   "role": "user",
+   "content": "Who won the GCT Super Chess Classic Romania on May 23, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "I'll search for information about the GCT Super Chess Classic Romania in May 2026.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01RsKmYHfJpnBpAmhcwo42JC",
+     "function": {
+      "name": "tavily_search",
+      "arguments": "{\"query\": \"GCT Super Chess Classic Romania May 23 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01RsKmYHfJpnBpAmhcwo42JC",
+   "content": "[Super Chess Classic Romania - Live! | ChessBase](https://en.chessbase.com/post/super-classic-romania-2026-live) 5/23/2026 – The second event of the 2026 Grand Chess Tour is the Super Chess Classic Romania, which is taking place on 14-23 May in Bucharest. Vincent Keymer and Fabiano Caruana enter the final round tied for first place, while Javokhir Sindarov, Wesley So and Jorden van Foreest stand a half point back and still have chances of taking the title. | Follow the action live with expert commentary starting two hours earlier than usual, at 13.00 CEST (7.00 ET, 16.30 IST) | Photo: Lennart Ootes [...] #\n[Tours - Grand Chess Tour](https://grandchesstour.org/tours/2026/tournaments/2026-super-chess-classic-romania) The 2026 Super Chess Classic Romania brings ten of the world's strongest grandmasters to Bucharest from May 12–24 for the first of two classical events on the 2026 Grand Chess Tour. Played over nine rounds at a full classical time control, the Super Chess Classic Romania is one of the season's premier battlegrounds for Tour Points heading into the GCT Finals. ### The Field [...] 2026 Grand Chess Tour - Super Chess Classic Romania - GM Vincent Keymer holding champion trophy. GM Vincent Keymer ###\n[Vincent Keymer wins Super Chess Classic Romania in breakthrough Grand Chess Tour debut – International Chess Federation](https://www.fide.com/vincent-keymer-wins-super-chess-classic-romania-in-breakthrough-grand-chess-tour-debut) Skip to content during his debut appearance as a full tour player. The 2026 Super Chess Classic Romania was a 10-player round robin, featuring nine full Tour players and one wildcard. Headlining the 2026 lineup were Fabiano Caruana, Alireza Firouzja, Wesley So, Vincent Keymer, Anish Giri, Praggnanandhaa Rameshbabu, Javokhir Sindarov, Maxime Vachier-Lagrave, and Jorden Van Foreest, joined by Romanian wildcard Bogdan-Daniel Deac. [...] The GCT now heads to Zagreb for Super Rapid & Blitz Croatia, t\n[Super Chess Classic 2026: Round 5 | #GrandChessTour](https://www.youtube.com/watch?v=4nbSQ9xNbqs) [0:28] German superstars out front with a ferocious pack in hot pursuit. Can he be caught? Day five of fantastic chess coming up next. [1:04] Welcome back chess fans to day five of the super classic Romania held here in sunny Bucharest, Romania. Behind me is [1:12] the playing hall, the National Bank of Romania. To my right behind me as well, you can see the dome which is a great [...] [5:00] Romania came very very close to qualifying for "
+  },
+  {
+   "role": "assistant",
+   "content": "Perfect! I found the answer in the search results.\n\nFINAL: Vincent Keymer won the GCT Super Chess Classic Romania on May 23, 2026 (the final day of the tournament which ran from May 12-24).",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}
