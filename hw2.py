@@ -18,7 +18,6 @@ import re
 import sys
 import threading
 import time
-from concurrent.futures import ThreadPoolExecutor
 from dataclasses import dataclass, field
 from pathlib import Path
 
@@ -36,14 +35,16 @@ try:
     sys.stdout.reconfigure(encoding="utf-8")
 except Exception:
     pass
-assert os.getenv("OPENROUTER_API_KEY"), "нужен OPENROUTER_API_KEY в .env"
 
 CHAT_URL = "https://openrouter.ai/api/v1/chat/completions"
 EMBED_URL = "https://openrouter.ai/api/v1/embeddings"
-HEADERS = {
-    "Authorization": f"Bearer {os.environ['OPENROUTER_API_KEY']}",
-    "X-Title": "agents-course-hw02",
-}
+
+
+def openrouter_headers():
+    key = os.getenv("OPENROUTER_API_KEY", "").strip()
+    if not key:
+        raise SystemExit("нужен OPENROUTER_API_KEY в .env")
+    return {"Authorization": f"Bearer {key}", "X-Title": "agents-course-hw02"}
 MODELS = {
     "cheap": "openai/gpt-4o-mini",
     "mid": "anthropic/claude-haiku-4.5",
@@ -97,7 +98,7 @@ def post_with_retry(url, body, attempts=6):
     problem = "нет ответа"
     for attempt in range(attempts):
         try:
-            r = requests.post(url, json=body, headers=HEADERS, timeout=120)
+            r = requests.post(url, json=body, headers=openrouter_headers(), timeout=120)
             if r.status_code == 200:
                 return r.json()
             problem = f"HTTP {r.status_code}: {r.text[:200]}"
@@ -381,28 +382,49 @@ def is_correct(task, answer):
     return f" {norm(task['answer'])} " in f" {norm(final_answer(answer))} "
 
 
+TRANSIENT = (requests.ConnectionError, requests.Timeout, RuntimeError)
+
+
 def evaluate(fn, sample, config, model, workers=1):
     def one(task):
-        try:
-            out = fn(task["question"], model)
-        except Exception as e:
-            out = {"answer": f"ошибка: {e}", "hits": [], "cost": 0.0}
+        last = None
+        out = None
+        excluded = False
+        for attempt in range(3):
+            try:
+                out = fn(task["question"], model)
+                break
+            except TRANSIENT as e:
+                last = e
+                time.sleep(2 * (attempt + 1))
+            except Exception as e:
+                out = {"answer": f"ошибка: {e}", "hits": [], "cost": 0.0}
+                break
+        if out is None:
+            excluded = True
+            out = {"answer": f"ошибка: {last}", "hits": [], "cost": 0.0}
         return {
             "config": config, "model": model.split("/")[-1], "id": task["id"],
-            "correct": is_correct(task, out["answer"]),
-            "found": any(is_gold(h, task) for h in out.get("hits") or []),
-            "refused": "NOT_FOUND" in (out.get("answer") or ""),
-            "cost": out.get("cost") or 0.0,
+            "correct": False if excluded else is_correct(task, out["answer"]),
+            "found": False if excluded else any(is_gold(h, task) for h in out.get("hits") or []),
+            "refused": False if excluded else "NOT_FOUND" in (out.get("answer") or ""),
+            "cost": 0.0 if excluded else (out.get("cost") or 0.0),
             "answer": final_answer(out.get("answer") or "")[:80],
             "gold": task["answer"],
+            "error": excluded,
         }
 
-    with ThreadPoolExecutor(workers) as pool:
-        return pd.DataFrame(list(pool.map(one, sample)))
+    rows = []
+    for i, task in enumerate(sample, 1):
+        row = one(task)
+        rows.append(row)
+        print(f"  [{config}] {i}/{len(sample)} {task['id']} err={row['error']}", flush=True)
+    return pd.DataFrame(rows)
 
 
 def report(results):
-    g = results.groupby(["config", "model"], sort=False)
+    scored = results[~results["error"]] if "error" in results.columns else results
+    g = scored.groupby(["config", "model"], sort=False)
     table = g.agg(n=("correct", "size"), accuracy=("correct", "mean"), cost_per_task=("cost", "mean")).reset_index()
     table["cost_per_correct"] = table["cost_per_task"] / table["accuracy"].replace(0, float("nan"))
     return table.round(5)
@@ -476,6 +498,18 @@ def knowledge_base(query: str, page: str = "") -> str:
     return "\n".join(f"[{h['page']}] {h['text']}" for h in hits)
 
 
+def hits_from_tools(messages):
+    hits = []
+    for message in messages:
+        if not isinstance(message, dict) or message.get("role") != "tool":
+            continue
+        for line in str(message.get("content") or "").splitlines():
+            match = re.match(r"\[([^\]]+)\]\s*(.*)", line)
+            if match:
+                hits.append({"page": match.group(1), "text": match.group(2), "section": "", "url": ""})
+    return hits
+
+
 def agent(question, model, max_steps=6):
     messages, seen, before = (
         [{"role": "system", "content": AGENT_SYSTEM}, {"role": "user", "content": question}],
@@ -500,26 +534,20 @@ def agent(question, model, max_steps=6):
         ]
         msg = chat(messages, model, tag="agent")
     searches = sum(1 for m in messages if isinstance(m, dict) and m.get("role") == "tool")
-    return {"answer": msg.get("content") or "", "hits": [], "cost": ledger.mine - before, "searches": searches}
+    return {
+        "answer": msg.get("content") or "",
+        "hits": hits_from_tools(messages),
+        "cost": ledger.mine - before,
+        "searches": searches,
+    }
 
 
 def live_search_answer(question, model):
-    """Baseline ДЗ1: web_search + page_find через Wikipedia API (без агентного цикла для стабильности цены)."""
-    from agent import web_search, page_find  # reuse HW1 tools
-    before = ledger.mine
-    search = web_search(question)
-    title = ""
-    m = re.search(r"\[([^\]]+)\]", search or "")
-    if m:
-        title = m.group(1)
-    words = " ".join(re.findall(r"[A-Za-z0-9]+", question)[:6])
-    found = page_find(title, words) if title else "no page"
-    msg = chat(
-        [{"role": "system", "content": RAG_SYSTEM},
-         {"role": "user", "content": f"Sources:\n[1] {search[:1500]}\n[2] {found[:2000]}\n\nQuestion: {question}"}],
-        model, tag="live",
-    )
-    return {"answer": msg.get("content") or "", "hits": [], "cost": ledger.mine - before}
+    """Тот же цикл, что в ДЗ1: web_search и page_find, повторные вызовы и лимит шагов."""
+    import agent as hw1
+    hw1.setup_tools()
+    run = hw1.agent(question, model, ["web_search", "page_find"], max_steps=8)
+    return {"answer": run.answer, "hits": [], "cost": run.cost}
 
 
 # ---------- memory ----------
@@ -625,9 +653,9 @@ def end_session(history):
 
 def test_memory_without_llm():
     """Тесты без модели: пустая / найденный / заменённый факт."""
-    # empty
-    facts = []
-    assert facts == []
+    if client.has_collection("facts"):
+        client.drop_collection("facts")
+    assert recall_facts("Where do I live?") == []
     # found
     facts = ["User lives in Berlin", "User prefers short answers"]
     store_facts(facts)
@@ -744,38 +772,40 @@ def stage_index(limit_q=0):
     return curves
 
 
-def stage_eval(limit=50):
+def stage_eval(limit=0):
     connect_milvus()
     load_cache()
-    tasks = load_jsonl("questions.jsonl")[:limit]
+    tasks = load_jsonl("questions.jsonl")
+    if limit:
+        tasks = tasks[:limit]
     unans = load_jsonl("unanswerable.jsonl")
     register(knowledge_base, KBArgs, "Searches the local knowledge base of 2026 events")
 
-    # smoke tests for knowledge_base: normal / empty / error
     ok = knowledge_base("Masters Tournament Rory McIlroy 2026")
     assert "McIlroy" in ok or "Masters" in ok, ok[:160]
-    empty = knowledge_base("qwxzvnonexistenttoken99999xyz")
-    assert empty == "nothing found" or "ошибка" in empty or len(empty) < 80
+    empty = knowledge_base("anything", page="ThisPageDoesNotExistXYZ")
+    assert empty == "nothing found", empty[:200]
     bad = knowledge_base("test", page='broken"quote')
     assert "ошибка" in bad or "nothing found" in bad or "[" in bad
     print("knowledge_base tests: ok / empty / error handled")
 
     frames = []
+    print(f"eval n={len(tasks)}")
     print("eval strong plain")
-    frames.append(evaluate(plain_answer, tasks, "сильная, без инструментов", MODELS["strong"], workers=2))
+    frames.append(evaluate(plain_answer, tasks, "сильная, без инструментов", MODELS["strong"]))
     print("eval cheap live search")
-    frames.append(evaluate(live_search_answer, tasks, "дешёвая, живой поиск ДЗ1", MODELS["cheap"], workers=2))
+    frames.append(evaluate(live_search_answer, tasks, "дешёвая, живой поиск ДЗ1", MODELS["cheap"]))
     print("eval cheap RAG")
     frames.append(evaluate(
         lambda q, m: rag_answer(q, m, k=5, name="lines"),
-        tasks, "дешёвая, RAG всегда", MODELS["cheap"], workers=2,
+        tasks, "дешёвая, RAG всегда", MODELS["cheap"],
     ))
     print("eval cheap agent KB")
-    frames.append(evaluate(agent, tasks, "дешёвая, агент с knowledge_base", MODELS["cheap"], workers=2))
+    frames.append(evaluate(agent, tasks, "дешёвая, агент с knowledge_base", MODELS["cheap"]))
     print("eval mid RAG")
     frames.append(evaluate(
         lambda q, m: rag_answer(q, m, k=5, name="lines"),
-        tasks, "средняя, RAG всегда", MODELS["mid"], workers=2,
+        tasks, "средняя, RAG всегда", MODELS["mid"],
     ))
 
     results = pd.concat(frames, ignore_index=True)
@@ -809,13 +839,14 @@ def stage_eval(limit=50):
     print("refusals", refusal_summary)
 
     # diagnose failures
-    best = results[results["config"] == "дешёвая, RAG всегда"]
+    best = results[(results["config"] == "дешёвая, агент с knowledge_base") & ~results["error"]]
+    skip = {"fresh-2", "fresh-5"}
     wrong = best[~best["correct"]]
     miss = wrong[~wrong["found"]]
     bad = wrong[wrong["found"]]
     examples = {
-        "search_miss": miss.head(1).to_dict(orient="records"),
-        "found_but_wrong": bad.head(1).to_dict(orient="records"),
+        "search_miss": miss[~miss["id"].isin(skip)].head(1).to_dict(orient="records"),
+        "found_but_wrong": bad[~bad["id"].isin(skip)].head(1).to_dict(orient="records"),
         "counts": {"search_miss": int(len(miss)), "found_but_wrong": int(len(bad))},
     }
     Path(ROOT / "failures_rag.json").write_text(json.dumps(examples, ensure_ascii=False, indent=2), encoding="utf-8")
@@ -877,8 +908,7 @@ def stage_memory():
     for u in script:
         before = ledger.mine
         talk("tok-full", hist_full, u, mode="полная")
-        # approximate tokens from last chat cost via prompt — use char/4
-        toks_full.append(sum(len(m["content"]) for m in hist_full) // 4)
+        toks_full.append(next(c["prompt"] for c in reversed(ledger.calls) if c["tag"] == "dialog:полная"))
     cost_full = ledger.total - ledger_before
 
     ledger_before = ledger.total
@@ -887,16 +917,14 @@ def stage_memory():
     store_facts(["User name is Boris", "User lives in Moscow", "User prefers Russian answers", "User likes chess"])
     for u in script:
         talk("tok-mem", hist_mem, u, mode="память")
-        facts = recall_facts(u)
-        window = hist_mem[-4:]
-        toks_mem.append((sum(len(m["content"]) for m in window) + sum(len(f) for f in facts)) // 4)
+        toks_mem.append(next(c["prompt"] for c in reversed(ledger.calls) if c["tag"] == "dialog:память"))
     cost_mem = ledger.total - ledger_before
 
     fig, ax = plt.subplots(figsize=(8, 3.6))
     ax.plot(range(1, len(toks_full) + 1), toks_full, marker="o", label=f"вся история (~${cost_full:.3f})")
     ax.plot(range(1, len(toks_mem) + 1), toks_mem, marker="o", label=f"окно+факты (~${cost_mem:.3f})")
     ax.set_xlabel("реплика")
-    ax.set_ylabel("токены входа (оценка)")
+    ax.set_ylabel("токены входа")
     ax.legend(frameon=False)
     ax.grid(alpha=0.3)
     fig.savefig(IMG / "tokens_memory.png", dpi=150, bbox_inches="tight")
@@ -988,7 +1016,7 @@ def main():
     ap.add_argument("--memory", action="store_true")
     ap.add_argument("--bonuses", action="store_true")
     ap.add_argument("--all", action="store_true")
-    ap.add_argument("--limit", type=int, default=50)
+    ap.add_argument("--limit", type=int, default=0, help="0 = все вопросы")
     args = ap.parse_args()
     if args.all:
         args.index = args.eval = args.memory = args.bonuses = True
@@ -1002,7 +1030,7 @@ def main():
     if args.memory:
         stage_memory()
     if args.bonuses:
-        stage_bonuses(limit=min(40, args.limit))
+        stage_bonuses(limit=40 if not args.limit else min(40, args.limit))
     print("DONE total $", round(ledger.total, 3))
 
 

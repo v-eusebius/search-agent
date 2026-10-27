@@ -2,67 +2,67 @@
   "summary": {
     "unanswerable_total": 10,
     "unanswerable_refused": 10,
-    "answerable_n": 50,
-    "answerable_false_refuse": 1
+    "answerable_n": 146,
+    "answerable_false_refuse": 8
   },
   "rows": [
     {
       "id": "unans-0",
-      "question": "Who won the Nobel Prize in Literature announced in October 2026?",
+      "question": "Who won the 2026 Indianapolis 500?",
       "refused": true,
       "answer": "NOT_FOUND."
     },
     {
       "id": "unans-1",
-      "question": "Which team won the 2026 World Series in baseball?",
+      "question": "Who won the 2026 Ballon d'Or?",
       "refused": true,
       "answer": "NOT_FOUND."
     },
     {
       "id": "unans-2",
-      "question": "Who won the 2026 Formula One World Drivers' Championship?",
+      "question": "Who won the 2026 Booker Prize?",
       "refused": true,
       "answer": "NOT_FOUND."
     },
     {
       "id": "unans-3",
-      "question": "Which country won the Eurovision Song Contest 2027?",
+      "question": "What was the closing price of Bitcoin on 31 December 2026?",
       "refused": true,
       "answer": "NOT_FOUND."
     },
     {
       "id": "unans-4",
-      "question": "Who won the United States Senate election in Maine held on November 3, 2026?",
+      "question": "Who won the 2026 Prix de Lausanne?",
       "refused": true,
-      "answer": "NOT_FOUND"
+      "answer": "NOT_FOUND."
     },
     {
       "id": "unans-5",
-      "question": "Which film won the Palme d'Or at the 2027 Cannes Film Festival?",
+      "question": "Who was elected president of France in the 2027 presidential election?",
       "refused": true,
       "answer": "NOT_FOUND."
     },
     {
       "id": "unans-6",
-      "question": "What was the magnitude of the earthquake that struck Lisbon in December 2026?",
+      "question": "Which novel won the 2026 Hugo Award for Best Novel?",
       "refused": true,
-      "answer": "NOT_FOUND"
+      "answer": "NOT_FOUND."
     },
     {
       "id": "unans-7",
-      "question": "Who won the Nobel Peace Prize announced in October 2026?",
+      "question": "How many seats did the Pirate Party win in the 2026 Icelandic parliamentary election?",
       "refused": true,
       "answer": "NOT_FOUND."
     },
     {
       "id": "unans-8",
-      "question": "Which company first reached a ten trillion dollar valuation in November 2026?",
+      "question": "What was the winning word of the 2026 Scripps National Spelling Bee?",
       "refused": true,
-      "answer": "NOT_FOUND"
+      "answer": "NOT_FOUND."
     },
     {
       "id": "unans-9",
-      "question": "Who won the 2026 World Chess Championship match in December 2026?",
+      "question": "Which studio released the film Glass Onion 2 in 2026?",
       "refused": true,
       "answer": "NOT_FOUND."
     }
